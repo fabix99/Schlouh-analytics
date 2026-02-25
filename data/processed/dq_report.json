@@ -1,0 +1,633 @@
+{
+  "summary": {
+    "pass": 98,
+    "warn": 6,
+    "fail": 0
+  },
+  "checks": [
+    {
+      "file": "02_match_summary",
+      "check": "artifact_freshness_48h",
+      "status": "WARN",
+      "detail": "file age 73.0h (warn if > 48h)"
+    },
+    {
+      "file": "00_match_scores_full",
+      "check": "no_null_match_id",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "00_match_scores_full",
+      "check": "score_source_values_valid",
+      "status": "PASS",
+      "detail": "set()"
+    },
+    {
+      "file": "00_match_scores_full",
+      "check": "home_score_non_negative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "00_match_scores_full",
+      "check": "away_score_non_negative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "00_match_scores_full",
+      "check": "home_score_max_15",
+      "status": "PASS",
+      "detail": "max=10"
+    },
+    {
+      "file": "00_match_scores_full",
+      "check": "away_score_max_15",
+      "status": "PASS",
+      "detail": "max=10"
+    },
+    {
+      "file": "00_match_scores_full",
+      "check": "total_goals_consistent",
+      "status": "PASS",
+      "detail": "0 mismatches"
+    },
+    {
+      "file": "00_match_scores_full",
+      "check": "result_consistent_with_scores",
+      "status": "PASS",
+      "detail": "0 mismatches"
+    },
+    {
+      "file": "00_match_scores_full",
+      "check": "coverage_gte_85pct",
+      "status": "PASS",
+      "detail": "93.9% (1001 not_scraped matches)"
+    },
+    {
+      "file": "00_match_scores_full",
+      "check": "all_matches_csv_ids_present",
+      "status": "PASS",
+      "detail": "missing=0, extra=0"
+    },
+    {
+      "file": "01_team_season_stats",
+      "check": "no_duplicate_team_season_comp",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "01_team_season_stats",
+      "check": "matches_home_plus_away_eq_total",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "01_team_season_stats",
+      "check": "xg_for_total_no_null",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "01_team_season_stats",
+      "check": "xg_for_total_non_negative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "01_team_season_stats",
+      "check": "goals_for_non_negative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "01_team_season_stats",
+      "check": "goals_against_non_negative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "01_team_season_stats",
+      "check": "goal_diff_correct",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "01_team_season_stats",
+      "check": "pass_accuracy_avg_in_range_0_1",
+      "status": "PASS",
+      "detail": "min=0.387 max=0.944"
+    },
+    {
+      "file": "01_team_season_stats",
+      "check": "possession_avg_in_range_0_1",
+      "status": "PASS",
+      "detail": "min=0.150 max=0.850"
+    },
+    {
+      "file": "01_team_season_stats",
+      "check": "xg_home_plus_away_lte_total",
+      "status": "PASS",
+      "detail": "0 rows exceed total"
+    },
+    {
+      "file": "02_match_summary",
+      "check": "all_matches_csv_ids_present",
+      "status": "PASS",
+      "detail": "missing=0, extra=0"
+    },
+    {
+      "file": "02_match_summary",
+      "check": "home_away_team_names_differ",
+      "status": "PASS",
+      "detail": "0 rows with identical home/away team"
+    },
+    {
+      "file": "02_match_summary",
+      "check": "scores_consistent_with_00",
+      "status": "PASS",
+      "detail": "0 mismatches"
+    },
+    {
+      "file": "02_match_summary",
+      "check": "xg_swing_consistent",
+      "status": "PASS",
+      "detail": "0 rows with xg_swing != home_xg - away_xg"
+    },
+    {
+      "file": "02_match_summary",
+      "check": "home_xg_overperformance_consistent",
+      "status": "PASS",
+      "detail": "0 rows inconsistent"
+    },
+    {
+      "file": "02_match_summary",
+      "check": "null_home_xg_lt_25pct",
+      "status": "PASS",
+      "detail": "24.4% null"
+    },
+    {
+      "file": "02_match_summary",
+      "check": "null_home_manager_lt_15pct",
+      "status": "PASS",
+      "detail": "6.2% null"
+    },
+    {
+      "file": "02_match_summary",
+      "check": "competition_season_count_plausible",
+      "status": "PASS",
+      "detail": "0 competition-seasons with >600 matches"
+    },
+    {
+      "file": "03_player_season_stats",
+      "check": "no_duplicate_player_season_comp",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "03_player_season_stats",
+      "check": "total_minutes_gte_1",
+      "status": "PASS",
+      "detail": "min=1.0"
+    },
+    {
+      "file": "03_player_season_stats",
+      "check": "sufficient_minutes_flag_correct",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "03_player_season_stats",
+      "check": "avg_rating_in_range_1_10",
+      "status": "PASS",
+      "detail": "min=3.00 max=10.00"
+    },
+    {
+      "file": "03_player_season_stats",
+      "check": "all_per90_non_negative",
+      "status": "PASS",
+      "detail": "negative values in: []"
+    },
+    {
+      "file": "03_player_season_stats",
+      "check": "rate_cols_in_range_0_1",
+      "status": "PASS",
+      "detail": "out-of-range: []"
+    },
+    {
+      "file": "03_player_season_stats",
+      "check": "column_pass_value_avg_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "03_player_season_stats",
+      "check": "column_shot_value_avg_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "03_player_season_stats",
+      "check": "column_defensive_value_avg_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "03_player_season_stats",
+      "check": "column_dribble_value_avg_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "03_player_season_stats",
+      "check": "column_gk_value_avg_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "03_player_season_stats",
+      "check": "goals_in_range_0_50",
+      "status": "PASS",
+      "detail": "max=39"
+    },
+    {
+      "file": "03_player_season_stats",
+      "check": "null_avg_rating_lt_5pct",
+      "status": "PASS",
+      "detail": "1.6% null"
+    },
+    {
+      "file": "04_player_career_stats",
+      "check": "no_duplicate_player_id",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "04_player_career_stats",
+      "check": "all_player_ids_in_03",
+      "status": "PASS",
+      "detail": "0 player_ids in 04 not in 03"
+    },
+    {
+      "file": "04_player_career_stats",
+      "check": "sufficient_minutes_flag_correct",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "04_player_career_stats",
+      "check": "first_season_lte_last_season",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "04_player_career_stats",
+      "check": "n_seasons_gte_1",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "04_player_career_stats",
+      "check": "n_competitions_gte_1",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "04_player_career_stats",
+      "check": "career_goals_eq_sum_of_season_goals",
+      "status": "PASS",
+      "detail": "0 mismatches"
+    },
+    {
+      "file": "04_player_career_stats",
+      "check": "goals_per90_non_negative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "04_player_career_stats",
+      "check": "assists_per90_non_negative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "05_competition_benchmarks",
+      "check": "p25_lte_median",
+      "status": "PASS",
+      "detail": "0 violations"
+    },
+    {
+      "file": "05_competition_benchmarks",
+      "check": "median_lte_p75",
+      "status": "PASS",
+      "detail": "0 violations"
+    },
+    {
+      "file": "05_competition_benchmarks",
+      "check": "p75_lte_p90",
+      "status": "PASS",
+      "detail": "0 violations"
+    },
+    {
+      "file": "05_competition_benchmarks",
+      "check": "n_players_gte_2",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "05_competition_benchmarks",
+      "check": "competition_slug_values_valid",
+      "status": "PASS",
+      "detail": "set()"
+    },
+    {
+      "file": "05_competition_benchmarks",
+      "check": "player_position_values_valid",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "05_competition_benchmarks",
+      "check": "mean_gte_p25_for_all_rows",
+      "status": "WARN",
+      "detail": "51 rows (expected for left-skewed sparse GK stats)"
+    },
+    {
+      "file": "06_player_percentile_ranks",
+      "check": "pct_in_competition_range_0_100",
+      "status": "PASS",
+      "detail": "min=-0.0 max=100.0"
+    },
+    {
+      "file": "06_player_percentile_ranks",
+      "check": "pct_global_range_0_100",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "06_player_percentile_ranks",
+      "check": "null_pct_global_lt_10_rows",
+      "status": "WARN",
+      "detail": "18 null pct_global rows"
+    },
+    {
+      "file": "06_player_percentile_ranks",
+      "check": "all_player_ids_in_03",
+      "status": "PASS",
+      "detail": "0 not in 03"
+    },
+    {
+      "file": "06_player_percentile_ranks",
+      "check": "stat_names_present_in_03_columns",
+      "status": "PASS",
+      "detail": "missing in 03: []"
+    },
+    {
+      "file": "07_player_rolling_form",
+      "check": "window_values_valid",
+      "status": "PASS",
+      "detail": "set()"
+    },
+    {
+      "file": "07_player_rolling_form",
+      "check": "no_duplicate_player_window",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "07_player_rolling_form",
+      "check": "n_available_lte_window",
+      "status": "PASS",
+      "detail": "0 rows exceed window"
+    },
+    {
+      "file": "07_player_rolling_form",
+      "check": "avg_rating_in_range_1_10",
+      "status": "PASS",
+      "detail": "min=3.00 max=10.00"
+    },
+    {
+      "file": "07_player_rolling_form",
+      "check": "total_minutes_non_negative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "08_player_scouting_profiles",
+      "check": "no_duplicate_player_id",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "08_player_scouting_profiles",
+      "check": "all_player_ids_in_04",
+      "status": "WARN",
+      "detail": "6383 tracked players with no appearance data (expected)"
+    },
+    {
+      "file": "08_player_scouting_profiles",
+      "check": "age_today_in_range_15_60",
+      "status": "PASS",
+      "detail": "min=16.0 max=50.9"
+    },
+    {
+      "file": "08_player_scouting_profiles",
+      "check": "sufficient_minutes_latest_season_no_null",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "08_player_scouting_profiles",
+      "check": "active_players_with_no_latest_season_lt_40pct",
+      "status": "WARN",
+      "detail": "13711 active players without a qualifying season (expected for low-minute players)"
+    },
+    {
+      "file": "09_player_progression",
+      "check": "season_from_lte_season_to",
+      "status": "PASS",
+      "detail": "0 backward violations (same-season pairs expected)"
+    },
+    {
+      "file": "09_player_progression",
+      "check": "progression_direction_values_valid",
+      "status": "PASS",
+      "detail": "set()"
+    },
+    {
+      "file": "09_player_progression",
+      "check": "goalAssist_per90_delta_column_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "09_player_progression",
+      "check": "null_avg_rating_delta_lt_30pct",
+      "status": "PASS",
+      "detail": "0.0% null"
+    },
+    {
+      "file": "10_player_consistency",
+      "check": "n_appearances_gte_5",
+      "status": "PASS",
+      "detail": "min=5.0"
+    },
+    {
+      "file": "10_player_consistency",
+      "check": "consistency_tier_values_valid",
+      "status": "PASS",
+      "detail": "set()"
+    },
+    {
+      "file": "10_player_consistency",
+      "check": "rating_cv_non_negative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "10_player_consistency",
+      "check": "rating_std_non_negative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "11_player_opponent_context",
+      "check": "opponent_tier_values_valid",
+      "status": "PASS",
+      "detail": "set()"
+    },
+    {
+      "file": "11_player_opponent_context",
+      "check": "no_null_opponent_tier",
+      "status": "PASS",
+      "detail": "0 nulls"
+    },
+    {
+      "file": "11_player_opponent_context",
+      "check": "all_player_ids_in_03",
+      "status": "PASS",
+      "detail": "0 not in 03"
+    },
+    {
+      "file": "11_player_opponent_context",
+      "check": "sufficient_minutes_players_coverage_gte_80pct",
+      "status": "PASS",
+      "detail": "87.6% covered (2176 uncovered)"
+    },
+    {
+      "file": "12_substitution_impact",
+      "check": "minutes_after_sub_gt_0",
+      "status": "PASS",
+      "detail": "0 zero-minute rows remain"
+    },
+    {
+      "file": "12_substitution_impact",
+      "check": "sub_minute_in_range_0_120",
+      "status": "PASS",
+      "detail": "min=2 max=89"
+    },
+    {
+      "file": "12_substitution_impact",
+      "check": "player_out_id_null_documented",
+      "status": "PASS",
+      "detail": "player_out_id always null (source has no sub incidents) \u2014 expected"
+    },
+    {
+      "file": "12_substitution_impact",
+      "check": "null_player_in_rating_lt_65pct",
+      "status": "PASS",
+      "detail": "7.2% null player_in_rating"
+    },
+    {
+      "file": "13_match_momentum",
+      "check": "minute_in_range_0_130",
+      "status": "PASS",
+      "detail": "min=0 max=90"
+    },
+    {
+      "file": "13_match_momentum",
+      "check": "period_values_valid",
+      "status": "PASS",
+      "detail": "set()"
+    },
+    {
+      "file": "13_match_momentum",
+      "check": "no_null_match_id",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "13_match_momentum",
+      "check": "momentum_summary_coverage_gte_95pct",
+      "status": "PASS",
+      "detail": "97.8% of scored matches have momentum data"
+    },
+    {
+      "file": "13_match_momentum",
+      "check": "match_momentum_summary_no_null_halftime",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "14_managers",
+      "check": "result_values_valid",
+      "status": "PASS",
+      "detail": "set()"
+    },
+    {
+      "file": "14_managers",
+      "check": "null_manager_id_lt_10",
+      "status": "WARN",
+      "detail": "10 null manager_id rows"
+    },
+    {
+      "file": "14_managers",
+      "check": "wins_draws_losses_eq_total_matches",
+      "status": "PASS",
+      "detail": "0 mismatches"
+    },
+    {
+      "file": "14_managers",
+      "check": "win_rate_in_range_0_1",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "15_team_tactical_profiles",
+      "check": "no_duplicate_team_season_comp",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "15_team_tactical_profiles",
+      "check": "all_pct_cols_in_range_0_1",
+      "status": "PASS",
+      "detail": "out-of-range: []"
+    },
+    {
+      "file": "15_team_tactical_profiles",
+      "check": "team_names_all_in_01",
+      "status": "PASS",
+      "detail": "0 team(s) in 15 not in 01 \u2014 re-run pipeline from step 01 to 15 (see docs/backfill.md)"
+    },
+    {
+      "file": "16_player_age_curves",
+      "check": "age_bin_in_range_16_45",
+      "status": "PASS",
+      "detail": "min=16 max=44"
+    },
+    {
+      "file": "16_player_age_curves",
+      "check": "reliable_flag_correct",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "16_player_age_curves",
+      "check": "16_peak_age_by_position_has_4_rows",
+      "status": "PASS",
+      "detail": "found 4 rows (expected 4: G/D/M/F)"
+    }
+  ]
+}

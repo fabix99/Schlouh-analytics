@@ -1,0 +1,33 @@
+# CI: smoke test (config + API contract + short pipeline if index exists).
+# Optional: add a job that runs on a schedule or with fixture data to run full validation.
+
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas pyyaml requests pyarrow
+
+      - name: Smoke test (config + API contract + pipeline if index exists)
+        run: bash scripts/smoke_test.sh
+        env:
+          # Optional: point to fixture index/raw for full pipeline in CI
+          # SOFASCORE_INDEX_PATH: ${{ github.workspace }}/ci/fixtures/index/matches.csv
+          SOFASCORE_LOG_DIR: ${{ github.workspace }}/data/logs

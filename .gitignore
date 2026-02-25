@@ -1,0 +1,68 @@
+# Build / runtime
+web/dist/
+web/node_modules/
+web/*.tsbuildinfo
+web/**/*.tsbuildinfo
+web/vite.config.d.ts
+
+# Local env (optional overrides; do not commit secrets)
+.env
+.env.local
+
+# Python
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.venv/
+venv/
+env/
+
+# IDE / editor
+.idea/
+.vscode/
+.cursor/
+*.swp
+*.swo
+
+# Streamlit: commit config.toml (theme, server); never commit secrets
+.streamlit/secrets.toml
+
+# Scouts / Review user data (local state; do not publish)
+dashboard/scouts/saved_filters.json
+dashboard/scouts/shortlist_data.json
+dashboard/scouts/shortlist_*.json
+dashboard/scouts/compare_list_scouts.json
+dashboard/review/schedule_priorities.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data: derived/ has 100MB+ files (GitHub limit); rest allowed for now
+# data/raw/
+data/derived/
+# data/processed/
+# data/logs/
+# data/index/
+
+# Test / QA artifacts (regenerate as needed)
+dq_check_stdout.txt
+qa_extended_checks.json
+validation_data_verbose.txt
+output/
+
+# Large or generated files at repo root (optional)
+/*.pdf
+
+# UX audit screenshots (regeneratable)
+dashboard/ux_audit_results/
+
+# Generated AI Scout test results (keep test_questions; don't commit results)
+dashboard/pages/AI_Scout_test_results.md
+dashboard/pages/AI_Scout_test_results_v2.md
+
+# Viz generated output
+viz/output/

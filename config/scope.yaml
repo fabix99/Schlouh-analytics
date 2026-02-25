@@ -1,0 +1,84 @@
+# Full extraction scope: competitions and seasons we plan to cover.
+# Seasons: 2022-23, 2023-24, 2024-25, 2025-26 (3 full + current)
+
+seasons:
+  - "2022-23"
+  - "2023-24"
+  - "2024-25"
+  - "2025-26"
+
+# Club competitions (realm: club)
+club:
+  uefa:
+    - uefa-champions-league
+    - uefa-europa-league
+    - uefa-conference-league
+    - uefa-super-cup
+  england:
+    - england-premier-league
+    - england-fa-cup
+    - england-league-cup
+    - england-community-shield
+  spain:
+    - spain-laliga
+    - spain-copa-del-rey
+    - spain-supercopa
+  italy:
+    - italy-serie-a
+    - italy-coppa-italia
+    - italy-supercoppa
+  germany:
+    - germany-bundesliga
+    - germany-dfb-pokal
+    - germany-supercup
+  france:
+    - france-ligue-1
+    - france-coupe-de-france
+    - france-trophee-des-champions
+  portugal:
+    - portugal-primeira-liga
+    - portugal-taca-de-portugal
+    - portugal-supertaca
+  belgium:
+    - belgium-pro-league
+    - belgium-cup
+    - belgium-supercup
+  netherlands:
+    - netherlands-eredivisie
+    - netherlands-knvb-beker
+    - netherlands-johan-cruyff-schaal
+  turkey:
+    - turkey-super-lig
+    - turkey-kupasi
+    - turkey-super-kupa
+  usa:
+    - usa-mls
+    - usa-open-cup
+    - usa-leagues-cup
+  brazil:
+    - brazil-serie-a
+  argentina:
+    - argentina-primera
+  south_america:
+    - copa-libertadores
+  saudi:
+    - saudi-pro-league
+    - saudi-king-cup
+    - saudi-super-cup
+
+# National team competitions (realm: national)
+national:
+  - fifa-world-cup
+  - uefa-euro
+  - uefa-nations-league
+  - euro-qualifiers
+  - world-cup-qualifiers-uefa
+  - world-cup-qualifiers-conmebol
+  - world-cup-qualifiers-concacaf
+  - world-cup-qualifiers-afc
+  - world-cup-qualifiers-caf
+  - copa-america
+  - africa-cup-of-nations
+  - concacaf-gold-cup
+  - asian-cup
+  - friendlies

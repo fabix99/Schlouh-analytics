@@ -1,0 +1,398 @@
+# Sofascore competition IDs for match discovery.
+# tournament_id: from GET /tournament/{id}/season/{season_id}/events
+# slug: maps to data/raw/{season}/club|national/{slug}/{match_id}/
+# optional: expected_tournament_slugs (list) — API tournament.slug values accepted for identity checks (default: [slug])
+
+# La Liga (Spain) - tournament_id 36
+# Seasons: 22/23=42409, 23/24=52376, 24/25=61643, 25/26=77559
+spain-laliga:
+  tournament_id: 36
+  realm: club
+  slug: spain-laliga
+  expected_tournament_slugs:
+    - spain-laliga
+    - laliga
+
+# Premier League (England) - tournament_id 1
+england-premier-league:
+  tournament_id: 1
+  realm: club
+  slug: england-premier-league
+  expected_tournament_slugs:
+    - england-premier-league
+    - premier-league
+
+# Serie A (Italy) - tournament_id 33
+italy-serie-a:
+  tournament_id: 33
+  realm: club
+  slug: italy-serie-a
+  expected_tournament_slugs:
+    - italy-serie-a
+    - serie-a
+
+# Bundesliga (Germany) - tournament_id 42 (29 = Austrian Bundesliga)
+germany-bundesliga:
+  tournament_id: 42
+  realm: club
+  slug: germany-bundesliga
+  expected_tournament_slugs:
+    - germany-bundesliga
+    - bundesliga
+
+# Ligue 1 (France) - tournament_id 4
+france-ligue-1:
+  tournament_id: 4
+  realm: club
+  slug: france-ligue-1
+  expected_tournament_slugs:
+    - france-ligue-1
+    - ligue-1
+
+# Primeira Liga (Portugal) - tournament_id 52; API slug can be liga-portugal-betclic
+portugal-primeira-liga:
+  tournament_id: 52
+  realm: club
+  slug: portugal-primeira-liga
+  expected_tournament_slugs:
+    - portugal-primeira-liga
+    - liga-portugal-betclic
+
+# Pro League (Belgium) - tournament_id 38
+belgium-pro-league:
+  tournament_id: 38
+  realm: club
+  slug: belgium-pro-league
+  expected_tournament_slugs:
+    - belgium-pro-league
+    - pro-league
+
+# Eredivisie (Netherlands) - tournament_id 39
+netherlands-eredivisie:
+  tournament_id: 39
+  realm: club
+  slug: netherlands-eredivisie
+  expected_tournament_slugs:
+    - netherlands-eredivisie
+    - eredivisie
+
+# Süper Lig (Turkey) - tournament_id 62
+turkey-super-lig:
+  tournament_id: 62
+  realm: club
+  slug: turkey-super-lig
+  expected_tournament_slugs:
+    - turkey-super-lig
+    - trendyol-super-lig
+
+# ---------- UEFA club (from scope.yaml); use unique-tournament API ----------
+uefa-champions-league:
+  tournament_id: 7
+  realm: club
+  slug: uefa-champions-league
+  api_path: unique-tournament
+uefa-europa-league:
+  tournament_id: 679
+  realm: club
+  slug: uefa-europa-league
+  api_path: unique-tournament
+uefa-conference-league:
+  tournament_id: 17015
+  realm: club
+  slug: uefa-conference-league
+  api_path: unique-tournament
+uefa-super-cup:
+  tournament_id: 465
+  realm: club
+  slug: uefa-super-cup
+  api_path: unique-tournament
+
+# ---------- England cups & shield ----------
+# FA Cup: id 16 from scheduled-events (slug fa-cup)
+england-fa-cup:
+  tournament_id: 16
+  realm: club
+  slug: england-fa-cup
+  expected_tournament_slugs:
+    - england-fa-cup
+    - fa-cup
+# EFL Cup / Carabao Cup: id 17 from scheduled-events (slug efl-cup)
+england-league-cup:
+  tournament_id: 17
+  realm: club
+  slug: england-league-cup
+  expected_tournament_slugs:
+    - england-league-cup
+    - efl-cup
+england-community-shield:
+  tournament_id: 346
+  realm: club
+  slug: england-community-shield
+  api_path: unique-tournament
+
+# ---------- Spain cups ----------
+# Copa del Rey: id 150 from scheduled-events
+spain-copa-del-rey:
+  tournament_id: 150
+  realm: club
+  slug: spain-copa-del-rey
+  expected_tournament_slugs:
+    - spain-copa-del-rey
+    - copa-del-rey
+spain-supercopa:
+  tournament_id: 213
+  realm: club
+  slug: spain-supercopa
+  api_path: unique-tournament
+
+# ---------- Italy cups ----------
+# Coppa Italia: id 35 from scheduled-events
+italy-coppa-italia:
+  tournament_id: 35
+  realm: club
+  slug: italy-coppa-italia
+  expected_tournament_slugs:
+    - italy-coppa-italia
+    - coppa-italia
+italy-supercoppa:
+  tournament_id: 341
+  realm: club
+  slug: italy-supercoppa
+  api_path: unique-tournament
+
+# ---------- Germany cups ----------
+# DFB-Pokal: id 43 from scheduled-events
+germany-dfb-pokal:
+  tournament_id: 43
+  realm: club
+  slug: germany-dfb-pokal
+  expected_tournament_slugs:
+    - germany-dfb-pokal
+    - dfb-pokal
+germany-supercup:
+  tournament_id: 799
+  realm: club
+  slug: germany-supercup
+  api_path: unique-tournament
+
+# ---------- France cups ----------
+france-coupe-de-france:
+  tournament_id: 335
+  realm: club
+  slug: france-coupe-de-france
+  api_path: unique-tournament
+france-trophee-des-champions:
+  tournament_id: 339
+  realm: club
+  slug: france-trophee-des-champions
+  api_path: unique-tournament
+
+# ---------- Portugal cups ----------
+# Taça de Portugal: id 207 from scheduled-events
+portugal-taca-de-portugal:
+  tournament_id: 207
+  realm: club
+  slug: portugal-taca-de-portugal
+  expected_tournament_slugs:
+    - portugal-taca-de-portugal
+    - taca-de-portugal
+portugal-supertaca:
+  tournament_id: 337
+  realm: club
+  slug: portugal-supertaca
+  api_path: unique-tournament
+
+# ---------- Belgium cups ----------
+belgium-cup:
+  tournament_id: 326
+  realm: club
+  slug: belgium-cup
+  api_path: unique-tournament
+belgium-supercup:
+  tournament_id: 338
+  realm: club
+  slug: belgium-supercup
+  api_path: unique-tournament
+
+# ---------- Netherlands cups ----------
+# KNVB Beker: id 121 from scheduled-events
+netherlands-knvb-beker:
+  tournament_id: 121
+  realm: club
+  slug: netherlands-knvb-beker
+  expected_tournament_slugs:
+    - netherlands-knvb-beker
+    - knvb-beker
+netherlands-johan-cruyff-schaal:
+  tournament_id: 340
+  realm: club
+  slug: netherlands-johan-cruyff-schaal
+  api_path: unique-tournament
+
+# ---------- Turkey cups ----------
+# Turkish Cup: try unique-tournament (id 96 may be different competition in tournament path)
+turkey-kupasi:
+  tournament_id: 96
+  realm: club
+  slug: turkey-kupasi
+  api_path: unique-tournament
+turkey-super-kupa:
+  tournament_id: 505
+  realm: club
+  slug: turkey-super-kupa
+  api_path: unique-tournament
+
+# ---------- USA ----------
+usa-mls:
+  tournament_id: 242
+  realm: club
+  slug: usa-mls
+  api_path: unique-tournament
+# US Open Cup: id 6814 from scheduled-events (slug us-open-cup)
+usa-open-cup:
+  tournament_id: 6814
+  realm: club
+  slug: usa-open-cup
+  expected_tournament_slugs:
+    - usa-open-cup
+    - us-open-cup
+usa-leagues-cup:
+  tournament_id: 13783
+  realm: club
+  slug: usa-leagues-cup
+  api_path: unique-tournament
+
+# ---------- Brazil & Argentina ----------
+# Brasileirão: id 83 from scheduled-events (slug brasileirao-serie-a)
+brazil-serie-a:
+  tournament_id: 83
+  realm: club
+  slug: brazil-serie-a
+  expected_tournament_slugs:
+    - brazil-serie-a
+    - brasileirao-serie-a
+argentina-primera:
+  tournament_id: 155
+  realm: club
+  slug: argentina-primera
+  api_path: unique-tournament
+
+# ---------- South America ----------
+# CONMEBOL Libertadores: id 309 from scheduled-events (slug conmebol-libertadores)
+copa-libertadores:
+  tournament_id: 309
+  realm: club
+  slug: copa-libertadores
+  expected_tournament_slugs:
+    - copa-libertadores
+    - conmebol-libertadores
+
+# ---------- Saudi Arabia ----------
+saudi-pro-league:
+  tournament_id: 955
+  realm: club
+  slug: saudi-pro-league
+  api_path: unique-tournament
+saudi-king-cup:
+  tournament_id: 2058
+  realm: club
+  slug: saudi-king-cup
+  api_path: unique-tournament
+saudi-super-cup:
+  tournament_id: 2119
+  realm: club
+  slug: saudi-super-cup
+  api_path: unique-tournament
+
+# ---------- National (realm: national; IDs from Sofascore URLs) ----------
+# euro-qualifiers (European Championship qualification)
+euro-qualifiers:
+  tournament_id: 27
+  realm: national
+  slug: euro-qualifiers
+  api_path: unique-tournament
+
+world-cup-qualifiers-uefa:
+  tournament_id: 11
+  realm: national
+  slug: world-cup-qualifiers-uefa
+  api_path: unique-tournament
+
+world-cup-qualifiers-conmebol:
+  tournament_id: 295
+  realm: national
+  slug: world-cup-qualifiers-conmebol
+  api_path: unique-tournament
+
+world-cup-qualifiers-concacaf:
+  tournament_id: 14
+  realm: national
+  slug: world-cup-qualifiers-concacaf
+  api_path: unique-tournament
+
+world-cup-qualifiers-afc:
+  tournament_id: 308
+  realm: national
+  slug: world-cup-qualifiers-afc
+  api_path: unique-tournament
+
+world-cup-qualifiers-caf:
+  tournament_id: 13
+  realm: national
+  slug: world-cup-qualifiers-caf
+  api_path: unique-tournament
+
+uefa-nations-league:
+  tournament_id: 10783
+  realm: national
+  slug: uefa-nations-league
+  api_path: unique-tournament
+
+# UEFA Euro (main tournament); id 1 in unique-tournament (tournament/1 = Premier League)
+uefa-euro:
+  tournament_id: 1
+  realm: national
+  slug: uefa-euro
+  api_path: unique-tournament
+
+# Copa América (men's)
+copa-america:
+  tournament_id: 133
+  realm: national
+  slug: copa-america
+  api_path: unique-tournament
+
+# Africa Cup of Nations
+africa-cup-of-nations:
+  tournament_id: 270
+  realm: national
+  slug: africa-cup-of-nations
+  api_path: unique-tournament
+
+# CONCACAF Gold Cup
+concacaf-gold-cup:
+  tournament_id: 140
+  realm: national
+  slug: concacaf-gold-cup
+  api_path: unique-tournament
+
+# AFC Asian Cup
+asian-cup:
+  tournament_id: 246
+  realm: national
+  slug: asian-cup
+  api_path: unique-tournament
+
+# International friendlies
+friendlies:
+  tournament_id: 851
+  realm: national
+  slug: friendlies
+  api_path: unique-tournament
+
+# FIFA World Cup (main tournament); id 16 = unique-tournament (tournament/16 = FA Cup)
+fifa-world-cup:
+  tournament_id: 16
+  realm: national
+  slug: fifa-world-cup
+  api_path: unique-tournament
