@@ -41,9 +41,10 @@ dashboard/review/schedule_priorities.json
 .DS_Store
 Thumbs.db
 
-# Data: derived/ has 100MB+ files (GitHub limit); rest allowed for now
+# Data: ignore only the one 250MB+ file and players/ CSVs; parquet stays for dashboard
 # data/raw/
-data/derived/
+data/derived/player_appearances.csv
+data/derived/players/
 # data/processed/
 # data/logs/
 # data/index/
