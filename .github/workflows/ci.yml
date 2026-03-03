@@ -25,7 +25,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Smoke test (config + API contract + pipeline if index exists)
+      - name: Smoke test (config only; no live API)
         run: bash scripts/smoke_test.sh
         env:
           # Optional: point to fixture index/raw for full pipeline in CI
