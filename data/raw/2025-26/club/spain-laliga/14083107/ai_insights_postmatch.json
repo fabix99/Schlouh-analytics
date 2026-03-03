@@ -1,0 +1,158 @@
+{
+  "predictions": {
+    "yellowCards": 3,
+    "corners": 8,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 76,
+      "draw": 15,
+      "away": 9
+    },
+    "possibleResultsMatrix": [
+      [
+        0.038989985589753,
+        0.02822037320179,
+        0.010212743754612,
+        0.0024639441454009,
+        0.00044584155572151,
+        6.4538700904956e-05
+      ],
+      [
+        0.10015234002734,
+        0.072488778076053,
+        0.02623315114517,
+        0.0063290552208723,
+        0.0011452190712959,
+        0.00016577851517992
+      ],
+      [
+        0.12862907053225,
+        0.093099813198536,
+        0.033692131886427,
+        0.0081286217594703,
+        0.0014708439628709,
+        0.00021291500843605
+      ],
+      [
+        0.11013513867291,
+        0.079714179653283,
+        0.028847970386035,
+        0.0069599110138515,
+        0.0012593700875447,
+        0.00018230267763435
+      ],
+      [
+        0.070725159874298,
+        0.051189821596999,
+        0.0185252167672,
+        0.0044694256991625,
+        0.00080872600566688,
+        0.00011706877729091
+      ],
+      [
+        0.036333895245554,
+        0.026297934410465,
+        0.0095170274145287,
+        0.0022960944231131,
+        0.00041546977093414,
+        6.0142171444687e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Form Overview",
+      "text": "Atlético Madrid is in strong form, having won 4 out of their last 5 matches. Mallorca has struggled recently, reflecting a less favorable record with only 1 win in their last 5, indicating a significant gap in their current competitive levels."
+    },
+    {
+      "subtitle": "Head-to-Head Insights",
+      "text": "In their last two encounters, Atlético Madrid has remained unbeaten against Mallorca, drawing the most recent match. However, historical results indicate that despite strong performances from Atlético, the games tend to be tightly contested."
+    },
+    {
+      "subtitle": "Match Venue Factors",
+      "text": "Playing at home in the Riyadh Air Metropolitano provides Atlético with an added advantage, bolstered by excellent fan support and their strong home record this season."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Atlético Madrid",
+      "slug": "atletico-madrid",
+      "shortName": "Atl. Madrid",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 2180233,
+      "nameCode": "ATM",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 2836,
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#c40000",
+        "text": "#c40000"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أتلتيكو مدريد",
+          "hi": "एटलेटिको मैड्रिड",
+          "ru": "Атлетико Мадрид"
+        },
+        "shortNameTranslation": {
+          "ar": "أتل. مدريد",
+          "bn": "এটিএল. মাদ্রিদ"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Alexander Sørloth",
+      "slug": "alexander-sorloth",
+      "shortName": "A. Sørloth",
+      "position": "F",
+      "jerseyNumber": "9",
+      "userCount": 18980,
+      "gender": "M",
+      "sofascoreId": "asorloth",
+      "id": 309078,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ألكسندر سورلوث",
+          "bn": "আলেকজান্ডার সারলোথ",
+          "hi": "अलेक्जेंडर सोर्लोथ"
+        },
+        "shortNameTranslation": {
+          "ar": "أ. سورلوث",
+          "bn": "এ. সারলোথ",
+          "hi": "ए. सोर्लोथ"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 0
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half overview",
+      "text": "At half-time, Atlético Madrid leads Mallorca 1-0, with a goal from Alexander Sørloth. The home team has shown a strong performance with high ball possession and a significant number of shots on target."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "The attack momentum favored Atlético Madrid for most of the first half, as they established periods of sustained attacking pressure. Mallorca managed brief spells of momentum, particularly at the start, but could not translate this into effective chances."
+    },
+    {
+      "subtitle": "Team performance",
+      "text": "Atlético Madrid demonstrated better offensive capabilities with four shots on target compared to zero from Mallorca. Their ability to create big chances and control possession underlined their dominance, while Mallorca struggled significantly in the final third."
+    },
+    {
+      "subtitle": "Second half predictions",
+      "text": "Going into the second half, Atlético Madrid is likely to continue asserting their dominance. Mallorca may need to adjust tactically to become more offensive and create scoring opportunities. The potential for goals remains high, particularly if Atlético Madrid capitalizes on their attacking form."
+    }
+  ],
+  "modelName": "Grok3"
+}

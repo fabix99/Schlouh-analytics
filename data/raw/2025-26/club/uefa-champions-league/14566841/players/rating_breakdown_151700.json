@@ -1,0 +1,106 @@
+{
+  "passes": [
+    {
+      "playerCoordinates": {
+        "x": 66.9,
+        "y": 69.1
+      },
+      "passEndCoordinates": {
+        "x": 72.4,
+        "y": 93.3
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 67.9,
+        "y": 17.5
+      },
+      "passEndCoordinates": {
+        "x": 73.9,
+        "y": 4
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 39.9,
+        "y": 25.2
+      },
+      "passEndCoordinates": {
+        "x": 40.9,
+        "y": 24.2
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 46.3,
+        "y": 27.1
+      },
+      "passEndCoordinates": {
+        "x": 53.6,
+        "y": 9.7
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "dribbles": [],
+  "defensive": [
+    {
+      "playerCoordinates": {
+        "x": 23,
+        "y": 23.8
+      },
+      "eventActionType": "tackle",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 19.3,
+        "y": 19.2
+      },
+      "eventActionType": "ball-recovery",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 29.9,
+        "y": 31.8
+      },
+      "eventActionType": "interception",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "ball-carries": [
+    {
+      "playerCoordinates": {
+        "x": 67.4,
+        "y": 24.1
+      },
+      "passEndCoordinates": {
+        "x": 67.9,
+        "y": 17.5
+      },
+      "eventActionType": "ball-carry",
+      "isHome": true
+    }
+  ]
+}

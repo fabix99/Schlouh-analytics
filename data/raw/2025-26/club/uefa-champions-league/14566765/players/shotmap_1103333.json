@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Franjo Ivanović",
+        "slug": "franjo-ivanovic",
+        "shortName": "F. Ivanović",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 6352,
+        "gender": "M",
+        "id": 1103333,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فرانجو إيفانوفيتش",
+            "bn": "ফ্রাঞ্জো ইভানোভিচ",
+            "hi": "फ्रांजो इवानोविच"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. إيفانوفيتش",
+            "bn": "এফ ইভানোভিচ",
+            "hi": "एफ. इवानोविच"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.3,
+        "y": 27.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.5,
+        "y": 30.4,
+        "z": 0
+      },
+      "xg": 0.018908424302936,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Michele Di Gregorio",
+        "firstName": "",
+        "lastName": "",
+        "slug": "michele-di-gregorio",
+        "shortName": "M. Di Gregorio",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 8229,
+        "gender": "M",
+        "sofascoreId": "L'UomoTigre",
+        "id": 844609,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميشيل دي غريغوريو",
+            "bn": "মিশেল ডি গ্রেগরিও",
+            "hi": "मिशेल डि ग्रेगोरियो"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دي غريغوريو",
+            "bn": "এম. ডি গ্রেগরিও",
+            "hi": "एम. डि ग्रेगोरियो"
+          }
+        }
+      },
+      "id": 6564357,
+      "time": 78,
+      "timeSeconds": 4675,
+      "draw": {
+        "start": {
+          "x": 27.2,
+          "y": 20.3
+        },
+        "block": {
+          "x": 30.4,
+          "y": 17.5
+        },
+        "end": {
+          "x": 50.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 725,
+      "periodTimeSeconds": 1975,
+      "incidentType": "shot"
+    }
+  ]
+}

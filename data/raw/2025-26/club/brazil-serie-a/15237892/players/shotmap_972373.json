@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jamerson",
+        "firstName": "",
+        "lastName": "",
+        "slug": "jamerson",
+        "shortName": "Jamerson",
+        "position": "D",
+        "jerseyNumber": "83",
+        "userCount": 409,
+        "gender": "M",
+        "id": 972373,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جامرسون"
+          },
+          "shortNameTranslation": {
+            "ar": "جامرسون"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9,
+        "y": 24.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 32.9,
+        "z": 6.9
+      },
+      "blockCoordinates": {
+        "x": 2.9,
+        "y": 52.5,
+        "z": 0
+      },
+      "xg": 0.040254261344671,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Marcelo Rangel",
+        "slug": "marcelo-rangel",
+        "shortName": "M. Rangel",
+        "position": "G",
+        "jerseyNumber": "88",
+        "userCount": 384,
+        "gender": "M",
+        "id": 870902,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارسيلو رينجل"
+          },
+          "shortNameTranslation": {
+            "ar": "م. رينجل"
+          }
+        }
+      },
+      "id": 6603160,
+      "time": 84,
+      "timeSeconds": 5022,
+      "draw": {
+        "start": {
+          "x": 24.4,
+          "y": 9
+        },
+        "block": {
+          "x": 52.5,
+          "y": 2.9
+        },
+        "end": {
+          "x": 67.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 67.1,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 378,
+      "periodTimeSeconds": 2322,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Abdulrahman Ghareeb",
+        "slug": "abdulrahman-ghareeb",
+        "shortName": "A. Ghareeb",
+        "position": "F",
+        "jerseyNumber": "29",
+        "userCount": 2209,
+        "gender": "M",
+        "id": 1014447,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد الرحمن غريب",
+            "bn": "আব্দুর রহমান ঘরিব",
+            "hi": "अब्दुल रहमान ग़रीब"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. غريب",
+            "bn": "এ. ঘরিব",
+            "hi": "ए. ग़रीब"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.6,
+        "y": 37.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.4,
+        "z": 3.8
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 47.8,
+        "z": 0
+      },
+      "xg": 0.044768072664738,
+      "xgot": 0.25089284777641,
+      "goalkeeper": {
+        "name": "Juan Cozzani",
+        "slug": "juan-cozzani",
+        "shortName": "J. Cozzani",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 132,
+        "gender": "M",
+        "id": 874969,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوان كوزاني"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. كوزاني"
+          }
+        }
+      },
+      "id": 6610070,
+      "time": 76,
+      "timeSeconds": 4532,
+      "draw": {
+        "start": {
+          "x": 37.4,
+          "y": 11.6
+        },
+        "block": {
+          "x": 47.8,
+          "y": 1.6
+        },
+        "end": {
+          "x": 51.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.6,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 868,
+      "periodTimeSeconds": 1832,
+      "incidentType": "shot"
+    }
+  ]
+}

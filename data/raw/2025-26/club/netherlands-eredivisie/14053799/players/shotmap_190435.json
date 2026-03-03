@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Marko Pjaca",
+        "slug": "marko-pjaca",
+        "shortName": "M. Pjaca",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 3776,
+        "gender": "M",
+        "sofascoreId": "MarkoPjaca",
+        "id": 190435,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركو بياكا",
+            "bn": "মার্কো পাজাকা",
+            "hi": "मार्को पजाका"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بياكا",
+            "bn": "এম. পাজাকা",
+            "hi": "एम. पजाका"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7.6,
+        "y": 44.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 5.9,
+        "y": 44.8,
+        "z": 0
+      },
+      "xg": 0.074952356517315,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Stijn van Gassel",
+        "firstName": "",
+        "lastName": "",
+        "slug": "stijn-van-gassel",
+        "shortName": "S. van Gassel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 169,
+        "gender": "M",
+        "id": 367118,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستاين فان غاسل"
+          },
+          "shortNameTranslation": {
+            "ar": "س. فان غاسل"
+          }
+        }
+      },
+      "id": 6583465,
+      "time": 90,
+      "addedTime": 1,
+      "timeSeconds": 5402,
+      "draw": {
+        "start": {
+          "x": 44.2,
+          "y": 7.6
+        },
+        "block": {
+          "x": 44.8,
+          "y": 5.9
+        },
+        "end": {
+          "x": 46.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 898,
+      "periodTimeSeconds": 2,
+      "incidentType": "shot"
+    }
+  ]
+}

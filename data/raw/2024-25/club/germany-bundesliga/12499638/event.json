@@ -1,0 +1,444 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Bundesliga",
+      "slug": "bundesliga",
+      "category": {
+        "name": "Germany",
+        "slug": "germany",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 30,
+        "flag": "germany",
+        "alpha2": "DE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألمانيا",
+            "bn": "জার্মানি",
+            "hi": "जर्मनी",
+            "ru": "Германия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Bundesliga",
+        "slug": "bundesliga",
+        "primaryColorHex": "#e2080e",
+        "secondaryColorHex": "#8e0902",
+        "category": {
+          "name": "Germany",
+          "slug": "germany",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "DE",
+            "alpha3": "DEU",
+            "name": "Germany",
+            "slug": "germany"
+          },
+          "id": 30,
+          "flag": "germany",
+          "alpha2": "DE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألمانيا",
+              "bn": "জার্মানি",
+              "hi": "जर्मनी",
+              "ru": "Германия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 508963,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 35,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "বুন্দেসলীগা",
+            "ar": "الدوري الألماني",
+            "hi": "बुंडेसलीगा"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 695,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 42,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "बुंडेसलीगा",
+          "ar": "الدوري الألماني",
+          "bn": "বুন্দেসলীগা"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Bundesliga 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 63516
+    },
+    "roundInfo": {
+      "round": 5
+    },
+    "customId": "zabsCdb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 27135,
+    "venue": {
+      "city": {
+        "name": "Wolfsburg"
+      },
+      "venueCoordinates": {
+        "latitude": 52.432858,
+        "longitude": 10.803104
+      },
+      "hidden": false,
+      "slug": "volkswagen-arena",
+      "name": "Volkswagen Arena",
+      "capacity": 30000,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 816,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فولكس فاجن أرينا",
+          "hi": "वोक्सवैगन एरिना",
+          "bn": "ভক্সওয়াগেন এরিনা"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Volkswagen Arena",
+        "capacity": 30000
+      }
+    },
+    "referee": {
+      "name": "Sven Jablonski",
+      "slug": "jablonski-sven",
+      "yellowCards": 1196,
+      "redCards": 21,
+      "yellowRedCards": 26,
+      "games": 308,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 102954,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "جابلونسكي، سفين",
+          "bn": "জাবলনস্কি, সোভেন",
+          "hi": "जाब्लोंस्की, स्वेन"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "VfL Wolfsburg",
+      "slug": "vfl-wolfsburg",
+      "shortName": "Wolfsburg",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 102182,
+      "manager": {
+        "name": "Daniel Bauer",
+        "slug": "daniel-bauer",
+        "shortName": "D. Bauer",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 810783,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دانيال باوير"
+          },
+          "shortNameTranslation": {
+            "ar": "د. باوير"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Wolfsburg"
+        },
+        "venueCoordinates": {
+          "latitude": 52.432858,
+          "longitude": 10.803104
+        },
+        "hidden": false,
+        "slug": "volkswagen-arena",
+        "name": "Volkswagen Arena",
+        "capacity": 30000,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 816,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فولكس فاجن أرينا",
+            "hi": "वोक्सवैगन एरिना",
+            "bn": "ভক্সওয়াগেন এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Volkswagen Arena",
+          "capacity": 30000
+        }
+      },
+      "nameCode": "WOB",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2524,
+      "fullName": "VfL Wolfsburg",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#64b42d",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -766972800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نادي فولفسبورغ",
+          "hi": "विऍफ़ऐल वोल्फ्सबर्ग",
+          "ru": "Вольфсбург"
+        },
+        "shortNameTranslation": {
+          "ar": "ولفسبورج",
+          "bn": "ওল্ফসবার্গ",
+          "hi": "वोल्फ्सबर्ग"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "VfB Stuttgart",
+      "slug": "vfb-stuttgart",
+      "shortName": "Stuttgart",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 235023,
+      "manager": {
+        "name": "Sebastian Hoeneß",
+        "slug": "sebastian-hoeness",
+        "shortName": "S. Hoeneß",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 792136,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيباستيان هوينس",
+            "bn": "সেবাস্টিয়ান হোয়েনেস",
+            "hi": "सेबेस्टियन होएनेस"
+          },
+          "shortNameTranslation": {
+            "ar": "س. هوينس",
+            "bn": "এস. হোয়েনেস",
+            "hi": "एस. होएनेस"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Stuttgart"
+        },
+        "venueCoordinates": {
+          "latitude": 48.792249,
+          "longitude": 9.232086
+        },
+        "hidden": false,
+        "slug": "mhp-arena",
+        "name": "MHP Arena",
+        "capacity": 60449,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 648,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "MHP أرينا",
+            "hi": "एमएचपी एरिना",
+            "bn": "এমএইচপি এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "MHP Arena",
+          "capacity": 60449
+        }
+      },
+      "nameCode": "VFB",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2677,
+      "fullName": "VfB Stuttgart",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#ff0000",
+        "text": "#ff0000"
+      },
+      "foundationDateTimestamp": -2408140800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "شتوتجارت",
+          "hi": "VFB स्टुटगार्ट",
+          "ru": "Штутгарт"
+        },
+        "shortNameTranslation": {
+          "ar": "شتوتغارت",
+          "bn": "স্টুটগার্ট",
+          "hi": "स्टुटगार्ट"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 2,
+      "injuryTime2": 9,
+      "currentPeriodStartTimestamp": 1727533989
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type",
+        "awayScore.period2",
+        "awayScore.normaltime"
+      ],
+      "changeTimestamp": 1727537236
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12499638,
+    "awayRedCards": 1,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "vfb-stuttgart-vfl-wolfsburg",
+    "currentPeriodStartTimestamp": 1727533989,
+    "startTimestamp": 1727530200,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "??",
+      "AN",
+      "AS",
+      "AT",
+      "CH",
+      "CU",
+      "DE",
+      "GU",
+      "IR",
+      "KP",
+      "LI",
+      "LU",
+      "MP",
+      "PR",
+      "SY",
+      "US",
+      "VE",
+      "VI",
+      "GR",
+      "RU",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

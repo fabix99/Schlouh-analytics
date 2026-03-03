@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mario Lemina",
+        "slug": "mario-lemina",
+        "shortName": "M. Lemina",
+        "position": "M",
+        "jerseyNumber": "99",
+        "userCount": 8881,
+        "gender": "M",
+        "id": 307284,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماريو ليمينا",
+            "bn": "মারিও লেমিনা",
+            "hi": "मारियो लेमिना"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ليمينا",
+            "bn": "এম. লেমিনা",
+            "hi": "एम. लेमिना"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 17.2,
+        "y": 49.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.1,
+        "z": 7
+      },
+      "blockCoordinates": {
+        "x": 1.9,
+        "y": 49.6,
+        "z": 0
+      },
+      "xg": 0.037918120622635,
+      "xgot": 0.38214275240898,
+      "goalkeeper": {
+        "name": "Bilal Bayazit",
+        "slug": "bilal-bayazit",
+        "shortName": "B. Bayazit",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 240,
+        "gender": "M",
+        "id": 825850,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بلال بايازيت"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. بايازيت"
+          }
+        }
+      },
+      "id": 6626380,
+      "time": 41,
+      "timeSeconds": 2423,
+      "draw": {
+        "start": {
+          "x": 49.7,
+          "y": 17.2
+        },
+        "block": {
+          "x": 49.6,
+          "y": 1.9
+        },
+        "end": {
+          "x": 45.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.9,
+          "y": 93
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 277,
+      "periodTimeSeconds": 2423,
+      "incidentType": "shot"
+    }
+  ]
+}

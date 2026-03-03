@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Giovanni Augusto",
+        "slug": "giovanni-augusto",
+        "shortName": "G. Augusto",
+        "position": "F",
+        "jerseyNumber": "10",
+        "userCount": 309,
+        "gender": "M",
+        "id": 82680,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيوفاني أوغوستو"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. أوغوستو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 28.6,
+        "y": 60.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 19.4,
+        "y": 58.3,
+        "z": 0
+      },
+      "xg": 0.03838725015521,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gabriel Brazão",
+        "firstName": "",
+        "lastName": "",
+        "slug": "gabriel-brazao",
+        "shortName": "G. Brazão",
+        "position": "G",
+        "jerseyNumber": "77",
+        "userCount": 3130,
+        "gender": "M",
+        "id": 905448,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غابرييل برازاو",
+            "bn": "গ্যাব্রিয়েল ব্রাজাও",
+            "hi": "गेब्रियल ब्राज़ाओ"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. برازاو",
+            "bn": "জি. ব্রাজাও",
+            "hi": "जी. ब्राज़ाओ"
+          }
+        }
+      },
+      "id": 6603017,
+      "time": 8,
+      "timeSeconds": 474,
+      "draw": {
+        "start": {
+          "x": 60.6,
+          "y": 28.6
+        },
+        "block": {
+          "x": 58.3,
+          "y": 19.4
+        },
+        "end": {
+          "x": 53.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2226,
+      "periodTimeSeconds": 474,
+      "incidentType": "shot"
+    }
+  ]
+}

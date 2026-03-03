@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nicolás de la Cruz",
+        "slug": "nicolas-de-la-cruz",
+        "shortName": "N. de la Cruz",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 16828,
+        "gender": "M",
+        "sofascoreId": "nicodelacruz10",
+        "id": 877513,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولاس دي لا كروز",
+            "bn": "নিকোলাস অফ দ্য ক্রস",
+            "hi": "निकोलस डे ला क्रूज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. دي لا كروز",
+            "bn": "এন. ডি লা ক্রুজ",
+            "hi": "एन. डे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 26.8,
+        "y": 43.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 12.8,
+        "y": 47.5,
+        "z": 0
+      },
+      "xg": 0.010079518891871,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Sergio Rochet",
+        "slug": "sergio-rochet",
+        "shortName": "S. Rochet",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2598,
+        "gender": "M",
+        "id": 581060,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرجيو روشيت",
+            "bn": "সার্জিও রোচেট",
+            "hi": "सर्जियो रोशेट"
+          },
+          "shortNameTranslation": {
+            "ar": "س. روشيت",
+            "bn": "সার্জিও রোচেট",
+            "hi": "सर्जियो रोशेट"
+          }
+        }
+      },
+      "id": 6647125,
+      "time": 56,
+      "timeSeconds": 3341,
+      "draw": {
+        "start": {
+          "x": 43.2,
+          "y": 26.8
+        },
+        "block": {
+          "x": 47.5,
+          "y": 12.8
+        },
+        "end": {
+          "x": 51.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2059,
+      "periodTimeSeconds": 641,
+      "incidentType": "shot"
+    }
+  ]
+}

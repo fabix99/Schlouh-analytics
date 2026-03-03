@@ -1,0 +1,81 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Thalisson Kelven",
+        "slug": "thalisson-kelven",
+        "shortName": "T. Kelven",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 110,
+        "gender": "M",
+        "id": 863277,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ثاليسون كيلفن"
+          },
+          "shortNameTranslation": {
+            "ar": "ث. كيلفن"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 3.9,
+        "y": 49.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.1,
+        "z": 8.2
+      },
+      "xg": 0.6044140458107,
+      "xgot": 0.98291826248169,
+      "goalkeeper": {
+        "name": "Zafer Görgen",
+        "slug": "zafer-gorgen",
+        "shortName": "Z. Görgen",
+        "position": "G",
+        "jerseyNumber": "20",
+        "userCount": 72,
+        "gender": "M",
+        "id": 930907,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ظافر غورغن"
+          },
+          "shortNameTranslation": {
+            "ar": "ظ. غورغن"
+          }
+        }
+      },
+      "id": 6624381,
+      "time": 10,
+      "timeSeconds": 555,
+      "draw": {
+        "start": {
+          "x": 49.2,
+          "y": 3.9
+        },
+        "end": {
+          "x": 48.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.9,
+          "y": 91.8
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2145,
+      "periodTimeSeconds": 555,
+      "incidentType": "shot"
+    }
+  ]
+}

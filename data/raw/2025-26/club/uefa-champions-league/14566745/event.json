@@ -1,0 +1,402 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": false,
+    "correctHalftimeAiInsight": false,
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1184603,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76953
+    },
+    "roundInfo": {
+      "round": 4
+    },
+    "customId": "rgbsNhb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 27037,
+    "venue": {
+      "city": {
+        "name": "Bruges"
+      },
+      "venueCoordinates": {
+        "latitude": 51.193346,
+        "longitude": 3.180585
+      },
+      "hidden": false,
+      "slug": "jan-breydel-stadium",
+      "name": "Jan Breydel Stadium",
+      "capacity": 29975,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 1187,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب يان بريدل",
+          "hi": "जान ब्रेडेल स्टेडियम",
+          "bn": "জান ব্রেইডেল স্টেডিয়াম"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Jan Breydel Stadium",
+        "capacity": 29975
+      }
+    },
+    "referee": {
+      "name": "Anthony Taylor",
+      "slug": "taylor-anthony",
+      "yellowCards": 2410,
+      "redCards": 67,
+      "yellowRedCards": 48,
+      "games": 640,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 69853,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "تايلور، أنتوني",
+          "bn": "টেলর, অ্যান্টনি",
+          "hi": "टेलर, एंथनी"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "shortName": "Club Brugge",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 298202,
+      "manager": {
+        "name": "Ivan Leko",
+        "slug": "ivan-leko",
+        "shortName": "I. Leko",
+        "country": {
+          "alpha2": "HR",
+          "alpha3": "HRV",
+          "name": "Croatia",
+          "slug": "croatia"
+        },
+        "id": 786964,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفان ليكو",
+            "bn": "ইভান লেকো",
+            "hi": "इवान लेको"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ليكو",
+            "bn": "আই. লেকো",
+            "hi": "आई. लेको"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bruges"
+        },
+        "venueCoordinates": {
+          "latitude": 51.193346,
+          "longitude": 3.180585
+        },
+        "hidden": false,
+        "slug": "jan-breydel-stadium",
+        "name": "Jan Breydel Stadium",
+        "capacity": 29975,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 1187,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب يان بريدل",
+            "hi": "जान ब्रेडेल स्टेडियम",
+            "bn": "জান ব্রেইডেল স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Jan Breydel Stadium",
+          "capacity": 29975
+        }
+      },
+      "nameCode": "BRU",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 2888,
+      "fullName": "Club Brugge KV",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#0080ff",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2465683200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كلوب بروج كي في",
+          "ru": "Брюгге"
+        },
+        "shortNameTranslation": {
+          "ar": "كلوب بروج",
+          "bn": "ব্রুগ কেভি",
+          "hi": "क्लब ब्रुग"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "shortName": "Barcelona",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 6429246,
+      "manager": {
+        "name": "Hans-Dieter Flick",
+        "slug": "hans-dieter-flick",
+        "shortName": "H. Flick",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 793676,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هانس-ديتر فليك"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. فليك"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Barcelona"
+        },
+        "venueCoordinates": {
+          "latitude": 41.380881,
+          "longitude": 2.122818
+        },
+        "hidden": false,
+        "slug": "spotify-camp-nou",
+        "name": "Spotify Camp Nou",
+        "capacity": 99354,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 709,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سبوتيفاي كامب نو",
+            "hi": "स्पॉटिफ़ी कैंप नोउ",
+            "bn": "স্পটিফাই ক্যাম্প ন্যু"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Spotify Camp Nou",
+          "capacity": 99354
+        }
+      },
+      "nameCode": "BAR",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 2817,
+      "fullName": "Barcelona",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#154284",
+        "secondary": "#9d1009",
+        "text": "#9d1009"
+      },
+      "foundationDateTimestamp": -2211840000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "برشلونة",
+          "bn": "বার্সেলোনা",
+          "hi": "बार्सिलोना",
+          "ru": "Барселона"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 2,
+      "period2": 1,
+      "normaltime": 3
+    },
+    "awayScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 1,
+      "period2": 2,
+      "normaltime": 3
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 2,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1762376596
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1762379794
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14566745,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "club-brugge-kv-barcelona",
+    "currentPeriodStartTimestamp": 1762376596,
+    "startTimestamp": 1762372800,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

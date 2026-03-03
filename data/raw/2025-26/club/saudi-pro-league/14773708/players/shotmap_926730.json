@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Haroune Camara",
+        "slug": "haroune-camara",
+        "shortName": "H. Camara",
+        "position": "F",
+        "jerseyNumber": "70",
+        "userCount": 2942,
+        "gender": "M",
+        "id": 926730,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هارون كامارا",
+            "bn": "হারুন কামারা",
+            "hi": "हारून कैमारा"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. كامارا",
+            "bn": "এইচ. কামারা",
+            "hi": "एच. कैमारा"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11,
+        "y": 40.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9,
+        "y": 42.2,
+        "z": 0
+      },
+      "xg": 0.067905783653259,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Juan Cozzani",
+        "slug": "juan-cozzani",
+        "shortName": "J. Cozzani",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 132,
+        "gender": "M",
+        "id": 874969,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوان كوزاني"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. كوزاني"
+          }
+        }
+      },
+      "id": 6610221,
+      "time": 90,
+      "addedTime": 2,
+      "timeSeconds": 5490,
+      "draw": {
+        "start": {
+          "x": 40.5,
+          "y": 11
+        },
+        "block": {
+          "x": 42.2,
+          "y": 9
+        },
+        "end": {
+          "x": 50.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 810,
+      "periodTimeSeconds": 90,
+      "incidentType": "shot"
+    }
+  ]
+}

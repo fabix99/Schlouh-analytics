@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Romelu Lukaku",
+        "slug": "romelu-lukaku",
+        "shortName": "R. Lukaku",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 55746,
+        "gender": "M",
+        "sofascoreId": "RLukaku",
+        "id": 78893,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روميلو لوكاكو",
+            "bn": "রোমেলু লুকাকু",
+            "hi": "रोमेलु लुकाकू"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. لوكاكو",
+            "bn": "আর. লুকাকু",
+            "hi": "आर. लुकाकू"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.4,
+        "y": 56.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.7,
+        "z": 16.5
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 51.4,
+        "z": 0
+      },
+      "xg": 0.28734138607979,
+      "xgot": 0.12564332783222,
+      "goalkeeper": {
+        "name": "Robert Sánchez",
+        "slug": "robert-sanchez",
+        "shortName": "R. Sánchez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 18450,
+        "gender": "M",
+        "sofascoreId": "RS1",
+        "id": 920546,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبرت سانشيز",
+            "bn": "রবার্ট সানচেজ",
+            "hi": "रॉबर्ट सांचेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. سانشيز",
+            "bn": "আর. সানচেজ",
+            "hi": "आर. सांचेज़"
+          }
+        }
+      },
+      "id": 6602877,
+      "time": 90,
+      "addedTime": 4,
+      "timeSeconds": 5591,
+      "draw": {
+        "start": {
+          "x": 56.4,
+          "y": 9.4
+        },
+        "block": {
+          "x": 51.4,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 50.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.3,
+          "y": 83.5
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 709,
+      "periodTimeSeconds": 191,
+      "incidentType": "shot"
+    }
+  ]
+}

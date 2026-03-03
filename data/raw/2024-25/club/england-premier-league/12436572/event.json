@@ -1,0 +1,397 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": false,
+    "tournament": {
+      "name": "Premier League",
+      "slug": "premier-league",
+      "category": {
+        "name": "England",
+        "slug": "england",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 1,
+        "flag": "england",
+        "alpha2": "EN",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إنجلترا",
+            "hi": "इंग्लैंड",
+            "bn": "ইংল্যান্ড",
+            "ru": "Англия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Premier League",
+        "slug": "premier-league",
+        "primaryColorHex": "#3c1c5a",
+        "secondaryColorHex": "#f80158",
+        "category": {
+          "name": "England",
+          "slug": "england",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
+          },
+          "id": 1,
+          "flag": "england",
+          "alpha2": "EN",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إنجلترا",
+              "hi": "इंग्लैंड",
+              "bn": "ইংল্যান্ড",
+              "ru": "Англия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1163098,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 17,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإنجليزي الممتاز",
+            "hi": "प्रिमियर लीग",
+            "bn": "প্রিমিয়ার লীগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 699,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 1,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "प्रिमियर लीग",
+          "ar": "الدوري الإنجليزي الممتاز",
+          "bn": "প্রিমিয়ার লীগ"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Premier League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 61627
+    },
+    "roundInfo": {
+      "round": 35
+    },
+    "customId": "HsY",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 39305,
+    "venue": {
+      "city": {
+        "name": "Liverpool"
+      },
+      "hidden": false,
+      "slug": "goodison-park",
+      "name": "Goodison Park",
+      "capacity": 39571,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 12,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "جوديسون بارك",
+          "hi": "गुडिसन पार्क",
+          "bn": "গুডিসন পার্ক"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Goodison Park",
+        "capacity": 39571
+      }
+    },
+    "referee": {
+      "name": "Lewis Smith",
+      "slug": "lewis-smith",
+      "yellowCards": 442,
+      "redCards": 6,
+      "yellowRedCards": 7,
+      "games": 121,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 787671,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "لويس سميث"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Everton",
+      "slug": "everton",
+      "shortName": "Everton",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 366678,
+      "manager": {
+        "name": "David Moyes",
+        "slug": "david-moyes",
+        "shortName": "D. Moyes",
+        "country": {
+          "alpha2": "SX",
+          "alpha3": "SCO",
+          "name": "Scotland",
+          "slug": "scotland"
+        },
+        "id": 52950,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد مويس",
+            "bn": "ডেভিড মোয়েস",
+            "hi": "डेविड मोयेस"
+          },
+          "shortNameTranslation": {
+            "ar": "د. مويس",
+            "bn": "ডি. মোয়েস",
+            "hi": "डी. मोयेस"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Liverpool"
+        },
+        "venueCoordinates": {
+          "latitude": 53.4251,
+          "longitude": -3.0028
+        },
+        "hidden": true,
+        "slug": "everton-stadium",
+        "name": "Hill Dickinson Stadium",
+        "capacity": 52888,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 50461,
+        "stadium": {
+          "name": "Hill Dickinson Stadium",
+          "capacity": 52888
+        }
+      },
+      "nameCode": "EVE",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 48,
+      "fullName": "Everton",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#274488",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2890166400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إيفرتون",
+          "bn": "এভারটন",
+          "hi": "एवर्टन",
+          "ru": "Эвертон"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Ipswich Town",
+      "slug": "ipswich-town",
+      "shortName": "Ipswich",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 107448,
+      "manager": {
+        "name": "Kieran McKenna",
+        "slug": "kieran-mckenna",
+        "shortName": "K. McKenna",
+        "country": {
+          "alpha2": "NX",
+          "alpha3": "NIR",
+          "name": "Northern Ireland",
+          "slug": "northern-ireland"
+        },
+        "id": 796814,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "McKenna, Kieran"
+          },
+          "shortNameTranslation": {
+            "ar": "K. McKenna"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Ipswich"
+        },
+        "venueCoordinates": {
+          "latitude": 52.054952,
+          "longitude": 1.145285
+        },
+        "hidden": false,
+        "slug": "portman-road-stadium",
+        "name": "Portman Road Stadium",
+        "capacity": 29673,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 2188,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب بورتمان رود",
+            "hi": "पोर्टमैन रोड स्टेडियम",
+            "bn": "পোর্টম্যান রোড স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Portman Road Stadium",
+          "capacity": 29673
+        }
+      },
+      "nameCode": "IPS",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 32,
+      "fullName": "Ipswich Town",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#0000ff",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2878329600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ايبسويتش تاون",
+          "hi": "इप्स्विच टाउन",
+          "ru": "Ипсвич Таун"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 2,
+      "period2": 0,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 3,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1746284747
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1746287862
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12436572,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "everton-ipswich-town",
+    "currentPeriodStartTimestamp": 1746284747,
+    "startTimestamp": 1746280800,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

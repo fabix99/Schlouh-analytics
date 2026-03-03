@@ -1,0 +1,109 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 10,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 3,
+    "awayNormaltimeScore": 1
+  },
+  "sections": [
+    {
+      "subtitle": "Real Madrid Form",
+      "text": "Real Madrid are in excellent form, winning all of their last 5 matches with a strong attacking output, scoring 10 goals. Their defense is the best in the league, conceding only 2 goals this season, and they dominate possession and final third entries."
+    },
+    {
+      "subtitle": "Espanyol Form",
+      "text": "Espanyol are also in good shape, unbeaten in their last 5 matches with 3 wins and 2 draws, scoring 8 goals. However, their defense has conceded 5 goals, and they struggle with possession against top teams."
+    },
+    {
+      "subtitle": "Head-to-Head Analysis",
+      "text": "In the last two head-to-head matches, Real Madrid won 4-1 at home, showcasing their dominance, while Espanyol managed a narrow 1-0 victory at home. Matches between these teams often see high-scoring outcomes with over 2.5 goals in most recent encounters."
+    },
+    {
+      "subtitle": "Season Statistics Impact",
+      "text": "Real Madrid's superior stats in goals scored, possession (57.5%), and defensive solidity (least goals conceded) heavily favor them. Espanyol's ability to create chances is notable, but their lower conversion rate and defensive vulnerabilities could be exploited."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "shortName": "Real Madrid",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 6783154,
+      "nameCode": "RMA",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 2829,
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#004996",
+        "text": "#004996"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ريال مدريد",
+          "bn": "রিয়াল মাদ্রিদ",
+          "hi": "रियल मैड्रिड",
+          "ru": "Реал Мадрид"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Kylian Mbappé",
+      "slug": "kylian-mbappe",
+      "shortName": "K. Mbappé",
+      "position": "F",
+      "jerseyNumber": "10",
+      "userCount": 1767405,
+      "gender": "M",
+      "sofascoreId": "KMbappé",
+      "id": 826643,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كيليان مبابي",
+          "bn": "কিলিয়ান এমবাপ্পে",
+          "hi": "किलियन एमबाप्पे"
+        },
+        "shortNameTranslation": {
+          "ar": "ك. مبابي",
+          "bn": "কে. এমবাপ্পে",
+          "hi": "के. एमबाप्पे"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half overview",
+      "text": "The first half at the Santiago Bernabéu saw Real Madrid take a narrow lead over Espanyol with a score of 1-0. Real Madrid dominated possession and controlled much of the game, frequently penetrating the final third and creating opportunities. Espanyol, while less dominant, managed to carve out a few dangerous moments despite being under pressure for extended periods. The single goal, scored by Éder Militão in the 22nd minute, came from a well-executed play, highlighting Real Madrid's ability to capitalize on their chances. However, both teams missed big opportunities, suggesting that the game remains open for the second half."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Real Madrid showcased consistent attacking intent throughout the first half, with multiple spells of sustained pressure, particularly in the middle and latter stages of the half. Their momentum shifted positively around the time of the goal, with a notable surge in attacking threat. Espanyol had early moments of promise, pushing forward in the opening minutes, but their attacking phases were sporadic. Towards the end of the half, they managed a brief resurgence, indicating they could pose a threat if given space. Overall, Real Madrid's attacking rhythm was far more dominant and frequent compared to Espanyol's intermittent bursts."
+    },
+    {
+      "subtitle": "Key player performances",
+      "text": "Éder Militão stood out for Real Madrid, not only for his goal but also for his overall impact on the game, earning a high rating for his contributions. Federico Valverde played a crucial role in midfield, providing the assist for the goal and maintaining a strong presence. Vinícius Júnior was dangerous on the wing, creating a big chance and consistently troubling the Espanyol defense. For Espanyol, Edu Expósito showed creativity with a key role in their attacking setup, while Omar El Hilali was impressive defensively with several tackles won. However, Espanyol's forward line struggled to convert their limited chances into goals."
+    },
+    {
+      "subtitle": "Tactical observations",
+      "text": "Real Madrid's high possession and frequent final third entries underline their intent to control the game through territorial dominance. Their ability to win duels, particularly in the air, further solidifies their command over Espanyol. On the other hand, Espanyol's lower possession and fewer entries into dangerous areas reflect a more defensive posture, likely looking to counterattack. Their higher expected goals figure compared to Real Madrid suggests they created quality chances despite limited opportunities, which could be a point of focus in the second half. Discipline-wise, Real Madrid picked up a yellow card, while Espanyol remained clean, which might influence their approach to challenges later."
+    },
+    {
+      "subtitle": "Second half expectations",
+      "text": "Looking ahead to the second half, Real Madrid are likely to maintain their dominance, leveraging their possession and attacking players to create more scoring opportunities. Players like Kylian Mbappé, who missed a big chance in the first half, will be eager to make amends. Espanyol, however, cannot be ruled out, as their expected goals indicate potential for a comeback if they capitalize on limited chances. They might adopt a more aggressive stance to level the score, focusing on quick transitions. The game could see an increase in intensity, with Real Madrid pushing for a cushion goal and Espanyol seeking an equalizer."
+    }
+  ],
+  "modelName": "Grok3"
+}

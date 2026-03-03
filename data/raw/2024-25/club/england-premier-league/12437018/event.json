@@ -1,0 +1,406 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Premier League",
+      "slug": "premier-league",
+      "category": {
+        "name": "England",
+        "slug": "england",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 1,
+        "flag": "england",
+        "alpha2": "EN",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إنجلترا",
+            "hi": "इंग्लैंड",
+            "bn": "ইংল্যান্ড",
+            "ru": "Англия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Premier League",
+        "slug": "premier-league",
+        "primaryColorHex": "#3c1c5a",
+        "secondaryColorHex": "#f80158",
+        "category": {
+          "name": "England",
+          "slug": "england",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
+          },
+          "id": 1,
+          "flag": "england",
+          "alpha2": "EN",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إنجلترا",
+              "hi": "इंग्लैंड",
+              "bn": "ইংল্যান্ড",
+              "ru": "Англия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1163098,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 17,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإنجليزي الممتاز",
+            "hi": "प्रिमियर लीग",
+            "bn": "প্রিমিয়ার লীগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 699,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 1,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "प्रिमियर लीग",
+          "ar": "الدوري الإنجليزي الممتاز",
+          "bn": "প্রিমিয়ার লীগ"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Premier League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 61627
+    },
+    "roundInfo": {
+      "round": 7
+    },
+    "customId": "OY",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 39265,
+    "venue": {
+      "city": {
+        "name": "Liverpool"
+      },
+      "hidden": false,
+      "slug": "goodison-park",
+      "name": "Goodison Park",
+      "capacity": 39571,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 12,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "جوديسون بارك",
+          "hi": "गुडिसन पार्क",
+          "bn": "গুডিসন পার্ক"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Goodison Park",
+        "capacity": 39571
+      }
+    },
+    "referee": {
+      "name": "Craig Pawson",
+      "slug": "pawson-craig",
+      "yellowCards": 1735,
+      "redCards": 43,
+      "yellowRedCards": 25,
+      "games": 468,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 81627,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "باوسون، كرايغ",
+          "bn": "পসন, ক্রেগ",
+          "hi": "पॉसन, क्रेग"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Everton",
+      "slug": "everton",
+      "shortName": "Everton",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 366678,
+      "manager": {
+        "name": "David Moyes",
+        "slug": "david-moyes",
+        "shortName": "D. Moyes",
+        "country": {
+          "alpha2": "SX",
+          "alpha3": "SCO",
+          "name": "Scotland",
+          "slug": "scotland"
+        },
+        "id": 52950,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد مويس",
+            "bn": "ডেভিড মোয়েস",
+            "hi": "डेविड मोयेस"
+          },
+          "shortNameTranslation": {
+            "ar": "د. مويس",
+            "bn": "ডি. মোয়েস",
+            "hi": "डी. मोयेस"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Liverpool"
+        },
+        "venueCoordinates": {
+          "latitude": 53.4251,
+          "longitude": -3.0028
+        },
+        "hidden": true,
+        "slug": "everton-stadium",
+        "name": "Hill Dickinson Stadium",
+        "capacity": 52888,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 50461,
+        "stadium": {
+          "name": "Hill Dickinson Stadium",
+          "capacity": 52888
+        }
+      },
+      "nameCode": "EVE",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 48,
+      "fullName": "Everton",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#274488",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2890166400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إيفرتون",
+          "bn": "এভারটন",
+          "hi": "एवर्टन",
+          "ru": "Эвертон"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Newcastle United",
+      "slug": "newcastle-united",
+      "shortName": "Newcastle",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 871244,
+      "manager": {
+        "name": "Eddie Howe",
+        "slug": "eddie-howe",
+        "shortName": "E. Howe",
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 19618,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيدي هاو",
+            "bn": "এডি হো",
+            "hi": "एडी होवे"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. هاو",
+            "bn": "ই. হো",
+            "hi": "ई. होवे"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Newcastle upon Tyne"
+        },
+        "venueCoordinates": {
+          "latitude": 54.975469,
+          "longitude": -1.621874
+        },
+        "hidden": false,
+        "slug": "st-james-park",
+        "name": "St James' Park",
+        "capacity": 52409,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 765,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارك سانت جيمس",
+            "hi": "सेंट जेम्स पार्क",
+            "bn": "সেন্ট জেমস পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "St James' Park",
+          "capacity": 52409
+        }
+      },
+      "nameCode": "NEW",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 39,
+      "fullName": "Newcastle United",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2431814400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نيوكاسل يونايتد",
+          "hi": "न्यू कास्सेल यूनाइटेड ऍफ़सी",
+          "ru": "Ньюкасл Юнайтед"
+        },
+        "shortNameTranslation": {
+          "ar": "نيوكاسل",
+          "bn": "নিউক্যাসল",
+          "hi": "न्यूकैसल"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 6,
+      "injuryTime2": 4,
+      "currentPeriodStartTimestamp": 1728149816
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1728152820
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12437018,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "everton-newcastle-united",
+    "currentPeriodStartTimestamp": 1728149816,
+    "startTimestamp": 1728145800,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

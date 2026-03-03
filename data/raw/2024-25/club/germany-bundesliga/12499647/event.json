@@ -1,0 +1,415 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Bundesliga",
+      "slug": "bundesliga",
+      "category": {
+        "name": "Germany",
+        "slug": "germany",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 30,
+        "flag": "germany",
+        "alpha2": "DE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألمانيا",
+            "bn": "জার্মানি",
+            "hi": "जर्मनी",
+            "ru": "Германия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Bundesliga",
+        "slug": "bundesliga",
+        "primaryColorHex": "#e2080e",
+        "secondaryColorHex": "#8e0902",
+        "category": {
+          "name": "Germany",
+          "slug": "germany",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "DE",
+            "alpha3": "DEU",
+            "name": "Germany",
+            "slug": "germany"
+          },
+          "id": 30,
+          "flag": "germany",
+          "alpha2": "DE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألمانيا",
+              "bn": "জার্মানি",
+              "hi": "जर्मनी",
+              "ru": "Германия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 508922,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 35,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "বুন্দেসলীগা",
+            "ar": "الدوري الألماني",
+            "hi": "बुंडेसलीगा"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 695,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 42,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "बुंडेसलीगा",
+          "ar": "الدوري الألماني",
+          "bn": "বুন্দেসলীগা"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Bundesliga 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 63516
+    },
+    "roundInfo": {
+      "round": 16
+    },
+    "customId": "Cabsxdb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 54042,
+    "venue": {
+      "city": {
+        "name": "Monchengladbach"
+      },
+      "venueCoordinates": {
+        "latitude": 51.174625,
+        "longitude": 6.385409
+      },
+      "hidden": false,
+      "slug": "borussia-park",
+      "name": "Borussia-Park",
+      "capacity": 54057,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 788,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بوروسيا-بارك",
+          "hi": "बोरुसिया पार्क",
+          "bn": "বরুশিয়া-পার্ক"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Borussia-Park",
+        "capacity": 54057
+      }
+    },
+    "referee": {
+      "name": "Felix Zwayer",
+      "slug": "zwayer-felix",
+      "yellowCards": 2337,
+      "redCards": 49,
+      "yellowRedCards": 56,
+      "games": 510,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 52417,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "زواير، فيليكس",
+          "bn": "জাওয়ার, ফেলিক্স",
+          "hi": "ज़्वेयर, फ़ेलिक्स"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Borussia M'gladbach",
+      "slug": "borussia-mgladbach",
+      "shortName": "M'gladbach",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 108218,
+      "manager": {
+        "name": "Eugen Polanski",
+        "slug": "eugen-polanski",
+        "shortName": "E. Polanski",
+        "country": {
+          "alpha2": "PL",
+          "alpha3": "POL",
+          "name": "Poland",
+          "slug": "poland"
+        },
+        "id": 813824,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوجن بولانسكي"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. بولانسكي"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Monchengladbach"
+        },
+        "venueCoordinates": {
+          "latitude": 51.174625,
+          "longitude": 6.385409
+        },
+        "hidden": false,
+        "slug": "borussia-park",
+        "name": "Borussia-Park",
+        "capacity": 54057,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 788,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بوروسيا-بارك",
+            "hi": "बोरुसिया पार्क",
+            "bn": "বরুশিয়া-পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Borussia-Park",
+          "capacity": 54057
+        }
+      },
+      "nameCode": "BMG",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2527,
+      "fullName": "Borussia M'gladbach",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2190672000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بوروسيا م'غلادباخ",
+          "ru": "Боруссия Мёнхенгладбах"
+        },
+        "shortNameTranslation": {
+          "ar": "م'غلادباخ",
+          "bn": "এম'গ্লাডবাখ",
+          "hi": "एम'ग्लैडबाक"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "FC Bayern München",
+      "slug": "fc-bayern-munchen",
+      "shortName": "Bayern",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 2405724,
+      "manager": {
+        "name": "Vincent Kompany",
+        "slug": "vincent-kompany",
+        "shortName": "V. Kompany",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 792129,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فينسنت كومباني",
+            "bn": "ভিনসেন্ট কোম্পানি",
+            "hi": "विन्सेंट कोम्पनी"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. كومباني",
+            "bn": "ভি. কোম্পানি",
+            "hi": "वी. कोम्पनी"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Munich"
+        },
+        "venueCoordinates": {
+          "latitude": 48.218808,
+          "longitude": 11.624664
+        },
+        "hidden": false,
+        "slug": "allianz-arena",
+        "name": "Allianz Arena",
+        "capacity": 75024,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 574,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليانز أرينا",
+            "hi": "एलियांज एरिना",
+            "bn": "আলিয়াঞ্জ এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Allianz Arena",
+          "capacity": 75024
+        }
+      },
+      "nameCode": "FCB",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2672,
+      "fullName": "FC Bayern München",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#cf142f",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2204064000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إف سي بايرن ميونيخ",
+          "ru": "Бавария Мюнхен"
+        },
+        "shortNameTranslation": {
+          "ar": "بايرن",
+          "bn": "বায়ার্ন",
+          "hi": "बायर्न"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 1,
+      "display": 1,
+      "period1": 0,
+      "period2": 1,
+      "normaltime": 1
+    },
+    "time": {
+      "injuryTime1": 0,
+      "injuryTime2": 3,
+      "currentPeriodStartTimestamp": 1736620408
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1736623450
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12499647,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "fc-bayern-munchen-borussia-mgladbach",
+    "currentPeriodStartTimestamp": 1736620408,
+    "startTimestamp": 1736616600,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

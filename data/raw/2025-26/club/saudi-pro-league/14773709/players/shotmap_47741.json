@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Chris Smalling",
+        "slug": "chris-smalling",
+        "shortName": "C. Smalling",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 1676,
+        "gender": "M",
+        "id": 47741,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريس سمولينغ",
+            "bn": "ক্রিস স্মলিং",
+            "hi": "क्रिस स्मालिंग"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. سمولينغ",
+            "bn": "সি. স্মলিং",
+            "hi": "सी. स्मालिंग"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 4.2,
+        "y": 49.1,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.1,
+        "z": 12
+      },
+      "xg": 0.26963442564011,
+      "xgot": 0.72326749563217,
+      "goalkeeper": {
+        "name": "Anthony Moris",
+        "slug": "anthony-moris",
+        "shortName": "A. Moris",
+        "position": "G",
+        "jerseyNumber": "49",
+        "userCount": 292,
+        "gender": "M",
+        "id": 39457,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنتوني موريس",
+            "bn": "অ্যান্টনি মরিস",
+            "hi": "एंथनी मोरिस"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موريس",
+            "bn": "এ. মরিস",
+            "hi": "ए. मोरिस"
+          }
+        }
+      },
+      "id": 6602161,
+      "time": 38,
+      "timeSeconds": 2245,
+      "draw": {
+        "start": {
+          "x": 49.1,
+          "y": 4.2
+        },
+        "end": {
+          "x": 49.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.9,
+          "y": 88
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 455,
+      "periodTimeSeconds": 2245,
+      "incidentType": "shot"
+    }
+  ]
+}

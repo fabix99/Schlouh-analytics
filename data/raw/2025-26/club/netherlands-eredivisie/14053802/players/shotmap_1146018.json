@@ -1,0 +1,86 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Paul Wanner",
+        "slug": "paul-wanner",
+        "shortName": "P. Wanner",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 3851,
+        "gender": "M",
+        "id": 1146018,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باول فانر",
+            "bn": "পল ওয়ানার",
+            "hi": "पॉल वानर"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فانر",
+            "bn": "পি. ওয়ানার",
+            "hi": "पी. वानर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 17,
+        "y": 48.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.6,
+        "z": 48.6
+      },
+      "xg": 0.142189219594,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Daniel Bielica",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bielica-daniel",
+        "shortName": "D. Bielica",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 299,
+        "gender": "M",
+        "id": 939460,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيليكا، دانيال"
+          },
+          "shortNameTranslation": {
+            "ar": "د. بيليكا"
+          }
+        }
+      },
+      "id": 6582342,
+      "time": 4,
+      "timeSeconds": 213,
+      "draw": {
+        "start": {
+          "x": 48.5,
+          "y": 17
+        },
+        "end": {
+          "x": 49.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.4,
+          "y": 51.4
+        }
+      },
+      "reversedPeriodTime": 42,
+      "reversedPeriodTimeSeconds": 2487,
+      "periodTimeSeconds": 213,
+      "incidentType": "shot"
+    }
+  ]
+}

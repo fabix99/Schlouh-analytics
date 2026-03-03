@@ -1,0 +1,92 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kai Havertz",
+        "slug": "kai-havertz",
+        "shortName": "K. Havertz",
+        "position": "F",
+        "jerseyNumber": "29",
+        "userCount": 67276,
+        "gender": "M",
+        "sofascoreId": "KaiHav",
+        "id": 836705,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاي هافرتز",
+            "bn": "কাই হাভার্টজ",
+            "hi": "काई हावर्ट्ज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. هافيرتز",
+            "bn": "কে. হাভার্টজ",
+            "hi": "के. हावर्ट्ज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.7,
+        "y": 58.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51,
+        "z": 17.1
+      },
+      "xg": 0.099748365581036,
+      "xgot": 0.20253473520279,
+      "goalkeeper": {
+        "name": "Temirlan Anarbekov",
+        "firstName": "",
+        "lastName": "",
+        "slug": "temirlan-anarbekov",
+        "shortName": "T. Anarbekov",
+        "position": "G",
+        "jerseyNumber": "77",
+        "userCount": 8976,
+        "gender": "M",
+        "id": 1005884,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تيميرلان أناربيكوف",
+            "bn": "তেমিরলান আনারবেকভ",
+            "hi": "तेमिरलान अनारबेकोव"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. أناربيكوف",
+            "bn": "টি. আনারবেকভ",
+            "hi": "टी. अनारबेकोव"
+          }
+        }
+      },
+      "id": 6602390,
+      "time": 15,
+      "timeSeconds": 899,
+      "draw": {
+        "start": {
+          "x": 58.3,
+          "y": 13.7
+        },
+        "end": {
+          "x": 49,
+          "y": 0
+        },
+        "goal": {
+          "x": 49,
+          "y": 82.9
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1801,
+      "periodTimeSeconds": 899,
+      "incidentType": "shot"
+    }
+  ]
+}

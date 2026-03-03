@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jan Plug",
+        "firstName": "Jan Plug",
+        "slug": "jan-plug",
+        "shortName": "J. Plug",
+        "position": "D",
+        "jerseyNumber": "25",
+        "userCount": 234,
+        "gender": "M",
+        "id": 1545079,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بلوق، يان"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. بلوق"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.6,
+        "y": 35.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.6,
+        "z": 17.1
+      },
+      "blockCoordinates": {
+        "x": 3.5,
+        "y": 47.5,
+        "z": 0
+      },
+      "xg": 0.029377656057477,
+      "xgot": 0.25209882855415,
+      "goalkeeper": {
+        "name": "Daniil Khudyakov",
+        "firstName": "Daniil",
+        "lastName": "Khudyakov",
+        "slug": "daniil-khudyakov",
+        "shortName": "D. Khudyakov",
+        "position": "G",
+        "jerseyNumber": "53",
+        "userCount": 491,
+        "gender": "M",
+        "id": 1101753,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دانييل خودياكوف",
+            "bn": "ড্যানিল খুদিয়াকভ",
+            "hi": "डेनियल खुद्याकोव"
+          },
+          "shortNameTranslation": {
+            "ar": "د. خودياكوف",
+            "bn": "ডি. খুদিয়াকভ",
+            "hi": "डी. खुद्याकोव"
+          }
+        }
+      },
+      "id": 6570834,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5574,
+      "draw": {
+        "start": {
+          "x": 35.1,
+          "y": 21.6
+        },
+        "block": {
+          "x": 47.5,
+          "y": 3.5
+        },
+        "end": {
+          "x": 54.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.4,
+          "y": 82.9
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 726,
+      "periodTimeSeconds": 174,
+      "incidentType": "shot"
+    }
+  ]
+}

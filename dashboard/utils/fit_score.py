@@ -255,6 +255,32 @@ def calculate_style_alignment(
     }
 
 
+def _coach_summary(overall: float, gap_result: Dict[str, Any], style_result: Dict[str, Any]) -> str:
+    """One or two short sentences for coaches/scouting directors. No numbers or jargon."""
+    avg_gap = gap_result.get("avg_improvement_pct", 0)
+
+    if avg_gap > 20:
+        squad = "He would be a clear upgrade on what we have."
+    elif avg_gap > 5:
+        squad = "He would strengthen the squad."
+    elif avg_gap > -5:
+        squad = "Similar level to current options."
+    else:
+        squad = "Would not improve the squad."
+
+    style_score = style_result.get("score", 0)
+    if style_score > 85:
+        style = "Fits how we play very well."
+    elif style_score > 70:
+        style = "Fits our style well."
+    elif style_score > 50:
+        style = "Could adapt to our game with the right role or time."
+    else:
+        style = "Doesn't align well with our tactical profile."
+
+    return f"{squad} {style}"
+
+
 def calculate_fit_score(
     player_data: pd.Series,
     team_data: pd.Series,
@@ -313,23 +339,26 @@ def calculate_fit_score(
     )
     confidence = min(0.95, 0.5 + data_points * 0.05)
     
-    # Generate recommendation
+    # Coach-friendly verdict (no numbers, one line)
     if overall >= 85:
-        recommendation = "Strong recommendation: Ideal fit for tactical system"
+        recommendation = "Strong recommendation: Ideal fit for how we play."
     elif overall >= 70:
-        recommendation = "Recommended: Good fit with room to integrate"
+        recommendation = "Recommended: Good fit, would integrate well."
     elif overall >= 55:
-        recommendation = "Conditional: Requires tactical adaptation or specific role"
+        recommendation = "Worth considering: Would add to the squad but may need a clear role or time to adapt."
     else:
-        recommendation = "Not recommended: Significant style or capability mismatch"
-    
-    # Summary explanation
-    explanations = [
+        recommendation = "Not recommended: Profile doesn't align with our style or needs."
+
+    # Short summary for coaches/scouting directors (1–2 sentences, no scores)
+    explanation = _coach_summary(overall, gap_result, style_result)
+
+    # Technical breakdown (kept for APIs/debug; not shown in main UI)
+    explanation_technical = " | ".join([
         f"Statistical match: {sim_result['score']:.0f}/100",
         f"Squad upgrade: {gap_result['explanation']}",
         f"Style fit: {style_result['explanation']}"
-    ]
-    
+    ])
+
     return {
         "overall_score": overall,
         "confidence": confidence,
@@ -340,7 +369,8 @@ def calculate_fit_score(
             "style_alignment": style_result
         },
         "weights_used": weights,
-        "explanation": " | ".join(explanations),
+        "explanation": explanation,
+        "explanation_technical": explanation_technical,
         "recommendation": recommendation,
         "position": position
     }

@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ogün Bayrak",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ogun-bayrak",
+        "shortName": "O. Bayrak",
+        "position": "M",
+        "jerseyNumber": "77",
+        "userCount": 46,
+        "gender": "M",
+        "id": 903999,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوغون بايراك"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بايراك"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 27.5,
+        "y": 53,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 21.1,
+        "y": 52.3,
+        "z": 0
+      },
+      "xg": 0.021074445918202,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bilal Bayazit",
+        "slug": "bilal-bayazit",
+        "shortName": "B. Bayazit",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 239,
+        "gender": "M",
+        "id": 825850,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بلال بايازيت"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. بايازيت"
+          }
+        }
+      },
+      "id": 6717227,
+      "time": 34,
+      "timeSeconds": 2033,
+      "draw": {
+        "start": {
+          "x": 53,
+          "y": 27.5
+        },
+        "block": {
+          "x": 52.3,
+          "y": 21.1
+        },
+        "end": {
+          "x": 50.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 667,
+      "periodTimeSeconds": 2033,
+      "incidentType": "shot"
+    }
+  ]
+}

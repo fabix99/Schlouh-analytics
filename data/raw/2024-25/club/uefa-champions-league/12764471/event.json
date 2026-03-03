@@ -1,0 +1,406 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1189676,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 61644
+    },
+    "roundInfo": {
+      "round": 5
+    },
+    "customId": "eYsRdb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 22500,
+    "venue": {
+      "city": {
+        "name": "Bratislava"
+      },
+      "venueCoordinates": {
+        "latitude": 48.163491,
+        "longitude": 17.136795
+      },
+      "hidden": true,
+      "slug": "tehelne-pole-stadion",
+      "name": "Tehelne Pole Stadion",
+      "capacity": 22500,
+      "country": {
+        "alpha2": "SK",
+        "alpha3": "SVK",
+        "name": "Slovakia",
+        "slug": "slovakia"
+      },
+      "id": 901,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب تيهيلني بول",
+          "hi": "टेहेल्ने पोल स्टेडियन",
+          "bn": "তেহেলনে পোল স্টেডিয়ান"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Tehelne Pole Stadion",
+        "capacity": 22500
+      }
+    },
+    "referee": {
+      "name": "José María Sánchez Martínez",
+      "slug": "sanchez-martinez-jose-maria",
+      "yellowCards": 2105,
+      "redCards": 42,
+      "yellowRedCards": 56,
+      "games": 382,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 129910,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سانشيز مارتينيز، خوسيه ماريا",
+          "bn": "সানচেজ মার্টিনেজ, হোসে মারিয়া",
+          "hi": "सांचेज़ मार्टिनेज़, जोस मारिया"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "ŠK Slovan Bratislava",
+      "slug": "sk-slovan-bratislava",
+      "shortName": "Slovan",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 59645,
+      "manager": {
+        "name": "Vladimir Weiss",
+        "slug": "vladimir-weiss",
+        "shortName": "V. Weiss",
+        "country": {
+          "alpha2": "SK",
+          "alpha3": "SVK",
+          "name": "Slovakia",
+          "slug": "slovakia"
+        },
+        "id": 53433,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فلاديمير فايس",
+            "bn": "ভ্লাদিমির ওয়েইস",
+            "hi": "व्लादिमीर वेइस"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فايس",
+            "bn": "ভি. ওয়েইস",
+            "hi": "वी. वेइस"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bratislava"
+        },
+        "venueCoordinates": {
+          "latitude": 48.163491,
+          "longitude": 17.136795
+        },
+        "hidden": true,
+        "slug": "tehelne-pole-stadion",
+        "name": "Tehelne Pole Stadion",
+        "capacity": 22500,
+        "country": {
+          "alpha2": "SK",
+          "alpha3": "SVK",
+          "name": "Slovakia",
+          "slug": "slovakia"
+        },
+        "id": 901,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب تيهيلني بول",
+            "hi": "टेहेल्ने पोल स्टेडियन",
+            "bn": "তেহেলনে পোল স্টেডিয়ান"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Tehelne Pole Stadion",
+          "capacity": 22500
+        }
+      },
+      "nameCode": "SLO",
+      "class": 1,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "SK",
+        "alpha3": "SVK",
+        "name": "Slovakia",
+        "slug": "slovakia"
+      },
+      "id": 2404,
+      "fullName": "ŠK Slovan Bratislava",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#99ccff",
+        "secondary": "#99ccff",
+        "text": "#99ccff"
+      },
+      "foundationDateTimestamp": -1598918400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إس كيه سلوفان براتيسلافا",
+          "ru": "Слован Братислава"
+        },
+        "shortNameTranslation": {
+          "ar": "سلوفان",
+          "bn": "স্লোভান",
+          "hi": "स्लोवान"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Milan",
+      "slug": "milan",
+      "shortName": "Milan",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 1635619,
+      "manager": {
+        "name": "Massimiliano Allegri",
+        "slug": "massimiliano-allegri",
+        "shortName": "M. Allegri",
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 53594,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماسيمليانو أليغري",
+            "bn": "ম্যাসিমিলিয়ানো অ্যালেগ্রি",
+            "hi": "मासिमिलियानो एलेग्री"
+          },
+          "shortNameTranslation": {
+            "ar": "م. أليغري",
+            "bn": "এম. অ্যালেগ্রি",
+            "hi": "एम. एलेग्री"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Milan"
+        },
+        "venueCoordinates": {
+          "latitude": 45.4782,
+          "longitude": 9.123964
+        },
+        "hidden": false,
+        "slug": "san-siro-giuseppe-meazza",
+        "name": "San Siro/Giuseppe Meazza",
+        "capacity": 75817,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 647,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سان سيرو / جوزيبي مياتزا",
+            "hi": "सैन सिरो/गिउसेप्पे मेआज़ा",
+            "bn": "সান সিরো/জিউসেপ মেজা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "San Siro/Giuseppe Meazza",
+          "capacity": 75817
+        }
+      },
+      "nameCode": "ACM",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2692,
+      "fullName": "Milan",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#cc0000",
+        "text": "#cc0000"
+      },
+      "foundationDateTimestamp": -2210371200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ميلان",
+          "bn": "মিলান",
+          "hi": "मिलान",
+          "ru": "Милан"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 1,
+      "period2": 2,
+      "normaltime": 3
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 4,
+      "currentPeriodStartTimestamp": 1732646794
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1732649807
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12764471,
+    "homeRedCards": 1,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "milan-sk-slovan-bratislava",
+    "currentPeriodStartTimestamp": 1732646794,
+    "startTimestamp": 1732643100,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "predictions": {
+    "yellowCards": 3,
+    "corners": 9,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 51,
+      "draw": 24,
+      "away": 25
+    },
+    "possibleResultsMatrix": [
+      [
+        0.061894313671749,
+        0.067721613654523,
+        0.037048774628111,
+        0.013512295680045,
+        0.0036961168698095,
+        0.00080882066164166
+      ],
+      [
+        0.10504013069486,
+        0.11492957474032,
+        0.062875051004847,
+        0.02293156220694,
+        0.0062726375984596,
+        0.0013726402793335
+      ],
+      [
+        0.089131201251444,
+        0.097522832351383,
+        0.053352264393956,
+        0.019458445763118,
+        0.0053226107057104,
+        0.0011647460468087
+      ],
+      [
+        0.050421180197016,
+        0.055168293866484,
+        0.030181172239984,
+        0.011007568465371,
+        0.0030109805516263,
+        0.00065889239105204
+      ],
+      [
+        0.021392301826674,
+        0.023406369883511,
+        0.012805030416142,
+        0.0046702045860271,
+        0.0012774751503823,
+        0.00027954968220912
+      ],
+      [
+        0.0072609260736125,
+        0.0079445364389861,
+        0.0043462540859458,
+        0.0015851501405756,
+        0.00043359768868991,
+        9.4884112652679e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Form Analysis",
+      "text": "Estoril Praia has shown strong form, winning 4 of their last 5 matches including a 5-0 rout of CF Estrela Amadora. Vitória SC, however, has faced more challenges, losing 2 of their last 5 matches, including a recent narrow defeat to FC Porto."
+    },
+    {
+      "subtitle": "Head to Head",
+      "text": "In their last two meetings, Vitória SC has come out on top with a 3-2 victory. This trend suggests they could maintain a psychological advantage despite Estoril’s recent strong performances."
+    },
+    {
+      "subtitle": "Match Importance",
+      "text": "Both teams are closely matched in the standings, with only two points separating them. A win is crucial for each side to push for a better league position."
+    },
+    {
+      "subtitle": "Probabilities",
+      "text": "The Sofascore model suggests a slight edge for Estoril Praia with a 51% chance of winning, highlighting their current form."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Vitória SC",
+      "slug": "vitoria-sc",
+      "shortName": "Vitória",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 62566,
+      "nameCode": "VIT",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 3009,
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فيتوريا إس سي",
+          "ru": "Витория Гимарайнш"
+        },
+        "shortNameTranslation": {
+          "ar": "فيتوريا",
+          "bn": "ভিটোরিয়া",
+          "hi": "विटोरिया"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Samu",
+      "slug": "samu",
+      "shortName": "Samu",
+      "position": "M",
+      "jerseyNumber": "20",
+      "userCount": 217,
+      "gender": "M",
+      "id": 785808,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سامو"
+        },
+        "shortNameTranslation": {
+          "ar": "سامو"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 3
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half overview",
+      "text": "The first half ended with a score of 2-1 in favor of Vitória SC, showcasing a competitive match. Estoril Praia had some significant moments with early attacking spells, culminating in a goal by Samu in the 27th minute. However, their lead was short-lived as Vitória responded quickly, scoring two goals shortly after, with Yanis Begraoui and Matija Mitrović finding the back of the net."
+    },
+    {
+      "subtitle": "Possession and chances",
+      "text": "Estoril dominated ball possession with 59%, reflecting their effort to control the game. They created two big chances, converting one, while their opponents also created two significant opportunities but capitalized better with their two goals. Estoril's ability to maintain higher percentages of possession suggests they may continue to press for further chances."
+    },
+    {
+      "subtitle": "Attack momentum analysis",
+      "text": "The attack momentum fluctuated throughout the half, with moments of intense pressure from both teams. Estoril started strong and briefly shifted the momentum in their favor, particularly in the middle segment of the half. However, significant momentum swings occurred around the goals, especially in the minutes following Yanis Begraoui's equalizer and Matija Mitrović's go-ahead goal, indicating a strong response from Vitória SC during critical phases."
+    },
+    {
+      "subtitle": "Second half expectations",
+      "text": "Looking ahead to the second half, Estoril will likely aim to equalize and regain control of the game. They might push forward aggressively given their first-half performance and overall possession. Conversely, Vitória SC may adopt a more counter-attacking strategy, leveraging their lead and looking for opportunities to extend it."
+    }
+  ],
+  "modelName": "Grok3"
+}

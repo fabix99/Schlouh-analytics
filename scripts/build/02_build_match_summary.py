@@ -88,6 +88,11 @@ def main():
             "away_xg_first_half": np.nan,
             "home_xg_second_half": np.nan,
             "away_xg_second_half": np.nan,
+            "referee_name": None,
+            "referee_id": None,
+            "venue_name": None,
+            "venue_city": None,
+            "attendance": np.nan,
         }
         if match_dir:
             # Team stats
@@ -134,6 +139,27 @@ def main():
                     parse_errors += 1
                 except Exception as e:
                     unreadable_manager += 1
+            # Event meta (referee, venue, attendance) from event.json
+            event_path = match_dir / "event.json"
+            if event_path.exists():
+                try:
+                    with open(event_path, encoding="utf-8") as f:
+                        event_data = json.load(f)
+                    ev = event_data.get("event") if isinstance(event_data.get("event"), dict) else event_data
+                    if isinstance(ev, dict):
+                        ref = ev.get("referee")
+                        if isinstance(ref, dict):
+                            rec["referee_name"] = ref.get("name")
+                            rec["referee_id"] = ref.get("id")
+                        venue = ev.get("venue")
+                        if isinstance(venue, dict):
+                            rec["venue_name"] = venue.get("name")
+                            city = venue.get("city")
+                            rec["venue_city"] = city.get("name") if isinstance(city, dict) else None
+                        if "attendance" in ev and ev["attendance"] is not None:
+                            rec["attendance"] = ev["attendance"]
+                except (json.JSONDecodeError, OSError, KeyError):
+                    pass
         rec["xg_swing"] = (rec["home_xg"] - rec["away_xg"]) if pd.notna(rec["home_xg"]) and pd.notna(rec["away_xg"]) else np.nan
         rec["home_xg_overperformance"] = (float(rec["home_score"]) - rec["home_xg"]) if pd.notna(rec["home_score"]) and pd.notna(rec["home_xg"]) else np.nan
         rec["away_xg_overperformance"] = (float(rec["away_score"]) - rec["away_xg"]) if pd.notna(rec["away_score"]) and pd.notna(rec["away_xg"]) else np.nan

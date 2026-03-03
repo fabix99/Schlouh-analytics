@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Guéla Doué",
+        "slug": "guela-doue",
+        "shortName": "G. Doué",
+        "position": "D",
+        "jerseyNumber": "22",
+        "userCount": 10560,
+        "gender": "M",
+        "id": 1002033,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيلا دوي",
+            "bn": "গুয়েলা ডুয়ে",
+            "hi": "गुएला दोउए"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. دوي",
+            "bn": "জি. ডুয়ে",
+            "hi": "जी. दोउए"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 12.3,
+        "y": 44.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.9,
+        "y": 44.6,
+        "z": 0
+      },
+      "xg": 0.021115446463227,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jonathan Fischer",
+        "slug": "jonathan-fischer",
+        "shortName": "J. Fischer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 276,
+        "gender": "M",
+        "id": 1004550,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوناثان فيشر"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. فيشر"
+          }
+        }
+      },
+      "id": 6541250,
+      "time": 15,
+      "timeSeconds": 884,
+      "draw": {
+        "start": {
+          "x": 44.2,
+          "y": 12.3
+        },
+        "block": {
+          "x": 44.6,
+          "y": 10.9
+        },
+        "end": {
+          "x": 47.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1816,
+      "periodTimeSeconds": 884,
+      "incidentType": "shot"
+    }
+  ]
+}

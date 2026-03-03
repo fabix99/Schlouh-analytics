@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Julian Ryerson",
+        "slug": "julian-ryerson",
+        "shortName": "J. Ryerson",
+        "position": "D",
+        "jerseyNumber": "26",
+        "userCount": 3565,
+        "gender": "M",
+        "id": 800951,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوليان رايرسون"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. رايرسون",
+            "bn": "জে. রায়ারসন",
+            "hi": "जे. रायर्सन"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.2,
+        "y": 59.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.1,
+        "z": 9.7
+      },
+      "blockCoordinates": {
+        "x": 15.7,
+        "y": 56.7,
+        "z": 0
+      },
+      "xg": 0.054691012948751,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Frederik Rønnow",
+        "slug": "frederik-ronnow",
+        "shortName": "F. Rønnow",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 628,
+        "gender": "M",
+        "id": 137692,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فريدريك رونو",
+            "bn": "ফ্রেডরিক রননো",
+            "hi": "फ्रेडरिक रोन्नो"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. رونو",
+            "bn": "এফ. রননো",
+            "hi": "एफ. रोन्नो"
+          }
+        }
+      },
+      "id": 6581358,
+      "time": 14,
+      "timeSeconds": 781,
+      "draw": {
+        "start": {
+          "x": 59.5,
+          "y": 21.2
+        },
+        "block": {
+          "x": 56.7,
+          "y": 15.7
+        },
+        "end": {
+          "x": 52.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.9,
+          "y": 90.3
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1919,
+      "periodTimeSeconds": 781,
+      "incidentType": "shot"
+    }
+  ]
+}

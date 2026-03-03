@@ -1,0 +1,184 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kasper Dolberg",
+        "slug": "kasper-dolberg",
+        "shortName": "K. Dolberg",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 4178,
+        "gender": "M",
+        "sofascoreId": "KDolberg",
+        "id": 795761,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاسبر دولبرغ",
+            "bn": "ক্যাসপার ডলবার্গ",
+            "hi": "कैस्पर डोलबर्ग"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. دولبرغ",
+            "bn": "কে. ডলবার্গ",
+            "hi": "के. डोलबर्ग"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.8,
+        "z": 17.7
+      },
+      "xg": 0.7884,
+      "xgot": 0.72440892457962,
+      "goalkeeper": {
+        "name": "Konstantinos Tzolakis",
+        "slug": "konstantinos-tzolakis",
+        "shortName": "K. Tzolakis",
+        "position": "G",
+        "jerseyNumber": "88",
+        "userCount": 2917,
+        "gender": "M",
+        "id": 953414,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كونستانتينوس تزولاكيس",
+            "bn": "কনস্টান্টিনোস জোলাকিস",
+            "hi": "कोंस्टैंटिनोस त्ज़ोलाकिस"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. تزولاكيس",
+            "bn": "কে. জোলাকিস",
+            "hi": "के. त्ज़ोलाकिस"
+          }
+        }
+      },
+      "id": 6602741,
+      "time": 69,
+      "timeSeconds": 4088,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 47.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.2,
+          "y": 82.3
+        }
+      },
+      "reversedPeriodTime": 22,
+      "reversedPeriodTimeSeconds": 1312,
+      "periodTimeSeconds": 1388,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Kasper Dolberg",
+        "slug": "kasper-dolberg",
+        "shortName": "K. Dolberg",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 4178,
+        "gender": "M",
+        "sofascoreId": "KDolberg",
+        "id": 795761,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاسبر دولبرغ",
+            "bn": "ক্যাসপার ডলবার্গ",
+            "hi": "कैस्पर डोलबर्ग"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. دولبرغ",
+            "bn": "কে. ডলবার্গ",
+            "hi": "के. डोलबर्ग"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.8,
+        "y": 63.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 20.2,
+        "y": 61.7,
+        "z": 0
+      },
+      "xg": 0.018856970593333,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Konstantinos Tzolakis",
+        "slug": "konstantinos-tzolakis",
+        "shortName": "K. Tzolakis",
+        "position": "G",
+        "jerseyNumber": "88",
+        "userCount": 2917,
+        "gender": "M",
+        "id": 953414,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كونستانتينوس تزولاكيس",
+            "bn": "কনস্টান্টিনোস জোলাকিস",
+            "hi": "कोंस्टैंटिनोस त्ज़ोलाकिस"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. تزولاكيس",
+            "bn": "কে. জোলাকিস",
+            "hi": "के. त्ज़ोलाकिस"
+          }
+        }
+      },
+      "id": 6602377,
+      "time": 14,
+      "timeSeconds": 813,
+      "draw": {
+        "start": {
+          "x": 63.2,
+          "y": 22.8
+        },
+        "block": {
+          "x": 61.7,
+          "y": 20.2
+        },
+        "end": {
+          "x": 50.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1887,
+      "periodTimeSeconds": 813,
+      "incidentType": "shot"
+    }
+  ]
+}

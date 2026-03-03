@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jude Bellingham",
+        "slug": "jude-bellingham",
+        "shortName": "J. Bellingham",
+        "position": "M",
+        "jerseyNumber": "5",
+        "userCount": 1027242,
+        "gender": "M",
+        "sofascoreId": "JudeBell",
+        "id": 991011,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جود بيلينغهام",
+            "bn": "জুড বেলিংহাম",
+            "hi": "जूड बेलिंघम"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بيلينغهام",
+            "bn": "জে. বেলিংহাম",
+            "hi": "जे. बेलिंघम"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.4,
+        "y": 34.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.8,
+        "y": 36.6,
+        "z": 0
+      },
+      "xg": 0.043959505856037,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Álvaro Valles",
+        "slug": "alvaro-valles",
+        "shortName": "Á. Valles",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 962,
+        "gender": "M",
+        "id": 964983,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألفارو فاليس",
+            "bn": "আলভারো ভ্যালেস",
+            "hi": "अल्वारो वल्लेस"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فاليس",
+            "bn": "আ. ভ্যালেস",
+            "hi": "ए. वल्लेस"
+          }
+        }
+      },
+      "id": 6454492,
+      "time": 65,
+      "timeSeconds": 3899,
+      "draw": {
+        "start": {
+          "x": 34.6,
+          "y": 11.4
+        },
+        "block": {
+          "x": 36.6,
+          "y": 9.8
+        },
+        "end": {
+          "x": 49.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1501,
+      "periodTimeSeconds": 1199,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Marc Bernal",
+        "slug": "marc-bernal",
+        "shortName": "M. Bernal",
+        "position": "M",
+        "jerseyNumber": "22",
+        "userCount": 59926,
+        "gender": "M",
+        "sofascoreId": "marc_bernal",
+        "id": 1526618,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارك برنال",
+            "bn": "মার্ক বার্নাল",
+            "hi": "मार्क बर्नल"
+          },
+          "shortNameTranslation": {
+            "ar": "م. برنال",
+            "bn": "এম. বার্নাল",
+            "hi": "एम. बर्नल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 19.5,
+        "y": 53.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.6,
+        "z": 6.3
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 51.4,
+        "z": 0
+      },
+      "xg": 0.058207720518112,
+      "xgot": 0.13148488104343,
+      "goalkeeper": {
+        "name": "Dominik Kotarski",
+        "slug": "dominik-kotarski",
+        "shortName": "D. Kotarski",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2501,
+        "gender": "M",
+        "id": 835678,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دومينيك كوتارسكي",
+            "bn": "ডমিনিক কোটারস্কি",
+            "hi": "डोमिनिक कोटार्स्की"
+          },
+          "shortNameTranslation": {
+            "ar": "د. كوتارسكي",
+            "bn": "ডি. কোটারস্কি",
+            "hi": "डी. कोटार्स्की"
+          }
+        }
+      },
+      "id": 6602612,
+      "time": 47,
+      "timeSeconds": 2769,
+      "draw": {
+        "start": {
+          "x": 53.6,
+          "y": 19.5
+        },
+        "block": {
+          "x": 51.4,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 48.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.4,
+          "y": 93.7
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2631,
+      "periodTimeSeconds": 69,
+      "incidentType": "shot"
+    }
+  ]
+}

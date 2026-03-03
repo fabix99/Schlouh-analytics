@@ -1,0 +1,112 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 9,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0
+  },
+  "sections": [
+    {
+      "subtitle": "Recent Form",
+      "text": "Everton have shown mixed form in their last 5 matches with 2 wins, 1 draw, and 2 losses, scoring 6 goals but struggling for consistency. West Ham United, on the other hand, are in poor form, managing only 1 win and suffering 4 losses, conceding heavily with 13 goals against."
+    },
+    {
+      "subtitle": "Head-to-Head Record",
+      "text": "In their last 2 encounters, West Ham have a slight edge with 1 win and 1 draw against Everton. Matches between these teams tend to be low-scoring, with under 2.5 goals in most recent games."
+    },
+    {
+      "subtitle": "Season Statistics",
+      "text": "Everton, sitting 12th with 7 points, have a solid defense (5 goals conceded, 5th in the league) but lack attacking prowess (6 goals scored). West Ham, in 19th with 3 points, struggle defensively (13 goals conceded) and have scored only 5 goals this season."
+    },
+    {
+      "subtitle": "Key Trends",
+      "text": "Everton’s games often see fewer than 2.5 goals (7/9 matches), while West Ham’s matches frequently exceed this mark (6/6). Corner counts are typically low for Everton (under 10.5 in 6/7) and high for West Ham (over 10.5 in 5/6)."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "West Ham United",
+      "slug": "west-ham-united",
+      "shortName": "West Ham",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 431234,
+      "nameCode": "WHU",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 37,
+      "teamColors": {
+        "primary": "#66192c",
+        "secondary": "#59b3e4",
+        "text": "#59b3e4"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "وست هام يونايتد",
+          "hi": "वेस्ट हैम यूनाइटेड ऍफ़सी",
+          "ru": "Вест Хэм Юнайтед"
+        },
+        "shortNameTranslation": {
+          "ar": "وست هام",
+          "bn": "ওয়েস্ট হ্যাম",
+          "hi": "वेस्ट हैम"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Niclas Füllkrug",
+      "slug": "niclas-fullkrug",
+      "shortName": "N. Füllkrug",
+      "position": "F",
+      "jerseyNumber": "9",
+      "userCount": 9843,
+      "gender": "M",
+      "sofascoreId": "niclas.fuellkrug24",
+      "id": 132645,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نيكلاس فولكروغ",
+          "bn": "নিকলাস ফুলক্রুগ",
+          "hi": "निकोलस फुलक्रुग"
+        },
+        "shortNameTranslation": {
+          "ar": "ن. فولكروغ",
+          "bn": "এন. ফুলক্রুগ",
+          "hi": "एन. फुलक्रुग"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half overview",
+      "text": "The first half at Everton Stadium saw Everton take a narrow lead over West Ham United with a score of 1-0. Michael Keane's header in the 18th minute proved to be the difference, showcasing Everton's ability to capitalize on a key moment. Both teams displayed competitive performances, with possession almost evenly split and both sides showing intent in the final third. However, Everton were more clinical, converting one of their opportunities, while West Ham struggled to create clear-cut chances despite their efforts."
+    },
+    {
+      "subtitle": "Attack momentum breakdown",
+      "text": "The attacking momentum in the first half was largely dominated by Everton, especially in the opening stages and around the time of their goal. They displayed consistent attacking spells early on, maintaining pressure for extended periods. West Ham had their moments, particularly in the middle and towards the end of the half, with noticeable shifts in momentum as they pushed forward. Despite these efforts, they couldn't translate their spells into dangerous opportunities, while Everton's surges often looked more threatening."
+    },
+    {
+      "subtitle": "Key performers",
+      "text": "For Everton, Michael Keane stood out not only for his goal but also for his defensive contributions with significant clearances. James Garner also played a crucial role with an assist, helping to create openings for his side. On the West Ham side, players like Niclas Füllkrug showed potential in attack, getting a shot on target, while Lucas Paquetá and Crysencio Summerville contributed creatively. However, West Ham will need more from their attacking unit to break through Everton's defense in the second half."
+    },
+    {
+      "subtitle": "Tactical observations",
+      "text": "Everton showed a balanced approach in the first half, effectively utilizing their entries into the penalty area to create danger. Their defense, anchored by players like Keane and Tarkowski, held firm against West Ham's advances. West Ham, on the other hand, dominated aerial duels and showed resilience in ground battles, but their inability to win possession in the final third hindered their attacking output. They will likely need to adjust their strategy to penetrate Everton’s backline more effectively."
+    },
+    {
+      "subtitle": "Second half expectations",
+      "text": "Looking ahead to the second half, Everton will aim to maintain their defensive solidity while seeking to exploit counter-attacking opportunities. West Ham, trailing by a goal, are expected to come out with renewed intensity, potentially pushing more players forward to level the score. Their higher expected goals in the first half suggest they have the potential to find the net if they can create better chances. Both teams are likely to engage in a tactical battle, with Everton possibly focusing on protecting their lead and West Ham chasing an equalizer."
+    }
+  ],
+  "modelName": "Grok3"
+}

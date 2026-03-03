@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Italo",
+        "slug": "italo",
+        "shortName": "Italo",
+        "position": "M",
+        "jerseyNumber": "77",
+        "userCount": 139,
+        "gender": "M",
+        "id": 1546812,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيتالو"
+          },
+          "shortNameTranslation": {
+            "ar": "إيتالو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.7,
+        "y": 53.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 4.5,
+        "y": 50.9,
+        "z": 0
+      },
+      "xg": 0.1250191628933,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Pedro Morisco",
+        "firstName": "Pedro Morisco",
+        "slug": "pedro-morisco",
+        "shortName": "Pedro Morisco",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1656,
+        "gender": "M",
+        "id": 1507616,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيدرو موريكو"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. موريكو"
+          }
+        }
+      },
+      "id": 6694079,
+      "time": 88,
+      "timeSeconds": 5245,
+      "draw": {
+        "start": {
+          "x": 53.6,
+          "y": 15.7
+        },
+        "block": {
+          "x": 50.9,
+          "y": 4.5
+        },
+        "end": {
+          "x": 48.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 155,
+      "periodTimeSeconds": 2545,
+      "incidentType": "shot"
+    }
+  ]
+}

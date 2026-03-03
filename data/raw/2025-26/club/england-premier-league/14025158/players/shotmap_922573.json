@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Gabriel Martinelli",
+        "slug": "gabriel-martinelli",
+        "shortName": "G. Martinelli",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 68168,
+        "gender": "M",
+        "sofascoreId": "GabiMartinelli",
+        "id": 922573,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غابرييل مارتينيلي",
+            "bn": "গ্যাব্রিয়েল মার্টিনেলি",
+            "hi": "गेब्रियल मार्टिनेली"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. مارتينيلي",
+            "bn": "জি. মার্টিনেলি",
+            "hi": "जी. मार्टिनेली"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.6,
+        "y": 72.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.9,
+        "z": 2.5
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 53.6,
+        "z": 0
+      },
+      "xg": 0.039937533438206,
+      "xgot": 0.027216576039791,
+      "goalkeeper": {
+        "name": "Robin Roefs",
+        "slug": "robin-roefs",
+        "shortName": "R. Roefs",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 2194,
+        "gender": "M",
+        "id": 1012928,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن روفس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. روفس"
+          }
+        }
+      },
+      "id": 6660689,
+      "time": 90,
+      "addedTime": 7,
+      "timeSeconds": 5781,
+      "draw": {
+        "start": {
+          "x": 72.3,
+          "y": 13.6
+        },
+        "block": {
+          "x": 53.6,
+          "y": 1.4
+        },
+        "end": {
+          "x": 50.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.1,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 519,
+      "periodTimeSeconds": 381,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Ligue 1",
+      "slug": "ligue-1",
+      "category": {
+        "name": "France",
+        "slug": "france",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 7,
+        "flag": "france",
+        "alpha2": "FR",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "hi": "फ्रांस",
+            "ar": "فرنسا",
+            "bn": "ফ্রান্স",
+            "ru": "Франция"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Ligue 1",
+        "slug": "ligue-1",
+        "primaryColorHex": "#091c3e",
+        "secondaryColorHex": "#a9c011",
+        "category": {
+          "name": "France",
+          "slug": "france",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+          },
+          "id": 7,
+          "flag": "france",
+          "alpha2": "FR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "hi": "फ्रांस",
+              "ar": "فرنسا",
+              "bn": "ফ্রান্স",
+              "ru": "Франция"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 414438,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 34,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "লীগ 1",
+            "ar": "الدوري الفرنسي",
+            "hi": "लीग 1"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 694,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 4,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "bn": "লীগ 1",
+          "hi": "लीग 1",
+          "ar": "الدوري الفرنسي 1"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Ligue 1 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 61736
+    },
+    "roundInfo": {
+      "round": 15
+    },
+    "customId": "RHslI",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 11612,
+    "venue": {
+      "city": {
+        "name": "Montpellier"
+      },
+      "venueCoordinates": {
+        "latitude": 43.622022,
+        "longitude": 3.81209
+      },
+      "hidden": false,
+      "slug": "stade-de-la-mosson",
+      "name": "Stade de la Mosson",
+      "capacity": 22000,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1275,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب دو لا موسون",
+          "hi": "स्टेड डे ला मोसोन",
+          "bn": "স্টেড দে লা মসন"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Stade de la Mosson",
+        "capacity": 22000
+      }
+    },
+    "referee": {
+      "name": "Clement Turpin",
+      "slug": "clement-turpin",
+      "yellowCards": 1726,
+      "redCards": 99,
+      "yellowRedCards": 36,
+      "games": 509,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 52599,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كليمنت توربين",
+          "bn": "ক্লিমেন্ট টারপিন",
+          "hi": "क्लेमेंट टर्पिन"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Montpellier",
+      "slug": "montpellier",
+      "shortName": "Montpellier",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 47477,
+      "manager": {
+        "name": "Zoumana Camara",
+        "slug": "zoumana-camara",
+        "shortName": "Z. Camara",
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 800665,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زومانا كامارا"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. كامارا"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Montpellier"
+        },
+        "venueCoordinates": {
+          "latitude": 43.622022,
+          "longitude": 3.81209
+        },
+        "hidden": false,
+        "slug": "stade-de-la-mosson",
+        "name": "Stade de la Mosson",
+        "capacity": 22000,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 1275,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب دو لا موسون",
+            "hi": "स्टेड डे ला मोसोन",
+            "bn": "স্টেড দে লা মসন"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stade de la Mosson",
+          "capacity": 22000
+        }
+      },
+      "nameCode": "MHS",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1642,
+      "fullName": "Montpellier",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#003e7e",
+        "secondary": "#ea7118",
+        "text": "#ea7118"
+      },
+      "foundationDateTimestamp": 126230400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مونبلييه",
+          "bn": "মন্টপেলিয়ার",
+          "hi": "मॉंटपेलीयर",
+          "ru": "Монпелье"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Nice",
+      "slug": "nice",
+      "shortName": "Nice",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 149909,
+      "manager": {
+        "name": "Claude Puel",
+        "slug": "claude-puel",
+        "shortName": "C. Puel",
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 53459,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كلود بويل"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. بويل"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Nice"
+        },
+        "venueCoordinates": {
+          "latitude": 43.705148,
+          "longitude": 7.192603
+        },
+        "hidden": false,
+        "slug": "allianz-riviera",
+        "name": "Allianz Riviera",
+        "capacity": 36178,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 13184,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليانز ريفييرا",
+            "hi": "एलियांज रिवेरा",
+            "bn": "আলিয়াঞ্জ রিভেরা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Allianz Riviera",
+          "capacity": 36178
+        }
+      },
+      "nameCode": "OGC",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1661,
+      "fullName": "Nice",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#cc0000",
+        "text": "#cc0000"
+      },
+      "foundationDateTimestamp": -2066428800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نيس",
+          "bn": "নাইস",
+          "hi": "नाइस",
+          "ru": "Ницца"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 2,
+      "period2": 0,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 4,
+      "currentPeriodStartTimestamp": 1734274921
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1734277935
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12450929,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "nice-montpellier",
+    "currentPeriodStartTimestamp": 1734274921,
+    "startTimestamp": 1734271200,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "AD",
+      "AQ",
+      "BL",
+      "CZ",
+      "FR",
+      "GF",
+      "GP",
+      "MC",
+      "MF",
+      "MQ",
+      "NC",
+      "PF",
+      "PM",
+      "RE",
+      "SK",
+      "TF",
+      "WF",
+      "YT",
+      "IR",
+      "GR",
+      "RU",
+      "CH",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

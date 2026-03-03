@@ -1,0 +1,404 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1189818,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76953
+    },
+    "roundInfo": {
+      "round": 5
+    },
+    "customId": "JAsxdc",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 30231,
+    "venue": {
+      "city": {
+        "name": "Copenhagen"
+      },
+      "venueCoordinates": {
+        "latitude": 55.702704,
+        "longitude": 12.572264
+      },
+      "hidden": false,
+      "slug": "parken",
+      "name": "Parken",
+      "capacity": 38190,
+      "country": {
+        "alpha2": "DK",
+        "alpha3": "DNK",
+        "name": "Denmark",
+        "slug": "denmark"
+      },
+      "id": 936,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "باركن",
+          "hi": "पारकेन",
+          "bn": "পার্ক"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Parken",
+        "capacity": 38190
+      }
+    },
+    "referee": {
+      "name": "Nick Walsh",
+      "slug": "walsh-nick",
+      "yellowCards": 1005,
+      "redCards": 29,
+      "yellowRedCards": 20,
+      "games": 236,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "SX",
+        "alpha3": "SCO",
+        "name": "Scotland",
+        "slug": "scotland"
+      },
+      "id": 785597,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "والش، نيك",
+          "bn": "ওয়ালশ, নিক",
+          "hi": "वाल्श, निक"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "FC København",
+      "slug": "fc-kobenhavn",
+      "shortName": "København",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 194984,
+      "manager": {
+        "name": "Jacob Neestrup",
+        "slug": "jacob-neestrup",
+        "shortName": "J. Neestrup",
+        "country": {
+          "alpha2": "DK",
+          "alpha3": "DNK",
+          "name": "Denmark",
+          "slug": "denmark"
+        },
+        "id": 793010,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جاكوب نيستروب",
+            "bn": "জ্যাকব নেস্ট্রাপ",
+            "hi": "जैकब नीस्ट्रुप"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. نيستروب",
+            "bn": "জে. নেস্ট্রাপ",
+            "hi": "जे. नीस्ट्रुप"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Copenhagen"
+        },
+        "venueCoordinates": {
+          "latitude": 55.702704,
+          "longitude": 12.572264
+        },
+        "hidden": false,
+        "slug": "parken",
+        "name": "Parken",
+        "capacity": 38190,
+        "country": {
+          "alpha2": "DK",
+          "alpha3": "DNK",
+          "name": "Denmark",
+          "slug": "denmark"
+        },
+        "id": 936,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باركن",
+            "hi": "पारकेन",
+            "bn": "পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Parken",
+          "capacity": 38190
+        }
+      },
+      "nameCode": "FCK",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DK",
+        "alpha3": "DNK",
+        "name": "Denmark",
+        "slug": "denmark"
+      },
+      "id": 1284,
+      "fullName": "FC København",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#0066ff",
+        "text": "#0066ff"
+      },
+      "foundationDateTimestamp": 709862400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إف سي كوبنهاغن",
+          "ru": "Копенгаген"
+        },
+        "shortNameTranslation": {
+          "ar": "كوبنهاغن",
+          "bn": "কোবেনহাভন",
+          "hi": "कोबेनह्वान"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "shortName": "Kairat",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 82292,
+      "manager": {
+        "name": "Rafael Urazbakhtin",
+        "slug": "rafael-urazbakhtin",
+        "shortName": "R. Urazbakhtin",
+        "country": {
+          "alpha2": "KZ",
+          "alpha3": "KAZ",
+          "name": "Kazakhstan",
+          "slug": "kazakhstan"
+        },
+        "id": 805008,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رافائيل أوزراباختين"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. أوزراباختين"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Almaty"
+        },
+        "venueCoordinates": {
+          "latitude": 43.238371230402,
+          "longitude": 76.924166976535
+        },
+        "hidden": false,
+        "slug": "central-stadium",
+        "name": "Central Stadium",
+        "capacity": 23804,
+        "country": {
+          "alpha2": "KZ",
+          "alpha3": "KAZ",
+          "name": "Kazakhstan",
+          "slug": "kazakhstan"
+        },
+        "id": 952,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الملعب المركزي",
+            "hi": "सेंट्रल स्टेडियम",
+            "bn": "সেন্ট্রাল স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Central Stadium",
+          "capacity": 23804
+        }
+      },
+      "nameCode": "ALM",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "KZ",
+        "alpha3": "KAZ",
+        "name": "Kazakhstan",
+        "slug": "kazakhstan"
+      },
+      "id": 5172,
+      "fullName": "Kairat Almaty",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#ffeb3b",
+        "text": "#ffeb3b"
+      },
+      "foundationDateTimestamp": -504921600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كايرات ألماتي",
+          "ru": "Кайрат Алматы"
+        },
+        "shortNameTranslation": {
+          "ar": "كايرات",
+          "bn": "কাইরাত",
+          "hi": "कैरात"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 1,
+      "period2": 2,
+      "normaltime": 3
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 4,
+      "currentPeriodStartTimestamp": 1764182884
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1764185910
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14566974,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "kairat-almaty-fc-kobenhavn",
+    "currentPeriodStartTimestamp": 1764182884,
+    "startTimestamp": 1764179100,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

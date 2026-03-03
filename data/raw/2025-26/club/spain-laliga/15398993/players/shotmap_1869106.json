@@ -1,0 +1,92 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Paco Cortés",
+        "firstName": "Paco Cortés",
+        "slug": "paco-cortes",
+        "shortName": "P. Cortés",
+        "position": "F",
+        "jerseyNumber": "27",
+        "userCount": 128,
+        "gender": "M",
+        "id": 1869106,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باكو كورتيز"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. كورتيز"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.4,
+        "y": 31.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.7,
+        "z": 20.3
+      },
+      "blockCoordinates": {
+        "x": 1.5,
+        "y": 48.9,
+        "z": 0
+      },
+      "xg": 0.03253648430109,
+      "xgot": 0.13186684250832,
+      "goalkeeper": {
+        "name": "Luiz Júnior",
+        "firstName": "Luiz Lúcio Reis Júnior",
+        "lastName": "",
+        "slug": "luiz-junior",
+        "shortName": "L. Júnior",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2367,
+        "gender": "M",
+        "id": 1066603,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لويس جونيور"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. جونيور"
+          }
+        }
+      },
+      "id": 6737861,
+      "time": 49,
+      "timeSeconds": 2936,
+      "draw": {
+        "start": {
+          "x": 31.6,
+          "y": 18.4
+        },
+        "block": {
+          "x": 48.9,
+          "y": 1.5
+        },
+        "end": {
+          "x": 53.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.3,
+          "y": 79.7
+        }
+      },
+      "reversedPeriodTime": 42,
+      "reversedPeriodTimeSeconds": 2464,
+      "periodTimeSeconds": 236,
+      "incidentType": "shot"
+    }
+  ]
+}

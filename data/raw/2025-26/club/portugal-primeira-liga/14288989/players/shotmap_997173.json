@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bright Arrey-Mbi",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bright-arrey-mbi",
+        "shortName": "B. Arrey-Mbi",
+        "position": "D",
+        "jerseyNumber": "26",
+        "userCount": 788,
+        "gender": "M",
+        "id": 997173,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برايت أري-مبي",
+            "bn": "ব্রাইট আর্লি-এমবি",
+            "hi": "ब्राइट एरे-एमबीआई"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. أري-مبي",
+            "bn": "বি. অ্যারি-এমবি",
+            "hi": "बी. एरे-एमबीआई"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 24,
+        "y": 31.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.3,
+        "y": 40.6,
+        "z": 0
+      },
+      "xg": 0.028178693726659,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ennio Van Der Gouw",
+        "slug": "ennio-van-der-gouw",
+        "shortName": "E. V. D. Gouw",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 78,
+        "gender": "M",
+        "id": 1005270,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إنيو فان دير غاو"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. فان دير غاو"
+          }
+        }
+      },
+      "id": 6670600,
+      "time": 17,
+      "timeSeconds": 975,
+      "draw": {
+        "start": {
+          "x": 31.8,
+          "y": 24
+        },
+        "block": {
+          "x": 40.6,
+          "y": 13.3
+        },
+        "end": {
+          "x": 51.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1725,
+      "periodTimeSeconds": 975,
+      "incidentType": "shot"
+    }
+  ]
+}

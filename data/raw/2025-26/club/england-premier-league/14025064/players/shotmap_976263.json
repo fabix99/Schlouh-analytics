@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ian Maatsen",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ian-maatsen",
+        "shortName": "I. Maatsen",
+        "position": "D",
+        "jerseyNumber": "22",
+        "userCount": 5475,
+        "gender": "M",
+        "sofascoreId": "maatsen_",
+        "id": 976263,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيان ماتسين",
+            "bn": "ইয়ান মাতসেন",
+            "hi": "इयान मात्सेन"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ماتسين",
+            "bn": "আই. মাতসেন",
+            "hi": "आई. मात्सेन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 26.8,
+        "y": 30.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.4,
+        "z": 6.3
+      },
+      "blockCoordinates": {
+        "x": 2.2,
+        "y": 47.8,
+        "z": 0
+      },
+      "xg": 0.01914120092988,
+      "xgot": 0.010203442536294,
+      "goalkeeper": {
+        "name": "Jordan Pickford",
+        "slug": "jordan-pickford",
+        "shortName": "J. Pickford",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 7663,
+        "gender": "M",
+        "sofascoreId": "jpickford1",
+        "id": 138530,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوردان بيكفورد",
+            "bn": "জর্ডান পিকফোর্ড",
+            "hi": "जॉर्डन पिकफोर्ड"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بيكفورد",
+            "bn": "জে.পিকফোর্ড",
+            "hi": "जे. पिकफोर्ड"
+          }
+        }
+      },
+      "id": 6542347,
+      "time": 11,
+      "timeSeconds": 652,
+      "draw": {
+        "start": {
+          "x": 30.8,
+          "y": 26.8
+        },
+        "block": {
+          "x": 47.8,
+          "y": 2.2
+        },
+        "end": {
+          "x": 50.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.6,
+          "y": 93.7
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2048,
+      "periodTimeSeconds": 652,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "passes": [
+    {
+      "playerCoordinates": {
+        "x": 65.3,
+        "y": 89
+      },
+      "passEndCoordinates": {
+        "x": 64.3,
+        "y": 91.8
+      },
+      "eventActionType": "pass",
+      "isHome": false,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 75.6,
+        "y": 15.1
+      },
+      "passEndCoordinates": {
+        "x": 94.3,
+        "y": 49.8
+      },
+      "eventActionType": "cross",
+      "isHome": false,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 40.6,
+        "y": 16
+      },
+      "passEndCoordinates": {
+        "x": 50.5,
+        "y": 5.3
+      },
+      "eventActionType": "pass",
+      "isHome": false,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 72.9,
+        "y": 34.7
+      },
+      "passEndCoordinates": {
+        "x": 68.4,
+        "y": 45.5
+      },
+      "eventActionType": "pass",
+      "isHome": false,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "dribbles": [],
+  "defensive": [
+    {
+      "playerCoordinates": {
+        "x": 69.2,
+        "y": 16.5
+      },
+      "eventActionType": "ball-recovery",
+      "isHome": false,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 40.6,
+        "y": 16
+      },
+      "eventActionType": "ball-recovery",
+      "isHome": false,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "ball-carries": [
+    {
+      "playerCoordinates": {
+        "x": 64.9,
+        "y": 78.5
+      },
+      "passEndCoordinates": {
+        "x": 65.3,
+        "y": 89
+      },
+      "eventActionType": "ball-carry",
+      "isHome": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 69.2,
+        "y": 16.5
+      },
+      "passEndCoordinates": {
+        "x": 75.6,
+        "y": 15.1
+      },
+      "eventActionType": "ball-carry",
+      "isHome": false
+    }
+  ]
+}

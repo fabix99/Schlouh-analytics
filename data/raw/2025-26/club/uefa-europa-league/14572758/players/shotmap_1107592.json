@@ -1,0 +1,102 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Monsef Bakrar",
+        "firstName": "Mounsef",
+        "lastName": "Bakrar",
+        "slug": "monsef-bakrar",
+        "shortName": "M. Bakrar",
+        "position": "F",
+        "jerseyNumber": "71",
+        "userCount": 5244,
+        "gender": "M",
+        "id": 1107592,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "منصف بقرار",
+            "bn": "মনসেফ বকর",
+            "hi": "मोनसेफ बकरार"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بقرار",
+            "bn": "এম. বকর",
+            "hi": "एम. बकरार"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 11.6,
+        "y": 66,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 4.4,
+        "y": 53.2,
+        "z": 0
+      },
+      "xg": 0.10881011933088,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Elías Ólafsson",
+        "firstName": "",
+        "lastName": "",
+        "slug": "elias-olafsson",
+        "shortName": "E. Ólafsson",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 369,
+        "gender": "M",
+        "id": 879183,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلياس أولافسون",
+            "bn": "ইলিয়াস ওলাফসন",
+            "hi": "इलियास ओलाफसन"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. أولافسون",
+            "bn": "ই.ওলাফসন",
+            "hi": "ई. ओलाफसन"
+          }
+        }
+      },
+      "id": 6606528,
+      "time": 90,
+      "addedTime": 1,
+      "timeSeconds": 5430,
+      "draw": {
+        "start": {
+          "x": 66,
+          "y": 11.6
+        },
+        "block": {
+          "x": 53.2,
+          "y": 4.4
+        },
+        "end": {
+          "x": 45.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 870,
+      "periodTimeSeconds": 30,
+      "incidentType": "shot"
+    }
+  ]
+}

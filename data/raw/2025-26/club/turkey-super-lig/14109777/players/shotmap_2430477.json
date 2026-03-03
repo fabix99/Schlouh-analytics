@@ -1,0 +1,85 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ahmed Traore",
+        "slug": "ahmed-traore",
+        "shortName": "A. Traore",
+        "position": "F",
+        "jerseyNumber": "88",
+        "userCount": 82,
+        "gender": "M",
+        "id": 2430477
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 19.4,
+        "y": 52.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.7,
+        "y": 52.2,
+        "z": 0
+      },
+      "xg": 0.07450719922781,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Uğurcan Çakır",
+        "slug": "ugurcan-cakir",
+        "shortName": "U. Çakır",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5016,
+        "gender": "M",
+        "id": 754330,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوغورجان تشاكير",
+            "bn": "উগুরকান কাকির",
+            "hi": "उगुरकन चाकिर"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. تشاكير",
+            "bn": "ইউ. কাকির",
+            "hi": "यू. चाकिर"
+          }
+        }
+      },
+      "id": 6581206,
+      "time": 12,
+      "timeSeconds": 692,
+      "draw": {
+        "start": {
+          "x": 52.3,
+          "y": 19.4
+        },
+        "block": {
+          "x": 52.2,
+          "y": 15.7
+        },
+        "end": {
+          "x": 51.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2008,
+      "periodTimeSeconds": 692,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Pedro Bondo",
+        "firstName": "Pedro",
+        "lastName": "Bondo Francisco",
+        "slug": "pedro-bondo",
+        "shortName": "P. Bondo",
+        "position": "D",
+        "jerseyNumber": "28",
+        "userCount": 477,
+        "gender": "M",
+        "id": 1102988,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيدرو بوندو"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. بوندو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 20,
+        "y": 42.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 35.3,
+        "z": 4.2
+      },
+      "xg": 0.018093319609761,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Adriel",
+        "firstName": "Adriel",
+        "lastName": "",
+        "slug": "adriel",
+        "shortName": "Adriel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 392,
+        "gender": "M",
+        "id": 1106840,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أدرييل"
+          },
+          "shortNameTranslation": {
+            "ar": "أدرييل"
+          }
+        }
+      },
+      "id": 6681506,
+      "time": 33,
+      "timeSeconds": 1954,
+      "draw": {
+        "start": {
+          "x": 42.3,
+          "y": 20
+        },
+        "end": {
+          "x": 64.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 64.7,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 746,
+      "periodTimeSeconds": 1954,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Arda Güler",
+        "firstName": "Arda Guler",
+        "slug": "arda-guler",
+        "shortName": "A. Güler",
+        "position": "M",
+        "jerseyNumber": "15",
+        "userCount": 395913,
+        "gender": "M",
+        "sofascoreId": "AGüler",
+        "id": 1091116,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أردا غولر",
+            "bn": "আরদা গুলার",
+            "hi": "अर्डा गुलेर"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. غولر",
+            "bn": "এ.গুলার",
+            "hi": "ए. गुलेर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 11,
+        "y": 81.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 3.3,
+        "y": 60.7,
+        "z": 0
+      },
+      "xg": 0.041727144271135,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gianluigi Donnarumma",
+        "slug": "gianluigi-donnarumma",
+        "shortName": "G. Donnarumma",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 70094,
+        "gender": "M",
+        "sofascoreId": "donnarumma",
+        "id": 824509,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيانلويجي دوناروما",
+            "bn": "জিয়ানলুইগি ডোনারুম্মা",
+            "hi": "जियानलुइगी डोनारुम्मा"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. دوناروما",
+            "bn": "জি. ডোনারুম্মা",
+            "hi": "जी. डोनारुम्मा"
+          }
+        }
+      },
+      "id": 6330401,
+      "time": 77,
+      "timeSeconds": 4572,
+      "draw": {
+        "start": {
+          "x": 81.4,
+          "y": 11
+        },
+        "block": {
+          "x": 60.7,
+          "y": 3.3
+        },
+        "end": {
+          "x": 51.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 14,
+      "reversedPeriodTimeSeconds": 828,
+      "periodTimeSeconds": 1872,
+      "incidentType": "shot"
+    }
+  ]
+}

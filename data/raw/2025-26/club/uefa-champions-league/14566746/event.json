@@ -1,0 +1,418 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1189676,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76953
+    },
+    "roundInfo": {
+      "round": 6
+    },
+    "customId": "RsNhb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 26464,
+    "venue": {
+      "city": {
+        "name": "Bruges"
+      },
+      "venueCoordinates": {
+        "latitude": 51.193346,
+        "longitude": 3.180585
+      },
+      "hidden": false,
+      "slug": "jan-breydel-stadium",
+      "name": "Jan Breydel Stadium",
+      "capacity": 29975,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 1187,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب يان بريدل",
+          "hi": "जान ब्रेडेल स्टेडियम",
+          "bn": "জান ব্রেইডেল স্টেডিয়াম"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Jan Breydel Stadium",
+        "capacity": 29975
+      }
+    },
+    "referee": {
+      "name": "Sven Jablonski",
+      "slug": "jablonski-sven",
+      "yellowCards": 1196,
+      "redCards": 21,
+      "yellowRedCards": 26,
+      "games": 308,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 102954,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "جابلونسكي، سفين",
+          "bn": "জাবলনস্কি, সোভেন",
+          "hi": "जाब्लोंस्की, स्वेन"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "shortName": "Club Brugge",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 298320,
+      "manager": {
+        "name": "Ivan Leko",
+        "slug": "ivan-leko",
+        "shortName": "I. Leko",
+        "country": {
+          "alpha2": "HR",
+          "alpha3": "HRV",
+          "name": "Croatia",
+          "slug": "croatia"
+        },
+        "id": 786964,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفان ليكو",
+            "bn": "ইভান লেকো",
+            "hi": "इवान लेको"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ليكو",
+            "bn": "আই. লেকো",
+            "hi": "आई. लेको"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bruges"
+        },
+        "venueCoordinates": {
+          "latitude": 51.193346,
+          "longitude": 3.180585
+        },
+        "hidden": false,
+        "slug": "jan-breydel-stadium",
+        "name": "Jan Breydel Stadium",
+        "capacity": 29975,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 1187,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب يان بريدل",
+            "hi": "जान ब्रेडेल स्टेडियम",
+            "bn": "জান ব্রেইডেল স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Jan Breydel Stadium",
+          "capacity": 29975
+        }
+      },
+      "nameCode": "BRU",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 2888,
+      "fullName": "Club Brugge KV",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#0080ff",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2465683200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كلوب بروج كي في",
+          "ru": "Брюгге"
+        },
+        "shortNameTranslation": {
+          "ar": "كلوب بروج",
+          "bn": "ব্রুগ কেভি",
+          "hi": "क्लब ब्रुग"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "shortName": "Arsenal",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 3121111,
+      "manager": {
+        "name": "Mikel Arteta",
+        "slug": "mikel-arteta",
+        "shortName": "M. Arteta",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 794075,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميكيل أرتيتا",
+            "bn": "মিকেল আর্তেতা",
+            "hi": "मिकेल आर्टेटा"
+          },
+          "shortNameTranslation": {
+            "ar": "م. أرتيتا",
+            "bn": "এম. আরতেতা",
+            "hi": "एम. आर्टेटा"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "London"
+        },
+        "venueCoordinates": {
+          "latitude": 51.55504,
+          "longitude": -0.1084
+        },
+        "hidden": false,
+        "slug": "emirates-stadium",
+        "name": "Emirates Stadium",
+        "capacity": 60704,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 624,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب الإمارات",
+            "hi": "एमिरेट्स स्टेडियम",
+            "bn": "এমিরেটস স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Emirates Stadium",
+          "capacity": 60704
+        }
+      },
+      "nameCode": "ARS",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 42,
+      "fullName": "Arsenal",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2627164800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ارسنال",
+          "bn": "আর্সেনাল",
+          "hi": "आर्सेनल",
+          "ru": "Арсенал"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 1,
+      "period2": 2,
+      "normaltime": 3
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 4,
+      "injuryTime2": 3,
+      "currentPeriodStartTimestamp": 1765400726
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1765403614
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14566746,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "club-brugge-kv-arsenal",
+    "currentPeriodStartTimestamp": 1765400726,
+    "startTimestamp": 1765396800,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "club"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Dave Kwakman",
+        "firstName": "",
+        "lastName": "",
+        "slug": "dave-kwakman",
+        "shortName": "D. Kwakman",
+        "position": "M",
+        "jerseyNumber": "23",
+        "userCount": 252,
+        "gender": "M",
+        "id": 1146002,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديف كواكمان"
+          },
+          "shortNameTranslation": {
+            "ar": "د. كواكمان"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 9.4,
+        "y": 36.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 6.3,
+        "y": 41.3,
+        "z": 0
+      },
+      "xg": 0.25033038854599,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Niek Schiks",
+        "slug": "niek-schiks",
+        "shortName": "N. Schiks",
+        "position": "G",
+        "jerseyNumber": "24",
+        "userCount": 222,
+        "gender": "M",
+        "id": 1134720,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيك شيكس"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. شيكس"
+          }
+        }
+      },
+      "id": 6703272,
+      "time": 45,
+      "timeSeconds": 2642,
+      "draw": {
+        "start": {
+          "x": 36.6,
+          "y": 9.4
+        },
+        "block": {
+          "x": 41.3,
+          "y": 6.3
+        },
+        "end": {
+          "x": 51,
+          "y": 0
+        },
+        "goal": {
+          "x": 51,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 58,
+      "periodTimeSeconds": 2642,
+      "incidentType": "shot"
+    }
+  ]
+}

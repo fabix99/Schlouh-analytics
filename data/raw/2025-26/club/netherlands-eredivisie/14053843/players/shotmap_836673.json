@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Owen Wijndal",
+        "slug": "owen-wijndal",
+        "shortName": "O. Wijndal",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 792,
+        "gender": "M",
+        "id": 836673,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوين وينديل",
+            "bn": "ওয়েন উইজান্ডাল",
+            "hi": "ओवेन विजंडल"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. وينديل",
+            "bn": "ও. উইজান্ডাল",
+            "hi": "ओ. विजंडल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.7,
+        "y": 33.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.7,
+        "z": 22.8
+      },
+      "blockCoordinates": {
+        "x": 3.3,
+        "y": 48.7,
+        "z": 0
+      },
+      "xg": 0.023586113005877,
+      "xgot": 0.055422004312277,
+      "goalkeeper": {
+        "name": "Luuk Koopmans",
+        "slug": "luuk-koopmans",
+        "shortName": "L. Koopmans",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 48,
+        "gender": "M",
+        "id": 128992,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوك كوبمانس"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. كوبمانس"
+          }
+        }
+      },
+      "id": 6710113,
+      "time": 9,
+      "timeSeconds": 519,
+      "draw": {
+        "start": {
+          "x": 33.9,
+          "y": 22.7
+        },
+        "block": {
+          "x": 48.7,
+          "y": 3.3
+        },
+        "end": {
+          "x": 52.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.3,
+          "y": 77.2
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2181,
+      "periodTimeSeconds": 519,
+      "incidentType": "shot"
+    }
+  ]
+}

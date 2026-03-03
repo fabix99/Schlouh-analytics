@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ollie Watkins",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ollie-watkins",
+        "shortName": "O. Watkins",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 19586,
+        "gender": "M",
+        "sofascoreId": "OllieWatkins",
+        "id": 555386,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أولي واتكينز",
+            "bn": "অলি ওয়াটকিন্স",
+            "hi": "ओली वॉटकिंस"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. واتكينز",
+            "bn": "ও. ওয়াটকিন্স",
+            "hi": "ओ. वॉटकिंस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 25.9,
+        "y": 38.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52,
+        "z": 10.1
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 48.2,
+        "z": 0
+      },
+      "xg": 0.029823819175363,
+      "xgot": 0.030343001708388,
+      "goalkeeper": {
+        "name": "Alexander Schlager",
+        "slug": "alexander-schlager",
+        "shortName": "A. Schlager",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 341,
+        "gender": "M",
+        "id": 282073,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الكسندر شلاغر",
+            "bn": "আলেকজান্ডার শ্ল্যাগার",
+            "hi": "अलेक्जेंडर श्लेगर"
+          },
+          "shortNameTranslation": {
+            "ar": "ا. شلاغر",
+            "bn": "এ. শ্ল্যাগার",
+            "hi": "ए. श्लेगर"
+          }
+        }
+      },
+      "id": 6605729,
+      "time": 1,
+      "timeSeconds": 27,
+      "draw": {
+        "start": {
+          "x": 38.5,
+          "y": 25.9
+        },
+        "block": {
+          "x": 48.2,
+          "y": 1.6
+        },
+        "end": {
+          "x": 48,
+          "y": 0
+        },
+        "goal": {
+          "x": 48,
+          "y": 89.9
+        }
+      },
+      "reversedPeriodTime": 45,
+      "reversedPeriodTimeSeconds": 2673,
+      "periodTimeSeconds": 27,
+      "incidentType": "shot"
+    }
+  ]
+}

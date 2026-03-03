@@ -1,0 +1,413 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1184603,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76953
+    },
+    "roundInfo": {
+      "round": 3
+    },
+    "customId": "JAsydb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 35058,
+    "venue": {
+      "city": {
+        "name": "Copenhagen"
+      },
+      "venueCoordinates": {
+        "latitude": 55.702704,
+        "longitude": 12.572264
+      },
+      "hidden": false,
+      "slug": "parken",
+      "name": "Parken",
+      "capacity": 38190,
+      "country": {
+        "alpha2": "DK",
+        "alpha3": "DNK",
+        "name": "Denmark",
+        "slug": "denmark"
+      },
+      "id": 936,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "باركن",
+          "hi": "पारकेन",
+          "bn": "পার্ক"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Parken",
+        "capacity": 38190
+      }
+    },
+    "referee": {
+      "name": "Danny Makkelie",
+      "slug": "makkelie-danny-desmond",
+      "yellowCards": 1913,
+      "redCards": 54,
+      "yellowRedCards": 57,
+      "games": 559,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "NL",
+        "alpha3": "NLD",
+        "name": "Netherlands",
+        "slug": "netherlands"
+      },
+      "id": 72792,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ماكيلي، داني ديسموند",
+          "bn": "ম্যাকেলি, ড্যানি ডেসমন্ড",
+          "hi": "मक्केली, डैनी डेसमंड"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "FC København",
+      "slug": "fc-kobenhavn",
+      "shortName": "København",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 195519,
+      "manager": {
+        "name": "Jacob Neestrup",
+        "slug": "jacob-neestrup",
+        "shortName": "J. Neestrup",
+        "country": {
+          "alpha2": "DK",
+          "alpha3": "DNK",
+          "name": "Denmark",
+          "slug": "denmark"
+        },
+        "id": 793010,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جاكوب نيستروب",
+            "bn": "জ্যাকব নেস্ট্রাপ",
+            "hi": "जैकब नीस्ट्रुप"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. نيستروب",
+            "bn": "জে. নেস্ট্রাপ",
+            "hi": "जे. नीस्ट्रुप"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Copenhagen"
+        },
+        "venueCoordinates": {
+          "latitude": 55.702704,
+          "longitude": 12.572264
+        },
+        "hidden": false,
+        "slug": "parken",
+        "name": "Parken",
+        "capacity": 38190,
+        "country": {
+          "alpha2": "DK",
+          "alpha3": "DNK",
+          "name": "Denmark",
+          "slug": "denmark"
+        },
+        "id": 936,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باركن",
+            "hi": "पारकेन",
+            "bn": "পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Parken",
+          "capacity": 38190
+        }
+      },
+      "nameCode": "FCK",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DK",
+        "alpha3": "DNK",
+        "name": "Denmark",
+        "slug": "denmark"
+      },
+      "id": 1284,
+      "fullName": "FC København",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#0066ff",
+        "text": "#0066ff"
+      },
+      "foundationDateTimestamp": 709862400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إف سي كوبنهاغن",
+          "ru": "Копенгаген"
+        },
+        "shortNameTranslation": {
+          "ar": "كوبنهاغن",
+          "bn": "কোবেনহাভন",
+          "hi": "कोबेनह्वान"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "shortName": "Dortmund",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 1342401,
+      "manager": {
+        "name": "Niko Kovač",
+        "slug": "niko-kovac",
+        "shortName": "N. Kovač",
+        "country": {
+          "alpha2": "HR",
+          "alpha3": "HRV",
+          "name": "Croatia",
+          "slug": "croatia"
+        },
+        "id": 371,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكو كوفاتش",
+            "bn": "নিকো কোভাক",
+            "hi": "निको कोवाक"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. كوفاتش",
+            "bn": "এন. কোভাক",
+            "hi": "एन. कोवाक"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Dortmund"
+        },
+        "venueCoordinates": {
+          "latitude": 51.492492,
+          "longitude": 7.451855
+        },
+        "hidden": false,
+        "slug": "signal-iduna-park",
+        "name": "Signal Iduna Park",
+        "capacity": 81365,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 759,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيجنال إيدونا بارك",
+            "hi": "सिग्नल इडुना पार्क",
+            "bn": "সিগন্যাল ইদুনা পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Signal Iduna Park",
+          "capacity": 81365
+        }
+      },
+      "nameCode": "BVB",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2673,
+      "fullName": "Borussia Dortmund",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffe600",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -1894579200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بوروسيا دورتموند",
+          "hi": "बोरुस्सिया  डॉर्टमुंड",
+          "ru": "Боруссия Дортмунд"
+        },
+        "shortNameTranslation": {
+          "ar": "دورتموند",
+          "bn": "ডর্টমুন্ড",
+          "hi": "डॉर्टमुंड"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 4,
+      "display": 4,
+      "period1": 1,
+      "period2": 3,
+      "normaltime": 4
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 2,
+      "injuryTime2": 2,
+      "currentPeriodStartTimestamp": 1761077071
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type",
+        "homeScore.period2",
+        "homeScore.normaltime",
+        "awayScore.period2",
+        "awayScore.normaltime"
+      ],
+      "changeTimestamp": 1761079897
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14566971,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "borussia-dortmund-fc-kobenhavn",
+    "currentPeriodStartTimestamp": 1761077071,
+    "startTimestamp": 1761073200,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

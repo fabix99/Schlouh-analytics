@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Wilfried Kanga",
+        "slug": "wilfried-kanga",
+        "shortName": "W. Kanga",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 929,
+        "gender": "M",
+        "id": 838640,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويلفريد كانغا",
+            "bn": "উইলফ্রেড কাঙ্গা",
+            "hi": "विलफ्रेड कांगा"
+          },
+          "shortNameTranslation": {
+            "ar": "و. كانغا",
+            "bn": "ডব্লিউ. কাঙ্গা",
+            "hi": "डब्लू. कांगा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.8,
+        "y": 47.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 12.7,
+        "y": 47.8,
+        "z": 0
+      },
+      "xg": 0.066051572561264,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Warleson",
+        "firstName": "",
+        "lastName": "",
+        "slug": "warleson",
+        "shortName": "Warleson",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 146,
+        "gender": "M",
+        "id": 861071,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "وارليسون"
+          },
+          "shortNameTranslation": {
+            "ar": "وارليسون"
+          }
+        }
+      },
+      "id": 6745881,
+      "time": 70,
+      "timeSeconds": 4150,
+      "draw": {
+        "start": {
+          "x": 47.9,
+          "y": 14.8
+        },
+        "block": {
+          "x": 47.8,
+          "y": 12.7
+        },
+        "end": {
+          "x": 47.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 21,
+      "reversedPeriodTimeSeconds": 1250,
+      "periodTimeSeconds": 1450,
+      "incidentType": "shot"
+    }
+  ]
+}

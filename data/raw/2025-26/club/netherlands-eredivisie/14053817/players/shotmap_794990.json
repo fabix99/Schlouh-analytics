@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Siebe Horemans",
+        "slug": "siebe-horemans",
+        "shortName": "S. Horemans",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 200,
+        "gender": "M",
+        "id": 794990,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هورمانس، سيبي"
+          },
+          "shortNameTranslation": {
+            "ar": "س. هورمانس"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 18.9,
+        "y": 64.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.6,
+        "y": 56.1,
+        "z": 0
+      },
+      "xg": 0.037466868758202,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Joël Drommel",
+        "firstName": "",
+        "lastName": "",
+        "slug": "joel-drommel",
+        "shortName": "J. Drommel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 381,
+        "gender": "M",
+        "id": 610396,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جويل دروميل",
+            "bn": "জোয়েল ড্রোমেল",
+            "hi": "जोएल ड्रोमेल"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. دروميل",
+            "bn": "জে. ড্রোমেল",
+            "hi": "जे. ड्रोमेल"
+          }
+        }
+      },
+      "id": 6589730,
+      "time": 44,
+      "timeSeconds": 2608,
+      "draw": {
+        "start": {
+          "x": 64.2,
+          "y": 18.9
+        },
+        "block": {
+          "x": 56.1,
+          "y": 10.6
+        },
+        "end": {
+          "x": 47.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 92,
+      "periodTimeSeconds": 2608,
+      "incidentType": "shot"
+    }
+  ]
+}

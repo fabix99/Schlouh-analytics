@@ -1,0 +1,408 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1184603,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 61644
+    },
+    "roundInfo": {
+      "round": 3
+    },
+    "customId": "eYsoKj",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 9246,
+    "venue": {
+      "city": {
+        "name": "Girona"
+      },
+      "venueCoordinates": {
+        "latitude": 41.9611,
+        "longitude": 2.8278
+      },
+      "hidden": false,
+      "slug": "estadi-montilivi",
+      "name": "Estadi Montilivi",
+      "capacity": 14624,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 11380,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب مونتيلفي",
+          "hi": "एस्टेडी मोंटिलिवी",
+          "bn": "এস্তাদি মন্টিলিভি"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Estadi Montilivi",
+        "capacity": 14624
+      }
+    },
+    "referee": {
+      "name": "Horatiu Fesnic",
+      "slug": "fesnic-horatiu",
+      "yellowCards": 1323,
+      "redCards": 31,
+      "yellowRedCards": 38,
+      "games": 263,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "RO",
+        "alpha3": "ROU",
+        "name": "Romania",
+        "slug": "romania"
+      },
+      "id": 225478,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فيسنيك، هوراشيو",
+          "bn": "ফেসনিক, হোরাটিউ",
+          "hi": "फ़ेस्निक, होराटियो"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Girona FC",
+      "slug": "girona-fc",
+      "shortName": "Girona",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 351586,
+      "manager": {
+        "name": "Michel",
+        "slug": "michel",
+        "shortName": "Michel",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 788163,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميشيل",
+            "bn": "মিশেল",
+            "hi": "मिशेल"
+          },
+          "shortNameTranslation": {
+            "ar": "ميشيل",
+            "bn": "মিশেল",
+            "hi": "मिशेल"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Girona"
+        },
+        "venueCoordinates": {
+          "latitude": 41.9611,
+          "longitude": 2.8278
+        },
+        "hidden": false,
+        "slug": "estadi-montilivi",
+        "name": "Estadi Montilivi",
+        "capacity": 14624,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 11380,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب مونتيلفي",
+            "hi": "एस्टेडी मोंटिलिवी",
+            "bn": "এস্তাদি মন্টিলিভি"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estadi Montilivi",
+          "capacity": 14624
+        }
+      },
+      "nameCode": "GIR",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 24264,
+      "fullName": "Girona FC",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#ff0000",
+        "text": "#ff0000"
+      },
+      "foundationDateTimestamp": -1244592000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "جيرونا إف سي",
+          "hi": "जिरोना",
+          "ru": "Жирона"
+        },
+        "shortNameTranslation": {
+          "ar": "جيرونا",
+          "bn": "জিরোনা",
+          "hi": "गिरोना"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "ŠK Slovan Bratislava",
+      "slug": "sk-slovan-bratislava",
+      "shortName": "Slovan",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 59734,
+      "manager": {
+        "name": "Vladimir Weiss",
+        "slug": "vladimir-weiss",
+        "shortName": "V. Weiss",
+        "country": {
+          "alpha2": "SK",
+          "alpha3": "SVK",
+          "name": "Slovakia",
+          "slug": "slovakia"
+        },
+        "id": 53433,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فلاديمير فايس",
+            "bn": "ভ্লাদিমির ওয়েইস",
+            "hi": "व्लादिमीर वेइस"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فايس",
+            "bn": "ভি. ওয়েইস",
+            "hi": "वी. वेइस"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bratislava"
+        },
+        "venueCoordinates": {
+          "latitude": 48.163491,
+          "longitude": 17.136795
+        },
+        "hidden": true,
+        "slug": "tehelne-pole-stadion",
+        "name": "Tehelne Pole Stadion",
+        "capacity": 22500,
+        "country": {
+          "alpha2": "SK",
+          "alpha3": "SVK",
+          "name": "Slovakia",
+          "slug": "slovakia"
+        },
+        "id": 901,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب تيهيلني بول",
+            "hi": "टेहेल्ने पोल स्टेडियन",
+            "bn": "তেহেলনে পোল স্টেডিয়ান"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Tehelne Pole Stadion",
+          "capacity": 22500
+        }
+      },
+      "nameCode": "SLO",
+      "class": 1,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "SK",
+        "alpha3": "SVK",
+        "name": "Slovakia",
+        "slug": "slovakia"
+      },
+      "id": 2404,
+      "fullName": "ŠK Slovan Bratislava",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#99ccff",
+        "secondary": "#99ccff",
+        "text": "#99ccff"
+      },
+      "foundationDateTimestamp": -1598918400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إس كيه سلوفان براتيسلافا",
+          "ru": "Слован Братислава"
+        },
+        "shortNameTranslation": {
+          "ar": "سلوفان",
+          "bn": "স্লোভান",
+          "hi": "स्लोवान"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 4,
+      "currentPeriodStartTimestamp": 1729627336
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1729630285
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12764255,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "girona-fc-sk-slovan-bratislava",
+    "currentPeriodStartTimestamp": 1729627336,
+    "startTimestamp": 1729623600,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

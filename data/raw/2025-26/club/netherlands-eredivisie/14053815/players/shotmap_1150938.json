@@ -1,0 +1,87 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Leo Sauer",
+        "firstName": "Leo Sauer",
+        "lastName": "",
+        "slug": "sauer-leo",
+        "shortName": "L. Sauer",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 1914,
+        "gender": "M",
+        "id": 1150938,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليو ساور",
+            "bn": "সাউয়ার, লিও",
+            "hi": "सॉयर, लियो"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. ساور",
+            "bn": "এল. সওয়ার",
+            "hi": "एल. सॉयर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7,
+        "y": 50.7,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54,
+        "z": 3.2
+      },
+      "xg": 0.22580187022686,
+      "xgot": 0.86853110790253,
+      "goalkeeper": {
+        "name": "Timo Jansink",
+        "slug": "jansink-timo",
+        "shortName": "T. Jansink",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 41,
+        "gender": "M",
+        "id": 1189737,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يانسينك، تيمو"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. يانسينك"
+          }
+        }
+      },
+      "id": 6589589,
+      "time": 23,
+      "timeSeconds": 1335,
+      "draw": {
+        "start": {
+          "x": 50.7,
+          "y": 7
+        },
+        "end": {
+          "x": 46,
+          "y": 0
+        },
+        "goal": {
+          "x": 46,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1365,
+      "periodTimeSeconds": 1335,
+      "incidentType": "shot"
+    }
+  ]
+}

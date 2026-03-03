@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Chiquinho",
+        "slug": "chiquinho",
+        "shortName": "Chiquinho",
+        "position": "F",
+        "jerseyNumber": "10",
+        "userCount": 454,
+        "gender": "M",
+        "id": 1015826,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "شيكينيو",
+            "bn": "চিকুইনহো",
+            "hi": "चिकिन्हो"
+          },
+          "shortNameTranslation": {
+            "ar": "شيكينيو",
+            "bn": "চিকুইনহো",
+            "hi": "चिकिन्हो"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 1,
+        "y": 72.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 96.1,
+        "z": 13.9
+      },
+      "blockCoordinates": {
+        "x": 2.8,
+        "y": 0,
+        "z": 0
+      },
+      "xg": 0.013057233765721,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lukáš Horníček",
+        "slug": "lukas-hornicek",
+        "shortName": "L. Horníček",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 520,
+        "gender": "M",
+        "id": 963744,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاش هورنيتشيك",
+            "bn": "লুকাস হর্নিসেক",
+            "hi": "लुकास हॉर्निसेक"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. هورنيتشيك",
+            "bn": "এল. হর্নিক",
+            "hi": "एल. हॉर्निसेक"
+          }
+        }
+      },
+      "id": 6600155,
+      "time": 48,
+      "timeSeconds": 2876,
+      "draw": {
+        "start": {
+          "x": 72.7,
+          "y": 1
+        },
+        "block": {
+          "x": 0,
+          "y": 2.8
+        },
+        "end": {
+          "x": 3.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 3.9,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 43,
+      "reversedPeriodTimeSeconds": 2524,
+      "periodTimeSeconds": 176,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -27,7 +27,10 @@ def render_match_preview_card(
     away_form: str,
     home_stats: Optional[pd.Series] = None,
     away_stats: Optional[pd.Series] = None,
-    importance: str = "Medium"
+    importance: str = "Medium",
+    referee_name: Optional[str] = None,
+    venue_name: Optional[str] = None,
+    attendance: Optional[Any] = None,
 ) -> None:
     """Render a comprehensive match preview card.
 
@@ -41,6 +44,9 @@ def render_match_preview_card(
         home_stats: Optional home team stats Series
         away_stats: Optional away team stats Series
         importance: Match importance level
+        referee_name: Optional referee name (from event meta)
+        venue_name: Optional venue name (from event meta)
+        attendance: Optional attendance count (from event meta)
     """
     from dashboard.utils.constants import COMP_FLAGS, COMP_NAMES
 
@@ -100,11 +106,22 @@ def render_match_preview_card(
             st.markdown(f"<div style='text-align: center; margin-top: 10px;'>{form_html}</div>", unsafe_allow_html=True)
 
         with team_cols[1]:
+            meta_parts = [date_str]
+            if referee_name:
+                meta_parts.append(f"Referee: {referee_name}")
+            if venue_name:
+                meta_parts.append(f"Venue: {venue_name}")
+            if attendance is not None and str(attendance).strip() and str(attendance) != "nan":
+                try:
+                    meta_parts.append(f"Attendance: {int(float(attendance)):,}")
+                except (TypeError, ValueError):
+                    meta_parts.append(f"Attendance: {attendance}")
+            meta_line = " | ".join(meta_parts) if len(meta_parts) > 1 else meta_parts[0]
             st.markdown(
                 f"""
                 <div style="text-align: center;">
                     <div style="font-size: 2rem; color: #8B949E; font-weight: 300;">VS</div>
-                    <div style="font-size: 0.75rem; color: #8B949E; margin-top: 8px;">{date_str}</div>
+                    <div style="font-size: 0.75rem; color: #8B949E; margin-top: 8px;">{meta_line}</div>
                 </div>
                 """,
                 unsafe_allow_html=True
@@ -551,7 +568,7 @@ def render_match_notebook(
         on_delete: Callback when note is deleted
     """
     if not notes:
-        st.info("No notes saved yet. Add notes from Pre-Match or Post-Match pages.")
+        st.info("No notes saved yet.")
         return
 
     st.markdown(f"**{len(notes)} Notes Saved**")

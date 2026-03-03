@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Adam Daghim",
+        "firstName": "",
+        "lastName": "",
+        "slug": "adam-daghim",
+        "shortName": "A. Daghim",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 859,
+        "gender": "M",
+        "id": 1180758,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آدم داغيم"
+          },
+          "shortNameTranslation": {
+            "ar": "آ. داغيم"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.2,
+        "y": 77.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.1,
+        "y": 72.6,
+        "z": 0
+      },
+      "xg": 0.022855469956994,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Daniel Batz",
+        "slug": "daniel-batz",
+        "shortName": "D. Batz",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 141,
+        "gender": "M",
+        "id": 94312,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دانيال باتز",
+            "bn": "ড্যানিয়েল বাটজ",
+            "hi": "डैनियल बैट्ज़"
+          },
+          "shortNameTranslation": {
+            "ar": "د. باتز",
+            "bn": "ডি. বাটজ",
+            "hi": "डी. बैट्ज़"
+          }
+        }
+      },
+      "id": 6580454,
+      "time": 89,
+      "timeSeconds": 5312,
+      "draw": {
+        "start": {
+          "x": 77.1,
+          "y": 12.2
+        },
+        "block": {
+          "x": 72.6,
+          "y": 10.1
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 88,
+      "periodTimeSeconds": 2612,
+      "incidentType": "shot"
+    }
+  ]
+}

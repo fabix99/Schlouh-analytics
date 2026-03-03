@@ -1,0 +1,407 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": false,
+    "tournament": {
+      "name": "Pro League",
+      "slug": "pro-league",
+      "category": {
+        "name": "Belgium",
+        "slug": "belgium",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 33,
+        "flag": "belgium",
+        "alpha2": "BE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بلجيكا",
+            "ru": "Бельгия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Pro League",
+        "slug": "pro-league",
+        "primaryColorHex": "#16002b",
+        "secondaryColorHex": "#ff1740",
+        "category": {
+          "name": "Belgium",
+          "slug": "belgium",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "BE",
+            "alpha3": "BEL",
+            "name": "Belgium",
+            "slug": "belgium"
+          },
+          "id": 33,
+          "flag": "belgium",
+          "alpha2": "BE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بلجيكا",
+              "ru": "Бельгия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 67524,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 38,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري المحترفين",
+            "bn": "প্রো লীগ",
+            "hi": "प्रो लीग"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 496,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 38,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الدوري الأول",
+          "bn": "ফার্স্ট ডিভিশন এ",
+          "hi": "फर्स्ट डिवीजन ए"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Pro League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 77040
+    },
+    "roundInfo": {
+      "round": 9
+    },
+    "customId": "Nhbsbib",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "venue": {
+      "city": {
+        "name": "Liege"
+      },
+      "venueCoordinates": {
+        "latitude": 50.609873,
+        "longitude": 5.543512
+      },
+      "hidden": true,
+      "slug": "maurice-dufrasne",
+      "name": "Maurice Dufrasne",
+      "capacity": 27670,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 1133,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب موريس دوفراسن",
+          "hi": "मौरिस डुफ्रासने",
+          "bn": "মরিস ডুফ্রাসনে"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Maurice Dufrasne",
+        "capacity": 27670
+      }
+    },
+    "referee": {
+      "name": "Jasper Vergoote",
+      "slug": "jasper-vergoote",
+      "yellowCards": 631,
+      "redCards": 21,
+      "yellowRedCards": 16,
+      "games": 161,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 787255,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ياسبر فيرغوت"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Standard Liège",
+      "slug": "standard-liege",
+      "shortName": "Standard Liège",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 33922,
+      "manager": {
+        "name": "Vincent Euvrard",
+        "slug": "vincent-euvrard",
+        "shortName": "V. Euvrard",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 786937,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فنسنت أوفرا"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. أوفرا"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Liege"
+        },
+        "venueCoordinates": {
+          "latitude": 50.609873,
+          "longitude": 5.543512
+        },
+        "hidden": true,
+        "slug": "maurice-dufrasne",
+        "name": "Maurice Dufrasne",
+        "capacity": 27670,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 1133,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب موريس دوفراسن",
+            "hi": "मौरिस डुफ्रासने",
+            "bn": "মরিস ডুফ্রাসনে"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Maurice Dufrasne",
+          "capacity": 27670
+        }
+      },
+      "nameCode": "STA",
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 2901,
+      "fullName": "Standard Liège",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2201212800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ستاندرد لييج",
+          "bn": "স্ট্যান্ডার্ড লিজ",
+          "hi": "स्टैंडर्ड लीज",
+          "ru": "Стандард"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "shortName": "Club Brugge",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 297894,
+      "manager": {
+        "name": "Ivan Leko",
+        "slug": "ivan-leko",
+        "shortName": "I. Leko",
+        "country": {
+          "alpha2": "HR",
+          "alpha3": "HRV",
+          "name": "Croatia",
+          "slug": "croatia"
+        },
+        "id": 786964,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفان ليكو",
+            "bn": "ইভান লেকো",
+            "hi": "इवान लेको"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ليكو",
+            "bn": "আই. লেকো",
+            "hi": "आई. लेको"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bruges"
+        },
+        "venueCoordinates": {
+          "latitude": 51.193346,
+          "longitude": 3.180585
+        },
+        "hidden": false,
+        "slug": "jan-breydel-stadium",
+        "name": "Jan Breydel Stadium",
+        "capacity": 29975,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 1187,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب يان بريدل",
+            "hi": "जान ब्रेडेल स्टेडियम",
+            "bn": "জান ব্রেইডেল স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Jan Breydel Stadium",
+          "capacity": 29975
+        }
+      },
+      "nameCode": "BRU",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 2888,
+      "fullName": "Club Brugge KV",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#0080ff",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2465683200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كلوب بروج كي في",
+          "ru": "Брюгге"
+        },
+        "shortNameTranslation": {
+          "ar": "كلوب بروج",
+          "bn": "ব্রুগ কেভি",
+          "hi": "क्लब ब्रुग"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 1,
+      "display": 1,
+      "period1": 1,
+      "period2": 0,
+      "normaltime": 1
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 3,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1758993525
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1758996725
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14035895,
+    "homeRedCards": 1,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "standard-liege-club-brugge-kv",
+    "currentPeriodStartTimestamp": 1758993525,
+    "startTimestamp": 1758989700,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

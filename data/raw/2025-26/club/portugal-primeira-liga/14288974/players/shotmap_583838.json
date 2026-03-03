@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Gil Dias",
+        "slug": "gil-dias",
+        "shortName": "Gil",
+        "position": "M",
+        "jerseyNumber": "23",
+        "userCount": 356,
+        "gender": "M",
+        "id": 583838,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غيل دياز",
+            "bn": "গিল দিয়াজ",
+            "hi": "गिल डायस"
+          },
+          "shortNameTranslation": {
+            "ar": "غيل",
+            "bn": "গিল",
+            "hi": "गिल डायस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.1,
+        "y": 34.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 12.4,
+        "y": 35.9,
+        "z": 0
+      },
+      "xg": 0.027801383286715,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Adriel",
+        "firstName": "Adriel",
+        "lastName": "",
+        "slug": "adriel",
+        "shortName": "Adriel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 392,
+        "gender": "M",
+        "id": 1106840,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أدرييل"
+          },
+          "shortNameTranslation": {
+            "ar": "أدرييل"
+          }
+        }
+      },
+      "id": 6682124,
+      "time": 72,
+      "timeSeconds": 4272,
+      "draw": {
+        "start": {
+          "x": 34.2,
+          "y": 14.1
+        },
+        "block": {
+          "x": 35.9,
+          "y": 12.4
+        },
+        "end": {
+          "x": 46.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 19,
+      "reversedPeriodTimeSeconds": 1128,
+      "periodTimeSeconds": 1572,
+      "incidentType": "shot"
+    }
+  ]
+}

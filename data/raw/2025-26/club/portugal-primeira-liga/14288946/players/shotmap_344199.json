@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rúben Semedo",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ruben-semedo",
+        "shortName": "R. Semedo",
+        "position": "D",
+        "jerseyNumber": "35",
+        "userCount": 299,
+        "gender": "M",
+        "id": 344199,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبين سيميدو",
+            "bn": "রুবেন সেমেডো",
+            "hi": "रुबेन सेमेदो"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. سيميدو",
+            "bn": "আর. সেমেডো",
+            "hi": "आर. सेमेदो"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 12.3,
+        "y": 34.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.3,
+        "y": 38.8,
+        "z": 0
+      },
+      "xg": 0.048901535570621,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Patrick Sequeira",
+        "slug": "patrick-sequeira",
+        "shortName": "P. Sequeira",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 964,
+        "gender": "M",
+        "id": 821628,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باتريك سيكويرا",
+            "bn": "প্যাট্রিক সেকুইরা",
+            "hi": "पैट्रिक सेक्वेरा"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. سيكويرا",
+            "bn": "পি. সেকুইরা",
+            "hi": "पी. सेक्वेरा"
+          }
+        }
+      },
+      "id": 6576259,
+      "time": 40,
+      "timeSeconds": 2399,
+      "draw": {
+        "start": {
+          "x": 34.6,
+          "y": 12.3
+        },
+        "block": {
+          "x": 38.8,
+          "y": 9.3
+        },
+        "end": {
+          "x": 47.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 301,
+      "periodTimeSeconds": 2399,
+      "incidentType": "shot"
+    }
+  ]
+}

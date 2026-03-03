@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Julián Alvarez",
+        "slug": "julian-alvarez",
+        "shortName": "J. Álvarez",
+        "position": "F",
+        "jerseyNumber": "19",
+        "userCount": 224425,
+        "gender": "M",
+        "sofascoreId": "LaAraña",
+        "id": 944656,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوليان ألفاريز",
+            "bn": "জুলিয়ান আলভারেজ",
+            "hi": "जूलियन अल्वारेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ألفاريز",
+            "bn": "জে. আলভারেজ",
+            "hi": "जे. अल्वारेज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7.1,
+        "y": 32.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.7,
+        "z": 11.4
+      },
+      "blockCoordinates": {
+        "x": 1.5,
+        "y": 44.8,
+        "z": 0
+      },
+      "xg": 0.057618636637926,
+      "xgot": 0.34469720721245,
+      "goalkeeper": {
+        "name": "Álvaro Valles",
+        "slug": "alvaro-valles",
+        "shortName": "Á. Valles",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 962,
+        "gender": "M",
+        "id": 964983,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألفارو فاليس",
+            "bn": "আলভারো ভ্যালেস",
+            "hi": "अल्वारो वल्लेस"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فاليس",
+            "bn": "আ. ভ্যালেস",
+            "hi": "ए. वल्लेस"
+          }
+        }
+      },
+      "id": 6670363,
+      "time": 16,
+      "timeSeconds": 930,
+      "draw": {
+        "start": {
+          "x": 32.5,
+          "y": 7.1
+        },
+        "block": {
+          "x": 44.8,
+          "y": 1.5
+        },
+        "end": {
+          "x": 45.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.3,
+          "y": 88.6
+        }
+      },
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1770,
+      "periodTimeSeconds": 930,
+      "incidentType": "shot"
+    }
+  ]
+}

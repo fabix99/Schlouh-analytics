@@ -1,0 +1,401 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1184603,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 61644
+    },
+    "roundInfo": {
+      "round": 1
+    },
+    "customId": "Gdbsjjb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 42297,
+    "venue": {
+      "city": {
+        "name": "Rotterdam"
+      },
+      "venueCoordinates": {
+        "latitude": 51.893865,
+        "longitude": 4.523228
+      },
+      "hidden": false,
+      "slug": "de-kuip",
+      "name": "De Kuip",
+      "capacity": 47500,
+      "country": {
+        "alpha2": "NL",
+        "alpha3": "NLD",
+        "name": "Netherlands",
+        "slug": "netherlands"
+      },
+      "id": 612,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب دي كويب",
+          "hi": "डे कुइप",
+          "bn": "ডি কুইপ"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "De Kuip",
+        "capacity": 47500
+      }
+    },
+    "referee": {
+      "name": "Davide Massa",
+      "slug": "massa-davide",
+      "yellowCards": 1730,
+      "redCards": 51,
+      "yellowRedCards": 33,
+      "games": 370,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 126984,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ماسا، دافيدي",
+          "bn": "মাসা, ডেভিড",
+          "hi": "मस्सा, डेविड"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Feyenoord",
+      "slug": "feyenoord",
+      "shortName": "Feyenoord",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 367530,
+      "manager": {
+        "name": "Robin van Persie",
+        "slug": "robin-van-persie",
+        "shortName": "R. v. Persie",
+        "country": {
+          "alpha2": "NL",
+          "alpha3": "NLD",
+          "name": "Netherlands",
+          "slug": "netherlands"
+        },
+        "id": 801864,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن فان بيرسي"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ف. بيرسي"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Rotterdam"
+        },
+        "venueCoordinates": {
+          "latitude": 51.893865,
+          "longitude": 4.523228
+        },
+        "hidden": false,
+        "slug": "de-kuip",
+        "name": "De Kuip",
+        "capacity": 47500,
+        "country": {
+          "alpha2": "NL",
+          "alpha3": "NLD",
+          "name": "Netherlands",
+          "slug": "netherlands"
+        },
+        "id": 612,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب دي كويب",
+            "hi": "डे कुइप",
+            "bn": "ডি কুইপ"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "De Kuip",
+          "capacity": 47500
+        }
+      },
+      "nameCode": "FEY",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "NL",
+        "alpha3": "NLD",
+        "name": "Netherlands",
+        "slug": "netherlands"
+      },
+      "id": 2959,
+      "fullName": "Feyenoord",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ff0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -1939334400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فينورد",
+          "bn": "ফেইনুর্ড",
+          "hi": "फ़ेनोर्ड",
+          "ru": "Фейеноорд Роттердам"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Bayer 04 Leverkusen",
+      "slug": "bayer-04-leverkusen",
+      "shortName": "Leverkusen",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 1008220,
+      "manager": {
+        "name": "Kasper Hjulmand",
+        "slug": "kasper-hjulmand",
+        "shortName": "K. Hjulmand",
+        "country": {
+          "alpha2": "DK",
+          "alpha3": "DNK",
+          "name": "Denmark",
+          "slug": "denmark"
+        },
+        "id": 53105,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاسبر هيولماند",
+            "bn": "কাসপার হজুলমান্ড",
+            "hi": "कैस्पर हजुलमंड"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. هيولماند",
+            "bn": "কে. হজুলমান্ড",
+            "hi": "के. हजुलमंड"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Leverkusen"
+        },
+        "venueCoordinates": {
+          "latitude": 51.038144,
+          "longitude": 7.003096
+        },
+        "hidden": false,
+        "slug": "bayarena",
+        "name": "BayArena",
+        "capacity": 30210,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 593,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باي أرينا",
+            "hi": "बेएरिना",
+            "bn": "বেএরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "BayArena",
+          "capacity": 30210
+        }
+      },
+      "nameCode": "B04",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2681,
+      "fullName": "Bayer 04 Leverkusen",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#ff2222",
+        "text": "#ff2222"
+      },
+      "foundationDateTimestamp": -2067120000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "باير 04 ليفركوزن",
+          "ru": "Байер Леверкузен"
+        },
+        "shortNameTranslation": {
+          "ar": "ليفركوزن",
+          "bn": "লেভারকুসেন",
+          "hi": "लेवरकुसेन"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 4,
+      "display": 4,
+      "period1": 4,
+      "period2": 0,
+      "normaltime": 4
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 2,
+      "currentPeriodStartTimestamp": 1726768078
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1726770928
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12764229,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "feyenoord-bayer-04-leverkusen",
+    "currentPeriodStartTimestamp": 1726768078,
+    "startTimestamp": 1726764300,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

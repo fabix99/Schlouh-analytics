@@ -1,0 +1,84 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Pedro Bondo",
+        "firstName": "Pedro",
+        "lastName": "Bondo Francisco",
+        "slug": "pedro-bondo",
+        "shortName": "P. Bondo",
+        "position": "D",
+        "jerseyNumber": "28",
+        "userCount": 478,
+        "gender": "M",
+        "id": 1102988,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيدرو بوندو"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. بوندو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 20.4,
+        "y": 35.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 58,
+        "z": 25
+      },
+      "xg": 0.01573153398931,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bernardo Fontes",
+        "firstName": "Bernardo",
+        "lastName": "Fontes",
+        "slug": "bernardo-fontes",
+        "shortName": "B. Fontes",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 205,
+        "gender": "M",
+        "id": 1394935,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برناردو فونتس"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فونتس"
+          }
+        }
+      },
+      "id": 6591336,
+      "time": 77,
+      "timeSeconds": 4591,
+      "draw": {
+        "start": {
+          "x": 35.4,
+          "y": 20.4
+        },
+        "end": {
+          "x": 42,
+          "y": 0
+        },
+        "goal": {
+          "x": 42,
+          "y": 75
+        }
+      },
+      "reversedPeriodTime": 14,
+      "reversedPeriodTimeSeconds": 809,
+      "periodTimeSeconds": 1891,
+      "incidentType": "shot"
+    }
+  ]
+}

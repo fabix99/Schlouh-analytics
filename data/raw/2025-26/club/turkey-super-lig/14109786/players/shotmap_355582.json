@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Žan Žužek",
+        "slug": "zan-zuzek",
+        "shortName": "Ž. Žužek",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 103,
+        "gender": "M",
+        "id": 355582,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زان زوزيك"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. زوزيك"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 24.6,
+        "y": 38.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 16.6,
+        "y": 42.2,
+        "z": 0
+      },
+      "xg": 0.055399227887392,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Zafer Görgen",
+        "slug": "zafer-gorgen",
+        "shortName": "Z. Görgen",
+        "position": "G",
+        "jerseyNumber": "20",
+        "userCount": 72,
+        "gender": "M",
+        "id": 930907,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ظافر غورغن"
+          },
+          "shortNameTranslation": {
+            "ar": "ظ. غورغن"
+          }
+        }
+      },
+      "id": 6625399,
+      "time": 85,
+      "timeSeconds": 5074,
+      "draw": {
+        "start": {
+          "x": 38.5,
+          "y": 24.6
+        },
+        "block": {
+          "x": 42.2,
+          "y": 16.6
+        },
+        "end": {
+          "x": 49.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 326,
+      "periodTimeSeconds": 2374,
+      "incidentType": "shot"
+    }
+  ]
+}

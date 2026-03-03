@@ -1,0 +1,92 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bradley Barcola",
+        "slug": "barcola-bradley",
+        "shortName": "B. Barcola",
+        "position": "F",
+        "jerseyNumber": "29",
+        "userCount": 37687,
+        "gender": "M",
+        "sofascoreId": "bradley_b",
+        "id": 996952,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برادلي باركولا",
+            "bn": "বারকোলা, ব্র্যাডলি",
+            "hi": "बारकोला, ब्रैडली"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. باركولا",
+            "bn": "বি. বারকোলা",
+            "hi": "बी. बारकोला"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 13.9,
+        "y": 54.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.8,
+        "z": 75
+      },
+      "xg": 0.1195892393589,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nick Pope",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nick-pope",
+        "shortName": "N. Pope",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 4729,
+        "gender": "M",
+        "sofascoreId": "npope29",
+        "id": 162653,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيك بوب",
+            "bn": "নিক পোপ",
+            "hi": "निक पोप"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. بوب",
+            "bn": "এন. পোপ",
+            "hi": "एन. पोप"
+          }
+        }
+      },
+      "id": 6602677,
+      "time": 60,
+      "timeSeconds": 3580,
+      "draw": {
+        "start": {
+          "x": 54.6,
+          "y": 13.9
+        },
+        "end": {
+          "x": 45.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.2,
+          "y": 25
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1820,
+      "periodTimeSeconds": 880,
+      "incidentType": "shot"
+    }
+  ]
+}

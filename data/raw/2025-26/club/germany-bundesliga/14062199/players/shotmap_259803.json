@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Haris Tabaković",
+        "slug": "haris-tabakovic",
+        "shortName": "H. Tabaković",
+        "position": "F",
+        "jerseyNumber": "15",
+        "userCount": 2750,
+        "gender": "M",
+        "id": 259803,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هاريس تاباكوفيتش",
+            "bn": "হারিস তাবাকোভিচ",
+            "hi": "हारिस तबाकोविक"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. تاباكوفيتش",
+            "bn": "এইচ. তাবাকোভিচ",
+            "hi": "एच. तबाकोविक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.3,
+        "y": 53.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.3,
+        "z": 1.9
+      },
+      "blockCoordinates": {
+        "x": 4.4,
+        "y": 50.7,
+        "z": 0
+      },
+      "xg": 0.14475345611572,
+      "xgot": 0.44416639208794,
+      "goalkeeper": {
+        "name": "Janis Blaswich",
+        "slug": "janis-blaswich",
+        "shortName": "J. Blaswich",
+        "position": "G",
+        "jerseyNumber": "28",
+        "userCount": 658,
+        "gender": "M",
+        "id": 96832,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يانيس بلاسفيتش",
+            "bn": "জেনিস ব্লাসউইচ",
+            "hi": "जेनिस ब्लासविच"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. بلاسفيتش",
+            "bn": "জে. ব্লাসউইচ",
+            "hi": "जे. ब्लासविच"
+          }
+        }
+      },
+      "id": 6661127,
+      "time": 10,
+      "timeSeconds": 555,
+      "draw": {
+        "start": {
+          "x": 53.4,
+          "y": 14.3
+        },
+        "block": {
+          "x": 50.7,
+          "y": 4.4
+        },
+        "end": {
+          "x": 52.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.7,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2145,
+      "periodTimeSeconds": 555,
+      "incidentType": "shot"
+    }
+  ]
+}

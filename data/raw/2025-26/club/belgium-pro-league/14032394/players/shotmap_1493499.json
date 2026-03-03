@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Oumar Diouf",
+        "firstName": "Oumar Diouf",
+        "slug": "oumar-diouf",
+        "shortName": "O. Diouf",
+        "position": "F",
+        "jerseyNumber": "77",
+        "userCount": 186,
+        "gender": "M",
+        "id": 1493499,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عمر ديوف"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. ديوف"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 12.3,
+        "y": 58.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 5.4,
+        "y": 53.6,
+        "z": 0
+      },
+      "xg": 0.19360585510731,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Martin Delavallée",
+        "slug": "martin-delavalee",
+        "shortName": "M. Delavallée",
+        "position": "G",
+        "jerseyNumber": "55",
+        "userCount": 124,
+        "gender": "M",
+        "id": 1141106,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتن ديلافاليه"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ديلافاليه"
+          }
+        }
+      },
+      "id": 6619186,
+      "time": 90,
+      "addedTime": 6,
+      "timeSeconds": 5724,
+      "draw": {
+        "start": {
+          "x": 58.9,
+          "y": 12.3
+        },
+        "block": {
+          "x": 53.6,
+          "y": 5.4
+        },
+        "end": {
+          "x": 49.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 576,
+      "periodTimeSeconds": 324,
+      "incidentType": "shot"
+    }
+  ]
+}

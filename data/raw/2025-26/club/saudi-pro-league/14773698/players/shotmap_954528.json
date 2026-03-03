@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nawaf Al-Habashi",
+        "slug": "nawaf-al-habashi",
+        "shortName": "N. Al-Habashi",
+        "position": "M",
+        "jerseyNumber": "19",
+        "userCount": 30,
+        "gender": "M",
+        "id": 954528,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نواف الحبشي",
+            "bn": "নাওয়াফ আল-হাবাশি",
+            "hi": "नवाफ़ अल-हबाशी"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. الحبشي",
+            "bn": "এন. আল-হবাশি",
+            "hi": "एन. अल-हबाशी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 68.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.5,
+        "z": 0.6
+      },
+      "blockCoordinates": {
+        "x": 9.3,
+        "y": 64.6,
+        "z": 0
+      },
+      "xg": 0.047742418944836,
+      "xgot": 0.19531336426735,
+      "goalkeeper": {
+        "name": "Kewin",
+        "slug": "kewin",
+        "shortName": "Kewin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 111,
+        "gender": "M",
+        "id": 865371,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيوين"
+          },
+          "shortNameTranslation": {
+            "ar": "كيوين"
+          }
+        }
+      },
+      "id": 6594956,
+      "time": 55,
+      "timeSeconds": 3285,
+      "draw": {
+        "start": {
+          "x": 68.4,
+          "y": 11.5
+        },
+        "block": {
+          "x": 64.6,
+          "y": 9.3
+        },
+        "end": {
+          "x": 52.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.5,
+          "y": 99.4
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2115,
+      "periodTimeSeconds": 585,
+      "incidentType": "shot"
+    }
+  ]
+}

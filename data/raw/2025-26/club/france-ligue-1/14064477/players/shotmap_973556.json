@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Julio Enciso",
+        "firstName": "",
+        "lastName": "",
+        "slug": "julio-enciso",
+        "shortName": "J. Enciso",
+        "position": "M",
+        "jerseyNumber": "19",
+        "userCount": 13122,
+        "gender": "M",
+        "sofascoreId": "julioenciso.33",
+        "id": 973556,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوليو إنسيسو",
+            "bn": "জুলিও এনসিসো",
+            "hi": "जूलियो एनकिसो"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. إنسيسو",
+            "bn": "জে. এনসিসো",
+            "hi": "जे. एनकिसो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.4,
+        "y": 29.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49,
+        "z": 3.8
+      },
+      "blockCoordinates": {
+        "x": 0.5,
+        "y": 48.7,
+        "z": 0
+      },
+      "xg": 0.027582129463553,
+      "xgot": 0.023642612621188,
+      "goalkeeper": {
+        "name": "Matvey Safonov",
+        "slug": "matvey-safonov",
+        "shortName": "M. Safonov",
+        "position": "G",
+        "jerseyNumber": "39",
+        "userCount": 16539,
+        "gender": "M",
+        "sofascoreId": "MSafonov",
+        "id": 800749,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتفي سافونوف",
+            "bn": "ম্যাটভে সাফোনভ",
+            "hi": "माटवे सफोनोव"
+          },
+          "shortNameTranslation": {
+            "ar": "م. سافونوف",
+            "bn": "এম. সাফোনভ",
+            "hi": "एम. सफोनोव"
+          }
+        }
+      },
+      "id": 6627325,
+      "time": 41,
+      "timeSeconds": 2400,
+      "draw": {
+        "start": {
+          "x": 29.2,
+          "y": 8.4
+        },
+        "block": {
+          "x": 48.7,
+          "y": 0.5
+        },
+        "end": {
+          "x": 51,
+          "y": 0
+        },
+        "goal": {
+          "x": 51,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 300,
+      "periodTimeSeconds": 2400,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Federico Chiesa",
+        "slug": "federico-chiesa",
+        "shortName": "F. Chiesa",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 39816,
+        "gender": "M",
+        "sofascoreId": "FedeChiesa",
+        "id": 845386,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيديريكو كييزا",
+            "bn": "ফেদেরিকো চিয়েসা",
+            "hi": "फेडेरिको चिएसा"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. كييزا",
+            "bn": "এফ. চিয়েসা",
+            "hi": "एफ. चिएसा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 6.7,
+        "y": 22.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.8,
+        "z": 0.6
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 45.5,
+        "z": 0
+      },
+      "xg": 0.012015012092888,
+      "xgot": 0.047337491065264,
+      "goalkeeper": {
+        "name": "Gianluigi Donnarumma",
+        "slug": "gianluigi-donnarumma",
+        "shortName": "G. Donnarumma",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 70094,
+        "gender": "M",
+        "sofascoreId": "donnarumma",
+        "id": 824509,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيانلويجي دوناروما",
+            "bn": "জিয়ানলুইগি ডোনারুম্মা",
+            "hi": "जियानलुइगी डोनारुम्मा"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. دوناروما",
+            "bn": "জি. ডোনারুম্মা",
+            "hi": "जी. डोनारुम्मा"
+          }
+        }
+      },
+      "id": 6670633,
+      "time": 90,
+      "addedTime": 5,
+      "timeSeconds": 5678,
+      "draw": {
+        "start": {
+          "x": 22.9,
+          "y": 6.7
+        },
+        "block": {
+          "x": 45.5,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 53.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.2,
+          "y": 99.4
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 622,
+      "periodTimeSeconds": 278,
+      "incidentType": "shot"
+    }
+  ]
+}

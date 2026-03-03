@@ -1,0 +1,403 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1189818,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 61644
+    },
+    "roundInfo": {
+      "round": 5
+    },
+    "customId": "PsMdb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 42589,
+    "venue": {
+      "city": {
+        "name": "Birmingham"
+      },
+      "venueCoordinates": {
+        "latitude": 52.509126,
+        "longitude": -1.885035
+      },
+      "hidden": false,
+      "slug": "villa-park",
+      "name": "Villa Park",
+      "capacity": 42640,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 815,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فيلا بارك",
+          "hi": "विला पार्क",
+          "bn": "ভিলা পার্ক"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Villa Park",
+        "capacity": 42640
+      }
+    },
+    "referee": {
+      "name": "Jesus Gil Manzano",
+      "slug": "jesus-gil-manzano",
+      "yellowCards": 2158,
+      "redCards": 54,
+      "yellowRedCards": 59,
+      "games": 425,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 86508,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "خيسوس خيل مانزانو",
+          "bn": "জেসাস গিল মানজানো",
+          "hi": "जीसस गिल मंज़ानो"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "shortName": "Aston Villa",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 907974,
+      "manager": {
+        "name": "Unai Emery",
+        "slug": "unai-emery",
+        "shortName": "U. Emery",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 53062,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوني إيمري",
+            "bn": "উনাই এমেরি",
+            "hi": "उनाई एमरी"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. إيمري",
+            "bn": "ইউ. এমেরি",
+            "hi": "यू. एमरी"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Birmingham"
+        },
+        "venueCoordinates": {
+          "latitude": 52.509126,
+          "longitude": -1.885035
+        },
+        "hidden": false,
+        "slug": "villa-park",
+        "name": "Villa Park",
+        "capacity": 42640,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 815,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيلا بارك",
+            "hi": "विला पार्क",
+            "bn": "ভিলা পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Villa Park",
+          "capacity": 42640
+        }
+      },
+      "nameCode": "AVL",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 40,
+      "fullName": "Aston Villa",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#670e36",
+        "secondary": "#94bee5",
+        "text": "#94bee5"
+      },
+      "foundationDateTimestamp": -3024345600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أستون فيلا",
+          "bn": "অ্যাস্টন ভিলা",
+          "hi": "एस्टन विला",
+          "ru": "Астон Вилла"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Juventus",
+      "slug": "juventus",
+      "shortName": "Juventus",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 1550431,
+      "manager": {
+        "name": "Luciano Spalletti",
+        "slug": "luciano-spalletti",
+        "shortName": "L. Spalletti",
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 786459,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوتشيانو سباليتي",
+            "bn": "লুসিয়ানো স্প্যালেটি",
+            "hi": "लुसियानो स्पैलेटी"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. سباليتي",
+            "bn": "এল. স্প্যালেটি",
+            "hi": "एल. स्पैलेटी"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Turin"
+        },
+        "venueCoordinates": {
+          "latitude": 45.109576,
+          "longitude": 7.642134
+        },
+        "hidden": false,
+        "slug": "allianz-stadium",
+        "name": "Allianz Stadium",
+        "capacity": 41507,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 2657,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب أليانز",
+            "hi": "एलियांज स्टेडियम",
+            "bn": "আলিয়াঞ্জ স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Allianz Stadium",
+          "capacity": 41507
+        }
+      },
+      "nameCode": "JUV",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2687,
+      "fullName": "Juventus",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2277331200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "يوفنتوس",
+          "bn": "জুভেন্টাস",
+          "hi": "जुवेंटस",
+          "ru": "Ювентус"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 3,
+      "currentPeriodStartTimestamp": 1732741393
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1732744442
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12763959,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "juventus-aston-villa",
+    "currentPeriodStartTimestamp": 1732741393,
+    "startTimestamp": 1732737600,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

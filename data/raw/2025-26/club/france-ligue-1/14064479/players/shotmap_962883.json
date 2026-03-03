@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ansu Fati",
+        "slug": "ansu-fati",
+        "shortName": "A. Fati",
+        "position": "F",
+        "jerseyNumber": "31",
+        "userCount": 167334,
+        "gender": "M",
+        "sofascoreId": "AnsuFati",
+        "id": 962883,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنسو فاتي",
+            "bn": "আনসু ফাতি",
+            "hi": "अंसू फाति"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فاتي",
+            "bn": "এ. ফাতি",
+            "hi": "ए. फाति"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 7,
+        "y": 64.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.4,
+        "z": 1.3
+      },
+      "xg": 0.18505689501762,
+      "xgot": 0.16114173829556,
+      "goalkeeper": {
+        "name": "Brice Samba",
+        "slug": "brice-samba",
+        "shortName": "B. Samba",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 2118,
+        "gender": "M",
+        "id": 164055,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برايس سامبا",
+            "bn": "ব্রাইস সাম্বা",
+            "hi": "ब्राइस साम्बा"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. سامبا",
+            "bn": "বি. সাম্বা",
+            "hi": "बी. साम्बा"
+          }
+        }
+      },
+      "id": 6618638,
+      "time": 33,
+      "timeSeconds": 1939,
+      "draw": {
+        "start": {
+          "x": 64.2,
+          "y": 7
+        },
+        "end": {
+          "x": 50.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.6,
+          "y": 98.7
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 761,
+      "periodTimeSeconds": 1939,
+      "incidentType": "shot"
+    }
+  ]
+}

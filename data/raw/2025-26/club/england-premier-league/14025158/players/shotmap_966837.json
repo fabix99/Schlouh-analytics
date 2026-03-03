@@ -1,0 +1,86 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Martín Zubimendi",
+        "slug": "martin-zubimendi",
+        "shortName": "M. Zubimendi",
+        "position": "M",
+        "jerseyNumber": "36",
+        "userCount": 26549,
+        "gender": "M",
+        "sofascoreId": "martin_zubimendi",
+        "id": 966837,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتين زوبيميندي",
+            "bn": "মার্টিন জুবিমেন্ডি",
+            "hi": "मार्टिन ज़ुबिमेंडी"
+          },
+          "shortNameTranslation": {
+            "ar": "م. زوبيميندي",
+            "bn": "এম. জুবিমেন্দি",
+            "hi": "एम. ज़ुबिमेंडी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.3,
+        "y": 31.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.4,
+        "z": 3.2
+      },
+      "xg": 0.029227951541543,
+      "xgot": 0.021480366587639,
+      "goalkeeper": {
+        "name": "Robin Roefs",
+        "slug": "robin-roefs",
+        "shortName": "R. Roefs",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 2194,
+        "gender": "M",
+        "id": 1012928,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن روفس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. روفس"
+          }
+        }
+      },
+      "id": 6659750,
+      "time": 42,
+      "timeSeconds": 2479,
+      "draw": {
+        "start": {
+          "x": 31.9,
+          "y": 20.3
+        },
+        "end": {
+          "x": 48.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.6,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 221,
+      "periodTimeSeconds": 2479,
+      "incidentType": "shot"
+    }
+  ]
+}

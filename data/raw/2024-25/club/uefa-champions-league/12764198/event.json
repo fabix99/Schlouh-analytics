@@ -1,0 +1,405 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1184603,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 61644
+    },
+    "roundInfo": {
+      "round": 7
+    },
+    "customId": "MdbsNhb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 26700,
+    "venue": {
+      "city": {
+        "name": "Bruges"
+      },
+      "venueCoordinates": {
+        "latitude": 51.193346,
+        "longitude": 3.180585
+      },
+      "hidden": false,
+      "slug": "jan-breydel-stadium",
+      "name": "Jan Breydel Stadium",
+      "capacity": 29975,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 1187,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب يان بريدل",
+          "hi": "जान ब्रेडेल स्टेडियम",
+          "bn": "জান ব্রেইডেল স্টেডিয়াম"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Jan Breydel Stadium",
+        "capacity": 29975
+      }
+    },
+    "referee": {
+      "name": "Benoît Bastien",
+      "slug": "benoit-bastien",
+      "yellowCards": 1689,
+      "redCards": 74,
+      "yellowRedCards": 34,
+      "games": 429,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 90179,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بينوا باستيان",
+          "bn": "বেনোইট বাস্তিয়েন",
+          "hi": "बेनोइट बैस्टियन"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "shortName": "Club Brugge",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 298202,
+      "manager": {
+        "name": "Ivan Leko",
+        "slug": "ivan-leko",
+        "shortName": "I. Leko",
+        "country": {
+          "alpha2": "HR",
+          "alpha3": "HRV",
+          "name": "Croatia",
+          "slug": "croatia"
+        },
+        "id": 786964,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفان ليكو",
+            "bn": "ইভান লেকো",
+            "hi": "इवान लेको"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ليكو",
+            "bn": "আই. লেকো",
+            "hi": "आई. लेको"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bruges"
+        },
+        "venueCoordinates": {
+          "latitude": 51.193346,
+          "longitude": 3.180585
+        },
+        "hidden": false,
+        "slug": "jan-breydel-stadium",
+        "name": "Jan Breydel Stadium",
+        "capacity": 29975,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 1187,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب يان بريدل",
+            "hi": "जान ब्रेडेल स्टेडियम",
+            "bn": "জান ব্রেইডেল স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Jan Breydel Stadium",
+          "capacity": 29975
+        }
+      },
+      "nameCode": "BRU",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 2888,
+      "fullName": "Club Brugge KV",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#0080ff",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2465683200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كلوب بروج كي في",
+          "ru": "Брюгге"
+        },
+        "shortNameTranslation": {
+          "ar": "كلوب بروج",
+          "bn": "ব্রুগ কেভি",
+          "hi": "क्लब ब्रुग"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Juventus",
+      "slug": "juventus",
+      "shortName": "Juventus",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 1541460,
+      "manager": {
+        "name": "Luciano Spalletti",
+        "slug": "luciano-spalletti",
+        "shortName": "L. Spalletti",
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 786459,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوتشيانو سباليتي",
+            "bn": "লুসিয়ানো স্প্যালেটি",
+            "hi": "लुसियानो स्पैलेटी"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. سباليتي",
+            "bn": "এল. স্প্যালেটি",
+            "hi": "एल. स्पैलेटी"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Turin"
+        },
+        "venueCoordinates": {
+          "latitude": 45.109576,
+          "longitude": 7.642134
+        },
+        "hidden": false,
+        "slug": "allianz-stadium",
+        "name": "Allianz Stadium",
+        "capacity": 41507,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 2657,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب أليانز",
+            "hi": "एलियांज स्टेडियम",
+            "bn": "আলিয়াঞ্জ স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Allianz Stadium",
+          "capacity": 41507
+        }
+      },
+      "nameCode": "JUV",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2687,
+      "fullName": "Juventus",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2277331200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "يوفنتوس",
+          "bn": "জুভেন্টাস",
+          "hi": "जुवेंटस",
+          "ru": "Ювентус"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 0,
+      "injuryTime2": 3,
+      "currentPeriodStartTimestamp": 1737493308
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1737496216
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12764198,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "club-brugge-kv-juventus",
+    "currentPeriodStartTimestamp": 1737493308,
+    "startTimestamp": 1737489600,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

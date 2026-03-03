@@ -1,0 +1,403 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1189676,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 61644
+    },
+    "roundInfo": {
+      "round": 5
+    },
+    "customId": "dIsgkb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 13581,
+    "venue": {
+      "city": {
+        "name": "Fontvieille"
+      },
+      "venueCoordinates": {
+        "latitude": 43.727571,
+        "longitude": 7.415458
+      },
+      "hidden": false,
+      "slug": "stade-louis-ii",
+      "name": "Stade Louis II",
+      "capacity": 18523,
+      "country": {
+        "alpha2": "MC",
+        "alpha3": "MCO",
+        "name": "Monaco",
+        "slug": "monaco"
+      },
+      "id": 831,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب لويس الثاني",
+          "hi": "स्टेड लुई II",
+          "bn": "স্টেড লুই II"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Stade Louis II",
+        "capacity": 18523
+      }
+    },
+    "referee": {
+      "name": "Rade Obrenovič",
+      "slug": "rade-obrenovic",
+      "yellowCards": 1074,
+      "redCards": 18,
+      "yellowRedCards": 29,
+      "games": 248,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "SI",
+        "alpha3": "SVN",
+        "name": "Slovenia",
+        "slug": "slovenia"
+      },
+      "id": 300916,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "رادي أوبرينوفيتش",
+          "bn": "রাদে ওব্রেনোভিচ",
+          "hi": "राडे ओब्रेनोविच"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "AS Monaco",
+      "slug": "as-monaco",
+      "shortName": "AS Monaco",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 509861,
+      "manager": {
+        "name": "Sébastien Pocognoli",
+        "slug": "sebastien-pocognoli",
+        "shortName": "S. Pocognoli",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 800663,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيباستيان بوكونيولي",
+            "bn": "সেবাস্টিয়ান পোকগনোলি",
+            "hi": "सेबेस्टियन पोकोग्नोली"
+          },
+          "shortNameTranslation": {
+            "ar": "س. بوكونيولي",
+            "bn": "এস. পোকগনোলি",
+            "hi": "एस. पोकोग्नोली"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Fontvieille"
+        },
+        "venueCoordinates": {
+          "latitude": 43.727571,
+          "longitude": 7.415458
+        },
+        "hidden": false,
+        "slug": "stade-louis-ii",
+        "name": "Stade Louis II",
+        "capacity": 18523,
+        "country": {
+          "alpha2": "MC",
+          "alpha3": "MCO",
+          "name": "Monaco",
+          "slug": "monaco"
+        },
+        "id": 831,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب لويس الثاني",
+            "hi": "स्टेड लुई II",
+            "bn": "স্টেড লুই II"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stade Louis II",
+          "capacity": 18523
+        }
+      },
+      "nameCode": "ASM",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "MC",
+        "alpha3": "MCO",
+        "name": "Monaco",
+        "slug": "monaco"
+      },
+      "id": 1653,
+      "fullName": "AS Monaco",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#ff0000",
+        "text": "#ff0000"
+      },
+      "foundationDateTimestamp": -1431388800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نادي موناكو",
+          "bn": "এএস মোনাকো",
+          "hi": "एएस मोनाको",
+          "ru": "Монако"
+        },
+        "shortNameTranslation": {
+          "ar": "موناكو"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Benfica",
+      "slug": "benfica",
+      "shortName": "Benfica",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 856927,
+      "manager": {
+        "name": "José Mourinho",
+        "slug": "jose-mourinho",
+        "shortName": "J. Mourinho",
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 53418,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوزيه مورينيو"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. مورينيو"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Lisbon"
+        },
+        "venueCoordinates": {
+          "latitude": 38.752689,
+          "longitude": -9.18469
+        },
+        "hidden": false,
+        "slug": "est-dio-da-luz",
+        "name": "Estádio da Luz",
+        "capacity": 68100,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 902,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب دا لوز",
+            "hi": "एस्टेडियो दा लूज़",
+            "bn": "এস্তাদিও দা লুজ"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estádio da Luz",
+          "capacity": 68100
+        }
+      },
+      "nameCode": "SLB",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 3006,
+      "fullName": "Benfica",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2077833600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بنفيكا",
+          "bn": "বেনফিকা",
+          "hi": "बेनफिका",
+          "ru": "Бенфика"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 0,
+      "period2": 3,
+      "normaltime": 3
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 3,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1732741465
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1732744611
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12764364,
+    "homeRedCards": 1,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "benfica-as-monaco",
+    "currentPeriodStartTimestamp": 1732741465,
+    "startTimestamp": 1732737600,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "cupMatchesInRound": 2,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

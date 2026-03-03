@@ -1,0 +1,155 @@
+{
+  "predictions": {
+    "yellowCards": 5,
+    "corners": 9,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 63,
+      "draw": 21,
+      "away": 16
+    },
+    "possibleResultsMatrix": [
+      [
+        0.054261174051272,
+        0.048614558966136,
+        0.021777775589953,
+        0.0065038336900504,
+        0.0014567552764899,
+        0.00026103200502528
+      ],
+      [
+        0.11049865540276,
+        0.098999763508253,
+        0.044348744059222,
+        0.013244550828086,
+        0.0029665686767282,
+        0.00053157135054108
+      ],
+      [
+        0.11251095335939,
+        0.10080265442208,
+        0.045156381823904,
+        0.013485748175428,
+        0.0030205930453021,
+        0.00054125182980666
+      ],
+      [
+        0.076373264933707,
+        0.068425585263742,
+        0.030652485020443,
+        0.009154225321878,
+        0.0020504008366978,
+        0.0003674057339256
+      ],
+      [
+        0.038882051630135,
+        0.034835843948224,
+        0.015605349675588,
+        0.0046604667472067,
+        0.0010438704075851,
+        0.00018704829141589
+      ],
+      [
+        0.015836054046198,
+        0.014188096676499,
+        0.006355815871632,
+        0.0018981355199908,
+        0.00042515215886738,
+        7.6181855841559e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Current Form",
+      "text": "Brentford is in relatively good form, having won 2 of their last 5 matches, including a solid win against Sunderland. On the other hand, Nottingham Forest is struggling, with no wins in their last 5. Their recent scoring record is a concern as they have not been able to find the back of the net consistently."
+    },
+    {
+      "subtitle": "Head-to-Head Performance",
+      "text": "In the last two meetings between Brentford and Nottingham Forest, both teams have had their moments. However, Nottingham Forest has a recent edge with a 3-1 victory over Brentford in August. This could add pressure on Brentford to perform at home."
+    },
+    {
+      "subtitle": "Match Prediction",
+      "text": "Given Brentford's home advantage and Nottingham Forest's poor recent form, the prediction heavily favors the home team. With a 63% chance of winning according to the Sofascore model, Brentford is likely to secure the three points today."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Brentford",
+      "slug": "brentford",
+      "shortName": "Brentford",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 286402,
+      "nameCode": "BRE",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 50,
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#ff0000",
+        "text": "#ff0000"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "برينتفورد",
+          "bn": "ব্রেন্টফোর্ড",
+          "hi": "ब्रेंटफोर्ड",
+          "ru": "Брентфорд"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Kristoffer Ajer",
+      "slug": "kristoffer-ajer",
+      "shortName": "K. Ajer",
+      "position": "D",
+      "jerseyNumber": "20",
+      "userCount": 1159,
+      "gender": "M",
+      "id": 576384,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كريستوفر آجير",
+          "bn": "ক্রিস্টোফার আজের",
+          "hi": "क्रिस्टोफ़र अजेर"
+        },
+        "shortNameTranslation": {
+          "ar": "ك. آجير",
+          "bn": "কে. আজের",
+          "hi": "के. अजेर"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half overview",
+      "text": "The first half concluded with Nottingham Forest leading Brentford 1-0, thanks to a goal from Igor Jesus in the 12th minute. Brentford maintained a significant amount of possession and demonstrated a strong attacking presence with two big chances created. However, they were unable to convert these into goals, as they missed both opportunities."
+    },
+    {
+      "subtitle": "Attack momentum analysis",
+      "text": "Brentford had an early surge in momentum, dominating the first 10 minutes. However, Nottingham Forest shifted the momentum significantly after Igor Jesus's goal, managing to sustain pressure through the middle portion of the half. The final moments, especially in injury time, saw Brentford surge back with impactful attacking spells, indicating they are keen to respond and level the match in the second half."
+    },
+    {
+      "subtitle": "Tactical observations",
+      "text": "Brentford's tactical approach has led to effective ball possession, utilizing their width to create space in Nottingham's defense. However, their finishing has been lacking. Nottingham Forest, while more conservative in possession, have proven effective on the counter as evidenced by their goal. Predictably, they will look to maintain their lead while seeking to exploit Brentford's potential vulnerabilities in defense."
+    },
+    {
+      "subtitle": "Second half expectations",
+      "text": "In the second half, Brentford is likely to increase their attacking intensity, looking for an equalizer early on. Nottingham Forest may adopt a more defensive posture, focusing on counter-attacks. Given Brentford's inability to capitalize in the first half despite their chances, they will need to sharpen their finishing to turn possession into goals."
+    }
+  ],
+  "modelName": "Grok3"
+}

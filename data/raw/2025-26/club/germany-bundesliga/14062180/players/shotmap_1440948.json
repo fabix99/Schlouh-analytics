@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Can Uzun",
+        "firstName": "Can Uzun",
+        "lastName": "",
+        "slug": "can-uzun",
+        "shortName": "C. Uzun",
+        "position": "M",
+        "jerseyNumber": "42",
+        "userCount": 10664,
+        "gender": "M",
+        "sofascoreId": "can.uzun10",
+        "id": 1440948,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كان أوزون",
+            "bn": "ক্যান উজুন",
+            "hi": "कैन उज़ुन"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. أوزون",
+            "bn": "সি. উজুন",
+            "hi": "सी. उज़ुन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 17.3,
+        "y": 53,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.3,
+        "y": 52.5,
+        "z": 0
+      },
+      "xg": 0.0095283752307296,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Oliver Baumann",
+        "slug": "oliver-baumann",
+        "shortName": "O. Baumann",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1375,
+        "gender": "M",
+        "id": 40244,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوليفر بومان",
+            "bn": "অলিভার বাউম্যান",
+            "hi": "ओलिवर बाउमन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بومان",
+            "bn": "ও. বাউমান",
+            "hi": "ओ. बाउमन"
+          }
+        }
+      },
+      "id": 6579495,
+      "time": 24,
+      "timeSeconds": 1395,
+      "draw": {
+        "start": {
+          "x": 53,
+          "y": 17.3
+        },
+        "block": {
+          "x": 52.5,
+          "y": 15.3
+        },
+        "end": {
+          "x": 49,
+          "y": 0
+        },
+        "goal": {
+          "x": 49,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 22,
+      "reversedPeriodTimeSeconds": 1305,
+      "periodTimeSeconds": 1395,
+      "incidentType": "shot"
+    }
+  ]
+}

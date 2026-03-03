@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Romain Del Castillo",
+        "slug": "romain-del-castillo",
+        "shortName": "R. Del Castillo",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 679,
+        "gender": "M",
+        "id": 825681,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رومان ديل كاستيو",
+            "bn": "রোমেন দেল ক্যাস্টিলো",
+            "hi": "रोमेन डेल कैस्टिलो"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ديل كاستيو",
+            "bn": "আর. ডেল ক্যাস্টিলো",
+            "hi": "आर. डेल कैस्टिलो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 18.6,
+        "y": 67.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.2,
+        "y": 60.8,
+        "z": 0
+      },
+      "xg": 0.067543901503086,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yvon Mvogo",
+        "slug": "yvon-mvogo",
+        "shortName": "Y. Mvogo",
+        "position": "G",
+        "jerseyNumber": "38",
+        "userCount": 543,
+        "gender": "M",
+        "id": 149656,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفون مفوغو",
+            "bn": "ইভন এমভোগো",
+            "hi": "य्वोन मवोगो"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. مافوغو",
+            "bn": "ওয়াই. এমভোগো",
+            "hi": "वाई. मवोगो"
+          }
+        }
+      },
+      "id": 6661429,
+      "time": 13,
+      "timeSeconds": 775,
+      "draw": {
+        "start": {
+          "x": 67.5,
+          "y": 18.6
+        },
+        "block": {
+          "x": 60.8,
+          "y": 11.2
+        },
+        "end": {
+          "x": 50.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1925,
+      "periodTimeSeconds": 775,
+      "incidentType": "shot"
+    }
+  ]
+}

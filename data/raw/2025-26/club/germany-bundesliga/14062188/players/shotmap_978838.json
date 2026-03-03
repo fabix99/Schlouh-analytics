@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Michael Olise",
+        "firstName": "",
+        "lastName": "",
+        "slug": "michael-olise",
+        "shortName": "M. Olise",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 79952,
+        "gender": "M",
+        "sofascoreId": "MOlise",
+        "id": 978838,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايكل أوليس",
+            "bn": "মাইকেল ওলিস",
+            "hi": "माइकल ओलिस"
+          },
+          "shortNameTranslation": {
+            "ar": "م. أوليس",
+            "bn": "এম. ওলিস",
+            "hi": "एम. ओलिस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.4,
+        "y": 60.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.2,
+        "z": 27.8
+      },
+      "blockCoordinates": {
+        "x": 1.8,
+        "y": 52.9,
+        "z": 0
+      },
+      "xg": 0.042743001133204,
+      "xgot": 0.87840282917023,
+      "goalkeeper": {
+        "name": "Oliver Baumann",
+        "slug": "oliver-baumann",
+        "shortName": "O. Baumann",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1382,
+        "gender": "M",
+        "id": 40244,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوليفر بومان",
+            "bn": "অলিভার বাউম্যান",
+            "hi": "ओलिवर बाउमन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بومان",
+            "bn": "ও. বাউমান",
+            "hi": "ओ. बाउमन"
+          }
+        }
+      },
+      "id": 6669709,
+      "time": 9,
+      "timeSeconds": 505,
+      "draw": {
+        "start": {
+          "x": 60.5,
+          "y": 18.4
+        },
+        "block": {
+          "x": 52.9,
+          "y": 1.8
+        },
+        "end": {
+          "x": 45.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.8,
+          "y": 72.2
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2195,
+      "periodTimeSeconds": 505,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Tom Bischof",
+        "slug": "tom-bischof",
+        "shortName": "T. Bischof",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 6443,
+        "gender": "M",
+        "id": 1129935,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توم بيشوف",
+            "bn": "টম বিশফ",
+            "hi": "टॉम बिशॉफ़"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. بيشوف",
+            "bn": "টি. বিশফ.",
+            "hi": "टी. बिशॉफ़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.9,
+        "y": 36.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.1,
+        "z": 4.4
+      },
+      "blockCoordinates": {
+        "x": 2,
+        "y": 50,
+        "z": 0
+      },
+      "xg": 0.025760482996702,
+      "xgot": 0.028969818726182,
+      "goalkeeper": {
+        "name": "Finn Dahmen",
+        "slug": "finn-dahmen",
+        "shortName": "F. Dahmen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 571,
+        "gender": "M",
+        "id": 822564,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فين داهمن",
+            "bn": "ফিন দাহমেন",
+            "hi": "फिन दाहमेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. داهمن",
+            "bn": "এফ. দাহমেন",
+            "hi": "एफ. दाहमेन"
+          }
+        }
+      },
+      "id": 6580450,
+      "time": 90,
+      "addedTime": 1,
+      "timeSeconds": 5401,
+      "draw": {
+        "start": {
+          "x": 36.9,
+          "y": 23.9
+        },
+        "block": {
+          "x": 50,
+          "y": 2
+        },
+        "end": {
+          "x": 48.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.9,
+          "y": 95.6
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 899,
+      "periodTimeSeconds": 1,
+      "incidentType": "shot"
+    }
+  ]
+}

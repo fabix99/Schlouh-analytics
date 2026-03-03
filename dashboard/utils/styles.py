@@ -258,6 +258,329 @@ html, body, [class*="css"] {
     font-size: 0.93rem;
     line-height: 1.55;
 }
+.page-hero-attribution {
+    margin-top: 0.6rem;
+    font-size: 0.8rem;
+    color: #6E7681;
+    font-style: italic;
+}
+
+/* ----- Scouts Home: 12/10 hero & spotlight ----- */
+.hero-v2 {
+    margin-bottom: 1.75rem;
+    padding: 1.75rem 1.25rem 1.5rem;
+    border-bottom: 1px solid #30363D;
+    background: linear-gradient(165deg, rgba(201,168,64,0.06) 0%, rgba(201,168,64,0.02) 40%, transparent 70%);
+    border-radius: 0 0 14px 14px;
+    position: relative;
+}
+.hero-v2-title {
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #F0F6FC;
+    margin: 0 0 0.4rem;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.hero-v2-sub {
+    color: #8B949E;
+    margin: 0 0 0.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 42em;
+}
+.hero-v2-tagline {
+    color: #C9D1D9;
+    font-size: 0.88rem;
+    margin: 0;
+    font-weight: 500;
+}
+.hero-v2-accent {
+    height: 4px;
+    width: 80px;
+    background: linear-gradient(90deg, #C9A840, rgba(201,168,64,0.35));
+    border-radius: 2px;
+    margin-top: 1.1rem;
+    box-shadow: 0 0 12px rgba(201,168,64,0.2);
+}
+/* Profile page: summary card (visual anchor when a player is loaded) */
+.profile-summary-card {
+    background: #161B22;
+    border: 1px solid #30363D;
+    border-left: 4px solid #C9A840;
+    border-radius: 8px;
+    padding: 1.25rem 1.35rem;
+    margin-bottom: 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.profile-summary-card:hover {
+    border-color: rgba(201,168,64,0.4);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.3), 0 0 0 1px rgba(201,168,64,0.08);
+}
+.profile-summary-stat {
+    font-variant-numeric: tabular-nums;
+}
+.profile-summary-stat-label {
+    font-size: 0.75rem;
+    color: #8B949E;
+}
+.profile-summary-stat-value {
+    font-weight: 600;
+    color: #F0F6FC;
+}
+.profile-summary-stat-value.accent {
+    color: #C9A840;
+}
+/* Performance index (percentile summary) card */
+.performance-index-card {
+    background: linear-gradient(135deg, rgba(201,168,64,0.14), rgba(201,168,64,0.06));
+    border: 1px solid rgba(201,168,64,0.35);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+}
+.performance-index-label {
+    font-size: 0.75rem;
+    color: #8B949E;
+    margin-bottom: 4px;
+}
+.performance-index-value {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #C9A840;
+}
+.performance-index-scope {
+    font-size: 0.8rem;
+    color: #8B949E;
+}
+/* Key percentiles bar row */
+.percentile-bar-row {
+    margin-bottom: 12px;
+}
+.percentile-bar-row .label { font-size: 0.85rem; color: #F0F6FC; }
+.percentile-bar-row .value { font-size: 0.85rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.percentile-bar-row .bar-bg { background: #21262D; border-radius: 3px; height: 6px; overflow: hidden; }
+.percentile-bar-row .bar-fill { display: block; border-radius: 3px; height: 6px; min-width: 2px; }
+.percentile-bar-row .raw { font-size: 0.75rem; color: #8B949E; margin-top: 2px; }
+.spotlight-card {
+    background: linear-gradient(145deg, #1C2128 0%, #161B22 100%);
+    border: 1px solid rgba(201,168,64,0.25);
+    border-left: 4px solid #C9A840;
+    border-radius: 10px;
+    padding: 1.25rem 1.35rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.35), 0 0 0 1px rgba(201,168,64,0.06);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.spotlight-card:hover {
+    border-color: rgba(201,168,64,0.4);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.4), 0 0 0 1px rgba(201,168,64,0.1);
+}
+.spotlight-badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #C9A840;
+    margin-bottom: 0.5rem;
+    padding: 0.2em 0.5em;
+    background: rgba(201,168,64,0.12);
+    border-radius: 4px;
+}
+.spotlight-name {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #F0F6FC;
+    margin: 0 0 0.25rem;
+    letter-spacing: -0.01em;
+}
+.spotlight-meta {
+    font-size: 0.85rem;
+    color: #8B949E;
+    margin: 0 0 0.75rem;
+}
+.spotlight-stats {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-top: 0.6rem;
+}
+.spotlight-stat {
+    font-size: 0.8rem;
+    color: #8B949E;
+}
+.spotlight-stat strong {
+    color: #C9A840;
+    font-size: 1rem;
+    margin-right: 0.25rem;
+}
+.top-list-row {
+    background: #161B22;
+    border: 1px solid #30363D;
+    border-radius: 8px;
+    padding: 0.65rem 1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    transition: border-color 0.2s ease, background 0.2s ease;
+}
+.top-list-row:hover {
+    border-color: rgba(201,168,64,0.25);
+    background: #1C2128;
+}
+.top-list-rank {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #8B949E;
+    min-width: 2.25em;
+    font-variant-numeric: tabular-nums;
+}
+.top-list-name {
+    font-weight: 600;
+    color: #F0F6FC;
+    font-size: 0.95rem;
+    flex: 1 1 auto;
+}
+.top-list-meta {
+    font-size: 0.8rem;
+    color: #8B949E;
+    margin-right: 0.5rem;
+}
+.top-list-rating {
+    font-weight: 700;
+    color: #C9A840;
+    font-size: 1rem;
+    font-variant-numeric: tabular-nums;
+}
+
+/* ----- Compare page ----- */
+.compare-queue-card {
+    background: #161B22;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #C9A840;
+    margin-bottom: 6px;
+}
+.compare-queue-card .name {
+    font-weight: 600;
+    color: #F0F6FC;
+}
+.compare-candidate-row {
+    padding: 8px 10px;
+    background: #161B22;
+    border-radius: 4px;
+    border: 1px solid #30363D;
+    margin: 4px 0;
+}
+.compare-candidate-row .name { font-weight: 500; color: #F0F6FC; }
+.compare-candidate-row .meta { color: #8B949E; font-size: 0.8rem; margin-left: 10px; }
+.compare-player-card {
+    background: #161B22;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #30363D;
+    margin-bottom: 15px;
+}
+.compare-player-card .player-name { font-size: 1.3rem; font-weight: 700; color: #F0F6FC; margin-bottom: 5px; }
+.compare-player-card .player-meta { font-size: 0.85rem; color: #8B949E; margin-bottom: 10px; }
+.compare-player-card .player-extra { font-size: 0.75rem; color: #8B949E; }
+.fit-score-card {
+    background: #161B22;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #30363D;
+    margin-bottom: 10px;
+}
+.fit-score-card .player-name { font-weight: 600; color: #F0F6FC; }
+.fit-score-card .explanation { font-size: 0.85rem; color: #8B949E; }
+
+.home-actions-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+.home-action-primary {
+    background: #C9A840 !important;
+    border-color: #C9A840 !important;
+    color: #0D1117 !important;
+    font-weight: 600 !important;
+    padding: 0.5rem 1.25rem !important;
+    border-radius: 8px !important;
+}
+.home-action-primary:hover {
+    background: #b89530 !important;
+    border-color: #b89530 !important;
+    color: #0D1117 !important;
+}
+.data-attribution {
+    font-size: 0.72rem;
+    color: #8B949E;
+    margin-top: 0.6rem;
+    line-height: 1.5;
+}
+
+/* Shortlist page: status overview cards and player cards */
+.shortlist-status-card {
+    background: #161B22;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #30363D;
+    text-align: center;
+    transition: border-color 0.22s ease, box-shadow 0.22s ease;
+}
+.shortlist-status-card:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+.shortlist-status-card .shortlist-status-icon {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+.shortlist-status-card .shortlist-status-label {
+    font-size: 0.85rem;
+    color: #8B949E;
+}
+.shortlist-status-card .shortlist-status-count {
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+}
+.shortlist-player-card {
+    background: #161B22;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #30363D;
+    margin-bottom: 10px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.shortlist-player-card:hover {
+    border-color: rgba(201,168,64,0.25);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.shortlist-player-card .shortlist-player-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #F0F6FC;
+}
+.shortlist-player-card .shortlist-player-meta {
+    font-size: 0.85rem;
+    color: #8B949E;
+    margin-top: 3px;
+}
+.shortlist-status-badge {
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
 
 /* ============================================================
    SECTION HEADERS
@@ -272,6 +595,17 @@ html, body, [class*="css"] {
     margin: 1.5rem 0 0.65rem;
     padding-bottom: 0.45rem;
     border-bottom: 1px solid #30363D;
+}
+.section-sub {
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif !important;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #8B949E;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 1rem 0 0.5rem;
+    padding-bottom: 0;
+    border: none;
 }
 
 /* ============================================================
@@ -315,6 +649,143 @@ html, body, [class*="css"] {
     letter-spacing: 0.08em;
     margin-bottom: 0.6rem;
     padding: 0.1rem 0;
+}
+.filter-subsection-label {
+    font-size: 0.68rem;
+    font-weight: 600;
+    color: #8B949E;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 0.4rem 0 0.25rem 0;
+    padding: 0.05rem 0;
+}
+.filter-subsection-label:first-of-type {
+    margin-top: 0;
+}
+/* Scope row column labels (Discover, Team Directory) */
+.discover-scope-label {
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    color: #F0F6FC !important;
+    margin-bottom: 0.5rem !important;
+    min-height: 1.25rem !important;
+    line-height: 1.25rem !important;
+}
+/* Tighter filter panel: less vertical gap between rows and widgets */
+.compact-filter-panel .filter-subsection-label {
+    margin: 0.35rem 0 0.2rem 0;
+}
+.compact-filter-panel [data-testid="column"] {
+    margin-bottom: 0.15rem !important;
+}
+.compact-filter-panel [data-testid="stNumberInput"] > div,
+.compact-filter-panel [data-testid="stMultiSelect"] > div {
+    min-height: 2rem !important;
+}
+.compact-filter-panel label {
+    font-size: 0.75rem !important;
+    margin-bottom: 0.15rem !important;
+}
+/* Align Scope row: League expander, Season, Position same height (no .compact-filter-panel - Streamlit div does not wrap siblings) */
+[data-testid="stExpander"] summary,
+[data-testid="stMultiSelect"] > div:first-of-type,
+[data-testid="stSelectbox"] > div {
+    min-height: 2.5rem !important;
+    display: flex !important;
+    align-items: center !important;
+}
+[data-testid="stExpander"] summary {
+    padding: 0.4rem 0.5rem !important;
+}
+/* Expander summary: button-like so percentile matches "Add stat filter" */
+[data-testid="stExpander"] summary {
+    background: #161B22 !important;
+    border: 1px solid #30363D !important;
+    border-radius: 6px !important;
+}
+[data-testid="stExpander"] summary:hover {
+    border-color: rgba(201,168,64,0.35) !important;
+}
+
+/* Saved filter card (Discover page) */
+.saved-filter-card {
+    background: #161B22;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #30363D;
+    margin-bottom: 8px;
+    transition: border-color 0.22s ease, box-shadow 0.22s ease;
+}
+.saved-filter-card:hover {
+    border-color: rgba(201,168,64,0.35);
+}
+.saved-filter-card .saved-filter-name {
+    font-weight: 500;
+    color: #F0F6FC;
+}
+.saved-filter-card .saved-filter-meta {
+    font-size: 0.75rem;
+    color: #8B949E;
+    margin-top: 4px;
+}
+
+/* Filter / stat summary line (muted text + accent highlights) */
+.filter-summary-line {
+    color: #8B949E;
+    margin: 0 0 0.5rem;
+    font-size: 0.9rem;
+}
+.filter-summary-line b {
+    color: #C9A840;
+}
+.filter-active-summary {
+    font-size: 0.8rem;
+    color: #8B949E;
+    margin: 0.35rem 0 0.6rem 0;
+    padding: 0.4rem 0.5rem;
+    background: rgba(48,54,61,0.35);
+    border-radius: 6px;
+    border-left: 3px solid #C9A840;
+}
+.filter-active-label {
+    font-weight: 600;
+    color: #C9D1D9;
+    margin-right: 0.35rem;
+}
+.discover-filter-card {
+    padding: 0.9rem 1rem 1rem 1rem;
+    margin-bottom: 0.75rem;
+    background: rgba(22,27,34,0.5);
+    border: 1px solid #30363D;
+    border-radius: 8px;
+}
+.discover-filter-card .section-header {
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #30363D;
+}
+
+/* League breakdown card (footer) */
+.league-breakdown-card {
+    background: #161B22;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #30363D;
+    text-align: center;
+    transition: border-color 0.22s ease;
+}
+.league-breakdown-card:hover {
+    border-color: rgba(201,168,64,0.35);
+}
+.league-breakdown-card .league-breakdown-label {
+    font-size: 0.75rem;
+    color: #8B949E;
+}
+.league-breakdown-card .league-breakdown-value {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #C9A840;
+    font-variant-numeric: tabular-nums;
 }
 
 /* ============================================================
@@ -501,6 +972,46 @@ html, body, [class*="css"] {
 [data-testid="stExpander"] summary:hover {
     color: #F0F6FC !important;
 }
+/* Compact filter panel: visibly smaller when expanded */
+.compact-filter-panel [data-testid="stExpander"] {
+    margin-bottom: 0.35rem !important;
+}
+.compact-filter-panel [data-testid="stExpander"] summary {
+    padding: 0.35rem 0 !important;
+    font-size: 0.82rem !important;
+}
+.compact-filter-panel [data-testid="stExpander"] details > div,
+.compact-filter-panel [data-testid="stExpander"] [data-testid="stExpanderDetails"] {
+    padding: 0.4rem 0 0.5rem 0 !important;
+}
+.compact-filter-panel [data-testid="stExpander"] [data-testid="stVerticalBlock"],
+.compact-filter-panel [data-testid="stExpander"] [data-testid="stHorizontalBlock"] {
+    margin-bottom: 0.2rem !important;
+    gap: 0.5rem !important;
+}
+.compact-filter-panel [data-testid="stExpander"] [data-testid="column"] {
+    margin-bottom: 0 !important;
+}
+.compact-filter-panel [data-testid="stExpander"] label {
+    font-size: 0.75rem !important;
+    margin-bottom: 0.15rem !important;
+}
+.compact-filter-panel [data-testid="stExpander"] [data-testid="stNumberInput"] input,
+.compact-filter-panel [data-testid="stExpander"] [data-testid="stNumberInput"] div {
+    min-height: 1.6rem !important;
+    padding: 0.2rem 0.4rem !important;
+    font-size: 0.8rem !important;
+}
+.compact-filter-panel [data-testid="stExpander"] [data-testid="stMultiSelect"] {
+    font-size: 0.78rem !important;
+}
+.compact-filter-panel [data-testid="stExpander"] [data-testid="stMultiSelect"] [role="listbox"] {
+    max-height: 8rem !important;
+}
+.compact-filter-panel [data-testid="stExpander"] button[aria-label="Remove"] {
+    padding: 0.1rem !important;
+    min-width: 1.2rem !important;
+}
 
 /* ============================================================
    BUTTONS
@@ -525,11 +1036,18 @@ html, body, [class*="css"] {
     border-color: #C9A840 !important;
     color: #0D1117 !important;
     font-weight: 600 !important;
+    font-size: 0.95rem !important;
+    padding: 0.5rem 1.25rem !important;
+    border-radius: 8px !important;
 }
 [data-testid="stButton"] > button[kind="primary"]:hover {
     background: #b89530 !important;
     border-color: #b89530 !important;
     color: #0D1117 !important;
+}
+[data-testid="stButton"] > button[kind="primary"]:focus-visible {
+    outline: 2px solid #C9A840 !important;
+    outline-offset: 2px !important;
 }
 
 /* ============================================================
@@ -563,10 +1081,14 @@ html, body, [class*="css"] {
 }
 [data-baseweb="input"] input,
 [data-testid="stNumberInput"] input {
-    border-color: #30363D !important;
+    border: 1px solid #30363D !important;
     background: #161B22 !important;
     border-radius: 6px !important;
     color: #F0F6FC !important;
+}
+[data-testid="stNumberInput"] input:focus {
+    border-color: rgba(201,168,64,0.5) !important;
+    box-shadow: 0 0 0 1px rgba(201,168,64,0.2) !important;
 }
 [data-baseweb="select"] > div {
     border-color: #30363D !important;
@@ -594,6 +1116,10 @@ html, body, [class*="css"] {
     letter-spacing: 0.05em !important;
     border-bottom: 2px solid #30363D !important;
     padding: 0.6rem 0.75rem !important;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1 !important;
+    box-shadow: 0 2px 0 0 #30363D !important;
 }
 [data-testid="stDataFrame"] table tbody tr:nth-child(even) {
     background: #1C2128 !important;

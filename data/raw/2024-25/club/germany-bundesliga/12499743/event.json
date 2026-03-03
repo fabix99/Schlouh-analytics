@@ -1,0 +1,420 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Bundesliga",
+      "slug": "bundesliga",
+      "category": {
+        "name": "Germany",
+        "slug": "germany",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 30,
+        "flag": "germany",
+        "alpha2": "DE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألمانيا",
+            "bn": "জার্মানি",
+            "hi": "जर्मनी",
+            "ru": "Германия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Bundesliga",
+        "slug": "bundesliga",
+        "primaryColorHex": "#e2080e",
+        "secondaryColorHex": "#8e0902",
+        "category": {
+          "name": "Germany",
+          "slug": "germany",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "DE",
+            "alpha3": "DEU",
+            "name": "Germany",
+            "slug": "germany"
+          },
+          "id": 30,
+          "flag": "germany",
+          "alpha2": "DE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألمانيا",
+              "bn": "জার্মানি",
+              "hi": "जर्मनी",
+              "ru": "Германия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 508963,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 35,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "বুন্দেসলীগা",
+            "ar": "الدوري الألماني",
+            "hi": "बुंडेसलीगा"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 695,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 42,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "बुंडेसलीगा",
+          "ar": "الدوري الألماني",
+          "bn": "বুন্দেসলীগা"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Bundesliga 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 63516
+    },
+    "roundInfo": {
+      "round": 9
+    },
+    "customId": "CdbsGdb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 30210,
+    "venue": {
+      "city": {
+        "name": "Leverkusen"
+      },
+      "venueCoordinates": {
+        "latitude": 51.038144,
+        "longitude": 7.003096
+      },
+      "hidden": false,
+      "slug": "bayarena",
+      "name": "BayArena",
+      "capacity": 30210,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 593,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "باي أرينا",
+          "hi": "बेएरिना",
+          "bn": "বেএরিনা"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "BayArena",
+        "capacity": 30210
+      }
+    },
+    "referee": {
+      "name": "Daniel Siebert",
+      "slug": "siebert-daniel",
+      "yellowCards": 1884,
+      "redCards": 36,
+      "yellowRedCards": 40,
+      "games": 443,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 67092,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سيبرت، دانييل",
+          "bn": "সিবার্ট, ড্যানিয়েল",
+          "hi": "सीबर्ट, डैनियल"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Bayer 04 Leverkusen",
+      "slug": "bayer-04-leverkusen",
+      "shortName": "Leverkusen",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 1008220,
+      "manager": {
+        "name": "Kasper Hjulmand",
+        "slug": "kasper-hjulmand",
+        "shortName": "K. Hjulmand",
+        "country": {
+          "alpha2": "DK",
+          "alpha3": "DNK",
+          "name": "Denmark",
+          "slug": "denmark"
+        },
+        "id": 53105,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاسبر هيولماند",
+            "bn": "কাসপার হজুলমান্ড",
+            "hi": "कैस्पर हजुलमंड"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. هيولماند",
+            "bn": "কে. হজুলমান্ড",
+            "hi": "के. हजुलमंड"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Leverkusen"
+        },
+        "venueCoordinates": {
+          "latitude": 51.038144,
+          "longitude": 7.003096
+        },
+        "hidden": false,
+        "slug": "bayarena",
+        "name": "BayArena",
+        "capacity": 30210,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 593,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باي أرينا",
+            "hi": "बेएरिना",
+            "bn": "বেএরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "BayArena",
+          "capacity": 30210
+        }
+      },
+      "nameCode": "B04",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2681,
+      "fullName": "Bayer 04 Leverkusen",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#ff2222",
+        "text": "#ff2222"
+      },
+      "foundationDateTimestamp": -2067120000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "باير 04 ليفركوزن",
+          "ru": "Байер Леверкузен"
+        },
+        "shortNameTranslation": {
+          "ar": "ليفركوزن",
+          "bn": "লেভারকুসেন",
+          "hi": "लेवरकुसेन"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "VfB Stuttgart",
+      "slug": "vfb-stuttgart",
+      "shortName": "Stuttgart",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 235023,
+      "manager": {
+        "name": "Sebastian Hoeneß",
+        "slug": "sebastian-hoeness",
+        "shortName": "S. Hoeneß",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 792136,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيباستيان هوينس",
+            "bn": "সেবাস্টিয়ান হোয়েনেস",
+            "hi": "सेबेस्टियन होएनेस"
+          },
+          "shortNameTranslation": {
+            "ar": "س. هوينس",
+            "bn": "এস. হোয়েনেস",
+            "hi": "एस. होएनेस"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Stuttgart"
+        },
+        "venueCoordinates": {
+          "latitude": 48.792249,
+          "longitude": 9.232086
+        },
+        "hidden": false,
+        "slug": "mhp-arena",
+        "name": "MHP Arena",
+        "capacity": 60449,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 648,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "MHP أرينا",
+            "hi": "एमएचपी एरिना",
+            "bn": "এমএইচপি এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "MHP Arena",
+          "capacity": 60449
+        }
+      },
+      "nameCode": "VFB",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2677,
+      "fullName": "VfB Stuttgart",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#ff0000",
+        "text": "#ff0000"
+      },
+      "foundationDateTimestamp": -2408140800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "شتوتجارت",
+          "hi": "VFB स्टुटगार्ट",
+          "ru": "Штутгарт"
+        },
+        "shortNameTranslation": {
+          "ar": "شتوتغارت",
+          "bn": "স্টুটগার্ট",
+          "hi": "स्टुटगार्ट"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 3,
+      "currentPeriodStartTimestamp": 1730493207
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1730496143
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12499743,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "bayer-04-leverkusen-vfb-stuttgart",
+    "currentPeriodStartTimestamp": 1730493207,
+    "startTimestamp": 1730489400,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

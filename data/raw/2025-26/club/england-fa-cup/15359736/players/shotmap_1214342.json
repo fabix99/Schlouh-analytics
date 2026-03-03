@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Tyrell Sellars-Fleming",
+        "firstName": "Tyrell Sellars-Fleming",
+        "slug": "sellars-fleming-tyrell",
+        "shortName": "T. Sellars-Fleming",
+        "position": "F",
+        "jerseyNumber": "40",
+        "userCount": 44,
+        "gender": "M",
+        "id": 1214342,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيلارز-فليمنغ، تايريل"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. فليمنغ"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.9,
+        "y": 49.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.7,
+        "y": 49.8,
+        "z": 0
+      },
+      "goalkeeper": {
+        "name": "Sam Johnstone",
+        "slug": "sam-johnstone",
+        "shortName": "S. Johnstone",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 602,
+        "gender": "M",
+        "id": 98427,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سام جونستون",
+            "bn": "স্যাম জনস্টোন",
+            "hi": "सैम जॉनस्टोन"
+          },
+          "shortNameTranslation": {
+            "ar": "س. جونستون",
+            "bn": "এস. জনস্টোন",
+            "hi": "एस. जॉनस्टोन"
+          }
+        }
+      },
+      "id": 6717828,
+      "time": 90,
+      "addedTime": 2,
+      "timeSeconds": 5492,
+      "draw": {
+        "start": {
+          "x": 49.4,
+          "y": 12.9
+        },
+        "block": {
+          "x": 49.8,
+          "y": 10.7
+        },
+        "end": {
+          "x": 51.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 808,
+      "periodTimeSeconds": 92,
+      "incidentType": "shot"
+    }
+  ]
+}

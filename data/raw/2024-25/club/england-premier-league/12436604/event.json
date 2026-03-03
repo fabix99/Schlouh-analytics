@@ -1,0 +1,418 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Premier League",
+      "slug": "premier-league",
+      "category": {
+        "name": "England",
+        "slug": "england",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 1,
+        "flag": "england",
+        "alpha2": "EN",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إنجلترا",
+            "hi": "इंग्लैंड",
+            "bn": "ইংল্যান্ড",
+            "ru": "Англия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Premier League",
+        "slug": "premier-league",
+        "primaryColorHex": "#3c1c5a",
+        "secondaryColorHex": "#f80158",
+        "category": {
+          "name": "England",
+          "slug": "england",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
+          },
+          "id": 1,
+          "flag": "england",
+          "alpha2": "EN",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إنجلترا",
+              "hi": "इंग्लैंड",
+              "bn": "ইংল্যান্ড",
+              "ru": "Англия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1163098,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 17,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإنجليزي الممتاز",
+            "hi": "प्रिमियर लीग",
+            "bn": "প্রিমিয়ার লীগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 699,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 1,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "प्रिमियर लीग",
+          "ar": "الدوري الإنجليزي الممتاز",
+          "bn": "প্রিমিয়ার লীগ"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Premier League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 61627
+    },
+    "roundInfo": {
+      "round": 31
+    },
+    "customId": "Mkb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 62459,
+    "venue": {
+      "city": {
+        "name": "London"
+      },
+      "venueCoordinates": {
+        "latitude": 51.538621,
+        "longitude": -0.016624
+      },
+      "hidden": false,
+      "slug": "london-stadium",
+      "name": "London Stadium",
+      "capacity": 59623,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 16582,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب لندن",
+          "hi": "लंदन स्टेडियम",
+          "bn": "লন্ডন স্টেডিয়াম"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "London Stadium",
+        "capacity": 59623
+      }
+    },
+    "referee": {
+      "name": "Tim Robinson",
+      "slug": "robinson-tim",
+      "yellowCards": 1606,
+      "redCards": 32,
+      "yellowRedCards": 34,
+      "games": 440,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 108401,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "روبنسون، تيم",
+          "bn": "রবিনসন, টিম",
+          "hi": "रॉबिन्सन, टिम"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "West Ham United",
+      "slug": "west-ham-united",
+      "shortName": "West Ham",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 432067,
+      "manager": {
+        "name": "Nuno Espírito Santo",
+        "slug": "nuno-espirito-santo",
+        "shortName": "N. E. Santo",
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 5878,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نونو إسبيريتو سانتو",
+            "bn": "নুনো এস্পিরিটো সান্টো",
+            "hi": "नूनो एस्पिरिटो सैंटो"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. إ. سانتو",
+            "bn": "এন. ই. সান্টো",
+            "hi": "एन. ई. सैंटो"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "London"
+        },
+        "venueCoordinates": {
+          "latitude": 51.538621,
+          "longitude": -0.016624
+        },
+        "hidden": false,
+        "slug": "london-stadium",
+        "name": "London Stadium",
+        "capacity": 59623,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 16582,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب لندن",
+            "hi": "लंदन स्टेडियम",
+            "bn": "লন্ডন স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "London Stadium",
+          "capacity": 59623
+        }
+      },
+      "nameCode": "WHU",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 37,
+      "fullName": "West Ham United",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#66192c",
+        "secondary": "#59b3e4",
+        "text": "#59b3e4"
+      },
+      "foundationDateTimestamp": -2366755200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "وست هام يونايتد",
+          "hi": "वेस्ट हैम यूनाइटेड ऍफ़सी",
+          "ru": "Вест Хэм Юнайтед"
+        },
+        "shortNameTranslation": {
+          "ar": "وست هام",
+          "bn": "ওয়েস্ট হ্যাম",
+          "hi": "वेस्ट हैम"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Bournemouth",
+      "slug": "bournemouth",
+      "shortName": "Bournemouth",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 288501,
+      "manager": {
+        "name": "Andoni Iraola",
+        "slug": "andoni-iraola",
+        "shortName": "A. Iraola",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 790205,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أندوني إيراولا",
+            "bn": "আন্দোনি ইরাওলা",
+            "hi": "एन्डोनि इरोला"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. إيراولا",
+            "bn": "এ. ইরাওলা",
+            "hi": "ए. इरोला"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bournemouth"
+        },
+        "venueCoordinates": {
+          "latitude": 50.735181,
+          "longitude": -1.838328
+        },
+        "hidden": false,
+        "slug": "vitality-stadium",
+        "name": "Vitality Stadium",
+        "capacity": 11700,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 2990,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب فيتاليتي",
+            "hi": "विटैलिटी स्टेडियम",
+            "bn": "ভাইটালিটি স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Vitality Stadium",
+          "capacity": 11700
+        }
+      },
+      "nameCode": "BOU",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 60,
+      "fullName": "Bournemouth",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#cc0000",
+        "text": "#cc0000"
+      },
+      "foundationDateTimestamp": -2240524800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بورنموث",
+          "bn": "বোর্নেমাউথ",
+          "hi": "बोर्नमाउथ",
+          "ru": "Борнмут"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 2,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1743865436
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1743868528
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12436604,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "bournemouth-west-ham-united",
+    "currentPeriodStartTimestamp": 1743865436,
+    "startTimestamp": 1743861600,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

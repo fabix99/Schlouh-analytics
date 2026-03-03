@@ -18,9 +18,7 @@ import time
 from pathlib import Path
 from typing import Optional, Tuple
 
-import sys
-from pathlib import Path as _Path
-sys.path.insert(0, str(_Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import pandas as pd
 import requests
@@ -46,6 +44,11 @@ LA_LIGA_SEASON_IDS = {
 # Or run: python src/fetch_seasons_browser.py 42 --out config/germany_bundesliga_seasons.json
 # and discover_matches will read config/germany_bundesliga_seasons.json when present.
 BUNDESLIGA_SEASON_IDS = {}
+
+# Placeholder values for index rows when API metadata is missing (replaced on merge)
+PLACEHOLDER_HOME_ID = -1
+PLACEHOLDER_AWAY_ID = -2
+PLACEHOLDER_MATCH_DATE = 1609459200  # 2021-01-01 UTC
 
 
 def load_config() -> dict:
@@ -381,10 +384,6 @@ def main():
     index_path.parent.mkdir(parents=True, exist_ok=True)
 
     # Merge into existing index: NEVER remove matches. Add new match_ids; overwrite only placeholder rows with API metadata.
-    PLACEHOLDER_HOME_ID = -1
-    PLACEHOLDER_AWAY_ID = -2
-    PLACEHOLDER_MATCH_DATE = 1609459200  # 2021-01-01 UTC
-
     if index_path.exists():
         existing = pd.read_csv(index_path)
         existing["match_id"] = existing["match_id"].astype(str)

@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Igor Gomes",
+        "slug": "igor-gomes",
+        "shortName": "I. Gomes",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 1160,
+        "gender": "M",
+        "id": 913598,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيغور غوميز"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. غوميز"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 26.6,
+        "y": 36,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.3,
+        "y": 41.9,
+        "z": 0
+      },
+      "xg": 0.0075547057203948,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Carlos Miguel",
+        "slug": "carlos-miguel",
+        "shortName": "C. Miguel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5560,
+        "gender": "M",
+        "id": 973738,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس ميغيل",
+            "bn": "কার্লোস মিগুয়েল",
+            "hi": "कार्लोस मिगुएल"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. ميغيل",
+            "bn": "সি. মিগুয়েল",
+            "hi": "सी. मिगुएल"
+          }
+        }
+      },
+      "id": 6603138,
+      "time": 80,
+      "timeSeconds": 4768,
+      "draw": {
+        "start": {
+          "x": 36,
+          "y": 26.6
+        },
+        "block": {
+          "x": 41.9,
+          "y": 15.3
+        },
+        "end": {
+          "x": 49.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 632,
+      "periodTimeSeconds": 2068,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Riccardo Calafiori",
+        "slug": "riccardo-calafiori",
+        "shortName": "R. Calafiori",
+        "position": "D",
+        "jerseyNumber": "33",
+        "userCount": 24430,
+        "gender": "M",
+        "sofascoreId": "richycala",
+        "id": 957602,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكاردو كالافيوري",
+            "bn": "রিকার্ডো কালাফিয়োরি",
+            "hi": "रिकार्डो कैलाफियोरी"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. كالافيوري",
+            "bn": "আর. কালাফিয়োরি",
+            "hi": "आर. कैलाफियोरी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 15.9,
+        "y": 36.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 37.5,
+        "z": 6.9
+      },
+      "blockCoordinates": {
+        "x": 8.3,
+        "y": 48.7,
+        "z": 0
+      },
+      "xg": 0.029231069609523,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Robin Roefs",
+        "slug": "robin-roefs",
+        "shortName": "R. Roefs",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 2194,
+        "gender": "M",
+        "id": 1012928,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن روفس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. روفس"
+          }
+        }
+      },
+      "id": 6659402,
+      "time": 18,
+      "timeSeconds": 1039,
+      "draw": {
+        "start": {
+          "x": 36.4,
+          "y": 15.9
+        },
+        "block": {
+          "x": 48.7,
+          "y": 8.3
+        },
+        "end": {
+          "x": 62.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 62.5,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1661,
+      "periodTimeSeconds": 1039,
+      "incidentType": "shot"
+    }
+  ]
+}

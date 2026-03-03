@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ryan Yates",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ryan-yates",
+        "shortName": "R. Yates",
+        "position": "M",
+        "jerseyNumber": "22",
+        "userCount": 900,
+        "gender": "M",
+        "id": 846252,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريان ييتس",
+            "bn": "রায়ান ইয়েটস",
+            "hi": "रयान येट्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ييتس",
+            "bn": "আর. ইয়েটস",
+            "hi": "आर. येट्स"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.5,
+        "y": 31.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 1.5,
+        "y": 45.5,
+        "z": 0
+      },
+      "xg": 0.10580547899008,
+      "xgot": 0.058869637548923,
+      "goalkeeper": {
+        "name": "Dávid Gróf",
+        "slug": "david-grof",
+        "shortName": "D. Gróf",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 274,
+        "gender": "M",
+        "id": 21267,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد جروف",
+            "bn": "ডেভিড গ্রোফ",
+            "hi": "डेविड ग्रॉफ"
+          },
+          "shortNameTranslation": {
+            "ar": "د. جروف",
+            "bn": "ডি. গ্রোফ",
+            "hi": "डी. ग्रॉफ"
+          }
+        }
+      },
+      "id": 6606254,
+      "time": 47,
+      "timeSeconds": 2770,
+      "draw": {
+        "start": {
+          "x": 31.9,
+          "y": 8.5
+        },
+        "block": {
+          "x": 45.5,
+          "y": 1.5
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2630,
+      "periodTimeSeconds": 70,
+      "incidentType": "shot"
+    }
+  ]
+}

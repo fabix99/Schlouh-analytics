@@ -1,0 +1,188 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Robert Lewandowski",
+        "slug": "robert-lewandowski",
+        "shortName": "R. Lewandowski",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 576684,
+        "gender": "M",
+        "sofascoreId": "Lewa",
+        "id": 41789,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبرت ليفاندوفسكي",
+            "bn": "রবার্ট লেভান্ডোস্কি",
+            "hi": "रॉबर्ट लेवानडॉस्की"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ليفاندوفسكي",
+            "bn": "আর. লেভান্ডোস্কি",
+            "hi": "आर. लेवानडॉस्की"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 14.1,
+        "y": 44.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.3,
+        "y": 46.2,
+        "z": 0
+      },
+      "xg": 0.10778867453337,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Leo Román",
+        "firstName": "",
+        "lastName": "",
+        "slug": "leo-roman",
+        "shortName": "L. Román",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1580,
+        "gender": "M",
+        "id": 1131909,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليو روماني",
+            "bn": "লিও রোমান",
+            "hi": "लियो रोमान"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. روماني",
+            "bn": "এল. রোমান",
+            "hi": "एल. रोमान"
+          }
+        }
+      },
+      "id": 6660564,
+      "time": 68,
+      "timeSeconds": 4049,
+      "draw": {
+        "start": {
+          "x": 44.4,
+          "y": 14.1
+        },
+        "block": {
+          "x": 46.2,
+          "y": 10.3
+        },
+        "end": {
+          "x": 51.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1351,
+      "periodTimeSeconds": 1349,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Robert Lewandowski",
+        "slug": "robert-lewandowski",
+        "shortName": "R. Lewandowski",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 576684,
+        "gender": "M",
+        "sofascoreId": "Lewa",
+        "id": 41789,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبرت ليفاندوفسكي",
+            "bn": "রবার্ট লেভান্ডোস্কি",
+            "hi": "रॉबर्ट लेवानडॉस्की"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ليفاندوفسكي",
+            "bn": "আর. লেভান্ডোস্কি",
+            "hi": "आर. लेवानडॉस्की"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.7,
+        "y": 50.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.9,
+        "z": 3.8
+      },
+      "xg": 0.66167277097702,
+      "xgot": 0.91504549980164,
+      "goalkeeper": {
+        "name": "Leo Román",
+        "firstName": "",
+        "lastName": "",
+        "slug": "leo-roman",
+        "shortName": "L. Román",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1580,
+        "gender": "M",
+        "id": 1131909,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليو روماني",
+            "bn": "লিও রোমান",
+            "hi": "लियो रोमान"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. روماني",
+            "bn": "এল. রোমান",
+            "hi": "एल. रोमान"
+          }
+        }
+      },
+      "id": 6659828,
+      "time": 29,
+      "timeSeconds": 1689,
+      "draw": {
+        "start": {
+          "x": 50.8,
+          "y": 8.7
+        },
+        "end": {
+          "x": 53.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.1,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 1011,
+      "periodTimeSeconds": 1689,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 6,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 1,
+    "winningProbability": {
+      "home": 11,
+      "draw": 20,
+      "away": 69
+    },
+    "possibleResultsMatrix": [
+      [
+        0.081615923156515,
+        0.15685375858322,
+        0.15072488694702,
+        0.096556995723874,
+        0.046392073724847,
+        0.017831743735245
+      ],
+      [
+        0.048799783360724,
+        0.093785981241646,
+        0.090121407019787,
+        0.057733347746998,
+        0.027738743371017,
+        0.010661954157587
+      ],
+      [
+        0.014589180419406,
+        0.028038251543687,
+        0.026942690645644,
+        0.017259958313159,
+        0.0082927731186013,
+        0.003187497200114
+      ],
+      [
+        0.0029077203579185,
+        0.0055882093764208,
+        0.0053698568278195,
+        0.003440024094653,
+        0.0016528046488809,
+        0.00063528931942271
+      ],
+      [
+        0.00043464595526254,
+        0.00083532537646096,
+        0.00080268604379186,
+        0.00051421470248154,
+        0.00024706119125893,
+        9.496302914983e-05
+      ],
+      [
+        5.19766918883e-05,
+        9.989153055057e-05,
+        9.5988389345548e-05,
+        6.1491839120355e-05,
+        2.954455979664e-05,
+        1.1356056687377e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Current Form",
+      "text": "Metz is struggling at the bottom of the table with just 12 points, having lost 4 of their last 5 matches. In contrast, Olympique Lyonnais is in good form, currently sitting 4th with 33 points and winning 4 of their last 5 encounters."
+    },
+    {
+      "subtitle": "Head-to-Head",
+      "text": "The last two meetings between Metz and Olympique Lyonnais saw Metz lose heavily, including a recent 3-0 defeat at Lyon. This trend suggests a significant upper hand for the away team."
+    },
+    {
+      "subtitle": "Match Strategy",
+      "text": "Metz will need to improve their defensive setup as they've conceded 40 goals this season, the worst in the league. Olympique Lyonnais, with a solid attack led by players like Pavel Šulc, will likely exploit Metz's defensive lapses."
+    },
+    {
+      "subtitle": "Predictions",
+      "text": "Given the form and head-to-head history, Lyon is heavily favored to win today’s match, with Sofascore predicting a 69% chance of an away victory."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Olympique Lyonnais",
+      "slug": "olympique-lyonnais",
+      "shortName": "Lyon",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 477379,
+      "nameCode": "OL",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 1649,
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#004080",
+        "text": "#004080"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أولمبيك ليون",
+          "ru": "Лион"
+        },
+        "shortNameTranslation": {
+          "ar": "ليون",
+          "bn": "লিওন",
+          "hi": "लियोन"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Endrick",
+      "slug": "endrick",
+      "shortName": "Endrick",
+      "position": "F",
+      "jerseyNumber": "9",
+      "userCount": 420164,
+      "gender": "M",
+      "sofascoreId": "Endrick",
+      "id": 1174937,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إندريك فيليبي"
+        },
+        "shortNameTranslation": {
+          "ar": "إ. فيليبي"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 4
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half overview",
+      "text": "In the first half, Olympique Lyonnais established a dominant performance, taking a commanding lead of 4-1 against Metz. Key contributions from players like Endrick, who scored two goals, highlighted Lyonnais' attacking prowess. Metz managed to score through Koffi Kouao, but their defense struggled against Lyon's sustained pressure."
+    },
+    {
+      "subtitle": "Attack momentum analysis",
+      "text": "The attack momentum in the first half showcased a clear shift towards Olympique Lyonnais after an initial push from Metz. Lyon dominated possession and created several attacking opportunities, driving the momentum significantly in their favor. Despite a few moments of resistance from Metz, Lyon’s consistent attacking spells overwhelmed them, allowing for a more fluid game that led to multiple goals."
+    },
+    {
+      "subtitle": "Second half expectations",
+      "text": "Heading into the second half, Metz will need to regroup and strengthen their defense to prevent further concessions. While they have shown glimpses of attacking potential, their overall effectiveness must improve significantly. Lyon, on the other hand, may look to maintain their momentum and capitalize on any defensive lapses from Metz. With the current scoreline, Lyon's attacking confidence is expected to continue."
+    }
+  ],
+  "modelName": "Grok3"
+}

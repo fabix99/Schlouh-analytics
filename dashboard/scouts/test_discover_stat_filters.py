@@ -12,7 +12,7 @@ if str(project_root) not in sys.path:
 import numpy as np
 import pandas as pd
 
-from dashboard.utils.data import load_enriched_season_stats, compute_percentiles
+from dashboard.utils.data import load_enriched_season_stats, compute_percentiles_zscore
 from dashboard.utils.scope import filter_to_default_scope
 
 # Replicate aggregate + percentile logic from Discover
@@ -101,7 +101,7 @@ def main():
             if c in df_agg.columns
         ]
         if pct_stats:
-            df_agg = compute_percentiles(df_agg, pct_group, pct_stats)
+            df_agg = compute_percentiles_zscore(df_agg, pct_group, pct_stats)
 
     n_before = len(df_agg)
     print(f"Aggregated rows (before stat filters): {n_before}")

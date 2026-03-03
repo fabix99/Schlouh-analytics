@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Aleksandr Golovin",
+        "firstName": "",
+        "lastName": "",
+        "slug": "aleksandr-golovin",
+        "shortName": "A. Golovin",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 8671,
+        "gender": "M",
+        "sofascoreId": "alex_golovin17",
+        "id": 318963,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر غولوفين",
+            "bn": "আলেকজান্ডার গোলোভিন",
+            "hi": "अलेक्सान्द्र गोलोविन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. غولوفين",
+            "bn": "এ. গোলোভিন",
+            "hi": "ए. गोलोविन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 24.3,
+        "y": 53.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 20.7,
+        "y": 53.1,
+        "z": 0
+      },
+      "xg": 0.040950946509838,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mattia Perin",
+        "slug": "mattia-perin",
+        "shortName": "M. Perin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3333,
+        "gender": "M",
+        "id": 79645,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتيا بيرين",
+            "bn": "মাতিয়া পেরিন",
+            "hi": "मटिया पेरिन"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بيرين",
+            "bn": "এম. পেরিন",
+            "hi": "एम. पेरिन"
+          }
+        }
+      },
+      "id": 6602336,
+      "time": 7,
+      "timeSeconds": 384,
+      "draw": {
+        "start": {
+          "x": 53.6,
+          "y": 24.3
+        },
+        "block": {
+          "x": 53.1,
+          "y": 20.7
+        },
+        "end": {
+          "x": 50.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2316,
+      "periodTimeSeconds": 384,
+      "incidentType": "shot"
+    }
+  ]
+}

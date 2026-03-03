@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rio Hillen",
+        "firstName": "Rio",
+        "lastName": "Hillen",
+        "slug": "rio-hillen",
+        "shortName": "R. Hillen",
+        "position": "D",
+        "jerseyNumber": "22",
+        "userCount": 92,
+        "gender": "M",
+        "id": 1012927,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريو هيلين"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. هيلين"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 9,
+        "y": 56.3,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 39.7,
+        "z": 16.7
+      },
+      "blockCoordinates": {
+        "x": 1.5,
+        "y": 57.9,
+        "z": 0
+      },
+      "xg": 0.024117080494761,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lars Unnerstall",
+        "slug": "lars-unnerstall",
+        "shortName": "L. Unnerstall",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 262,
+        "gender": "M",
+        "id": 94835,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لارس أونيرستال",
+            "bn": "লার্স আননারস্টল",
+            "hi": "लार्स अननरस्टॉल"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. أونيرستال",
+            "bn": "এল. আননারস্টল",
+            "hi": "एल. अननरस्टॉल"
+          }
+        }
+      },
+      "id": 6610350,
+      "time": 38,
+      "timeSeconds": 2277,
+      "draw": {
+        "start": {
+          "x": 56.3,
+          "y": 9
+        },
+        "block": {
+          "x": 57.9,
+          "y": 1.5
+        },
+        "end": {
+          "x": 60.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 60.3,
+          "y": 83.3
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 423,
+      "periodTimeSeconds": 2277,
+      "incidentType": "shot"
+    }
+  ]
+}

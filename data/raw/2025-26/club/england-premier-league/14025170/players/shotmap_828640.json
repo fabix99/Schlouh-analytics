@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Joe Rodon",
+        "firstName": "",
+        "lastName": "",
+        "slug": "rodon-joe",
+        "shortName": "J. Rodon",
+        "position": "D",
+        "jerseyNumber": "6",
+        "userCount": 1198,
+        "gender": "M",
+        "id": 828640,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رودون، جو",
+            "bn": "রডন, জো",
+            "hi": "रोडन, जो"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. رودون",
+            "bn": "জে. রডন",
+            "hi": "जे. रोडन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 9.4,
+        "y": 57,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.7,
+        "z": 6.9
+      },
+      "blockCoordinates": {
+        "x": 6.6,
+        "y": 55.8,
+        "z": 0
+      },
+      "xg": 0.030142622068524,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Stefan Ortega",
+        "slug": "stefan-ortega",
+        "shortName": "S. Ortega",
+        "position": "G",
+        "jerseyNumber": "27",
+        "userCount": 11762,
+        "gender": "M",
+        "sofascoreId": "stefan.ortega1",
+        "id": 125274,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستيفان أورتيغا",
+            "bn": "স্টেফান ওর্তেগা",
+            "hi": "स्टीफन ऑर्टेगा"
+          },
+          "shortNameTranslation": {
+            "ar": "س. أورتيغا",
+            "bn": "এস. ওর্তেগা",
+            "hi": "एस. ऑर्टेगा"
+          }
+        }
+      },
+      "id": 6655474,
+      "time": 3,
+      "timeSeconds": 169,
+      "draw": {
+        "start": {
+          "x": 57,
+          "y": 9.4
+        },
+        "block": {
+          "x": 55.8,
+          "y": 6.6
+        },
+        "end": {
+          "x": 53.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.3,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 43,
+      "reversedPeriodTimeSeconds": 2531,
+      "periodTimeSeconds": 169,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -61,9 +61,8 @@ output/
 # UX audit screenshots (regeneratable)
 dashboard/ux_audit_results/
 
-# Generated AI Scout test results (keep test_questions; don't commit results)
-dashboard/pages/AI_Scout_test_results.md
-dashboard/pages/AI_Scout_test_results_v2.md
+# Generated test results (don't commit)
+dashboard/pages/*_test_results*.md
 
 # Viz generated output
 viz/output/

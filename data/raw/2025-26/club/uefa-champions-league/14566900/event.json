@@ -1,0 +1,403 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": false,
+    "correctHalftimeAiInsight": false,
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1189818,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76953
+    },
+    "roundInfo": {
+      "round": 4
+    },
+    "customId": "zdbsoeb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 45840,
+    "venue": {
+      "city": {
+        "name": "Naples"
+      },
+      "venueCoordinates": {
+        "latitude": 40.827977,
+        "longitude": 14.192889
+      },
+      "hidden": false,
+      "slug": "stadio-diego-armando-maradona",
+      "name": "Stadio Diego Armando Maradona",
+      "capacity": 54726,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 872,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب دييغو ارماندو مارادونا",
+          "hi": "स्टेडियो डिएगो अर्मांडो माराडोना",
+          "bn": "স্টেডিও দিয়েগো আরমান্দো ম্যারাডোনা"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Stadio Diego Armando Maradona",
+        "capacity": 54726
+      }
+    },
+    "referee": {
+      "name": "Joao Pedro Pinheiro",
+      "slug": "joao-pedro-pinheiro",
+      "yellowCards": 1732,
+      "redCards": 44,
+      "yellowRedCards": 30,
+      "games": 368,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 222742,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "جواو بيدرو بينهيرو",
+          "bn": "জোয়াও পেড্রো পিনহেইরো",
+          "hi": "जोआओ पेड्रो पिनहेइरो"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Napoli",
+      "slug": "napoli",
+      "shortName": "Napoli",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 1089294,
+      "manager": {
+        "name": "Antonio Conte",
+        "slug": "antonio-conte",
+        "shortName": "A. Conte",
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 90447,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنطونيو كونتي"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. كونتي"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Naples"
+        },
+        "venueCoordinates": {
+          "latitude": 40.827977,
+          "longitude": 14.192889
+        },
+        "hidden": false,
+        "slug": "stadio-diego-armando-maradona",
+        "name": "Stadio Diego Armando Maradona",
+        "capacity": 54726,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 872,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب دييغو ارماندو مارادونا",
+            "hi": "स्टेडियो डिएगो अर्मांडो माराडोना",
+            "bn": "স্টেডিও দিয়েগো আরমান্দো ম্যারাডোনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stadio Diego Armando Maradona",
+          "capacity": 54726
+        }
+      },
+      "nameCode": "NAP",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2714,
+      "fullName": "Napoli",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#008cea",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -1370217600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نابولي",
+          "bn": "নাপোলি",
+          "hi": "नेपोली",
+          "ru": "Наполи"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Eintracht Frankfurt",
+      "slug": "eintracht-frankfurt",
+      "shortName": "Frankfurt",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 270394,
+      "manager": {
+        "name": "Albert Riera",
+        "slug": "albert-riera",
+        "shortName": "A. Riera",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 797039,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألبرت رييرا",
+            "bn": "আলবার্ট রিয়েরা",
+            "hi": "अल्बर्ट रीरा"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. رييرا",
+            "bn": "এ. রিয়েরা",
+            "hi": "ए. रीरा"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Frankfurt"
+        },
+        "venueCoordinates": {
+          "latitude": 50.06861,
+          "longitude": 8.645415
+        },
+        "hidden": false,
+        "slug": "deutsche-bank-park",
+        "name": "Deutsche Bank Park",
+        "capacity": 58000,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 37241,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "حديقة دويتشه بنك",
+            "hi": "ड्यूश बैंक पार्क",
+            "bn": "ডয়েচে ব্যাংক পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Deutsche Bank Park",
+          "capacity": 58000
+        }
+      },
+      "nameCode": "SGE",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2674,
+      "fullName": "Eintracht Frankfurt",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#ff1111",
+        "text": "#ff1111"
+      },
+      "foundationDateTimestamp": -2234822400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "اينتراخت فرنكفورت",
+          "hi": "एईनट्राख्ट फ्रांकफुर्ट",
+          "ru": "Айнтрахт Франкфурт"
+        },
+        "shortNameTranslation": {
+          "ar": "فرانكفورت",
+          "bn": "ফ্রাঙ্কফুর্ট",
+          "hi": "फ्रैंकफर्ट"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 5,
+      "currentPeriodStartTimestamp": 1762282130
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1762285210
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14566900,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "napoli-eintracht-frankfurt",
+    "currentPeriodStartTimestamp": 1762282130,
+    "startTimestamp": 1762278300,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

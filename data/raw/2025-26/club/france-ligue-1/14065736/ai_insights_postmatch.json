@@ -1,0 +1,108 @@
+{
+  "predictions": {
+    "yellowCards": 5,
+    "corners": 9,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0
+  },
+  "sections": [
+    {
+      "subtitle": "Recent Form",
+      "text": "Toulouse has struggled recently with 3 consecutive losses in their last 5 matches, scoring 7 goals but conceding 9. Nantes, with only 1 win and 1 draw in their last 5, has a weaker attack (3 goals scored) and a slightly better defense (5 conceded). Both teams are in the lower half of the league table, with Toulouse at 10th (6 points) and Nantes at 17th (4 points)."
+    },
+    {
+      "subtitle": "Head-to-Head Record",
+      "text": "The last two encounters between Toulouse and Nantes ended in 0-0 draws, indicating a tendency for low-scoring or tightly contested matches. Historically, in the last 5 head-to-heads, there have been 3 draws, suggesting a balanced rivalry with neither team dominating."
+    },
+    {
+      "subtitle": "Season Statistics",
+      "text": "Toulouse shows a slightly better offensive output (7 goals) compared to Nantes (3 goals), but both teams struggle with possession (Toulouse 40.8%, Nantes similar). Defensively, Toulouse concedes more (9 vs. 5), while both average around 4.4 corners per game and commit a fair number of fouls leading to yellow cards (Toulouse 2.8, Nantes similar)."
+    },
+    {
+      "subtitle": "Match Context",
+      "text": "Playing at home, Toulouse might have a slight edge despite their recent losses, as they’ve shown capability to score late in games (3 goals in 76-90 min). Nantes struggles to score and often concedes first, which could play into Toulouse's hands if they capitalize on fast breaks (1.2 per game, 3rd in league)."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Nantes",
+      "slug": "nantes",
+      "shortName": "Nantes",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 79433,
+      "nameCode": "FCN",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 1647,
+      "teamColors": {
+        "primary": "#ffdc12",
+        "secondary": "#00a94e",
+        "text": "#00a94e"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نانت",
+          "bn": "ন্যান্টেস",
+          "hi": "नांत",
+          "ru": "Нант"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Matthis Abline",
+      "slug": "abline-matthis",
+      "shortName": "M. Abline",
+      "position": "F",
+      "jerseyNumber": "10",
+      "userCount": 1313,
+      "gender": "M",
+      "id": 999070,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أبلين، ماتيس",
+          "bn": "অ্যাবলাইন, ম্যাথিস",
+          "hi": "एबलाइन, मैथिस"
+        },
+        "shortNameTranslation": {
+          "ar": "م. أبلين",
+          "bn": "এম. আবলাইন",
+          "hi": "एम. एबलाइन"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 2
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Half-time overview",
+      "text": "At half-time, the scoreline reads 0-0 between Toulouse and Nantes, despite a late first-half goal from Nantes' Mayckel Lahdo at the 45th minute, which seems to be reflected in the data but not the score. Both teams have had their fair share of opportunities, with Toulouse showing more intent in terms of shots on target. Nantes, however, have dominated possession and created a notable chance, suggesting they have the potential to unlock the game further. The match remains finely poised as both sides head into the break."
+    },
+    {
+      "subtitle": "Toulouse's first-half performance",
+      "text": "Toulouse have shown promise in their attacking endeavors, registering multiple shots on target and making frequent entries into the final third. Their penalty area presence has been encouraging, indicating they are getting into dangerous positions. Defensively, they have held their own with key clearances and interceptions, though their possession stats suggest they’ve struggled to control the tempo of the game. Players like Aron Dønnum and Warren Kamanzi have been active in creating opportunities, which could be crucial in the second half."
+    },
+    {
+      "subtitle": "Nantes' first-half performance",
+      "text": "Nantes have controlled the ball for the majority of the half, using their possession to build pressure in the opposition’s half. They’ve created a significant chance and finally broke the deadlock just before the whistle through Mayckel Lahdo, who has been a standout performer. While their shots on target are fewer compared to Toulouse, their expected goals indicate they’ve had quality opportunities. Defensively, they’ve been solid with contributions from players like Kelvin Amian, which has helped maintain their structure."
+    },
+    {
+      "subtitle": "Attack momentum analysis",
+      "text": "The first half saw distinct phases of attacking momentum for both teams. Nantes started strongly, asserting themselves early on with sustained pressure in the opening minutes. Toulouse responded with several spells of dominance, particularly in the middle of the half, where they pushed forward consistently. Towards the end of the half, Nantes regained control with a notable surge, culminating in their goal just before the break. These shifts suggest that both teams are capable of taking the initiative, setting up an intriguing second half."
+    },
+    {
+      "subtitle": "Key areas to watch",
+      "text": "Moving into the second half, Toulouse will need to capitalize on their attacking presence in the penalty area to convert chances into goals. Improving their possession and final third passing will be key to sustaining pressure. For Nantes, maintaining their control of the ball while being more clinical in front of goal could extend their lead. The battle in the midfield will likely determine who dictates the tempo, with both sides showing a willingness to fight for duels. Defensive organization will also play a critical role as fatigue sets in."
+    }
+  ],
+  "modelName": "Grok3"
+}

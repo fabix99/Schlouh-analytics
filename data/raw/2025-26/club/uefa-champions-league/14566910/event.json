@@ -1,0 +1,413 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": false,
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1189676,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76953
+    },
+    "roundInfo": {
+      "round": 8
+    },
+    "customId": "Agbsbkb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 52065,
+    "venue": {
+      "city": {
+        "name": "Bilbao"
+      },
+      "venueCoordinates": {
+        "latitude": 43.264204,
+        "longitude": -2.949391
+      },
+      "hidden": false,
+      "slug": "san-mam-s",
+      "name": "San Mamés",
+      "capacity": 53289,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 751,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سان ماميس",
+          "hi": "सैन मामेस",
+          "bn": "সান মামেস"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "San Mamés",
+        "capacity": 53289
+      }
+    },
+    "referee": {
+      "name": "Felix Zwayer",
+      "slug": "zwayer-felix",
+      "yellowCards": 2337,
+      "redCards": 49,
+      "yellowRedCards": 56,
+      "games": 510,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 52417,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "زواير، فيليكس",
+          "bn": "জাওয়ার, ফেলিক্স",
+          "hi": "ज़्वेयर, फ़ेलिक्स"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Athletic Club",
+      "slug": "athletic-club",
+      "shortName": "Athletic Club",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 509218,
+      "manager": {
+        "name": "Ernesto Valverde",
+        "slug": "ernesto-valverde",
+        "shortName": "E. Valverde",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 52991,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إرنستو فالڤيردي",
+            "bn": "আর্নেস্তো ভালভার্দে",
+            "hi": "अर्नेस्टो वाल्वरडे"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. فالڤيردي",
+            "bn": "ই. ভালভার্দে",
+            "hi": "ई. वाल्वरडे"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bilbao"
+        },
+        "venueCoordinates": {
+          "latitude": 43.264204,
+          "longitude": -2.949391
+        },
+        "hidden": false,
+        "slug": "san-mam-s",
+        "name": "San Mamés",
+        "capacity": 53289,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 751,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سان ماميس",
+            "hi": "सैन मामेस",
+            "bn": "সান মামেস"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "San Mamés",
+          "capacity": 53289
+        }
+      },
+      "nameCode": "ATH",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 2825,
+      "fullName": "Athletic Club",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#aa0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2274825600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نادي أتليتيك",
+          "bn": "অ্যাথলেটিক ক্লাব",
+          "hi": "एथलेटिक क्लब",
+          "ru": "Атлетик Бильбао"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Sporting CP",
+      "slug": "sporting",
+      "shortName": "Sporting",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 697340,
+      "manager": {
+        "name": "Rui Borges",
+        "slug": "rui-borges",
+        "shortName": "R. Borges",
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 791680,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روي بورغيس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. بورغيس"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Lisbon"
+        },
+        "venueCoordinates": {
+          "latitude": 38.761216,
+          "longitude": -9.160783
+        },
+        "hidden": false,
+        "slug": "jos-alvalade",
+        "name": "Estádio José Alvalade",
+        "capacity": 52095,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 910,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه ألفالادي",
+            "hi": "जोस अलवालदे",
+            "bn": "হোসে আলভালাদে"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estádio José Alvalade",
+          "capacity": 52095
+        }
+      },
+      "nameCode": "SCP",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 3001,
+      "fullName": "Sporting CP",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#009966",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2004048000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سبورتنج",
+          "bn": "স্পোর্টিং",
+          "hi": "स्पोर्टिंग",
+          "ru": "Спортинг Лиссабон"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 2,
+      "period2": 0,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 1,
+      "period2": 2,
+      "normaltime": 3
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 3,
+      "injuryTime2": 5,
+      "currentPeriodStartTimestamp": 1769634259
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type",
+        "awayScore.normaltime"
+      ],
+      "changeTimestamp": 1769637389
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14566910,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "sporting-athletic-club",
+    "currentPeriodStartTimestamp": 1769634259,
+    "startTimestamp": 1769630400,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "club"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

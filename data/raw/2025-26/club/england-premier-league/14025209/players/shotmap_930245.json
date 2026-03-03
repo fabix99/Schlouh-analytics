@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Evann Guessand",
+        "firstName": "",
+        "lastName": "",
+        "slug": "evann-guessand",
+        "shortName": "E. Guessand",
+        "position": "F",
+        "jerseyNumber": "29",
+        "userCount": 5282,
+        "gender": "M",
+        "id": 930245,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفان غيساند",
+            "bn": "ইভান গেসান্ড",
+            "hi": "इवान गेसैंड"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. غيساند",
+            "bn": "ই. গেসান্ড",
+            "hi": "ई. गेसैंड"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.5,
+        "y": 48.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 81.2,
+        "z": 9.7
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 28.2,
+        "z": 0
+      },
+      "xg": 0.080330371856689,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Martin Dúbravka",
+        "firstName": "",
+        "lastName": "",
+        "slug": "martin-dubravka",
+        "shortName": "M. Dúbravka",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3061,
+        "gender": "M",
+        "id": 42209,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتن دوبرافكا",
+            "bn": "মার্টিন ডুব্রাভকা",
+            "hi": "मार्टिन डुब्राव्का"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دوبرافكا",
+            "bn": "এম. ডুব্রাভকা",
+            "hi": "एम. डुब्राव्का"
+          }
+        }
+      },
+      "id": 6692994,
+      "time": 42,
+      "timeSeconds": 2465,
+      "draw": {
+        "start": {
+          "x": 48.5,
+          "y": 8.5
+        },
+        "block": {
+          "x": 28.2,
+          "y": 1.1
+        },
+        "end": {
+          "x": 18.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 18.8,
+          "y": 90.3
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 235,
+      "periodTimeSeconds": 2465,
+      "incidentType": "shot"
+    }
+  ]
+}

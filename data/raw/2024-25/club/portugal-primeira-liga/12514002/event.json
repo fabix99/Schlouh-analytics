@@ -1,0 +1,419 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Liga Portugal Betclic",
+      "slug": "liga-portugal-betclic",
+      "category": {
+        "name": "Portugal",
+        "slug": "portugal",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 44,
+        "flag": "portugal",
+        "alpha2": "PT",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "البرتغال",
+            "ru": "Португалия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Liga Portugal Betclic",
+        "slug": "liga-portugal-betclic",
+        "primaryColorHex": "#ffc501",
+        "secondaryColorHex": "#e6a100",
+        "category": {
+          "name": "Portugal",
+          "slug": "portugal",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "PT",
+            "alpha3": "PRT",
+            "name": "Portugal",
+            "slug": "portugal"
+          },
+          "id": 44,
+          "flag": "portugal",
+          "alpha2": "PT",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "البرتغال",
+              "ru": "Португалия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 149162,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 238,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري بيتكليك البرتغالي",
+            "bn": "লিগা পর্তুগাল বেটক্লিক",
+            "hi": "लीगा पुर्तगाल बेटक्लिक"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 516,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 52,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الدوري البرتغالي بيتكليك",
+          "bn": "লিগা পর্তুগাল বেটক্লিক",
+          "hi": "लीगा पुर्तगाल बेटक्लिक"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Liga Portugal 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 63670
+    },
+    "roundInfo": {
+      "round": 3
+    },
+    "customId": "lkbspCo",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "venue": {
+      "city": {
+        "name": "Lisbon"
+      },
+      "venueCoordinates": {
+        "latitude": 38.73654,
+        "longitude": -9.201794
+      },
+      "hidden": true,
+      "slug": "estadio-pina-manique",
+      "name": "Estadio Pina Manique",
+      "capacity": 5000,
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 25739,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب بينا مانكي",
+          "hi": "एस्टेडियो पिना मनिक",
+          "bn": "এস্তাদিও পিনা মানিক"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Estadio Pina Manique",
+        "capacity": 5000
+      }
+    },
+    "referee": {
+      "name": "Ricardo Baixinho",
+      "slug": "ricardo-baixinho",
+      "yellowCards": 676,
+      "redCards": 33,
+      "yellowRedCards": 25,
+      "games": 105,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 229712,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ريكاردو بايكسينيو"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Casa Pia",
+      "slug": "casa-pia",
+      "shortName": "Casa Pia",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 26147,
+      "manager": {
+        "name": "Álvaro Pacheco",
+        "slug": "alvaro-pacheco",
+        "shortName": "Á. Pacheco",
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 790638,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألفارو باتشيكو",
+            "bn": "আলভারো পাচেকো",
+            "hi": "अल्वारो पचेको"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باتشيكو",
+            "bn": "এ. পাচেকো",
+            "hi": "ए. पचेको"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Rio Maior"
+        },
+        "venueCoordinates": {
+          "latitude": 39.344577,
+          "longitude": -8.934484
+        },
+        "hidden": false,
+        "slug": "estadio-municipal-de-rio-maior",
+        "name": "Estádio Municipal de Rio Maior",
+        "capacity": 7000,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 2645,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب بلدية دو ريو مايّور",
+            "hi": "एस्टाडिओ म्यूनिसिपल डे रियो मायोर",
+            "bn": "এস্তাদিও মিউনিসিপ্যাল ​​ডি রিও মায়োর"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estádio Municipal de Rio Maior",
+          "capacity": 7000
+        }
+      },
+      "nameCode": "CAS",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 36365,
+      "fullName": "Casa Pia",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -1562025600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كازا بيا",
+          "ru": "Каса Пиа"
+        },
+        "shortNameTranslation": {
+          "ar": "كازا بيا"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Santa Clara",
+      "slug": "santa-clara",
+      "shortName": "Santa Clara",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 33362,
+      "manager": {
+        "name": "Petit",
+        "slug": "petit",
+        "shortName": "Petit",
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 5474,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيتي"
+          },
+          "shortNameTranslation": {
+            "ar": "بيتي"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Ponta Delgada"
+        },
+        "venueCoordinates": {
+          "latitude": 37.7638,
+          "longitude": -25.6226
+        },
+        "hidden": false,
+        "slug": "estadio-de-s-o-miguel",
+        "name": "Estadio de São Miguel",
+        "capacity": 13277,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 5318,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب دي ساو ميغيل",
+            "hi": "एस्टेडियो डे साओ मिगुएल",
+            "bn": "এস্তাদিও দে সাও মিগুয়েল"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estadio de São Miguel",
+          "capacity": 13277
+        }
+      },
+      "nameCode": "SCL",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 3011,
+      "fullName": "Santa Clara",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#d60122",
+        "secondary": "#222226",
+        "text": "#222226"
+      },
+      "foundationDateTimestamp": -1543708800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سانتا كلارا",
+          "ru": "Санта Клара"
+        },
+        "shortNameTranslation": {
+          "ar": "سانتا كلارا"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 7,
+      "currentPeriodStartTimestamp": 1724513633
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1724516810
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12514002,
+    "homeRedCards": 1,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "casa-pia-santa-clara",
+    "currentPeriodStartTimestamp": 1724513633,
+    "startTimestamp": 1724509800,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "??",
+      "AN",
+      "CU",
+      "IR",
+      "KP",
+      "PT",
+      "SY",
+      "VE",
+      "GR",
+      "RU",
+      "CH",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

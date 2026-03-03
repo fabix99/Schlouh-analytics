@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ben Woodburn",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ben-woodburn",
+        "shortName": "B. Woodburn",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 548,
+        "gender": "M",
+        "id": 843270,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بن وودبرن",
+            "bn": "বেন উডবার্ন",
+            "hi": "बेन वुडबर्न"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. وودبرن",
+            "bn": "বি. উডবার্ন",
+            "hi": "बी. वुडबर्न"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 20.7,
+        "y": 45.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.9,
+        "y": 45.8,
+        "z": 0
+      },
+      "goalkeeper": {
+        "name": "Connor Ripley",
+        "slug": "connor-ripley",
+        "shortName": "C. Ripley",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 33,
+        "gender": "M",
+        "id": 372316,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كونور ريبلي"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. ريبلي"
+          }
+        }
+      },
+      "id": 6556639,
+      "time": 54,
+      "timeSeconds": 3236,
+      "draw": {
+        "start": {
+          "x": 45.6,
+          "y": 20.7
+        },
+        "block": {
+          "x": 45.8,
+          "y": 17.9
+        },
+        "end": {
+          "x": 47.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2164,
+      "periodTimeSeconds": 536,
+      "incidentType": "shot"
+    }
+  ]
+}

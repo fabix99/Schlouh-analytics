@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Hugo Duro",
+        "slug": "hugo-duro",
+        "shortName": "H. Duro",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 2851,
+        "gender": "M",
+        "id": 909119,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هوغو دورو",
+            "bn": "হুগো ডুরো",
+            "hi": "ह्यूगो डूरो"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. دورو",
+            "bn": "এইচ. ডুরো",
+            "hi": "एच. डूरो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.9,
+        "y": 43.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.7,
+        "z": 1.3
+      },
+      "xg": 0.88699263334274,
+      "xgot": 0.99323201179504,
+      "goalkeeper": {
+        "name": "Marko Dmitrović",
+        "slug": "marko-dmitrovic",
+        "shortName": "M. Dmitrović",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 1184,
+        "gender": "M",
+        "id": 94527,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركو ديميتروفيتش",
+            "bn": "মার্ক দিমিত্রোভিচ",
+            "hi": "मार्को दिमित्रोविक"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ديميتروفيتش",
+            "bn": "এম. দিমিত্রোভিচ",
+            "hi": "एम. दिमित्रोविक"
+          }
+        }
+      },
+      "id": 6579869,
+      "time": 16,
+      "timeSeconds": 900,
+      "draw": {
+        "start": {
+          "x": 43.3,
+          "y": 8.9
+        },
+        "end": {
+          "x": 47.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.3,
+          "y": 98.7
+        }
+      },
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1800,
+      "periodTimeSeconds": 900,
+      "incidentType": "shot"
+    }
+  ]
+}

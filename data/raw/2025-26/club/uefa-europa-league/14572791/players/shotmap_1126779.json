@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Williot Swedberg",
+        "slug": "williot-swedberg",
+        "shortName": "W. Swedberg",
+        "position": "M",
+        "jerseyNumber": "19",
+        "userCount": 4277,
+        "gender": "M",
+        "id": 1126779,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويليوت سويدبرغ",
+            "bn": "উইলিয়ট সুইডবার্গ",
+            "hi": "विलियट स्वेडबर्ग"
+          },
+          "shortNameTranslation": {
+            "ar": "و. سويدبرغ",
+            "bn": "ডব্লিউ. সুইডবার্গ",
+            "hi": "डब्लू. स्वेडबर्ग"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.3,
+        "y": 45.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.1,
+        "z": 1.9
+      },
+      "xg": 0.84567832946777,
+      "xgot": 0.99504810571671,
+      "goalkeeper": {
+        "name": "Berke Özer",
+        "slug": "berke-ozer",
+        "shortName": "B. Özer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3069,
+        "gender": "M",
+        "id": 847494,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيرك أوزير",
+            "bn": "বার্ক ওজার",
+            "hi": "बर्क ओज़र"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. أوزير",
+            "bn": "বি. ওজার",
+            "hi": "बी. ओज़र"
+          }
+        }
+      },
+      "id": 6571021,
+      "time": 1,
+      "timeSeconds": 36,
+      "draw": {
+        "start": {
+          "x": 45.8,
+          "y": 9.3
+        },
+        "end": {
+          "x": 47.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.9,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 45,
+      "reversedPeriodTimeSeconds": 2664,
+      "periodTimeSeconds": 36,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Eli Dasa",
+        "slug": "eli-dasa",
+        "shortName": "E. Dasa",
+        "position": "D",
+        "jerseyNumber": "14",
+        "userCount": 317,
+        "gender": "M",
+        "id": 127846,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيلي داسا",
+            "bn": "এলি দাসা",
+            "hi": "एली दासा"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. داسا",
+            "bn": "ই. দাসা",
+            "hi": "ई. दासा"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 4.9,
+        "y": 65.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.7,
+        "z": 13.9
+      },
+      "xg": 0.063398413360119,
+      "xgot": 0.31583723425865,
+      "goalkeeper": {
+        "name": "Daniel Bielica",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bielica-daniel",
+        "shortName": "D. Bielica",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 299,
+        "gender": "M",
+        "id": 939460,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيليكا، دانيال"
+          },
+          "shortNameTranslation": {
+            "ar": "د. بيليكا"
+          }
+        }
+      },
+      "id": 6535788,
+      "time": 10,
+      "timeSeconds": 575,
+      "draw": {
+        "start": {
+          "x": 65.2,
+          "y": 4.9
+        },
+        "end": {
+          "x": 46.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.3,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2125,
+      "periodTimeSeconds": 575,
+      "incidentType": "shot"
+    }
+  ]
+}

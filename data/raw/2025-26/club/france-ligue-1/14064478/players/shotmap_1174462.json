@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Pablo Pagis",
+        "firstName": "Pablo Pagis",
+        "slug": "pablo-pagis",
+        "shortName": "P. Pagis",
+        "position": "F",
+        "jerseyNumber": "10",
+        "userCount": 481,
+        "gender": "M",
+        "id": 1174462,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بابلو باغيس",
+            "bn": "পাবলো প্যাগিস",
+            "hi": "पाब्लो पैगिस"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. باغيس",
+            "bn": "পি. পাগিস",
+            "hi": "पी. पैगिस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 26,
+        "y": 30.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.1,
+        "z": 20.9
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 46.7,
+        "z": 0
+      },
+      "xg": 0.027603879570961,
+      "xgot": 0.074042975902557,
+      "goalkeeper": {
+        "name": "Anthony Lopes",
+        "firstName": "",
+        "lastName": "",
+        "slug": "anthony-lopes",
+        "shortName": "A. Lopes",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1195,
+        "gender": "M",
+        "id": 48535,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنتوني لوبيس",
+            "bn": "অ্যান্টনি লোপেস",
+            "hi": "एंथनी लोपेस"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. لوبيس",
+            "bn": "এ. লোপেজ",
+            "hi": "ए. लोपेस"
+          }
+        }
+      },
+      "id": 6617700,
+      "time": 39,
+      "timeSeconds": 2292,
+      "draw": {
+        "start": {
+          "x": 30.7,
+          "y": 26
+        },
+        "block": {
+          "x": 46.7,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 45.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.9,
+          "y": 79.1
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 408,
+      "periodTimeSeconds": 2292,
+      "incidentType": "shot"
+    }
+  ]
+}

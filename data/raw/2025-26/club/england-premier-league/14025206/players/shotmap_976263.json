@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ian Maatsen",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ian-maatsen",
+        "shortName": "I. Maatsen",
+        "position": "D",
+        "jerseyNumber": "22",
+        "userCount": 5476,
+        "gender": "M",
+        "sofascoreId": "maatsen_",
+        "id": 976263,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيان ماتسين",
+            "bn": "ইয়ান মাতসেন",
+            "hi": "इयान मात्सेन"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ماتسين",
+            "bn": "আই. মাতসেন",
+            "hi": "आई. मात्सेन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 13.9,
+        "y": 35.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 34.3,
+        "z": 4.2
+      },
+      "blockCoordinates": {
+        "x": 8.4,
+        "y": 45.5,
+        "z": 0
+      },
+      "xg": 0.015825059264898,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 4229,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन"
+          }
+        }
+      },
+      "id": 6692667,
+      "time": 8,
+      "timeSeconds": 455,
+      "draw": {
+        "start": {
+          "x": 35.1,
+          "y": 13.9
+        },
+        "block": {
+          "x": 45.5,
+          "y": 8.4
+        },
+        "end": {
+          "x": 65.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 65.7,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2245,
+      "periodTimeSeconds": 455,
+      "incidentType": "shot"
+    }
+  ]
+}

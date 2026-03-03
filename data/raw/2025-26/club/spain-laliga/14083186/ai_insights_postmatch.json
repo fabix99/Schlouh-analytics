@@ -1,0 +1,156 @@
+{
+  "predictions": {
+    "yellowCards": 6,
+    "corners": 10,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 39,
+      "draw": 24,
+      "away": 37
+    },
+    "possibleResultsMatrix": [
+      [
+        0.049202555500688,
+        0.073316679236174,
+        0.054624555569526,
+        0.027131998723477,
+        0.010107341108622,
+        0.0030121877957379
+      ],
+      [
+        0.075327098416895,
+        0.11224483476973,
+        0.083627958578438,
+        0.041537979425924,
+        0.015473925503964,
+        0.0046115362145477
+      ],
+      [
+        0.057661352120514,
+        0.08592112370433,
+        0.064015490680701,
+        0.03179647309388,
+        0.011844973268883,
+        0.0035300365880534
+      ],
+      [
+        0.029425723263313,
+        0.043847241100284,
+        0.032668365275211,
+        0.016226366250559,
+        0.0060447230710621,
+        0.0018014471726631
+      ],
+      [
+        0.011262394451305,
+        0.016782082821004,
+        0.012503482497827,
+        0.006210475630109,
+        0.0023135558968599,
+        0.00068948547025231
+      ],
+      [
+        0.0034484529781446,
+        0.0051385363684233,
+        0.0038284639774639,
+        0.0019015967940869,
+        0.00070839187502493,
+        0.00021111480631931
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Recent Form Analysis",
+      "text": "Villarreal is currently in strong form, sitting third in the league with 41 points, while Real Madrid leads the table with 48 points. Villarreal has struggled in their last few matches, losing three of their last five. In contrast, Real Madrid showed impressive attacking prowess, notably a 6-1 victory against AS Monaco."
+    },
+    {
+      "subtitle": "Head-to-Head Insight",
+      "text": "In their last two encounters, Real Madrid has dominated Villarreal, winning both matches. The most recent match ended 3-1 in favor of Real Madrid, highlighting their ability to score and control the match against Villarreal."
+    },
+    {
+      "subtitle": "Probabilities and Predictions",
+      "text": "Sofascore's prediction indicates a close contest with a slight favor following Villarreal at home (39% for a home win vs. 37% for Real Madrid). However, Real Madrid’s recent form and head-to-head advantage may give them a crucial edge in this matchup."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "shortName": "Real Madrid",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 6783154,
+      "nameCode": "RMA",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 2829,
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#004996",
+        "text": "#004996"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ريال مدريد",
+          "bn": "রিয়াল মাদ্রিদ",
+          "hi": "रियल मैड्रिड",
+          "ru": "Реал Мадрид"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Jude Bellingham",
+      "slug": "jude-bellingham",
+      "shortName": "J. Bellingham",
+      "position": "M",
+      "jerseyNumber": "5",
+      "userCount": 1026478,
+      "gender": "M",
+      "sofascoreId": "JudeBell",
+      "id": 991011,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "جود بيلينغهام",
+          "bn": "জুড বেলিংহাম",
+          "hi": "जूड बेलिंघम"
+        },
+        "shortNameTranslation": {
+          "ar": "ج. بيلينغهام",
+          "bn": "জে. বেলিংহাম",
+          "hi": "जे. बेलिंघम"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half overview",
+      "text": "The match has been characterized by a lack of goals, with both teams failing to capitalize on their attacking opportunities. Villarreal has had 14 entries into the penalty area but has not managed to register a shot on target. On the other hand, Real Madrid has been more clinical, creating a couple of shots on target, signaling their higher attacking efficiency."
+    },
+    {
+      "subtitle": "Attack momentum analysis",
+      "text": "Real Madrid established early momentum, dominating the initial minutes of the match. Villarreal managed to create a strong shift in the momentum around the middle of the first half but struggled to maintain pressure. As the half progressed, Madrid regained control, with notable spells late in the half where they dictated the pace of play."
+    },
+    {
+      "subtitle": "Team dynamics and player performances",
+      "text": "Villarreal's midfield has seen players like Pape Gueye and Dani Parejo contribute positively, although they did not create big chances. Real Madrid's Jude Bellingham and Federico Valverde have looked dangerous with their ball distribution and movement. Both teams will need their attacking players to step up in the second half if they aim to change the scoreline."
+    },
+    {
+      "subtitle": "Second half predictions",
+      "text": "Given the trends observed in the first half, Real Madrid is likely to come out stronger and press for a goal, leveraging their superior ball possession. Villarreal will need to be more incisive in their final third play; otherwise, it might be a tough half for them. If Madrid continues their recent attacking form, they could find the net first."
+    }
+  ],
+  "modelName": "Grok3"
+}

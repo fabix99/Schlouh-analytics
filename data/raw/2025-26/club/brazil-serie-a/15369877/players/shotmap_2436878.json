@@ -1,0 +1,86 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bruno Braga Ramos",
+        "slug": "bruninho-braga-ramos",
+        "shortName": "B. B. Ramos",
+        "position": "F",
+        "jerseyNumber": "48",
+        "userCount": 315,
+        "gender": "M",
+        "id": 2436878
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 29,
+        "y": 39.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.3,
+        "z": 6.3
+      },
+      "blockCoordinates": {
+        "x": 1.9,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.020252319052815,
+      "xgot": 0.019957704469562,
+      "goalkeeper": {
+        "name": "Hugo Souza",
+        "slug": "hugo-souza",
+        "shortName": "H. Souza",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 25732,
+        "gender": "M",
+        "sofascoreId": "hugosouza",
+        "id": 950454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هوغو سوزا",
+            "bn": "হুগো সুজা",
+            "hi": "ह्यूगो सूज़ा"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. سوزا",
+            "bn": "এইচ. সুজা",
+            "hi": "एच. सूज़ा"
+          }
+        }
+      },
+      "id": 6742472,
+      "time": 73,
+      "timeSeconds": 4373,
+      "draw": {
+        "start": {
+          "x": 39.5,
+          "y": 29
+        },
+        "block": {
+          "x": 49.8,
+          "y": 1.9
+        },
+        "end": {
+          "x": 51.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.7,
+          "y": 93.7
+        }
+      },
+      "reversedPeriodTime": 18,
+      "reversedPeriodTimeSeconds": 1027,
+      "periodTimeSeconds": 1673,
+      "incidentType": "shot"
+    }
+  ]
+}

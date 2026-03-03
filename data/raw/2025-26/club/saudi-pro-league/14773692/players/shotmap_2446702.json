@@ -1,0 +1,87 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sultan Harun",
+        "firstName": "Sultan Harun",
+        "slug": "sultan-harun",
+        "shortName": "S. Harun",
+        "position": "F",
+        "jerseyNumber": "99",
+        "userCount": 74,
+        "gender": "M",
+        "id": 2446702,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سلطان هارون"
+          },
+          "shortNameTranslation": {
+            "ar": "س. هارون"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.1,
+        "y": 47,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.7,
+        "z": 7
+      },
+      "xg": 0.21748931705952,
+      "xgot": 0.8244394659996,
+      "goalkeeper": {
+        "name": "Samuel Portugal",
+        "slug": "samuel",
+        "shortName": "Samuel",
+        "position": "G",
+        "jerseyNumber": "94",
+        "userCount": 446,
+        "gender": "M",
+        "id": 552170,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "صموئيل",
+            "bn": "স্যামুয়েল",
+            "hi": "सैमुअल"
+          },
+          "shortNameTranslation": {
+            "ar": "صموئيل",
+            "bn": "স্যামুয়েল",
+            "hi": "सैमुअल"
+          }
+        }
+      },
+      "id": 6562057,
+      "time": 90,
+      "addedTime": 5,
+      "timeSeconds": 5695,
+      "draw": {
+        "start": {
+          "x": 47,
+          "y": 9.1
+        },
+        "end": {
+          "x": 46.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.3,
+          "y": 93
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 605,
+      "periodTimeSeconds": 295,
+      "incidentType": "shot"
+    }
+  ]
+}

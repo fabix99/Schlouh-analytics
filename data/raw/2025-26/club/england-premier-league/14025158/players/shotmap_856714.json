@@ -1,0 +1,85 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Declan Rice",
+        "slug": "declan-rice",
+        "shortName": "D. Rice",
+        "position": "M",
+        "jerseyNumber": "41",
+        "userCount": 64693,
+        "gender": "M",
+        "sofascoreId": "DeclanRice",
+        "id": 856714,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديكلان رايس",
+            "bn": "ডেক্লান রাইস",
+            "hi": "डेक्लान राइस"
+          },
+          "shortNameTranslation": {
+            "ar": "د. رايس",
+            "bn": "ডি. রাইস",
+            "hi": "डी. राइस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.2,
+        "y": 34.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 41.7,
+        "z": 36.1
+      },
+      "xg": 0.032666061073542,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Robin Roefs",
+        "slug": "robin-roefs",
+        "shortName": "R. Roefs",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 2194,
+        "gender": "M",
+        "id": 1012928,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن روفس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. روفس"
+          }
+        }
+      },
+      "id": 6659549,
+      "time": 30,
+      "timeSeconds": 1776,
+      "draw": {
+        "start": {
+          "x": 34.3,
+          "y": 20.2
+        },
+        "end": {
+          "x": 58.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 58.3,
+          "y": 63.9
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 924,
+      "periodTimeSeconds": 1776,
+      "incidentType": "shot"
+    }
+  ]
+}

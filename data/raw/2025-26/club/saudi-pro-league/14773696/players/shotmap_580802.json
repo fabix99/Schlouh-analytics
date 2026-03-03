@@ -1,0 +1,181 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Valentín Vada",
+        "slug": "valentin-vada",
+        "shortName": "V. Vada",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 258,
+        "gender": "M",
+        "id": 580802,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فالنتين فادا"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فادا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 10.8,
+        "y": 48.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.5,
+        "y": 48.4,
+        "z": 0
+      },
+      "xg": 0.10659998655319,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bento",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bento",
+        "shortName": "Bento",
+        "position": "G",
+        "jerseyNumber": "24",
+        "userCount": 9828,
+        "gender": "M",
+        "sofascoreId": "bento_matheus",
+        "id": 1016104,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بينتو"
+          },
+          "shortNameTranslation": {
+            "ar": "بينتو"
+          }
+        }
+      },
+      "id": 6562411,
+      "time": 67,
+      "timeSeconds": 3987,
+      "draw": {
+        "start": {
+          "x": 48.5,
+          "y": 10.8
+        },
+        "block": {
+          "x": 48.4,
+          "y": 8.5
+        },
+        "end": {
+          "x": 47.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1413,
+      "periodTimeSeconds": 1287,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Valentín Vada",
+        "slug": "valentin-vada",
+        "shortName": "V. Vada",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 258,
+        "gender": "M",
+        "id": 580802,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فالنتين فادا"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فادا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.8,
+        "y": 38.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48,
+        "z": 15.2
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 45.8,
+        "z": 0
+      },
+      "xg": 0.099087610840797,
+      "xgot": 0.36920034885406,
+      "goalkeeper": {
+        "name": "Bento",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bento",
+        "shortName": "Bento",
+        "position": "G",
+        "jerseyNumber": "24",
+        "userCount": 9828,
+        "gender": "M",
+        "sofascoreId": "bento_matheus",
+        "id": 1016104,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بينتو"
+          },
+          "shortNameTranslation": {
+            "ar": "بينتو"
+          }
+        }
+      },
+      "id": 6562284,
+      "time": 45,
+      "addedTime": 3,
+      "timeSeconds": 2828,
+      "draw": {
+        "start": {
+          "x": 38.3,
+          "y": 13.8
+        },
+        "block": {
+          "x": 45.8,
+          "y": 1.6
+        },
+        "end": {
+          "x": 52,
+          "y": 0
+        },
+        "goal": {
+          "x": 52,
+          "y": 84.8
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2572,
+      "periodTimeSeconds": 128,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Olivier Giroud",
+        "slug": "olivier-giroud",
+        "shortName": "O. Giroud",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 23128,
+        "gender": "M",
+        "sofascoreId": "OGiroud",
+        "id": 39070,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوليفييه جيرو",
+            "bn": "অলিভিয়ার গিরুড",
+            "hi": "ओलिवियर गिरौड"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. جيرو",
+            "bn": "ও. গিরুড",
+            "hi": "ओ. गिरौड"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.9,
+        "z": 26.6
+      },
+      "xg": 0.7884,
+      "xgot": 0.9886103272438,
+      "goalkeeper": {
+        "name": "Noah Atubolu",
+        "slug": "noah-atubolu",
+        "shortName": "N. Atubolu",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1849,
+        "gender": "M",
+        "id": 980626,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نواه أتوبولو",
+            "bn": "নোয়া আতুবোলু",
+            "hi": "नोआ अतुबोलू"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. أتوبولو",
+            "bn": "এন. আতুবোলু",
+            "hi": "ओ. कैमारा"
+          }
+        }
+      },
+      "id": 6606533,
+      "time": 90,
+      "addedTime": 2,
+      "timeSeconds": 5505,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 54.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.1,
+          "y": 73.4
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 795,
+      "periodTimeSeconds": 105,
+      "incidentType": "shot"
+    }
+  ]
+}

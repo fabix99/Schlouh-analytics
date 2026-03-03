@@ -1,0 +1,158 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 10,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 1,
+    "winningProbability": {
+      "home": 34,
+      "draw": 27,
+      "away": 39
+    },
+    "possibleResultsMatrix": [
+      [
+        0.085132629293907,
+        0.10996593796409,
+        0.071021578991609,
+        0.03057955809376,
+        0.0098749146367203,
+        0.0025510882474763
+      ],
+      [
+        0.10006152287127,
+        0.12924961096486,
+        0.083475952869823,
+        0.03594200222606,
+        0.011606583808926,
+        0.0029984481524728
+      ],
+      [
+        0.058804176743743,
+        0.075957438475289,
+        0.049057165487324,
+        0.021122403405197,
+        0.0068209596067137,
+        0.0017621286390155
+      ],
+      [
+        0.023038700613276,
+        0.029759122247549,
+        0.019219950200538,
+        0.0082754789750025,
+        0.0026723619813459,
+        0.00069037875206164
+      ],
+      [
+        0.0067696942037961,
+        0.0087444236014422,
+        0.0056475921821241,
+        0.0024316676096927,
+        0.00078524712479391,
+        0.00020286096489151
+      ],
+      [
+        0.0015913661237128,
+        0.0020555698783154,
+        0.0013275912631531,
+        0.00057161717231257,
+        0.00018458967798563,
+        4.7686949754837e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Team Form",
+      "text": "Roma has shown a solid performance lately, winning 4 of their last 5 matches. In contrast, Milan remains unbeaten in their last 6 matches, securing 5 wins. This strong form gives Milan a slight edge heading into the match."
+    },
+    {
+      "subtitle": "Head-to-Head Insights",
+      "text": "In the last two encounters, Milan narrowly won one match and Roma claimed victory in the other. The previous meeting ended in a tight 1-0 victory for Milan, creating an atmosphere of rivalry and competition."
+    },
+    {
+      "subtitle": "Key Player Performances",
+      "text": "Paulo Dybala's consistent contribution with 3 goals in the last 5 head-to-heads highlights Roma's attacking potential. For Milan, Adrien Rabiot has been in stunning form, reflecting their overall quality in midfield."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Roma",
+      "slug": "roma",
+      "shortName": "Roma",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 746326,
+      "nameCode": "ASR",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 2702,
+      "teamColors": {
+        "primary": "#990000",
+        "secondary": "#eaca15",
+        "text": "#eaca15"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "روما",
+          "bn": "রোমা",
+          "hi": "रोमा",
+          "ru": "Рома"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Paulo Dybala",
+      "firstName": "",
+      "lastName": "",
+      "slug": "paulo-dybala",
+      "shortName": "P. Dybala",
+      "position": "F",
+      "jerseyNumber": "21",
+      "userCount": 116229,
+      "gender": "M",
+      "sofascoreId": "LaJoya",
+      "id": 256219,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "باولو ديبالا",
+          "bn": "পাওলো দিবালা",
+          "hi": "पाउलो डिबाला"
+        },
+        "shortNameTranslation": {
+          "ar": "ب. ديبالا",
+          "bn": "পি. দিবালা",
+          "hi": "पी. डिबाला"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half overview",
+      "text": "The first half ended in a stalemate with a score of 0-0. Roma was the more dominant side, controlling 57% of possession and creating more scoring opportunities. They managed to create one big chance but were unable to capitalize on it."
+    },
+    {
+      "subtitle": "Attack momentum analysis",
+      "text": "The attack momentum heavily favored Roma throughout the first half. They experienced multiple attacking spells, especially between minutes 9 to 21 and again towards the end of the half. Meanwhile, Milan struggled to maintain any sustained pressure or significant attacking phase."
+    },
+    {
+      "subtitle": "Team performances",
+      "text": "Roma's attack showcased their creativity, with several players involved in intricate plays, particularly through Dybala and Ndicka. In contrast, Milan's forward line struggled to penetrate, failing to record a single shot on target. Their midfield seemed lackluster, contributing to their inability to transition effectively."
+    },
+    {
+      "subtitle": "Key player performances",
+      "text": "For Roma, Paulo Dybala stood out with his playmaking ability, recording three key passes. Meanwhile, Milan's Mike Maignan was the standout performer, keeping Roma at bay with crucial saves, reflecting an outstanding defensive effort despite being under constant threat."
+    }
+  ],
+  "modelName": "Grok3"
+}

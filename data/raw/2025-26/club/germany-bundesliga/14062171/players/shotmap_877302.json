@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "András Schäfer",
+        "slug": "andras-schafer",
+        "shortName": "A. Schäfer",
+        "position": "M",
+        "jerseyNumber": "13",
+        "userCount": 2397,
+        "gender": "M",
+        "id": 877302,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أندراس شيفر",
+            "bn": "আন্দ্রেস শেফার",
+            "hi": "एन्ड्रास शेफ़र"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. شيفر",
+            "bn": "এ. শেফার",
+            "hi": "ए. शेफ़र"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.1,
+        "y": 66.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 5.5,
+        "y": 62.3,
+        "z": 0
+      },
+      "xg": 0.065816536545753,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Alexander Nübel",
+        "firstName": "",
+        "lastName": "",
+        "slug": "alexander-nubel",
+        "shortName": "A. Nübel",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 2073,
+        "gender": "M",
+        "id": 584722,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر نوبل",
+            "bn": "আলেকজান্ডার নুবেল",
+            "hi": "अलेक्जेंडर नुबेल"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. نوبل",
+            "bn": "এ. নুবেল",
+            "hi": "ए. नुबेल"
+          }
+        }
+      },
+      "id": 6541921,
+      "time": 54,
+      "timeSeconds": 3200,
+      "draw": {
+        "start": {
+          "x": 66.3,
+          "y": 8.1
+        },
+        "block": {
+          "x": 62.3,
+          "y": 5.5
+        },
+        "end": {
+          "x": 53.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2200,
+      "periodTimeSeconds": 500,
+      "incidentType": "shot"
+    }
+  ]
+}

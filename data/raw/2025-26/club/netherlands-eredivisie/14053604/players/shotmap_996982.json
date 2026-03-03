@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Yannick Leliendal",
+        "firstName": "Yannick",
+        "lastName": "Leliendal",
+        "slug": "yannick-leliendal",
+        "shortName": "Y. Leliendal",
+        "position": "D",
+        "jerseyNumber": "32",
+        "userCount": 172,
+        "gender": "M",
+        "id": 996982,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يانيك ليليندال"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ليليندال"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.8,
+        "y": 36.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17,
+        "y": 37.7,
+        "z": 0
+      },
+      "xg": 0.025194996967912,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Niek Schiks",
+        "slug": "niek-schiks",
+        "shortName": "N. Schiks",
+        "position": "G",
+        "jerseyNumber": "24",
+        "userCount": 222,
+        "gender": "M",
+        "id": 1134720,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيك شيكس"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. شيكس"
+          }
+        }
+      },
+      "id": 6703476,
+      "time": 61,
+      "timeSeconds": 3615,
+      "draw": {
+        "start": {
+          "x": 36.2,
+          "y": 18.8
+        },
+        "block": {
+          "x": 37.7,
+          "y": 17
+        },
+        "end": {
+          "x": 51.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1785,
+      "periodTimeSeconds": 915,
+      "incidentType": "shot"
+    }
+  ]
+}

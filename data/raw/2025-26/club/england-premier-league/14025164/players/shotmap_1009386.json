@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Hannibal Mejbri",
+        "firstName": "",
+        "lastName": "",
+        "slug": "hannibal-mejbri",
+        "shortName": "H. Mejbri",
+        "position": "M",
+        "jerseyNumber": "28",
+        "userCount": 24112,
+        "gender": "M",
+        "sofascoreId": "hannibal_mj",
+        "id": 1009386,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "حنبعل المجبري",
+            "bn": "হ্যানিবল মেজব্রি",
+            "hi": "हैनिबल मेजब्री"
+          },
+          "shortNameTranslation": {
+            "ar": "ح. المجبري",
+            "bn": "এইচ. মেজব্রি",
+            "hi": "एच. मेजब्री"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 24.1,
+        "y": 40.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 22,
+        "y": 41.3,
+        "z": 0
+      },
+      "xg": 0.017566798254848,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mads Hermansen",
+        "slug": "mads-hermansen",
+        "shortName": "M. Hermansen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1772,
+        "gender": "M",
+        "id": 856640,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مادس هيرمانسن",
+            "bn": "ম্যাডস হারম্যানসেন",
+            "hi": "मैड्स हरमनसेन"
+          },
+          "shortNameTranslation": {
+            "ar": "م. هيرمانسن",
+            "bn": "এম. হারমানসেন",
+            "hi": "एम. हरमनसेन"
+          }
+        }
+      },
+      "id": 6659650,
+      "time": 35,
+      "timeSeconds": 2068,
+      "draw": {
+        "start": {
+          "x": 40.7,
+          "y": 24.1
+        },
+        "block": {
+          "x": 41.3,
+          "y": 22
+        },
+        "end": {
+          "x": 48,
+          "y": 0
+        },
+        "goal": {
+          "x": 48,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 632,
+      "periodTimeSeconds": 2068,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Derrick Köhn",
+        "slug": "derrick-kohn",
+        "shortName": "D. Köhn",
+        "position": "D",
+        "jerseyNumber": "39",
+        "userCount": 1908,
+        "gender": "M",
+        "id": 886737,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديريك كون",
+            "bn": "ডেরিক কোহন",
+            "hi": "डेरिक कोह्न"
+          },
+          "shortNameTranslation": {
+            "ar": "د. كون",
+            "bn": "ডি. কোহন",
+            "hi": "डी. कोह्न"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 22.5,
+        "y": 38,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.7,
+        "y": 41,
+        "z": 0
+      },
+      "xg": 0.02067606151104,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Janis Blaswich",
+        "slug": "janis-blaswich",
+        "shortName": "J. Blaswich",
+        "position": "G",
+        "jerseyNumber": "28",
+        "userCount": 654,
+        "gender": "M",
+        "id": 96832,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يانيس بلاسفيتش",
+            "bn": "জেনিস ব্লাসউইচ",
+            "hi": "जेनिस ब्लासविच"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. بلاسفيتش",
+            "bn": "জে. ব্লাসউইচ",
+            "hi": "जे. ब्लासविच"
+          }
+        }
+      },
+      "id": 6749590,
+      "time": 7,
+      "timeSeconds": 369,
+      "draw": {
+        "start": {
+          "x": 38,
+          "y": 22.5
+        },
+        "block": {
+          "x": 41,
+          "y": 17.7
+        },
+        "end": {
+          "x": 52,
+          "y": 0
+        },
+        "goal": {
+          "x": 52,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2331,
+      "periodTimeSeconds": 369,
+      "incidentType": "shot"
+    }
+  ]
+}

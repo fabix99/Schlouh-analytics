@@ -1,0 +1,157 @@
+{
+  "predictions": {
+    "yellowCards": 3,
+    "corners": 10,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 68,
+      "draw": 20,
+      "away": 12
+    },
+    "possibleResultsMatrix": [
+      [
+        0.065541558298821,
+        0.046671105395594,
+        0.016616877408649,
+        0.0039442050561208,
+        0.00070215148469913,
+        9.9998189840584e-05
+      ],
+      [
+        0.13311168054971,
+        0.094786719046198,
+        0.033748060539989,
+        0.0080104864315128,
+        0.0014260351226721,
+        0.00020309140409695
+      ],
+      [
+        0.13517163734485,
+        0.096253581647447,
+        0.034270325350597,
+        0.0081344519309249,
+        0.0014481035897586,
+        0.0002062343252604
+      ],
+      [
+        0.091508981866614,
+        0.06516209635829,
+        0.023200448279472,
+        0.0055068905642003,
+        0.00098034238349967,
+        0.00013961725626198
+      ],
+      [
+        0.046462560083338,
+        0.033085253004087,
+        0.011779742274005,
+        0.0027960559552993,
+        0.00049775678809311,
+        7.0888944728932e-05
+      ],
+      [
+        0.018872634755303,
+        0.013438904240596,
+        0.0047848154094425,
+        0.0011357304183218,
+        0.00020218390983631,
+        2.8794391864295e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Current Form",
+      "text": "RSC Anderlecht comes into this match with a strong home advantage and is in decent form, having won three of their last five matches. FCV Dender, on the other hand, struggles in away games and has only managed one win in their recent outings."
+    },
+    {
+      "subtitle": "Recent Head-to-Head",
+      "text": "In their last two encounters, RSC Anderlecht emerged victorious, with a convincing 2-0 win in the most recent matchup. Their historical dominance should instill confidence heading into today's game."
+    },
+    {
+      "subtitle": "Expectations",
+      "text": "With Sofascore predicting a 68% chance of a home win, RSC Anderlecht is expected to dominate the match, especially given their statistical advantage and recent performances."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "RSC Anderlecht",
+      "slug": "anderlecht",
+      "shortName": "Anderlecht",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 105622,
+      "nameCode": "AND",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 2900,
+      "teamColors": {
+        "primary": "#330066",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أندرلخت",
+          "hi": "आरएससी एंडरलेक्ट",
+          "ru": "Андерлехт"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Thorgan Hazard",
+      "firstName": "",
+      "lastName": "",
+      "slug": "thorgan-hazard",
+      "shortName": "T. Hazard",
+      "position": "F",
+      "jerseyNumber": "11",
+      "userCount": 3640,
+      "gender": "M",
+      "sofascoreId": "THazard",
+      "id": 94286,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ثورغان هازارد",
+          "bn": "থরগান হ্যাজার্ড",
+          "hi": "थोर्गन हैज़र्ड"
+        },
+        "shortNameTranslation": {
+          "ar": "ث. هازارد",
+          "bn": "টি.হ্যাজার্ড",
+          "hi": "टी. हैज़र्ड"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half overview",
+      "text": "The first half ended with a stalemate at 0-0, indicating a lack of clinical finishing from both sides. RSC Anderlecht had a slight edge in ball possession, managing to control 52% of it, but struggled to convert their dominance into tangible chances. On the other hand, FCV Dender created two significant scoring opportunities but failed to capitalize on them."
+    },
+    {
+      "subtitle": "Attack momentum analysis",
+      "text": "Throughout the first half, RSC Anderlecht showed promising attacking spells early on, particularly in the first 10 minutes. However, they quickly lost momentum as FCV Dender surged forward, dominating the momentum for a significant period between the 10th and 17th minutes. Dender's aggressive approach allowed them to seize control, reflected in their ability to create big chances and put pressure on Anderlecht's backline."
+    },
+    {
+      "subtitle": "Key player performances",
+      "text": "For RSC Anderlecht, Thorgan Hazard and Nathan De Cat stood out with their involvement in build-up play, but they lacked the finishing touch. FCV Dender's Bryan Goncalves performed effectively, contributing with key passes and maintaining pressure on the Anderlecht defense."
+    },
+    {
+      "subtitle": "Second half predictions",
+      "text": "As the second half approaches, one can expect both teams to adjust their tactics. Anderlecht may push harder for an early goal to assert dominance at home, while Dender will likely aim to exploit counters. Goals are anticipated given the patterns observed in the first half, especially since both teams have shown the capability to create chances."
+    }
+  ],
+  "modelName": "Grok3"
+}

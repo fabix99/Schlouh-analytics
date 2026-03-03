@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ali Hazazi",
+        "slug": "ali-hazazi",
+        "shortName": "A. Hazazi",
+        "position": "M",
+        "jerseyNumber": "11",
+        "userCount": 61,
+        "gender": "M",
+        "id": 818699,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "علي هزازي",
+            "bn": "আলী হাজাজি",
+            "hi": "अली हज़ाज़ी"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. هزازي",
+            "bn": "এ. হাজাজি",
+            "hi": "ए. हज़ाज़ी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 19.7,
+        "y": 47.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 12.3,
+        "y": 49.1,
+        "z": 0
+      },
+      "xg": 0.074201129376888,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Luís Maximiano",
+        "firstName": "",
+        "lastName": "",
+        "slug": "luis-maximiano",
+        "shortName": "L. Maximiano",
+        "position": "G",
+        "jerseyNumber": "81",
+        "userCount": 768,
+        "gender": "M",
+        "id": 845797,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لويس ماكسيميانو",
+            "bn": "লুইস ম্যাক্সিমিয়ানো",
+            "hi": "लुइस मैक्सिमियानो"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. ماكسيميانو",
+            "bn": "এল. ম্যাক্সিমিয়ানো",
+            "hi": "एल. मैक्सिमियानो"
+          }
+        }
+      },
+      "id": 6697609,
+      "time": 45,
+      "timeSeconds": 2643,
+      "draw": {
+        "start": {
+          "x": 47.9,
+          "y": 19.7
+        },
+        "block": {
+          "x": 49.1,
+          "y": 12.3
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 57,
+      "periodTimeSeconds": 2643,
+      "incidentType": "shot"
+    }
+  ]
+}

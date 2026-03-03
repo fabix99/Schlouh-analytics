@@ -1,0 +1,412 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1184603,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76953
+    },
+    "roundInfo": {
+      "round": 7
+    },
+    "customId": "Mdbsgkb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 41626,
+    "venue": {
+      "city": {
+        "name": "Turin"
+      },
+      "venueCoordinates": {
+        "latitude": 45.109576,
+        "longitude": 7.642134
+      },
+      "hidden": false,
+      "slug": "allianz-stadium",
+      "name": "Allianz Stadium",
+      "capacity": 41507,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2657,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب أليانز",
+          "hi": "एलियांज स्टेडियम",
+          "bn": "আলিয়াঞ্জ স্টেডিয়াম"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Allianz Stadium",
+        "capacity": 41507
+      }
+    },
+    "referee": {
+      "name": "Serdar Gozubuyuk",
+      "slug": "gozubuyuk-serdar",
+      "yellowCards": 1691,
+      "redCards": 48,
+      "yellowRedCards": 34,
+      "games": 472,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "NL",
+        "alpha3": "NLD",
+        "name": "Netherlands",
+        "slug": "netherlands"
+      },
+      "id": 78563,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "غوزوبويك، سردار",
+          "bn": "গোজুবুয়ুক, সেরদার",
+          "hi": "गोज़ुबुयुक, सेरदार"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Juventus",
+      "slug": "juventus",
+      "shortName": "Juventus",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 1541460,
+      "manager": {
+        "name": "Luciano Spalletti",
+        "slug": "luciano-spalletti",
+        "shortName": "L. Spalletti",
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 786459,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوتشيانو سباليتي",
+            "bn": "লুসিয়ানো স্প্যালেটি",
+            "hi": "लुसियानो स्पैलेटी"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. سباليتي",
+            "bn": "এল. স্প্যালেটি",
+            "hi": "एल. स्पैलेटी"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Turin"
+        },
+        "venueCoordinates": {
+          "latitude": 45.109576,
+          "longitude": 7.642134
+        },
+        "hidden": false,
+        "slug": "allianz-stadium",
+        "name": "Allianz Stadium",
+        "capacity": 41507,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 2657,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب أليانز",
+            "hi": "एलियांज स्टेडियम",
+            "bn": "আলিয়াঞ্জ স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Allianz Stadium",
+          "capacity": 41507
+        }
+      },
+      "nameCode": "JUV",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2687,
+      "fullName": "Juventus",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2277331200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "يوفنتوس",
+          "bn": "জুভেন্টাস",
+          "hi": "जुवेंटस",
+          "ru": "Ювентус"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Benfica",
+      "slug": "benfica",
+      "shortName": "Benfica",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 848106,
+      "manager": {
+        "name": "José Mourinho",
+        "slug": "jose-mourinho",
+        "shortName": "J. Mourinho",
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 53418,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوزيه مورينيو"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. مورينيو"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Lisbon"
+        },
+        "venueCoordinates": {
+          "latitude": 38.752689,
+          "longitude": -9.18469
+        },
+        "hidden": false,
+        "slug": "est-dio-da-luz",
+        "name": "Estádio da Luz",
+        "capacity": 68100,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 902,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب دا لوز",
+            "hi": "एस्टेडियो दा लूज़",
+            "bn": "এস্তাদিও দা লুজ"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estádio da Luz",
+          "capacity": 68100
+        }
+      },
+      "nameCode": "SLB",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 3006,
+      "fullName": "Benfica",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2077833600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بنفيكا",
+          "bn": "বেনফিকা",
+          "hi": "बेनफिका",
+          "ru": "Бенфика"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 0,
+      "injuryTime2": 5,
+      "currentPeriodStartTimestamp": 1769029334
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1769032344
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14566765,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "benfica-juventus",
+    "currentPeriodStartTimestamp": 1769029334,
+    "startTimestamp": 1769025600,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "club"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

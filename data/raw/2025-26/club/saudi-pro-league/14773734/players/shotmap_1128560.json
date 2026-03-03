@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Roger Fernandes",
+        "slug": "roger-fernandes",
+        "shortName": "R. Fernandes",
+        "position": "M",
+        "jerseyNumber": "78",
+        "userCount": 2655,
+        "gender": "M",
+        "id": 1128560,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رودجر فيرنانديس",
+            "bn": "রজার ফার্নান্ডেজ",
+            "hi": "रोजर फर्नांडीस"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. فيرنانديس",
+            "bn": "আর. ফার্নান্ডেজ",
+            "hi": "आर. फर्नांडीस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 10.4,
+        "y": 36.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.1,
+        "y": 39.2,
+        "z": 0
+      },
+      "xg": 0.025473391637206,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Orlando Mosquera",
+        "slug": "orlando-mosquera",
+        "shortName": "O. Mosquera",
+        "position": "G",
+        "jerseyNumber": "52",
+        "userCount": 497,
+        "gender": "M",
+        "id": 886041,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أورلاندو موسكيرا",
+            "bn": "অরল্যান্ডো মস্কেরা",
+            "hi": "ऑरलैंडो मॉस्क्वेरा"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موسكيرا",
+            "bn": "ও. মস্কেরা",
+            "hi": "ओ. मॉस्क्वेरा"
+          }
+        }
+      },
+      "id": 6702658,
+      "time": 39,
+      "timeSeconds": 2306,
+      "draw": {
+        "start": {
+          "x": 36.8,
+          "y": 10.4
+        },
+        "block": {
+          "x": 39.2,
+          "y": 8.1
+        },
+        "end": {
+          "x": 47.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 394,
+      "periodTimeSeconds": 2306,
+      "incidentType": "shot"
+    }
+  ]
+}

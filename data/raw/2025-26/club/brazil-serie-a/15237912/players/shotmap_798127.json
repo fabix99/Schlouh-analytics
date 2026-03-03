@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Marinho",
+        "firstName": "",
+        "lastName": "",
+        "slug": "marinho",
+        "shortName": "Marinho",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 2294,
+        "gender": "M",
+        "id": 798127,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارينيو",
+            "bn": "মারিনহো",
+            "hi": "मारीन्हो"
+          },
+          "shortNameTranslation": {
+            "ar": "مارينيو",
+            "bn": "মারিনহো",
+            "hi": "मारिन्हो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 31.6,
+        "y": 52.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 21.9,
+        "y": 51.1,
+        "z": 0
+      },
+      "xg": 0.011234678328037,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Agustín Rossi",
+        "slug": "agustin-rossi",
+        "shortName": "A. Rossi",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 10952,
+        "gender": "M",
+        "sofascoreId": "AgustinRossi",
+        "id": 1140986,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوغستين روسي",
+            "bn": "অগাস্টিন রসি",
+            "hi": "अगस्टिन रॉसी"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. روسي",
+            "bn": "অগাস্টিন রসি",
+            "hi": "अगस्टिन रॉसी"
+          }
+        }
+      },
+      "id": 6689940,
+      "time": 90,
+      "addedTime": 2,
+      "timeSeconds": 5493,
+      "draw": {
+        "start": {
+          "x": 52.6,
+          "y": 31.6
+        },
+        "block": {
+          "x": 51.1,
+          "y": 21.9
+        },
+        "end": {
+          "x": 49.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 807,
+      "periodTimeSeconds": 93,
+      "incidentType": "shot"
+    }
+  ]
+}

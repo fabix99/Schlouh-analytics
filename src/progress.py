@@ -13,9 +13,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import List, Tuple
 
-import sys
-from pathlib import Path as _Path
-sys.path.insert(0, str(_Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import pandas as pd
 import yaml

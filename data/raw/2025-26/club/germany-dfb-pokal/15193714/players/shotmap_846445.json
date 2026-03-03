@@ -1,0 +1,170 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Martin Terrier",
+        "slug": "martin-terrier",
+        "shortName": "M. Terrier",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 2104,
+        "gender": "M",
+        "id": 846445,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتن تيريير",
+            "bn": "মার্টিন টেরিয়ার",
+            "hi": "मार्टिन टेरियर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. تيريير",
+            "bn": "এম. টেরিয়ার",
+            "hi": "एम. टेरियर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 16,
+        "y": 57.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.9,
+        "z": 3.2
+      },
+      "goalkeeper": {
+        "name": "Ben Voll",
+        "slug": "ben-voll",
+        "shortName": "B. Voll",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 90,
+        "gender": "M",
+        "id": 987437,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بن فول"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فول"
+          }
+        }
+      },
+      "id": 6641236,
+      "time": 32,
+      "timeSeconds": 1867,
+      "draw": {
+        "start": {
+          "x": 57.7,
+          "y": 16
+        },
+        "end": {
+          "x": 46.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.1,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 14,
+      "reversedPeriodTimeSeconds": 833,
+      "periodTimeSeconds": 1867,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Martin Terrier",
+        "slug": "martin-terrier",
+        "shortName": "M. Terrier",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 2104,
+        "gender": "M",
+        "id": 846445,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتن تيريير",
+            "bn": "মার্টিন টেরিয়ার",
+            "hi": "मार्टिन टेरियर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. تيريير",
+            "bn": "এম. টেরিয়ার",
+            "hi": "एम. टेरियर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 5.3,
+        "y": 51.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 4.2,
+        "y": 51.3,
+        "z": 0
+      },
+      "goalkeeper": {
+        "name": "Ben Voll",
+        "slug": "ben-voll",
+        "shortName": "B. Voll",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 90,
+        "gender": "M",
+        "id": 987437,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بن فول"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فول"
+          }
+        }
+      },
+      "id": 6641126,
+      "time": 15,
+      "timeSeconds": 872,
+      "draw": {
+        "start": {
+          "x": 51.4,
+          "y": 5.3
+        },
+        "block": {
+          "x": 51.3,
+          "y": 4.2
+        },
+        "end": {
+          "x": 50.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1828,
+      "periodTimeSeconds": 872,
+      "incidentType": "shot"
+    }
+  ]
+}

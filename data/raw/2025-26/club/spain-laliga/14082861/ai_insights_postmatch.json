@@ -1,0 +1,111 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 8,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 1
+  },
+  "sections": [
+    {
+      "subtitle": "Current Form",
+      "text": "Osasuna has struggled recently, with no wins in their last 5 matches and only 1 goal scored in competitive games, indicating poor attacking form. Valencia, on the other hand, shows mixed results with 1 win, 2 draws, and 2 losses in their last 5 matches, managing to score in most games. Their recent form suggests a slight edge in offensive output."
+    },
+    {
+      "subtitle": "Head-to-Head Record",
+      "text": "In the last two head-to-head matches, the teams have been evenly matched, with a 3-3 draw and a 0-0 stalemate. This indicates a tendency for competitive games with a possibility of goals on both sides, though defensive solidity was evident in the goalless draw."
+    },
+    {
+      "subtitle": "Season Statistics",
+      "text": "Osasuna's season stats reveal a lack of goal-scoring ability (0 goals) and low possession (29%), ranking them near the bottom in attacking metrics. Valencia has shown slightly better output with 1 goal scored and a more balanced possession game, though still underperforming in key areas like big chances created."
+    },
+    {
+      "subtitle": "Defensive and Tactical Insights",
+      "text": "Osasuna's defense is relatively solid, conceding only 1 goal so far, with strong clearances and tackles per game. Valencia also has a decent defensive setup, conceding minimally, but their ability to create chances (expected goals of 2.04 in recent games) might test Osasuna's backline."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Osasuna",
+      "slug": "osasuna",
+      "shortName": "Osasuna",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 185281,
+      "nameCode": "OSA",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 2820,
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#14213d",
+        "text": "#14213d"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أوساسونا",
+          "bn": "ওসাসুনা",
+          "hi": "ओसासुना",
+          "ru": "Осасуна"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Ante Budimir",
+      "firstName": "",
+      "lastName": "",
+      "slug": "ante-budimir",
+      "shortName": "A. Budimir",
+      "position": "F",
+      "jerseyNumber": "17",
+      "userCount": 8672,
+      "gender": "M",
+      "sofascoreId": "budimir_ante",
+      "id": 37318,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أنتي بوديمير",
+          "bn": "আন্তে বুদিমির",
+          "hi": "अन्ते बुदिमीर"
+        },
+        "shortNameTranslation": {
+          "ar": "أ. بوديمير",
+          "bn": "এ. বুদিমির",
+          "hi": "ए. बुदिमीर"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 0
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Half-time overview",
+      "text": "At half-time, Osasuna leads Valencia 1-0 at Estadio El Sadar in Pamplona. The home side took the lead early in the match through a headed goal by Ante Budimir in the 9th minute. Osasuna has dominated much of the game so far, showcasing their control in possession and territory. Meanwhile, Valencia faces an uphill battle, compounded by a red card to José Luis Gayà, leaving them with 10 players for the remainder of the match."
+    },
+    {
+      "subtitle": "Team performance analysis",
+      "text": "Osasuna has been the stronger side in the first half, maintaining a clear edge in ball possession and demonstrating effectiveness in the final third with numerous entries and penalty area penetrations. Their aerial dominance and high duel success rate have allowed them to dictate the tempo of the game. On the other hand, Valencia has struggled to make an impact, with limited final third entries and a poor showing in duels, particularly in the air. The red card has further hampered their ability to compete evenly, and their expected goals reflect a lack of significant threat despite creating one big chance."
+    },
+    {
+      "subtitle": "Key players",
+      "text": "Ante Budimir has been the standout performer for Osasuna, not only scoring the decisive goal but also posing a constant threat with his positioning and shots on target. Moi Gómez and Aimar Oroz have also contributed positively in midfield, helping to sustain the home side's pressure. For Valencia, Diego López has shown glimpses of creativity by creating a big chance, while Arnaut Danjuma had a notable opportunity but missed a key chance. However, the dismissal of Gayà has left a significant gap in their defensive structure, which could be exploited further."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "The first half saw Osasuna take control early on, with consistent attacking spells that kept Valencia on the back foot for most of the period. Their momentum was particularly strong around the time of the goal, and they maintained a steady stream of pressure with frequent surges into the opposition half. Valencia, in contrast, had minimal attacking presence for much of the half, with only a brief shift in momentum towards the end of the period where they managed a short spell of pressure, though it failed to yield significant opportunities."
+    },
+    {
+      "subtitle": "Second half outlook",
+      "text": "Looking ahead to the second half, Osasuna is likely to capitalize on their numerical advantage and continue pushing for more goals, leveraging their dominance in possession and territorial control. Valencia will need to adopt a defensive mindset to avoid conceding further, but their lack of numbers could make it difficult to mount a meaningful comeback. The home side's confidence and ability to exploit spaces left by the red card should see them maintain their upper hand. Expect Osasuna to look for Budimir as their focal point in attack, while Valencia might struggle to create clear chances unless they can reorganize effectively."
+    }
+  ],
+  "modelName": "Grok3"
+}

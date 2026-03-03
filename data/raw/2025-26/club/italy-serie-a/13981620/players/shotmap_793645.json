@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Riccardo Orsolini",
+        "slug": "riccardo-orsolini",
+        "shortName": "R. Orsolini",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 5846,
+        "gender": "M",
+        "id": 793645,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكاردو أورسوليني",
+            "bn": "রিকার্ডো ওরসোলিনি",
+            "hi": "रिकार्डो ओरसोलिनी"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. أورسوليني",
+            "bn": "আর. ওরসোলিনি",
+            "hi": "आर. ओरसोलिनी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.6,
+        "y": 69.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.5,
+        "y": 59.7,
+        "z": 0
+      },
+      "xg": 0.02037643827498,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "David De Gea",
+        "firstName": "",
+        "lastName": "",
+        "slug": "david-de-gea",
+        "shortName": "D. De Gea",
+        "position": "G",
+        "jerseyNumber": "43",
+        "userCount": 23415,
+        "gender": "M",
+        "sofascoreId": "d_degea",
+        "id": 69378,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد دي خيا",
+            "bn": "ডেভিড ডে হায়া",
+            "hi": "डेविड डी गेआ"
+          },
+          "shortNameTranslation": {
+            "ar": "د. دي خيا",
+            "bn": "ডি. ডে হায়া",
+            "hi": "डी. डी गेआ"
+          }
+        }
+      },
+      "id": 6541276,
+      "time": 22,
+      "timeSeconds": 1307,
+      "draw": {
+        "start": {
+          "x": 69.4,
+          "y": 20.6
+        },
+        "block": {
+          "x": 59.7,
+          "y": 11.5
+        },
+        "end": {
+          "x": 47.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1393,
+      "periodTimeSeconds": 1307,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Malick Thiaw",
+        "slug": "malick-thiaw",
+        "shortName": "M. Thiaw",
+        "position": "D",
+        "jerseyNumber": "12",
+        "userCount": 6612,
+        "gender": "M",
+        "sofascoreId": "MThiaw",
+        "id": 1014286,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماليك تياو",
+            "bn": "ম্যালিক থিয়াও",
+            "hi": "मलिक थियाव"
+          },
+          "shortNameTranslation": {
+            "ar": "م. تياو",
+            "bn": "এম. থিয়াও",
+            "hi": "एम. थियाव"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 11.3,
+        "y": 41.3,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.6,
+        "y": 42.2,
+        "z": 0
+      },
+      "xg": 0.024140972644091,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "",
+        "lastName": "",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2057,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर"
+          }
+        }
+      },
+      "id": 6564061,
+      "time": 52,
+      "timeSeconds": 3064,
+      "draw": {
+        "start": {
+          "x": 41.3,
+          "y": 11.3
+        },
+        "block": {
+          "x": 42.2,
+          "y": 9.6
+        },
+        "end": {
+          "x": 47.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2336,
+      "periodTimeSeconds": 364,
+      "incidentType": "shot"
+    }
+  ]
+}

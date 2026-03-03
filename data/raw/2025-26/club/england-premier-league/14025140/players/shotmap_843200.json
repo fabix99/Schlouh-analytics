@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Diogo Dalot",
+        "firstName": "",
+        "lastName": "",
+        "slug": "diogo-dalot",
+        "shortName": "D. Dalot",
+        "position": "M",
+        "jerseyNumber": "2",
+        "userCount": 22992,
+        "gender": "M",
+        "sofascoreId": "DDalot",
+        "id": 843200,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديوغو دالوت",
+            "bn": "ডিওগো ডালট",
+            "hi": "डिओगो डालोत"
+          },
+          "shortNameTranslation": {
+            "ar": "د. دالوت",
+            "bn": "ডি. ডালট",
+            "hi": "डी. डालोत"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.6,
+        "y": 69.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.7,
+        "y": 65.5,
+        "z": 0
+      },
+      "xg": 0.036077708005905,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bernd Leno",
+        "slug": "bernd-leno",
+        "shortName": "B. Leno",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2676,
+        "gender": "M",
+        "id": 103335,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيرند لينو",
+            "bn": "বার্ন্ড লেনো",
+            "hi": "बर्न्ड लेनो"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. لينو",
+            "bn": "বি. লেনো",
+            "hi": "बी. लेनो"
+          }
+        }
+      },
+      "id": 6625065,
+      "time": 56,
+      "timeSeconds": 3306,
+      "draw": {
+        "start": {
+          "x": 69.9,
+          "y": 12.6
+        },
+        "block": {
+          "x": 65.5,
+          "y": 9.7
+        },
+        "end": {
+          "x": 51,
+          "y": 0
+        },
+        "goal": {
+          "x": 51,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2094,
+      "periodTimeSeconds": 606,
+      "incidentType": "shot"
+    }
+  ]
+}

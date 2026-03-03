@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Georginio Wijnaldum",
+        "slug": "georginio-wijnaldum",
+        "shortName": "G. Wijnaldum",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 8282,
+        "gender": "M",
+        "sofascoreId": "gwijnaldum",
+        "id": 22126,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جورجينيو فينالدوم",
+            "bn": "জর্জিনিও উইজনাল্ডাম",
+            "hi": "जॉर्जिनियो विजनाल्डम"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. فينالدوم",
+            "bn": "জি. উইজনালডুম",
+            "hi": "जी. विजनाल्डम"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.4,
+        "y": 30.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.8,
+        "z": 2.5
+      },
+      "xg": 0.56294268369675,
+      "xgot": 0.98989921808243,
+      "goalkeeper": {
+        "name": "Fernando Pacheco",
+        "slug": "fernando-pacheco",
+        "shortName": "F. Pacheco",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 226,
+        "gender": "M",
+        "id": 144501,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فرناندو باتشيكو",
+            "bn": "ফার্নান্দো পাচেকো",
+            "hi": "फर्नांडो पचेको"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. باتشيكو",
+            "bn": "এফ. পাচেকো",
+            "hi": "एफ. पचेको"
+          }
+        }
+      },
+      "id": 6741739,
+      "time": 36,
+      "timeSeconds": 2112,
+      "draw": {
+        "start": {
+          "x": 30.7,
+          "y": 11.4
+        },
+        "end": {
+          "x": 53.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.2,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 10,
+      "reversedPeriodTimeSeconds": 588,
+      "periodTimeSeconds": 2112,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ricardo Horta",
+        "slug": "ricardo-horta",
+        "shortName": "R. Horta",
+        "position": "F",
+        "jerseyNumber": "21",
+        "userCount": 2226,
+        "gender": "M",
+        "id": 314380,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكاردو هورتا",
+            "bn": "রিকার্ডো হোর্টা",
+            "hi": "रिकार्डो होर्ता"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. هورتا",
+            "bn": "আর. হোর্টা",
+            "hi": "आर. होर्ता"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.6,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.1,
+        "z": 1.9
+      },
+      "xg": 0.7884,
+      "xgot": 0.80214732885361,
+      "goalkeeper": {
+        "name": "André Gomes",
+        "firstName": "André Gomes",
+        "lastName": "",
+        "slug": "andre-gomes",
+        "shortName": "A. Gomes",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 795,
+        "gender": "M",
+        "id": 1139990,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أندريه غوميش",
+            "bn": "আন্দ্রে গোমেস",
+            "hi": "आंद्रे गोम्स"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. غوميش",
+            "bn": "এ. গোমেস",
+            "hi": "ए. गोम्स"
+          }
+        }
+      },
+      "id": 6591755,
+      "time": 45,
+      "timeSeconds": 2665,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.6
+        },
+        "end": {
+          "x": 46.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.9,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 35,
+      "periodTimeSeconds": 2665,
+      "incidentType": "shot"
+    }
+  ]
+}

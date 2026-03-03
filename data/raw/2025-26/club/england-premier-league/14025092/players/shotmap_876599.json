@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jørgen Strand Larsen",
+        "slug": "jorgen-strand-larsen",
+        "shortName": "J. S. Larsen",
+        "position": "F",
+        "jerseyNumber": "22",
+        "userCount": 7575,
+        "gender": "M",
+        "id": 876599,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يورغن ستراند لارسن",
+            "bn": "জার্গেন স্ট্র্যান্ড লারসেন",
+            "hi": "जोर्गेन स्ट्रैण्ड लार्सन"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. س. لارسن",
+            "bn": "জে. এস. লারসেন",
+            "hi": "जे.एस. लार्सन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 15.1,
+        "y": 68.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.6,
+        "y": 66.2,
+        "z": 0
+      },
+      "xg": 0.029682463034987,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nick Pope",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nick-pope",
+        "shortName": "N. Pope",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 4726,
+        "gender": "M",
+        "sofascoreId": "npope29",
+        "id": 162653,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيك بوب",
+            "bn": "নিক পোপ",
+            "hi": "निक पोप"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. بوب",
+            "bn": "এন. পোপ",
+            "hi": "एन. पोप"
+          }
+        }
+      },
+      "id": 6542035,
+      "time": 90,
+      "addedTime": 1,
+      "timeSeconds": 5431,
+      "draw": {
+        "start": {
+          "x": 68.1,
+          "y": 15.1
+        },
+        "block": {
+          "x": 66.2,
+          "y": 13.6
+        },
+        "end": {
+          "x": 49.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 869,
+      "periodTimeSeconds": 31,
+      "incidentType": "shot"
+    }
+  ]
+}

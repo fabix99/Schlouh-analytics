@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Víctor García",
+        "slug": "victor-garcia",
+        "shortName": "V. García",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 124,
+        "gender": "M",
+        "id": 952222,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور غارسيا",
+            "bn": "ভিক্টর গার্সিয়া",
+            "hi": "विक्टर गार्सिया"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غارسيا",
+            "bn": "ভি. গার্সিয়া",
+            "hi": "वी. गार्सिया"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 17.9,
+        "y": 53.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.6,
+        "y": 50.2,
+        "z": 0
+      },
+      "xg": 0.051449488848448,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Luiz Júnior",
+        "firstName": "Luiz Lúcio Reis Júnior",
+        "lastName": "",
+        "slug": "luiz-junior",
+        "shortName": "L. Júnior",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2367,
+        "gender": "M",
+        "id": 1066603,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لويس جونيور"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. جونيور"
+          }
+        }
+      },
+      "id": 6737862,
+      "time": 50,
+      "timeSeconds": 2975,
+      "draw": {
+        "start": {
+          "x": 53.6,
+          "y": 17.9
+        },
+        "block": {
+          "x": 50.2,
+          "y": 9.6
+        },
+        "end": {
+          "x": 46.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2425,
+      "periodTimeSeconds": 275,
+      "incidentType": "shot"
+    }
+  ]
+}

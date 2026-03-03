@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Saïd Benrahma",
+        "slug": "said-benrahma",
+        "shortName": "S. Benrahma",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 11042,
+        "gender": "M",
+        "sofascoreId": "said_benrahma11",
+        "id": 354808,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سعيد بن رحمة",
+            "bn": "সাঈদ, বেনরাহমা",
+            "hi": "सईद बनराहमा"
+          },
+          "shortNameTranslation": {
+            "ar": "س. بن رحمة",
+            "bn": "এস. বেনরাহমা",
+            "hi": "एस. बनराहमा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 27.7,
+        "y": 30.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.6,
+        "z": 29.7
+      },
+      "blockCoordinates": {
+        "x": 2.4,
+        "y": 48.6,
+        "z": 0
+      },
+      "xg": 0.0059738112613559,
+      "xgot": 0.028521340340376,
+      "goalkeeper": {
+        "name": "Kewin",
+        "slug": "kewin",
+        "shortName": "Kewin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 111,
+        "gender": "M",
+        "id": 865371,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيوين"
+          },
+          "shortNameTranslation": {
+            "ar": "كيوين"
+          }
+        }
+      },
+      "id": 6609676,
+      "time": 31,
+      "timeSeconds": 1844,
+      "draw": {
+        "start": {
+          "x": 30.7,
+          "y": 27.7
+        },
+        "block": {
+          "x": 48.6,
+          "y": 2.4
+        },
+        "end": {
+          "x": 50.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.4,
+          "y": 70.3
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 856,
+      "periodTimeSeconds": 1844,
+      "incidentType": "shot"
+    }
+  ]
+}

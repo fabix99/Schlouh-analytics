@@ -1,0 +1,83 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Julius Dirksen",
+        "slug": "julius-dirksen",
+        "shortName": "J. Dirksen",
+        "position": "D",
+        "jerseyNumber": "26",
+        "userCount": 74,
+        "gender": "M",
+        "id": 1001943,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوليوس ديركسن"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ديركسن"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 4.2,
+        "y": 58.8,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.1,
+        "z": 10.8
+      },
+      "xg": 0.077200524508953,
+      "xgot": 0.58911818265915,
+      "goalkeeper": {
+        "name": "Bernt Klaverboer",
+        "firstName": "Bernt Klaverboer",
+        "lastName": "",
+        "slug": "klaverboer-bernt",
+        "shortName": "B. Klaverboer",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 126,
+        "gender": "M",
+        "id": 1195719,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيرنت كلافيربور"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. كلافيربور"
+          }
+        }
+      },
+      "id": 6692564,
+      "time": 54,
+      "timeSeconds": 3205,
+      "draw": {
+        "start": {
+          "x": 58.8,
+          "y": 4.2
+        },
+        "end": {
+          "x": 46.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.9,
+          "y": 89.2
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2195,
+      "periodTimeSeconds": 505,
+      "incidentType": "shot"
+    }
+  ]
+}

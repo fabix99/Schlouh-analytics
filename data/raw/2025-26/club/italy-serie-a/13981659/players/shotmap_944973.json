@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nuno Tavares",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nuno-tavares",
+        "shortName": "N. Tavares",
+        "position": "D",
+        "jerseyNumber": "17",
+        "userCount": 4809,
+        "gender": "M",
+        "sofascoreId": "nuno_tavares71",
+        "id": 944973,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نونو تافاريس",
+            "bn": "নুনো টাভারেস",
+            "hi": "नूनो तवारेस"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. تافاريس",
+            "bn": "এন. টাভারেস",
+            "hi": "एन. तवारेस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.2,
+        "y": 23.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 12.4,
+        "y": 28.3,
+        "z": 0
+      },
+      "xg": 0.021823262795806,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Marco Carnesecchi",
+        "slug": "marco-carnesecchi",
+        "shortName": "M. Carnesecchi",
+        "position": "G",
+        "jerseyNumber": "29",
+        "userCount": 3300,
+        "gender": "M",
+        "id": 865646,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركو كارنيسكي",
+            "bn": "মার্কো কার্নেসেচি",
+            "hi": "मार्को कार्नेसेची"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كارنيسكي",
+            "bn": "এম. কার্নেসেচি",
+            "hi": "एम. कार्नेसेची"
+          }
+        }
+      },
+      "id": 6709829,
+      "time": 82,
+      "timeSeconds": 4905,
+      "draw": {
+        "start": {
+          "x": 23.5,
+          "y": 15.2
+        },
+        "block": {
+          "x": 28.3,
+          "y": 12.4
+        },
+        "end": {
+          "x": 49.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 9,
+      "reversedPeriodTimeSeconds": 495,
+      "periodTimeSeconds": 2205,
+      "incidentType": "shot"
+    }
+  ]
+}

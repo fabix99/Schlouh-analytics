@@ -1,0 +1,399 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1184603,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 61644
+    },
+    "roundInfo": {
+      "round": 2
+    },
+    "customId": "VYsrgb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 45097,
+    "venue": {
+      "city": {
+        "name": "Barcelona"
+      },
+      "venueCoordinates": {
+        "latitude": 41.36472,
+        "longitude": 2.155645
+      },
+      "hidden": false,
+      "slug": "ol-mpic-llu-s-companys",
+      "name": "Olímpic Lluís Companys",
+      "capacity": 55926,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 714,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أوليمبيك لويس كومبانيز",
+          "hi": "ओलंपिक लुईस कम्पनीज",
+          "bn": "অলিম্পিক লুইস কোম্পানিস"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Olímpic Lluís Companys",
+        "capacity": 55926
+      }
+    },
+    "referee": {
+      "name": "Eric Lambrechts",
+      "slug": "lambrechts-eric",
+      "yellowCards": 1355,
+      "redCards": 35,
+      "yellowRedCards": 37,
+      "games": 333,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 171215,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "لامبرختس، إريك",
+          "bn": "ল্যামব্রেচটস, এরিক",
+          "hi": "लैम्ब्रेक्ट्स, एरिक"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "shortName": "Barcelona",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 6429246,
+      "manager": {
+        "name": "Hans-Dieter Flick",
+        "slug": "hans-dieter-flick",
+        "shortName": "H. Flick",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 793676,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هانس-ديتر فليك"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. فليك"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Barcelona"
+        },
+        "venueCoordinates": {
+          "latitude": 41.380881,
+          "longitude": 2.122818
+        },
+        "hidden": false,
+        "slug": "spotify-camp-nou",
+        "name": "Spotify Camp Nou",
+        "capacity": 99354,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 709,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سبوتيفاي كامب نو",
+            "hi": "स्पॉटिफ़ी कैंप नोउ",
+            "bn": "স্পটিফাই ক্যাম্প ন্যু"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Spotify Camp Nou",
+          "capacity": 99354
+        }
+      },
+      "nameCode": "BAR",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 2817,
+      "fullName": "Barcelona",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#154284",
+        "secondary": "#9d1009",
+        "text": "#9d1009"
+      },
+      "foundationDateTimestamp": -2211840000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "برشلونة",
+          "bn": "বার্সেলোনা",
+          "hi": "बार्सिलोना",
+          "ru": "Барселона"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "BSC Young Boys",
+      "slug": "young-boys",
+      "shortName": "Young Boys",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 131394,
+      "manager": {
+        "name": "Gerardo Seoane",
+        "slug": "gerardo-seoane",
+        "shortName": "G. Seoane",
+        "country": {
+          "alpha2": "CH",
+          "alpha3": "CHE",
+          "name": "Switzerland",
+          "slug": "switzerland"
+        },
+        "id": 789624,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غيراردو سيواني",
+            "bn": "জেরার্ডো সিওনে",
+            "hi": "गेरार्डो सेओने"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. سيواني",
+            "bn": "জি. সিওনে",
+            "hi": "जी. सेओने"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bern"
+        },
+        "venueCoordinates": {
+          "latitude": 46.963104,
+          "longitude": 7.464864
+        },
+        "hidden": true,
+        "slug": "wankdorf-stadion",
+        "name": "Wankdorf Stadion",
+        "capacity": 32000,
+        "country": {
+          "alpha2": "CH",
+          "alpha3": "CHE",
+          "name": "Switzerland",
+          "slug": "switzerland"
+        },
+        "id": 771,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب وانكدورف",
+            "hi": "वांकडॉर्फ स्टेडियन",
+            "bn": "ওয়াঙ্কডর্ফ স্টেডিয়ান"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Wankdorf Stadion",
+          "capacity": 32000
+        }
+      },
+      "nameCode": "YB",
+      "class": 1,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "CH",
+        "alpha3": "CHE",
+        "name": "Switzerland",
+        "slug": "switzerland"
+      },
+      "id": 2445,
+      "fullName": "BSC Young Boys",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffcf00",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2265840000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "يونج بويز",
+          "bn": "ইয়ং বয়েজ",
+          "hi": "यंग बॉयज़",
+          "ru": "Янг Бойз"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 5,
+      "display": 5,
+      "period1": 3,
+      "period2": 2,
+      "normaltime": 5
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 2,
+      "injuryTime2": 3,
+      "currentPeriodStartTimestamp": 1727813012
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1727815922
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12764029,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "barcelona-young-boys",
+    "currentPeriodStartTimestamp": 1727813012,
+    "startTimestamp": 1727809200,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

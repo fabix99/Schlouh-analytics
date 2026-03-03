@@ -26,7 +26,15 @@ class Badge:
 # Badge definitions with rules for Phase 1
 # Phase 2 will add ML confidence scores based on transfer success patterns
 BADGE_DEFINITIONS = {
-    # Positive performance badges
+    # Positive performance badges (use enriched season stats + optional consistency/opponent)
+    "elite_rating": {
+        "name": "Elite Rating",
+        "icon": "⭐",
+        "description": "Season rating among the best in the pool",
+        "is_positive": True,
+        "category": "performance",
+        "rule": lambda p, ctx: (p.get("avg_rating") or 0) >= 7.5
+    },
     "big_game_player": {
         "name": "Big Game Player",
         "icon": "🔥",
@@ -41,25 +49,8 @@ BADGE_DEFINITIONS = {
         "description": "Highly consistent week-to-week performance",
         "is_positive": True,
         "category": "performance",
-        "rule": lambda p, ctx: p.get("cv_rating", 1.0) < 0.15
+        "rule": lambda p, ctx: (p.get("cv_rating") or p.get("rating_cv") or 1.0) < 0.10
     },
-    "clutch": {
-        "name": "Clutch Performer",
-        "icon": "⏱️",
-        "description": "Delivers in decisive moments (late goals, key assists)",
-        "is_positive": True,
-        "category": "performance",
-        "rule": lambda p, ctx: p.get("decisive_actions_per90", 0) > ctx.get("avg_decisive", 0.3)
-    },
-    "press_resistant": {
-        "name": "Press Resistant",
-        "icon": "🛡️",
-        "description": "Maintains quality under pressure",
-        "is_positive": True,
-        "category": "performance",
-        "rule": lambda p, ctx: p.get("pass_accuracy_under_pressure", 0) > 75
-    },
-    
     # Potential badges
     "rising_talent": {
         "name": "Rising Talent",
@@ -67,7 +58,7 @@ BADGE_DEFINITIONS = {
         "description": "Young player with elite output for age",
         "is_positive": True,
         "category": "potential",
-        "rule": lambda p, ctx: p.get("age_at_season_start", p.get("age", 30)) <= 22 and p.get("avg_rating", 0) >= 7.2
+        "rule": lambda p, ctx: (p.get("age_at_season_start") or p.get("age") or 30) <= 22 and (p.get("avg_rating") or 0) >= 7.2
     },
     "breakout_season": {
         "name": "Breakout Season",
@@ -75,7 +66,7 @@ BADGE_DEFINITIONS = {
         "description": "Significant improvement vs previous seasons",
         "is_positive": True,
         "category": "potential",
-        "rule": lambda p, ctx: p.get("progression_delta", 0) > 20
+        "rule": lambda p, ctx: (p.get("progression_delta") or p.get("rating_delta") or 0) > 0.3
     },
     "late_bloomer": {
         "name": "Late Bloomer",
@@ -83,33 +74,17 @@ BADGE_DEFINITIONS = {
         "description": "Improving with age, peak may be ahead",
         "is_positive": True,
         "category": "potential",
-        "rule": lambda p, ctx: p.get("age_at_season_start", p.get("age", 20)) >= 25 and p.get("trend_direction", "flat") == "up"
+        "rule": lambda p, ctx: (p.get("age_at_season_start") or p.get("age") or 20) >= 25 and (p.get("trend_direction") or "flat") == "up"
     },
     
     # Personality/Style badges
-    "leader": {
-        "name": "Leader",
-        "icon": "👑",
-        "description": "Captain material — high influence on team",
-        "is_positive": True,
-        "category": "personality",
-        "rule": lambda p, ctx: p.get("captain_percentage", 0) > 50 or p.get("leadership_score", 0) > 7
-    },
-    "workhorse": {
-        "name": "Workhorse",
-        "icon": "⚡",
-        "description": "High intensity, covers lots of ground",
-        "is_positive": True,
-        "category": "personality",
-        "rule": lambda p, ctx: p.get("distance_covered_per90", 0) > ctx.get("avg_distance", 10)
-    },
     "technical": {
         "name": "Technical",
         "icon": "🎨",
         "description": "Excellent technique, skillful on the ball",
         "is_positive": True,
         "category": "personality",
-        "rule": lambda p, ctx: p.get("dribble_success_rate", 0) > 60 and p.get("pass_accuracy", 0) > 85
+        "rule": lambda p, ctx: (p.get("dribble_success_rate") or 0) > 0.60 and ((p.get("pass_accuracy_pct") or 0) > 85 or (float(p.get("pass_accuracy", 0) or 0) * 100) > 85)
     },
     "physical_dominant": {
         "name": "Physical Specimen",
@@ -117,7 +92,7 @@ BADGE_DEFINITIONS = {
         "description": "Wins duels through athletic advantage",
         "is_positive": True,
         "category": "personality",
-        "rule": lambda p, ctx: p.get("duel_won_rate", 0) > 60 and p.get("aerial_won_rate", 0) > 55
+        "rule": lambda p, ctx: (p.get("duel_win_rate") or p.get("duel_won_rate") or 0) > 0.60 and (p.get("aerial_win_rate") or p.get("aerial_won_rate") or 0) > 0.55
     },
     
     # Risk/negative badges
@@ -127,7 +102,7 @@ BADGE_DEFINITIONS = {
         "description": "Performance varies significantly game-to-game",
         "is_positive": False,
         "category": "risk",
-        "rule": lambda p, ctx: p.get("cv_rating", 0) > 0.25
+        "rule": lambda p, ctx: (p.get("cv_rating") or p.get("rating_cv") or 0) > 0.25
     },
     "flat_track_bully": {
         "name": "Flat Track Bully",
@@ -137,39 +112,13 @@ BADGE_DEFINITIONS = {
         "category": "risk",
         "rule": lambda p, ctx: p.get("big_game_ratio", 1.0) < 0.8
     },
-    "injury_prone": {
-        "name": "Injury History",
-        "icon": "🏥",
-        "description": "Has missed significant time to injuries",
-        "is_positive": False,
-        "category": "risk",
-        "rule": lambda p, ctx: p.get("availability_rate", 100) < 70
-    },
     "age_concern": {
         "name": "Age Concern",
         "icon": "⏰",
         "description": "May be past peak or approaching decline",
         "is_positive": False,
         "category": "risk",
-        "rule": lambda p, ctx: p.get("age_at_season_start", p.get("age", 25)) >= 30 and p.get("minutes_decline", False)
-    },
-    "one_season_wonder": {
-        "name": "Unproven Consistency",
-        "icon": "❓",
-        "description": "Only one strong season on record",
-        "is_positive": False,
-        "category": "risk",
-        "rule": lambda p, ctx: p.get("seasons_at_level", 0) < 2 and p.get("sample_reliability") == "Low"
-    },
-    
-    # League context badges
-    "proven_winner": {
-        "name": "Proven Winner",
-        "icon": "🏆",
-        "description": "Has won major trophies",
-        "is_positive": True,
-        "category": "performance",
-        "rule": lambda p, ctx: p.get("trophies_won", 0) > 0
+        "rule": lambda p, ctx: (p.get("age_at_season_start") or p.get("age") or 25) >= 30 and (p.get("minutes_decline") is True)
     },
     "experienced": {
         "name": "Experienced",
@@ -177,7 +126,219 @@ BADGE_DEFINITIONS = {
         "description": "Many seasons at high level, proven durability",
         "is_positive": True,
         "category": "performance",
-        "rule": lambda p, ctx: p.get("seasons_at_level", 0) >= 5 and p.get("appearances_career", 0) > 100
+        "rule": lambda p, ctx: (p.get("seasons_at_level") or 0) >= 5 and (p.get("appearances_career") or 0) > 100
+    },
+    # --- Stats-based badges (available for any player when they meet the bar) ---
+    "high_scorer": {
+        "name": "High Scorer",
+        "icon": "⚽",
+        "description": "Strong goal output per 90",
+        "is_positive": True,
+        "category": "performance",
+        "rule": lambda p, ctx: (float(p.get("goals_per90") or 0)) > 0.35
+    },
+    "goal_threat": {
+        "name": "Goal Threat",
+        "icon": "🎯",
+        "description": "High expected goals per 90",
+        "is_positive": True,
+        "category": "performance",
+        "rule": lambda p, ctx: (float(p.get("expectedGoals_per90") or 0)) > 0.25
+    },
+    "creative": {
+        "name": "Creative",
+        "icon": "✨",
+        "description": "Creates chances (key passes and xA)",
+        "is_positive": True,
+        "category": "performance",
+        "rule": lambda p, ctx: (float(p.get("keyPass_per90") or 0)) > 2.0 or (float(p.get("expectedAssists_per90") or 0)) > 0.15
+    },
+    "playmaker": {
+        "name": "Playmaker",
+        "icon": "🎭",
+        "description": "Consistent chance creation and assist threat",
+        "is_positive": True,
+        "category": "performance",
+        "rule": lambda p, ctx: (float(p.get("keyPass_per90") or 0)) > 1.5 and (float(p.get("expectedAssists_per90") or 0)) > 0.10
+    },
+    "ball_winner": {
+        "name": "Ball Winner",
+        "icon": "🛡️",
+        "description": "High tackle and interception output",
+        "is_positive": True,
+        "category": "performance",
+        "rule": lambda p, ctx: (float(p.get("totalTackle_per90") or 0)) + (float(p.get("interceptionWon_per90") or 0)) > 3.0
+    },
+    "ball_carrier": {
+        "name": "Ball Carrier",
+        "icon": "🏃",
+        "description": "High ball recoveries and duels won per 90",
+        "is_positive": True,
+        "category": "performance",
+        "rule": lambda p, ctx: (float(p.get("ballRecovery_per90") or 0)) > 5.0 or (float(p.get("duelWon_per90") or 0)) > 6.0
+    },
+    "reliable_passer": {
+        "name": "Reliable Passer",
+        "icon": "📋",
+        "description": "Very high pass completion",
+        "is_positive": True,
+        "category": "performance",
+        "rule": lambda p, ctx: (float(p.get("pass_accuracy_pct") or 0) > 88) or (float(p.get("pass_accuracy") or 0) * 100 > 88)
+    },
+    "aerial_presence": {
+        "name": "Aerial Presence",
+        "icon": "🦅",
+        "description": "Wins a high share of aerial duels",
+        "is_positive": True,
+        "category": "performance",
+        "rule": lambda p, ctx: (p.get("aerial_win_rate") or 0) > 0.55 and (float(p.get("aerialWon_per90") or 0)) > 1.0
+    },
+    "veteran_quality": {
+        "name": "Veteran Quality",
+        "icon": "🌟",
+        "description": "Older player still performing at a high level",
+        "is_positive": True,
+        "category": "performance",
+        "rule": lambda p, ctx: (p.get("age_at_season_start") or 0) >= 28 and (p.get("avg_rating") or 0) >= 7.0
+    },
+    "high_volume_season": {
+        "name": "High Volume",
+        "icon": "📊",
+        "description": "Substantial minutes this season (reliable sample)",
+        "is_positive": True,
+        "category": "performance",
+        "rule": lambda p, ctx: (p.get("total_minutes") or 0) >= 2000
+    },
+    # --- More positive (scout-relevant) ---
+    "shot_volume": {
+        "name": "Shot Volume",
+        "icon": "🎯",
+        "description": "High shot output per 90",
+        "is_positive": True,
+        "category": "performance",
+        "rule": lambda p, ctx: (float(p.get("totalShots_per90") or 0)) > 2.5
+    },
+    "chance_creator": {
+        "name": "Chance Creator",
+        "icon": "🔑",
+        "description": "Creates big chances for others",
+        "is_positive": True,
+        "category": "performance",
+        "rule": lambda p, ctx: (float(p.get("bigChanceCreated_per90") or 0)) > 0.15
+    },
+    "progressive_carrier": {
+        "name": "Progressive Carrier",
+        "icon": "➡️",
+        "description": "Meaningful progressive carries per 90",
+        "is_positive": True,
+        "category": "performance",
+        "rule": lambda p, ctx: (float(p.get("progressiveBallCarriesCount_per90") or 0)) > 0.8 or (float(p.get("totalProgressiveBallCarriesDistance_per90") or 0)) > 15
+    },
+    "on_target_shooter": {
+        "name": "Accurate Shooter",
+        "icon": "🎪",
+        "description": "High share of shots on target",
+        "is_positive": True,
+        "category": "performance",
+        "rule": lambda p, ctx: (float(p.get("totalShots_per90") or 0)) > 1.0 and (float(p.get("onTargetScoringAttempt_per90") or 0)) / max(0.01, float(p.get("totalShots_per90") or 0)) > 0.4
+    },
+    "clean_rating": {
+        "name": "Strong Season",
+        "icon": "✅",
+        "description": "Rating 7.0+ with meaningful minutes",
+        "is_positive": True,
+        "category": "performance",
+        "rule": lambda p, ctx: (p.get("avg_rating") or 0) >= 7.0 and (p.get("total_minutes") or 0) >= 900
+    },
+
+    # --- Negative / concern badges (scout risk view) ---
+    "discipline_risk": {
+        "name": "Discipline Risk",
+        "icon": "🟨",
+        "description": "High card count this season",
+        "is_positive": False,
+        "category": "risk",
+        "rule": lambda p, ctx: (p.get("yellow_cards") or 0) >= 8 or (p.get("red_cards") or 0) >= 1
+    },
+    "limited_sample": {
+        "name": "Limited Sample",
+        "icon": "📉",
+        "description": "Few minutes this season; stats less reliable",
+        "is_positive": False,
+        "category": "risk",
+        "rule": lambda p, ctx: (p.get("total_minutes") or 0) > 0 and (p.get("total_minutes") or 0) < 450
+    },
+    "low_goal_threat": {
+        "name": "Low Goal Threat",
+        "icon": "⚠️",
+        "description": "Very low goal and xG output (attacking roles)",
+        "is_positive": False,
+        "category": "risk",
+        "rule": lambda p, ctx: (p.get("player_position") or "F") in ("F", "M") and (float(p.get("goals_per90") or 0)) < 0.1 and (float(p.get("expectedGoals_per90") or 0)) < 0.12 and (p.get("total_minutes") or 0) >= 450
+    },
+    "loose_passer": {
+        "name": "Loose Passer",
+        "icon": "❌",
+        "description": "Below-average pass completion",
+        "is_positive": False,
+        "category": "risk",
+        "rule": lambda p, ctx: (float(p.get("pass_accuracy_pct") or 0) < 75) or (float(p.get("pass_accuracy") or 0) * 100 < 75)
+    },
+    "big_chance_waster": {
+        "name": "Big Chance Waster",
+        "icon": "😬",
+        "description": "High big chances missed vs conversion",
+        "is_positive": False,
+        "category": "risk",
+        "rule": lambda p, ctx: (float(p.get("bigChanceMissed_per90") or 0)) > 0.2 and (float(p.get("goals_per90") or 0)) < 0.4
+    },
+    "frequent_fouler": {
+        "name": "Frequent Fouler",
+        "icon": "🤚",
+        "description": "High foul rate per 90",
+        "is_positive": False,
+        "category": "risk",
+        "rule": lambda p, ctx: (float(p.get("fouls_per90") or 0)) > 2.0
+    },
+    "loose_in_possession": {
+        "name": "Loose in Possession",
+        "icon": "🔄",
+        "description": "Often dispossessed or loses ball in control",
+        "is_positive": False,
+        "category": "risk",
+        "rule": lambda p, ctx: (float(p.get("dispossessed_per90") or 0)) > 2.0 or (float(p.get("possessionLostCtrl_per90") or 0)) > 17
+    },
+    "declining_trend": {
+        "name": "Declining Trend",
+        "icon": "📉",
+        "description": "Rating trend down vs previous season",
+        "is_positive": False,
+        "category": "risk",
+        "rule": lambda p, ctx: (p.get("trend_direction") or "") == "down"
+    },
+    "weak_aerially": {
+        "name": "Weak in the Air",
+        "icon": "🦅",
+        "description": "Low aerial duel win rate",
+        "is_positive": False,
+        "category": "risk",
+        "rule": lambda p, ctx: (p.get("aerial_win_rate") or 1) < 0.40 and (float(p.get("aerialWon_per90") or 0)) + (float(p.get("aerialLost_per90") or 0)) > 0.5
+    },
+    "low_creative_output": {
+        "name": "Low Creative Output",
+        "icon": "🔇",
+        "description": "Minimal key passes and xA (creative roles)",
+        "is_positive": False,
+        "category": "risk",
+        "rule": lambda p, ctx: (p.get("player_position") or "F") in ("F", "M") and (float(p.get("keyPass_per90") or 0)) < 0.5 and (float(p.get("expectedAssists_per90") or 0)) < 0.05 and (p.get("total_minutes") or 0) >= 450
+    },
+    "below_par_rating": {
+        "name": "Below-Par Rating",
+        "icon": "📊",
+        "description": "Season rating below 6.5 with meaningful minutes",
+        "is_positive": False,
+        "category": "risk",
+        "rule": lambda p, ctx: (p.get("avg_rating") or 7) < 6.5 and (p.get("total_minutes") or 0) >= 900
     },
 }
 
@@ -249,23 +410,11 @@ def get_badge_summary(badges: List[Badge]) -> Dict[str, Any]:
 
 
 def format_badge_for_display(badge: Badge) -> str:
-    """Format a badge as HTML for display."""
+    """Format a badge as HTML for display. Single-line to avoid markdown treating it as a code block."""
     color = "#3FB950" if badge.is_positive else "#F85149"
-    return f"""
-    <span style="
-        display:inline-flex;
-        align-items:center;
-        background:rgba({"59,185,80" if badge.is_positive else "248,81,73"},0.15);
-        color:{color};
-        padding:4px 10px;
-        border-radius:12px;
-        font-size:0.85rem;
-        margin:2px;
-        border:1px solid {color}40;
-    " title="{badge.description}">
-        {badge.icon} {badge.name}
-    </span>
-    """
+    rgba = "59,185,80" if badge.is_positive else "248,81,73"
+    desc = (badge.description or "").replace('"', "&quot;")
+    return f'<span style="display:inline-flex;align-items:center;background:rgba({rgba},0.15);color:{color};padding:4px 10px;border-radius:12px;font-size:0.85rem;margin:2px;border:1px solid {color}40;" title="{desc}">{badge.icon} {badge.name}</span>'
 
 
 # Phase 2: ML and transfer-inferred features

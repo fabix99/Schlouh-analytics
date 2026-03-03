@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Aleksandr Golovin",
+        "firstName": "",
+        "lastName": "",
+        "slug": "aleksandr-golovin",
+        "shortName": "A. Golovin",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 8665,
+        "gender": "M",
+        "sofascoreId": "alex_golovin17",
+        "id": 318963,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر غولوفين",
+            "bn": "আলেকজান্ডার গোলোভিন",
+            "hi": "अलेक्सान्द्र गोलोविन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. غولوفين",
+            "bn": "এ. গোলোভিন",
+            "hi": "ए. गोलोविन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.3,
+        "y": 28.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.9,
+        "y": 32.8,
+        "z": 0
+      },
+      "xg": 0.018424903973937,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Brice Samba",
+        "slug": "brice-samba",
+        "shortName": "B. Samba",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 2118,
+        "gender": "M",
+        "id": 164055,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برايس سامبا",
+            "bn": "ব্রাইস সাম্বা",
+            "hi": "ब्राइस साम्बा"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. سامبا",
+            "bn": "বি. সাম্বা",
+            "hi": "बी. साम्बा"
+          }
+        }
+      },
+      "id": 6618998,
+      "time": 48,
+      "timeSeconds": 2856,
+      "draw": {
+        "start": {
+          "x": 28.2,
+          "y": 13.3
+        },
+        "block": {
+          "x": 32.8,
+          "y": 9.9
+        },
+        "end": {
+          "x": 46.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 43,
+      "reversedPeriodTimeSeconds": 2544,
+      "periodTimeSeconds": 156,
+      "incidentType": "shot"
+    }
+  ]
+}

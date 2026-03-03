@@ -1,0 +1,85 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mansour Camara",
+        "firstName": "Mansour Camara",
+        "slug": "mansour-camara",
+        "shortName": "M. Camara",
+        "position": "D",
+        "jerseyNumber": "25",
+        "userCount": 170,
+        "id": 2442170
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 27.7,
+        "y": 36.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 23.7,
+        "y": 38.3,
+        "z": 0
+      },
+      "xg": 0.015722662210464,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Milan Borjan",
+        "slug": "milan-borjan",
+        "shortName": "M. Borjan",
+        "position": "G",
+        "jerseyNumber": "82",
+        "userCount": 812,
+        "gender": "M",
+        "id": 79413,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميلان بوريان",
+            "bn": "মিলান বোরজান",
+            "hi": "मिलन बोरजान"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بوريان",
+            "bn": "এম. বোরজান",
+            "hi": "एम. बोरजान"
+          }
+        }
+      },
+      "id": 6741734,
+      "time": 35,
+      "timeSeconds": 2093,
+      "draw": {
+        "start": {
+          "x": 36.4,
+          "y": 27.7
+        },
+        "block": {
+          "x": 38.3,
+          "y": 23.7
+        },
+        "end": {
+          "x": 49.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 607,
+      "periodTimeSeconds": 2093,
+      "incidentType": "shot"
+    }
+  ]
+}

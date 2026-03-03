@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Lewis Holtby",
+        "firstName": "Lewis",
+        "lastName": "Holtby",
+        "slug": "lewis-holtby",
+        "shortName": "L. Holtby",
+        "position": "M",
+        "jerseyNumber": "90",
+        "userCount": 211,
+        "gender": "M",
+        "id": 1135884,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لويس هولتبي",
+            "bn": "লুইস হোল্টবি",
+            "hi": "लुईस होल्टबी"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. هولتبي",
+            "bn": "এল. হোল্টবি",
+            "hi": "एल. होल्टबी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 9.8,
+        "y": 36.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.9,
+        "z": 3.8
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 45.8,
+        "z": 0
+      },
+      "xg": 0.075220957398415,
+      "xgot": 0.10749062895775,
+      "goalkeeper": {
+        "name": "Gonzalo Crettaz",
+        "firstName": "",
+        "lastName": "",
+        "slug": "gonzalo-crettaz",
+        "shortName": "G. Crettaz",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 173,
+        "gender": "M",
+        "id": 990798,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غونزالو كريتا"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. كريتا"
+          }
+        }
+      },
+      "id": 6536134,
+      "time": 37,
+      "timeSeconds": 2183,
+      "draw": {
+        "start": {
+          "x": 36.8,
+          "y": 9.8
+        },
+        "block": {
+          "x": 45.8,
+          "y": 1.6
+        },
+        "end": {
+          "x": 48.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.1,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 9,
+      "reversedPeriodTimeSeconds": 517,
+      "periodTimeSeconds": 2183,
+      "incidentType": "shot"
+    }
+  ]
+}

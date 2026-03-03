@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Georgiy Sudakov",
+        "firstName": "",
+        "lastName": "",
+        "slug": "georgiy-sudakov",
+        "shortName": "G. Sudakov",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 6575,
+        "gender": "M",
+        "id": 1123925,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيورهي سوداكوف",
+            "bn": "জর্জি সুদাকভ",
+            "hi": "जॉर्जी सुदाकोव"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. سوداكوف",
+            "bn": "জি. সুদাকভ",
+            "hi": "जी. सुदाकोव"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 9.8,
+        "y": 37.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.4,
+        "z": 3.2
+      },
+      "blockCoordinates": {
+        "x": 2,
+        "y": 46.6,
+        "z": 0
+      },
+      "xg": 0.085038036108017,
+      "xgot": 0.33625492453575,
+      "goalkeeper": {
+        "name": "Matheus Mendes",
+        "slug": "matheus-mendes",
+        "shortName": "M. Mendes",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 412,
+        "gender": "M",
+        "id": 1018555,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماثيوس مينديز"
+          },
+          "shortNameTranslation": {
+            "ar": "م. مينديز"
+          }
+        }
+      },
+      "id": 6672140,
+      "time": 79,
+      "timeSeconds": 4694,
+      "draw": {
+        "start": {
+          "x": 37.2,
+          "y": 9.8
+        },
+        "block": {
+          "x": 46.6,
+          "y": 2
+        },
+        "end": {
+          "x": 46.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.6,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 706,
+      "periodTimeSeconds": 1994,
+      "incidentType": "shot"
+    }
+  ]
+}

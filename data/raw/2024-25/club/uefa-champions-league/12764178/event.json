@@ -1,0 +1,400 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1184603,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 61644
+    },
+    "roundInfo": {
+      "round": 7
+    },
+    "customId": "cXsVY",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 56544,
+    "venue": {
+      "city": {
+        "name": "Glasgow"
+      },
+      "venueCoordinates": {
+        "latitude": 55.850181,
+        "longitude": -4.206823
+      },
+      "hidden": false,
+      "slug": "celtic-park",
+      "name": "Celtic Park",
+      "capacity": 60411,
+      "country": {
+        "alpha2": "SX",
+        "alpha3": "SCO",
+        "name": "Scotland",
+        "slug": "scotland"
+      },
+      "id": 916,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سلتيك بارك",
+          "hi": "सेल्टिक पार्क",
+          "bn": "সেল্টিক পার্ক"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Celtic Park",
+        "capacity": 60411
+      }
+    },
+    "referee": {
+      "name": "Rohit Saggi",
+      "slug": "saggi-rohit",
+      "yellowCards": 1025,
+      "redCards": 18,
+      "yellowRedCards": 32,
+      "games": 272,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "NO",
+        "alpha3": "NOR",
+        "name": "Norway",
+        "slug": "norway"
+      },
+      "id": 121217,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ساجي، روهيت",
+          "bn": "সাগি, রোহিত",
+          "hi": "सग्गी, रोहित"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Celtic",
+      "slug": "celtic",
+      "shortName": "Celtic",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 356849,
+      "manager": {
+        "name": "Martin O'Neill",
+        "slug": "martin-oneill",
+        "shortName": "M. O'Neill",
+        "country": {
+          "alpha2": "NX",
+          "alpha3": "NIR",
+          "name": "Northern Ireland",
+          "slug": "northern-ireland"
+        },
+        "id": 53408,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتن أونيل"
+          },
+          "shortNameTranslation": {
+            "ar": "م. أونيل"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Glasgow"
+        },
+        "venueCoordinates": {
+          "latitude": 55.850181,
+          "longitude": -4.206823
+        },
+        "hidden": false,
+        "slug": "celtic-park",
+        "name": "Celtic Park",
+        "capacity": 60411,
+        "country": {
+          "alpha2": "SX",
+          "alpha3": "SCO",
+          "name": "Scotland",
+          "slug": "scotland"
+        },
+        "id": 916,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سلتيك بارك",
+            "hi": "सेल्टिक पार्क",
+            "bn": "সেল্টিক পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Celtic Park",
+          "capacity": 60411
+        }
+      },
+      "nameCode": "CEL",
+      "class": 1,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "SX",
+        "alpha3": "SCO",
+        "name": "Scotland",
+        "slug": "scotland"
+      },
+      "id": 2352,
+      "fullName": "Celtic",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#009933",
+        "text": "#009933"
+      },
+      "foundationDateTimestamp": -2592518400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سلتيك",
+          "bn": "সেল্টিক",
+          "hi": "सेल्टिक",
+          "ru": "Селтик Глазго"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "BSC Young Boys",
+      "slug": "young-boys",
+      "shortName": "Young Boys",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 131394,
+      "manager": {
+        "name": "Gerardo Seoane",
+        "slug": "gerardo-seoane",
+        "shortName": "G. Seoane",
+        "country": {
+          "alpha2": "CH",
+          "alpha3": "CHE",
+          "name": "Switzerland",
+          "slug": "switzerland"
+        },
+        "id": 789624,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غيراردو سيواني",
+            "bn": "জেরার্ডো সিওনে",
+            "hi": "गेरार्डो सेओने"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. سيواني",
+            "bn": "জি. সিওনে",
+            "hi": "जी. सेओने"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bern"
+        },
+        "venueCoordinates": {
+          "latitude": 46.963104,
+          "longitude": 7.464864
+        },
+        "hidden": true,
+        "slug": "wankdorf-stadion",
+        "name": "Wankdorf Stadion",
+        "capacity": 32000,
+        "country": {
+          "alpha2": "CH",
+          "alpha3": "CHE",
+          "name": "Switzerland",
+          "slug": "switzerland"
+        },
+        "id": 771,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب وانكدورف",
+            "hi": "वांकडॉर्फ स्टेडियन",
+            "bn": "ওয়াঙ্কডর্ফ স্টেডিয়ান"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Wankdorf Stadion",
+          "capacity": 32000
+        }
+      },
+      "nameCode": "YB",
+      "class": 1,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "CH",
+        "alpha3": "CHE",
+        "name": "Switzerland",
+        "slug": "switzerland"
+      },
+      "id": 2445,
+      "fullName": "BSC Young Boys",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffcf00",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2265840000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "يونج بويز",
+          "bn": "ইয়ং বয়েজ",
+          "hi": "यंग बॉयज़",
+          "ru": "Янг Бойз"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 1,
+      "display": 1,
+      "period1": 0,
+      "period2": 1,
+      "normaltime": 1
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 2,
+      "injuryTime2": 5,
+      "currentPeriodStartTimestamp": 1737579803
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1737582844
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12764178,
+    "homeRedCards": 1,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "young-boys-celtic",
+    "currentPeriodStartTimestamp": 1737579803,
+    "startTimestamp": 1737576000,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

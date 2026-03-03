@@ -1,0 +1,407 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1189676,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 61644
+    },
+    "roundInfo": {
+      "round": 2
+    },
+    "customId": "MdbskCo",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 45228,
+    "venue": {
+      "city": {
+        "name": "Leipzig"
+      },
+      "venueCoordinates": {
+        "latitude": 51.345708,
+        "longitude": 12.348236
+      },
+      "hidden": false,
+      "slug": "red-bull-arena",
+      "name": "Red Bull Arena",
+      "capacity": 47069,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 850,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "رد بول أرينا",
+          "hi": "रेड बुल एरिना",
+          "bn": "রেড বুল এরিনা"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Red Bull Arena",
+        "capacity": 47069
+      }
+    },
+    "referee": {
+      "name": "François Letexier",
+      "slug": "francois-letexier",
+      "yellowCards": 1315,
+      "redCards": 62,
+      "yellowRedCards": 35,
+      "games": 327,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 785114,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فرانسوا ليتكسييه",
+          "bn": "ফ্রাঁসোয়া লেটেক্সিয়ার",
+          "hi": "फ्रांकोइस लेटेक्सियर"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "RB Leipzig",
+      "slug": "rb-leipzig",
+      "shortName": "Leipzig",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 393637,
+      "manager": {
+        "name": "Ole Werner",
+        "slug": "ole-werner",
+        "shortName": "O. Werner",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 787224,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أولي فيرنر",
+            "bn": "ওলে ওয়ার্নার",
+            "hi": "ओले वर्नर"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فيرنر",
+            "bn": "ও. ওয়ার্নার",
+            "hi": "ओ. वर्नर"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Leipzig"
+        },
+        "venueCoordinates": {
+          "latitude": 51.345708,
+          "longitude": 12.348236
+        },
+        "hidden": false,
+        "slug": "red-bull-arena",
+        "name": "Red Bull Arena",
+        "capacity": 47069,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 850,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رد بول أرينا",
+            "hi": "रेड बुल एरिना",
+            "bn": "রেড বুল এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Red Bull Arena",
+          "capacity": 47069
+        }
+      },
+      "nameCode": "RBL",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 36360,
+      "fullName": "RB Leipzig",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#dd0000",
+        "text": "#dd0000"
+      },
+      "foundationDateTimestamp": 1242691200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "آر بي لايبزيغ",
+          "hi": "RB लैपज़िग",
+          "ru": "РБ Лейпциг"
+        },
+        "shortNameTranslation": {
+          "ar": "لايبزيغ",
+          "bn": "লিপজিগ",
+          "hi": "लीपज़िग"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Juventus",
+      "slug": "juventus",
+      "shortName": "Juventus",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 1550852,
+      "manager": {
+        "name": "Luciano Spalletti",
+        "slug": "luciano-spalletti",
+        "shortName": "L. Spalletti",
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 786459,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوتشيانو سباليتي",
+            "bn": "লুসিয়ানো স্প্যালেটি",
+            "hi": "लुसियानो स्पैलेटी"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. سباليتي",
+            "bn": "এল. স্প্যালেটি",
+            "hi": "एल. स्पैलेटी"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Turin"
+        },
+        "venueCoordinates": {
+          "latitude": 45.109576,
+          "longitude": 7.642134
+        },
+        "hidden": false,
+        "slug": "allianz-stadium",
+        "name": "Allianz Stadium",
+        "capacity": 41507,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 2657,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب أليانز",
+            "hi": "एलियांज स्टेडियम",
+            "bn": "আলিয়াঞ্জ স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Allianz Stadium",
+          "capacity": 41507
+        }
+      },
+      "nameCode": "JUV",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2687,
+      "fullName": "Juventus",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2277331200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "يوفنتوس",
+          "bn": "জুভেন্টাস",
+          "hi": "जुवेंटस",
+          "ru": "Ювентус"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 0,
+      "period2": 3,
+      "normaltime": 3
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 7,
+      "injuryTime2": 9,
+      "currentPeriodStartTimestamp": 1727899746
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1727903024
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12764419,
+    "awayRedCards": 1,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "rb-leipzig-juventus",
+    "currentPeriodStartTimestamp": 1727899746,
+    "startTimestamp": 1727895600,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rodrygo",
+        "slug": "rodrygo",
+        "shortName": "Rodrygo",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 709952,
+        "gender": "M",
+        "sofascoreId": "Rodrygo",
+        "id": 910536,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رودريغو",
+            "bn": "রড্রিগো",
+            "hi": "रोड्रिगो"
+          },
+          "shortNameTranslation": {
+            "ar": "رودريغو",
+            "bn": "রড্রিগো",
+            "hi": "रोड्रिगो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.1,
+        "y": 50.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.6,
+        "z": 25.3
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 50.4,
+        "z": 0
+      },
+      "xg": 0.064221203327179,
+      "xgot": 0.36189252138138,
+      "goalkeeper": {
+        "name": "Odysseas Vlachodimos",
+        "firstName": "",
+        "lastName": "",
+        "slug": "odysseas-vlachodimos",
+        "shortName": "O. Vlachodimos",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2904,
+        "gender": "M",
+        "id": 138149,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوديسياس فلاكوديموس",
+            "bn": "ওডেসিয়াস ভ্লাচোডিমোস",
+            "hi": "ओडिसीस व्लाचोदिमोस"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فلاكوديموس",
+            "bn": "ও. ভ্লাচোডিমোস",
+            "hi": "ओ. व्लाचोदिमोस"
+          }
+        }
+      },
+      "id": 6387134,
+      "time": 78,
+      "timeSeconds": 4655,
+      "draw": {
+        "start": {
+          "x": 50.5,
+          "y": 15.1
+        },
+        "block": {
+          "x": 50.4,
+          "y": 1.2
+        },
+        "end": {
+          "x": 47.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.4,
+          "y": 74.7
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 745,
+      "periodTimeSeconds": 1955,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Alex Plat",
+        "firstName": "Alex",
+        "lastName": "Plat",
+        "slug": "alex-plat",
+        "shortName": "A. Plat",
+        "position": "M",
+        "jerseyNumber": "6",
+        "userCount": 12,
+        "gender": "M",
+        "id": 860161,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليكس بلات"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بلات"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 22.2,
+        "y": 52.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.5,
+        "z": 0.6
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 52.9,
+        "z": 0
+      },
+      "xg": 0.06432493776083,
+      "xgot": 0.032212797552347,
+      "goalkeeper": {
+        "name": "Jari De Busser",
+        "slug": "jari-de-busser",
+        "shortName": "J. D. Busser",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 296,
+        "gender": "M",
+        "id": 837072,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياري دي بوسر"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. دي بوسر"
+          }
+        }
+      },
+      "id": 6627168,
+      "time": 42,
+      "timeSeconds": 2494,
+      "draw": {
+        "start": {
+          "x": 52.6,
+          "y": 22.2
+        },
+        "block": {
+          "x": 52.9,
+          "y": 1.2
+        },
+        "end": {
+          "x": 54.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.5,
+          "y": 99.4
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 206,
+      "periodTimeSeconds": 2494,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,6 +1,9 @@
 """
 Step 15: Team tactical style indices from 01_team_season_stats (possession, directness, pressing, etc.).
 Output: data/processed/15_team_tactical_profiles.parquet
+
+Totals-based metrics are expressed per game (e.g. pressing per match, xGA per match) so league
+comparisons reflect intensity/style, not volume or match count.
 """
 
 import sys
@@ -20,20 +23,26 @@ def main():
     df = pd.read_parquet(PROCESSED_DIR / "01_team_season_stats.parquet")
     id_cols = ["team_name", "season", "competition_slug"]
     out = df[id_cols].copy()
+    matches = df["matches_total"].replace(0, np.nan) if "matches_total" in df.columns else np.nan
+
+    # Already rates/ratios – no change
     if "possession_avg" in df.columns:
         out["possession_index"] = df["possession_avg"]
     if "passes_total" in df.columns and "long_balls" in df.columns:
         out["directness_index"] = df["long_balls"] / df["passes_total"].replace(0, np.nan)
-    if "tackles_total" in df.columns and "interceptions_total" in df.columns:
-        out["pressing_index"] = df["tackles_total"] + df["interceptions_total"]
     if "aerial_duels" in df.columns:
         out["aerial_index"] = df["aerial_duels"]
+
+    # Per-game: totals / matches_total
+    if "tackles_total" in df.columns and "interceptions_total" in df.columns:
+        out["pressing_index"] = (df["tackles_total"] + df["interceptions_total"]) / matches
     if "crosses" in df.columns:
-        out["crossing_index"] = df["crosses"]
+        out["crossing_index"] = df["crosses"] / matches
     if "big_chances_total" in df.columns:
-        out["chance_creation_index"] = df["big_chances_total"]
+        out["chance_creation_index"] = df["big_chances_total"] / matches
     if "xg_against_total" in df.columns:
-        out["defensive_solidity"] = 1 / df["xg_against_total"].replace(0, np.nan)
+        xga_per_game = df["xg_against_total"] / matches
+        out["defensive_solidity"] = 1 / xga_per_game.replace(0, np.nan)
     if "xg_for_home" in df.columns and "xg_for_away" in df.columns and "matches_home" in df.columns and "matches_away" in df.columns:
         xg_home_pg = df["xg_for_home"] / df["matches_home"].replace(0, np.nan)
         xg_away_pg = df["xg_for_away"] / df["matches_away"].replace(0, np.nan)

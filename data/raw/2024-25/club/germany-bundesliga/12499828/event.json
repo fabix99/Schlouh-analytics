@@ -1,0 +1,441 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Bundesliga",
+      "slug": "bundesliga",
+      "category": {
+        "name": "Germany",
+        "slug": "germany",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 30,
+        "flag": "germany",
+        "alpha2": "DE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألمانيا",
+            "bn": "জার্মানি",
+            "hi": "जर्मनी",
+            "ru": "Германия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Bundesliga",
+        "slug": "bundesliga",
+        "primaryColorHex": "#e2080e",
+        "secondaryColorHex": "#8e0902",
+        "category": {
+          "name": "Germany",
+          "slug": "germany",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "DE",
+            "alpha3": "DEU",
+            "name": "Germany",
+            "slug": "germany"
+          },
+          "id": 30,
+          "flag": "germany",
+          "alpha2": "DE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألمانيا",
+              "bn": "জার্মানি",
+              "hi": "जर्मनी",
+              "ru": "Германия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 508922,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 35,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "বুন্দেসলীগা",
+            "ar": "الدوري الألماني",
+            "hi": "बुंडेसलीगा"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 695,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 42,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "बुंडेसलीगा",
+          "ar": "الدوري الألماني",
+          "bn": "বুন্দেসলীগা"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Bundesliga 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 63516
+    },
+    "roundInfo": {
+      "round": 22
+    },
+    "customId": "acbskCo",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 28260,
+    "venue": {
+      "city": {
+        "name": "Augsburg"
+      },
+      "venueCoordinates": {
+        "latitude": 48.323118,
+        "longitude": 10.885879
+      },
+      "hidden": false,
+      "slug": "wwk-arena",
+      "name": "WWK ARENA",
+      "capacity": 30660,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 1655,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أرينا WWK",
+          "hi": "डब्ल्यूडब्ल्यूके एरिना",
+          "bn": "ডব্লিউকে ইরিনা"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "WWK ARENA",
+        "capacity": 30660
+      }
+    },
+    "referee": {
+      "name": "Sascha Stegemann",
+      "slug": "stegemann-sascha",
+      "yellowCards": 1506,
+      "redCards": 34,
+      "yellowRedCards": 43,
+      "games": 385,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 103007,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ستيغيمان، ساشا",
+          "bn": "স্টেগেম্যান, সাশা",
+          "hi": "स्टेगमैन, साशा"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "FC Augsburg",
+      "slug": "fc-augsburg",
+      "shortName": "Augsburg",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 72810,
+      "manager": {
+        "name": "Manuel Baum",
+        "slug": "manuel-baum",
+        "shortName": "M. Baum",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 787761,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل باوم"
+          },
+          "shortNameTranslation": {
+            "ar": "م. باوم"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Augsburg"
+        },
+        "venueCoordinates": {
+          "latitude": 48.323118,
+          "longitude": 10.885879
+        },
+        "hidden": false,
+        "slug": "wwk-arena",
+        "name": "WWK ARENA",
+        "capacity": 30660,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 1655,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أرينا WWK",
+            "hi": "डब्ल्यूडब्ल्यूके एरिना",
+            "bn": "ডব্লিউকে ইরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "WWK ARENA",
+          "capacity": 30660
+        }
+      },
+      "nameCode": "FCA",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2600,
+      "fullName": "FC Augsburg",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#cd1719",
+        "text": "#cd1719"
+      },
+      "foundationDateTimestamp": -1969228800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إف سي أوجسبورغ",
+          "hi": "ऍफ़सी ऑग्सबर्ग",
+          "ru": "Аугсбург"
+        },
+        "shortNameTranslation": {
+          "ar": "اوغسبورغ",
+          "bn": "অগসবার্গ",
+          "hi": "ऑग्सबर्ग"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "RB Leipzig",
+      "slug": "rb-leipzig",
+      "shortName": "Leipzig",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 393637,
+      "manager": {
+        "name": "Ole Werner",
+        "slug": "ole-werner",
+        "shortName": "O. Werner",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 787224,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أولي فيرنر",
+            "bn": "ওলে ওয়ার্নার",
+            "hi": "ओले वर्नर"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فيرنر",
+            "bn": "ও. ওয়ার্নার",
+            "hi": "ओ. वर्नर"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Leipzig"
+        },
+        "venueCoordinates": {
+          "latitude": 51.345708,
+          "longitude": 12.348236
+        },
+        "hidden": false,
+        "slug": "red-bull-arena",
+        "name": "Red Bull Arena",
+        "capacity": 47069,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 850,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رد بول أرينا",
+            "hi": "रेड बुल एरिना",
+            "bn": "রেড বুল এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Red Bull Arena",
+          "capacity": 47069
+        }
+      },
+      "nameCode": "RBL",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 36360,
+      "fullName": "RB Leipzig",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#dd0000",
+        "text": "#dd0000"
+      },
+      "foundationDateTimestamp": 1242691200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "آر بي لايبزيغ",
+          "hi": "RB लैपज़िग",
+          "ru": "РБ Лейпциг"
+        },
+        "shortNameTranslation": {
+          "ar": "لايبزيغ",
+          "bn": "লিপজিগ",
+          "hi": "लीपज़िग"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 4,
+      "currentPeriodStartTimestamp": 1739565187
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1739568163
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12499828,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "rb-leipzig-fc-augsburg",
+    "currentPeriodStartTimestamp": 1739565187,
+    "startTimestamp": 1739561400,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "??",
+      "AN",
+      "AS",
+      "AT",
+      "CH",
+      "CU",
+      "DE",
+      "GU",
+      "IR",
+      "KP",
+      "LI",
+      "LU",
+      "MP",
+      "PR",
+      "SY",
+      "US",
+      "VE",
+      "VI",
+      "GR",
+      "RU",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

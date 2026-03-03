@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ridle Baku",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ridle-baku",
+        "shortName": "R. Baku",
+        "position": "D",
+        "jerseyNumber": "17",
+        "userCount": 1455,
+        "gender": "M",
+        "id": 856553,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريدل باكو",
+            "bn": "রিডল বাকু",
+            "hi": "रिडल बाकू"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. باكو",
+            "bn": "আর. বাকু",
+            "hi": "आर. बाकू"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.4,
+        "y": 64.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.2,
+        "y": 61.2,
+        "z": 0
+      },
+      "xg": 0.051773000508547,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Daniel Batz",
+        "slug": "daniel-batz",
+        "shortName": "D. Batz",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 144,
+        "gender": "M",
+        "id": 94312,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دانيال باتز",
+            "bn": "ড্যানিয়েল বাটজ",
+            "hi": "डैनियल बैट्ज़"
+          },
+          "shortNameTranslation": {
+            "ar": "د. باتز",
+            "bn": "ডি. বাটজ",
+            "hi": "डी. बैट्ज़"
+          }
+        }
+      },
+      "id": 6615641,
+      "time": 48,
+      "timeSeconds": 2846,
+      "draw": {
+        "start": {
+          "x": 64.6,
+          "y": 13.4
+        },
+        "block": {
+          "x": 61.2,
+          "y": 10.2
+        },
+        "end": {
+          "x": 50.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 43,
+      "reversedPeriodTimeSeconds": 2554,
+      "periodTimeSeconds": 146,
+      "incidentType": "shot"
+    }
+  ]
+}

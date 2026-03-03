@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rio Ngumoha",
+        "firstName": "Rio Ngumoha",
+        "slug": "rio-ngumoha",
+        "shortName": "R. Ngumoha",
+        "position": "F",
+        "jerseyNumber": "73",
+        "userCount": 27468,
+        "gender": "M",
+        "id": 1881902,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريو نجوموها",
+            "bn": "এনগুমোহা, রিও",
+            "hi": "न्गुमोहा, रियो"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. نجوموها",
+            "bn": "আর. এনগুমোহা",
+            "hi": "आर. न्गुमोहा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.1,
+        "y": 36.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.5,
+        "y": 39.2,
+        "z": 0
+      },
+      "xg": 0.19159689545631,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mateusz Kochalski",
+        "firstName": "",
+        "lastName": "",
+        "slug": "kochalski-mateusz",
+        "shortName": "M. Kochalski",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 11527,
+        "gender": "M",
+        "id": 851249,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كوتشالسكي، ميتيوش",
+            "bn": "কোচালস্কি, মাতেউস",
+            "hi": "कोचाल्स्की, माटुस्ज़"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوتشالسكي",
+            "bn": "এম. কোচালস্কি",
+            "hi": "एम. कोचाल्स्की"
+          }
+        }
+      },
+      "id": 6602816,
+      "time": 85,
+      "timeSeconds": 5040,
+      "draw": {
+        "start": {
+          "x": 36.7,
+          "y": 9.1
+        },
+        "block": {
+          "x": 39.2,
+          "y": 7.5
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 360,
+      "periodTimeSeconds": 2340,
+      "incidentType": "shot"
+    }
+  ]
+}

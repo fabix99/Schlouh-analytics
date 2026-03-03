@@ -1,33 +1,20 @@
-"""Scouts dashboard shared layout: sidebar and shortlist file path."""
+"""Scouts shared layout: shortlist file path and load/save.
+
+Used by the unified app (Discover, Shortlist, Profile, Compare, sidebar)
+for shortlist persistence. Navigation is in dashboard.utils.sidebar.
+"""
 
 from __future__ import annotations
 
+import json
+import logging
 import pathlib
 from typing import Optional
+
 import streamlit as st
-from dashboard.utils.styles import inject_css
 
+logger = logging.getLogger(__name__)
 _SCOUTS_DIR = pathlib.Path(__file__).parent
-
-
-def render_scouts_sidebar() -> None:
-    """Render the scouts dashboard sidebar (nav + footer). Call from all 5 scouts pages."""
-    inject_css()
-    with st.sidebar:
-        st.page_link("app.py", label="🏠  Home")
-        st.page_link("pages/1_🔎_Discover.py", label="🔎  Find Players")
-        st.page_link("pages/2_📋_Profile.py", label="📋  Profile")
-        st.page_link("pages/3_⚖️_Compare.py", label="⚖️  Compare")
-        st.page_link("pages/4_🎯_Shortlist.py", label="🎯  Shortlist")
-        st.markdown(
-            """
-            <div class="sb-footer">
-                Schlouh Scouts · Internal Use<br>
-                Data sourced from SofaScore
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
 
 
 def get_shortlist_file_path(query_user: Optional[str] = None) -> pathlib.Path:
@@ -40,26 +27,29 @@ def get_shortlist_file_path(query_user: Optional[str] = None) -> pathlib.Path:
 
 def load_shortlist_from_file() -> list:
     """Load shortlist from file (path from query params user/user_id). Use on every page that needs shortlist."""
-    import json
     path = get_shortlist_file_path(
         st.query_params.get("user") or st.query_params.get("user_id")
     )
     if not path.exists():
         return []
     try:
-        with open(path, "r") as f:
+        with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
         return data if isinstance(data, list) else []
-    except Exception:
+    except (IOError, OSError, json.JSONDecodeError) as e:
+        logger.debug("Load shortlist failed: %s", e)
         return []
 
 
 def save_shortlist_to_file(data: list) -> None:
     """Save shortlist to file."""
-    import json
     path = get_shortlist_file_path(
         st.query_params.get("user") or st.query_params.get("user_id")
     )
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w") as f:
-        json.dump(data, f, indent=2)
+    try:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+    except (IOError, OSError) as e:
+        logger.warning("Save shortlist failed: %s", e)
+        raise

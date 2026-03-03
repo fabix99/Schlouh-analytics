@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ansu Fati",
+        "slug": "ansu-fati",
+        "shortName": "A. Fati",
+        "position": "F",
+        "jerseyNumber": "31",
+        "userCount": 167418,
+        "gender": "M",
+        "sofascoreId": "AnsuFati",
+        "id": 962883,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنسو فاتي",
+            "bn": "আনসু ফাতি",
+            "hi": "अंसू फाति"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فاتي",
+            "bn": "এ. ফাতি",
+            "hi": "ए. फाति"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.9,
+        "y": 61.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 6.3
+      },
+      "blockCoordinates": {
+        "x": 8,
+        "y": 56.3,
+        "z": 0
+      },
+      "xg": 0.20888301730156,
+      "xgot": 0.17449127137661,
+      "goalkeeper": {
+        "name": "Anthony Lopes",
+        "firstName": "",
+        "lastName": "",
+        "slug": "anthony-lopes",
+        "shortName": "A. Lopes",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1191,
+        "gender": "M",
+        "id": 48535,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنتوني لوبيس",
+            "bn": "অ্যান্টনি লোপেস",
+            "hi": "एंथनी लोपेस"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. لوبيس",
+            "bn": "এ. লোপেজ",
+            "hi": "ए. लोपेस"
+          }
+        }
+      },
+      "id": 6704082,
+      "time": 90,
+      "addedTime": 4,
+      "timeSeconds": 5613,
+      "draw": {
+        "start": {
+          "x": 61.1,
+          "y": 20.9
+        },
+        "block": {
+          "x": 56.3,
+          "y": 8
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 93.7
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 687,
+      "periodTimeSeconds": 213,
+      "incidentType": "shot"
+    }
+  ]
+}

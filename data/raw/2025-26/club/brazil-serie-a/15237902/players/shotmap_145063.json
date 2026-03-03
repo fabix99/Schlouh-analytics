@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Everton Ribeiro",
+        "slug": "everton-ribeiro",
+        "shortName": "E. Ribeiro",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 5838,
+        "gender": "M",
+        "sofascoreId": "evertonri",
+        "id": 145063,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفرتون ريبييرو",
+            "bn": "এভারটন রিবেইরো",
+            "hi": "एवर्टन रिबेरो"
+          },
+          "shortNameTranslation": {
+            "ar": "إيفرتون ريبييرو",
+            "bn": "এভারটন রিবেইরো",
+            "hi": "एवर्टन रिबेरो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 18.2,
+        "y": 82.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.4,
+        "y": 73.3,
+        "z": 0
+      },
+      "xg": 0.023578800261021,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Fábio",
+        "firstName": "",
+        "lastName": "",
+        "slug": "fabio",
+        "shortName": "Fábio",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 4346,
+        "gender": "M",
+        "id": 17785,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فابيو",
+            "bn": "ফ্যাবিও",
+            "hi": "फैबियो"
+          },
+          "shortNameTranslation": {
+            "ar": "فابيو",
+            "bn": "ফ্যাবিও",
+            "hi": "फैबियो"
+          }
+        }
+      },
+      "id": 6651975,
+      "time": 28,
+      "timeSeconds": 1657,
+      "draw": {
+        "start": {
+          "x": 82.4,
+          "y": 18.2
+        },
+        "block": {
+          "x": 73.3,
+          "y": 13.4
+        },
+        "end": {
+          "x": 47.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 18,
+      "reversedPeriodTimeSeconds": 1043,
+      "periodTimeSeconds": 1657,
+      "incidentType": "shot"
+    }
+  ]
+}

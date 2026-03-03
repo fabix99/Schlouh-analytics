@@ -366,3 +366,191 @@ def distribution_hist(
         height=300,
     )
     return fig
+
+
+# ---------------------------------------------------------------------------
+# Football pitch heatmap (Plotly: pitch shapes + 2D density, 0–100 Opta/Sofascore)
+# ---------------------------------------------------------------------------
+
+def pitch_heatmap_figure(
+    x: np.ndarray | pd.Series,
+    y: np.ndarray | pd.Series,
+    *,
+    nbinsx: int = 25,
+    nbinsy: int = 25,
+    colorscale: str = "YlOrRd",
+    pitch_color: str = "#2E7D32",
+    line_color: str = "rgba(255,255,255,0.9)",
+    fig_bgcolor: str = "#0D1117",
+) -> go.Figure:
+    """
+    Draw a football pitch with a density heatmap of (x, y) touch/position points.
+
+    Uses Plotly: pitch lines (Opta 0–100) + go.Histogram2d for density.
+    Returns a Plotly Figure suitable for st.plotly_chart.
+
+    x, y: 1D arrays or Series of pitch coordinates (0–100).
+    """
+    x_arr = np.asarray(x, dtype=float).ravel()
+    y_arr = np.asarray(y, dtype=float).ravel()
+    mask = np.isfinite(x_arr) & np.isfinite(y_arr)
+    x_arr = x_arr[mask]
+    y_arr = y_arr[mask]
+    if x_arr.size == 0:
+        fig = go.Figure()
+        fig.update_layout(
+            paper_bgcolor=fig_bgcolor,
+            plot_bgcolor=pitch_color,
+            xaxis=dict(range=[0, 100], showgrid=False, zeroline=False),
+            yaxis=dict(range=[100, 0], showgrid=False, zeroline=False),
+            height=400,
+            margin=dict(l=44, r=44, t=24, b=44),
+        )
+        _add_pitch_shapes(fig, pitch_color, line_color)
+        return fig
+
+    fig = go.Figure()
+    fig.add_trace(
+        go.Histogram2d(
+            x=x_arr,
+            y=y_arr,
+            nbinsx=nbinsx,
+            nbinsy=nbinsy,
+            colorscale=colorscale,
+            zsmooth="best",
+            showscale=True,
+            colorbar=dict(
+                title="Touches",
+                thickness=14,
+                len=0.5,
+                bgcolor=fig_bgcolor,
+                tickfont=dict(color=_TEXT),
+                title_font=dict(color=_TEXT),
+            ),
+            hovertemplate="x: %{x:.0f}<br>y: %{y:.0f}<br>Count: %{z}<extra></extra>",
+        )
+    )
+    _add_pitch_shapes(fig, pitch_color, line_color)
+    fig.update_layout(
+        paper_bgcolor=fig_bgcolor,
+        plot_bgcolor=pitch_color,
+        font=dict(color=_TEXT),
+        xaxis=dict(range=[0, 100], showgrid=False, zeroline=False, showticklabels=False),
+        yaxis=dict(range=[100, 0], showgrid=False, zeroline=False, showticklabels=False),
+        height=420,
+        margin=dict(l=44, r=44, t=24, b=44),
+        showlegend=False,
+    )
+    return fig
+
+
+def _add_pitch_shapes(
+    fig: go.Figure,
+    pitch_color: str = "#2E7D32",
+    line_color: str = "rgba(255,255,255,0.9)",
+) -> None:
+    """Add football pitch lines to a Plotly figure (Opta 0–100 convention).
+    Includes: outline, halfway line, center circle, penalty areas, goal areas (six-yard),
+    penalty arcs (D), corner arcs, penalty spots.
+    """
+    # Outline (below heatmap)
+    fig.add_shape(
+        type="rect",
+        x0=0, y0=0, x1=100, y1=100,
+        line=dict(color=line_color, width=2),
+        fillcolor=pitch_color,
+        layer="below",
+    )
+    # Halfway line
+    fig.add_shape(
+        type="line", x0=0, y0=50, x1=100, y1=50,
+        line=dict(color=line_color, width=2),
+        layer="above",
+    )
+    # Center circle
+    fig.add_shape(
+        type="circle",
+        x0=40, y0=45, x1=60, y1=55,
+        line=dict(color=line_color, width=2),
+        fillcolor="rgba(0,0,0,0)",
+        layer="above",
+    )
+    # Penalty areas
+    fig.add_shape(
+        type="rect", x0=20, y0=0, x1=80, y1=15,
+        line=dict(color=line_color, width=2),
+        fillcolor="rgba(0,0,0,0)",
+        layer="above",
+    )
+    fig.add_shape(
+        type="rect", x0=20, y0=85, x1=80, y1=100,
+        line=dict(color=line_color, width=2),
+        fillcolor="rgba(0,0,0,0)",
+        layer="above",
+    )
+    # Goal areas (six-yard boxes): ~5% from goal, ~37–63% width
+    fig.add_shape(
+        type="rect", x0=0, y0=37, x1=5, y1=63,
+        line=dict(color=line_color, width=2),
+        fillcolor="rgba(0,0,0,0)",
+        layer="above",
+    )
+    fig.add_shape(
+        type="rect", x0=95, y0=37, x1=100, y1=63,
+        line=dict(color=line_color, width=2),
+        fillcolor="rgba(0,0,0,0)",
+        layer="above",
+    )
+    # Penalty arcs (D): semicircle at penalty area edge, radius ~9
+    fig.add_shape(
+        type="path",
+        path="M 41 15 A 9 9 0 0 1 59 15",
+        line=dict(color=line_color, width=2),
+        layer="above",
+    )
+    fig.add_shape(
+        type="path",
+        path="M 41 85 A 9 9 0 0 0 59 85",
+        line=dict(color=line_color, width=2),
+        layer="above",
+    )
+    # Corner arcs (quarter circles at corners, radius 2)
+    fig.add_shape(
+        type="path",
+        path="M 0 2 A 2 2 0 0 1 2 0",
+        line=dict(color=line_color, width=2),
+        layer="above",
+    )
+    fig.add_shape(
+        type="path",
+        path="M 98 0 A 2 2 0 0 1 100 2",
+        line=dict(color=line_color, width=2),
+        layer="above",
+    )
+    fig.add_shape(
+        type="path",
+        path="M 0 98 A 2 2 0 0 1 2 100",
+        line=dict(color=line_color, width=2),
+        layer="above",
+    )
+    fig.add_shape(
+        type="path",
+        path="M 98 100 A 2 2 0 0 1 100 98",
+        line=dict(color=line_color, width=2),
+        layer="above",
+    )
+    # Penalty spots (small circles)
+    fig.add_shape(
+        type="circle",
+        x0=49.2, y0=10.2, x1=50.8, y1=11.8,
+        line=dict(color=line_color, width=1),
+        fillcolor=line_color,
+        layer="above",
+    )
+    fig.add_shape(
+        type="circle",
+        x0=49.2, y0=88.2, x1=50.8, y1=89.8,
+        line=dict(color=line_color, width=1),
+        fillcolor=line_color,
+        layer="above",
+    )

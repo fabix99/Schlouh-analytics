@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Dorgeles Nene",
+        "firstName": "Nene Dorgeles",
+        "slug": "nene-dorgeles",
+        "shortName": "D. Nene",
+        "position": "F",
+        "jerseyNumber": "45",
+        "userCount": 10338,
+        "gender": "M",
+        "sofascoreId": "d.nene10",
+        "id": 1102788,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيني دورجيليس",
+            "bn": "নেনে ডরগেলেস",
+            "hi": "नेने डोर्गेलेस"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. دورجيليس",
+            "bn": "এন. ডরগেলেস",
+            "hi": "एन. डोर्गेलेस"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 13.2,
+        "y": 64.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.6,
+        "y": 63,
+        "z": 0
+      },
+      "xg": 0.047174211591482,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ertuğrul Taşkıran",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ertugrul-taskiran",
+        "shortName": "E. Taşkıran",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 134,
+        "gender": "M",
+        "id": 105974,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إرتوغول تاشكيران"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. تاشكيران"
+          }
+        }
+      },
+      "id": 6543474,
+      "time": 90,
+      "timeSeconds": 5356,
+      "draw": {
+        "start": {
+          "x": 64.8,
+          "y": 13.2
+        },
+        "block": {
+          "x": 63,
+          "y": 11.6
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 44,
+      "periodTimeSeconds": 2656,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Patrick Brouwer",
+        "firstName": "",
+        "lastName": "",
+        "slug": "patrick-brouwer",
+        "shortName": "P. Brouwer",
+        "position": "F",
+        "jerseyNumber": "27",
+        "userCount": 92,
+        "gender": "M",
+        "id": 1066319,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باتريك بروير"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. بروير"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.8,
+        "y": 30.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.2,
+        "y": 41.3,
+        "z": 0
+      },
+      "xg": 0.061444465070963,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Stijn van Gassel",
+        "firstName": "",
+        "lastName": "",
+        "slug": "stijn-van-gassel",
+        "shortName": "S. van Gassel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 169,
+        "gender": "M",
+        "id": 367118,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستاين فان غاسل"
+          },
+          "shortNameTranslation": {
+            "ar": "س. فان غاسل"
+          }
+        }
+      },
+      "id": 6535341,
+      "time": 10,
+      "timeSeconds": 549,
+      "draw": {
+        "start": {
+          "x": 30.7,
+          "y": 14.8
+        },
+        "block": {
+          "x": 41.3,
+          "y": 7.2
+        },
+        "end": {
+          "x": 51.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2151,
+      "periodTimeSeconds": 549,
+      "incidentType": "shot"
+    }
+  ]
+}

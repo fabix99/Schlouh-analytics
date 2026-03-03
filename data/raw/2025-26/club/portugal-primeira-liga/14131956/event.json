@@ -1,0 +1,406 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": false,
+    "correctHalftimeAiInsight": false,
+    "tournament": {
+      "name": "Liga Portugal Betclic",
+      "slug": "liga-portugal-betclic",
+      "category": {
+        "name": "Portugal",
+        "slug": "portugal",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 44,
+        "flag": "portugal",
+        "alpha2": "PT",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "البرتغال",
+            "ru": "Португалия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Liga Portugal Betclic",
+        "slug": "liga-portugal-betclic",
+        "primaryColorHex": "#ffc501",
+        "secondaryColorHex": "#e6a100",
+        "category": {
+          "name": "Portugal",
+          "slug": "portugal",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "PT",
+            "alpha3": "PRT",
+            "name": "Portugal",
+            "slug": "portugal"
+          },
+          "id": 44,
+          "flag": "portugal",
+          "alpha2": "PT",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "البرتغال",
+              "ru": "Португалия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 149162,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 238,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري بيتكليك البرتغالي",
+            "bn": "লিগা পর্তুগাল বেটক্লিক",
+            "hi": "लीगा पुर्तगाल बेटक्लिक"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 516,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 52,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الدوري البرتغالي بيتكليك",
+          "bn": "লিগা পর্তুগাল বেটক্লিক",
+          "hi": "लीगा पुर्तगाल बेटक्लिक"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Liga Portugal 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 77806
+    },
+    "roundInfo": {
+      "round": 11
+    },
+    "customId": "gkbspCo",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "venue": {
+      "city": {
+        "name": "Lisbon"
+      },
+      "venueCoordinates": {
+        "latitude": 38.752689,
+        "longitude": -9.18469
+      },
+      "hidden": false,
+      "slug": "est-dio-da-luz",
+      "name": "Estádio da Luz",
+      "capacity": 68100,
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 902,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب دا لوز",
+          "hi": "एस्टेडियो दा लूज़",
+          "bn": "এস্তাদিও দা লুজ"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Estádio da Luz",
+        "capacity": 68100
+      }
+    },
+    "referee": {
+      "name": "Gustavo Correia",
+      "slug": "correia-gustavo",
+      "yellowCards": 986,
+      "redCards": 53,
+      "yellowRedCards": 29,
+      "games": 173,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 786809,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "غوستافو كورييا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Benfica",
+      "slug": "benfica",
+      "shortName": "Benfica",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 856927,
+      "manager": {
+        "name": "José Mourinho",
+        "slug": "jose-mourinho",
+        "shortName": "J. Mourinho",
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 53418,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوزيه مورينيو"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. مورينيو"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Lisbon"
+        },
+        "venueCoordinates": {
+          "latitude": 38.752689,
+          "longitude": -9.18469
+        },
+        "hidden": false,
+        "slug": "est-dio-da-luz",
+        "name": "Estádio da Luz",
+        "capacity": 68100,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 902,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب دا لوز",
+            "hi": "एस्टेडियो दा लूज़",
+            "bn": "এস্তাদিও দা লুজ"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estádio da Luz",
+          "capacity": 68100
+        }
+      },
+      "nameCode": "SLB",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 3006,
+      "fullName": "Benfica",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2077833600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بنفيكا",
+          "bn": "বেনফিকা",
+          "hi": "बेनफिका",
+          "ru": "Бенфика"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Casa Pia",
+      "slug": "casa-pia",
+      "shortName": "Casa Pia",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 26147,
+      "manager": {
+        "name": "Álvaro Pacheco",
+        "slug": "alvaro-pacheco",
+        "shortName": "Á. Pacheco",
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 790638,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألفارو باتشيكو",
+            "bn": "আলভারো পাচেকো",
+            "hi": "अल्वारो पचेको"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باتشيكو",
+            "bn": "এ. পাচেকো",
+            "hi": "ए. पचेको"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Rio Maior"
+        },
+        "venueCoordinates": {
+          "latitude": 39.344577,
+          "longitude": -8.934484
+        },
+        "hidden": false,
+        "slug": "estadio-municipal-de-rio-maior",
+        "name": "Estádio Municipal de Rio Maior",
+        "capacity": 7000,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 2645,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب بلدية دو ريو مايّور",
+            "hi": "एस्टाडिओ म्यूनिसिपल डे रियो मायोर",
+            "bn": "এস্তাদিও মিউনিসিপ্যাল ​​ডি রিও মায়োর"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estádio Municipal de Rio Maior",
+          "capacity": 7000
+        }
+      },
+      "nameCode": "CAS",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 36365,
+      "fullName": "Casa Pia",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -1562025600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كازا بيا",
+          "ru": "Каса Пиа"
+        },
+        "shortNameTranslation": {
+          "ar": "كازا بيا"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 2,
+      "injuryTime2": 4,
+      "currentPeriodStartTimestamp": 1762724106
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1762727312
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14131956,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "casa-pia-benfica",
+    "currentPeriodStartTimestamp": 1762724106,
+    "startTimestamp": 1762720200,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

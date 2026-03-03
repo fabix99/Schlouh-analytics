@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Matías Vargas",
+        "firstName": "",
+        "lastName": "",
+        "slug": "matias-vargas",
+        "shortName": "M. Vargas",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 1179,
+        "gender": "M",
+        "id": 796723,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتياس فارغاس",
+            "bn": "মাতিয়াস ভার্গাস",
+            "hi": "मटियास वर्गास"
+          },
+          "shortNameTranslation": {
+            "ar": "م. فارغاس",
+            "bn": "এম. ভার্গাস",
+            "hi": "एम. वर्गास"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 20.1,
+        "y": 26,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14.4,
+        "y": 32.5,
+        "z": 0
+      },
+      "xg": 0.043808158487082,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bento",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bento",
+        "shortName": "Bento",
+        "position": "G",
+        "jerseyNumber": "24",
+        "userCount": 9808,
+        "gender": "M",
+        "sofascoreId": "bento_matheus",
+        "id": 1016104,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بينتو"
+          },
+          "shortNameTranslation": {
+            "ar": "بينتو"
+          }
+        }
+      },
+      "id": 6709473,
+      "time": 39,
+      "timeSeconds": 2317,
+      "draw": {
+        "start": {
+          "x": 26,
+          "y": 20.1
+        },
+        "block": {
+          "x": 32.5,
+          "y": 14.4
+        },
+        "end": {
+          "x": 48.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 383,
+      "periodTimeSeconds": 2317,
+      "incidentType": "shot"
+    }
+  ]
+}

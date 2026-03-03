@@ -1,0 +1,102 @@
+{
+  "predictions": {
+    "yellowCards": 3,
+    "corners": 8,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 1,
+    "winningProbability": {
+      "home": 15,
+      "draw": 21,
+      "away": 64
+    },
+    "possibleResultsMatrix": [
+      [
+        0.053539529219852,
+        0.11101216127867,
+        0.11508973025478,
+        0.079544714486234,
+        0.041233228990259,
+        0.017099103908481
+      ],
+      [
+        0.046778585477466,
+        0.096993603624869,
+        0.10055625932372,
+        0.069499849552193,
+        0.036026318403218,
+        0.014939838011769
+      ],
+      [
+        0.020435705087049,
+        0.042372651049116,
+        0.043929033749563,
+        0.030361722453686,
+        0.01573846688064,
+        0.0065266215414712
+      ],
+      [
+        0.0059516983129812,
+        0.012340618280178,
+        0.012793899449247,
+        0.0088425533416672,
+        0.0045836738386766,
+        0.0019008143958027
+      ],
+      [
+        0.0013000302408648,
+        0.0026955628648396,
+        0.0027945731298792,
+        0.0019314800828453,
+        0.0010012124760328,
+        0.0004151951370628
+      ],
+      [
+        0.00022717262042355,
+        0.00047103371927308,
+        0.00048833517938597,
+        0.00033751475767517,
+        0.00017495597766236,
+        7.2552902470121e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Current Form",
+      "text": "Borussia M'gladbach is struggling, with no wins in their last five matches, facing a challenging situation in the league. In contrast, VfB Stuttgart has shown solid form, winning three out of their last five matches, which has bolstered their position in the table."
+    },
+    {
+      "subtitle": "Head-to-Head",
+      "text": "In their last two encounters, Stuttgart has emerged victorious, including a narrow 1-0 win in their most recent matchup. This trend suggests Stuttgart's dominance over M'gladbach in recent times."
+    },
+    {
+      "subtitle": "Match Probabilities",
+      "text": "Sofascore predicts a high probability of an away win for Stuttgart, at 64%, indicating their strong likelihood of securing three points against the struggling M'gladbach side."
+    }
+  ],
+  "halftimePredictions": {
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half overview",
+      "text": "At half-time, Borussia M'gladbach finds itself trailing VfB Stuttgart 0-1. Stuttgart took the lead via Jamie Leweling in the 30th minute, a clear display of their attacking effectiveness. Borussia, despite being at home, has struggled to convert their opportunities, with one big chance created but also one missed."
+    },
+    {
+      "subtitle": "Team performance",
+      "text": "VfB Stuttgart has been more clinical, reflecting in their shot on target count and overall possession. M'gladbach had more final third entries but at times lacked a cutting edge in the penalty area. With their ball possession at 46%, they need to create more quality scoring opportunities to turn the game around."
+    },
+    {
+      "subtitle": "Momentum shifts",
+      "text": "Momentum shifts have largely favored Stuttgart after their opening goal, with the away team showing significant spells of control and attacking intent. Borussia had a promising start but faded as the half progressed, though they had moments where the momentum shifted briefly back in their favor, notably around the 14th through 24th minutes."
+    },
+    {
+      "subtitle": "Tactical approach for second half",
+      "text": "M'gladbach will likely need to push more aggressively for an equalizer in the second half. This can involve higher pressing to win back possession quickly and increase their attacking chances. Stuttgart, on the other hand, might focus on maintaining their lead using a more reactive approach, capitalizing on M'gladbach's potential vulnerabilities in transition."
+    }
+  ],
+  "modelName": "Grok3"
+}

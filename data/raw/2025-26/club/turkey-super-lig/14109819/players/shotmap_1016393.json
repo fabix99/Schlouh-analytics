@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mithat Pala",
+        "firstName": "",
+        "lastName": "",
+        "slug": "mithat-pala",
+        "shortName": "M. Pala",
+        "position": "D",
+        "jerseyNumber": "54",
+        "userCount": 61,
+        "gender": "M",
+        "id": 1016393,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميثات بالا"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بالا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20,
+        "y": 64.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.6,
+        "y": 59,
+        "z": 0
+      },
+      "xg": 0.044326025992632,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gökhan Değirmenci",
+        "slug": "gokhan-degirmenci",
+        "shortName": "G. Değirmenci",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 45,
+        "gender": "M",
+        "id": 60317,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوكهان ديغرمينجي"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. ديغرمينجي"
+          }
+        }
+      },
+      "id": 6744115,
+      "time": 4,
+      "timeSeconds": 209,
+      "draw": {
+        "start": {
+          "x": 64.6,
+          "y": 20
+        },
+        "block": {
+          "x": 59,
+          "y": 11.6
+        },
+        "end": {
+          "x": 51.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 42,
+      "reversedPeriodTimeSeconds": 2491,
+      "periodTimeSeconds": 209,
+      "incidentType": "shot"
+    }
+  ]
+}

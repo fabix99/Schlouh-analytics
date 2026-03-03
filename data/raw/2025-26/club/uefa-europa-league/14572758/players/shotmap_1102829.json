@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Luka Stojković",
+        "slug": "luka-stojkovic",
+        "shortName": "L. Stojković",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 1636,
+        "gender": "M",
+        "id": 1102829,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكا ستويكوفيتش",
+            "bn": "লুকা স্টোজকোভিচ",
+            "hi": "लुका स्टोजकोविच"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. ستويكوفيتش",
+            "bn": "এল. স্টোজকোভিচ",
+            "hi": "एल. स्टोजकोविच"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 26.9,
+        "y": 66.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.1,
+        "z": 15.2
+      },
+      "blockCoordinates": {
+        "x": 2.4,
+        "y": 50.9,
+        "z": 0
+      },
+      "xg": 0.038401085883379,
+      "xgot": 0.05121162161231,
+      "goalkeeper": {
+        "name": "Elías Ólafsson",
+        "firstName": "",
+        "lastName": "",
+        "slug": "elias-olafsson",
+        "shortName": "E. Ólafsson",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 369,
+        "gender": "M",
+        "id": 879183,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلياس أولافسون",
+            "bn": "ইলিয়াস ওলাফসন",
+            "hi": "इलियास ओलाफसन"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. أولافسون",
+            "bn": "ই.ওলাফসন",
+            "hi": "ई. ओलाफसन"
+          }
+        }
+      },
+      "id": 6606197,
+      "time": 43,
+      "timeSeconds": 2548,
+      "draw": {
+        "start": {
+          "x": 66.5,
+          "y": 26.9
+        },
+        "block": {
+          "x": 50.9,
+          "y": 2.4
+        },
+        "end": {
+          "x": 51.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.9,
+          "y": 84.8
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 152,
+      "periodTimeSeconds": 2548,
+      "incidentType": "shot"
+    }
+  ]
+}

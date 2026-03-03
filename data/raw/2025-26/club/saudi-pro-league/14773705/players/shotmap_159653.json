@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ahmed Hegazy",
+        "slug": "ahmed-hegazy",
+        "shortName": "A. Hegazy",
+        "position": "D",
+        "jerseyNumber": "26",
+        "userCount": 4585,
+        "gender": "M",
+        "sofascoreId": "ahmedhegazy6",
+        "id": 159653,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أحمد حجازي",
+            "bn": "আহমেদ হেগাজি",
+            "hi": "अहमद हेगज़ी"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. حجازي",
+            "bn": "এ. হেগাজি",
+            "hi": "ए. हेगज़ी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 13.9,
+        "y": 48.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.9,
+        "y": 48.6,
+        "z": 0
+      },
+      "xg": 0.11269913613796,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Edouard Mendy",
+        "firstName": "",
+        "lastName": "",
+        "slug": "edouard-mendy",
+        "shortName": "E. Mendy",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 19681,
+        "gender": "M",
+        "sofascoreId": "edou_mendy",
+        "id": 845074,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إدوارد ميندي",
+            "bn": "এডোয়ার্ড মেন্ডি",
+            "hi": "एडौर्ड मेंडी"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ميندي",
+            "bn": "ই. মেন্ডি",
+            "hi": "ई. मेंडी"
+          }
+        }
+      },
+      "id": 6581633,
+      "time": 30,
+      "timeSeconds": 1744,
+      "draw": {
+        "start": {
+          "x": 48.2,
+          "y": 13.9
+        },
+        "block": {
+          "x": 48.6,
+          "y": 8.9
+        },
+        "end": {
+          "x": 49.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 956,
+      "periodTimeSeconds": 1744,
+      "incidentType": "shot"
+    }
+  ]
+}

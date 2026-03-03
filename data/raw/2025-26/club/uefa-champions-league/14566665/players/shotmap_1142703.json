@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nico O'Reilly",
+        "firstName": "Nico",
+        "lastName": "O’Reilly",
+        "slug": "nico-o-reilly",
+        "shortName": "N. O’Reilly",
+        "position": "D",
+        "jerseyNumber": "33",
+        "userCount": 20550,
+        "gender": "M",
+        "id": 1142703,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكو أوريلي",
+            "bn": "নিকো ও'রেইলি",
+            "hi": "निको ओ'रेली"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. أوريلي",
+            "bn": "এন. ও'রেইলি",
+            "hi": "एन. ओ'रेली"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.8,
+        "y": 56.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.6,
+        "z": 27.8
+      },
+      "blockCoordinates": {
+        "x": 2,
+        "y": 50,
+        "z": 0
+      },
+      "xg": 0.046611629426479,
+      "xgot": 0.03885941952467,
+      "goalkeeper": {
+        "name": "Uğurcan Çakır",
+        "slug": "ugurcan-cakir",
+        "shortName": "U. Çakır",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5008,
+        "gender": "M",
+        "id": 754330,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوغورجان تشاكير",
+            "bn": "উগুরকান কাকির",
+            "hi": "उगुरकन चाकिर"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. تشاكير",
+            "bn": "ইউ. কাকির",
+            "hi": "यू. चाकिर"
+          }
+        }
+      },
+      "id": 6602447,
+      "time": 24,
+      "timeSeconds": 1407,
+      "draw": {
+        "start": {
+          "x": 56.6,
+          "y": 23.8
+        },
+        "block": {
+          "x": 50,
+          "y": 2
+        },
+        "end": {
+          "x": 50.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.4,
+          "y": 72.2
+        }
+      },
+      "reversedPeriodTime": 22,
+      "reversedPeriodTimeSeconds": 1293,
+      "periodTimeSeconds": 1407,
+      "incidentType": "shot"
+    }
+  ]
+}

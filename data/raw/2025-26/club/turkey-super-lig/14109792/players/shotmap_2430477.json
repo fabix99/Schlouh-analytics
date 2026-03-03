@@ -1,0 +1,86 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ahmed Traore",
+        "slug": "ahmed-traore",
+        "shortName": "A. Traore",
+        "position": "F",
+        "jerseyNumber": "88",
+        "userCount": 80,
+        "gender": "M",
+        "id": 2430477
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 4.9,
+        "y": 64.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.2,
+        "z": 5.7
+      },
+      "blockCoordinates": {
+        "x": 2.8,
+        "y": 60.8,
+        "z": 0
+      },
+      "xg": 0.29167786240578,
+      "xgot": 0.40633660554886,
+      "goalkeeper": {
+        "name": "Julián Cuesta",
+        "slug": "julian-cuesta",
+        "shortName": "J. Cuesta",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 194,
+        "gender": "M",
+        "id": 217110,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوليان كويستا",
+            "bn": "জুলিয়ান কুয়েস্তা",
+            "hi": "जूलियन क्यूस्टा"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. كويستا",
+            "bn": "জে. কুয়েস্তা",
+            "hi": "जे. क्यूस्टा"
+          }
+        }
+      },
+      "id": 6657996,
+      "time": 90,
+      "addedTime": 2,
+      "timeSeconds": 5500,
+      "draw": {
+        "start": {
+          "x": 64.8,
+          "y": 4.9
+        },
+        "block": {
+          "x": 60.8,
+          "y": 2.8
+        },
+        "end": {
+          "x": 49.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.8,
+          "y": 94.3
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 800,
+      "periodTimeSeconds": 100,
+      "incidentType": "shot"
+    }
+  ]
+}

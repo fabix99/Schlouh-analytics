@@ -1,0 +1,84 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Luis Pérez",
+        "slug": "luis-perez",
+        "shortName": "L. Pérez",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 256,
+        "gender": "M",
+        "id": 843180,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لويس بيريز",
+            "bn": "লুইস পেরেজ",
+            "hi": "लुइस पेरेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. بيريز",
+            "bn": "এল. পেরেজ",
+            "hi": "एल. पेरेज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 25,
+        "y": 44.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.1,
+        "z": 79.2
+      },
+      "xg": 0.012536907568574,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bahadır Han Güngördü",
+        "slug": "bahadir-han-gungordu",
+        "shortName": "B. H. Güngördü",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 100,
+        "gender": "M",
+        "id": 807289,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باهادير هان غونغوردو"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غونغوردو"
+          }
+        }
+      },
+      "id": 6587524,
+      "time": 61,
+      "timeSeconds": 3616,
+      "draw": {
+        "start": {
+          "x": 44.6,
+          "y": 25
+        },
+        "end": {
+          "x": 51.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.9,
+          "y": 20.8
+        }
+      },
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1784,
+      "periodTimeSeconds": 916,
+      "incidentType": "shot"
+    }
+  ]
+}

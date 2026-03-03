@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Federico Baschirotto",
+        "slug": "federico-baschirotto",
+        "shortName": "F. Baschirotto",
+        "position": "D",
+        "jerseyNumber": "6",
+        "userCount": 1371,
+        "gender": "M",
+        "id": 786175,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيديريكو باشيروتو",
+            "bn": "ফেদেরিকো বাসচিরোটো",
+            "hi": "फ़ेडेरिको बासचिरोत्तो"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. باشيروتو",
+            "bn": "এফ. বাসচিরোটো",
+            "hi": "एफ. बासचिरोत्तो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 7.1,
+        "y": 47.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.4,
+        "z": 30.4
+      },
+      "blockCoordinates": {
+        "x": 2,
+        "y": 48.2,
+        "z": 0
+      },
+      "xg": 0.15543594956398,
+      "xgot": 0.69813597202301,
+      "goalkeeper": {
+        "name": "Justin Bijlow",
+        "slug": "bijlow-justin",
+        "shortName": "J. Bijlow",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 1386,
+        "gender": "M",
+        "id": 556696,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيلو، جوستين",
+            "bn": "বিজলো, জাস্টিন",
+            "hi": "बिज्लो, जस्टिन"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بيلو",
+            "bn": "জে. বিজলো",
+            "hi": "जे. बिज्लो"
+          }
+        }
+      },
+      "id": 6717200,
+      "time": 34,
+      "timeSeconds": 2001,
+      "draw": {
+        "start": {
+          "x": 47.2,
+          "y": 7.1
+        },
+        "block": {
+          "x": 48.2,
+          "y": 2
+        },
+        "end": {
+          "x": 51.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.6,
+          "y": 69.6
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 699,
+      "periodTimeSeconds": 2001,
+      "incidentType": "shot"
+    }
+  ]
+}

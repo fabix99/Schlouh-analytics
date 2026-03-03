@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Claudio Echeverri",
+        "slug": "claudio-echeverri",
+        "shortName": "C. Echeverri",
+        "position": "M",
+        "jerseyNumber": "14",
+        "userCount": 37385,
+        "gender": "M",
+        "sofascoreId": "claudio_echeverri",
+        "id": 1482424,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كلاوديو إتشيفيري",
+            "bn": "ক্লাউদিও এচেভেরি",
+            "hi": "क्लाउडियो एचेवेरी"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. إتشيفيري",
+            "bn": "সি. এচেভেরি",
+            "hi": "सी. एचेवेरी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 19.2,
+        "y": 29.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 12.4,
+        "y": 35.9,
+        "z": 0
+      },
+      "xg": 0.04983714222908,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "David Soria",
+        "slug": "david-soria",
+        "shortName": "D. Soria",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 680,
+        "gender": "M",
+        "id": 604258,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد سوريا",
+            "bn": "ডেভিড সোরিয়া",
+            "hi": "डेविड सोरिया"
+          },
+          "shortNameTranslation": {
+            "ar": "د. سوريا",
+            "bn": "ডি. সোরিয়া",
+            "hi": "डी. सोरिया"
+          }
+        }
+      },
+      "id": 6596387,
+      "time": 84,
+      "timeSeconds": 5000,
+      "draw": {
+        "start": {
+          "x": 29.4,
+          "y": 19.2
+        },
+        "block": {
+          "x": 35.9,
+          "y": 12.4
+        },
+        "end": {
+          "x": 47.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 400,
+      "periodTimeSeconds": 2300,
+      "incidentType": "shot"
+    }
+  ]
+}

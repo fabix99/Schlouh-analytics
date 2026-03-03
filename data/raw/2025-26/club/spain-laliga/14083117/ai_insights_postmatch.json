@@ -1,0 +1,160 @@
+{
+  "predictions": {
+    "yellowCards": 3,
+    "corners": 8,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 90,
+      "draw": 7,
+      "away": 3
+    },
+    "possibleResultsMatrix": [
+      [
+        0.021768503069748,
+        0.010610690132661,
+        0.0025860010844706,
+        0.00042016755588146,
+        5.120089935641e-05,
+        5.4269534278113e-06
+      ],
+      [
+        0.072703709390453,
+        0.035438198454224,
+        0.0086368764414505,
+        0.0014032999779647,
+        0.00017100373394584,
+        1.8125253887551e-05
+      ],
+      [
+        0.12141003316111,
+        0.059179275522111,
+        0.014422970491552,
+        0.002343411337442,
+        0.00028556409546503,
+        3.026788720948e-05
+      ],
+      [
+        0.13516409067033,
+        0.065883459168988,
+        0.016056891185169,
+        0.0026088870437222,
+        0.00031791451074235,
+        3.3696815202684e-05
+      ],
+      [
+        0.11285721779576,
+        0.055010349743761,
+        0.013406934168834,
+        0.0021783280739558,
+        0.00026544733147202,
+        2.8135644559827e-05
+      ],
+      [
+        0.15029737697614,
+        0.073259924659762,
+        0.017854658108923,
+        0.002900984111637,
+        0.0003535089595932,
+        3.7469589092015e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Team Form",
+      "text": "Barcelona is in outstanding form with 4 wins from their last 5 matches, showcasing strong offensive capabilities. In contrast, Real Oviedo has struggled, failing to win any of their last five encounters."
+    },
+    {
+      "subtitle": "Head-to-Head Record",
+      "text": "Barcelona has dominated their previous meetings with Real Oviedo, winning both of the last two encounters, including a 3-1 victory in their most recent match."
+    },
+    {
+      "subtitle": "Current Standings",
+      "text": "Barcelona currently occupies the second position in the league, well ahead of Real Oviedo, who is languishing at the bottom of the table. This disparity adds extra pressure on the away side."
+    },
+    {
+      "subtitle": "Statistical Insights",
+      "text": "Barcelona leads the league in goals scored and possesses the highest average ball possession, while Real Oviedo continues to struggle for both goals and consistency in defense."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "shortName": "Barcelona",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 6438008,
+      "nameCode": "BAR",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 2817,
+      "teamColors": {
+        "primary": "#154284",
+        "secondary": "#9d1009",
+        "text": "#9d1009"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "برشلونة",
+          "bn": "বার্সেলোনা",
+          "hi": "बार्सिलोना",
+          "ru": "Барселона"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Lamine Yamal",
+      "slug": "lamine-yamal",
+      "shortName": "L. Yamal",
+      "position": "M",
+      "jerseyNumber": "10",
+      "userCount": 1723636,
+      "gender": "M",
+      "sofascoreId": "Lamiyamal",
+      "id": 1402912,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "لامين يامال",
+          "bn": "লামিন ইয়ামাল",
+          "hi": "लामिन यमल"
+        },
+        "shortNameTranslation": {
+          "ar": "لامين يامال",
+          "bn": "লামিন ইয়ামাল",
+          "hi": "लामिन यमल"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half overview",
+      "text": "The first half ended in a stalemate, with Barcelona dominating possession at 73% while Real Oviedo struggled to maintain the ball with just 27% possession. Despite Barcelona's superior control, their attack was stifled, with only one shot on goal compared to two for Real Oviedo."
+    },
+    {
+      "subtitle": "Attacking momentum",
+      "text": "Barcelona had a consistent attacking momentum throughout the first half. Massive pressure was applied from the very start, peaking around the 26th minute when they applied intense pressure. There was a brief dip in momentum at times, but they regained control and maintained a steady stream of attack. In contrast, Real Oviedo recorded a few spells of momentum, particularly late in the half, but were more reactive than proactive."
+    },
+    {
+      "subtitle": "Key player performances",
+      "text": "Barcelona’s Marc Casadó showed notable involvement with a key pass, while Lamine Yamal impressed with a big chance created. Real Oviedo's Lucas Ahijado contributed defensively and managed to win tackles. The absence of decisive offensive output from both teams indicates potential for change in the second half."
+    },
+    {
+      "subtitle": "Second half expectations",
+      "text": "Given Barcelona's dominant first-half performance, it is reasonable to expect them to continue applying pressure in the second half. Real Oviedo will need to regroup and find ways to capitalize on their limited entries into the final third. If they manage to solidify their defense while looking for counter-attacks, they may create unexpected opportunities."
+    }
+  ],
+  "modelName": "Grok3"
+}

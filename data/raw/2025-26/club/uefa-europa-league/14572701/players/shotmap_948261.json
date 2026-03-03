@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Morgan Rogers",
+        "firstName": "",
+        "lastName": "",
+        "slug": "morgan-rogers",
+        "shortName": "M. Rogers",
+        "position": "M",
+        "jerseyNumber": "27",
+        "userCount": 13873,
+        "gender": "M",
+        "sofascoreId": "mrogers",
+        "id": 948261,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مورغان روجرز",
+            "bn": "মরগান রজার্স",
+            "hi": "मॉर्गन रोजर्स"
+          },
+          "shortNameTranslation": {
+            "ar": "م. روجرز",
+            "bn": "এম. রজার্স",
+            "hi": "एम. रोजर्स"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.2,
+        "y": 50.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.2,
+        "z": 4.4
+      },
+      "blockCoordinates": {
+        "x": 3.3,
+        "y": 50.4,
+        "z": 0
+      },
+      "xg": 0.088043510913849,
+      "xgot": 0.4506708085537,
+      "goalkeeper": {
+        "name": "Ederson",
+        "slug": "ederson",
+        "shortName": "Ederson",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 47836,
+        "gender": "M",
+        "sofascoreId": "Ederson93",
+        "id": 254491,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيدرسون",
+            "bn": "এডারসন",
+            "hi": "एडरसन"
+          },
+          "shortNameTranslation": {
+            "ar": "إيدرسون",
+            "bn": "এডারসন",
+            "hi": "एडरसन"
+          }
+        }
+      },
+      "id": 6570709,
+      "time": 64,
+      "timeSeconds": 3800,
+      "draw": {
+        "start": {
+          "x": 50.1,
+          "y": 18.2
+        },
+        "block": {
+          "x": 50.4,
+          "y": 3.3
+        },
+        "end": {
+          "x": 46.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.8,
+          "y": 95.6
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1600,
+      "periodTimeSeconds": 1100,
+      "incidentType": "shot"
+    }
+  ]
+}

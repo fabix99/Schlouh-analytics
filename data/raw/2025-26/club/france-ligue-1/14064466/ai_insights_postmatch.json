@@ -1,0 +1,166 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 8,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 47,
+      "draw": 27,
+      "away": 26
+    },
+    "possibleResultsMatrix": [
+      [
+        0.099474779465586,
+        0.09309339804201,
+        0.043560693502248,
+        0.013588747489487,
+        0.0031792547963598,
+        0.00059506064516964
+      ],
+      [
+        0.13681412900219,
+        0.1280374004084,
+        0.059911852755636,
+        0.01868948754642,
+        0.0043726357391975,
+        0.00081842557791779
+      ],
+      [
+        0.094084681540332,
+        0.08804907892578,
+        0.041200332364174,
+        0.012852433420299,
+        0.0030069850534785,
+        0.00056281694313621
+      ],
+      [
+        0.043133592342176,
+        0.040366540166909,
+        0.01888849822802,
+        0.0058922623181595,
+        0.001378567322037,
+        0.00025802623967112
+      ],
+      [
+        0.014831108193288,
+        0.013879681521883,
+        0.0064946447911455,
+        0.0020260028251441,
+        0.00047400830755454,
+        8.8720064095564e-05
+      ],
+      [
+        0.0040796373925192,
+        0.0038179256057587,
+        0.0017865014128262,
+        0.00055729867081326,
+        0.00013038688617614,
+        2.4404494002327e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Recent Form Analysis",
+      "text": "Paris FC has shown signs of improvement recently, with two consecutive wins in their last five matches. In contrast, Angers has struggled, losing three of their last five matches. This discrepancy in form may give the home side the psychological edge."
+    },
+    {
+      "subtitle": "Head-to-Head Insights",
+      "text": "In their last two encounters, Angers managed to edge out Paris FC in a narrow victory last time, but historically, Paris FC has been competitive. This matchup could see a repeat performance or a shift in momentum."
+    },
+    {
+      "subtitle": "Key Players to Watch",
+      "text": "Paris FC's Ilan Kebbal continues to impress with his creativity, while Angers looks for contributions from Sidiki Cherif. The ability of these players to influence the game could be pivotal in deciding the outcome."
+    },
+    {
+      "subtitle": "Matchday Expectations",
+      "text": "With a predicted home win probability of 47%, Paris FC enters this match as slight favorites. However, with both teams showcasing inconsistent defensive displays, a high-scoring affair is possible."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Paris FC",
+      "slug": "paris-fc",
+      "shortName": "Paris",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 61157,
+      "nameCode": "PFC",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 6070,
+      "teamColors": {
+        "primary": "#2e3552",
+        "secondary": "#ef570e",
+        "text": "#ef570e"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "باريس إف سي",
+          "hi": "पेरिस एफसी",
+          "ru": "Париж ФК"
+        },
+        "shortNameTranslation": {
+          "ar": "باريس",
+          "bn": "এফসি",
+          "hi": "पेरिस"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Otávio",
+      "slug": "otavio",
+      "shortName": "Otávio",
+      "position": "D",
+      "jerseyNumber": "6",
+      "userCount": 1415,
+      "gender": "M",
+      "id": 1069159,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أوتافيو",
+          "bn": "ওটাভিও",
+          "hi": "ओटावियो"
+        },
+        "shortNameTranslation": {
+          "ar": "أوتافيو",
+          "bn": "ওটাভিও",
+          "hi": "ओटावियो"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half overview",
+      "text": "The first half of the match between Paris FC and Angers ended in a stalemate with a scoreline of 0-0. Both teams struggled to create significant goal-scoring opportunities, leading to a lack of clinical finishing."
+    },
+    {
+      "subtitle": "Home team's performance",
+      "text": "Paris FC dominated possession with 68%, indicating their control in midfield. However, they failed to translate this dominance into tangible chances, recording no shots on target and only a single corner kick. Their expected goals were notably low at 0.1803, showing a significant gap between ball control and actual scoring threats."
+    },
+    {
+      "subtitle": "Away team's performance",
+      "text": "Angers, despite having only 32% possession, registered one shot on target and managed to place some pressure on Paris FC during select moments. Their expected goals stood at 0.1614, indicating they found it challenging to generate high-quality chances. They also struggled with forward transitions and lacked the necessary edge in the final third."
+    },
+    {
+      "subtitle": "Attack momentum shifts",
+      "text": "The attack momentum showcased a significant early advantage for Angers, with a series of sustained attacking spells that peaked during the first 15 minutes. This period featured a noticeable shift, with Paris FC growing into the game from the 32nd minute onwards, as they began to dominate possession and create a more consistent attacking threat."
+    },
+    {
+      "subtitle": "Second half outlook",
+      "text": "Looking ahead to the second half, Paris FC's ability to maintain and build on their late first-half momentum could be key. They will need to be more decisive in the attacking third to convert their possession into goals. On the other hand, Angers will need to exploit any defensive shortcomings from Paris FC, especially if they can capitalize on counter-attacks or set pieces."
+    }
+  ],
+  "modelName": "Grok3"
+}

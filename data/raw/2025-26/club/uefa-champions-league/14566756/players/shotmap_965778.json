@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Arthur Theate",
+        "slug": "arthur-theate",
+        "shortName": "A. Theate",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 2199,
+        "gender": "M",
+        "id": 965778,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آرثر ثيات",
+            "bn": "আর্থার থিয়েট",
+            "hi": "आर्थर थेटे"
+          },
+          "shortNameTranslation": {
+            "ar": "آ. ثيات",
+            "bn": "এ. থিয়েট",
+            "hi": "ए. थेटे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 29.9,
+        "y": 47.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 18.1,
+        "y": 48.2,
+        "z": 0
+      },
+      "xg": 0.014043990522623,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Guglielmo Vicario",
+        "slug": "guglielmo-vicario",
+        "shortName": "G. Vicario",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 7196,
+        "gender": "M",
+        "sofascoreId": "guglielmovicario",
+        "id": 553606,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكاريو غولييلمو",
+            "bn": "উইলিয়াম দ্য ভিকারিও",
+            "hi": "गुग्लिल्मो विकारियो"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غولييلمو",
+            "bn": "জি. ভিকারিও",
+            "hi": "जी. विकारियो"
+          }
+        }
+      },
+      "id": 6602381,
+      "time": 15,
+      "timeSeconds": 859,
+      "draw": {
+        "start": {
+          "x": 47.4,
+          "y": 29.9
+        },
+        "block": {
+          "x": 48.2,
+          "y": 18.1
+        },
+        "end": {
+          "x": 49.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1841,
+      "periodTimeSeconds": 859,
+      "incidentType": "shot"
+    }
+  ]
+}

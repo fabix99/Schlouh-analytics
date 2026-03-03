@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Riyad Mahrez",
+        "slug": "riyad-mahrez",
+        "shortName": "R. Mahrez",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 70689,
+        "gender": "M",
+        "sofascoreId": "RMahrez",
+        "id": 158213,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رياض محرز",
+            "bn": "রিয়াদ মাহরেজ",
+            "hi": "रियाद महरेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. محرز",
+            "bn": "আর. মাহরেজ",
+            "hi": "आर. महरेज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 4.9,
+        "y": 64.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 4.5,
+        "y": 63.5,
+        "z": 0
+      },
+      "xg": 0.066933296620846,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Anthony Moris",
+        "slug": "anthony-moris",
+        "shortName": "A. Moris",
+        "position": "G",
+        "jerseyNumber": "49",
+        "userCount": 293,
+        "gender": "M",
+        "id": 39457,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنتوني موريس",
+            "bn": "অ্যান্টনি মরিস",
+            "hi": "एंथनी मोरिस"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موريس",
+            "bn": "এ. মরিস",
+            "hi": "ए. मोरिस"
+          }
+        }
+      },
+      "id": 6555588,
+      "time": 8,
+      "timeSeconds": 475,
+      "draw": {
+        "start": {
+          "x": 64.8,
+          "y": 4.9
+        },
+        "block": {
+          "x": 63.5,
+          "y": 4.5
+        },
+        "end": {
+          "x": 50.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2225,
+      "periodTimeSeconds": 475,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Virgil van Dijk",
+        "slug": "virgil-van-dijk",
+        "shortName": "V. van Dijk",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 97020,
+        "gender": "M",
+        "sofascoreId": "VvD",
+        "id": 151545,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيرجيل فان دايك",
+            "bn": "ভার্জিল ভ্যান ডাইক",
+            "hi": "वर्जिल वान डिक"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فان دايك",
+            "bn": "ভি. ভ্যান ডাইক",
+            "hi": "वी. वान डिक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 20.3,
+        "y": 53.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 59.2,
+        "z": 4.2
+      },
+      "xg": 0.052513752132654,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nick Pope",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nick-pope",
+        "shortName": "N. Pope",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 4736,
+        "gender": "M",
+        "sofascoreId": "npope29",
+        "id": 162653,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيك بوب",
+            "bn": "নিক পোপ",
+            "hi": "निक पोप"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. بوب",
+            "bn": "এন. পোপ",
+            "hi": "एन. पोप"
+          }
+        }
+      },
+      "id": 6619248,
+      "time": 90,
+      "addedTime": 1,
+      "timeSeconds": 5456,
+      "draw": {
+        "start": {
+          "x": 53.6,
+          "y": 20.3
+        },
+        "end": {
+          "x": 40.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 40.8,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 844,
+      "periodTimeSeconds": 56,
+      "incidentType": "shot"
+    }
+  ]
+}

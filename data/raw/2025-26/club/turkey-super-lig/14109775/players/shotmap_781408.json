@@ -1,0 +1,168 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ramazan Civelek",
+        "slug": "ramazan-civelek",
+        "shortName": "R. Civelek",
+        "position": "M",
+        "jerseyNumber": "28",
+        "userCount": 60,
+        "gender": "M",
+        "id": 781408,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رمضان جيفليك"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. جيفليك"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "own",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 9.4,
+        "y": 53.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.4,
+        "z": 6.3
+      },
+      "goalkeeper": {
+        "name": "Bilal Bayazit",
+        "slug": "bilal-bayazit",
+        "shortName": "B. Bayazit",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 241,
+        "gender": "M",
+        "id": 825850,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بلال بايازيت"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. بايازيت"
+          }
+        }
+      },
+      "id": 6578791,
+      "time": 67,
+      "timeSeconds": 3998,
+      "draw": {
+        "start": {
+          "x": 53.6,
+          "y": 9.4
+        },
+        "end": {
+          "x": 47.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.6,
+          "y": 93.7
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1402,
+      "periodTimeSeconds": 1298,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ramazan Civelek",
+        "slug": "ramazan-civelek",
+        "shortName": "R. Civelek",
+        "position": "M",
+        "jerseyNumber": "28",
+        "userCount": 60,
+        "gender": "M",
+        "id": 781408,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رمضان جيفليك"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. جيفليك"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.7,
+        "y": 66,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.6,
+        "y": 62.6,
+        "z": 0
+      },
+      "xg": 0.046165186911821,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Muhammed Şengezer",
+        "slug": "muhammed-sengezer",
+        "shortName": "M. Şengezer",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 465,
+        "gender": "M",
+        "id": 827418,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد شنجيزر",
+            "bn": "মুহাম্মদ সেনজেজার",
+            "hi": "मुहम्मद सेन्गेज़र"
+          },
+          "shortNameTranslation": {
+            "ar": "م. شنجيزر",
+            "bn": "এম. সেনজেজার",
+            "hi": "एम. सेन्गेज़र"
+          }
+        }
+      },
+      "id": 6578316,
+      "time": 13,
+      "timeSeconds": 775,
+      "draw": {
+        "start": {
+          "x": 66,
+          "y": 14.7
+        },
+        "block": {
+          "x": 62.6,
+          "y": 11.6
+        },
+        "end": {
+          "x": 49.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1925,
+      "periodTimeSeconds": 775,
+      "incidentType": "shot"
+    }
+  ]
+}

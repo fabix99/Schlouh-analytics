@@ -1,0 +1,416 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": false,
+    "tournament": {
+      "name": "Bundesliga",
+      "slug": "bundesliga",
+      "category": {
+        "name": "Germany",
+        "slug": "germany",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 30,
+        "flag": "germany",
+        "alpha2": "DE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألمانيا",
+            "bn": "জার্মানি",
+            "hi": "जर्मनी",
+            "ru": "Германия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Bundesliga",
+        "slug": "bundesliga",
+        "primaryColorHex": "#e2080e",
+        "secondaryColorHex": "#8e0902",
+        "category": {
+          "name": "Germany",
+          "slug": "germany",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "DE",
+            "alpha3": "DEU",
+            "name": "Germany",
+            "slug": "germany"
+          },
+          "id": 30,
+          "flag": "germany",
+          "alpha2": "DE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألمانيا",
+              "bn": "জার্মানি",
+              "hi": "जर्मनी",
+              "ru": "Германия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 508922,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 35,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "বুন্দেসলীগা",
+            "ar": "الدوري الألماني",
+            "hi": "बुंडेसलीगा"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 695,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 42,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "बुंडेसलीगा",
+          "ar": "الدوري الألماني",
+          "bn": "বুন্দেসলীগা"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Bundesliga 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 63516
+    },
+    "roundInfo": {
+      "round": 34
+    },
+    "customId": "gbbsGdb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 33305,
+    "venue": {
+      "city": {
+        "name": "Mainz"
+      },
+      "venueCoordinates": {
+        "latitude": 49.983945,
+        "longitude": 8.223228
+      },
+      "hidden": false,
+      "slug": "mewa-arena",
+      "name": "MEWA Arena",
+      "capacity": 34000,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2406,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أرينا MEWA",
+          "hi": "मेवा एरिना",
+          "bn": "এমইডব্লিউএ এরিনা"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "MEWA Arena",
+        "capacity": 34000
+      }
+    },
+    "referee": {
+      "name": "Tobias Reichel",
+      "slug": "reichel-tobias",
+      "yellowCards": 870,
+      "redCards": 15,
+      "yellowRedCards": 14,
+      "games": 233,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 102966,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "رايشيل، توبياس",
+          "bn": "রেইচেল, টোবিয়াস",
+          "hi": "रीचेल, टोबियास"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "1. FSV Mainz 05",
+      "slug": "1-fsv-mainz-05",
+      "shortName": "Mainz 05",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 92019,
+      "manager": {
+        "name": "Urs Fischer",
+        "slug": "urs-fischer",
+        "shortName": "U. Fischer",
+        "country": {
+          "alpha2": "CH",
+          "alpha3": "CHE",
+          "name": "Switzerland",
+          "slug": "switzerland"
+        },
+        "id": 114244,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أورس فيشر"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فيشر"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Mainz"
+        },
+        "venueCoordinates": {
+          "latitude": 49.983945,
+          "longitude": 8.223228
+        },
+        "hidden": false,
+        "slug": "mewa-arena",
+        "name": "MEWA Arena",
+        "capacity": 34000,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 2406,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أرينا MEWA",
+            "hi": "मेवा एरिना",
+            "bn": "এমইডব্লিউএ এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "MEWA Arena",
+          "capacity": 34000
+        }
+      },
+      "nameCode": "M05",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2556,
+      "fullName": "1. FSV Mainz 05",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ff0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2044828800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "1. إف إس في ماينز 05",
+          "ru": "Майнц 05"
+        },
+        "shortNameTranslation": {
+          "ar": "ماينز 05",
+          "bn": "মেইনজ 05",
+          "hi": "माइनज़ 05"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Bayer 04 Leverkusen",
+      "slug": "bayer-04-leverkusen",
+      "shortName": "Leverkusen",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 1008308,
+      "manager": {
+        "name": "Kasper Hjulmand",
+        "slug": "kasper-hjulmand",
+        "shortName": "K. Hjulmand",
+        "country": {
+          "alpha2": "DK",
+          "alpha3": "DNK",
+          "name": "Denmark",
+          "slug": "denmark"
+        },
+        "id": 53105,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاسبر هيولماند",
+            "bn": "কাসপার হজুলমান্ড",
+            "hi": "कैस्पर हजुलमंड"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. هيولماند",
+            "bn": "কে. হজুলমান্ড",
+            "hi": "के. हजुलमंड"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Leverkusen"
+        },
+        "venueCoordinates": {
+          "latitude": 51.038144,
+          "longitude": 7.003096
+        },
+        "hidden": false,
+        "slug": "bayarena",
+        "name": "BayArena",
+        "capacity": 30210,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 593,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باي أرينا",
+            "hi": "बेएरिना",
+            "bn": "বেএরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "BayArena",
+          "capacity": 30210
+        }
+      },
+      "nameCode": "B04",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2681,
+      "fullName": "Bayer 04 Leverkusen",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#ff2222",
+        "text": "#ff2222"
+      },
+      "foundationDateTimestamp": -2067120000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "باير 04 ليفركوزن",
+          "ru": "Байер Леверкузен"
+        },
+        "shortNameTranslation": {
+          "ar": "ليفركوزن",
+          "bn": "লেভারকুসেন",
+          "hi": "लेवरकुसेन"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 8,
+      "injuryTime2": 7,
+      "currentPeriodStartTimestamp": 1747492825
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1747496007
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12499435,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "bayer-04-leverkusen-1-fsv-mainz-05",
+    "currentPeriodStartTimestamp": 1747492825,
+    "startTimestamp": 1747488600,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

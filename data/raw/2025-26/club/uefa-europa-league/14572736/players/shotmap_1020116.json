@@ -1,0 +1,174 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Yusuf Bamidele",
+        "slug": "yusuf-bamidele",
+        "shortName": "B. I. Yusuf",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 526,
+        "gender": "M",
+        "id": 1020116,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوسف باميديل"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. باميديل"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.4,
+        "z": 2.5
+      },
+      "xg": 0.7884,
+      "xgot": 0.80773234367371,
+      "goalkeeper": {
+        "name": "Alban Lafont",
+        "slug": "alban-lafont",
+        "shortName": "A. Lafont",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 2955,
+        "gender": "M",
+        "id": 826201,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألبان لافون",
+            "bn": "আলবান লাফন্ট",
+            "hi": "अल्बान लाफोंट"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. لافون",
+            "bn": "এ. লাফন্ট",
+            "hi": "ए. लाफोंट"
+          }
+        }
+      },
+      "id": 6571288,
+      "time": 62,
+      "timeSeconds": 3701,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 53.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.6,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1699,
+      "periodTimeSeconds": 1001,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Yusuf Bamidele",
+        "slug": "yusuf-bamidele",
+        "shortName": "B. I. Yusuf",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 526,
+        "gender": "M",
+        "id": 1020116,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوسف باميديل"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. باميديل"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.5,
+        "y": 51.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 40.3,
+        "z": 4.2
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 60.5,
+        "z": 0
+      },
+      "xg": 0.080330371856689,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Alban Lafont",
+        "slug": "alban-lafont",
+        "shortName": "A. Lafont",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 2955,
+        "gender": "M",
+        "id": 826201,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألبان لافون",
+            "bn": "আলবান লাফন্ট",
+            "hi": "अल्बान लाफोंट"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. لافون",
+            "bn": "এ. লাফন্ট",
+            "hi": "ए. लाफोंट"
+          }
+        }
+      },
+      "id": 6571109,
+      "time": 35,
+      "timeSeconds": 2042,
+      "draw": {
+        "start": {
+          "x": 51.5,
+          "y": 8.5
+        },
+        "block": {
+          "x": 60.5,
+          "y": 1.1
+        },
+        "end": {
+          "x": 59.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 59.7,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 658,
+      "periodTimeSeconds": 2042,
+      "incidentType": "shot"
+    }
+  ]
+}

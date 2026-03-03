@@ -1,0 +1,86 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Riyad Idrissi",
+        "slug": "riyad-idrissi",
+        "shortName": "R. Idrissi",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 501,
+        "gender": "M",
+        "id": 1123175,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رياض إدريسي"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. إدريسي"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.3,
+        "y": 52.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.3,
+        "z": 2.5
+      },
+      "xg": 0.20947676897049,
+      "xgot": 0.25413417816162,
+      "goalkeeper": {
+        "name": "Simone Perilli",
+        "slug": "simone-perilli",
+        "shortName": "S. Perilli",
+        "position": "G",
+        "jerseyNumber": "34",
+        "userCount": 108,
+        "gender": "M",
+        "id": 253369,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيموني بيريلي",
+            "bn": "সিমোন পেরিলি",
+            "hi": "सिमोन पेरीली"
+          },
+          "shortNameTranslation": {
+            "ar": "س. بيريلي",
+            "bn": "এস. পেরিলি",
+            "hi": "एस. पेरीली"
+          }
+        }
+      },
+      "id": 6619164,
+      "time": 90,
+      "addedTime": 1,
+      "timeSeconds": 5404,
+      "draw": {
+        "start": {
+          "x": 52.2,
+          "y": 8.3
+        },
+        "end": {
+          "x": 48.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.7,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 896,
+      "periodTimeSeconds": 4,
+      "incidentType": "shot"
+    }
+  ]
+}

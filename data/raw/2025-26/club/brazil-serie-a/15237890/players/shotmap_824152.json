@@ -1,0 +1,86 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ronaldo",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ronaldo",
+        "shortName": "Ronaldo",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 634,
+        "gender": "M",
+        "id": 824152,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونالدو"
+          },
+          "shortNameTranslation": {
+            "ar": "رونالدو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22,
+        "y": 52.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 60,
+        "z": 50
+      },
+      "xg": 0.054780889302492,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Santos",
+        "slug": "santos",
+        "shortName": "Santos",
+        "position": "G",
+        "jerseyNumber": "23",
+        "userCount": 1018,
+        "gender": "M",
+        "id": 166491,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سانتوس",
+            "bn": "সান্তোস",
+            "hi": "सैंटोस"
+          },
+          "shortNameTranslation": {
+            "ar": "سانتوس",
+            "bn": "সান্তোস",
+            "hi": "सैंटोस"
+          }
+        }
+      },
+      "id": 6603057,
+      "time": 58,
+      "timeSeconds": 3444,
+      "draw": {
+        "start": {
+          "x": 52.3,
+          "y": 22
+        },
+        "end": {
+          "x": 40,
+          "y": 0
+        },
+        "goal": {
+          "x": 40,
+          "y": 50
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1956,
+      "periodTimeSeconds": 744,
+      "incidentType": "shot"
+    }
+  ]
+}

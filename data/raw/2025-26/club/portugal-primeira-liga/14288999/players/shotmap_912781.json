@@ -1,0 +1,96 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Paulinho Bóia",
+        "firstName": "",
+        "lastName": "",
+        "slug": "paulinho-boia",
+        "shortName": "Paulinho Bóia",
+        "position": "M",
+        "jerseyNumber": "11",
+        "userCount": 269,
+        "gender": "M",
+        "id": 912781,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باولينو بويّا"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. بويّا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.2,
+        "y": 31.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 6.3
+      },
+      "blockCoordinates": {
+        "x": 1.8,
+        "y": 48.7,
+        "z": 0
+      },
+      "xg": 0.0306101962924,
+      "xgot": 0.017955292016268,
+      "goalkeeper": {
+        "name": "Diogo Costa",
+        "slug": "diogo-costa",
+        "shortName": "D. Costa",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 12692,
+        "gender": "M",
+        "sofascoreId": "diogomcosta99",
+        "id": 843115,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديوغو كوستا",
+            "bn": "ডিয়োগো কোস্টা",
+            "hi": "डिओगो कोस्टा"
+          },
+          "shortNameTranslation": {
+            "ar": "د. كوستا",
+            "bn": "ডি. কোস্টা",
+            "hi": "डी. कोस्टा"
+          }
+        }
+      },
+      "id": 6718792,
+      "time": 56,
+      "timeSeconds": 3309,
+      "draw": {
+        "start": {
+          "x": 31.5,
+          "y": 23.2
+        },
+        "block": {
+          "x": 48.7,
+          "y": 1.8
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 93.7
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2091,
+      "periodTimeSeconds": 609,
+      "incidentType": "shot"
+    }
+  ]
+}

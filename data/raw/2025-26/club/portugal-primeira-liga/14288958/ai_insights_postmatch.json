@@ -1,0 +1,160 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 6,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 83,
+      "draw": 11,
+      "away": 6
+    },
+    "possibleResultsMatrix": [
+      [
+        0.024403886791678,
+        0.017277186216664,
+        0.0061158528990362,
+        0.0014432773258944,
+        0.00025544876656973,
+        4.091088241344e-05
+      ],
+      [
+        0.073334759387766,
+        0.051918708888976,
+        0.018378408514611,
+        0.0043371122119931,
+        0.00076763484408069,
+        0.00012293901146738
+      ],
+      [
+        0.1101870980711,
+        0.078009008495213,
+        0.027613965305082,
+        0.0065166070310717,
+        0.0011533883325405,
+        0.0001847185840168
+      ],
+      [
+        0.11037236805295,
+        0.078140173829816,
+        0.027660395775983,
+        0.0065275641366444,
+        0.0011553276542866,
+        0.0001850291721828
+      ],
+      [
+        0.082918462162561,
+        0.058703669780605,
+        0.020780178236749,
+        0.0049039047492249,
+        0.00086795267762461,
+        0.00013900521193176
+      ],
+      [
+        0.091427350985217,
+        0.064727696114641,
+        0.022912589062035,
+        0.0054071314036972,
+        0.00095701984848887,
+        0.00015326958518772
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Recent Form",
+      "text": "Benfica has been dominant, winning their last five matches, showcasing a strong attack and solid defense with only 11 goals conceded this season. CF Estrela Amadora, on the other hand, has struggled lately, with three consecutive matches without a win."
+    },
+    {
+      "subtitle": "Head-to-Head",
+      "text": "In their last two encounters, Benfica has emerged victorious against CF Estrela Amadora, adding to their confidence going into this match. The last matchup ended in a narrow 1-0 win for Benfica."
+    },
+    {
+      "subtitle": "Key Players",
+      "text": "Rafa Silva has been instrumental for Benfica, contributing 2 goals and 1 assist in recent matches. Conversely, Estrela Amadora has not seen standout performances from their players lately, highlighting a disparity in form."
+    },
+    {
+      "subtitle": "Predicted Outcome",
+      "text": "With Sofascore predicting an 83% chance of a Benfica win, the home side looks set to capitalize on their form and exploit Estrela Amadora's weaknesses."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Benfica",
+      "slug": "benfica",
+      "shortName": "Benfica",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 855932,
+      "nameCode": "SLB",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 3006,
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بنفيكا",
+          "bn": "বেনফিকা",
+          "hi": "बेनफिका",
+          "ru": "Бенфика"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Vangelis Pavlidis",
+      "slug": "vangelis-pavlidis",
+      "shortName": "V. Pavlidis",
+      "position": "F",
+      "jerseyNumber": "14",
+      "userCount": 15337,
+      "gender": "M",
+      "sofascoreId": "vangelis_pavlidis",
+      "id": 795236,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فانجيليس بافلديس",
+          "bn": "ভ্যানজেলিস পাভলিদিস",
+          "hi": "वेन्जेलिस पावलिडिस"
+        },
+        "shortNameTranslation": {
+          "ar": "ف. بافلديس",
+          "bn": "ভি. পাভলিডিস",
+          "hi": "वी. पावलिडिस"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 0
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half overview",
+      "text": "Benfica leads the match 1-0 at half-time, thanks to a goal by Vangelis Pavlidis in the 42nd minute. The home side has demonstrated dominance in possession, controlling 69% of the ball, while CF Estrela Amadora struggled to make an impact with only 31% possession."
+    },
+    {
+      "subtitle": "Attack momentum assessment",
+      "text": "The attack momentum saw a notable shift in favor of Benfica, particularly towards the latter stages of the half. After CF Estrela Amadora started strong, Benfica responded with sustained attacking spells, creating more chances and maintaining pressure in their opponent's half."
+    },
+    {
+      "subtitle": "Key player performances",
+      "text": "Vangelis Pavlidis has been pivotal for Benfica as the goal scorer. Additionally, players like Sidny Lopes Cabral and António Silva contributed significantly, not only in creating chances but also maintaining defensive stability. For the away team, Jorge Meireles showed a commendable all-round performance."
+    },
+    {
+      "subtitle": "Second half expectations",
+      "text": "Given the first half's performance, Benfica is likely to continue their attacking dominance. Estrela Amadora may need to adapt their strategy to create more opportunities. If they wish to equalize, they will have to find solutions to counter Benfica's possession-based gameplay."
+    }
+  ],
+  "modelName": "Grok3"
+}

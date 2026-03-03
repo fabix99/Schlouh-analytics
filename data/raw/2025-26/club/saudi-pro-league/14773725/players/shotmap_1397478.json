@@ -1,0 +1,84 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "João Costa",
+        "firstName": "",
+        "lastName": "",
+        "slug": "joao-costa",
+        "shortName": "J. Costa",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 620,
+        "gender": "M",
+        "id": 1397478,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جواو كوستا",
+            "bn": "জোয়াও কোস্টা",
+            "hi": "जोआओ कोस्टा"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. كوستا",
+            "bn": "জে. কোস্টা",
+            "hi": "जे. कोस्टा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.9,
+        "y": 44.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 62.5,
+        "z": 16.7
+      },
+      "goalkeeper": {
+        "name": "Kewin",
+        "slug": "kewin",
+        "shortName": "Kewin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 112,
+        "gender": "M",
+        "id": 865371,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيوين"
+          },
+          "shortNameTranslation": {
+            "ar": "كيوين"
+          }
+        }
+      },
+      "id": 6654373,
+      "time": 35,
+      "timeSeconds": 2045,
+      "draw": {
+        "start": {
+          "x": 44.4,
+          "y": 9.9
+        },
+        "end": {
+          "x": 37.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 37.5,
+          "y": 83.3
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 655,
+      "periodTimeSeconds": 2045,
+      "incidentType": "shot"
+    }
+  ]
+}

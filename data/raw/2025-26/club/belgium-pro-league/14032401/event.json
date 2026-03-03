@@ -1,0 +1,408 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "tournament": {
+      "name": "Pro League",
+      "slug": "pro-league",
+      "category": {
+        "name": "Belgium",
+        "slug": "belgium",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 33,
+        "flag": "belgium",
+        "alpha2": "BE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بلجيكا",
+            "ru": "Бельгия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Pro League",
+        "slug": "pro-league",
+        "primaryColorHex": "#16002b",
+        "secondaryColorHex": "#ff1740",
+        "category": {
+          "name": "Belgium",
+          "slug": "belgium",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "BE",
+            "alpha3": "BEL",
+            "name": "Belgium",
+            "slug": "belgium"
+          },
+          "id": 33,
+          "flag": "belgium",
+          "alpha2": "BE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بلجيكا",
+              "ru": "Бельгия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 67568,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 38,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري المحترفين",
+            "bn": "প্রো লীগ",
+            "hi": "प्रो लीग"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 496,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 38,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الدوري الأول",
+          "bn": "ফার্স্ট ডিভিশন এ",
+          "hi": "फर्स्ट डिवीजन ए"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Pro League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 77040
+    },
+    "roundInfo": {
+      "round": 24
+    },
+    "customId": "IibsHJfd",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "venue": {
+      "city": {
+        "name": "Waregem"
+      },
+      "venueCoordinates": {
+        "latitude": 50.883065,
+        "longitude": 3.429058
+      },
+      "hidden": true,
+      "slug": "elindus-arena",
+      "name": "Elindus Arena",
+      "capacity": 12414,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 1253,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أرينا إليندوس",
+          "hi": "एलिंडस एरिना",
+          "bn": "এলিন্ডাস এরিনা"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Elindus Arena",
+        "capacity": 12414
+      }
+    },
+    "referee": {
+      "name": "Anthony Letellier",
+      "slug": "anthony-letellier",
+      "yellowCards": 26,
+      "redCards": 0,
+      "yellowRedCards": 0,
+      "games": 9,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 789825,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أنتوني ليتلييه"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "SV Zulte Waregem",
+      "slug": "sv-zulte-waregem",
+      "shortName": "Zulte Waregem",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 14409,
+      "manager": {
+        "name": "Sven Vandenbroeck",
+        "slug": "sven-vandenbroeck",
+        "shortName": "S. Vandenbroeck",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 794986,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سفين فاندنبروك"
+          },
+          "shortNameTranslation": {
+            "ar": "س. فاندنبروك"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Waregem"
+        },
+        "venueCoordinates": {
+          "latitude": 50.883065,
+          "longitude": 3.429058
+        },
+        "hidden": true,
+        "slug": "elindus-arena",
+        "name": "Elindus Arena",
+        "capacity": 12414,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 1253,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أرينا إليندوس",
+            "hi": "एलिंडस एरिना",
+            "bn": "এলিন্ডাস এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Elindus Arena",
+          "capacity": 12414
+        }
+      },
+      "nameCode": "ZUL",
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 2933,
+      "fullName": "SV Zulte Waregem",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#cc0033",
+        "secondary": "#990033",
+        "text": "#990033"
+      },
+      "foundationDateTimestamp": 993945600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "زولت",
+          "ru": "СВ Зульте Варегем"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "FCV Dender",
+      "slug": "fcv-dender-eh",
+      "shortName": "Dender ",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 12478,
+      "manager": {
+        "name": "Hayk Milkon",
+        "slug": "hayk-milkon",
+        "shortName": "H. Milkon",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 800578,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هايك ميلكون"
+          },
+          "shortNameTranslation": {
+            "ar": "هـ. ميلكون"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Denderleeuw"
+        },
+        "venueCoordinates": {
+          "latitude": 50.88506,
+          "longitude": 4.07601
+        },
+        "hidden": true,
+        "slug": "dender-football-complex",
+        "name": "Dender Football Complex",
+        "capacity": 6430,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 3006,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مجمع دندر لكرة القدم",
+            "hi": "डेंडर फुटबॉल कॉम्प्लेक्स",
+            "bn": "ডেন্ডার ফুটবল কমপ্লেক্স"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Dender Football Complex",
+          "capacity": 6430
+        }
+      },
+      "nameCode": "DEN",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 389232,
+      "fullName": "FCV Dender",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#0055ff",
+        "secondary": "#222226",
+        "text": "#222226"
+      },
+      "foundationDateTimestamp": 1120176000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إف سي في ديندر",
+          "ru": "ФКВ Дендер ЕХ"
+        },
+        "shortNameTranslation": {
+          "ar": "ديندر"
+        }
+      },
+      "createdByEditor": true,
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 1,
+      "display": 1,
+      "period1": 0,
+      "period2": 1,
+      "normaltime": 1
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 0,
+      "injuryTime2": 4,
+      "currentPeriodStartTimestamp": 1770480219
+    },
+    "changes": {
+      "changes": [
+        "time.injuryTime2"
+      ],
+      "changeTimestamp": 1770661700
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14032401,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "fcv-dender-sv-zulte-waregem",
+    "currentPeriodStartTimestamp": 1770480219,
+    "startTimestamp": 1770476400,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "club"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rodrigo Gomes",
+        "slug": "gomes-rodrigo",
+        "shortName": "R. Gomes",
+        "position": "M",
+        "jerseyNumber": "21",
+        "userCount": 1227,
+        "gender": "M",
+        "id": 1006073,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوميز، رودريغو",
+            "bn": "গোমেস, রদ্রিগো",
+            "hi": "गोम्स, रोड्रिगो"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. غوميز",
+            "bn": "আর. গোমেস",
+            "hi": "आर. गोम्स"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 6.2,
+        "y": 45.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 14.6
+      },
+      "blockCoordinates": {
+        "x": 0.59999999999999,
+        "y": 47.8,
+        "z": 0
+      },
+      "xg": 0.15051998198032,
+      "xgot": 0.19752733409405,
+      "goalkeeper": {
+        "name": "Robert Sánchez",
+        "slug": "robert-sanchez",
+        "shortName": "R. Sánchez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 18401,
+        "gender": "M",
+        "sofascoreId": "RS1",
+        "id": 920546,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبرت سانشيز",
+            "bn": "রবার্ট সানচেজ",
+            "hi": "रॉबर्ट सांचेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. سانشيز",
+            "bn": "আর. সানচেজ",
+            "hi": "आर. सांचेज़"
+          }
+        }
+      },
+      "id": 6660647,
+      "time": 90,
+      "addedTime": 2,
+      "timeSeconds": 5511,
+      "draw": {
+        "start": {
+          "x": 45.5,
+          "y": 6.2
+        },
+        "block": {
+          "x": 47.8,
+          "y": 0.59999999999999
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 85.4
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 789,
+      "periodTimeSeconds": 111,
+      "incidentType": "shot"
+    }
+  ]
+}

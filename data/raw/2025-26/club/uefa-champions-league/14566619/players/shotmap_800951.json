@@ -1,0 +1,96 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Julian Ryerson",
+        "slug": "julian-ryerson",
+        "shortName": "J. Ryerson",
+        "position": "D",
+        "jerseyNumber": "26",
+        "userCount": 3564,
+        "gender": "M",
+        "id": 800951,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوليان رايرسون"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. رايرسون",
+            "bn": "জে. রায়ারসন",
+            "hi": "जे. रायर्सन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 18.5,
+        "y": 54.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.2,
+        "y": 51.8,
+        "z": 0
+      },
+      "xg": 0.021502736955881,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yann Sommer",
+        "slug": "yann-sommer",
+        "shortName": "Y. Sommer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 12658,
+        "gender": "M",
+        "sofascoreId": "yannsommer",
+        "id": 16206,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يان زومر",
+            "bn": "জন সোমার",
+            "hi": "यान सोमर"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. زومر",
+            "bn": "ওয়াই. সোমার",
+            "hi": "वाई. सोमर"
+          }
+        }
+      },
+      "id": 6602348,
+      "time": 11,
+      "timeSeconds": 618,
+      "draw": {
+        "start": {
+          "x": 54.3,
+          "y": 18.5
+        },
+        "block": {
+          "x": 51.8,
+          "y": 7.2
+        },
+        "end": {
+          "x": 50.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2082,
+      "periodTimeSeconds": 618,
+      "incidentType": "shot"
+    }
+  ]
+}

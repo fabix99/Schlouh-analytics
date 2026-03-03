@@ -1,0 +1,402 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1189676,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 61644
+    },
+    "roundInfo": {
+      "round": 1
+    },
+    "customId": "RsLdb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 22858,
+    "venue": {
+      "city": {
+        "name": "Bergamo"
+      },
+      "venueCoordinates": {
+        "latitude": 45.709207,
+        "longitude": 9.680833
+      },
+      "hidden": false,
+      "slug": "gewiss-stadium",
+      "name": "New Balance Arena",
+      "capacity": 23439,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 588,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب جويس",
+          "hi": "गेविस स्टेडियम",
+          "bn": "গিউইস স্টেডিয়াম"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "New Balance Arena",
+        "capacity": 23439
+      }
+    },
+    "referee": {
+      "name": "Clement Turpin",
+      "slug": "clement-turpin",
+      "yellowCards": 1726,
+      "redCards": 99,
+      "yellowRedCards": 36,
+      "games": 509,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 52599,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كليمنت توربين",
+          "bn": "ক্লিমেন্ট টারপিন",
+          "hi": "क्लेमेंट टर्पिन"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "shortName": "Atalanta",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 627481,
+      "manager": {
+        "name": "Raffaele Palladino",
+        "slug": "raffaele-palladino",
+        "shortName": "R. Palladino",
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 798965,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رافاييل بالادينو"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. بالادينو"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bergamo"
+        },
+        "venueCoordinates": {
+          "latitude": 45.709207,
+          "longitude": 9.680833
+        },
+        "hidden": false,
+        "slug": "gewiss-stadium",
+        "name": "New Balance Arena",
+        "capacity": 23439,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 588,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب جويس",
+            "hi": "गेविस स्टेडियम",
+            "bn": "গিউইস স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "New Balance Arena",
+          "capacity": 23439
+        }
+      },
+      "nameCode": "ATA",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2686,
+      "fullName": "Atalanta",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#0000cc",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -1963180800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أتالانتا",
+          "bn": "আটলান্টা",
+          "hi": "अटलांटा",
+          "ru": "Аталанта"
+        },
+        "shortNameTranslation": {
+          "ar": "أتالانتا"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "shortName": "Arsenal",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 3121111,
+      "manager": {
+        "name": "Mikel Arteta",
+        "slug": "mikel-arteta",
+        "shortName": "M. Arteta",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 794075,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميكيل أرتيتا",
+            "bn": "মিকেল আর্তেতা",
+            "hi": "मिकेल आर्टेटा"
+          },
+          "shortNameTranslation": {
+            "ar": "م. أرتيتا",
+            "bn": "এম. আরতেতা",
+            "hi": "एम. आर्टेटा"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "London"
+        },
+        "venueCoordinates": {
+          "latitude": 51.55504,
+          "longitude": -0.1084
+        },
+        "hidden": false,
+        "slug": "emirates-stadium",
+        "name": "Emirates Stadium",
+        "capacity": 60704,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 624,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب الإمارات",
+            "hi": "एमिरेट्स स्टेडियम",
+            "bn": "এমিরেটস স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Emirates Stadium",
+          "capacity": 60704
+        }
+      },
+      "nameCode": "ARS",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 42,
+      "fullName": "Arsenal",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2627164800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ارسنال",
+          "bn": "আর্সেনাল",
+          "hi": "आर्सेनल",
+          "ru": "Арсенал"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 4,
+      "currentPeriodStartTimestamp": 1726776153
+    },
+    "changes": {
+      "changes": [
+        "time.injuryTime2",
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1726779114
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12763970,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "atalanta-arsenal",
+    "currentPeriodStartTimestamp": 1726776153,
+    "startTimestamp": 1726772400,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

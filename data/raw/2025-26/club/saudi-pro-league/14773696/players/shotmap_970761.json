@@ -1,0 +1,84 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jamal Harkass",
+        "slug": "jamal-harkass",
+        "shortName": "J. Harkass",
+        "position": "D",
+        "jerseyNumber": "15",
+        "userCount": 1136,
+        "gender": "M",
+        "id": 970761,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جمال حركس"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حركس"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 4,
+        "y": 59.7,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.3,
+        "z": 29.1
+      },
+      "xg": 0.089492335915565,
+      "xgot": 0.33644312620163,
+      "goalkeeper": {
+        "name": "Bento",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bento",
+        "shortName": "Bento",
+        "position": "G",
+        "jerseyNumber": "24",
+        "userCount": 9828,
+        "gender": "M",
+        "sofascoreId": "bento_matheus",
+        "id": 1016104,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بينتو"
+          },
+          "shortNameTranslation": {
+            "ar": "بينتو"
+          }
+        }
+      },
+      "id": 6562412,
+      "time": 68,
+      "timeSeconds": 4025,
+      "draw": {
+        "start": {
+          "x": 59.7,
+          "y": 4
+        },
+        "end": {
+          "x": 50.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.7,
+          "y": 70.9
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1375,
+      "periodTimeSeconds": 1325,
+      "incidentType": "shot"
+    }
+  ]
+}

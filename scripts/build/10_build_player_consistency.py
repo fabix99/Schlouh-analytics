@@ -39,6 +39,7 @@ def main():
                 row[s.replace("stat_", "") + "_cv"] = (std / mu) if mu and mu != 0 else np.nan
         if "stat_rating" in g.columns:
             r = g["stat_rating"].dropna()
+            r = r / 2.0 if r.max() > 10 else r  # Sofascore 0–10; normalize if source is 0–20
             row["rating_mean"] = r.mean()
             row["rating_std"] = r.std() if len(r) > 1 else np.nan
             row["rating_cv"] = (row["rating_std"] / row["rating_mean"]) if row["rating_mean"] and row["rating_mean"] != 0 else np.nan

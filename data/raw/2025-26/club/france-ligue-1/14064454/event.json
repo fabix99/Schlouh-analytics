@@ -1,0 +1,425 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": true,
+    "tournament": {
+      "name": "Ligue 1",
+      "slug": "ligue-1",
+      "category": {
+        "name": "France",
+        "slug": "france",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 7,
+        "flag": "france",
+        "alpha2": "FR",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "hi": "फ्रांस",
+            "ar": "فرنسا",
+            "bn": "ফ্রান্স",
+            "ru": "Франция"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Ligue 1",
+        "slug": "ligue-1",
+        "primaryColorHex": "#091c3e",
+        "secondaryColorHex": "#a9c011",
+        "category": {
+          "name": "France",
+          "slug": "france",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+          },
+          "id": 7,
+          "flag": "france",
+          "alpha2": "FR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "hi": "फ्रांस",
+              "ar": "فرنسا",
+              "bn": "ফ্রান্স",
+              "ru": "Франция"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 414471,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 34,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "লীগ 1",
+            "ar": "الدوري الفرنسي",
+            "hi": "लीग 1"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 694,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 4,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "bn": "লীগ 1",
+          "hi": "लीग 1",
+          "ar": "الدوري الفرنسي 1"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Ligue 1 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 77356
+    },
+    "roundInfo": {
+      "round": 17
+    },
+    "customId": "YHsGI",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 30266,
+    "venue": {
+      "city": {
+        "name": "Toulouse"
+      },
+      "venueCoordinates": {
+        "latitude": 43.583226,
+        "longitude": 1.434064
+      },
+      "hidden": false,
+      "slug": "stadium-de-toulouse",
+      "name": "Stadium de Toulouse",
+      "capacity": 33150,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 848,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب تولوز",
+          "hi": "स्टेडियम डे टूलूज़",
+          "bn": "স্টেডিয়াম ডি টুলুজ"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Stadium de Toulouse",
+        "capacity": 33150
+      }
+    },
+    "referee": {
+      "name": "Mathieu Vernice",
+      "slug": "mathieu-vernice",
+      "yellowCards": 494,
+      "redCards": 24,
+      "yellowRedCards": 13,
+      "games": 116,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 787561,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ماتيو فيرنايس",
+          "bn": "ম্যাথিউ ভার্নিস",
+          "hi": "मैथ्यू वर्निस"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Toulouse",
+      "slug": "toulouse",
+      "shortName": "Toulouse",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 79145,
+      "manager": {
+        "name": "Carles Martínez",
+        "slug": "carles-martinez",
+        "shortName": "C. Martínez",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 801070,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارليس مارتينيز"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. مارتينيز"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Toulouse"
+        },
+        "venueCoordinates": {
+          "latitude": 43.583226,
+          "longitude": 1.434064
+        },
+        "hidden": false,
+        "slug": "stadium-de-toulouse",
+        "name": "Stadium de Toulouse",
+        "capacity": 33150,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 848,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب تولوز",
+            "hi": "स्टेडियम डे टूलूज़",
+            "bn": "স্টেডিয়াম ডি টুলুজ"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stadium de Toulouse",
+          "capacity": 33150
+        }
+      },
+      "nameCode": "TFC",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1681,
+      "fullName": "Toulouse",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#660099",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -1041379200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "تولوز",
+          "bn": "টুলুজ",
+          "hi": "टूलूज़",
+          "ru": "Тулуза"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "RC Lens",
+      "slug": "rc-lens",
+      "shortName": "Lens",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 169396,
+      "manager": {
+        "name": "Pierre Sage",
+        "slug": "pierre-sage",
+        "shortName": "P. Sage",
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 803012,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيير ساج",
+            "bn": "পিয়ের সেজ",
+            "hi": "पियरे सेज"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. ساج",
+            "bn": "পি. সেজ",
+            "hi": "पी. सेज"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Lens"
+        },
+        "venueCoordinates": {
+          "latitude": 50.43281,
+          "longitude": 2.814988
+        },
+        "hidden": false,
+        "slug": "stade-bollaert-delelis",
+        "name": "Stade Bollaert-Delelis",
+        "capacity": 38223,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 835,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب بولارت-ديليليس",
+            "hi": "स्टेड बोलेर्ट-डेलेलिस",
+            "bn": "স্টেড বোলার্ট-ডেলিলিস"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stade Bollaert-Delelis",
+          "capacity": 38223
+        }
+      },
+      "nameCode": "RCL",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1648,
+      "fullName": "RC Lens",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#a71a1b",
+        "secondary": "#ffce00",
+        "text": "#ffce00"
+      },
+      "foundationDateTimestamp": -2019686400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "لينس",
+          "bn": "লেন্স",
+          "hi": "लेंस",
+          "ru": "Ланс"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 0,
+      "period2": 3,
+      "normaltime": 3
+    },
+    "time": {
+      "injuryTime1": 4,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1767387120
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1767390599
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14064454,
+    "homeRedCards": 1,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "toulouse-rc-lens",
+    "currentPeriodStartTimestamp": 1767387120,
+    "startTimestamp": 1767383100,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "club"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

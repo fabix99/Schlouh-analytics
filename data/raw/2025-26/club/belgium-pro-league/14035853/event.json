@@ -1,0 +1,405 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "tournament": {
+      "name": "Pro League",
+      "slug": "pro-league",
+      "category": {
+        "name": "Belgium",
+        "slug": "belgium",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 33,
+        "flag": "belgium",
+        "alpha2": "BE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بلجيكا",
+            "ru": "Бельгия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Pro League",
+        "slug": "pro-league",
+        "primaryColorHex": "#16002b",
+        "secondaryColorHex": "#ff1740",
+        "category": {
+          "name": "Belgium",
+          "slug": "belgium",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "BE",
+            "alpha3": "BEL",
+            "name": "Belgium",
+            "slug": "belgium"
+          },
+          "id": 33,
+          "flag": "belgium",
+          "alpha2": "BE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بلجيكا",
+              "ru": "Бельгия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 67524,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 38,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري المحترفين",
+            "bn": "প্রো লীগ",
+            "hi": "प्रो लीग"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 496,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 38,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الدوري الأول",
+          "bn": "ফার্স্ট ডিভিশন এ",
+          "hi": "फर्स्ट डिवीजन ए"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Pro League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 77040
+    },
+    "roundInfo": {
+      "round": 4
+    },
+    "customId": "bibskXb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "venue": {
+      "city": {
+        "name": "Saint-Gilles"
+      },
+      "venueCoordinates": {
+        "latitude": 50.8287,
+        "longitude": 4.34419
+      },
+      "hidden": false,
+      "slug": "stade-joseph-marien",
+      "name": "Stade Joseph Marien",
+      "capacity": 9400,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 16279,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب جوزيف مارين",
+          "hi": "स्टेड जोसेफ मैरिएन",
+          "bn": "স্টেড জোসেফ মারিয়েন"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Stade Joseph Marien",
+        "capacity": 9400
+      }
+    },
+    "referee": {
+      "name": "Bram Van Driessche",
+      "slug": "bram-van-driessche",
+      "yellowCards": 1180,
+      "redCards": 27,
+      "yellowRedCards": 27,
+      "games": 264,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 369764,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "برام فان درييش",
+          "bn": "ব্রাম ভ্যান ড্রেসচে",
+          "hi": "ब्रैम वान ड्रिस्शे"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Royale Union Saint-Gilloise",
+      "slug": "royale-union-saint-gilloise",
+      "shortName": "USG",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 173603,
+      "manager": {
+        "name": "David Hubert",
+        "slug": "david-hubert",
+        "shortName": "D. Hubert",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 806787,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد هوبرت"
+          },
+          "shortNameTranslation": {
+            "ar": "د. هوبرت"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Saint-Gilles"
+        },
+        "venueCoordinates": {
+          "latitude": 50.8287,
+          "longitude": 4.34419
+        },
+        "hidden": false,
+        "slug": "stade-joseph-marien",
+        "name": "Stade Joseph Marien",
+        "capacity": 9400,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 16279,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب جوزيف مارين",
+            "hi": "स्टेड जोसेफ मैरिएन",
+            "bn": "স্টেড জোসেফ মারিয়েন"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stade Joseph Marien",
+          "capacity": 9400
+        }
+      },
+      "nameCode": "USG",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 4860,
+      "fullName": "Royale Union Saint-Gilloise",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffec06",
+        "secondary": "#1649fa",
+        "text": "#1649fa"
+      },
+      "foundationDateTimestamp": -2277331200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "رويال يونيون سان جيلواز",
+          "ru": "Сент-Жиллуаз"
+        },
+        "shortNameTranslation": {
+          "ar": "رويال يونيون",
+          "bn": "ইউএসজি",
+          "hi": "यूएसजी"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Standard Liège",
+      "slug": "standard-liege",
+      "shortName": "Standard Liège",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 33922,
+      "manager": {
+        "name": "Vincent Euvrard",
+        "slug": "vincent-euvrard",
+        "shortName": "V. Euvrard",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 786937,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فنسنت أوفرا"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. أوفرا"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Liege"
+        },
+        "venueCoordinates": {
+          "latitude": 50.609873,
+          "longitude": 5.543512
+        },
+        "hidden": true,
+        "slug": "maurice-dufrasne",
+        "name": "Maurice Dufrasne",
+        "capacity": 27670,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 1133,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب موريس دوفراسن",
+            "hi": "मौरिस डुफ्रासने",
+            "bn": "মরিস ডুফ্রাসনে"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Maurice Dufrasne",
+          "capacity": 27670
+        }
+      },
+      "nameCode": "STA",
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 2901,
+      "fullName": "Standard Liège",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2201212800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ستاندرد لييج",
+          "bn": "স্ট্যান্ডার্ড লিজ",
+          "hi": "स्टैंडर्ड लीज",
+          "ru": "Стандард"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 1,
+      "period2": 2,
+      "normaltime": 3
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 3,
+      "injuryTime2": 3,
+      "currentPeriodStartTimestamp": 1755373837
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1755376729
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14035853,
+    "awayRedCards": 1,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "royale-union-saint-gilloise-standard-liege",
+    "currentPeriodStartTimestamp": 1755373837,
+    "startTimestamp": 1755369900,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1184603,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76953
+    },
+    "roundInfo": {
+      "round": 2
+    },
+    "customId": "qUsXdb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 62317,
+    "venue": {
+      "city": {
+        "name": "Milan"
+      },
+      "venueCoordinates": {
+        "latitude": 45.4782,
+        "longitude": 9.123964
+      },
+      "hidden": false,
+      "slug": "san-siro-giuseppe-meazza",
+      "name": "San Siro/Giuseppe Meazza",
+      "capacity": 75817,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 647,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سان سيرو / جوزيبي مياتزا",
+          "hi": "सैन सिरो/गिउसेप्पे मेआज़ा",
+          "bn": "সান সিরো/জিউসেপ মেজা"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "San Siro/Giuseppe Meazza",
+        "capacity": 75817
+      }
+    },
+    "referee": {
+      "name": "Chris Kavanagh",
+      "slug": "chris-kavanagh",
+      "yellowCards": 1333,
+      "redCards": 30,
+      "yellowRedCards": 13,
+      "games": 364,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 107059,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كريس كافاناغ",
+          "bn": "ক্রিস কাভানাঘ",
+          "hi": "क्रिस कवानाघ"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Inter",
+      "slug": "inter",
+      "shortName": "Inter",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 1851190,
+      "manager": {
+        "name": "Cristian Chivu",
+        "slug": "cristian-chivu",
+        "shortName": "C. Chivu",
+        "country": {
+          "alpha2": "RO",
+          "alpha3": "ROU",
+          "name": "Romania",
+          "slug": "romania"
+        },
+        "id": 796298,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستيان تشيفو"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. تشيفو"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Milan"
+        },
+        "venueCoordinates": {
+          "latitude": 45.4782,
+          "longitude": 9.123964
+        },
+        "hidden": false,
+        "slug": "san-siro-giuseppe-meazza",
+        "name": "San Siro/Giuseppe Meazza",
+        "capacity": 75817,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 647,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سان سيرو / جوزيبي مياتزا",
+            "hi": "सैन सिरो/गिउसेप्पे मेआज़ा",
+            "bn": "সান সিরো/জিউসেপ মেজা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "San Siro/Giuseppe Meazza",
+          "capacity": 75817
+        }
+      },
+      "nameCode": "INT",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2697,
+      "fullName": "Inter",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#1a57cc",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -1950739200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "انتر",
+          "bn": "ইন্টার",
+          "hi": "इंटर",
+          "ru": "Интер"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "SK Slavia Praha",
+      "slug": "slavia-praha",
+      "shortName": "Slavia Praha",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 125859,
+      "manager": {
+        "name": "Jindřich Trpišovský",
+        "slug": "jindrich-trpisovsky",
+        "shortName": "J. Trpišovský",
+        "country": {
+          "alpha2": "CZ",
+          "alpha3": "CZE",
+          "name": "Czechia",
+          "slug": "czechia"
+        },
+        "id": 261843,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يندريخ تربيشوفسكي",
+            "bn": "জিন্ড্রিচ ত্রিপিসোভস্কি",
+            "hi": "जिन्द्रीच त्रिपिसोव्स्की"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. تربيشوفسكي",
+            "bn": "জে. ত্রিপিসোভস্কি",
+            "hi": "जे. त्रिपिसोव्स्की"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Prague"
+        },
+        "venueCoordinates": {
+          "latitude": 50.067494,
+          "longitude": 14.470696
+        },
+        "hidden": false,
+        "slug": "fortuna-arena",
+        "name": "Fortuna Arena",
+        "capacity": 19370,
+        "country": {
+          "alpha2": "CZ",
+          "alpha3": "CZE",
+          "name": "Czechia",
+          "slug": "czechia"
+        },
+        "id": 1266,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فورتونا أرينا",
+            "hi": "फ़ोर्टुना एरिना",
+            "bn": "ফরচুনা এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Fortuna Arena",
+          "capacity": 19370
+        }
+      },
+      "nameCode": "SLA",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "CZ",
+        "alpha3": "CZE",
+        "name": "Czechia",
+        "slug": "czechia"
+      },
+      "id": 2216,
+      "fullName": "SK Slavia Praha",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#e10000",
+        "text": "#e10000"
+      },
+      "foundationDateTimestamp": -2435011200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سلافيا براغ",
+          "bn": "স্লাভিয়া প্রাহা",
+          "hi": "स्लाविया प्राहा",
+          "ru": "Славия Прага"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 2,
+      "period2": 1,
+      "normaltime": 3
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 3,
+      "currentPeriodStartTimestamp": 1759262551
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1759265443
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14566613,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "inter-sk-slavia-praha",
+    "currentPeriodStartTimestamp": 1759262551,
+    "startTimestamp": 1759258800,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

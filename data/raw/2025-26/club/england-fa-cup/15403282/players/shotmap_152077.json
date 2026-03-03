@@ -1,0 +1,83 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "John Stones",
+        "slug": "john-stones",
+        "shortName": "J. Stones",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 22165,
+        "gender": "M",
+        "sofascoreId": "johnstones5",
+        "id": 152077,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جون ستونز",
+            "bn": "জন স্টোনস",
+            "hi": "जॉन स्टोन्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ستونز",
+            "bn": "জে. স্টোনস",
+            "hi": "जे. स्टोन्स"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 4.9,
+        "y": 58.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 41.8,
+        "z": 48.6
+      },
+      "goalkeeper": {
+        "name": "Matthew Young",
+        "slug": "young-matthew",
+        "shortName": "M. Young",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 144,
+        "gender": "M",
+        "id": 1471477,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يونغ، ماثيو"
+          },
+          "shortNameTranslation": {
+            "ar": "م. يونغ"
+          }
+        }
+      },
+      "id": 6708235,
+      "time": 51,
+      "timeSeconds": 3043,
+      "draw": {
+        "start": {
+          "x": 58.7,
+          "y": 4.9
+        },
+        "end": {
+          "x": 58.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 58.2,
+          "y": 51.4
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2357,
+      "periodTimeSeconds": 343,
+      "incidentType": "shot"
+    }
+  ]
+}

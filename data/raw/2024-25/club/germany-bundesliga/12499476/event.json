@@ -1,0 +1,415 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Bundesliga",
+      "slug": "bundesliga",
+      "category": {
+        "name": "Germany",
+        "slug": "germany",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 30,
+        "flag": "germany",
+        "alpha2": "DE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألمانيا",
+            "bn": "জার্মানি",
+            "hi": "जर्मनी",
+            "ru": "Германия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Bundesliga",
+        "slug": "bundesliga",
+        "primaryColorHex": "#e2080e",
+        "secondaryColorHex": "#8e0902",
+        "category": {
+          "name": "Germany",
+          "slug": "germany",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "DE",
+            "alpha3": "DEU",
+            "name": "Germany",
+            "slug": "germany"
+          },
+          "id": 30,
+          "flag": "germany",
+          "alpha2": "DE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألمانيا",
+              "bn": "জার্মানি",
+              "hi": "जर्मनी",
+              "ru": "Германия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 508922,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 35,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "বুন্দেসলীগা",
+            "ar": "الدوري الألماني",
+            "hi": "बुंडेसलीगा"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 695,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 42,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "बुंडेसलीगा",
+          "ar": "الدوري الألماني",
+          "bn": "বুন্দেসলীগা"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Bundesliga 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 63516
+    },
+    "roundInfo": {
+      "round": 29
+    },
+    "customId": "zabskCo",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 23070,
+    "venue": {
+      "city": {
+        "name": "Wolfsburg"
+      },
+      "venueCoordinates": {
+        "latitude": 52.432858,
+        "longitude": 10.803104
+      },
+      "hidden": false,
+      "slug": "volkswagen-arena",
+      "name": "Volkswagen Arena",
+      "capacity": 30000,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 816,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فولكس فاجن أرينا",
+          "hi": "वोक्सवैगन एरिना",
+          "bn": "ভক্সওয়াগেন এরিনা"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Volkswagen Arena",
+        "capacity": 30000
+      }
+    },
+    "referee": {
+      "name": "Florian Exner",
+      "slug": "exner-florian",
+      "yellowCards": 698,
+      "redCards": 17,
+      "yellowRedCards": 28,
+      "games": 167,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 325229,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فلوريان إكزنر"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "VfL Wolfsburg",
+      "slug": "vfl-wolfsburg",
+      "shortName": "Wolfsburg",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 102056,
+      "manager": {
+        "name": "Daniel Bauer",
+        "slug": "daniel-bauer",
+        "shortName": "D. Bauer",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 810783,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دانيال باوير"
+          },
+          "shortNameTranslation": {
+            "ar": "د. باوير"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Wolfsburg"
+        },
+        "venueCoordinates": {
+          "latitude": 52.432858,
+          "longitude": 10.803104
+        },
+        "hidden": false,
+        "slug": "volkswagen-arena",
+        "name": "Volkswagen Arena",
+        "capacity": 30000,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 816,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فولكس فاجن أرينا",
+            "hi": "वोक्सवैगन एरिना",
+            "bn": "ভক্সওয়াগেন এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Volkswagen Arena",
+          "capacity": 30000
+        }
+      },
+      "nameCode": "WOB",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2524,
+      "fullName": "VfL Wolfsburg",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#64b42d",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -766972800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نادي فولفسبورغ",
+          "hi": "विऍफ़ऐल वोल्फ्सबर्ग",
+          "ru": "Вольфсбург"
+        },
+        "shortNameTranslation": {
+          "ar": "ولفسبورج",
+          "bn": "ওল্ফসবার্গ",
+          "hi": "वोल्फ्सबर्ग"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "RB Leipzig",
+      "slug": "rb-leipzig",
+      "shortName": "Leipzig",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 393637,
+      "manager": {
+        "name": "Ole Werner",
+        "slug": "ole-werner",
+        "shortName": "O. Werner",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 787224,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أولي فيرنر",
+            "bn": "ওলে ওয়ার্নার",
+            "hi": "ओले वर्नर"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فيرنر",
+            "bn": "ও. ওয়ার্নার",
+            "hi": "ओ. वर्नर"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Leipzig"
+        },
+        "venueCoordinates": {
+          "latitude": 51.345708,
+          "longitude": 12.348236
+        },
+        "hidden": false,
+        "slug": "red-bull-arena",
+        "name": "Red Bull Arena",
+        "capacity": 47069,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 850,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رد بول أرينا",
+            "hi": "रेड बुल एरिना",
+            "bn": "রেড বুল এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Red Bull Arena",
+          "capacity": 47069
+        }
+      },
+      "nameCode": "RBL",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 36360,
+      "fullName": "RB Leipzig",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#dd0000",
+        "text": "#dd0000"
+      },
+      "foundationDateTimestamp": 1242691200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "آر بي لايبزيغ",
+          "hi": "RB लैपज़िग",
+          "ru": "РБ Лейпциг"
+        },
+        "shortNameTranslation": {
+          "ar": "لايبزيغ",
+          "bn": "লিপজিগ",
+          "hi": "लीपज़िग"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 2,
+      "period2": 1,
+      "normaltime": 3
+    },
+    "time": {
+      "injuryTime1": 2,
+      "injuryTime2": 5,
+      "currentPeriodStartTimestamp": 1744399987
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1744402997
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12499476,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "rb-leipzig-vfl-wolfsburg",
+    "currentPeriodStartTimestamp": 1744399987,
+    "startTimestamp": 1744396200,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

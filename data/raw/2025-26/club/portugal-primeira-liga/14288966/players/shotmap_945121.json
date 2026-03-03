@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rodrigo Conceição",
+        "firstName": "",
+        "lastName": "",
+        "slug": "rodrigo-conceicao",
+        "shortName": "R. Conceição",
+        "position": "D",
+        "jerseyNumber": "27",
+        "userCount": 253,
+        "gender": "M",
+        "id": 945121,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رودريغو كونسيساو",
+            "bn": "রদ্রিগো কনসিকাও",
+            "hi": "रोड्रिगो कोन्सेसाओ"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. كونسيساو",
+            "bn": "আর. কনসেনসিও",
+            "hi": "आर. कोन्सेसाओ"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 18.8,
+        "y": 51.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.7,
+        "z": 17.7
+      },
+      "blockCoordinates": {
+        "x": 2.3,
+        "y": 50.4,
+        "z": 0
+      },
+      "xg": 0.045793604105711,
+      "xgot": 0.015166882425547,
+      "goalkeeper": {
+        "name": "Anatoliy Trubin",
+        "slug": "anatoliy-trubin",
+        "shortName": "A. Trubin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9736,
+        "gender": "M",
+        "sofascoreId": "anatoliytrubin81",
+        "id": 966616,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أناتولي تروبين",
+            "bn": "আনাতোলি ট্রুবিন",
+            "hi": "अनातोली ट्रुबिन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. تروبين",
+            "bn": "এ. ট্রুবিন",
+            "hi": "ए. ट्रुबिन"
+          }
+        }
+      },
+      "id": 6627379,
+      "time": 12,
+      "timeSeconds": 697,
+      "draw": {
+        "start": {
+          "x": 51.1,
+          "y": 18.8
+        },
+        "block": {
+          "x": 50.4,
+          "y": 2.3
+        },
+        "end": {
+          "x": 50.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.3,
+          "y": 82.3
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2003,
+      "periodTimeSeconds": 697,
+      "incidentType": "shot"
+    }
+  ]
+}

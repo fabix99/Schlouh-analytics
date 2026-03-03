@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Vitinho",
+        "slug": "vitinho",
+        "shortName": "Vitinho",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 4089,
+        "gender": "M",
+        "id": 242054,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيتينهو",
+            "bn": "ভিতিনহো",
+            "hi": "विटिन्हो"
+          },
+          "shortNameTranslation": {
+            "ar": "فيتينهو",
+            "bn": "ভিতিনহো",
+            "hi": "विटिन्हो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 19.1,
+        "y": 30.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.1,
+        "z": 16.7
+      },
+      "blockCoordinates": {
+        "x": 17.6,
+        "y": 32.5,
+        "z": 0
+      },
+      "xg": 0.016003146767616,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronaldo",
+        "slug": "ronaldo",
+        "shortName": "Ronaldo",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1027,
+        "gender": "M",
+        "id": 840106,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونالدو"
+          },
+          "shortNameTranslation": {
+            "ar": "رونالدو"
+          }
+        }
+      },
+      "id": 6603449,
+      "time": 90,
+      "addedTime": 2,
+      "timeSeconds": 5515,
+      "draw": {
+        "start": {
+          "x": 30.7,
+          "y": 19.1
+        },
+        "block": {
+          "x": 32.5,
+          "y": 17.6
+        },
+        "end": {
+          "x": 50.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.9,
+          "y": 83.3
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 785,
+      "periodTimeSeconds": 115,
+      "incidentType": "shot"
+    }
+  ]
+}

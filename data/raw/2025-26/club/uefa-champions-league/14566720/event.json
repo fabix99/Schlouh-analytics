@@ -1,0 +1,415 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1189818,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76953
+    },
+    "roundInfo": {
+      "round": 8
+    },
+    "customId": "Rsxdc",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 50200,
+    "venue": {
+      "city": {
+        "name": "London"
+      },
+      "venueCoordinates": {
+        "latitude": 51.55504,
+        "longitude": -0.1084
+      },
+      "hidden": false,
+      "slug": "emirates-stadium",
+      "name": "Emirates Stadium",
+      "capacity": 60704,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 624,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب الإمارات",
+          "hi": "एमिरेट्स स्टेडियम",
+          "bn": "এমিরেটস স্টেডিয়াম"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Emirates Stadium",
+        "capacity": 60704
+      }
+    },
+    "referee": {
+      "name": "Urs Schnyder",
+      "slug": "schnyder-urs",
+      "yellowCards": 1295,
+      "redCards": 25,
+      "yellowRedCards": 33,
+      "games": 309,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "CH",
+        "alpha3": "CHE",
+        "name": "Switzerland",
+        "slug": "switzerland"
+      },
+      "id": 180269,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "شنايدر، أورس",
+          "bn": "স্নাইডার, উরস",
+          "hi": "श्नाइडर, उर्स"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "shortName": "Arsenal",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 3121511,
+      "manager": {
+        "name": "Mikel Arteta",
+        "slug": "mikel-arteta",
+        "shortName": "M. Arteta",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 794075,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميكيل أرتيتا",
+            "bn": "মিকেল আর্তেতা",
+            "hi": "मिकेल आर्टेटा"
+          },
+          "shortNameTranslation": {
+            "ar": "م. أرتيتا",
+            "bn": "এম. আরতেতা",
+            "hi": "एम. आर्टेटा"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "London"
+        },
+        "venueCoordinates": {
+          "latitude": 51.55504,
+          "longitude": -0.1084
+        },
+        "hidden": false,
+        "slug": "emirates-stadium",
+        "name": "Emirates Stadium",
+        "capacity": 60704,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 624,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب الإمارات",
+            "hi": "एमिरेट्स स्टेडियम",
+            "bn": "এমিরেটস স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Emirates Stadium",
+          "capacity": 60704
+        }
+      },
+      "nameCode": "ARS",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 42,
+      "fullName": "Arsenal",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2627164800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ارسنال",
+          "bn": "আর্সেনাল",
+          "hi": "आर्सेनल",
+          "ru": "Арсенал"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "shortName": "Kairat",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 82292,
+      "manager": {
+        "name": "Rafael Urazbakhtin",
+        "slug": "rafael-urazbakhtin",
+        "shortName": "R. Urazbakhtin",
+        "country": {
+          "alpha2": "KZ",
+          "alpha3": "KAZ",
+          "name": "Kazakhstan",
+          "slug": "kazakhstan"
+        },
+        "id": 805008,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رافائيل أوزراباختين"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. أوزراباختين"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Almaty"
+        },
+        "venueCoordinates": {
+          "latitude": 43.238371230402,
+          "longitude": 76.924166976535
+        },
+        "hidden": false,
+        "slug": "central-stadium",
+        "name": "Central Stadium",
+        "capacity": 23804,
+        "country": {
+          "alpha2": "KZ",
+          "alpha3": "KAZ",
+          "name": "Kazakhstan",
+          "slug": "kazakhstan"
+        },
+        "id": 952,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الملعب المركزي",
+            "hi": "सेंट्रल स्टेडियम",
+            "bn": "সেন্ট্রাল স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Central Stadium",
+          "capacity": 23804
+        }
+      },
+      "nameCode": "ALM",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "KZ",
+        "alpha3": "KAZ",
+        "name": "Kazakhstan",
+        "slug": "kazakhstan"
+      },
+      "id": 5172,
+      "fullName": "Kairat Almaty",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#ffeb3b",
+        "text": "#ffeb3b"
+      },
+      "foundationDateTimestamp": -504921600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كايرات ألماتي",
+          "ru": "Кайрат Алматы"
+        },
+        "shortNameTranslation": {
+          "ar": "كايرات",
+          "bn": "কাইরাত",
+          "hi": "कैरात"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 3,
+      "period2": 0,
+      "normaltime": 3
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 3,
+      "injuryTime2": 3,
+      "currentPeriodStartTimestamp": 1769634252
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type",
+        "awayScore.normaltime"
+      ],
+      "changeTimestamp": 1769637198
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14566720,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "kairat-almaty-arsenal",
+    "currentPeriodStartTimestamp": 1769634252,
+    "startTimestamp": 1769630400,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "club"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

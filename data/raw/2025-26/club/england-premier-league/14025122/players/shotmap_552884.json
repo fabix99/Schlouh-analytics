@@ -1,0 +1,176 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jarrod Bowen",
+        "slug": "jarrod-bowen",
+        "shortName": "J. Bowen",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 9051,
+        "gender": "M",
+        "sofascoreId": "jarrodbowen",
+        "id": 552884,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جارود بوين",
+            "bn": "জারড বোয়েন",
+            "hi": "जारोड बोवेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بوين",
+            "bn": "জে. বোয়েন",
+            "hi": "जे. बोवेन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.9,
+        "z": 0.6
+      },
+      "xg": 0.7884,
+      "xgot": 0.90778785943985,
+      "goalkeeper": {
+        "name": "Robin Roefs",
+        "slug": "robin-roefs",
+        "shortName": "R. Roefs",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 2202,
+        "gender": "M",
+        "id": 1012928,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن روفس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. روفس"
+          }
+        }
+      },
+      "id": 6578787,
+      "time": 28,
+      "timeSeconds": 1658,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 54.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.1,
+          "y": 99.4
+        }
+      },
+      "reversedPeriodTime": 18,
+      "reversedPeriodTimeSeconds": 1042,
+      "periodTimeSeconds": 1658,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Jarrod Bowen",
+        "slug": "jarrod-bowen",
+        "shortName": "J. Bowen",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 9051,
+        "gender": "M",
+        "sofascoreId": "jarrodbowen",
+        "id": 552884,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جارود بوين",
+            "bn": "জারড বোয়েন",
+            "hi": "जारोड बोवेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بوين",
+            "bn": "জে. বোয়েন",
+            "hi": "जे. बोवेन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.5,
+        "y": 55.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.8,
+        "y": 53.8,
+        "z": 0
+      },
+      "xg": 0.048363693058491,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Robin Roefs",
+        "slug": "robin-roefs",
+        "shortName": "R. Roefs",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 2202,
+        "gender": "M",
+        "id": 1012928,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن روفس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. روفس"
+          }
+        }
+      },
+      "id": 6578732,
+      "time": 17,
+      "timeSeconds": 962,
+      "draw": {
+        "start": {
+          "x": 55.8,
+          "y": 18.5
+        },
+        "block": {
+          "x": 53.8,
+          "y": 13.8
+        },
+        "end": {
+          "x": 47.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1738,
+      "periodTimeSeconds": 962,
+      "incidentType": "shot"
+    }
+  ]
+}

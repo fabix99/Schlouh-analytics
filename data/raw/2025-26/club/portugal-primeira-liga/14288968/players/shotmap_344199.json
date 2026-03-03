@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rúben Semedo",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ruben-semedo",
+        "shortName": "R. Semedo",
+        "position": "D",
+        "jerseyNumber": "35",
+        "userCount": 298,
+        "gender": "M",
+        "id": 344199,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبين سيميدو",
+            "bn": "রুবেন সেমেডো",
+            "hi": "रुबेन सेमेदो"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. سيميدو",
+            "bn": "আর. সেমেডো",
+            "hi": "आर. सेमेदो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 10.9,
+        "y": 46.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 1.9,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.057511795312166,
+      "xgot": 0.11451493948698,
+      "goalkeeper": {
+        "name": "Lukáš Horníček",
+        "slug": "lukas-hornicek",
+        "shortName": "L. Horníček",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 521,
+        "gender": "M",
+        "id": 963744,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاش هورنيتشيك",
+            "bn": "লুকাস হর্নিসেক",
+            "hi": "लुकास हॉर्निसेक"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. هورنيتشيك",
+            "bn": "এল. হর্নিক",
+            "hi": "एल. हॉर्निसेक"
+          }
+        }
+      },
+      "id": 6633132,
+      "time": 25,
+      "timeSeconds": 1498,
+      "draw": {
+        "start": {
+          "x": 46.2,
+          "y": 10.9
+        },
+        "block": {
+          "x": 49.8,
+          "y": 1.9
+        },
+        "end": {
+          "x": 48.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 21,
+      "reversedPeriodTimeSeconds": 1202,
+      "periodTimeSeconds": 1498,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -140,6 +140,14 @@ def build_player_appearances(matches: pd.DataFrame, also_csv: bool = False) -> p
     if "player_id" in out.columns:
         out["player_id"] = pd.to_numeric(out["player_id"], errors="coerce")
 
+    # Sofascore rating is 0–10; if API/store has 0–20 (or similar), normalize to 0–10
+    if "stat_rating" in out.columns:
+        r = pd.to_numeric(out["stat_rating"], errors="coerce")
+        if r.notna().any() and r.max() > 10:
+            out["stat_rating"] = r / 2.0
+        else:
+            out["stat_rating"] = r
+
     # Add human-readable match date for viz (match_date is Unix timestamp, possibly ms)
     if "match_date" in out.columns:
         out = out.assign(match_date_utc=_safe_match_date_to_utc(out["match_date"]))

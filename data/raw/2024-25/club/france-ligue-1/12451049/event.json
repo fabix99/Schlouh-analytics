@@ -1,0 +1,419 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Ligue 1",
+      "slug": "ligue-1",
+      "category": {
+        "name": "France",
+        "slug": "france",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 7,
+        "flag": "france",
+        "alpha2": "FR",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "hi": "फ्रांस",
+            "ar": "فرنسا",
+            "bn": "ফ্রান্স",
+            "ru": "Франция"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Ligue 1",
+        "slug": "ligue-1",
+        "primaryColorHex": "#091c3e",
+        "secondaryColorHex": "#a9c011",
+        "category": {
+          "name": "France",
+          "slug": "france",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+          },
+          "id": 7,
+          "flag": "france",
+          "alpha2": "FR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "hi": "फ्रांस",
+              "ar": "فرنسا",
+              "bn": "ফ্রান্স",
+              "ru": "Франция"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 414438,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 34,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "লীগ 1",
+            "ar": "الدوري الفرنسي",
+            "hi": "लीग 1"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 694,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 4,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "bn": "লীগ 1",
+          "hi": "लीग 1",
+          "ar": "الدوري الفرنسي 1"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Ligue 1 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 61736
+    },
+    "roundInfo": {
+      "round": 8
+    },
+    "customId": "UHsjI",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 47590,
+    "venue": {
+      "city": {
+        "name": "Paris"
+      },
+      "venueCoordinates": {
+        "latitude": 48.841363,
+        "longitude": 2.253069
+      },
+      "hidden": false,
+      "slug": "parc-des-princes",
+      "name": "Parc des Princes",
+      "capacity": 48583,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 843,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بارك دي برانس",
+          "hi": "पार्क डेस प्रिंसेस",
+          "bn": "পার্ক দেস প্রিন্সেস"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Parc des Princes",
+        "capacity": 48583
+      }
+    },
+    "referee": {
+      "name": "Jeremy Stinat",
+      "slug": "jeremy-stinat",
+      "yellowCards": 742,
+      "redCards": 27,
+      "yellowRedCards": 14,
+      "games": 207,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 785348,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "جيريمي ستينات",
+          "bn": "জেরেমি স্টিনাট",
+          "hi": "जेरेमी स्टिनैट"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Paris Saint-Germain",
+      "slug": "paris-saint-germain",
+      "shortName": "PSG",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 2880711,
+      "manager": {
+        "name": "Luis Enrique",
+        "slug": "luis-enrique",
+        "shortName": "L. Enrique",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 129465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لويس إنريكي",
+            "bn": "লুইস এনরিকে",
+            "hi": "लुइस एनरिक"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. إنريكي",
+            "bn": "এল. এনরিক",
+            "hi": "एल. एनरिक"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Paris"
+        },
+        "venueCoordinates": {
+          "latitude": 48.841363,
+          "longitude": 2.253069
+        },
+        "hidden": false,
+        "slug": "parc-des-princes",
+        "name": "Parc des Princes",
+        "capacity": 48583,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 843,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارك دي برانس",
+            "hi": "पार्क डेस प्रिंसेस",
+            "bn": "পার্ক দেস প্রিন্সেস"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Parc des Princes",
+          "capacity": 48583
+        }
+      },
+      "nameCode": "PSG",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1644,
+      "fullName": "Paris Saint-Germain",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000066",
+        "secondary": "#ff1541",
+        "text": "#ff1541"
+      },
+      "foundationDateTimestamp": 19267200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "باريس سان جيرمان",
+          "hi": "पेरिस सेंट-जर्मेन",
+          "ru": "Пари Сен-Жермен"
+        },
+        "shortNameTranslation": {
+          "bn": "পিএসজি",
+          "hi": "पीएसजी"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "RC Strasbourg",
+      "slug": "rc-strasbourg",
+      "shortName": "Strasbourg",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 129099,
+      "manager": {
+        "name": "Gary O'Neil",
+        "slug": "gary-oneil",
+        "shortName": "G. O'Neil",
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 798899,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غاري أونيل",
+            "bn": "গ্যারি ও'নিল",
+            "hi": "गैरी ओ'नील"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. أونيل",
+            "bn": "জি. ও'নিল",
+            "hi": "जी. ओ'नील"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Strasbourg"
+        },
+        "venueCoordinates": {
+          "latitude": 48.560048,
+          "longitude": 7.755125
+        },
+        "hidden": false,
+        "slug": "stade-de-la-meinau",
+        "name": "Stade de la Meinau",
+        "capacity": 32047,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 847,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب لا مايناو",
+            "hi": "स्टेड डे ला मीनाऊ",
+            "bn": "স্ট্যাডে দে লা মেইনাউ"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stade de la Meinau",
+          "capacity": 32047
+        }
+      },
+      "nameCode": "STR",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1659,
+      "fullName": "RC Strasbourg",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#00458e",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2019686400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "آر سي ستراسبورغ",
+          "ru": "Страсбур"
+        },
+        "shortNameTranslation": {
+          "ar": "ستراسبورغ",
+          "bn": "স্ট্রাসবার্গ",
+          "hi": "स्ट्रासबर्ग"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 4,
+      "display": 4,
+      "period1": 1,
+      "period2": 3,
+      "normaltime": 4
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 3,
+      "injuryTime2": 7,
+      "currentPeriodStartTimestamp": 1729368344
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1729371502
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12451049,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "rc-strasbourg-paris-saint-germain",
+    "currentPeriodStartTimestamp": 1729368344,
+    "startTimestamp": 1729364400,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

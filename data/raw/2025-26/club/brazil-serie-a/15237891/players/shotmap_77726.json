@@ -1,0 +1,84 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Josué",
+        "slug": "josue",
+        "shortName": "Josué",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 1502,
+        "gender": "M",
+        "id": 77726,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوسوي",
+            "bn": "জোসু",
+            "hi": "जोस्यू"
+          },
+          "shortNameTranslation": {
+            "ar": "جوسوي",
+            "bn": "জোসু",
+            "hi": "जोस्यू"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.5,
+        "y": 52.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 24.7,
+        "z": 2.8
+      },
+      "xg": 0.13833454251289,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Cleiton",
+        "slug": "cleiton",
+        "shortName": "Cleiton",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 555,
+        "gender": "M",
+        "id": 844576,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كليتون"
+          },
+          "shortNameTranslation": {
+            "ar": "كليتون"
+          }
+        }
+      },
+      "id": 6602923,
+      "time": 20,
+      "timeSeconds": 1150,
+      "draw": {
+        "start": {
+          "x": 52.9,
+          "y": 18.5
+        },
+        "end": {
+          "x": 75.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 75.3,
+          "y": 97.2
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1550,
+      "periodTimeSeconds": 1150,
+      "incidentType": "shot"
+    }
+  ]
+}

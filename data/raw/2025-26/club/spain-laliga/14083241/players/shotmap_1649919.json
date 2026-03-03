@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kareem Tunde",
+        "slug": "kareem-tunde",
+        "shortName": "K. Tunde",
+        "position": "F",
+        "jerseyNumber": "26",
+        "userCount": 351,
+        "gender": "M",
+        "id": 1649919,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريم توندي"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. توندي"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 4.7,
+        "y": 27.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 0.3,
+        "z": 41.7
+      },
+      "blockCoordinates": {
+        "x": 3.1,
+        "y": 100,
+        "z": 0
+      },
+      "xg": 0.02035591378808,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jan Oblak",
+        "slug": "jan-oblak",
+        "shortName": "J. Oblak",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 12399,
+        "gender": "M",
+        "sofascoreId": "oblakjan",
+        "id": 69768,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يان أوبلاك",
+            "bn": "জন ওব্লাক",
+            "hi": "जान ओबलाक"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أوبلاك",
+            "bn": "জে. ওব্লাক",
+            "hi": "जे. ओबलाक"
+          }
+        }
+      },
+      "id": 6617350,
+      "time": 30,
+      "timeSeconds": 1752,
+      "draw": {
+        "start": {
+          "x": 27.1,
+          "y": 4.7
+        },
+        "block": {
+          "x": 100,
+          "y": 3.1
+        },
+        "end": {
+          "x": 99.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 99.7,
+          "y": 58.3
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 948,
+      "periodTimeSeconds": 1752,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "predictions": {
+    "yellowCards": 3,
+    "corners": 9,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 41,
+      "draw": 23,
+      "away": 36
+    },
+    "possibleResultsMatrix": [
+      [
+        0.03309185924226,
+        0.054697240763344,
+        0.045204292167763,
+        0.024905924587429,
+        0.010291695486337,
+        0.0034022104455244
+      ],
+      [
+        0.058650410625961,
+        0.096942743754342,
+        0.080117900849445,
+        0.044142056007735,
+        0.018240503257677,
+        0.0060299132244317
+      ],
+      [
+        0.051974575399513,
+        0.085908314893629,
+        0.070998546030759,
+        0.039117622430558,
+        0.016164292828864,
+        0.0053435632622327
+      ],
+      [
+        0.03070574112075,
+        0.050753247274596,
+        0.041944796231862,
+        0.023110060609042,
+        0.0095496035742074,
+        0.0031568910170261
+      ],
+      [
+        0.013605342571736,
+        0.022488150117708,
+        0.018585231979647,
+        0.010239788390163,
+        0.0042313138621352,
+        0.001398780233943
+      ],
+      [
+        0.0048226902133086,
+        0.0079713818976811,
+        0.0065879132339172,
+        0.0036297011262457,
+        0.0014998752030507,
+        0.00049582608517484
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Team Form Overview",
+      "text": "SC Freiburg has shown resilience in recent matches, with a solid performance despite mixed results. 1. FC Köln has displayed a streaky form, struggling defensively while managing to score in their last fixtures."
+    },
+    {
+      "subtitle": "Recent Matches Insights",
+      "text": "Freiburg's recent 1-0 win against Maccabi and a high-scoring 4-3 against Wolfsburg indicate their attacking capability. Köln's last 2-1 victory reflects their potential, but they have consistently conceded."
+    },
+    {
+      "subtitle": "Head-to-Head Trends",
+      "text": "Köln's last meeting with Freiburg ended in a dominant 4-1 win, showcasing their offensive strength. Historically, matches between these teams have leaned towards low-scoring affairs, suggesting a tactical battle today."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "SC Freiburg",
+      "slug": "sc-freiburg",
+      "shortName": "Freiburg",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 115090,
+      "nameCode": "SCF",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 2538,
+      "teamColors": {
+        "primary": "#cc3333",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نادي فرايبورغ",
+          "hi": "एससी फ्रैबर्ग",
+          "ru": "Фрайбург"
+        },
+        "shortNameTranslation": {
+          "ar": "فرايبورغ",
+          "bn": "ফ্রেইবার্গ",
+          "hi": "फ्रायबर्ग"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Igor Matanović",
+      "slug": "igor-matanovic",
+      "shortName": "I. Matanović",
+      "position": "F",
+      "jerseyNumber": "31",
+      "userCount": 3258,
+      "gender": "M",
+      "id": 1019321,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إيغور ماتانوفيتش",
+          "bn": "ইগর মাতানোভিচ",
+          "hi": "इगोर मतानोविक"
+        },
+        "shortNameTranslation": {
+          "ar": "إ. ماتانوفيتش",
+          "bn": "আই. মাতানোভিচ",
+          "hi": "आई. मतानोविक"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 3,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half overview",
+      "text": "The first half of the match has been competitive, showcasing SC Freiburg's aggressive attacking play, as they managed to score twice early in the match. SC Freiburg looked more dangerous overall, demonstrating greater composure in front of goal which allowed them to create two big chances and convert them both. 1. FC Köln were able to find the net with a quick response but struggled to generate more opportunities."
+    },
+    {
+      "subtitle": "Attack momentum analysis",
+      "text": "The attack momentum swung in favor of SC Freiburg after their initial goal, establishing a strong presence in the attacking third. They had multiple attacking spells, particularly between the 10th and 12th minutes, and again towards the end of the half. In contrast, 1. FC Köln had fluctuating spells of momentum, managing to push back towards the end of the half but failing to capitalize on their opportunities."
+    },
+    {
+      "subtitle": "Second half predictions",
+      "text": "Given Freiburg's superior first-half performance and their ability to create more chances, they are likely to maintain their dominance in the second half. Köln will need to regroup and find a way to create more significant chances if they wish to turn the match around. If Freiburg continues their momentum, they could extend their lead."
+    }
+  ],
+  "modelName": "Grok3"
+}

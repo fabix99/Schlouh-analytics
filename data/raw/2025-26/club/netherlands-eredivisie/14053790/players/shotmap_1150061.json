@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Oliver Braude",
+        "firstName": "Oliver Braude",
+        "slug": "braude-oliver",
+        "shortName": "O. Braude",
+        "position": "D",
+        "jerseyNumber": "45",
+        "userCount": 207,
+        "gender": "M",
+        "id": 1150061,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "براود، أوليفر"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. براود"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.5,
+        "y": 52.1,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 62.5,
+        "z": 20.8
+      },
+      "blockCoordinates": {
+        "x": 7.1,
+        "y": 47.8,
+        "z": 0
+      },
+      "xg": 0.11758977174759,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Etienne Vaessen",
+        "slug": "etienne-vaessen",
+        "shortName": "E. Vaessen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 472,
+        "gender": "M",
+        "id": 809408,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إتيان فايزن"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. فايزن"
+          }
+        }
+      },
+      "id": 6539497,
+      "time": 4,
+      "timeSeconds": 228,
+      "draw": {
+        "start": {
+          "x": 52.1,
+          "y": 10.5
+        },
+        "block": {
+          "x": 47.8,
+          "y": 7.1
+        },
+        "end": {
+          "x": 37.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 37.5,
+          "y": 79.2
+        }
+      },
+      "reversedPeriodTime": 42,
+      "reversedPeriodTimeSeconds": 2472,
+      "periodTimeSeconds": 228,
+      "incidentType": "shot"
+    }
+  ]
+}

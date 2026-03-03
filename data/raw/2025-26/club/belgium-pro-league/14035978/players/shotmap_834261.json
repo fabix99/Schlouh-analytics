@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Antoine Bernier",
+        "slug": "antoine-bernier",
+        "shortName": "A. Bernier",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 105,
+        "gender": "M",
+        "id": 834261,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنطوان بيرنيير",
+            "bn": "অ্যান্টোইন বার্নিয়ার",
+            "hi": "एंटोनी बर्नियर"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بيرنيير",
+            "bn": "এ. বার্নিয়ার",
+            "hi": "ए. बर्नियर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.1,
+        "y": 58.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 6.3
+      },
+      "xg": 0.44269505143166,
+      "xgot": 0.26569324731827,
+      "goalkeeper": {
+        "name": "Matthieu Epolo",
+        "firstName": "Matthieu Epolo",
+        "slug": "matthieu-epolo",
+        "shortName": "M. Epolo",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3198,
+        "gender": "M",
+        "id": 1121943,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتيو إيبولو",
+            "bn": "ম্যাথিউ এপোলো",
+            "hi": "मैथ्यू एपोलो"
+          },
+          "shortNameTranslation": {
+            "ar": "م. إيبولو",
+            "bn": "এম. এপোলো",
+            "hi": "एम. एपोलो"
+          }
+        }
+      },
+      "id": 6542973,
+      "time": 24,
+      "timeSeconds": 1436,
+      "draw": {
+        "start": {
+          "x": 58.9,
+          "y": 8.1
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 93.7
+        }
+      },
+      "reversedPeriodTime": 22,
+      "reversedPeriodTimeSeconds": 1264,
+      "periodTimeSeconds": 1436,
+      "incidentType": "shot"
+    }
+  ]
+}

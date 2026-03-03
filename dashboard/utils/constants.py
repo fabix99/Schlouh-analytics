@@ -235,7 +235,7 @@ PLAYER_COLORS = [
     "#FF6AC1",  # pink
 ]
 
-MIN_MINUTES_DEFAULT = 450
+MIN_MINUTES_DEFAULT = 1000
 
 # Reliability tier by minutes (for uncertainty indicator)
 # < 450 = Low, 450–900 = Medium, > 900 = High

@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Scott McKenna",
+        "firstName": "",
+        "lastName": "",
+        "slug": "scott-mckenna",
+        "shortName": "S. McKenna",
+        "position": "D",
+        "jerseyNumber": "26",
+        "userCount": 1004,
+        "gender": "M",
+        "id": 358108,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سكوت ماكنيا",
+            "bn": "স্কট ম্যাককেনা",
+            "hi": "स्कॉट मैककेना"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ماكنيا",
+            "bn": "এস. ম্যাককেনা",
+            "hi": "एस. मैककेना"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 10.3,
+        "y": 50.8,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.3,
+        "y": 50.7,
+        "z": 0
+      },
+      "xg": 0.049014411866665,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Elías Ólafsson",
+        "firstName": "",
+        "lastName": "",
+        "slug": "elias-olafsson",
+        "shortName": "E. Ólafsson",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 369,
+        "gender": "M",
+        "id": 879183,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلياس أولافسون",
+            "bn": "ইলিয়াস ওলাফসন",
+            "hi": "इलियास ओलाफसन"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. أولافسون",
+            "bn": "ই.ওলাফসন",
+            "hi": "ई. ओलाफसन"
+          }
+        }
+      },
+      "id": 6606066,
+      "time": 23,
+      "timeSeconds": 1364,
+      "draw": {
+        "start": {
+          "x": 50.8,
+          "y": 10.3
+        },
+        "block": {
+          "x": 50.7,
+          "y": 8.3
+        },
+        "end": {
+          "x": 50.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1336,
+      "periodTimeSeconds": 1364,
+      "incidentType": "shot"
+    }
+  ]
+}

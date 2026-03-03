@@ -1,0 +1,411 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Serie A",
+      "slug": "serie-a",
+      "category": {
+        "name": "Italy",
+        "slug": "italy",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 31,
+        "flag": "italy",
+        "alpha2": "IT",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "hi": "इटली",
+            "ar": "إيطاليا",
+            "bn": "ইতালি",
+            "ru": "Италия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Serie A",
+        "slug": "serie-a",
+        "primaryColorHex": "#09519e",
+        "secondaryColorHex": "#008fd7",
+        "category": {
+          "name": "Italy",
+          "slug": "italy",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "IT",
+            "alpha3": "ITA",
+            "name": "Italy",
+            "slug": "italy"
+          },
+          "id": 31,
+          "flag": "italy",
+          "alpha2": "IT",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "hi": "इटली",
+              "ar": "إيطاليا",
+              "bn": "ইতালি",
+              "ru": "Италия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 623538,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 23,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإيطالي",
+            "hi": "सीरी ए",
+            "bn": "সিরি আ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 698,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 33,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "सीरी ए",
+          "ar": "الدوري الإيطالي",
+          "bn": "সিরি আ"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Serie A 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 63515
+    },
+    "roundInfo": {
+      "round": 25
+    },
+    "customId": "OdbsEeb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 11050,
+    "venue": {
+      "city": {
+        "name": "Monza"
+      },
+      "venueCoordinates": {
+        "latitude": 45.583112,
+        "longitude": 9.307928
+      },
+      "hidden": false,
+      "slug": "u-power-stadium",
+      "name": "U-Power Stadium",
+      "capacity": 17102,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2725,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "يو-باور ستاديوم",
+          "hi": "यू-पावर स्टेडियम",
+          "bn": "ইউ-পাওয়ার স্টেডিয়াম"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "U-Power Stadium",
+        "capacity": 17102
+      }
+    },
+    "referee": {
+      "name": "Giuseppe Collu",
+      "slug": "giuseppe-collu",
+      "yellowCards": 322,
+      "redCards": 11,
+      "yellowRedCards": 6,
+      "games": 67,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 787073,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "جيوسيبي كولو",
+          "bn": "জিউসেপ কোলু",
+          "hi": "गिउसेप्पे कोल्लू"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Monza",
+      "slug": "monza",
+      "shortName": "Monza",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 70060,
+      "manager": {
+        "name": "Paolo Bianco",
+        "slug": "paolo-bianco",
+        "shortName": "P. Bianco",
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 788879,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "Bianco, Paolo"
+          },
+          "shortNameTranslation": {
+            "ar": "P. Bianco"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Monza"
+        },
+        "venueCoordinates": {
+          "latitude": 45.583112,
+          "longitude": 9.307928
+        },
+        "hidden": false,
+        "slug": "u-power-stadium",
+        "name": "U-Power Stadium",
+        "capacity": 17102,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 2725,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يو-باور ستاديوم",
+            "hi": "यू-पावर स्टेडियम",
+            "bn": "ইউ-পাওয়ার স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "U-Power Stadium",
+          "capacity": 17102
+        }
+      },
+      "nameCode": "MON",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2729,
+      "fullName": "Monza",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#d71742",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -1809302400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مونزا",
+          "bn": "মনজা",
+          "hi": "मॉन्ज़ा",
+          "ru": "Монца"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Lecce",
+      "slug": "lecce",
+      "shortName": "Lecce",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 107768,
+      "manager": {
+        "name": "Eusebio Di Francesco",
+        "slug": "eusebio-di-francesco",
+        "shortName": "E. D. Francesco",
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 126353,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوزيبيو دي فرانسيسكو",
+            "bn": "ইউসেবিও ডি ফ্রান্সেস্কো",
+            "hi": "युसेबियो डि फ्रांसेस्को"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. دي فرانسيسكو",
+            "bn": "ই. ডি. ফ্রান্সেস্কো",
+            "hi": "ई. डी. फ्रांसेस्को"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Lecce"
+        },
+        "venueCoordinates": {
+          "latitude": 40.030132,
+          "longitude": 18.125319
+        },
+        "hidden": false,
+        "slug": "via-del-mare",
+        "name": "Via del Mare",
+        "capacity": 40800,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 1165,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيا ديل مارا",
+            "hi": "वाया डेल मारे",
+            "bn": "ভায়া ডেল মেরে"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Via del Mare",
+          "capacity": 40800
+        }
+      },
+      "nameCode": "LEC",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2689,
+      "fullName": "Lecce",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#f6ea00",
+        "secondary": "#db2d1f",
+        "text": "#db2d1f"
+      },
+      "foundationDateTimestamp": -1950134400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ليتشي",
+          "bn": "লেচে",
+          "hi": "लेच्चे",
+          "ru": "Лечче"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 4,
+      "currentPeriodStartTimestamp": 1739718248
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1739721234
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12504383,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "monza-lecce",
+    "currentPeriodStartTimestamp": 1739718248,
+    "startTimestamp": 1739714400,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

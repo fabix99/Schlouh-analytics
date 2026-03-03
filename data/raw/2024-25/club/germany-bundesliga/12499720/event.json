@@ -1,0 +1,445 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Bundesliga",
+      "slug": "bundesliga",
+      "category": {
+        "name": "Germany",
+        "slug": "germany",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 30,
+        "flag": "germany",
+        "alpha2": "DE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألمانيا",
+            "bn": "জার্মানি",
+            "hi": "जर्मनी",
+            "ru": "Германия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Bundesliga",
+        "slug": "bundesliga",
+        "primaryColorHex": "#e2080e",
+        "secondaryColorHex": "#8e0902",
+        "category": {
+          "name": "Germany",
+          "slug": "germany",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "DE",
+            "alpha3": "DEU",
+            "name": "Germany",
+            "slug": "germany"
+          },
+          "id": 30,
+          "flag": "germany",
+          "alpha2": "DE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألمانيا",
+              "bn": "জার্মানি",
+              "hi": "जर्मनी",
+              "ru": "Германия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 508922,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 35,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "বুন্দেসলীগা",
+            "ar": "الدوري الألماني",
+            "hi": "बुंडेसलीगा"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 695,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 42,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "बुंडेसलीगा",
+          "ar": "الدوري الألماني",
+          "bn": "বুন্দেসলীগা"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Bundesliga 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 63516
+    },
+    "roundInfo": {
+      "round": 8
+    },
+    "customId": "ubbsKrc",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 15000,
+    "venue": {
+      "city": {
+        "name": "Heidenheim an der Brenz"
+      },
+      "venueCoordinates": {
+        "latitude": 48.668524,
+        "longitude": 10.139296
+      },
+      "hidden": true,
+      "slug": "voith-arena",
+      "name": "Voith-Arena",
+      "capacity": 15000,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 23671,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أرينا فويث",
+          "hi": "वोइथ-एरिना",
+          "bn": "ভোইথ-এরিনা"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Voith-Arena",
+        "capacity": 15000
+      }
+    },
+    "referee": {
+      "name": "Christian Dingert",
+      "slug": "dingert-christian",
+      "yellowCards": 1636,
+      "redCards": 36,
+      "yellowRedCards": 33,
+      "games": 379,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 52185,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دينجرت، كريستيان",
+          "bn": "ডিঙ্গার্ট, ক্রিশ্চিয়ান",
+          "hi": "डिंगर्ट, क्रिश्चियन"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "1. FC Heidenheim",
+      "slug": "1-fc-heidenheim",
+      "shortName": "Heidenheim",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 63485,
+      "manager": {
+        "name": "Frank Schmidt",
+        "slug": "frank-schmidt",
+        "shortName": "F. Schmidt",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 102661,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فرانك شميت",
+            "bn": "ফ্রাঙ্ক শ্মিট",
+            "hi": "फ्रैंक श्मिट"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. شميت",
+            "bn": "এফ. শ্মিট",
+            "hi": "एफ. श्मिट"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Heidenheim an der Brenz"
+        },
+        "venueCoordinates": {
+          "latitude": 48.668524,
+          "longitude": 10.139296
+        },
+        "hidden": true,
+        "slug": "voith-arena",
+        "name": "Voith-Arena",
+        "capacity": 15000,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 23671,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أرينا فويث",
+            "hi": "वोइथ-एरिना",
+            "bn": "ভোইথ-এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Voith-Arena",
+          "capacity": 15000
+        }
+      },
+      "nameCode": "SCH",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 5885,
+      "fullName": "1. FC Heidenheim",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#243475",
+        "secondary": "#400040",
+        "text": "#400040"
+      },
+      "foundationDateTimestamp": 75772800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "1. نادي هايدنهايم",
+          "hi": "1. ऍफ़सी हेइडेनहैएम",
+          "ru": "1. ФК Хайденхайм"
+        },
+        "shortNameTranslation": {
+          "ar": "هايدنهايم",
+          "bn": "হাইডেনহাইম",
+          "hi": "हाइडेनहाइम"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "TSG Hoffenheim",
+      "slug": "tsg-hoffenheim",
+      "shortName": "Hoffenheim",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 94882,
+      "manager": {
+        "name": "Christian Ilzer",
+        "slug": "christian-ilzer",
+        "shortName": "C. Ilzer",
+        "country": {
+          "alpha2": "AT",
+          "alpha3": "AUT",
+          "name": "Austria",
+          "slug": "austria"
+        },
+        "id": 775661,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستيان إيلزر",
+            "bn": "ক্রিশ্চিয়ান ইলজার",
+            "hi": "क्रिश्चियन इल्ज़र"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. إيلزر",
+            "bn": "সি. ইলজার",
+            "hi": "सी. इल्ज़र"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Sinsheim"
+        },
+        "venueCoordinates": {
+          "latitude": 49.23806,
+          "longitude": 8.887641
+        },
+        "hidden": false,
+        "slug": "prezero-arena",
+        "name": "PreZero Arena",
+        "capacity": 30150,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 1089,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بريزيرو أرينا",
+            "hi": "प्रीज़ीरो एरिना",
+            "bn": "প্রিজিরো এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "PreZero Arena",
+          "capacity": 30150
+        }
+      },
+      "nameCode": "TSG",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2569,
+      "fullName": "TSG Hoffenheim",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#1f5da6",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2224886400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نادي هوفنهايم",
+          "hi": "TSG होफ्फेन्हेइम",
+          "ru": "Хоффенхайм"
+        },
+        "shortNameTranslation": {
+          "ar": "هوفنهايم",
+          "bn": "হফেনহাইম",
+          "hi": "हॉफेनहाइम"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 2,
+      "injuryTime2": 3,
+      "currentPeriodStartTimestamp": 1730057675
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1730060587
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12499720,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "1-fc-heidenheim-tsg-hoffenheim",
+    "currentPeriodStartTimestamp": 1730057675,
+    "startTimestamp": 1730053800,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "??",
+      "AN",
+      "AS",
+      "AT",
+      "CH",
+      "CU",
+      "DE",
+      "GU",
+      "IR",
+      "KP",
+      "LI",
+      "LU",
+      "MP",
+      "PR",
+      "SY",
+      "US",
+      "VE",
+      "VI",
+      "GR",
+      "RU",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

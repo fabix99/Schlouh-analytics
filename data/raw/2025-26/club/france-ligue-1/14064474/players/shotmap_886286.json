@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nicolas Cozza",
+        "slug": "nicolas-cozza",
+        "shortName": "N. Cozza",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 181,
+        "gender": "M",
+        "id": 886286,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولا كوزا",
+            "bn": "নিকোলাস কোজা",
+            "hi": "निकोलस कोज़ा"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. كوزا",
+            "bn": "এন. কোজ্জা",
+            "hi": "एन. कोज़ा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 27.3,
+        "y": 48.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 24.7,
+        "y": 48.4,
+        "z": 0
+      },
+      "xg": 0.0089015979319811,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Maxime Dupé",
+        "slug": "maxime-dupe",
+        "shortName": "M. Dupé",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 166,
+        "gender": "M",
+        "id": 96542,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماكسيم دوبي",
+            "bn": "ম্যাক্সিম ডুপে",
+            "hi": "मैक्सिम डुपे"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دوبي",
+            "bn": "এম. ডুপে",
+            "hi": "एम. डुपे"
+          }
+        }
+      },
+      "id": 6588762,
+      "time": 44,
+      "timeSeconds": 2616,
+      "draw": {
+        "start": {
+          "x": 48.6,
+          "y": 27.3
+        },
+        "block": {
+          "x": 48.4,
+          "y": 24.7
+        },
+        "end": {
+          "x": 46.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 84,
+      "periodTimeSeconds": 2616,
+      "incidentType": "shot"
+    }
+  ]
+}

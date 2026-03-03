@@ -1,0 +1,153 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 10,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 47,
+      "draw": 27,
+      "away": 26
+    },
+    "possibleResultsMatrix": [
+      [
+        0.082282131657098,
+        0.084701796265758,
+        0.043596307887018,
+        0.014959447104807,
+        0.0038498396170637,
+        0.00079261031364455
+      ],
+      [
+        0.12119986009024,
+        0.12476397548356,
+        0.064216450278384,
+        0.022034952906735,
+        0.0056707332875438,
+        0.0011674984250546
+      ],
+      [
+        0.08926243031178,
+        0.091887364050839,
+        0.047294744511887,
+        0.016228512531256,
+        0.004176435802147,
+        0.00085985038867174
+      ],
+      [
+        0.043827231369372,
+        0.045116055546679,
+        0.023221390041004,
+        0.0079680865847344,
+        0.0020506008805797,
+        0.00042218055004477
+      ],
+      [
+        0.016139148935296,
+        0.016613751703919,
+        0.0085511555406686,
+        0.002934206248087,
+        0.00075512305898598,
+        0.00015546578147575
+      ],
+      [
+        0.0047545258090422,
+        0.0048943418006726,
+        0.0025191346754553,
+        0.00086440489467646,
+        0.00022245609649836,
+        4.579956932133e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Current Form",
+      "text": "KV Mechelen is positioned higher in the league and has shown better recent form with 1 win, 2 draws, and 2 losses in their last five matches. In contrast, KVC Westerlo is struggling, having no wins in their last five, which includes 4 losses."
+    },
+    {
+      "subtitle": "Head-to-Head Performance",
+      "text": "The last two encounters have been tightly contested, with Mechelen winning the most recent one 1-0. Historically, Mechelen has a slight edge in the head-to-head record with no losses in three matches against Westerlo."
+    },
+    {
+      "subtitle": "Statistical Insight",
+      "text": "Mechelen has a better overall goal difference compared to Westerlo and is more effective offensively, although both teams have struggled with defensive consistency, evident in their recent matches. Sofascore predictions suggest a leaning towards a home win."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "KV Mechelen",
+      "slug": "kv-mechelen",
+      "shortName": "Mechelen",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 21772,
+      "nameCode": "KVM",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 5044,
+      "teamColors": {
+        "primary": "#ffcc00",
+        "secondary": "#cc0000",
+        "text": "#cc0000"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كي في ميشيلن",
+          "ru": "Мехелен"
+        },
+        "shortNameTranslation": {
+          "ar": "ميشيلن"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Fredrik Hammar",
+      "firstName": "",
+      "lastName": "",
+      "slug": "fredrik-hammar",
+      "shortName": "F. Hammar",
+      "position": "M",
+      "jerseyNumber": "6",
+      "userCount": 209,
+      "gender": "M",
+      "id": 946959,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فريدريك هامر"
+        },
+        "shortNameTranslation": {
+          "ar": "ف. هامر"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half overview",
+      "text": "At half-time, KV Mechelen is trailing 0-1 to KVC Westerlo after Nacho Ferri's early goal in the 16th minute. Mechelen dominated possession but failed to convert their chances, creating three big opportunities but missing them all. Their inability to register a shot on target reflects a concerning trend in finishing."
+    },
+    {
+      "subtitle": "Home team performance",
+      "text": "KV Mechelen's attack has shown promise with significant entries into the final third and frequent corner kicks. However, their failure to capitalize on big chances, especially with an expected goals tally of 1.5566, indicates inefficiencies in front of goal. Their pressing and aerial duels have been strong, but they need to convert possession into meaningful attempts."
+    },
+    {
+      "subtitle": "Away team strategy",
+      "text": "KVC Westerlo has executed a more efficient game plan, taking advantage of their limited possession to score and increase their advantage. They had fewer big chances but converted their only one successfully. Their ability to absorb pressure and create some significant counter-attacking moments has kept them in control."
+    },
+    {
+      "subtitle": "Attack momentum shifts",
+      "text": "KV Mechelen started strong and maintained the momentum for much of the first half, dominating the play particularly from the 1st to the 36th minute. However, KVC Westerlo shifted the momentum with their goal and took control towards the end, especially in the last ten minutes of the half, showing strength in their defensive setup."
+    }
+  ],
+  "modelName": "Grok3"
+}

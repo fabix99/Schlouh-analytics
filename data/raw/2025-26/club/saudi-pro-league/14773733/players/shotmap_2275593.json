@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Wesley Delgado",
+        "firstName": "Wesley Delgado",
+        "slug": "wesley-delgado",
+        "shortName": "W. Delgado",
+        "position": "F",
+        "jerseyNumber": "23",
+        "userCount": 56,
+        "gender": "M",
+        "id": 2275593,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويزلي ديلغادو"
+          },
+          "shortNameTranslation": {
+            "ar": "و. ديلغادو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 27.1,
+        "y": 46.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 19.5,
+        "y": 47.3,
+        "z": 0
+      },
+      "xg": 0.017359169200063,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bento",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bento",
+        "shortName": "Bento",
+        "position": "G",
+        "jerseyNumber": "24",
+        "userCount": 9808,
+        "gender": "M",
+        "sofascoreId": "bento_matheus",
+        "id": 1016104,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بينتو"
+          },
+          "shortNameTranslation": {
+            "ar": "بينتو"
+          }
+        }
+      },
+      "id": 6710106,
+      "time": 80,
+      "timeSeconds": 4779,
+      "draw": {
+        "start": {
+          "x": 46.7,
+          "y": 27.1
+        },
+        "block": {
+          "x": 47.3,
+          "y": 19.5
+        },
+        "end": {
+          "x": 48.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 621,
+      "periodTimeSeconds": 2079,
+      "incidentType": "shot"
+    }
+  ]
+}

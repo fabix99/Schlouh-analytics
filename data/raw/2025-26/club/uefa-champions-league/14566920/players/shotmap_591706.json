@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ellyes Skhiri",
+        "slug": "ellyes-skhiri",
+        "shortName": "E. Skhiri",
+        "position": "M",
+        "jerseyNumber": "15",
+        "userCount": 4709,
+        "gender": "M",
+        "sofascoreId": "ellyes_skhiri",
+        "id": 591706,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلياس السخيري",
+            "bn": "এলিস স্খিরি",
+            "hi": "एलीस स्कीरी"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. السخيري",
+            "bn": "ই. স্খিরি",
+            "hi": "ई. स्कीरी"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.7,
+        "y": 72.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.7,
+        "z": 2.5
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 51.6,
+        "z": 0
+      },
+      "xg": 0.019195195287466,
+      "xgot": 0.014406438916922,
+      "goalkeeper": {
+        "name": "Mateusz Kochalski",
+        "firstName": "",
+        "lastName": "",
+        "slug": "kochalski-mateusz",
+        "shortName": "M. Kochalski",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 11564,
+        "gender": "M",
+        "id": 851249,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كوتشالسكي، ميتيوش",
+            "bn": "কোচালস্কি, মাতেউস",
+            "hi": "कोचाल्स्की, माटुस्ज़"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوتشالسكي",
+            "bn": "এম. কোচালস্কি",
+            "hi": "एम. कोचाल्स्की"
+          }
+        }
+      },
+      "id": 6562796,
+      "time": 69,
+      "timeSeconds": 4082,
+      "draw": {
+        "start": {
+          "x": 72.1,
+          "y": 21.7
+        },
+        "block": {
+          "x": 51.6,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 49.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.3,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 22,
+      "reversedPeriodTimeSeconds": 1318,
+      "periodTimeSeconds": 1382,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": false,
+    "correctHalftimeAiInsight": false,
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1184603,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76953
+    },
+    "roundInfo": {
+      "round": 3
+    },
+    "customId": "IsdI",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 11365,
+    "venue": {
+      "city": {
+        "name": "Fontvieille"
+      },
+      "venueCoordinates": {
+        "latitude": 43.727571,
+        "longitude": 7.415458
+      },
+      "hidden": false,
+      "slug": "stade-louis-ii",
+      "name": "Stade Louis II",
+      "capacity": 18523,
+      "country": {
+        "alpha2": "MC",
+        "alpha3": "MCO",
+        "name": "Monaco",
+        "slug": "monaco"
+      },
+      "id": 831,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب لويس الثاني",
+          "hi": "स्टेड लुई II",
+          "bn": "স্টেড লুই II"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Stade Louis II",
+        "capacity": 18523
+      }
+    },
+    "referee": {
+      "name": "Marco Guida",
+      "slug": "guida-marco",
+      "yellowCards": 1482,
+      "redCards": 46,
+      "yellowRedCards": 30,
+      "games": 318,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 76140,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "غويدا، ماركو",
+          "bn": "গুইদা, মার্কো",
+          "hi": "गुइदा, मार्को"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "AS Monaco",
+      "slug": "as-monaco",
+      "shortName": "AS Monaco",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 507012,
+      "manager": {
+        "name": "Sébastien Pocognoli",
+        "slug": "sebastien-pocognoli",
+        "shortName": "S. Pocognoli",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 800663,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيباستيان بوكونيولي",
+            "bn": "সেবাস্টিয়ান পোকগনোলি",
+            "hi": "सेबेस्टियन पोकोग्नोली"
+          },
+          "shortNameTranslation": {
+            "ar": "س. بوكونيولي",
+            "bn": "এস. পোকগনোলি",
+            "hi": "एस. पोकोग्नोली"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Fontvieille"
+        },
+        "venueCoordinates": {
+          "latitude": 43.727571,
+          "longitude": 7.415458
+        },
+        "hidden": false,
+        "slug": "stade-louis-ii",
+        "name": "Stade Louis II",
+        "capacity": 18523,
+        "country": {
+          "alpha2": "MC",
+          "alpha3": "MCO",
+          "name": "Monaco",
+          "slug": "monaco"
+        },
+        "id": 831,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب لويس الثاني",
+            "hi": "स्टेड लुई II",
+            "bn": "স্টেড লুই II"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stade Louis II",
+          "capacity": 18523
+        }
+      },
+      "nameCode": "ASM",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "MC",
+        "alpha3": "MCO",
+        "name": "Monaco",
+        "slug": "monaco"
+      },
+      "id": 1653,
+      "fullName": "AS Monaco",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#ff0000",
+        "text": "#ff0000"
+      },
+      "foundationDateTimestamp": -1431388800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نادي موناكو",
+          "bn": "এএস মোনাকো",
+          "hi": "एएस मोनाको",
+          "ru": "Монако"
+        },
+        "shortNameTranslation": {
+          "ar": "موناكو"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Tottenham Hotspur",
+      "slug": "tottenham-hotspur",
+      "shortName": "Tottenham",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 1368145,
+      "manager": {
+        "name": "Igor Tudor",
+        "slug": "igor-tudor",
+        "shortName": "I. Tudor",
+        "country": {
+          "alpha2": "HR",
+          "alpha3": "HRV",
+          "name": "Croatia",
+          "slug": "croatia"
+        },
+        "id": 2928,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيغور تودور"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. تودور"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "London"
+        },
+        "venueCoordinates": {
+          "latitude": 51.604036,
+          "longitude": -0.066153
+        },
+        "hidden": false,
+        "slug": "tottenham-hotspur-stadium",
+        "name": "Tottenham Hotspur Stadium",
+        "capacity": 62850,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 24806,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب توتنهام هوتسبير",
+            "hi": "टोटेनहैम हॉटस्पर स्टेडियम",
+            "bn": "টটেনহ্যাম হটস্পার স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Tottenham Hotspur Stadium",
+          "capacity": 62850
+        }
+      },
+      "nameCode": "TOT",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 33,
+      "fullName": "Tottenham Hotspur",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#000066",
+        "text": "#000066"
+      },
+      "foundationDateTimestamp": -2755641600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "توتنهام هوتسبير",
+          "hi": "टोटेनहैम हॉटस्पर ऍफ़सी",
+          "ru": "Тоттенхэм Хотспур"
+        },
+        "shortNameTranslation": {
+          "ar": "توتنهام",
+          "bn": "টটেনহ্যাম",
+          "hi": "टॉटनहैम"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 2,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1761163464
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1761166530
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14566927,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "as-monaco-tottenham-hotspur",
+    "currentPeriodStartTimestamp": 1761163464,
+    "startTimestamp": 1761159600,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

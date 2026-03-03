@@ -117,12 +117,6 @@ def parse_match_id(match_id_or_url: str) -> str:
     raise ValueError(f"Cannot parse match ID from: {match_id_or_url}")
 
 
-def fetch_json(url: str) -> dict:
-    r = requests.get(url, headers=HEADERS, timeout=15)
-    r.raise_for_status()
-    return r.json()
-
-
 def flatten_player(player_obj: dict, side: str, team_name: str, match_id: str) -> dict:
     """Turn one player from lineups API into a flat dict for one CSV row."""
     out = {
@@ -166,6 +160,12 @@ def extract_lineups(event_id: str, out_dir: str = "data/raw", flat_filenames: bo
     event, err = fetch_json_resilient(f"{API_BASE}/event/{event_id}")
     if err:
         raise RuntimeError(f"event: {err}")
+    # Persist full event (referee, venue, attendance) for match summary build
+    os.makedirs(out_dir, exist_ok=True)
+    event_fname = "event.json" if flat_filenames else f"event_{event_id}.json"
+    event_path = os.path.join(out_dir, event_fname)
+    with open(event_path, "w", encoding="utf-8") as f:
+        json.dump(event, f, indent=2, ensure_ascii=False)
     lineups, err = fetch_json_resilient(f"{API_BASE}/event/{event_id}/lineups")
     if err:
         raise RuntimeError(f"lineups: {err}")
@@ -204,6 +204,21 @@ def _fetch_optional(url: str) -> Optional[dict]:
     """Fetch with retries; returns None on any failure (no raise)."""
     data, _ = fetch_json_resilient(url)
     return data
+
+
+def write_event_json(event_id: str, out_dir: str, flat_filenames: bool = True) -> Optional[str]:
+    """Fetch event API and write only event.json to out_dir. Does not touch lineups or other files.
+    Used for backfill-extras: add event meta (referee, venue, attendance) to matches that already have lineups.
+    Returns path to event.json on success, None on failure."""
+    event, err = fetch_json_resilient(f"{API_BASE}/event/{event_id}")
+    if err or not event:
+        return None
+    os.makedirs(out_dir, exist_ok=True)
+    event_fname = "event.json" if flat_filenames else f"event_{event_id}.json"
+    event_path = os.path.join(out_dir, event_fname)
+    with open(event_path, "w", encoding="utf-8") as f:
+        json.dump(event, f, indent=2, ensure_ascii=False)
+    return event_path
 
 
 def extract_statistics(event_id: str, out_dir: str, flat_filenames: bool = False) -> Optional[str]:
@@ -277,6 +292,104 @@ def extract_graph(event_id: str, out_dir: str, flat_filenames: bool = False) -> 
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     return path
+
+
+def extract_best_players(event_id: str, out_dir: str, flat_filenames: bool = False) -> Optional[str]:
+    """Fetch /event/{id}/best-players/summary, save as JSON. Returns path or None (404/failure ok)."""
+    data = _fetch_optional(f"{API_BASE}/event/{event_id}/best-players/summary")
+    if not data:
+        return None
+    fname = "best_players_summary.json" if flat_filenames else f"best_players_summary_{event_id}.json"
+    path = os.path.join(out_dir, fname)
+    os.makedirs(out_dir, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    return path
+
+
+def extract_h2h(event_id: str, out_dir: str, flat_filenames: bool = False) -> Optional[str]:
+    """Fetch /event/{id}/h2h, save as JSON. Returns path or None (404/failure ok)."""
+    data = _fetch_optional(f"{API_BASE}/event/{event_id}/h2h")
+    if not data:
+        return None
+    fname = "h2h.json" if flat_filenames else f"h2h_{event_id}.json"
+    path = os.path.join(out_dir, fname)
+    os.makedirs(out_dir, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    return path
+
+
+def extract_ai_insights(event_id: str, out_dir: str, flat_filenames: bool = False) -> Optional[str]:
+    """Fetch /event/{id}/ai-insights-postmatch/en, save as JSON. Returns path or None (404/failure ok)."""
+    data = _fetch_optional(f"{API_BASE}/event/{event_id}/ai-insights-postmatch/en")
+    if not data:
+        return None
+    fname = "ai_insights_postmatch.json" if flat_filenames else f"ai_insights_postmatch_{event_id}.json"
+    path = os.path.join(out_dir, fname)
+    os.makedirs(out_dir, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    return path
+
+
+def extract_player_maps(event_id: str, out_dir: str) -> tuple[int, Optional[str]]:
+    """Fetch heatmap, shotmap, rating-breakdown for every player in lineups. Saves to out_dir/players/.
+    Returns (number of player files written, first API error string if any request failed and count is 0)."""
+    lineups_path = os.path.join(out_dir, "lineups.csv")
+    if not os.path.exists(lineups_path):
+        return (0, None)
+    try:
+        df = pd.read_csv(lineups_path)
+    except Exception:
+        return (0, None)
+    if "player_id" not in df.columns:
+        return (0, None)
+    df["player_id"] = pd.to_numeric(df["player_id"], errors="coerce")
+    df = df.dropna(subset=["player_id"])
+    if "side" in df.columns:
+        side_norm = df["side"].astype(str).str.strip().str.lower()
+        home_ids = df[side_norm == "home"]["player_id"].unique().tolist()
+        away_ids = df[side_norm == "away"]["player_id"].unique().tolist()
+        player_ids = home_ids + away_ids
+    else:
+        player_ids = df["player_id"].unique().astype(int).tolist()
+    players_dir = os.path.join(out_dir, "players")
+    os.makedirs(players_dir, exist_ok=True)
+    base = API_BASE.rstrip("/")
+    count = 0
+    first_error: Optional[str] = None
+    for pid in player_ids:
+        time.sleep(0.25)
+        data, err = fetch_json_resilient(f"{base}/event/{event_id}/player/{pid}/heatmap")
+        if err and first_error is None:
+            first_error = err
+        if data:
+            path = os.path.join(players_dir, f"heatmap_{pid}.json")
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            count += 1
+        time.sleep(0.25)
+        data, err = fetch_json_resilient(f"{base}/event/{event_id}/shotmap/player/{pid}")
+        if err and first_error is None:
+            first_error = err
+        if data:
+            path = os.path.join(players_dir, f"shotmap_{pid}.json")
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            count += 1
+        time.sleep(0.25)
+        data, err = fetch_json_resilient(f"{base}/event/{event_id}/player/{pid}/rating-breakdown")
+        if err and first_error is None:
+            first_error = err
+        if data:
+            path = os.path.join(players_dir, f"rating_breakdown_{pid}.json")
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            count += 1
+    if count == 0 and first_error is None:
+        first_error = "no player_ids in lineups or API returned no data"
+    return (count, first_error if count == 0 else None)
 
 
 def main():

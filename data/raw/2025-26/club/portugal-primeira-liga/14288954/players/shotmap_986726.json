@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ricard Sánchez",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ricard-sanchez",
+        "shortName": "R. Sánchez",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 160,
+        "gender": "M",
+        "id": 986726,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكارد سانشيز",
+            "bn": "রিকার্ড সানচেজ",
+            "hi": "रिकार्ड सांचेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. سانشيز",
+            "bn": "আর. সানচেজ",
+            "hi": "आर. सांचेज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 20.1,
+        "y": 64,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.1,
+        "y": 58.3,
+        "z": 0
+      },
+      "xg": 0.036242015659809,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Juan Castillo",
+        "firstName": "Juan Castillo",
+        "lastName": "",
+        "slug": "juan-castillo",
+        "shortName": "J. Castillo",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 394,
+        "gender": "M",
+        "id": 1175004,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوان كاستيو"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. كاستيو"
+          }
+        }
+      },
+      "id": 6582904,
+      "time": 2,
+      "timeSeconds": 113,
+      "draw": {
+        "start": {
+          "x": 64,
+          "y": 20.1
+        },
+        "block": {
+          "x": 58.3,
+          "y": 13.1
+        },
+        "end": {
+          "x": 49.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2587,
+      "periodTimeSeconds": 113,
+      "incidentType": "shot"
+    }
+  ]
+}

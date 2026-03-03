@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Marc Casadó",
+        "slug": "marc-casado",
+        "shortName": "M. Casadó",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 64329,
+        "gender": "M",
+        "sofascoreId": "marccasado",
+        "id": 1000483,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارك كاسادو",
+            "bn": "মার্ক কাসাডো",
+            "hi": "मार्क कैसाडो"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كاسادو",
+            "bn": "এম. কাসাডো",
+            "hi": "एम. कैसाडो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 18.4,
+        "y": 44.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.3,
+        "y": 46.9,
+        "z": 0
+      },
+      "xg": 0.055212166160345,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Leo Román",
+        "firstName": "",
+        "lastName": "",
+        "slug": "leo-roman",
+        "shortName": "L. Román",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1580,
+        "gender": "M",
+        "id": 1131909,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليو روماني",
+            "bn": "লিও রোমান",
+            "hi": "लियो रोमान"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. روماني",
+            "bn": "এল. রোমান",
+            "hi": "एल. रोमान"
+          }
+        }
+      },
+      "id": 6660404,
+      "time": 54,
+      "timeSeconds": 3203,
+      "draw": {
+        "start": {
+          "x": 44.7,
+          "y": 18.4
+        },
+        "block": {
+          "x": 46.9,
+          "y": 10.3
+        },
+        "end": {
+          "x": 49.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2197,
+      "periodTimeSeconds": 503,
+      "incidentType": "shot"
+    }
+  ]
+}

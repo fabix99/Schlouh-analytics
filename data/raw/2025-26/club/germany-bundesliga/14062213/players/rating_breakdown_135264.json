@@ -1,0 +1,112 @@
+{
+  "passes": [
+    {
+      "playerCoordinates": {
+        "x": 41.5,
+        "y": 76.3
+      },
+      "passEndCoordinates": {
+        "x": 30.8,
+        "y": 86.5
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 41.7,
+        "y": 60.7
+      },
+      "passEndCoordinates": {
+        "x": 30.2,
+        "y": 72
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 81.2,
+        "y": 63.3
+      },
+      "passEndCoordinates": {
+        "x": 93.5,
+        "y": 68.1
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": true
+    },
+    {
+      "playerCoordinates": {
+        "x": 40.9,
+        "y": 21.6
+      },
+      "passEndCoordinates": {
+        "x": 27.3,
+        "y": 17.1
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 78.4,
+        "y": 13
+      },
+      "passEndCoordinates": {
+        "x": 89.6,
+        "y": 25.3
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 68.8,
+        "y": 30.3
+      },
+      "passEndCoordinates": {
+        "x": 73.5,
+        "y": 14.4
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "dribbles": [],
+  "defensive": [
+    {
+      "playerCoordinates": {
+        "x": 36.8,
+        "y": 53.1
+      },
+      "eventActionType": "ball-recovery",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "ball-carries": [
+    {
+      "playerCoordinates": {
+        "x": 36.8,
+        "y": 53.1
+      },
+      "passEndCoordinates": {
+        "x": 41.7,
+        "y": 60.7
+      },
+      "eventActionType": "ball-carry",
+      "isHome": true
+    }
+  ]
+}

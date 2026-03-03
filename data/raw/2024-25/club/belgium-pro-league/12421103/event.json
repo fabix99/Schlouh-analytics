@@ -1,0 +1,404 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Pro League",
+      "slug": "pro-league",
+      "category": {
+        "name": "Belgium",
+        "slug": "belgium",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 33,
+        "flag": "belgium",
+        "alpha2": "BE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بلجيكا",
+            "ru": "Бельгия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Pro League",
+        "slug": "pro-league",
+        "primaryColorHex": "#16002b",
+        "secondaryColorHex": "#ff1740",
+        "category": {
+          "name": "Belgium",
+          "slug": "belgium",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "BE",
+            "alpha3": "BEL",
+            "name": "Belgium",
+            "slug": "belgium"
+          },
+          "id": 33,
+          "flag": "belgium",
+          "alpha2": "BE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بلجيكا",
+              "ru": "Бельгия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 67568,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 38,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري المحترفين",
+            "bn": "প্রো লীগ",
+            "hi": "प्रो लीग"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 496,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 38,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الدوري الأول",
+          "bn": "ফার্স্ট ডিভিশন এ",
+          "hi": "फर्स्ट डिवीजन ए"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Pro League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 61459
+    },
+    "roundInfo": {
+      "round": 11
+    },
+    "customId": "iXbsUac",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "venue": {
+      "city": {
+        "name": "Mechelen"
+      },
+      "venueCoordinates": {
+        "latitude": 51.02574,
+        "longitude": 4.47762
+      },
+      "hidden": true,
+      "slug": "veoliastadion-achter-de-kazerne",
+      "name": "Veoliastadion Achter De Kazerne",
+      "capacity": 16672,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 1254,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فيوليستاديون آختير دي كازيرن",
+          "hi": "वेओलियास्टेडियन अचर डी काज़र्ने",
+          "bn": "ভেওলিয়াস্ট্যাডিয়ন আখটার ডি কাজারনে"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Veoliastadion Achter De Kazerne",
+        "capacity": 16672
+      }
+    },
+    "referee": {
+      "name": "Michiel Allaerts",
+      "slug": "allaerts-michiel",
+      "yellowCards": 105,
+      "redCards": 3,
+      "yellowRedCards": 1,
+      "games": 29,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 788760,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ميشيل ألارتيز"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "KV Mechelen",
+      "slug": "kv-mechelen",
+      "shortName": "Mechelen",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 21772,
+      "manager": {
+        "name": "Frederik Vanderbiest",
+        "slug": "frederik-vanderbiest",
+        "shortName": "F. Vanderbiest",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 6342,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فريدريك فاندربيست"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فاندربيست"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Mechelen"
+        },
+        "venueCoordinates": {
+          "latitude": 51.02574,
+          "longitude": 4.47762
+        },
+        "hidden": true,
+        "slug": "veoliastadion-achter-de-kazerne",
+        "name": "Veoliastadion Achter De Kazerne",
+        "capacity": 16672,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 1254,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيوليستاديون آختير دي كازيرن",
+            "hi": "वेओलियास्टेडियन अचर डी काज़र्ने",
+            "bn": "ভেওলিয়াস্ট্যাডিয়ন আখটার ডি কাজারনে"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Veoliastadion Achter De Kazerne",
+          "capacity": 16672
+        }
+      },
+      "nameCode": "KVM",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 5044,
+      "fullName": "KV Mechelen",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffcc00",
+        "secondary": "#cc0000",
+        "text": "#cc0000"
+      },
+      "foundationDateTimestamp": -2059171200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كي في ميشيلن",
+          "ru": "Мехелен"
+        },
+        "shortNameTranslation": {
+          "ar": "ميشيلن"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "KV Kortrijk",
+      "slug": "kv-kortrijk",
+      "shortName": "Kortrijk",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 13598,
+      "manager": {
+        "name": "Michiel Jonckheere",
+        "slug": "michiel-jonckheere",
+        "shortName": "M. Jonckheere",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 803183,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميشيل يونكهيير"
+          },
+          "shortNameTranslation": {
+            "ar": "م. يونكهيير"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Kortrijk"
+        },
+        "venueCoordinates": {
+          "latitude": 50.830263,
+          "longitude": 3.249082
+        },
+        "hidden": true,
+        "slug": "guldensporenstadion",
+        "name": "Guldensporenstadion",
+        "capacity": 9399,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 1248,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب جيلدنسبورن",
+            "hi": "गुल्डेनस्पोरेनस्टेडियन",
+            "bn": "গুলডেনস্পোরেনস্টেডিয়ন"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Guldensporenstadion",
+          "capacity": 9399
+        }
+      },
+      "nameCode": "KOR",
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 4858,
+      "fullName": "KV Kortrijk",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ff0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2171232000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كيه في كورتريجك",
+          "ru": "КВ Кортрейк"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 1,
+      "period2": 2,
+      "normaltime": 3
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 10,
+      "injuryTime2": 2,
+      "currentPeriodStartTimestamp": 1729448732
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1729451560
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12421103,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "kv-mechelen-kv-kortrijk",
+    "currentPeriodStartTimestamp": 1729448732,
+    "startTimestamp": 1729444500,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "BE",
+      "IR",
+      "GR",
+      "RU",
+      "CH",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

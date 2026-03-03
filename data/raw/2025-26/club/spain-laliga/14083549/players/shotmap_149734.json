@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Aymeric Laporte",
+        "firstName": "",
+        "lastName": "",
+        "slug": "aymeric-laporte",
+        "shortName": "A. Laporte",
+        "position": "D",
+        "jerseyNumber": "14",
+        "userCount": 10280,
+        "gender": "M",
+        "sofascoreId": "laporte27",
+        "id": 149734,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيميريك لابورت",
+            "bn": "আইমেরিক ল্যাপোর্টে",
+            "hi": "एमेरिक लापोर्टे"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. لابورت",
+            "bn": "এ. ল্যাপোর্টে",
+            "hi": "ए. लापोर्टे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 8.6,
+        "y": 52.1,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.1,
+        "y": 51.9,
+        "z": 0
+      },
+      "xg": 0.077153831720352,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matías Dituro",
+        "slug": "matias-dituro",
+        "shortName": "M. Dituro",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 640,
+        "gender": "M",
+        "id": 556884,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتياس ديتورو",
+            "bn": "ম্যাথিয়াস ডিতুরো",
+            "hi": "मटियास डिटुरो"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ديتورو",
+            "bn": "এম. ডিতুরো",
+            "hi": "एम. डिटुरो"
+          }
+        }
+      },
+      "id": 6746065,
+      "time": 85,
+      "timeSeconds": 5045,
+      "draw": {
+        "start": {
+          "x": 52.1,
+          "y": 8.6
+        },
+        "block": {
+          "x": 51.9,
+          "y": 7.1
+        },
+        "end": {
+          "x": 50.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 355,
+      "periodTimeSeconds": 2345,
+      "incidentType": "shot"
+    }
+  ]
+}

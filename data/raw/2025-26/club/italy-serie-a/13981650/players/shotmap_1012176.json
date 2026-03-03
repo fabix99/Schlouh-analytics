@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Giorgio Scalvini",
+        "firstName": "",
+        "lastName": "",
+        "slug": "giorgio-scalvini",
+        "shortName": "G. Scalvini",
+        "position": "D",
+        "jerseyNumber": "42",
+        "userCount": 3481,
+        "gender": "M",
+        "id": 1012176,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جورجيو سكالفيني",
+            "bn": "জর্জিও স্কালভিনি",
+            "hi": "जियोर्जियो स्काल्विनी"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. سكالفيني",
+            "bn": "জি. স্কালভিনি",
+            "hi": "जी. स्काल्विनी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.3,
+        "y": 66.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 6.3,
+        "y": 55.2,
+        "z": 0
+      },
+      "xg": 0.044705636799335,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Emil Audero",
+        "slug": "emil-audero",
+        "shortName": "E. Audero",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 10760,
+        "gender": "M",
+        "id": 318603,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إميل أوديرو",
+            "bn": "এমিল অডেরো",
+            "hi": "एमिल औडेरो"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. أوديرو",
+            "bn": "ই. অডেরো",
+            "hi": "ई. औडेरो"
+          }
+        }
+      },
+      "id": 6680772,
+      "time": 27,
+      "timeSeconds": 1600,
+      "draw": {
+        "start": {
+          "x": 66.2,
+          "y": 15.3
+        },
+        "block": {
+          "x": 55.2,
+          "y": 6.3
+        },
+        "end": {
+          "x": 47.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 19,
+      "reversedPeriodTimeSeconds": 1100,
+      "periodTimeSeconds": 1600,
+      "incidentType": "shot"
+    }
+  ]
+}

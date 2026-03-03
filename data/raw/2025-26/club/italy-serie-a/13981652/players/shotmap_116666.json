@@ -1,0 +1,173 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Antonio Caracciolo",
+        "slug": "antonio-caracciolo",
+        "shortName": "A. Caracciolo",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 239,
+        "gender": "M",
+        "id": 116666,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنتونيو كاراشيولو"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. كاراشيولو"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "own",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 3.6,
+        "y": 51.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47,
+        "z": 25.3
+      },
+      "goalkeeper": {
+        "name": "Simone Scuffet",
+        "slug": "simone-scuffet",
+        "shortName": "S. Scuffet",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 678,
+        "gender": "M",
+        "id": 284349,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيموني سكوفّيت",
+            "bn": "সিমোন স্কুফট",
+            "hi": "सिमोन स्कफेट"
+          },
+          "shortNameTranslation": {
+            "ar": "س. سكوفّيت",
+            "bn": "এস. স্কাফেট",
+            "hi": "एस. स्कफेट"
+          }
+        }
+      },
+      "id": 6614788,
+      "time": 45,
+      "addedTime": 1,
+      "timeSeconds": 2739,
+      "draw": {
+        "start": {
+          "x": 51.5,
+          "y": 3.6
+        },
+        "end": {
+          "x": 53,
+          "y": 0
+        },
+        "goal": {
+          "x": 53,
+          "y": 74.7
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2661,
+      "periodTimeSeconds": 39,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Antonio Caracciolo",
+        "slug": "antonio-caracciolo",
+        "shortName": "A. Caracciolo",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 239,
+        "gender": "M",
+        "id": 116666,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنتونيو كاراشيولو"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. كاراشيولو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 53.4,
+        "y": 74.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 64.2,
+        "z": 6.9
+      },
+      "blockCoordinates": {
+        "x": 0.5,
+        "y": 41.2,
+        "z": 0
+      },
+      "xg": 0.031045064330101,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Arijanet Murić",
+        "slug": "arijanet-muric",
+        "shortName": "A. Murić",
+        "position": "G",
+        "jerseyNumber": "49",
+        "userCount": 1933,
+        "gender": "M",
+        "id": 888971,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أريجانيت موريش",
+            "bn": "আরিজানেট মুরিচ",
+            "hi": "अरिजानेट मुरिक"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موريش",
+            "bn": "এ. মুরিচ",
+            "hi": "ए. मुरिक"
+          }
+        }
+      },
+      "id": 6614717,
+      "time": 27,
+      "timeSeconds": 1585,
+      "draw": {
+        "start": {
+          "x": 74.6,
+          "y": 53.4
+        },
+        "block": {
+          "x": 41.2,
+          "y": 0.5
+        },
+        "end": {
+          "x": 35.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 35.8,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 19,
+      "reversedPeriodTimeSeconds": 1115,
+      "periodTimeSeconds": 1585,
+      "incidentType": "shot"
+    }
+  ]
+}

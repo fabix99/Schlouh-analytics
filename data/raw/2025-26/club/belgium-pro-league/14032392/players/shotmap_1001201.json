@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Łukasz Łakomy",
+        "slug": "lukasz-lakomy",
+        "shortName": "Ł. Łakomy",
+        "position": "M",
+        "jerseyNumber": "24",
+        "userCount": 792,
+        "gender": "M",
+        "id": 1001201,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس لاكوبي",
+            "bn": "লুকাজ ল্যাকোমি",
+            "hi": "लुकाज़ लुकोमी"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. لاكوبي",
+            "bn": "এল. লাকোমি",
+            "hi": "एल. लुकोमी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 30.9,
+        "y": 48.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 41.5,
+        "z": 12.5
+      },
+      "blockCoordinates": {
+        "x": 24.6,
+        "y": 50.4,
+        "z": 0
+      },
+      "xg": 0.016417108476162,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nacho Miras",
+        "slug": "nacho-miras",
+        "shortName": "N. Miras",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 115,
+        "gender": "M",
+        "id": 1010556,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناشو ميراتس"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. ميراتس"
+          }
+        }
+      },
+      "id": 6627240,
+      "time": 89,
+      "timeSeconds": 5310,
+      "draw": {
+        "start": {
+          "x": 48.7,
+          "y": 30.9
+        },
+        "block": {
+          "x": 50.4,
+          "y": 24.6
+        },
+        "end": {
+          "x": 58.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 58.5,
+          "y": 87.5
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 90,
+      "periodTimeSeconds": 2610,
+      "incidentType": "shot"
+    }
+  ]
+}

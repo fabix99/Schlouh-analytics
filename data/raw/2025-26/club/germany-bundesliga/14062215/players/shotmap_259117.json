@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Joshua Kimmich",
+        "firstName": "",
+        "lastName": "",
+        "slug": "joshua-kimmich",
+        "shortName": "J. Kimmich",
+        "position": "M",
+        "jerseyNumber": "6",
+        "userCount": 42203,
+        "gender": "M",
+        "sofascoreId": "Jok_32",
+        "id": 259117,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوشوا كيميش",
+            "bn": "জোশুয়া কিমিচ",
+            "hi": "जोशुआ किमिच"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. كيميش",
+            "bn": "জে. কিমিচ",
+            "hi": "जे. किमिच"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.9,
+        "y": 55.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.1,
+        "y": 53.8,
+        "z": 0
+      },
+      "xg": 0.062571600079536,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kauã Santos",
+        "slug": "kaua-dos-santos",
+        "shortName": "Kauã",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 2845,
+        "gender": "M",
+        "id": 1134203,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاوَا دوس سانتوس",
+            "bn": "কাওয়া ডস সান্তোস",
+            "hi": "काउआ डॉस सैंटोस"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. دوس سانتوس",
+            "bn": "কাওয়া",
+            "hi": "काऊआ"
+          }
+        }
+      },
+      "id": 6751229,
+      "time": 72,
+      "timeSeconds": 4275,
+      "draw": {
+        "start": {
+          "x": 55.8,
+          "y": 21.9
+        },
+        "block": {
+          "x": 53.8,
+          "y": 13.1
+        },
+        "end": {
+          "x": 50.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 19,
+      "reversedPeriodTimeSeconds": 1125,
+      "periodTimeSeconds": 1575,
+      "incidentType": "shot"
+    }
+  ]
+}

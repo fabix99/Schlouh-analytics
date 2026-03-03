@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Blaž Kramer",
+        "firstName": "",
+        "lastName": "",
+        "slug": "blaz-kramer",
+        "shortName": "B. Kramer",
+        "position": "F",
+        "jerseyNumber": "99",
+        "userCount": 637,
+        "gender": "M",
+        "id": 804405,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بلاز كرامر",
+            "bn": "ব্লাজ ক্রেমার",
+            "hi": "ब्लाज़ क्रेमर"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. كرامر",
+            "bn": "বি. ক্রেমার",
+            "hi": "बी. क्रेमर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 8,
+        "y": 69.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.5,
+        "z": 0.6
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 53.2,
+        "z": 0
+      },
+      "xg": 0.063150860369205,
+      "xgot": 0.075455121695995,
+      "goalkeeper": {
+        "name": "Mateusz Lis",
+        "slug": "mateusz-lis",
+        "shortName": "M. Lis",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 589,
+        "gender": "M",
+        "id": 798375,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتيوز ليز",
+            "bn": "ম্যাথু লিস",
+            "hi": "माटेयूज़ लिस"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ليز",
+            "bn": "এম. লিস",
+            "hi": "एम. लिस"
+          }
+        }
+      },
+      "id": 6667972,
+      "time": 6,
+      "timeSeconds": 325,
+      "draw": {
+        "start": {
+          "x": 69.5,
+          "y": 8
+        },
+        "block": {
+          "x": 53.2,
+          "y": 1.1
+        },
+        "end": {
+          "x": 51.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.5,
+          "y": 99.4
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2375,
+      "periodTimeSeconds": 325,
+      "incidentType": "shot"
+    }
+  ]
+}

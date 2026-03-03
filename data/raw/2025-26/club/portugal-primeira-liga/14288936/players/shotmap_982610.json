@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Amadou Dante",
+        "slug": "amadou-dante",
+        "shortName": "A. Dante",
+        "position": "D",
+        "jerseyNumber": "44",
+        "userCount": 1375,
+        "gender": "M",
+        "id": 982610,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أمادو دانتي",
+            "bn": "আমাদৌ দান্তে",
+            "hi": "अमादौ दांते"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. دانتي",
+            "bn": "এ. দান্তে",
+            "hi": "ए. दांते"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.2,
+        "y": 32.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.6,
+        "y": 36.3,
+        "z": 0
+      },
+      "xg": 0.042471777647734,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Adriel",
+        "firstName": "Adriel",
+        "lastName": "",
+        "slug": "adriel",
+        "shortName": "Adriel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 387,
+        "gender": "M",
+        "id": 1106840,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أدرييل"
+          },
+          "shortNameTranslation": {
+            "ar": "أدرييل"
+          }
+        }
+      },
+      "id": 6535457,
+      "time": 57,
+      "timeSeconds": 3366,
+      "draw": {
+        "start": {
+          "x": 32.5,
+          "y": 18.2
+        },
+        "block": {
+          "x": 36.3,
+          "y": 13.6
+        },
+        "end": {
+          "x": 47.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2034,
+      "periodTimeSeconds": 666,
+      "incidentType": "shot"
+    }
+  ]
+}

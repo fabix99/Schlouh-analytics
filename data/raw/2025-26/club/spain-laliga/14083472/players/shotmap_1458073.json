@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nobel Mendy",
+        "slug": "mendy-nobel",
+        "shortName": "N. Mendy",
+        "position": "D",
+        "jerseyNumber": "32",
+        "userCount": 4382,
+        "gender": "M",
+        "id": 1458073,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميندي، نوبل",
+            "bn": "মেন্ডি, নোবেল",
+            "hi": "मेंडी, नोबेल"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوبل",
+            "bn": "এন. মেন্ডি",
+            "hi": "एन. मेंडी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 4.2,
+        "y": 55.3,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.1,
+        "z": 12.7
+      },
+      "xg": 0.1435936242342,
+      "xgot": 0.59975916147232,
+      "goalkeeper": {
+        "name": "Jan Oblak",
+        "slug": "jan-oblak",
+        "shortName": "J. Oblak",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 12365,
+        "gender": "M",
+        "sofascoreId": "oblakjan",
+        "id": 69768,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يان أوبلاك",
+            "bn": "জন ওব্লাক",
+            "hi": "जान ओबलाक"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أوبلاك",
+            "bn": "জে. ওব্লাক",
+            "hi": "जे. ओबलाक"
+          }
+        }
+      },
+      "id": 6718798,
+      "time": 76,
+      "timeSeconds": 4501,
+      "draw": {
+        "start": {
+          "x": 55.3,
+          "y": 4.2
+        },
+        "end": {
+          "x": 52.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.9,
+          "y": 87.3
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 899,
+      "periodTimeSeconds": 1801,
+      "incidentType": "shot"
+    }
+  ]
+}

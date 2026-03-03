@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Thomas Lemar",
+        "firstName": "",
+        "lastName": "",
+        "slug": "thomas-lemar",
+        "shortName": "T. Lemar",
+        "position": "M",
+        "jerseyNumber": "11",
+        "userCount": 5980,
+        "gender": "M",
+        "id": 191182,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توماس ليمار",
+            "bn": "টমাস লেমার",
+            "hi": "थॉमस लेमर"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. ليمار",
+            "bn": "টি. লেমার",
+            "hi": "टी. लेमर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 3.5,
+        "y": 50.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.7,
+        "z": 2.5
+      },
+      "xg": 0.90894597768784,
+      "xgot": 0.99525529146194,
+      "goalkeeper": {
+        "name": "Joan García",
+        "slug": "joan-garcia",
+        "shortName": "J. García",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 113533,
+        "gender": "M",
+        "id": 930267,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوان جارسيا",
+            "bn": "জোয়ান গার্সিয়া",
+            "hi": "जोन गार्सिया"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. جارسيا",
+            "bn": "জে. গার্সিয়া",
+            "hi": "जे. गार्सिया"
+          }
+        }
+      },
+      "id": 6726118,
+      "time": 62,
+      "timeSeconds": 3660,
+      "draw": {
+        "start": {
+          "x": 50.6,
+          "y": 3.5
+        },
+        "end": {
+          "x": 52.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.3,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1740,
+      "periodTimeSeconds": 960,
+      "incidentType": "shot"
+    }
+  ]
+}

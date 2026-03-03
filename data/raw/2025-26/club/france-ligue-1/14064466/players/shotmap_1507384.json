@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Adama Camara",
+        "firstName": "Adama Camara",
+        "slug": "camara-adama",
+        "shortName": "A. Camara",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 430,
+        "gender": "M",
+        "id": 1507384,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أداما كامارا"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. كامارا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 16.7,
+        "y": 50.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 4.4
+      },
+      "blockCoordinates": {
+        "x": 1.5,
+        "y": 50.7,
+        "z": 0
+      },
+      "xg": 0.1145948767662,
+      "xgot": 0.055143184959888,
+      "goalkeeper": {
+        "name": "Hervé Koffi",
+        "slug": "herve-koffi",
+        "shortName": "H. Koffi",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 15744,
+        "gender": "M",
+        "sofascoreId": "HKoffi",
+        "id": 867299,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيرفي كوفي",
+            "bn": "হার্ভে কফি",
+            "hi": "हर्वे कोफ़ी"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. كوفي",
+            "bn": "এইচ. কফি",
+            "hi": "एच. कोफ़ी"
+          }
+        }
+      },
+      "id": 6590180,
+      "time": 52,
+      "timeSeconds": 3067,
+      "draw": {
+        "start": {
+          "x": 50.1,
+          "y": 16.7
+        },
+        "block": {
+          "x": 50.7,
+          "y": 1.5
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 95.6
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2333,
+      "periodTimeSeconds": 367,
+      "incidentType": "shot"
+    }
+  ]
+}

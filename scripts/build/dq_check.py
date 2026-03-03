@@ -142,6 +142,9 @@ def check_01(df: pd.DataFrame) -> None:
 
 def check_02(df: pd.DataFrame, scores00: pd.DataFrame, matches: pd.DataFrame) -> None:
     f = "02_match_summary"
+    # No duplicate match_id
+    dup = df["match_id"].astype(str).duplicated().sum()
+    warn(f, "no_duplicate_match_id", dup == 0, detail=f"{dup} duplicate match_id rows")
     all_mids = set(matches["match_id"].astype(str))
     df_mids = set(df["match_id"].astype(str))
     check(f, "all_matches_csv_ids_present", all_mids == df_mids,

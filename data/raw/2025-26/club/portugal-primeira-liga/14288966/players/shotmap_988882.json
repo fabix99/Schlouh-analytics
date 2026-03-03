@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Joe Hodge",
+        "slug": "hodge-joe",
+        "shortName": "J. Hodge",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 265,
+        "gender": "M",
+        "id": 988882,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هودج، جو",
+            "bn": "হজ, জো",
+            "hi": "हॉज, जो"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. هودج",
+            "bn": "জে. হজ",
+            "hi": "जे. हॉज"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 26.5,
+        "y": 32.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 39.8,
+        "z": 77.8
+      },
+      "xg": 0.021107515320182,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Anatoliy Trubin",
+        "slug": "anatoliy-trubin",
+        "shortName": "A. Trubin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9736,
+        "gender": "M",
+        "sofascoreId": "anatoliytrubin81",
+        "id": 966616,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أناتولي تروبين",
+            "bn": "আনাতোলি ট্রুবিন",
+            "hi": "अनातोली ट्रुबिन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. تروبين",
+            "bn": "এ. ট্রুবিন",
+            "hi": "ए. ट्रुबिन"
+          }
+        }
+      },
+      "id": 6627700,
+      "time": 50,
+      "timeSeconds": 2968,
+      "draw": {
+        "start": {
+          "x": 32.9,
+          "y": 26.5
+        },
+        "end": {
+          "x": 60.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 60.2,
+          "y": 22.2
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2432,
+      "periodTimeSeconds": 268,
+      "incidentType": "shot"
+    }
+  ]
+}

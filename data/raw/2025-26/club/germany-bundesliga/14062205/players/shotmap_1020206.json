@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sebastian Sebulonsen",
+        "slug": "sebastian-sebulonsen",
+        "shortName": "S. Sebulonsen",
+        "position": "D",
+        "jerseyNumber": "28",
+        "userCount": 233,
+        "gender": "M",
+        "id": 1020206,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيباستيان سوراس سيبولونسن",
+            "bn": "সেবাস্তিয়ান সোরাস সেবুলোনসেন",
+            "hi": "सेबेस्टियन सोरास सेबुलोन्सेन"
+          },
+          "shortNameTranslation": {
+            "ar": "س. س. سيبولونسن",
+            "bn": "এস. এস. সেবুলোনসেন",
+            "hi": "एस.एस. सेबुलोन्सेन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.1,
+        "y": 42.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.1,
+        "y": 44,
+        "z": 0
+      },
+      "xg": 0.10080393403769,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Péter Gulácsi",
+        "slug": "peter-gulacsi",
+        "shortName": "P. Gulácsi",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2349,
+        "gender": "M",
+        "id": 37096,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيتر غولاتشي",
+            "bn": "পিটার গুলাসি",
+            "hi": "पीटर गुलासी"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غولاتشي",
+            "bn": "পি. গুলাসি",
+            "hi": "पी. गुलासी"
+          }
+        }
+      },
+      "id": 6669326,
+      "time": 69,
+      "timeSeconds": 4126,
+      "draw": {
+        "start": {
+          "x": 42.9,
+          "y": 12.1
+        },
+        "block": {
+          "x": 44,
+          "y": 10.1
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 22,
+      "reversedPeriodTimeSeconds": 1274,
+      "periodTimeSeconds": 1426,
+      "incidentType": "shot"
+    }
+  ]
+}

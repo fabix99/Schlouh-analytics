@@ -1,0 +1,108 @@
+{
+  "passes": [
+    {
+      "playerCoordinates": {
+        "x": 82.4,
+        "y": 3.4
+      },
+      "passEndCoordinates": {
+        "x": 82,
+        "y": 7.3
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 73.7,
+        "y": 47.9
+      },
+      "passEndCoordinates": {
+        "x": 85.9,
+        "y": 81.5
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 59.9,
+        "y": 39.2
+      },
+      "passEndCoordinates": {
+        "x": 70,
+        "y": 74.1
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": true
+    }
+  ],
+  "dribbles": [],
+  "defensive": [
+    {
+      "playerCoordinates": {
+        "x": 27.5,
+        "y": 21
+      },
+      "passEndCoordinates": {
+        "x": 41.7,
+        "y": 18
+      },
+      "eventActionType": "clearance",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 24.8,
+        "y": 6.1
+      },
+      "eventActionType": "interception",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 37.3,
+        "y": 8.5
+      },
+      "eventActionType": "ball-recovery",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "ball-carries": [
+    {
+      "playerCoordinates": {
+        "x": 35,
+        "y": 25
+      },
+      "passEndCoordinates": {
+        "x": 46.7,
+        "y": 22.7
+      },
+      "eventActionType": "ball-carry",
+      "isHome": true
+    },
+    {
+      "playerCoordinates": {
+        "x": 37.3,
+        "y": 8.5
+      },
+      "passEndCoordinates": {
+        "x": 59.9,
+        "y": 39.2
+      },
+      "eventActionType": "ball-carry",
+      "isHome": true
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Alec Van Hoorenbeeck",
+        "slug": "alec-van-hoorenbeeck",
+        "shortName": "A. V. Hoorenbeeck",
+        "position": "D",
+        "jerseyNumber": "18",
+        "userCount": 120,
+        "gender": "M",
+        "id": 974203,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليك فان هورينبيك"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فان هورينبيك"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 2,
+        "y": 49.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.7,
+        "z": 11.4
+      },
+      "xg": 0.81822580099106,
+      "xgot": 0.8319246172905,
+      "goalkeeper": {
+        "name": "Mattijs Branderhorst",
+        "slug": "mattijs-branderhorst",
+        "shortName": "M. Branderhorst",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 151,
+        "gender": "M",
+        "id": 146871,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتيس براندرهورست"
+          },
+          "shortNameTranslation": {
+            "ar": "م. براندرهورست"
+          }
+        }
+      },
+      "id": 6624520,
+      "time": 44,
+      "timeSeconds": 2596,
+      "draw": {
+        "start": {
+          "x": 49.7,
+          "y": 2
+        },
+        "end": {
+          "x": 51.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.3,
+          "y": 88.6
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 104,
+      "periodTimeSeconds": 2596,
+      "incidentType": "shot"
+    }
+  ]
+}

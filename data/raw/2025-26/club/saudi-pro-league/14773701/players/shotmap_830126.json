@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sultan Al-Ghannam",
+        "slug": "sultan-al-ghannam",
+        "shortName": "S. Al-Ghannam",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 1616,
+        "gender": "M",
+        "id": 830126,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سلطان الغنام",
+            "bn": "সুলতান আল-ঘানাম",
+            "hi": "सुल्तान अल-घन्नम"
+          },
+          "shortNameTranslation": {
+            "ar": "س. الغنام",
+            "bn": "এস. আল-ঘানাম",
+            "hi": "एस. अल-घन्नम"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 19.1,
+        "y": 69.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.6,
+        "z": 2.5
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 52.7,
+        "z": 0
+      },
+      "xg": 0.017969280481339,
+      "xgot": 0.061817143112421,
+      "goalkeeper": {
+        "name": "Mailson",
+        "slug": "mailson",
+        "shortName": "Mailson",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 575,
+        "gender": "M",
+        "id": 883367,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايلسون",
+            "bn": "মেইলসন",
+            "hi": "मेलसन"
+          },
+          "shortNameTranslation": {
+            "ar": "مايلسون",
+            "bn": "মেলসন",
+            "hi": "मेलसन"
+          }
+        }
+      },
+      "id": 6595465,
+      "time": 56,
+      "timeSeconds": 3320,
+      "draw": {
+        "start": {
+          "x": 69.1,
+          "y": 19.1
+        },
+        "block": {
+          "x": 52.7,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 48.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.4,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2080,
+      "periodTimeSeconds": 620,
+      "incidentType": "shot"
+    }
+  ]
+}

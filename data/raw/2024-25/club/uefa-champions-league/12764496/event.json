@@ -1,0 +1,396 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1184603,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 61644
+    },
+    "roundInfo": {
+      "round": 1
+    },
+    "customId": "THsbkb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 40024,
+    "venue": {
+      "city": {
+        "name": "Lisbon"
+      },
+      "venueCoordinates": {
+        "latitude": 38.761216,
+        "longitude": -9.160783
+      },
+      "hidden": false,
+      "slug": "jos-alvalade",
+      "name": "Estádio José Alvalade",
+      "capacity": 52095,
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 910,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "خوسيه ألفالادي",
+          "hi": "जोस अलवालदे",
+          "bn": "হোসে আলভালাদে"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Estádio José Alvalade",
+        "capacity": 52095
+      }
+    },
+    "referee": {
+      "name": "Donatas Rumsas",
+      "slug": "donatas-rumsas",
+      "yellowCards": 645,
+      "redCards": 14,
+      "yellowRedCards": 19,
+      "games": 168,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "LT",
+        "alpha3": "LTU",
+        "name": "Lithuania",
+        "slug": "lithuania"
+      },
+      "id": 785149,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوناتاس رومساس",
+          "bn": "ডোনাটাস রুমসাস",
+          "hi": "डोनटास रमसास"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Sporting CP",
+      "slug": "sporting",
+      "shortName": "Sporting",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 697944,
+      "manager": {
+        "name": "Rui Borges",
+        "slug": "rui-borges",
+        "shortName": "R. Borges",
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 791680,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روي بورغيس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. بورغيس"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Lisbon"
+        },
+        "venueCoordinates": {
+          "latitude": 38.761216,
+          "longitude": -9.160783
+        },
+        "hidden": false,
+        "slug": "jos-alvalade",
+        "name": "Estádio José Alvalade",
+        "capacity": 52095,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 910,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه ألفالادي",
+            "hi": "जोस अलवालदे",
+            "bn": "হোসে আলভালাদে"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estádio José Alvalade",
+          "capacity": 52095
+        }
+      },
+      "nameCode": "SCP",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 3001,
+      "fullName": "Sporting CP",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#009966",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2004048000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سبورتنج",
+          "bn": "স্পোর্টিং",
+          "hi": "स्पोर्टिंग",
+          "ru": "Спортинг Лиссабон"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Lille",
+      "slug": "lille",
+      "shortName": "Lille",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 304499,
+      "manager": {
+        "name": "Bruno Genesio",
+        "slug": "bruno-genesio",
+        "shortName": "B. Genesio",
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 786396,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برونو جينيسيو"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. جينيسيو"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Lille"
+        },
+        "venueCoordinates": {
+          "latitude": 50.611904,
+          "longitude": 3.130508
+        },
+        "hidden": false,
+        "slug": "decathlon-arena-stade-pierre-mauroy",
+        "name": "Decathlon Arena - Stade Pierre Mauroy",
+        "capacity": 50186,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 837,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديكاتلون أرينا - ملعب بيير موروا",
+            "hi": "डेकाथलॉन एरिना - स्टेड पियरे मौरॉय",
+            "bn": "ডেকাথলন এরিনা - স্টেড পিয়েরে মাউরয়"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Decathlon Arena - Stade Pierre Mauroy",
+          "capacity": 50186
+        }
+      },
+      "nameCode": "LIL",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1643,
+      "fullName": "Lille",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#df0000",
+        "secondary": "#24216a",
+        "text": "#24216a"
+      },
+      "foundationDateTimestamp": -797558400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ليل",
+          "bn": "লিল",
+          "hi": "लिली",
+          "ru": "Лилль"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 5,
+      "injuryTime2": 3,
+      "currentPeriodStartTimestamp": 1726603659
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1726606587
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12764496,
+    "awayRedCards": 1,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "sporting-lille",
+    "currentPeriodStartTimestamp": 1726603659,
+    "startTimestamp": 1726599600,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

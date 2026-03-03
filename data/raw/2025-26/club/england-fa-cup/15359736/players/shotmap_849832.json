@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Harvey Rodgers",
+        "firstName": "",
+        "lastName": "",
+        "slug": "harvey-rodgers",
+        "shortName": "H. Rodgers",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 31,
+        "gender": "M",
+        "id": 849832,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هارفي رودجرز"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. رودجرز"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 13.3,
+        "y": 51.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.5,
+        "y": 51.1,
+        "z": 0
+      },
+      "goalkeeper": {
+        "name": "Sam Johnstone",
+        "slug": "sam-johnstone",
+        "shortName": "S. Johnstone",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 602,
+        "gender": "M",
+        "id": 98427,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سام جونستون",
+            "bn": "স্যাম জনস্টোন",
+            "hi": "सैम जॉनस्टोन"
+          },
+          "shortNameTranslation": {
+            "ar": "س. جونستون",
+            "bn": "এস. জনস্টোন",
+            "hi": "एस. जॉनस्टोन"
+          }
+        }
+      },
+      "id": 6717546,
+      "time": 63,
+      "timeSeconds": 3749,
+      "draw": {
+        "start": {
+          "x": 51.3,
+          "y": 13.3
+        },
+        "block": {
+          "x": 51.1,
+          "y": 11.5
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1651,
+      "periodTimeSeconds": 1049,
+      "incidentType": "shot"
+    }
+  ]
+}

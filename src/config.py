@@ -43,8 +43,11 @@ def _load_yaml() -> dict:
             for k, v in data.items():
                 if k in out and v is not None:
                     out[k] = v
-        except Exception:
-            pass
+        except (FileNotFoundError, OSError):
+            pass  # config optional; use defaults
+        except Exception as e:
+            import warnings
+            warnings.warn(f"Could not load config from {yaml_path}: {e}", UserWarning)
     return out
 
 

@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Thom van Bergen",
+        "firstName": "Thom van Bergen",
+        "lastName": "",
+        "slug": "thom-van-bergen",
+        "shortName": "T. v. Bergen",
+        "position": "F",
+        "jerseyNumber": "26",
+        "userCount": 460,
+        "gender": "M",
+        "id": 1413536,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توم فان بيرغن"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. فان بيرغن"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 11.3,
+        "y": 38,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 0.8,
+        "z": 16.7
+      },
+      "blockCoordinates": {
+        "x": 7.6,
+        "y": 51.1,
+        "z": 0
+      },
+      "xg": 0.025667475536466,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Niek Schiks",
+        "slug": "niek-schiks",
+        "shortName": "N. Schiks",
+        "position": "G",
+        "jerseyNumber": "24",
+        "userCount": 222,
+        "gender": "M",
+        "id": 1134720,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيك شيكس"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. شيكس"
+          }
+        }
+      },
+      "id": 6669855,
+      "time": 50,
+      "timeSeconds": 2962,
+      "draw": {
+        "start": {
+          "x": 38,
+          "y": 11.3
+        },
+        "block": {
+          "x": 51.1,
+          "y": 7.6
+        },
+        "end": {
+          "x": 99.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 99.2,
+          "y": 83.3
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2438,
+      "periodTimeSeconds": 262,
+      "incidentType": "shot"
+    }
+  ]
+}

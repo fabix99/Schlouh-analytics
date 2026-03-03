@@ -1,0 +1,412 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Ligue 1",
+      "slug": "ligue-1",
+      "category": {
+        "name": "France",
+        "slug": "france",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 7,
+        "flag": "france",
+        "alpha2": "FR",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "hi": "फ्रांस",
+            "ar": "فرنسا",
+            "bn": "ফ্রান্স",
+            "ru": "Франция"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Ligue 1",
+        "slug": "ligue-1",
+        "primaryColorHex": "#091c3e",
+        "secondaryColorHex": "#a9c011",
+        "category": {
+          "name": "France",
+          "slug": "france",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+          },
+          "id": 7,
+          "flag": "france",
+          "alpha2": "FR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "hi": "फ्रांस",
+              "ar": "فرنسا",
+              "bn": "ফ্রান্স",
+              "ru": "Франция"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 414438,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 34,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "লীগ 1",
+            "ar": "الدوري الفرنسي",
+            "hi": "लीग 1"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 694,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 4,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "bn": "লীগ 1",
+          "hi": "लीग 1",
+          "ar": "الدوري الفرنسي 1"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Ligue 1 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 61736
+    },
+    "roundInfo": {
+      "round": 24
+    },
+    "customId": "RHsiI",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 11990,
+    "venue": {
+      "city": {
+        "name": "Montpellier"
+      },
+      "venueCoordinates": {
+        "latitude": 43.622022,
+        "longitude": 3.81209
+      },
+      "hidden": false,
+      "slug": "stade-de-la-mosson",
+      "name": "Stade de la Mosson",
+      "capacity": 22000,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1275,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب دو لا موسون",
+          "hi": "स्टेड डे ला मोसोन",
+          "bn": "স্টেড দে লা মসন"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Stade de la Mosson",
+        "capacity": 22000
+      }
+    },
+    "referee": {
+      "name": "Florent Batta",
+      "slug": "florent-batta",
+      "yellowCards": 963,
+      "redCards": 35,
+      "yellowRedCards": 25,
+      "games": 268,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 78823,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فلورنت باتا",
+          "bn": "ফ্লোরেন্ট বাট্টা",
+          "hi": "फ्लोरेंट बट्टा"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Montpellier",
+      "slug": "montpellier",
+      "shortName": "Montpellier",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 47477,
+      "manager": {
+        "name": "Zoumana Camara",
+        "slug": "zoumana-camara",
+        "shortName": "Z. Camara",
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 800665,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زومانا كامارا"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. كامارا"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Montpellier"
+        },
+        "venueCoordinates": {
+          "latitude": 43.622022,
+          "longitude": 3.81209
+        },
+        "hidden": false,
+        "slug": "stade-de-la-mosson",
+        "name": "Stade de la Mosson",
+        "capacity": 22000,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 1275,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب دو لا موسون",
+            "hi": "स्टेड डे ला मोसोन",
+            "bn": "স্টেড দে লা মসন"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stade de la Mosson",
+          "capacity": 22000
+        }
+      },
+      "nameCode": "MHS",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1642,
+      "fullName": "Montpellier",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#003e7e",
+        "secondary": "#ea7118",
+        "text": "#ea7118"
+      },
+      "foundationDateTimestamp": 126230400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مونبلييه",
+          "bn": "মন্টপেলিয়ার",
+          "hi": "मॉंटपेलीयर",
+          "ru": "Монпелье"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Stade Rennais",
+      "slug": "stade-rennais",
+      "shortName": "Rennes",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 120248,
+      "manager": {
+        "name": "Franck Haise",
+        "slug": "franck-haise",
+        "shortName": "F. Haise",
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 794328,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فرانك هايز",
+            "bn": "ফ্রাঙ্ক হাইজ.",
+            "hi": "फ़्रैंक हेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. هايز",
+            "bn": "এফ. হেইজ",
+            "hi": "एफ. हेज़"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Rennes"
+        },
+        "venueCoordinates": {
+          "latitude": 48.107565,
+          "longitude": -1.712654
+        },
+        "hidden": false,
+        "slug": "roazhon-park",
+        "name": "Roazhon Park",
+        "capacity": 29778,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 844,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روازون بارك",
+            "hi": "रोअज़होन पार्क",
+            "bn": "রোজঘন পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Roazhon Park",
+          "capacity": 29778
+        }
+      },
+      "nameCode": "SR",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1658,
+      "fullName": "Stade Rennais",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ff0000",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2171577600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ستاد رين",
+          "ru": "Ренн"
+        },
+        "shortNameTranslation": {
+          "ar": "رين",
+          "bn": "রেনাইস",
+          "hi": "रेनेस"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 4,
+      "display": 4,
+      "period1": 1,
+      "period2": 3,
+      "normaltime": 4
+    },
+    "time": {
+      "injuryTime1": 4,
+      "injuryTime2": 4,
+      "currentPeriodStartTimestamp": 1740936146
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1740939095
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12450238,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "stade-rennais-montpellier",
+    "currentPeriodStartTimestamp": 1740936146,
+    "startTimestamp": 1740932100,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Bundesliga",
+      "slug": "bundesliga",
+      "category": {
+        "name": "Germany",
+        "slug": "germany",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 30,
+        "flag": "germany",
+        "alpha2": "DE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألمانيا",
+            "bn": "জার্মানি",
+            "hi": "जर्मनी",
+            "ru": "Германия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Bundesliga",
+        "slug": "bundesliga",
+        "primaryColorHex": "#e2080e",
+        "secondaryColorHex": "#8e0902",
+        "category": {
+          "name": "Germany",
+          "slug": "germany",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "DE",
+            "alpha3": "DEU",
+            "name": "Germany",
+            "slug": "germany"
+          },
+          "id": 30,
+          "flag": "germany",
+          "alpha2": "DE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألمانيا",
+              "bn": "জার্মানি",
+              "hi": "जर्मनी",
+              "ru": "Германия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 508922,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 35,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "বুন্দেসলীগা",
+            "ar": "الدوري الألماني",
+            "hi": "बुंडेसलीगा"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 695,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 42,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "बुंडेसलीगा",
+          "ar": "الدوري الألماني",
+          "bn": "বুন্দেসলীগা"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Bundesliga 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 63516
+    },
+    "roundInfo": {
+      "round": 13
+    },
+    "customId": "XabsCdb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 59000,
+    "venue": {
+      "city": {
+        "name": "Stuttgart"
+      },
+      "venueCoordinates": {
+        "latitude": 48.792249,
+        "longitude": 9.232086
+      },
+      "hidden": false,
+      "slug": "mhp-arena",
+      "name": "MHP Arena",
+      "capacity": 60449,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 648,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "MHP أرينا",
+          "hi": "एमएचपी एरिना",
+          "bn": "এমএইচপি এরিনা"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "MHP Arena",
+        "capacity": 60449
+      }
+    },
+    "referee": {
+      "name": "Tobias Welz",
+      "slug": "welz-tobias",
+      "yellowCards": 1018,
+      "redCards": 25,
+      "yellowRedCards": 18,
+      "games": 256,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 52234,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ويلز، توبياس",
+          "bn": "ওয়েলজ, টোবিয়াস",
+          "hi": "वेल्ज़, टोबियास"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "VfB Stuttgart",
+      "slug": "vfb-stuttgart",
+      "shortName": "Stuttgart",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 235313,
+      "manager": {
+        "name": "Sebastian Hoeneß",
+        "slug": "sebastian-hoeness",
+        "shortName": "S. Hoeneß",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 792136,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيباستيان هوينس",
+            "bn": "সেবাস্টিয়ান হোয়েনেস",
+            "hi": "सेबेस्टियन होएनेस"
+          },
+          "shortNameTranslation": {
+            "ar": "س. هوينس",
+            "bn": "এস. হোয়েনেস",
+            "hi": "एस. होएनेस"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Stuttgart"
+        },
+        "venueCoordinates": {
+          "latitude": 48.792249,
+          "longitude": 9.232086
+        },
+        "hidden": false,
+        "slug": "mhp-arena",
+        "name": "MHP Arena",
+        "capacity": 60449,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 648,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "MHP أرينا",
+            "hi": "एमएचपी एरिना",
+            "bn": "এমএইচপি এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "MHP Arena",
+          "capacity": 60449
+        }
+      },
+      "nameCode": "VFB",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2677,
+      "fullName": "VfB Stuttgart",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#ff0000",
+        "text": "#ff0000"
+      },
+      "foundationDateTimestamp": -2408140800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "شتوتجارت",
+          "hi": "VFB स्टुटगार्ट",
+          "ru": "Штутгарт"
+        },
+        "shortNameTranslation": {
+          "ar": "شتوتغارت",
+          "bn": "স্টুটগার্ট",
+          "hi": "स्टुटगार्ट"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "1. FC Union Berlin",
+      "slug": "1-fc-union-berlin",
+      "shortName": "Union Berlin",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 122943,
+      "manager": {
+        "name": "Steffen Baumgart",
+        "slug": "steffen-baumgart",
+        "shortName": "S. Baumgart",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 785174,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "شتيفن بومغارت"
+          },
+          "shortNameTranslation": {
+            "ar": "ش. بومغارت"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Berlin"
+        },
+        "venueCoordinates": {
+          "latitude": 52.456974,
+          "longitude": 13.568079
+        },
+        "hidden": false,
+        "slug": "an-der-alten-f-rsterei",
+        "name": "An der alten Försterei",
+        "capacity": 22012,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 578,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آن دير آلتن فورستيري",
+            "hi": "एक डेर अल्टेन फ़ोर्सटेरी",
+            "bn": "আন ডের আলটেন ফর্স্টেরেই"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "An der alten Försterei",
+          "capacity": 22012
+        }
+      },
+      "nameCode": "FCU",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2547,
+      "fullName": "1. FC Union Berlin",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ff0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -124588800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "1 إف سي يونيون برلين",
+          "ru": "Унион Берлин"
+        },
+        "shortNameTranslation": {
+          "ar": "يونيون برلين",
+          "bn": "ইউনিয়ন বার্লিন",
+          "hi": "यूनियन बर्लिन"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 0,
+      "period2": 3,
+      "normaltime": 3
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 2,
+      "injuryTime2": 7,
+      "currentPeriodStartTimestamp": 1733517220
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1733520380
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12499484,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "vfb-stuttgart-1-fc-union-berlin",
+    "currentPeriodStartTimestamp": 1733517220,
+    "startTimestamp": 1733513400,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "??",
+      "AN",
+      "AS",
+      "AT",
+      "CH",
+      "CU",
+      "DE",
+      "GU",
+      "IR",
+      "KP",
+      "LI",
+      "LU",
+      "MP",
+      "PR",
+      "SY",
+      "US",
+      "VE",
+      "VI",
+      "GR",
+      "RU",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

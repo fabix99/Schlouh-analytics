@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jonathan Rowe",
+        "firstName": "Jon Rowe",
+        "lastName": "",
+        "slug": "jonathan-rowe",
+        "shortName": "J. Rowe",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 2348,
+        "gender": "M",
+        "id": 1065261,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوناثان رووي",
+            "bn": "জোনাথন রো",
+            "hi": "जोनाथन रोवे"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. رووي",
+            "bn": "জে. রো",
+            "hi": "जे. रोवे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.3,
+        "y": 27.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.4,
+        "z": 80.6
+      },
+      "xg": 0.018367974087596,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mike Maignan",
+        "slug": "mike-maignan",
+        "shortName": "M. Maignan",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 15438,
+        "gender": "M",
+        "sofascoreId": "MMaignan",
+        "id": 191210,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايك مانيان",
+            "bn": "মাইক ম্যাগনান",
+            "hi": "माइक मैग्नन"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ميانيان",
+            "bn": "এম. ম্যাগনান",
+            "hi": "एम. मैग्नन"
+          }
+        }
+      },
+      "id": 6641028,
+      "time": 6,
+      "timeSeconds": 349,
+      "draw": {
+        "start": {
+          "x": 27.2,
+          "y": 20.3
+        },
+        "end": {
+          "x": 53.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.6,
+          "y": 19.4
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2351,
+      "periodTimeSeconds": 349,
+      "incidentType": "shot"
+    }
+  ]
+}

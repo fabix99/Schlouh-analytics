@@ -9,6 +9,8 @@ Batch extract match data for a competition/season from the index.
 Usage:
   python src/extract_batch.py spain-laliga 2025-26
   python src/extract_batch.py spain-laliga 2025-26 --force  # re-extract even if exists
+  python src/extract_batch.py spain-laliga 2025-26 --extract-player-maps  # also fetch heatmaps for Scouts (then run pipeline; step 18 builds parquet)
+  python src/extract_batch.py spain-laliga 2025-26 --backfill-extras  # add event.json, best_players, h2h, ai_insights to existing matches only (no overwrite)
   python src/extract_batch.py spain-laliga 2025-26 --no-validate  # skip validation
   python src/extract_batch.py spain-laliga 2025-26 --delay 0.5 --limit 5  # dry run with 5 matches
 
@@ -16,6 +18,7 @@ Outputs to: data/raw/{season}/club|national/{competition_slug}/{match_id}/
 """
 
 import argparse
+import logging
 import random
 import sys
 import time
@@ -23,20 +26,27 @@ from pathlib import Path
 
 import pandas as pd
 
+logger = logging.getLogger(__name__)
+
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 
 from config import INDEX_PATH as CONFIG_INDEX_PATH, INDEX_DIR, RAW_BASE
 from extract_match_lineups import (
+    extract_ai_insights,
+    extract_best_players,
     extract_graph,
+    extract_h2h,
     extract_incidents,
     extract_lineups,
     extract_managers,
+    extract_player_maps,
     extract_statistics,
+    write_event_json,
 )
 from progress import append_progress
 
 def _validate_match(match_dir: Path, match_id: str) -> dict:
-    """No-op validation (quality module removed). Returns passed=True, errors=[]."""
+    """Placeholder: quality validation was removed. Kept so --no-validate flag still applies. Returns passed=True, errors=[]."""
     return {"passed": True, "errors": []}
 
 ERROR_LOG_PATH = INDEX_DIR / "extraction_batch_errors.csv"
@@ -58,6 +68,8 @@ def main():
     parser.add_argument("--delay", type=float, default=0.5, help="Seconds between matches")
     parser.add_argument("--limit", type=int, default=None, help="Max matches to process (for testing)")
     parser.add_argument("--no-validate", action="store_true", help="Skip quality validation after extraction")
+    parser.add_argument("--extract-player-maps", action="store_true", help="Also fetch heatmap/shotmap/rating-breakdown per player (slower)")
+    parser.add_argument("--backfill-extras", action="store_true", help="Only add event.json, best_players, h2h, ai_insights to match dirs that already have lineups.csv (no overwrite of existing data)")
     args = parser.parse_args()
 
     index_path = Path(args.index_path) if args.index_path else CONFIG_INDEX_PATH
@@ -80,6 +92,55 @@ def main():
     if args.limit:
         matches = matches[: args.limit]
         print(f"Limiting to {args.limit} matches")
+
+    if args.backfill_extras:
+        print(f"Backfill-extras: adding event.json, best_players, h2h, ai_insights to existing match dirs -> {out_base}")
+        backfilled = 0
+        skip_no_lineups = 0
+        failed = 0
+        for i, match_id in enumerate(matches):
+            match_dir = out_base / str(match_id)
+            if not (match_dir / "lineups.csv").exists():
+                skip_no_lineups += 1
+                if (i + 1) % 100 == 0:
+                    print(f"  [{i+1}/{len(matches)}] backfilled={backfilled}, skipped={skip_no_lineups}, failed={failed}")
+                time.sleep(0.05)
+                continue
+            try:
+                event_path = write_event_json(match_id, str(match_dir), flat_filenames=True)
+                if not event_path:
+                    failed += 1
+                    continue
+                time.sleep(0.3)
+                try:
+                    extract_best_players(match_id, str(match_dir), flat_filenames=True)
+                except Exception as e:
+                    logger.debug("best_players %s: %s", match_id, e)
+                time.sleep(0.3)
+                try:
+                    extract_h2h(match_id, str(match_dir), flat_filenames=True)
+                except Exception as e:
+                    logger.debug("h2h %s: %s", match_id, e)
+                time.sleep(0.3)
+                try:
+                    extract_ai_insights(match_id, str(match_dir), flat_filenames=True)
+                except Exception as e:
+                    logger.debug("ai_insights %s: %s", match_id, e)
+                if args.extract_player_maps:
+                    time.sleep(0.3)
+                    try:
+                        extract_player_maps(match_id, str(match_dir))
+                    except Exception as e:
+                        logger.debug("player_maps %s: %s", match_id, e)
+                backfilled += 1
+            except Exception as e:
+                failed += 1
+                print(f"  ERROR match {match_id}: {e}", file=sys.stderr)
+            if (i + 1) % 50 == 0 or i == 0:
+                print(f"  [{i+1}/{len(matches)}] backfilled={backfilled}, skipped={skip_no_lineups}, failed={failed}")
+            _delay_jitter(args.delay)
+        print(f"Done. Backfilled: {backfilled}, Skipped (no lineups): {skip_no_lineups}, Failed: {failed}")
+        return
 
     print(f"Extracting {len(matches)} matches for {args.competition} {args.season} -> {out_base}")
 
@@ -133,6 +194,27 @@ def main():
                     graph_ok = True
                 except Exception as e:
                     errors.append(f"graph:{type(e).__name__}")
+                # Optional match-level extras (do not mark match failed if these fail)
+                time.sleep(0.3)
+                try:
+                    extract_best_players(match_id, str(match_dir), flat_filenames=True)
+                except Exception as e:
+                    logger.debug("best_players %s: %s", match_id, e)
+                time.sleep(0.3)
+                try:
+                    extract_h2h(match_id, str(match_dir), flat_filenames=True)
+                except Exception as e:
+                    logger.debug("h2h %s: %s", match_id, e)
+                time.sleep(0.3)
+                try:
+                    extract_ai_insights(match_id, str(match_dir), flat_filenames=True)
+                except Exception as e:
+                    logger.debug("ai_insights %s: %s", match_id, e)
+                if args.extract_player_maps:
+                    try:
+                        extract_player_maps(match_id, str(match_dir))
+                    except Exception as e:
+                        logger.debug("player_maps %s: %s", match_id, e)
             if not args.no_validate and lineups_ok:
                 res = _validate_match(match_dir, match_id)
                 if not res["passed"]:

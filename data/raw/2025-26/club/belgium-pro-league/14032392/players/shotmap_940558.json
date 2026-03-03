@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Henok Teklab",
+        "slug": "henok-teklab",
+        "shortName": "H. Teklab",
+        "position": "M",
+        "jerseyNumber": "14",
+        "userCount": 147,
+        "gender": "M",
+        "id": 940558,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هنوك تيكلاب",
+            "bn": "এনোক টেকলাব",
+            "hi": "हेनोक टेकलाब"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. تيكلاب",
+            "bn": "এইচ. টেকল্যাব",
+            "hi": "एच. टेकलाब"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15,
+        "y": 73.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.2,
+        "y": 70.6,
+        "z": 0
+      },
+      "xg": 0.046396147459745,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nacho Miras",
+        "slug": "nacho-miras",
+        "shortName": "N. Miras",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 115,
+        "gender": "M",
+        "id": 1010556,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناشو ميراتس"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. ميراتس"
+          }
+        }
+      },
+      "id": 6626931,
+      "time": 45,
+      "addedTime": 5,
+      "timeSeconds": 2994,
+      "draw": {
+        "start": {
+          "x": 73.8,
+          "y": 15
+        },
+        "block": {
+          "x": 70.6,
+          "y": 13.2
+        },
+        "end": {
+          "x": 48.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2406,
+      "periodTimeSeconds": 294,
+      "incidentType": "shot"
+    }
+  ]
+}

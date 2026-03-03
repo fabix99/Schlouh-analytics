@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nicolás Otamendi",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nicolas-otamendi",
+        "shortName": "N. Otamendi",
+        "position": "D",
+        "jerseyNumber": "30",
+        "userCount": 18400,
+        "gender": "M",
+        "sofascoreId": "Notamendi30",
+        "id": 74915,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولاس أوتاميندي",
+            "bn": "নিকোলাস ওটামেন্ডি",
+            "hi": "निकोलस ओटामेंडी"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. أوتامندي",
+            "bn": "এন. ওটামেন্ডি",
+            "hi": "एन. ओटामेंडी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 8.5,
+        "y": 55.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.6,
+        "z": 27.8
+      },
+      "blockCoordinates": {
+        "x": 1,
+        "y": 51.4,
+        "z": 0
+      },
+      "xg": 0.04733357578516,
+      "xgot": 0.054844129830599,
+      "goalkeeper": {
+        "name": "Thibaut Courtois",
+        "slug": "thibaut-courtois",
+        "shortName": "T. Courtois",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 200838,
+        "gender": "M",
+        "sofascoreId": "TheOctopus",
+        "id": 70988,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تيبو كورتوا",
+            "bn": "থিবাউট কোর্টোইস",
+            "hi": "थिबाउट कोर्टोइस"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. كورتوا",
+            "bn": "টি. কোর্টোইস",
+            "hi": "टी. कोर्टोइस"
+          }
+        }
+      },
+      "id": 6602845,
+      "time": 83,
+      "timeSeconds": 4970,
+      "draw": {
+        "start": {
+          "x": 55.2,
+          "y": 8.5
+        },
+        "block": {
+          "x": 51.4,
+          "y": 1
+        },
+        "end": {
+          "x": 50.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.4,
+          "y": 72.2
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 430,
+      "periodTimeSeconds": 2270,
+      "incidentType": "shot"
+    }
+  ]
+}

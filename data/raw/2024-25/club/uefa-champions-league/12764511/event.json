@@ -1,0 +1,398 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1184603,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 61644
+    },
+    "roundInfo": {
+      "round": 3
+    },
+    "customId": "bQsbkb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 23691,
+    "venue": {
+      "city": {
+        "name": "Klagenfurt"
+      },
+      "venueCoordinates": {
+        "latitude": 46.608793,
+        "longitude": 14.277436
+      },
+      "hidden": true,
+      "slug": "w-rthersee-stadion",
+      "name": "Wörthersee Stadion",
+      "capacity": 30000,
+      "country": {
+        "alpha2": "AT",
+        "alpha3": "AUT",
+        "name": "Austria",
+        "slug": "austria"
+      },
+      "id": 829,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب وورثرسي",
+          "hi": "वोर्थर्सी स्टेडियन",
+          "bn": "ওয়ার্থারসি স্টেডিয়ান"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Wörthersee Stadion",
+        "capacity": 30000
+      }
+    },
+    "referee": {
+      "name": "Giorgi Kruashvili",
+      "slug": "kruashvili-giorgi",
+      "yellowCards": 222,
+      "redCards": 5,
+      "yellowRedCards": 5,
+      "games": 50,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "GE",
+        "alpha3": "GEO",
+        "name": "Georgia",
+        "slug": "georgia"
+      },
+      "id": 785260,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كرواشفيلي، جيورجي",
+          "bn": "ক্রুশভিলি, জিওরগি",
+          "hi": "क्रुआश्विली, जियोर्जी"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "SK Sturm Graz",
+      "slug": "sk-sturm-graz",
+      "shortName": "Sturm",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 64348,
+      "manager": {
+        "name": "Fabio Ingolitsch",
+        "slug": "fabio-ingolitsch",
+        "shortName": "F. Ingolitsch",
+        "country": {
+          "alpha2": "AT",
+          "alpha3": "AUT",
+          "name": "Austria",
+          "slug": "austria"
+        },
+        "id": 798168,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فابيو إنغوليتش"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. إنغوليتش"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Graz"
+        },
+        "venueCoordinates": {
+          "latitude": 47.046367,
+          "longitude": 15.454008
+        },
+        "hidden": true,
+        "slug": "merkur-arena",
+        "name": "Merkur Arena",
+        "capacity": 16764,
+        "country": {
+          "alpha2": "AT",
+          "alpha3": "AUT",
+          "name": "Austria",
+          "slug": "austria"
+        },
+        "id": 808,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميركور أرينا",
+            "hi": "मर्कुर एरिना",
+            "bn": "মেরকুর এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Merkur Arena",
+          "capacity": 16764
+        }
+      },
+      "nameCode": "STU",
+      "class": 1,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "AT",
+        "alpha3": "AUT",
+        "name": "Austria",
+        "slug": "austria"
+      },
+      "id": 2051,
+      "fullName": "SK Sturm Graz",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#0000ff",
+        "text": "#0000ff"
+      },
+      "foundationDateTimestamp": -1914624000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إس كيه سترم غراز",
+          "hi": "स्टर्म ग्राज़",
+          "ru": "Штурм Грац"
+        },
+        "shortNameTranslation": {
+          "ar": "شتورم",
+          "bn": "স্টর্ম",
+          "hi": "स्टर्म"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Sporting CP",
+      "slug": "sporting",
+      "shortName": "Sporting",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 697944,
+      "manager": {
+        "name": "Rui Borges",
+        "slug": "rui-borges",
+        "shortName": "R. Borges",
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 791680,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روي بورغيس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. بورغيس"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Lisbon"
+        },
+        "venueCoordinates": {
+          "latitude": 38.761216,
+          "longitude": -9.160783
+        },
+        "hidden": false,
+        "slug": "jos-alvalade",
+        "name": "Estádio José Alvalade",
+        "capacity": 52095,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 910,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه ألفالادي",
+            "hi": "जोस अलवालदे",
+            "bn": "হোসে আলভালাদে"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estádio José Alvalade",
+          "capacity": 52095
+        }
+      },
+      "nameCode": "SCP",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 3001,
+      "fullName": "Sporting CP",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#009966",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2004048000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سبورتنج",
+          "bn": "স্পোর্টিং",
+          "hi": "स्पोर्टिंग",
+          "ru": "Спортинг Лиссабон"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1729627336
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1729630408
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12764511,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "sporting-sk-sturm-graz",
+    "currentPeriodStartTimestamp": 1729627336,
+    "startTimestamp": 1729623600,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

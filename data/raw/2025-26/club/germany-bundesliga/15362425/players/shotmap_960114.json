@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Olivier Deman",
+        "firstName": "",
+        "lastName": "",
+        "slug": "deman-olivier",
+        "shortName": "O. Deman",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 449,
+        "gender": "M",
+        "id": 960114,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوليفييه ديمان",
+            "bn": "ডেমান, অলিভিয়ার",
+            "hi": "डेमन, ओलिवियर"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. ديمان",
+            "bn": "ও. ডেমান",
+            "hi": "ओ. डेमन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 23.1,
+        "y": 75.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.5,
+        "y": 67.3,
+        "z": 0
+      },
+      "xg": 0.031768936663866,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Oliver Baumann",
+        "slug": "oliver-baumann",
+        "shortName": "O. Baumann",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1375,
+        "gender": "M",
+        "id": 40244,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوليفر بومان",
+            "bn": "অলিভার বাউম্যান",
+            "hi": "ओलिवर बाउमन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بومان",
+            "bn": "ও. বাউমান",
+            "hi": "ओ. बाउमन"
+          }
+        }
+      },
+      "id": 6599795,
+      "time": 38,
+      "timeSeconds": 2233,
+      "draw": {
+        "start": {
+          "x": 75.8,
+          "y": 23.1
+        },
+        "block": {
+          "x": 67.3,
+          "y": 15.5
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 467,
+      "periodTimeSeconds": 2233,
+      "incidentType": "shot"
+    }
+  ]
+}

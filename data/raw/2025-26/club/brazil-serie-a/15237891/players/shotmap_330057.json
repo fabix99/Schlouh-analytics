@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Tinga",
+        "slug": "tinga",
+        "shortName": "Tinga",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 426,
+        "gender": "M",
+        "id": 330057,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تينغا"
+          },
+          "shortNameTranslation": {
+            "ar": "تينغا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 10.1,
+        "y": 82.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.4,
+        "z": 22.2
+      },
+      "blockCoordinates": {
+        "x": 0.5,
+        "y": 52.7,
+        "z": 0
+      },
+      "xg": 0.011192681267858,
+      "xgot": 0.10523837059736,
+      "goalkeeper": {
+        "name": "Cleiton",
+        "slug": "cleiton",
+        "shortName": "Cleiton",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 555,
+        "gender": "M",
+        "id": 844576,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كليتون"
+          },
+          "shortNameTranslation": {
+            "ar": "كليتون"
+          }
+        }
+      },
+      "id": 6602955,
+      "time": 23,
+      "timeSeconds": 1348,
+      "draw": {
+        "start": {
+          "x": 82.3,
+          "y": 10.1
+        },
+        "block": {
+          "x": 52.7,
+          "y": 0.5
+        },
+        "end": {
+          "x": 53.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.6,
+          "y": 77.8
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1352,
+      "periodTimeSeconds": 1348,
+      "incidentType": "shot"
+    }
+  ]
+}

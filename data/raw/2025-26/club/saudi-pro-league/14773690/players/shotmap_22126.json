@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Georginio Wijnaldum",
+        "slug": "georginio-wijnaldum",
+        "shortName": "G. Wijnaldum",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 8246,
+        "gender": "M",
+        "sofascoreId": "gwijnaldum",
+        "id": 22126,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جورجينيو فينالدوم",
+            "bn": "জর্জিনিও উইজনাল্ডাম",
+            "hi": "जॉर्जिनियो विजनाल्डम"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. فينالدوم",
+            "bn": "জি. উইজনালডুম",
+            "hi": "जी. विजनाल्डम"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.5,
+        "y": 65.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.8,
+        "z": 2.5
+      },
+      "blockCoordinates": {
+        "x": 1,
+        "y": 53.1,
+        "z": 0
+      },
+      "xg": 0.16226981580257,
+      "xgot": 0.4426796734333,
+      "goalkeeper": {
+        "name": "Luís Maximiano",
+        "firstName": "",
+        "lastName": "",
+        "slug": "luis-maximiano",
+        "shortName": "L. Maximiano",
+        "position": "G",
+        "jerseyNumber": "81",
+        "userCount": 764,
+        "gender": "M",
+        "id": 845797,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لويس ماكسيميانو",
+            "bn": "লুইস ম্যাক্সিমিয়ানো",
+            "hi": "लुइस मैक्सिमियानो"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. ماكسيميانو",
+            "bn": "এল. ম্যাক্সিমিয়ানো",
+            "hi": "एल. मैक्सिमियानो"
+          }
+        }
+      },
+      "id": 6562755,
+      "time": 83,
+      "timeSeconds": 4971,
+      "draw": {
+        "start": {
+          "x": 65.2,
+          "y": 9.5
+        },
+        "block": {
+          "x": 53.1,
+          "y": 1
+        },
+        "end": {
+          "x": 54.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.2,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 429,
+      "periodTimeSeconds": 2271,
+      "incidentType": "shot"
+    }
+  ]
+}

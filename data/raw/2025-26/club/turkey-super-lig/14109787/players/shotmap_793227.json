@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Daniel Agyei",
+        "slug": "daniel-agyei",
+        "shortName": "D. Agyei",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 366,
+        "gender": "M",
+        "id": 793227,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دانيال أجيي"
+          },
+          "shortNameTranslation": {
+            "ar": "د. أجيي"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 25.9,
+        "y": 69.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 21.4,
+        "y": 66.4,
+        "z": 0
+      },
+      "xg": 0.015348649583757,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ederson",
+        "slug": "ederson",
+        "shortName": "Ederson",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 47932,
+        "gender": "M",
+        "sofascoreId": "Ederson93",
+        "id": 254491,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيدرسون",
+            "bn": "এডারসন",
+            "hi": "एडरसन"
+          },
+          "shortNameTranslation": {
+            "ar": "إيدرسون",
+            "bn": "এডারসন",
+            "hi": "एडरसन"
+          }
+        }
+      },
+      "id": 6633037,
+      "time": 90,
+      "timeSeconds": 5343,
+      "draw": {
+        "start": {
+          "x": 69.4,
+          "y": 25.9
+        },
+        "block": {
+          "x": 66.4,
+          "y": 21.4
+        },
+        "end": {
+          "x": 52.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 57,
+      "periodTimeSeconds": 2643,
+      "incidentType": "shot"
+    }
+  ]
+}

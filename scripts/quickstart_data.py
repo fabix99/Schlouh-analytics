@@ -57,7 +57,7 @@ def main():
     ):
         print("  Pipeline had failures; you may still have enough data for the dashboard.", file=sys.stderr)
 
-    print("\nDone. You can run the dashboard (e.g. streamlit run dashboard/Home.py) or add more data via the Operational checklist in README.")
+    print("\nDone. You can run the dashboard (e.g. streamlit run dashboard/app.py) or add more data via the Operational checklist in README.")
 
 
 if __name__ == "__main__":

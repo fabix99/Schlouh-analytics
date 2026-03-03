@@ -1,0 +1,409 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Premier League",
+      "slug": "premier-league",
+      "category": {
+        "name": "England",
+        "slug": "england",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 1,
+        "flag": "england",
+        "alpha2": "EN",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إنجلترا",
+            "hi": "इंग्लैंड",
+            "bn": "ইংল্যান্ড",
+            "ru": "Англия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Premier League",
+        "slug": "premier-league",
+        "primaryColorHex": "#3c1c5a",
+        "secondaryColorHex": "#f80158",
+        "category": {
+          "name": "England",
+          "slug": "england",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
+          },
+          "id": 1,
+          "flag": "england",
+          "alpha2": "EN",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إنجلترا",
+              "hi": "इंग्लैंड",
+              "bn": "ইংল্যান্ড",
+              "ru": "Англия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1163152,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 17,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإنجليزي الممتاز",
+            "hi": "प्रिमियर लीग",
+            "bn": "প্রিমিয়ার লীগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 699,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 1,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "प्रिमियर लीग",
+          "ar": "الدوري الإنجليزي الممتاز",
+          "bn": "প্রিমিয়ার লীগ"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Premier League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 61627
+    },
+    "roundInfo": {
+      "round": 24
+    },
+    "customId": "osF",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 30164,
+    "venue": {
+      "city": {
+        "name": "Nottingham"
+      },
+      "venueCoordinates": {
+        "latitude": 52.93733,
+        "longitude": -1.12633
+      },
+      "hidden": false,
+      "slug": "city-ground",
+      "name": "City Ground",
+      "capacity": 30445,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 2230,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سيتي غراوند",
+          "hi": "सिटी ग्राउंड",
+          "bn": "সিটি গ্রাউন্ড"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "City Ground",
+        "capacity": 30445
+      }
+    },
+    "referee": {
+      "name": "Simon Hooper",
+      "slug": "simon-hooper",
+      "yellowCards": 1468,
+      "redCards": 18,
+      "yellowRedCards": 20,
+      "games": 431,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 79902,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سايمون هوبر",
+          "bn": "সাইমন হুপার",
+          "hi": "साइमन हूपर"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Nottingham Forest",
+      "slug": "nottingham-forest",
+      "shortName": "Forest",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 397644,
+      "manager": {
+        "name": "Vitor Pereira",
+        "slug": "vitor-pereira",
+        "shortName": "V. Pereira",
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 784550,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيتور بيريرا"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. بيريرا"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Nottingham"
+        },
+        "venueCoordinates": {
+          "latitude": 52.93733,
+          "longitude": -1.12633
+        },
+        "hidden": false,
+        "slug": "city-ground",
+        "name": "City Ground",
+        "capacity": 30445,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 2230,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيتي غراوند",
+            "hi": "सिटी ग्राउंड",
+            "bn": "সিটি গ্রাউন্ড"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "City Ground",
+          "capacity": 30445
+        }
+      },
+      "nameCode": "NFO",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 14,
+      "fullName": "Nottingham Forest",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#cc0000",
+        "text": "#cc0000"
+      },
+      "foundationDateTimestamp": -3313440000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نوتنجهام فوريست",
+          "hi": "नाटिंन्ग्हम फारेस्ट",
+          "ru": "Ноттингем Форест"
+        },
+        "shortNameTranslation": {
+          "ar": "فورست",
+          "bn": "ফরেস্ট",
+          "hi": "फॉरेस्ट"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Brighton & Hove Albion",
+      "slug": "brighton-and-hove-albion",
+      "shortName": "Brighton",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 420485,
+      "manager": {
+        "name": "Fabian Hurzeler",
+        "slug": "fabian-hurzeler",
+        "shortName": "F. Hurzeler",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 788529,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "Hurzeler, Fabian"
+          },
+          "shortNameTranslation": {
+            "ar": "F. Hurzeler"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Falmer"
+        },
+        "hidden": false,
+        "slug": "american-express-community-s-stadium",
+        "name": "American Express Stadium",
+        "capacity": 31876,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 2443,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب أمريكان إكسبريس",
+            "hi": "अमेरिकन एक्सप्रेस स्टेडियम",
+            "bn": "আমেরিকান এক্সপ্রেস স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "American Express Stadium",
+          "capacity": 31876
+        }
+      },
+      "nameCode": "BHA",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 30,
+      "fullName": "Brighton & Hove Albion",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#0054a6",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2159827200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "برايتون أند هوف ألبيون",
+          "hi": "ब्राइटोन एंड होव एल्बिओन ऍफ़सी",
+          "ru": "Брайтон энд Хоув Альбион"
+        },
+        "shortNameTranslation": {
+          "ar": "برايتون",
+          "bn": "ব্রাইটন",
+          "hi": "ब्राइटन"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 7,
+      "display": 7,
+      "period1": 3,
+      "period2": 4,
+      "normaltime": 7
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 4,
+      "injuryTime2": 9,
+      "currentPeriodStartTimestamp": 1738416906
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1738420158
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12436930,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "brighton-and-hove-albion-nottingham-forest",
+    "currentPeriodStartTimestamp": 1738416906,
+    "startTimestamp": 1738413000,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "passes": [
+    {
+      "playerCoordinates": {
+        "x": 91.7,
+        "y": 18.8
+      },
+      "passEndCoordinates": {
+        "x": 91,
+        "y": 22.7
+      },
+      "eventActionType": "pass",
+      "isHome": false,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 92.6,
+        "y": 13.7
+      },
+      "passEndCoordinates": {
+        "x": 81,
+        "y": 9.2
+      },
+      "eventActionType": "pass",
+      "isHome": false,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 79.3,
+        "y": 94.5
+      },
+      "passEndCoordinates": {
+        "x": 66.3,
+        "y": 24.9
+      },
+      "eventActionType": "pass",
+      "isHome": false,
+      "keypass": false,
+      "isLongBall": true
+    },
+    {
+      "playerCoordinates": {
+        "x": 67.2,
+        "y": 40.9
+      },
+      "passEndCoordinates": {
+        "x": 71.5,
+        "y": 38.5
+      },
+      "eventActionType": "pass",
+      "isHome": false,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 68.7,
+        "y": 12.2
+      },
+      "passEndCoordinates": {
+        "x": 62.9,
+        "y": 17.6
+      },
+      "eventActionType": "pass",
+      "isHome": false,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "dribbles": [],
+  "defensive": [
+    {
+      "playerCoordinates": {
+        "x": 57.1,
+        "y": 67.3
+      },
+      "eventActionType": "interception",
+      "isHome": false,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 41.8,
+        "y": 84
+      },
+      "eventActionType": "tackle",
+      "isHome": false,
+      "keypass": false
+    }
+  ],
+  "ball-carries": [
+    {
+      "playerCoordinates": {
+        "x": 92.5,
+        "y": 24.3
+      },
+      "passEndCoordinates": {
+        "x": 91.7,
+        "y": 18.8
+      },
+      "eventActionType": "ball-carry",
+      "isHome": false
+    }
+  ]
+}

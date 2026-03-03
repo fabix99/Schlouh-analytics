@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mimeirhel Benita",
+        "firstName": "Mimeirhel Benita",
+        "lastName": "",
+        "slug": "mimeirhel-benita",
+        "shortName": "M. Benita",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 216,
+        "gender": "M",
+        "id": 1130308,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميميريل بنيتا",
+            "bn": "মিমিরহেল বেনিতা",
+            "hi": "मिमिरहेल बेनिता"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بنيتا",
+            "bn": "এম. বেনিতা",
+            "hi": "एम. बेनिता"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 13.9,
+        "y": 50.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.2,
+        "z": 11.4
+      },
+      "blockCoordinates": {
+        "x": 2.2,
+        "y": 50.9,
+        "z": 0
+      },
+      "xg": 0.085901200771332,
+      "xgot": 0.11212310940027,
+      "goalkeeper": {
+        "name": "Mattijs Branderhorst",
+        "slug": "mattijs-branderhorst",
+        "shortName": "M. Branderhorst",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 151,
+        "gender": "M",
+        "id": 146871,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتيس براندرهورست"
+          },
+          "shortNameTranslation": {
+            "ar": "م. براندرهورست"
+          }
+        }
+      },
+      "id": 6624517,
+      "time": 44,
+      "timeSeconds": 2594,
+      "draw": {
+        "start": {
+          "x": 50.7,
+          "y": 13.9
+        },
+        "block": {
+          "x": 50.9,
+          "y": 2.2
+        },
+        "end": {
+          "x": 51.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.8,
+          "y": 88.6
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 106,
+      "periodTimeSeconds": 2594,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Thomas Bruns",
+        "slug": "thomas-bruns",
+        "shortName": "T. Bruns",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 35,
+        "gender": "M",
+        "id": 146401,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توماس برونز"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. برونز"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 8.3,
+        "y": 40.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 3.7,
+        "y": 46.2,
+        "z": 0
+      },
+      "xg": 0.048697356134653,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Daniel Bielica",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bielica-daniel",
+        "shortName": "D. Bielica",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 300,
+        "gender": "M",
+        "id": 939460,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيليكا، دانيال"
+          },
+          "shortNameTranslation": {
+            "ar": "د. بيليكا"
+          }
+        }
+      },
+      "id": 6709000,
+      "time": 90,
+      "addedTime": 1,
+      "timeSeconds": 5431,
+      "draw": {
+        "start": {
+          "x": 40.1,
+          "y": 8.3
+        },
+        "block": {
+          "x": 46.2,
+          "y": 3.7
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 869,
+      "periodTimeSeconds": 31,
+      "incidentType": "shot"
+    }
+  ]
+}

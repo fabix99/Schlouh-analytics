@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Aleix Febas",
+        "slug": "aleix-febas",
+        "shortName": "A. Febas",
+        "position": "M",
+        "jerseyNumber": "14",
+        "userCount": 1065,
+        "gender": "M",
+        "id": 286167,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيباس، أليكس",
+            "bn": "ফেবাস, আলেক্স",
+            "hi": "फ़ेबास, एलेक्स"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فيباس",
+            "bn": "এ. ফেবাস",
+            "hi": "ए. फ़ेबास"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 5.1,
+        "y": 42.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.1,
+        "z": 1.9
+      },
+      "xg": 0.30211168527603,
+      "xgot": 0.42703783512115,
+      "goalkeeper": {
+        "name": "Thibaut Courtois",
+        "slug": "thibaut-courtois",
+        "shortName": "T. Courtois",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 200838,
+        "gender": "M",
+        "sofascoreId": "TheOctopus",
+        "id": 70988,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تيبو كورتوا",
+            "bn": "থিবাউট কোর্টোইস",
+            "hi": "थिबाउट कोर्टोइस"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. كورتوا",
+            "bn": "টি. কোর্টোইস",
+            "hi": "टी. कोर्टोइस"
+          }
+        }
+      },
+      "id": 6233115,
+      "time": 53,
+      "timeSeconds": 3145,
+      "draw": {
+        "start": {
+          "x": 42.9,
+          "y": 5.1
+        },
+        "end": {
+          "x": 53.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.9,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2255,
+      "periodTimeSeconds": 445,
+      "incidentType": "shot"
+    }
+  ]
+}

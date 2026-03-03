@@ -1,0 +1,401 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1184603,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 61644
+    },
+    "roundInfo": {
+      "round": 1
+    },
+    "customId": "Kdbsnqb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 23130,
+    "venue": {
+      "city": {
+        "name": "Bologna"
+      },
+      "venueCoordinates": {
+        "latitude": 44.492317,
+        "longitude": 11.310801
+      },
+      "hidden": false,
+      "slug": "renato-dall-ara",
+      "name": "Renato Dall'Ara",
+      "capacity": 36532,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 1164,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ريناتو دالارا",
+          "hi": "रेनाटो डाल'आरा",
+          "bn": "রেনাতো ডাল'আরা"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Renato Dall'Ara",
+        "capacity": 36532
+      }
+    },
+    "referee": {
+      "name": "Rohit Saggi",
+      "slug": "saggi-rohit",
+      "yellowCards": 1025,
+      "redCards": 18,
+      "yellowRedCards": 32,
+      "games": 272,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "NO",
+        "alpha3": "NOR",
+        "name": "Norway",
+        "slug": "norway"
+      },
+      "id": 121217,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ساجي، روهيت",
+          "bn": "সাগি, রোহিত",
+          "hi": "सग्गी, रोहित"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Bologna",
+      "slug": "bologna",
+      "shortName": "Bologna",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 222645,
+      "manager": {
+        "name": "Vincenzo Italiano",
+        "slug": "vincenzo-italiano",
+        "shortName": "V. Italiano",
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 790589,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فينشينزو إيتاليانو",
+            "bn": "ভিনসেনজো ইতালিয়ানো",
+            "hi": "विन्सेन्ज़ो इटालियनो"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. إيتاليانو",
+            "bn": "ভি. ইতালিয়ানো",
+            "hi": "वी. इटालियानो"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bologna"
+        },
+        "venueCoordinates": {
+          "latitude": 44.492317,
+          "longitude": 11.310801
+        },
+        "hidden": false,
+        "slug": "renato-dall-ara",
+        "name": "Renato Dall'Ara",
+        "capacity": 36532,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 1164,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريناتو دالارا",
+            "hi": "रेनाटो डाल'आरा",
+            "bn": "রেনাতো ডাল'আরা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Renato Dall'Ara",
+          "capacity": 36532
+        }
+      },
+      "nameCode": "BOL",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2685,
+      "fullName": "Bologna",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#003366",
+        "secondary": "#cc0000",
+        "text": "#cc0000"
+      },
+      "foundationDateTimestamp": -1901232000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بولونيا",
+          "bn": "বোলোগনা",
+          "hi": "बोलोग्ना",
+          "ru": "Болонья"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Shakhtar Donetsk",
+      "slug": "shakhtar-donetsk",
+      "shortName": "Shakhtar",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 134712,
+      "manager": {
+        "name": "Arda Turan",
+        "slug": "arda-turan",
+        "shortName": "A. Turan",
+        "country": {
+          "alpha2": "TR",
+          "alpha3": "TUR",
+          "name": "Türkiye",
+          "slug": "turkiye"
+        },
+        "id": 800597,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أردا توران"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. توران"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Lviv"
+        },
+        "venueCoordinates": {
+          "latitude": 49.774605,
+          "longitude": 24.026844
+        },
+        "hidden": true,
+        "slug": "arena-lviv",
+        "name": "Arena Lviv",
+        "capacity": 34915,
+        "country": {
+          "alpha2": "UA",
+          "alpha3": "UKR",
+          "name": "Ukraine",
+          "slug": "ukraine"
+        },
+        "id": 2778,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لفيف أرينا",
+            "hi": "एरिना ल्वीव",
+            "bn": "এরিনা লভিভ"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Arena Lviv",
+          "capacity": 34915
+        }
+      },
+      "nameCode": "SHA",
+      "class": 1,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "UA",
+        "alpha3": "UKR",
+        "name": "Ukraine",
+        "slug": "ukraine"
+      },
+      "id": 3313,
+      "fullName": "Shakhtar Donetsk",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ff6600",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -1060560000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "شاختار دونيتسك",
+          "ru": "Шахтер Донецк"
+        },
+        "shortNameTranslation": {
+          "ar": "شاختار",
+          "bn": "শাখতার",
+          "hi": "शख़्तर"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 8,
+      "injuryTime2": 5,
+      "currentPeriodStartTimestamp": 1726682102
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1726685119
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12764143,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "shakhtar-donetsk-bologna",
+    "currentPeriodStartTimestamp": 1726682102,
+    "startTimestamp": 1726677900,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

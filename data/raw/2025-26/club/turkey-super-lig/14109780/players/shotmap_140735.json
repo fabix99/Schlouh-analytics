@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Zeki Yavru",
+        "slug": "zeki-yavru",
+        "shortName": "Z. Yavru",
+        "position": "D",
+        "jerseyNumber": "18",
+        "userCount": 207,
+        "gender": "M",
+        "id": 140735,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيكي يافرو"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. يافرو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 21.1,
+        "y": 33,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.2,
+        "y": 39.5,
+        "z": 0
+      },
+      "xg": 0.055508188903332,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gökhan Değirmenci",
+        "slug": "gokhan-degirmenci",
+        "shortName": "G. Değirmenci",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 49,
+        "gender": "M",
+        "id": 60317,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوكهان ديغرمينجي"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. ديغرمينجي"
+          }
+        }
+      },
+      "id": 6579410,
+      "time": 40,
+      "timeSeconds": 2392,
+      "draw": {
+        "start": {
+          "x": 33,
+          "y": 21.1
+        },
+        "block": {
+          "x": 39.5,
+          "y": 13.2
+        },
+        "end": {
+          "x": 50.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 308,
+      "periodTimeSeconds": 2392,
+      "incidentType": "shot"
+    }
+  ]
+}

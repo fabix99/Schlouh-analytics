@@ -1,0 +1,96 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Promise David",
+        "firstName": "Promise David",
+        "lastName": "",
+        "slug": "promise-david",
+        "shortName": "P. David",
+        "position": "F",
+        "jerseyNumber": "12",
+        "userCount": 4965,
+        "gender": "M",
+        "id": 1119328,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بروميس ديفيد"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. ديفيد"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.7,
+        "y": 41.9,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.6,
+        "z": 1.9
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 48.9,
+        "z": 0
+      },
+      "xg": 0.077023319900036,
+      "xgot": 0.043996330350637,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 36248,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर"
+          }
+        }
+      },
+      "id": 6563467,
+      "time": 29,
+      "timeSeconds": 1698,
+      "draw": {
+        "start": {
+          "x": 41.9,
+          "y": 8.7
+        },
+        "block": {
+          "x": 48.9,
+          "y": 1.2
+        },
+        "end": {
+          "x": 49.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.4,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 1002,
+      "periodTimeSeconds": 1698,
+      "incidentType": "shot"
+    }
+  ]
+}

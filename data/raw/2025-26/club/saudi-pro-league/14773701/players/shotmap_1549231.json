@@ -1,0 +1,173 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mohammed Al Dossari",
+        "firstName": "Mohammed Al Dossari",
+        "slug": "mohammed-al-dossari",
+        "shortName": "M. A. Dossari",
+        "position": "D",
+        "jerseyNumber": "55",
+        "userCount": 35,
+        "gender": "M",
+        "id": 1549231,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد الدوسري"
+          },
+          "shortNameTranslation": {
+            "ar": "م. الدوسري"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 11.4,
+        "y": 55.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 82.9,
+        "z": 8.3
+      },
+      "blockCoordinates": {
+        "x": 2.8,
+        "y": 23.6,
+        "z": 0
+      },
+      "xg": 0.024897649884224,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bento",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bento",
+        "shortName": "Bento",
+        "position": "G",
+        "jerseyNumber": "24",
+        "userCount": 9827,
+        "gender": "M",
+        "sofascoreId": "bento_matheus",
+        "id": 1016104,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بينتو"
+          },
+          "shortNameTranslation": {
+            "ar": "بينتو"
+          }
+        }
+      },
+      "id": 6595556,
+      "time": 67,
+      "timeSeconds": 4013,
+      "draw": {
+        "start": {
+          "x": 55.4,
+          "y": 11.4
+        },
+        "block": {
+          "x": 23.6,
+          "y": 2.8
+        },
+        "end": {
+          "x": 17.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 17.1,
+          "y": 91.7
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1387,
+      "periodTimeSeconds": 1313,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Mohammed Al Dossari",
+        "firstName": "Mohammed Al Dossari",
+        "slug": "mohammed-al-dossari",
+        "shortName": "M. A. Dossari",
+        "position": "D",
+        "jerseyNumber": "55",
+        "userCount": 35,
+        "gender": "M",
+        "id": 1549231,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد الدوسري"
+          },
+          "shortNameTranslation": {
+            "ar": "م. الدوسري"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "own",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 9.3,
+        "y": 42.7,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.2,
+        "z": 12
+      },
+      "goalkeeper": {
+        "name": "Mailson",
+        "slug": "mailson",
+        "shortName": "Mailson",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 575,
+        "gender": "M",
+        "id": 883367,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايلسون",
+            "bn": "মেইলসন",
+            "hi": "मेलसन"
+          },
+          "shortNameTranslation": {
+            "ar": "مايلسون",
+            "bn": "মেলসন",
+            "hi": "मेलसन"
+          }
+        }
+      },
+      "id": 6595288,
+      "time": 45,
+      "timeSeconds": 2664,
+      "draw": {
+        "start": {
+          "x": 42.7,
+          "y": 9.3
+        },
+        "end": {
+          "x": 53.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.8,
+          "y": 88
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 36,
+      "periodTimeSeconds": 2664,
+      "incidentType": "shot"
+    }
+  ]
+}

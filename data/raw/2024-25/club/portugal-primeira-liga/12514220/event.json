@@ -1,0 +1,423 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Liga Portugal Betclic",
+      "slug": "liga-portugal-betclic",
+      "category": {
+        "name": "Portugal",
+        "slug": "portugal",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 44,
+        "flag": "portugal",
+        "alpha2": "PT",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "البرتغال",
+            "ru": "Португалия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Liga Portugal Betclic",
+        "slug": "liga-portugal-betclic",
+        "primaryColorHex": "#ffc501",
+        "secondaryColorHex": "#e6a100",
+        "category": {
+          "name": "Portugal",
+          "slug": "portugal",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "PT",
+            "alpha3": "PRT",
+            "name": "Portugal",
+            "slug": "portugal"
+          },
+          "id": 44,
+          "flag": "portugal",
+          "alpha2": "PT",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "البرتغال",
+              "ru": "Португалия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 149142,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 238,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري بيتكليك البرتغالي",
+            "bn": "লিগা পর্তুগাল বেটক্লিক",
+            "hi": "लीगा पुर्तगाल बेटक्लिक"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 516,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 52,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الدوري البرتغالي بيتكليك",
+          "bn": "লিগা পর্তুগাল বেটক্লিক",
+          "hi": "लीगा पुर्तगाल बेटक्लिक"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Liga Portugal 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 63670
+    },
+    "roundInfo": {
+      "round": 20
+    },
+    "customId": "ckbsLkb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "venue": {
+      "city": {
+        "name": "Vila do Conde"
+      },
+      "venueCoordinates": {
+        "latitude": 41.3627,
+        "longitude": -8.7401
+      },
+      "hidden": false,
+      "slug": "estadio-dos-arcos",
+      "name": "Estádio do Rio Ave FC",
+      "capacity": 5300,
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 2013,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب دوس أركوس",
+          "hi": "एस्टेडियो डॉस आर्कोस",
+          "bn": "এস্টাডিও ডস আরকোস"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Estádio do Rio Ave FC",
+        "capacity": 5300
+      }
+    },
+    "referee": {
+      "name": "Gustavo Correia",
+      "slug": "correia-gustavo",
+      "yellowCards": 986,
+      "redCards": 53,
+      "yellowRedCards": 29,
+      "games": 173,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 786809,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "غوستافو كورييا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Rio Ave",
+      "slug": "rio-ave",
+      "shortName": "Rio Ave",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 33303,
+      "manager": {
+        "name": "Sotiris Sylaidopoulos",
+        "slug": "sotiris-sylaidopoulos",
+        "shortName": "S. Sylaidopoulos",
+        "country": {
+          "alpha2": "GR",
+          "alpha3": "GRC",
+          "name": "Greece",
+          "slug": "greece"
+        },
+        "id": 795007,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سوتيريس سيلايدوبولوس"
+          },
+          "shortNameTranslation": {
+            "ar": "س. سيلايدوبولوس"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Vila do Conde"
+        },
+        "venueCoordinates": {
+          "latitude": 41.3627,
+          "longitude": -8.7401
+        },
+        "hidden": false,
+        "slug": "estadio-dos-arcos",
+        "name": "Estádio do Rio Ave FC",
+        "capacity": 5300,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 2013,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب دوس أركوس",
+            "hi": "एस्टेडियो डॉस आर्कोस",
+            "bn": "এস্টাডিও ডস আরকোস"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estádio do Rio Ave FC",
+          "capacity": 5300
+        }
+      },
+      "nameCode": "RAV",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 3036,
+      "fullName": "Rio Ave",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#006633",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -967161600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ريو افي",
+          "bn": "রিও এভ",
+          "hi": "रियो एव",
+          "ru": "Риу Аве"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "FC Porto",
+      "slug": "fc-porto",
+      "shortName": "Porto",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 627707,
+      "manager": {
+        "name": "Francesco Farioli",
+        "slug": "francesco-farioli",
+        "shortName": "F. Farioli",
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 795757,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فرانشيسكو فاريولي",
+            "bn": "ফ্রান্সেসকো ফারিয়োলি",
+            "hi": "फ्रांसेस्को फरिओली"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فاريولي",
+            "bn": "এফ. ফারিয়োলি",
+            "hi": "एफ. फरिओली"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Porto"
+        },
+        "venueCoordinates": {
+          "latitude": 41.161823,
+          "longitude": -8.583749
+        },
+        "hidden": false,
+        "slug": "est-dio-do-drag-o",
+        "name": "Estádio do Dragão",
+        "capacity": 50033,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 907,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب دراجاو",
+            "hi": "एस्टेडियो डो ड्रैगॉन",
+            "bn": "এস্টাডিও ড্রাগাও"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estádio do Dragão",
+          "capacity": 50033
+        }
+      },
+      "nameCode": "FCP",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 3002,
+      "fullName": "FC Porto",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#194f93",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2406499200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "اف سي بورتو",
+          "hi": "ऍफ़सी पोर्टो",
+          "ru": "Порту"
+        },
+        "shortNameTranslation": {
+          "ar": "بورتو",
+          "bn": "পোর্তো",
+          "hi": "पोर्तो"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 3,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1738619540
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1738622775
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12514220,
+    "homeRedCards": 1,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "rio-ave-fc-porto",
+    "currentPeriodStartTimestamp": 1738619540,
+    "startTimestamp": 1738615500,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "??",
+      "AN",
+      "CU",
+      "IR",
+      "KP",
+      "PT",
+      "SY",
+      "VE",
+      "GR",
+      "RU",
+      "CH",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

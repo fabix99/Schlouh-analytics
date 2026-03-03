@@ -1,0 +1,84 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Victor Hugo",
+        "slug": "vitao",
+        "shortName": "V. Hugo",
+        "position": "M",
+        "jerseyNumber": "6",
+        "userCount": 230,
+        "gender": "M",
+        "id": 1395634,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور هوغو"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. هوغو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 27.2,
+        "y": 58.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 59.7,
+        "z": 44.4
+      },
+      "xg": 0.02724228054285,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Anthony Moris",
+        "slug": "anthony-moris",
+        "shortName": "A. Moris",
+        "position": "G",
+        "jerseyNumber": "49",
+        "userCount": 292,
+        "gender": "M",
+        "id": 39457,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنتوني موريس",
+            "bn": "অ্যান্টনি মরিস",
+            "hi": "एंथनी मोरिस"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موريس",
+            "bn": "এ. মরিস",
+            "hi": "ए. मोरिस"
+          }
+        }
+      },
+      "id": 6660020,
+      "time": 31,
+      "timeSeconds": 1825,
+      "draw": {
+        "start": {
+          "x": 58.8,
+          "y": 27.2
+        },
+        "end": {
+          "x": 40.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 40.3,
+          "y": 55.6
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 875,
+      "periodTimeSeconds": 1825,
+      "incidentType": "shot"
+    }
+  ]
+}

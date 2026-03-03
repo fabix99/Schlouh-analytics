@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sory Kaba",
+        "slug": "sory-kaba",
+        "shortName": "S. Kaba",
+        "position": "F",
+        "jerseyNumber": "39",
+        "userCount": 1020,
+        "gender": "M",
+        "id": 869131,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سوري كابا",
+            "bn": "সোরি কাবা",
+            "hi": "सोरी काबा"
+          },
+          "shortNameTranslation": {
+            "ar": "س. كابا",
+            "bn": "এস. কাবা",
+            "hi": "एस. काबा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.5,
+        "z": 19.6
+      },
+      "xg": 0.7884,
+      "xgot": 0.92091327905655,
+      "goalkeeper": {
+        "name": "Gauthier Gallon",
+        "slug": "gauthier-gallon",
+        "shortName": "G. Gallon",
+        "position": "G",
+        "jerseyNumber": "93",
+        "userCount": 115,
+        "gender": "M",
+        "id": 340561,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوثييه غالون",
+            "bn": "গাউথিয়ার গ্যালন",
+            "hi": "गौथियर गैलन"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. غالون",
+            "bn": "জি. গ্যালন",
+            "hi": "जी. गैलन"
+          }
+        }
+      },
+      "id": 6708675,
+      "time": 90,
+      "addedTime": 5,
+      "timeSeconds": 5664,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 46.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.5,
+          "y": 80.4
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 636,
+      "periodTimeSeconds": 264,
+      "incidentType": "shot"
+    }
+  ]
+}

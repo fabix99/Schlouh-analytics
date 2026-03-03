@@ -1,0 +1,87 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Roger Martínez",
+        "slug": "roger-martinez",
+        "shortName": "R. Martínez",
+        "position": "F",
+        "jerseyNumber": "10",
+        "userCount": 2192,
+        "gender": "M",
+        "id": 344243,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روجر مارتينيز",
+            "bn": "রজার মার্টিনেজ",
+            "hi": "रोजर मार्टिनेज"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. مارتينيز",
+            "bn": "আর. মার্টিনেজ",
+            "hi": "आर. मार्टिनेज"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 20.7,
+        "y": 29.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 40.8,
+        "z": 69.4
+      },
+      "xg": 0.030749794095755,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bento",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bento",
+        "shortName": "Bento",
+        "position": "G",
+        "jerseyNumber": "24",
+        "userCount": 9827,
+        "gender": "M",
+        "sofascoreId": "bento_matheus",
+        "id": 1016104,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بينتو"
+          },
+          "shortNameTranslation": {
+            "ar": "بينتو"
+          }
+        }
+      },
+      "id": 6595502,
+      "time": 65,
+      "timeSeconds": 3884,
+      "draw": {
+        "start": {
+          "x": 29.9,
+          "y": 20.7
+        },
+        "end": {
+          "x": 59.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 59.2,
+          "y": 30.6
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1516,
+      "periodTimeSeconds": 1184,
+      "incidentType": "shot"
+    }
+  ]
+}

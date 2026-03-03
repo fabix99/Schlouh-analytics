@@ -1,0 +1,92 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Marc Bernal",
+        "slug": "marc-bernal",
+        "shortName": "M. Bernal",
+        "position": "M",
+        "jerseyNumber": "22",
+        "userCount": 59873,
+        "gender": "M",
+        "sofascoreId": "marc_bernal",
+        "id": 1526618,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارك برنال",
+            "bn": "মার্ক বার্নাল",
+            "hi": "मार्क बर्नल"
+          },
+          "shortNameTranslation": {
+            "ar": "م. برنال",
+            "bn": "এম. বার্নাল",
+            "hi": "एम. बर्नल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11,
+        "y": 61.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.8,
+        "z": 3.8
+      },
+      "xg": 0.38410630822182,
+      "xgot": 0.65862989425659,
+      "goalkeeper": {
+        "name": "Leo Román",
+        "firstName": "",
+        "lastName": "",
+        "slug": "leo-roman",
+        "shortName": "L. Román",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1580,
+        "gender": "M",
+        "id": 1131909,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليو روماني",
+            "bn": "লিও রোমান",
+            "hi": "लियो रोमान"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. روماني",
+            "bn": "এল. রোমান",
+            "hi": "एल. रोमान"
+          }
+        }
+      },
+      "id": 6660740,
+      "time": 83,
+      "timeSeconds": 4928,
+      "draw": {
+        "start": {
+          "x": 61.2,
+          "y": 11
+        },
+        "end": {
+          "x": 53.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.2,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 472,
+      "periodTimeSeconds": 2228,
+      "incidentType": "shot"
+    }
+  ]
+}

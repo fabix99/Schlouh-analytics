@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sergi Domínguez",
+        "firstName": "Sergi Domínguez",
+        "slug": "sergi-dominguez",
+        "shortName": "S. Domínguez",
+        "position": "D",
+        "jerseyNumber": "36",
+        "userCount": 6036,
+        "gender": "M",
+        "sofascoreId": "sergidominguez_",
+        "id": 1153335,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرجي دومينغيز",
+            "bn": "সের্গি ডমিংগুয়েজ",
+            "hi": "सर्जी डोमिन्ग्यूज़"
+          },
+          "shortNameTranslation": {
+            "ar": "س. دومينغيز",
+            "bn": "এস. ডমিনগুয়েজ",
+            "hi": "एस. डोमिन्ग्यूज़"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 5.1,
+        "y": 40.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 1.5,
+        "y": 50,
+        "z": 0
+      },
+      "xg": 0.087878540158272,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Elías Ólafsson",
+        "firstName": "",
+        "lastName": "",
+        "slug": "elias-olafsson",
+        "shortName": "E. Ólafsson",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 369,
+        "gender": "M",
+        "id": 879183,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلياس أولافسون",
+            "bn": "ইলিয়াস ওলাফসন",
+            "hi": "इलियास ओलाफसन"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. أولافسون",
+            "bn": "ই.ওলাফসন",
+            "hi": "ई. ओलाफसन"
+          }
+        }
+      },
+      "id": 6606350,
+      "time": 69,
+      "timeSeconds": 4112,
+      "draw": {
+        "start": {
+          "x": 40.5,
+          "y": 5.1
+        },
+        "block": {
+          "x": 50,
+          "y": 1.5
+        },
+        "end": {
+          "x": 54,
+          "y": 0
+        },
+        "goal": {
+          "x": 54,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 22,
+      "reversedPeriodTimeSeconds": 1288,
+      "periodTimeSeconds": 1412,
+      "incidentType": "shot"
+    }
+  ]
+}

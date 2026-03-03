@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Alex Iwobi",
+        "slug": "alex-iwobi",
+        "shortName": "A. Iwobi",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 8320,
+        "gender": "M",
+        "sofascoreId": "alexanderiwobi",
+        "id": 352770,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليكس إيووبي",
+            "bn": "অ্যালেক্স ইওবি",
+            "hi": "एलेक्स इवोबी"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. إيووبي",
+            "bn": "এ. ইওবি",
+            "hi": "ए. इवोबी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.9,
+        "y": 61.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.1,
+        "y": 54.9,
+        "z": 0
+      },
+      "xg": 0.02905254624784,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 4247,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन"
+          }
+        }
+      },
+      "id": 6580317,
+      "time": 53,
+      "timeSeconds": 3138,
+      "draw": {
+        "start": {
+          "x": 61.2,
+          "y": 23.9
+        },
+        "block": {
+          "x": 54.9,
+          "y": 10.1
+        },
+        "end": {
+          "x": 50.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2262,
+      "periodTimeSeconds": 438,
+      "incidentType": "shot"
+    }
+  ]
+}

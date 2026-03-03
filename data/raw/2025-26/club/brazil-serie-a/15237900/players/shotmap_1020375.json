@@ -1,0 +1,85 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Erick Noriega",
+        "slug": "erick-noriega",
+        "shortName": "E. Noriega",
+        "position": "D",
+        "jerseyNumber": "19",
+        "userCount": 3895,
+        "gender": "M",
+        "id": 1020375,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إريك نوريجا"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. نوريجا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 15.3,
+        "y": 32.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.6,
+        "z": 54.2
+      },
+      "xg": 0.023515522480011,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Neto",
+        "slug": "neto",
+        "shortName": "Neto",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 5096,
+        "gender": "M",
+        "sofascoreId": "Neto_Murara",
+        "id": 84844,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيتو",
+            "bn": "নেটো",
+            "hi": "नेटो"
+          },
+          "shortNameTranslation": {
+            "ar": "نيتو",
+            "bn": "নেটো",
+            "hi": "नेटो"
+          }
+        }
+      },
+      "id": 6647277,
+      "time": 9,
+      "timeSeconds": 525,
+      "draw": {
+        "start": {
+          "x": 32.1,
+          "y": 15.3
+        },
+        "end": {
+          "x": 52.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.4,
+          "y": 45.8
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2175,
+      "periodTimeSeconds": 525,
+      "incidentType": "shot"
+    }
+  ]
+}

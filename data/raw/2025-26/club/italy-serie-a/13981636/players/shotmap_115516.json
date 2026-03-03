@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Remo Freuler",
+        "slug": "remo-freuler",
+        "shortName": "R. Freuler",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 1945,
+        "gender": "M",
+        "id": 115516,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريمو فريلر",
+            "bn": "রেমো ফ্রেউলার",
+            "hi": "रेमो फ्र्यूलर"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. فريلر",
+            "bn": "আর. ফ্রেউলার",
+            "hi": "आर. फ्र्यूलर"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 15.6,
+        "y": 21.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 0.2,
+        "z": 12.5
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 100,
+        "z": 0
+      },
+      "xg": 0.0060486774891615,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Justin Bijlow",
+        "slug": "bijlow-justin",
+        "shortName": "J. Bijlow",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 1395,
+        "gender": "M",
+        "id": 556696,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيلو، جوستين",
+            "bn": "বিজলো, জাস্টিন",
+            "hi": "बिज्लो, जस्टिन"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بيلو",
+            "bn": "জে. বিজলো",
+            "hi": "जे. बिज्लो"
+          }
+        }
+      },
+      "id": 6588670,
+      "time": 32,
+      "timeSeconds": 1880,
+      "draw": {
+        "start": {
+          "x": 21.3,
+          "y": 15.6
+        },
+        "block": {
+          "x": 100,
+          "y": 1.6
+        },
+        "end": {
+          "x": 99.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 99.8,
+          "y": 87.5
+        }
+      },
+      "reversedPeriodTime": 14,
+      "reversedPeriodTimeSeconds": 820,
+      "periodTimeSeconds": 1880,
+      "incidentType": "shot"
+    }
+  ]
+}

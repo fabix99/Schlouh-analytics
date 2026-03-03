@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Matty Cash",
+        "slug": "matty-cash",
+        "shortName": "M. Cash",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 9408,
+        "gender": "M",
+        "sofascoreId": "mattycash622",
+        "id": 833956,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتي كاش",
+            "bn": "ম্যাটি ক্যাশ",
+            "hi": "मैटी कैश"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كاش",
+            "bn": "এম. ক্যাশ",
+            "hi": "एम. कैश"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.8,
+        "y": 63,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11,
+        "y": 61.2,
+        "z": 0
+      },
+      "xg": 0.046346116811037,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nick Pope",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nick-pope",
+        "shortName": "N. Pope",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 4726,
+        "gender": "M",
+        "sofascoreId": "npope29",
+        "id": 162653,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيك بوب",
+            "bn": "নিক পোপ",
+            "hi": "निक पोप"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. بوب",
+            "bn": "এন. পোপ",
+            "hi": "एन. पोप"
+          }
+        }
+      },
+      "id": 6588590,
+      "time": 24,
+      "timeSeconds": 1429,
+      "draw": {
+        "start": {
+          "x": 63,
+          "y": 12.8
+        },
+        "block": {
+          "x": 61.2,
+          "y": 11
+        },
+        "end": {
+          "x": 50.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 22,
+      "reversedPeriodTimeSeconds": 1271,
+      "periodTimeSeconds": 1429,
+      "incidentType": "shot"
+    }
+  ]
+}

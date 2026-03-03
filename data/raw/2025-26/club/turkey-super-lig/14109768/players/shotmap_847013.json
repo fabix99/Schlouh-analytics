@@ -1,0 +1,92 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Gaius Makouta",
+        "firstName": "",
+        "lastName": "",
+        "slug": "makouta-gaius",
+        "shortName": "G. Makouta",
+        "position": "M",
+        "jerseyNumber": "42",
+        "userCount": 298,
+        "gender": "M",
+        "id": 847013,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماكوتا، جايوس",
+            "bn": "মাকাউটা, গাইউস",
+            "hi": "मकोउटा, गयुस"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ماكوتا",
+            "bn": "জি. মকাউতা",
+            "hi": "जी. मकोउटा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 3.9,
+        "y": 53.3,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.6,
+        "z": 12
+      },
+      "xg": 0.20689621567726,
+      "xgot": 0.90095365047455,
+      "goalkeeper": {
+        "name": "Ederson",
+        "slug": "ederson",
+        "shortName": "Ederson",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 47836,
+        "gender": "M",
+        "sofascoreId": "Ederson93",
+        "id": 254491,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيدرسون",
+            "bn": "এডারসন",
+            "hi": "एडरसन"
+          },
+          "shortNameTranslation": {
+            "ar": "إيدرسون",
+            "bn": "এডারসন",
+            "hi": "एडरसन"
+          }
+        }
+      },
+      "id": 6542670,
+      "time": 27,
+      "timeSeconds": 1561,
+      "draw": {
+        "start": {
+          "x": 53.3,
+          "y": 3.9
+        },
+        "end": {
+          "x": 46.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.4,
+          "y": 88
+        }
+      },
+      "reversedPeriodTime": 19,
+      "reversedPeriodTimeSeconds": 1139,
+      "periodTimeSeconds": 1561,
+      "incidentType": "shot"
+    }
+  ]
+}

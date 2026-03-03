@@ -1,0 +1,188 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Pablo Martínez",
+        "firstName": "",
+        "lastName": "",
+        "slug": "pablo-martinez",
+        "shortName": "P. Martínez",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 290,
+        "gender": "M",
+        "id": 927066,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بابلو مارتينيز",
+            "bn": "পাবলো মার্টিনেজ",
+            "hi": "पाब्लो मार्टिनेज"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. مارتينيز",
+            "bn": "পি. মার্টিনেজ",
+            "hi": "पी. मार्टिनेज"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 3.3,
+        "y": 53.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.1,
+        "z": 6.3
+      },
+      "xg": 0.61141806840897,
+      "xgot": 0.77084165811539,
+      "goalkeeper": {
+        "name": "Iñaki Peña",
+        "slug": "inaki-pena",
+        "shortName": "I. Peña",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 45110,
+        "gender": "M",
+        "sofascoreId": "inakipenya",
+        "id": 794949,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيناكي بينا",
+            "bn": "ইনাকি পেনা",
+            "hi": "इनाकी पेना"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. بينا",
+            "bn": "আই. পেনা",
+            "hi": "आई. पेना"
+          }
+        }
+      },
+      "id": 6576281,
+      "time": 50,
+      "timeSeconds": 2978,
+      "draw": {
+        "start": {
+          "x": 53.6,
+          "y": 3.3
+        },
+        "end": {
+          "x": 53.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.9,
+          "y": 93.7
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2422,
+      "periodTimeSeconds": 278,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Pablo Martínez",
+        "firstName": "",
+        "lastName": "",
+        "slug": "pablo-martinez",
+        "shortName": "P. Martínez",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 290,
+        "gender": "M",
+        "id": 927066,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بابلو مارتينيز",
+            "bn": "পাবলো মার্টিনেজ",
+            "hi": "पाब्लो मार्टिनेज"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. مارتينيز",
+            "bn": "পি. মার্টিনেজ",
+            "hi": "पी. मार्टिनेज"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 17.5,
+        "y": 63.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.6,
+        "y": 58.8,
+        "z": 0
+      },
+      "xg": 0.035768397152424,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Iñaki Peña",
+        "slug": "inaki-pena",
+        "shortName": "I. Peña",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 45110,
+        "gender": "M",
+        "sofascoreId": "inakipenya",
+        "id": 794949,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيناكي بينا",
+            "bn": "ইনাকি পেনা",
+            "hi": "इनाकी पेना"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. بينا",
+            "bn": "আই. পেনা",
+            "hi": "आई. पेना"
+          }
+        }
+      },
+      "id": 6575935,
+      "time": 18,
+      "timeSeconds": 1037,
+      "draw": {
+        "start": {
+          "x": 63.2,
+          "y": 17.5
+        },
+        "block": {
+          "x": 58.8,
+          "y": 11.6
+        },
+        "end": {
+          "x": 50.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1663,
+      "periodTimeSeconds": 1037,
+      "incidentType": "shot"
+    }
+  ]
+}

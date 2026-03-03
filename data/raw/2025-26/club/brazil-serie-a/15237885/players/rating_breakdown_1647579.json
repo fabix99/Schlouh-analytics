@@ -1,0 +1,109 @@
+{
+  "passes": [
+    {
+      "playerCoordinates": {
+        "x": 44.7,
+        "y": 85
+      },
+      "passEndCoordinates": {
+        "x": 36.1,
+        "y": 50.7
+      },
+      "eventActionType": "pass",
+      "isHome": false,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 58.1,
+        "y": 93.5
+      },
+      "passEndCoordinates": {
+        "x": 46.6,
+        "y": 83
+      },
+      "eventActionType": "pass",
+      "isHome": false,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 60.9,
+        "y": 89.9
+      },
+      "passEndCoordinates": {
+        "x": 82.6,
+        "y": 27.1
+      },
+      "eventActionType": "pass",
+      "isHome": false,
+      "keypass": false,
+      "isLongBall": true
+    }
+  ],
+  "dribbles": [],
+  "defensive": [
+    {
+      "playerCoordinates": {
+        "x": 79.2,
+        "y": 95.7
+      },
+      "eventActionType": "tackle",
+      "isHome": false,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "ball-carries": [
+    {
+      "playerCoordinates": {
+        "x": 90.3,
+        "y": 71.7
+      },
+      "passEndCoordinates": {
+        "x": 89.8,
+        "y": 63.7
+      },
+      "eventActionType": "ball-carry",
+      "isHome": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 36,
+        "y": 89.3
+      },
+      "passEndCoordinates": {
+        "x": 44.7,
+        "y": 85
+      },
+      "eventActionType": "ball-carry",
+      "isHome": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 37.1,
+        "y": 94.4
+      },
+      "passEndCoordinates": {
+        "x": 58.1,
+        "y": 93.5
+      },
+      "eventActionType": "ball-carry",
+      "isHome": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 59,
+        "y": 95.9
+      },
+      "passEndCoordinates": {
+        "x": 60.9,
+        "y": 89.9
+      },
+      "eventActionType": "ball-carry",
+      "isHome": false
+    }
+  ]
+}

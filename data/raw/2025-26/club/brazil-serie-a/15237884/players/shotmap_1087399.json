@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "John Kennedy",
+        "firstName": "",
+        "lastName": "",
+        "slug": "john-kennedy",
+        "shortName": "John Kennedy",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 5306,
+        "gender": "M",
+        "id": 1087399,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جون كينيدي",
+            "bn": "জন কেনেডি",
+            "hi": "जॉन कैनेडी"
+          },
+          "shortNameTranslation": {
+            "ar": "جون كينيدي",
+            "bn": "জন. কেনেডি",
+            "hi": "जॉन कैनेडी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.4,
+        "y": 52,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.8,
+        "z": 7.6
+      },
+      "blockCoordinates": {
+        "x": 10.9,
+        "y": 51.8,
+        "z": 0
+      },
+      "xg": 0.59946167469025,
+      "xgot": 0.32832011580467,
+      "goalkeeper": {
+        "name": "Weverton",
+        "slug": "weverton",
+        "shortName": "Weverton",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 7084,
+        "gender": "M",
+        "sofascoreId": "Weverton",
+        "id": 243529,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويفرتون",
+            "bn": "ওয়েভারটন",
+            "hi": "वेवर्टन"
+          },
+          "shortNameTranslation": {
+            "ar": "ويفرتون",
+            "bn": "ওয়েভারটন",
+            "hi": "वेवर्टन"
+          }
+        }
+      },
+      "id": 6602972,
+      "time": 2,
+      "timeSeconds": 116,
+      "draw": {
+        "start": {
+          "x": 52,
+          "y": 14.4
+        },
+        "block": {
+          "x": 51.8,
+          "y": 10.9
+        },
+        "end": {
+          "x": 49.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.2,
+          "y": 92.4
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2584,
+      "periodTimeSeconds": 116,
+      "incidentType": "shot"
+    }
+  ]
+}

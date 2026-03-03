@@ -1,0 +1,92 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Alejandro Grimaldo",
+        "slug": "alejandro-grimaldo",
+        "shortName": "A. Grimaldo",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 13107,
+        "gender": "M",
+        "sofascoreId": "grimaldo35",
+        "id": 177177,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليخاندرو جريمالدو",
+            "bn": "আলেজান্দ্রো গ্রিমাল্ডো",
+            "hi": "एलेजांद्रो ग्रिमाल्डी"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. جريمالدو",
+            "bn": "এ. গ্রিমাল্ডো",
+            "hi": "ए. ग्रिमाल्डी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.5,
+        "y": 32.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.8,
+        "y": 34.7,
+        "z": 0
+      },
+      "goalkeeper": {
+        "name": "Ben Voll",
+        "slug": "ben-voll",
+        "shortName": "B. Voll",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 90,
+        "gender": "M",
+        "id": 987437,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بن فول"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فول"
+          }
+        }
+      },
+      "id": 6641034,
+      "time": 8,
+      "timeSeconds": 475,
+      "draw": {
+        "start": {
+          "x": 32.8,
+          "y": 13.5
+        },
+        "block": {
+          "x": 34.7,
+          "y": 11.8
+        },
+        "end": {
+          "x": 47.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2225,
+      "periodTimeSeconds": 475,
+      "incidentType": "shot"
+    }
+  ]
+}

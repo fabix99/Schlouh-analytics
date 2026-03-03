@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Viktor Tsygankov",
+        "firstName": "",
+        "lastName": "",
+        "slug": "viktor-tsygankov",
+        "shortName": "V. Tsygankov",
+        "position": "M",
+        "jerseyNumber": "15",
+        "userCount": 5462,
+        "gender": "M",
+        "sofascoreId": "viktortsygankov",
+        "id": 319735,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور تسيجانكوف",
+            "bn": "ভিক্টর সিগানকভ",
+            "hi": "विक्टर त्स्यगांकोव"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. تسيجانكوف",
+            "bn": "ভি. সিগানকভ",
+            "hi": "वी. त्स्यगांकोव"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.1,
+        "y": 67.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.9,
+        "y": 64.4,
+        "z": 0
+      },
+      "xg": 0.03094144910574,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "David Soria",
+        "slug": "david-soria",
+        "shortName": "D. Soria",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 680,
+        "gender": "M",
+        "id": 604258,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد سوريا",
+            "bn": "ডেভিড সোরিয়া",
+            "hi": "डेविड सोरिया"
+          },
+          "shortNameTranslation": {
+            "ar": "د. سوريا",
+            "bn": "ডি. সোরিয়া",
+            "hi": "डी. सोरिया"
+          }
+        }
+      },
+      "id": 6596060,
+      "time": 17,
+      "timeSeconds": 974,
+      "draw": {
+        "start": {
+          "x": 67.3,
+          "y": 23.1
+        },
+        "block": {
+          "x": 64.4,
+          "y": 17.9
+        },
+        "end": {
+          "x": 48.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1726,
+      "periodTimeSeconds": 974,
+      "incidentType": "shot"
+    }
+  ]
+}

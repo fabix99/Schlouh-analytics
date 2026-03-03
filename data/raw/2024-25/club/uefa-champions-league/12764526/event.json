@@ -1,0 +1,403 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1184603,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 61644
+    },
+    "roundInfo": {
+      "round": 1
+    },
+    "customId": "PsVY",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 31500,
+    "venue": {
+      "city": {
+        "name": "Bern"
+      },
+      "venueCoordinates": {
+        "latitude": 46.963104,
+        "longitude": 7.464864
+      },
+      "hidden": true,
+      "slug": "wankdorf-stadion",
+      "name": "Wankdorf Stadion",
+      "capacity": 32000,
+      "country": {
+        "alpha2": "CH",
+        "alpha3": "CHE",
+        "name": "Switzerland",
+        "slug": "switzerland"
+      },
+      "id": 771,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب وانكدورف",
+          "hi": "वांकडॉर्फ स्टेडियन",
+          "bn": "ওয়াঙ্কডর্ফ স্টেডিয়ান"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Wankdorf Stadion",
+        "capacity": 32000
+      }
+    },
+    "referee": {
+      "name": "Georgi Kabakov",
+      "slug": "kabakov-georgi",
+      "yellowCards": 1831,
+      "redCards": 35,
+      "yellowRedCards": 63,
+      "games": 328,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "BG",
+        "alpha3": "BGR",
+        "name": "Bulgaria",
+        "slug": "bulgaria"
+      },
+      "id": 76626,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كاباكوف، جورجي",
+          "bn": "কাবাকভ, জর্জি",
+          "hi": "कबाकोव, जॉर्जी"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "BSC Young Boys",
+      "slug": "young-boys",
+      "shortName": "Young Boys",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 131394,
+      "manager": {
+        "name": "Gerardo Seoane",
+        "slug": "gerardo-seoane",
+        "shortName": "G. Seoane",
+        "country": {
+          "alpha2": "CH",
+          "alpha3": "CHE",
+          "name": "Switzerland",
+          "slug": "switzerland"
+        },
+        "id": 789624,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غيراردو سيواني",
+            "bn": "জেরার্ডো সিওনে",
+            "hi": "गेरार्डो सेओने"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. سيواني",
+            "bn": "জি. সিওনে",
+            "hi": "जी. सेओने"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bern"
+        },
+        "venueCoordinates": {
+          "latitude": 46.963104,
+          "longitude": 7.464864
+        },
+        "hidden": true,
+        "slug": "wankdorf-stadion",
+        "name": "Wankdorf Stadion",
+        "capacity": 32000,
+        "country": {
+          "alpha2": "CH",
+          "alpha3": "CHE",
+          "name": "Switzerland",
+          "slug": "switzerland"
+        },
+        "id": 771,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب وانكدورف",
+            "hi": "वांकडॉर्फ स्टेडियन",
+            "bn": "ওয়াঙ্কডর্ফ স্টেডিয়ান"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Wankdorf Stadion",
+          "capacity": 32000
+        }
+      },
+      "nameCode": "YB",
+      "class": 1,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "CH",
+        "alpha3": "CHE",
+        "name": "Switzerland",
+        "slug": "switzerland"
+      },
+      "id": 2445,
+      "fullName": "BSC Young Boys",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffcf00",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2265840000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "يونج بويز",
+          "bn": "ইয়ং বয়েজ",
+          "hi": "यंग बॉयज़",
+          "ru": "Янг Бойз"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "shortName": "Aston Villa",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 908027,
+      "manager": {
+        "name": "Unai Emery",
+        "slug": "unai-emery",
+        "shortName": "U. Emery",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 53062,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوني إيمري",
+            "bn": "উনাই এমেরি",
+            "hi": "उनाई एमरी"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. إيمري",
+            "bn": "ইউ. এমেরি",
+            "hi": "यू. एमरी"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Birmingham"
+        },
+        "venueCoordinates": {
+          "latitude": 52.509126,
+          "longitude": -1.885035
+        },
+        "hidden": false,
+        "slug": "villa-park",
+        "name": "Villa Park",
+        "capacity": 42640,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 815,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيلا بارك",
+            "hi": "विला पार्क",
+            "bn": "ভিলা পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Villa Park",
+          "capacity": 42640
+        }
+      },
+      "nameCode": "AVL",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 40,
+      "fullName": "Aston Villa",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#670e36",
+        "secondary": "#94bee5",
+        "text": "#94bee5"
+      },
+      "foundationDateTimestamp": -3024345600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أستون فيلا",
+          "bn": "অ্যাস্টন ভিলা",
+          "hi": "एस्टन विला",
+          "ru": "Астон Вилла"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 2,
+      "period2": 1,
+      "normaltime": 3
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 4,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1726595560
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1726598635
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12764526,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "young-boys-aston-villa",
+    "currentPeriodStartTimestamp": 1726595560,
+    "startTimestamp": 1726591500,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

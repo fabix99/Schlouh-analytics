@@ -2,12 +2,35 @@
 
 Provides tools to normalize player statistics across different leagues,
 enabling fair comparison between players from different competitions.
-Phase 1 uses static quality scores; Phase 2 will use historical transfer analysis.
+Phase 1 uses static quality scores; Phase 2 uses data-derived league_strength.parquet
+when available, with fallback to static scores.
 """
 
 from typing import Dict, List, Optional, Tuple
+from pathlib import Path
 import pandas as pd
 import numpy as np
+
+# Path to processed data (league_strength.parquet)
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+_LEAGUE_STRENGTH_PATH = _PROJECT_ROOT / "data" / "processed" / "league_strength.parquet"
+_LEAGUE_STRENGTH_TABLE: Optional[pd.DataFrame] = None
+
+
+def _load_league_strength_table() -> Optional[pd.DataFrame]:
+    """Load league strength table (competition_slug, season, strength_score). Cached."""
+    global _LEAGUE_STRENGTH_TABLE
+    if _LEAGUE_STRENGTH_TABLE is not None:
+        return _LEAGUE_STRENGTH_TABLE
+    if not _LEAGUE_STRENGTH_PATH.exists():
+        return None
+    try:
+        _LEAGUE_STRENGTH_TABLE = pd.read_parquet(_LEAGUE_STRENGTH_PATH)
+        _LEAGUE_STRENGTH_TABLE["season"] = _LEAGUE_STRENGTH_TABLE["season"].astype(str)
+        _LEAGUE_STRENGTH_TABLE["competition_slug"] = _LEAGUE_STRENGTH_TABLE["competition_slug"].astype(str)
+        return _LEAGUE_STRENGTH_TABLE
+    except Exception:
+        return None
 
 
 # Phase 1: Static quality scores based on UEFA coefficients and historical perception
@@ -101,31 +124,48 @@ STAT_CATEGORIES = {
 }
 
 
-def get_league_quality_score(league: str) -> float:
+def get_league_quality_score(
+    league: str,
+    competition_slug: Optional[str] = None,
+    season: Optional[str] = None,
+) -> float:
     """
-    Get quality score for a league (0-1, where Premier League = 1.0).
-    
+    Get quality score for a league (0-1 scale, Premier League baseline = 1.0).
+
+    When competition_slug and season are provided, uses data-derived strength
+    from league_strength.parquet when available; otherwise falls back to static
+    LEAGUE_QUALITY_SCORES.
+
     Args:
         league: League name (e.g., "Premier League", "Primeira Liga")
-        
+        competition_slug: Optional; when provided with season, use data-derived strength
+        season: Optional; e.g. "2024-25"
+
     Returns:
-        Quality score between 0 and 1
+        Quality score (typically 0–1, may exceed 1 for stronger leagues in data)
     """
-    # Try direct lookup
+    if competition_slug and season:
+        table = _load_league_strength_table()
+        if table is not None and not table.empty:
+            season_str = str(season).strip()
+            slug_str = str(competition_slug).strip()
+            row = table[
+                (table["competition_slug"] == slug_str) & (table["season"] == season_str)
+            ]
+            if not row.empty and "strength_score" in row.columns:
+                val = row["strength_score"].iloc[0]
+                if pd.notna(val) and np.isfinite(val):
+                    return float(val)
+
+    # Fallback: static scores
     if league in LEAGUE_QUALITY_SCORES:
         return LEAGUE_QUALITY_SCORES[league]
-    
-    # Try alias lookup
     if league in LEAGUE_ALIASES:
         canonical = LEAGUE_ALIASES[league]
         return LEAGUE_QUALITY_SCORES.get(canonical, 0.65)
-    
-    # Fuzzy match on partial names
     for canonical, score in LEAGUE_QUALITY_SCORES.items():
-        if canonical.lower() in league.lower() or league.lower() in canonical.lower():
+        if canonical.lower() in (league or "").lower() or (league or "").lower() in canonical.lower():
             return score
-    
-    # Default for unknown leagues
     return 0.65
 
 
@@ -156,58 +196,72 @@ def project_stat_to_baseline(
     value: float,
     source_league: str,
     target_league: str = "Premier League",
-    stat_name: str = "generic"
+    stat_name: str = "generic",
+    source_competition_slug: Optional[str] = None,
+    source_season: Optional[str] = None,
+    target_competition_slug: Optional[str] = None,
+    target_season: Optional[str] = None,
 ) -> Dict:
     """
     Project a stat from source league to target league equivalent.
-    
+
     Args:
         value: Raw stat value
         source_league: League the player currently plays in
         target_league: Target league for projection (default: Premier League)
         stat_name: Name of the statistic for category-specific adjustment
-        
+        source_competition_slug: Optional; for data-derived source strength
+        source_season: Optional; e.g. "2024-25"
+        target_competition_slug: Optional; for data-derived target strength
+        target_season: Optional; if not set, uses source_season for target lookup
+
     Returns:
-        Dictionary with:
-            - projected_value: Adjusted stat value
-            - adjustment_factor: Multiplier applied
-            - confidence: Confidence in projection (0-1)
-            - note: Human-readable explanation
+        Dictionary with projected_value, adjustment_factor, confidence, note, etc.
     """
-    source_quality = get_league_quality_score(source_league)
-    target_quality = get_league_quality_score(target_league)
-    
-    # Get compression factor for this stat type
     stat_category = get_stat_category(stat_name)
-    compression = STAT_COMPRESSION_FACTORS.get(stat_category, 0.85)
-    
-    # Calculate adjustment.
-    # Moving to a STRONGER league means the player will produce FEWER stats (harder
-    # competition), so we multiply by source_quality / target_quality (< 1 when
-    # target is stronger). This is the standard "difficulty discount" approach.
-    if source_quality > 0 and target_quality > 0:
-        adjustment_ratio = (source_quality / target_quality) ** compression
-    else:
-        adjustment_ratio = 1.0
-    
+    adjustment_ratio = 1.0
+    confidence = 0.60
+    use_transfer_factor = False
+
+    # Optional: use transfer-based factor when available (from_comp|to_comp|all|stat)
+    if source_competition_slug and target_competition_slug:
+        factors = load_adjustment_factors(filepath=str(_PROJECT_ROOT / "data" / "processed" / "league_adjustment_factors.json"))
+        if factors:
+            key_all = f"{source_competition_slug}|{target_competition_slug}|all|{stat_name}"
+            if key_all in factors:
+                adjustment_ratio = float(factors[key_all])
+                use_transfer_factor = True
+                confidence = 0.75
+
+    if not use_transfer_factor:
+        source_quality = get_league_quality_score(
+            source_league, competition_slug=source_competition_slug, season=source_season
+        )
+        target_quality = get_league_quality_score(
+            target_league,
+            competition_slug=target_competition_slug,
+            season=target_season or source_season,
+        )
+        compression = STAT_COMPRESSION_FACTORS.get(stat_category, 0.85)
+        if source_quality > 0 and target_quality > 0:
+            adjustment_ratio = (source_quality / target_quality) ** compression
+        if source_league in LEAGUE_QUALITY_SCORES and target_league in LEAGUE_QUALITY_SCORES:
+            confidence = 0.85
+        else:
+            confidence = 0.60
+
     projected_value = value * adjustment_ratio
-    
-    # Confidence based on data quality
-    if source_league in LEAGUE_QUALITY_SCORES and target_league in LEAGUE_QUALITY_SCORES:
-        confidence = 0.85  # High confidence for known leagues
-    else:
-        confidence = 0.60  # Lower confidence for unknown leagues
-    
-    # Generate human-readable note
+
     if adjustment_ratio > 1.0:
         direction = "increase"
         pct = (adjustment_ratio - 1) * 100
     else:
         direction = "decrease"
         pct = (1 - adjustment_ratio) * 100
-    
     note = f"Stat adjusted from {source_league} to {target_league}: {direction}s by {pct:.1f}%"
-    
+    if use_transfer_factor:
+        note += " (transfer-based factor)"
+
     return {
         "projected_value": projected_value,
         "original_value": value,

@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Federico Bonazzoli",
+        "firstName": "",
+        "lastName": "",
+        "slug": "federico-bonazzoli",
+        "shortName": "F. Bonazzoli",
+        "position": "F",
+        "jerseyNumber": "90",
+        "userCount": 1026,
+        "gender": "M",
+        "id": 284363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيديريكو بونازولي",
+            "bn": "ফেদেরিকো বোনাজ্জোলি",
+            "hi": "फेडेरिको बोनाज़ोली"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. بونازولي",
+            "bn": "এফ. বোনাজ্জোলি",
+            "hi": "एफ. बोनाज़ोली"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.8,
+        "y": 42.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.9,
+        "z": 17.7
+      },
+      "blockCoordinates": {
+        "x": 2,
+        "y": 50,
+        "z": 0
+      },
+      "xg": 0.028690388426185,
+      "xgot": 0.040560413151979,
+      "goalkeeper": {
+        "name": "Yann Sommer",
+        "slug": "yann-sommer",
+        "shortName": "Y. Sommer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 12669,
+        "gender": "M",
+        "sofascoreId": "yannsommer",
+        "id": 16206,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يان زومر",
+            "bn": "জন সোমার",
+            "hi": "यान सोमर"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. زومر",
+            "bn": "ওয়াই. সোমার",
+            "hi": "वाई. सोमर"
+          }
+        }
+      },
+      "id": 6626388,
+      "time": 44,
+      "timeSeconds": 2607,
+      "draw": {
+        "start": {
+          "x": 42.6,
+          "y": 23.8
+        },
+        "block": {
+          "x": 50,
+          "y": 2
+        },
+        "end": {
+          "x": 52.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.1,
+          "y": 82.3
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 93,
+      "periodTimeSeconds": 2607,
+      "incidentType": "shot"
+    }
+  ]
+}

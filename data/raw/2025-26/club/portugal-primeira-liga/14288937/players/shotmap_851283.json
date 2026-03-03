@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jefferson Encada",
+        "slug": "encada-jefferson",
+        "shortName": "J. Encada",
+        "position": "D",
+        "jerseyNumber": "17",
+        "userCount": 309,
+        "gender": "M",
+        "id": 851283,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إنكادا، جيفرسون",
+            "bn": "এনকাডা, জেফারসন",
+            "hi": "एनकाडा, जेफरसन"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. إنكادا",
+            "bn": "জে. এনকাডা",
+            "hi": "जे. एनकाडा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.5,
+        "y": 74,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.4,
+        "z": 17.7
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 55.2,
+        "z": 0
+      },
+      "xg": 0.033377438783646,
+      "xgot": 0.19054090976715,
+      "goalkeeper": {
+        "name": "Joel Robles",
+        "slug": "joel-robles",
+        "shortName": "J. Robles",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 156,
+        "gender": "M",
+        "id": 93796,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جويل روبلز",
+            "bn": "জোয়েল রোবেলস",
+            "hi": "जोएल रोबल्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. روبلز",
+            "bn": "জে. রোবেলস",
+            "hi": "जे. रोबल्स"
+          }
+        }
+      },
+      "id": 6550179,
+      "time": 37,
+      "timeSeconds": 2215,
+      "draw": {
+        "start": {
+          "x": 74,
+          "y": 10.5
+        },
+        "block": {
+          "x": 55.2,
+          "y": 1.1
+        },
+        "end": {
+          "x": 50.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.6,
+          "y": 82.3
+        }
+      },
+      "reversedPeriodTime": 9,
+      "reversedPeriodTimeSeconds": 485,
+      "periodTimeSeconds": 2215,
+      "incidentType": "shot"
+    }
+  ]
+}

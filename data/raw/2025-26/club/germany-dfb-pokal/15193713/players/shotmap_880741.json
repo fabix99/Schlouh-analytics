@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ivan Nekić",
+        "slug": "ivan-nekic",
+        "shortName": "I. Nekić",
+        "position": "D",
+        "jerseyNumber": "13",
+        "userCount": 153,
+        "gender": "M",
+        "id": 880741,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفان نيكيش"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. نيكيش"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.5,
+        "y": 62.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 12.1,
+        "y": 60.8,
+        "z": 0
+      },
+      "goalkeeper": {
+        "name": "Alexander Nübel",
+        "firstName": "",
+        "lastName": "",
+        "slug": "alexander-nubel",
+        "shortName": "A. Nübel",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 2069,
+        "gender": "M",
+        "id": 584722,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر نوبل",
+            "bn": "আলেকজান্ডার নুবেল",
+            "hi": "अलेक्जेंडर नुबेल"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. نوبل",
+            "bn": "এ. নুবেল",
+            "hi": "ए. नुबेल"
+          }
+        }
+      },
+      "id": 6646717,
+      "time": 80,
+      "timeSeconds": 4769,
+      "draw": {
+        "start": {
+          "x": 62.2,
+          "y": 14.5
+        },
+        "block": {
+          "x": 60.8,
+          "y": 12.1
+        },
+        "end": {
+          "x": 51.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 631,
+      "periodTimeSeconds": 2069,
+      "incidentType": "shot"
+    }
+  ]
+}

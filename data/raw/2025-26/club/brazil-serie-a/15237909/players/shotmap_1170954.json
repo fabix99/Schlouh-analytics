@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Victor Hugo",
+        "firstName": "",
+        "lastName": "",
+        "slug": "victor-hugo",
+        "shortName": "V. Hugo",
+        "position": "M",
+        "jerseyNumber": "30",
+        "userCount": 3567,
+        "gender": "M",
+        "id": 1170954,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور هوغو",
+            "bn": "ভিক্টর হুগো",
+            "hi": "विक्टर ह्यूगो"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. هوغو",
+            "bn": "ভি. হুগো",
+            "hi": "वी. ह्यूगो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.1,
+        "y": 55.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.3,
+        "z": 3.2
+      },
+      "blockCoordinates": {
+        "x": 2.5,
+        "y": 51.1,
+        "z": 0
+      },
+      "xg": 0.047614116221666,
+      "xgot": 0.039761938154697,
+      "goalkeeper": {
+        "name": "Marcelo Rangel",
+        "slug": "marcelo-rangel",
+        "shortName": "M. Rangel",
+        "position": "G",
+        "jerseyNumber": "88",
+        "userCount": 381,
+        "gender": "M",
+        "id": 870902,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارسيلو رينجل"
+          },
+          "shortNameTranslation": {
+            "ar": "م. رينجل"
+          }
+        }
+      },
+      "id": 6694063,
+      "time": 36,
+      "timeSeconds": 2132,
+      "draw": {
+        "start": {
+          "x": 55.4,
+          "y": 22.1
+        },
+        "block": {
+          "x": 51.1,
+          "y": 2.5
+        },
+        "end": {
+          "x": 51.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.7,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 10,
+      "reversedPeriodTimeSeconds": 568,
+      "periodTimeSeconds": 2132,
+      "incidentType": "shot"
+    }
+  ]
+}

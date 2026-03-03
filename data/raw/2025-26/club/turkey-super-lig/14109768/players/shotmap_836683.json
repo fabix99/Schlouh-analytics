@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mert Müldür",
+        "slug": "mert-muldur",
+        "shortName": "M. Müldür",
+        "position": "D",
+        "jerseyNumber": "18",
+        "userCount": 2878,
+        "gender": "M",
+        "id": 836683,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميرت مولدور",
+            "bn": "মের্ত মুল্ডার",
+            "hi": "मर्ट मुल्डुर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. مولدور",
+            "bn": "এম. মুল্ডার",
+            "hi": "एम. मुल्डुर"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 11.9,
+        "y": 29.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 4.7,
+        "z": 15.3
+      },
+      "blockCoordinates": {
+        "x": 9.9,
+        "y": 45.3,
+        "z": 0
+      },
+      "xg": 0.029970733448863,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ertuğrul Taşkıran",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ertugrul-taskiran",
+        "shortName": "E. Taşkıran",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 134,
+        "gender": "M",
+        "id": 105974,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إرتوغول تاشكيران"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. تاشكيران"
+          }
+        }
+      },
+      "id": 6543091,
+      "time": 49,
+      "timeSeconds": 2904,
+      "draw": {
+        "start": {
+          "x": 29.6,
+          "y": 11.9
+        },
+        "block": {
+          "x": 45.3,
+          "y": 9.9
+        },
+        "end": {
+          "x": 95.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 95.3,
+          "y": 84.7
+        }
+      },
+      "reversedPeriodTime": 42,
+      "reversedPeriodTimeSeconds": 2496,
+      "periodTimeSeconds": 204,
+      "incidentType": "shot"
+    }
+  ]
+}

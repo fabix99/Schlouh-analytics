@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kaishu Sano",
+        "slug": "kaishu-sano",
+        "shortName": "K. Sano",
+        "position": "M",
+        "jerseyNumber": "6",
+        "userCount": 2326,
+        "gender": "M",
+        "id": 1028307,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كايشو سانو",
+            "bn": "কাইশু সানো",
+            "hi": "कैशु सानो"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. سانو",
+            "bn": "কে. সানো",
+            "hi": "के. सानो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 20.4,
+        "y": 63.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.9,
+        "y": 60.8,
+        "z": 0
+      },
+      "xg": 0.020922275260091,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Finn Dahmen",
+        "slug": "finn-dahmen",
+        "shortName": "F. Dahmen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 571,
+        "gender": "M",
+        "id": 822564,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فين داهمن",
+            "bn": "ফিন দাহমেন",
+            "hi": "फिन दाहमेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. داهمن",
+            "bn": "এফ. দাহমেন",
+            "hi": "एफ. दाहमेन"
+          }
+        }
+      },
+      "id": 6660000,
+      "time": 70,
+      "timeSeconds": 4194,
+      "draw": {
+        "start": {
+          "x": 63.6,
+          "y": 20.4
+        },
+        "block": {
+          "x": 60.8,
+          "y": 15.9
+        },
+        "end": {
+          "x": 51,
+          "y": 0
+        },
+        "goal": {
+          "x": 51,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 21,
+      "reversedPeriodTimeSeconds": 1206,
+      "periodTimeSeconds": 1494,
+      "incidentType": "shot"
+    }
+  ]
+}

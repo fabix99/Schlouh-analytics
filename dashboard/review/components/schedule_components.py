@@ -276,7 +276,7 @@ def render_match_card(
 
         # Action buttons
         st.divider()
-        action_cols = st.columns(4)
+        action_cols = st.columns(3)
 
         with action_cols[0]:
             if st.button("📊 Pre-Match", key=f"pre_{match_id}", use_container_width=True):
@@ -284,15 +284,10 @@ def render_match_card(
                     on_analyze(match, "pre")
 
         with action_cols[1]:
-            if st.button("📋 Post-Match", key=f"post_{match_id}", use_container_width=True):
-                if on_analyze:
-                    on_analyze(match, "post")
-
-        with action_cols[2]:
             if st.button("📋 Checklist", key=f"check_{match_id}", use_container_width=True):
                 pass  # Placeholder for checklist
 
-        with action_cols[3]:
+        with action_cols[2]:
             if st.button("🔔 Remind", key=f"remind_{match_id}", use_container_width=True):
                 pass  # Placeholder for reminder
 

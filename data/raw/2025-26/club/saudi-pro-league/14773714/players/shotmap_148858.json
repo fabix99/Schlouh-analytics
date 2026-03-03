@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Salman Al-Faraj",
+        "slug": "salman-al-faraj",
+        "shortName": "S. Al-Faraj",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 492,
+        "gender": "M",
+        "id": 148858,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سلمان الفرج",
+            "bn": "সালমান আল ফারাজ",
+            "hi": "सलमान अल-फ़राज"
+          },
+          "shortNameTranslation": {
+            "ar": "س. الفرج",
+            "bn": "এস. আল-ফারাজ",
+            "hi": "एस. अल-फ़राज"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 12.2,
+        "y": 53.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.2,
+        "y": 52.7,
+        "z": 0
+      },
+      "xg": 0.17138065397739,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kewin",
+        "slug": "kewin",
+        "shortName": "Kewin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 111,
+        "gender": "M",
+        "id": 865371,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيوين"
+          },
+          "shortNameTranslation": {
+            "ar": "كيوين"
+          }
+        }
+      },
+      "id": 6610075,
+      "time": 80,
+      "timeSeconds": 4790,
+      "draw": {
+        "start": {
+          "x": 53.4,
+          "y": 12.2
+        },
+        "block": {
+          "x": 52.7,
+          "y": 10.2
+        },
+        "end": {
+          "x": 49.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 610,
+      "periodTimeSeconds": 2090,
+      "incidentType": "shot"
+    }
+  ]
+}

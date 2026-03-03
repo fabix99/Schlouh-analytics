@@ -1,0 +1,400 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1184603,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 61644
+    },
+    "roundInfo": {
+      "round": 8
+    },
+    "customId": "PscX",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 42824,
+    "venue": {
+      "city": {
+        "name": "Birmingham"
+      },
+      "venueCoordinates": {
+        "latitude": 52.509126,
+        "longitude": -1.885035
+      },
+      "hidden": false,
+      "slug": "villa-park",
+      "name": "Villa Park",
+      "capacity": 42640,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 815,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فيلا بارك",
+          "hi": "विला पार्क",
+          "bn": "ভিলা পার্ক"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Villa Park",
+        "capacity": 42640
+      }
+    },
+    "referee": {
+      "name": "Clement Turpin",
+      "slug": "clement-turpin",
+      "yellowCards": 1726,
+      "redCards": 99,
+      "yellowRedCards": 36,
+      "games": 509,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 52599,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كليمنت توربين",
+          "bn": "ক্লিমেন্ট টারপিন",
+          "hi": "क्लेमेंट टर्पिन"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "shortName": "Aston Villa",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 908027,
+      "manager": {
+        "name": "Unai Emery",
+        "slug": "unai-emery",
+        "shortName": "U. Emery",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 53062,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوني إيمري",
+            "bn": "উনাই এমেরি",
+            "hi": "उनाई एमरी"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. إيمري",
+            "bn": "ইউ. এমেরি",
+            "hi": "यू. एमरी"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Birmingham"
+        },
+        "venueCoordinates": {
+          "latitude": 52.509126,
+          "longitude": -1.885035
+        },
+        "hidden": false,
+        "slug": "villa-park",
+        "name": "Villa Park",
+        "capacity": 42640,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 815,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيلا بارك",
+            "hi": "विला पार्क",
+            "bn": "ভিলা পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Villa Park",
+          "capacity": 42640
+        }
+      },
+      "nameCode": "AVL",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 40,
+      "fullName": "Aston Villa",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#670e36",
+        "secondary": "#94bee5",
+        "text": "#94bee5"
+      },
+      "foundationDateTimestamp": -3024345600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أستون فيلا",
+          "bn": "অ্যাস্টন ভিলা",
+          "hi": "एस्टन विला",
+          "ru": "Астон Вилла"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Celtic",
+      "slug": "celtic",
+      "shortName": "Celtic",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 356849,
+      "manager": {
+        "name": "Martin O'Neill",
+        "slug": "martin-oneill",
+        "shortName": "M. O'Neill",
+        "country": {
+          "alpha2": "NX",
+          "alpha3": "NIR",
+          "name": "Northern Ireland",
+          "slug": "northern-ireland"
+        },
+        "id": 53408,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتن أونيل"
+          },
+          "shortNameTranslation": {
+            "ar": "م. أونيل"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Glasgow"
+        },
+        "venueCoordinates": {
+          "latitude": 55.850181,
+          "longitude": -4.206823
+        },
+        "hidden": false,
+        "slug": "celtic-park",
+        "name": "Celtic Park",
+        "capacity": 60411,
+        "country": {
+          "alpha2": "SX",
+          "alpha3": "SCO",
+          "name": "Scotland",
+          "slug": "scotland"
+        },
+        "id": 916,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سلتيك بارك",
+            "hi": "सेल्टिक पार्क",
+            "bn": "সেল্টিক পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Celtic Park",
+          "capacity": 60411
+        }
+      },
+      "nameCode": "CEL",
+      "class": 1,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "SX",
+        "alpha3": "SCO",
+        "name": "Scotland",
+        "slug": "scotland"
+      },
+      "id": 2352,
+      "fullName": "Celtic",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#009933",
+        "text": "#009933"
+      },
+      "foundationDateTimestamp": -2592518400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سلتيك",
+          "bn": "সেল্টিক",
+          "hi": "सेल्टिक",
+          "ru": "Селтик Глазго"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 4,
+      "display": 4,
+      "period1": 2,
+      "period2": 2,
+      "normaltime": 4
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 2,
+      "period2": 0,
+      "normaltime": 2
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 3,
+      "injuryTime2": 3,
+      "currentPeriodStartTimestamp": 1738184788
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type",
+        "time.injuryTime2"
+      ],
+      "changeTimestamp": 1738187717
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12763958,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "celtic-aston-villa",
+    "currentPeriodStartTimestamp": 1738184788,
+    "startTimestamp": 1738180800,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

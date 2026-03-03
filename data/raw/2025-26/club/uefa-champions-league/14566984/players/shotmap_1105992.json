@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ricardinho",
+        "firstName": "Ricardinho",
+        "lastName": "",
+        "slug": "ricardinho",
+        "shortName": "Ricardinho",
+        "position": "F",
+        "jerseyNumber": "99",
+        "userCount": 659,
+        "gender": "M",
+        "id": 1105992,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكاردينيو"
+          },
+          "shortNameTranslation": {
+            "ar": "ريكاردينيو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 24.2,
+        "y": 38.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 21.8,
+        "y": 39.7,
+        "z": 0
+      },
+      "xg": 0.018940268084407,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nordin Jackers",
+        "slug": "nordin-jackers",
+        "shortName": "N. Jackers",
+        "position": "G",
+        "jerseyNumber": "29",
+        "userCount": 425,
+        "gender": "M",
+        "id": 361722,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نور الدين جاكرز"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. جاكرز"
+          }
+        }
+      },
+      "id": 6555494,
+      "time": 87,
+      "timeSeconds": 5202,
+      "draw": {
+        "start": {
+          "x": 38.8,
+          "y": 24.2
+        },
+        "block": {
+          "x": 39.7,
+          "y": 21.8
+        },
+        "end": {
+          "x": 47.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 198,
+      "periodTimeSeconds": 2502,
+      "incidentType": "shot"
+    }
+  ]
+}

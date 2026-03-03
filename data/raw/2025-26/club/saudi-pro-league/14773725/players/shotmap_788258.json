@@ -1,0 +1,83 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mukhtar Ali",
+        "slug": "ali-mukhtar",
+        "shortName": "A. Mukhtar",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 333,
+        "gender": "M",
+        "id": 788258,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "علي مختار",
+            "bn": "আলী মুখতার",
+            "hi": "अली मुख्तार"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. مختار",
+            "bn": "এ. মুখতার",
+            "hi": "ए. मुख्तार"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 24.1,
+        "y": 47.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.3,
+        "z": 4.4
+      },
+      "goalkeeper": {
+        "name": "Kewin",
+        "slug": "kewin",
+        "shortName": "Kewin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 112,
+        "gender": "M",
+        "id": 865371,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيوين"
+          },
+          "shortNameTranslation": {
+            "ar": "كيوين"
+          }
+        }
+      },
+      "id": 6654452,
+      "time": 75,
+      "timeSeconds": 4443,
+      "draw": {
+        "start": {
+          "x": 47.7,
+          "y": 24.1
+        },
+        "end": {
+          "x": 53.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.7,
+          "y": 95.6
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 957,
+      "periodTimeSeconds": 1743,
+      "incidentType": "shot"
+    }
+  ]
+}

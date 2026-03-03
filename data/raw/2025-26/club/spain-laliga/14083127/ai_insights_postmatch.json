@@ -1,0 +1,151 @@
+{
+  "predictions": {
+    "yellowCards": 5,
+    "corners": 10,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 39,
+      "draw": 27,
+      "away": 34
+    },
+    "possibleResultsMatrix": [
+      [
+        0.08932689870159,
+        0.10344127236804,
+        0.059892915709877,
+        0.023118827202535,
+        0.0066929472987636,
+        0.0015500974388222
+      ],
+      [
+        0.11260716241679,
+        0.13040000635261,
+        0.075502131888488,
+        0.029144026799568,
+        0.0084372547852202,
+        0.0019540818789468
+      ],
+      [
+        0.070977349554703,
+        0.082192345799178,
+        0.047589701153642,
+        0.018369753159469,
+        0.0053180807447767,
+        0.0012316761172542
+      ],
+      [
+        0.029825125635522,
+        0.034537737110759,
+        0.019997489688882,
+        0.0077190850223624,
+        0.0022346907477938,
+        0.00051755799800704
+      ],
+      [
+        0.0093995280686951,
+        0.010884729652744,
+        0.0063023025596315,
+        0.0024327058071442,
+        0.0007042732582398,
+        0.0001631108277261
+      ],
+      [
+        0.0023698442445844,
+        0.0027442988342493,
+        0.001588960141341,
+        0.00061334290548356,
+        0.00017756401336924,
+        4.1124113199201e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Recent Form",
+      "text": "Sevilla has struggled recently, winning none of their last five matches, whereas Athletic Club has shown better form with three wins in their last five games. This gives Athletic Club a slight edge heading into the match."
+    },
+    {
+      "subtitle": "Head-to-Head",
+      "text": "In the last two encounters, Athletic Club has triumphed over Sevilla, including a 3-2 win in their most recent clash. This historical success adds confidence for the away team."
+    },
+    {
+      "subtitle": "Tactical Breakdown",
+      "text": "Sevilla’s high possession rate of 54.45% will be tested against Athletic Club's pressing game. Both teams have struggled to keep clean sheets recently, indicating a potentially high-scoring match."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Sevilla",
+      "slug": "sevilla",
+      "shortName": "Sevilla",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 373021,
+      "nameCode": "SEV",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 2833,
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#cc1020",
+        "text": "#cc1020"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إشبيلية",
+          "bn": "সেভিলা",
+          "hi": "सेविला",
+          "ru": "Cевилья"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Peque Fernández",
+      "slug": "peque-fernandez",
+      "shortName": "P. Fernández",
+      "position": "M",
+      "jerseyNumber": "14",
+      "userCount": 881,
+      "gender": "M",
+      "id": 997033,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بيكي فيرنانديز"
+        },
+        "shortNameTranslation": {
+          "ar": "ب. فيرنانديز"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half overview",
+      "text": "The first half ended in a tightly contested 1-1 draw, with both teams showcasing their attacking prowess. Sevilla opened the scoring through Robert Navarro in the 40th minute, only to have Athletic Club respond swiftly with a goal from Peque Fernández just two minutes later."
+    },
+    {
+      "subtitle": "Attack momentum shifts",
+      "text": "The momentum shifted frequently throughout the first half. Athletic Club started strong, dominating early possession and creating numerous chances in the opening minutes. Sevilla responded with a significant surge, controlling much of the game midway through the half and demonstrating their ability to disrupt Athletic's rhythm. As the half progressed, Athletic regained some control, particularly in the minutes leading up to their equalizer, creating a strong late first half finish."
+    },
+    {
+      "subtitle": "Team performance",
+      "text": "Sevilla had more ball possession and a slight edge in chances created, but they were inefficient in converting their opportunities. They produced a mix of shots on target and some missed big chances which could prove costly. In contrast, Athletic Club was more aggressive in attacking, with several significant opportunities that they failed to convert. Their ability to create three big chances indicates their attacking intent and potential to capitalize on Sevilla's defensive lapses."
+    },
+    {
+      "subtitle": "Key players",
+      "text": "Peque Fernández proved to be a standout player for Athletic Club with a crucial goal and consistent threat in attack. Robert Navarro also delivered a strong performance for Sevilla, not only scoring but also influencing play in the midfield. The performances of the goalkeepers have been solid, but they may be tested further in the second half if the attacking momentum continues."
+    }
+  ],
+  "modelName": "Grok3"
+}

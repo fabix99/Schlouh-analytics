@@ -6,7 +6,7 @@
 
 | Path | Content |
 |------|--------|
-| `data/processed/` | All build outputs: match scores (00), team stats (01), match summary (02), player stats (03–11), substitution impact (12), momentum (13), managers (14), team tactical profiles (15), age curves (16). Parquet files. |
+| `data/processed/` | All build outputs: match scores (00), team stats (01), match summary (02), player stats (03–11), substitution impact (12), momentum (13), managers (14), team tactical profiles (15), age curves (16), best players (17), player match maps (18). Parquet files. Match summary (02) may include optional columns: referee_name, referee_id, venue_name, venue_city, attendance (from event meta). Step 17 produces 17_match_best_players.parquet, 17_player_profile_extras.parquet, 17_match_ai_insights.parquet, 17_match_h2h_api.parquet (H2H from API). Step 18 produces 18_heatmap_points.parquet, 18_shotmap_events.parquet when raw player maps exist. Step 19 produces 19_player_market_contract.parquet (market value, salary, contract end from Sofascore best-players + optional Capology). Optional: capology_salaries.parquet from scripts/fetch_capology_players.py (requires CAPOLOGY_API_KEY). |
 | `data/derived/` | `player_appearances.parquet`, `player_incidents.parquet`, `match_scores.parquet`; optionally `player_appearances.csv`. |
 | `data/index/matches.csv` | Central match index (match_id, season, competition_slug, round, match_date, etc.). |
 | `data/index/players.csv` | Unique players (id, name, slug, appearance count). |

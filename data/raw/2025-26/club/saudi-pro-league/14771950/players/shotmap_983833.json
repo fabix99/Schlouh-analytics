@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Faris Abdi",
+        "slug": "abdi-faris",
+        "shortName": "A. Faris",
+        "position": "D",
+        "jerseyNumber": "25",
+        "userCount": 62,
+        "gender": "M",
+        "id": 983833,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عابدي فارس",
+            "bn": "আবদি ফারিস",
+            "hi": "अब्दी फारिस"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. فارس",
+            "bn": "এ. ফারিস",
+            "hi": "ए. फारिस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 3.3,
+        "y": 36.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.6,
+        "z": 1.9
+      },
+      "blockCoordinates": {
+        "x": 2.7,
+        "y": 38.6,
+        "z": 0
+      },
+      "xg": 0.096677497029305,
+      "xgot": 0.17317932844162,
+      "goalkeeper": {
+        "name": "Mohammed Al-Rubaie",
+        "firstName": "",
+        "lastName": "",
+        "slug": "mohammed-al-rubaie",
+        "shortName": "M. Al-Rubaie",
+        "position": "G",
+        "jerseyNumber": "17",
+        "userCount": 652,
+        "gender": "M",
+        "id": 920497,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد الربيعي اليامي",
+            "bn": "মোহাম্মদ আল-রুবাই",
+            "hi": "मोहम्मद अल-रूबाई"
+          },
+          "shortNameTranslation": {
+            "ar": "م. الربيعي اليامي",
+            "bn": "এম. আল-রুবাই",
+            "hi": "एम. अल-रूबाई"
+          }
+        }
+      },
+      "id": 6543122,
+      "time": 45,
+      "addedTime": 1,
+      "timeSeconds": 2734,
+      "draw": {
+        "start": {
+          "x": 36.6,
+          "y": 3.3
+        },
+        "block": {
+          "x": 38.6,
+          "y": 2.7
+        },
+        "end": {
+          "x": 47.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.4,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2666,
+      "periodTimeSeconds": 34,
+      "incidentType": "shot"
+    }
+  ]
+}

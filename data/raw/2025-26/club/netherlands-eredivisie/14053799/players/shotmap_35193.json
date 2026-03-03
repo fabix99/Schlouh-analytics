@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ricky van Wolfswinkel",
+        "slug": "ricky-van-wolfswinkel",
+        "shortName": "R. van Wolfswinkel",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 781,
+        "gender": "M",
+        "id": 35193,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكي فان فولفسفينكل",
+            "bn": "রিকি ভ্যান ওল্ফসুইনকেল",
+            "hi": "रिकी वैन वोल्फस्विंकेल"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. فان فولفسفينكل",
+            "bn": "আর. ভ্যান ওল্ফসুইনকেল",
+            "hi": "आर. वैन वोल्फस्विंकेल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.3,
+        "y": 63.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52,
+        "z": 20.3
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 50.5,
+        "z": 0
+      },
+      "xg": 0.030083796009421,
+      "xgot": 0.049788434058428,
+      "goalkeeper": {
+        "name": "Stijn van Gassel",
+        "firstName": "",
+        "lastName": "",
+        "slug": "stijn-van-gassel",
+        "shortName": "S. van Gassel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 169,
+        "gender": "M",
+        "id": 367118,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستاين فان غاسل"
+          },
+          "shortNameTranslation": {
+            "ar": "س. فان غاسل"
+          }
+        }
+      },
+      "id": 6582711,
+      "time": 11,
+      "timeSeconds": 613,
+      "draw": {
+        "start": {
+          "x": 63.6,
+          "y": 15.3
+        },
+        "block": {
+          "x": 50.5,
+          "y": 1.4
+        },
+        "end": {
+          "x": 48,
+          "y": 0
+        },
+        "goal": {
+          "x": 48,
+          "y": 79.7
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2087,
+      "periodTimeSeconds": 613,
+      "incidentType": "shot"
+    }
+  ]
+}

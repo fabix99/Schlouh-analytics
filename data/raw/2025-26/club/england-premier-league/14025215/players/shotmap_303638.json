@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Tyrone Mings",
+        "firstName": "",
+        "lastName": "",
+        "slug": "tyrone-mings",
+        "shortName": "T. Mings",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 2004,
+        "gender": "M",
+        "id": 303638,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تايرون مينغز",
+            "bn": "টাইরন মিংস",
+            "hi": "टाइरोन मिंग्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. مينغز",
+            "bn": "টি. মিংস",
+            "hi": "टी. मिंग्स"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 8.9,
+        "y": 44.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 6.3,
+        "y": 45.3,
+        "z": 0
+      },
+      "xg": 0.092031843960285,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Karl Darlow",
+        "slug": "karl-darlow",
+        "shortName": "K. Darlow",
+        "position": "G",
+        "jerseyNumber": "26",
+        "userCount": 589,
+        "gender": "M",
+        "id": 123689,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارل دارلو",
+            "bn": "কার্ল ডার্লো",
+            "hi": "कार्ल डार्लो"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. دارلو",
+            "bn": "কে. ডার্লো",
+            "hi": "के. डार्लो"
+          }
+        }
+      },
+      "id": 6751817,
+      "time": 66,
+      "timeSeconds": 3925,
+      "draw": {
+        "start": {
+          "x": 44.2,
+          "y": 8.9
+        },
+        "block": {
+          "x": 45.3,
+          "y": 6.3
+        },
+        "end": {
+          "x": 48,
+          "y": 0
+        },
+        "goal": {
+          "x": 48,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 25,
+      "reversedPeriodTimeSeconds": 1475,
+      "periodTimeSeconds": 1225,
+      "incidentType": "shot"
+    }
+  ]
+}

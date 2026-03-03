@@ -1,0 +1,109 @@
+{
+  "passes": [
+    {
+      "playerCoordinates": {
+        "x": 56.9,
+        "y": 8.2
+      },
+      "passEndCoordinates": {
+        "x": 67.4,
+        "y": 26.3
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 6.1,
+        "y": 31
+      },
+      "passEndCoordinates": {
+        "x": 44.3,
+        "y": 19.1
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false,
+      "isLongBall": true
+    },
+    {
+      "playerCoordinates": {
+        "x": 63.5,
+        "y": 9.9
+      },
+      "passEndCoordinates": {
+        "x": 66.1,
+        "y": 8.8
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    }
+  ],
+  "dribbles": [],
+  "defensive": [
+    {
+      "playerCoordinates": {
+        "x": 30.8,
+        "y": 6
+      },
+      "eventActionType": "tackle",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 6.6,
+        "y": 16.8
+      },
+      "eventActionType": "tackle",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 7.6,
+        "y": 31.5
+      },
+      "eventActionType": "ball-recovery",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 6.7,
+        "y": 19.9
+      },
+      "eventActionType": "tackle",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 2.3,
+        "y": 23.4
+      },
+      "eventActionType": "tackle",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "ball-carries": [
+    {
+      "playerCoordinates": {
+        "x": 37.9,
+        "y": 5.7
+      },
+      "passEndCoordinates": {
+        "x": 56.9,
+        "y": 8.2
+      },
+      "eventActionType": "ball-carry",
+      "isHome": true
+    }
+  ]
+}

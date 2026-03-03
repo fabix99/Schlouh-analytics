@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kingsley Coman",
+        "firstName": "",
+        "lastName": "",
+        "slug": "kingsley-coman",
+        "shortName": "K. Coman",
+        "position": "M",
+        "jerseyNumber": "21",
+        "userCount": 32950,
+        "gender": "M",
+        "sofascoreId": "KingComan",
+        "id": 280441,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كينغسلي كومان",
+            "bn": "কিংসলে কোমান",
+            "hi": "किंग्सले कोमन"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. كومان",
+            "bn": "কে. কোমান",
+            "hi": "के. कोमन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.5,
+        "y": 40.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 19.5,
+        "y": 41,
+        "z": 0
+      },
+      "xg": 0.032189711928368,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Predrag Rajković",
+        "slug": "predrag-rajkovic",
+        "shortName": "P. Rajković",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2708,
+        "gender": "M",
+        "id": 188107,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بريدراغ رايكوفيتش",
+            "bn": "প্রিড্রাগ রাজকোভিচ",
+            "hi": "प्रेड्रैग राजकोविच"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. رايكوفيتش",
+            "bn": "পি. রাজকোভিচ",
+            "hi": "पी. राजकोविच"
+          }
+        }
+      },
+      "id": 6655122,
+      "time": 71,
+      "timeSeconds": 4211,
+      "draw": {
+        "start": {
+          "x": 40.5,
+          "y": 21.5
+        },
+        "block": {
+          "x": 41,
+          "y": 19.5
+        },
+        "end": {
+          "x": 45.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1189,
+      "periodTimeSeconds": 1511,
+      "incidentType": "shot"
+    }
+  ]
+}

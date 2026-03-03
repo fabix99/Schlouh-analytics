@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Philip Otele",
+        "slug": "philip-otele",
+        "shortName": "P. Otele",
+        "position": "M",
+        "jerseyNumber": "27",
+        "userCount": 663,
+        "gender": "M",
+        "id": 988476,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيليب أوتيل",
+            "bn": "ফিলিপ ওটেলে",
+            "hi": "फिलिप ओटेले"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. أوتيل",
+            "bn": "পি. ওটেল",
+            "hi": "पी. ओटेले"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 27.9,
+        "y": 30.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15,
+        "y": 39.7,
+        "z": 0
+      },
+      "xg": 0.013529571704566,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Florian Wiegele",
+        "firstName": "",
+        "lastName": "",
+        "slug": "florian-wiegele",
+        "shortName": "F. Wiegele",
+        "position": "G",
+        "jerseyNumber": "44",
+        "userCount": 115,
+        "gender": "M",
+        "id": 869476,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فلوريان ويغلي"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. ويغلي"
+          }
+        }
+      },
+      "id": 6606335,
+      "time": 63,
+      "timeSeconds": 3747,
+      "draw": {
+        "start": {
+          "x": 30.3,
+          "y": 27.9
+        },
+        "block": {
+          "x": 39.7,
+          "y": 15
+        },
+        "end": {
+          "x": 50.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1653,
+      "periodTimeSeconds": 1047,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Danny Bakker",
+        "slug": "danny-bakker",
+        "shortName": "D. Bakker",
+        "position": "D",
+        "jerseyNumber": "6",
+        "userCount": 73,
+        "gender": "M",
+        "id": 302690,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "داني باكر"
+          },
+          "shortNameTranslation": {
+            "ar": "د. باكر"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 6.9,
+        "y": 31.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 0,
+        "y": 46.9,
+        "z": 0
+      },
+      "xg": 0.066294737160206,
+      "xgot": 0.091767854988575,
+      "goalkeeper": {
+        "name": "Jeroen Zoet",
+        "slug": "jeroen-zoet",
+        "shortName": "J. Zoet",
+        "position": "G",
+        "jerseyNumber": "41",
+        "userCount": 198,
+        "gender": "M",
+        "id": 40963,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيروين زويت",
+            "bn": "জেরোইন জোয়েট",
+            "hi": "जेरोन ज़ोएट"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. زويت",
+            "bn": "জে. জোয়েট",
+            "hi": "जे. ज़ोएट"
+          }
+        }
+      },
+      "id": 6587642,
+      "time": 89,
+      "timeSeconds": 5333,
+      "draw": {
+        "start": {
+          "x": 31.1,
+          "y": 6.9
+        },
+        "block": {
+          "x": 46.9,
+          "y": 0
+        },
+        "end": {
+          "x": 50.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 67,
+      "periodTimeSeconds": 2633,
+      "incidentType": "shot"
+    }
+  ]
+}

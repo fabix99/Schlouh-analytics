@@ -1,0 +1,96 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Zeki Yavru",
+        "slug": "zeki-yavru",
+        "shortName": "Z. Yavru",
+        "position": "D",
+        "jerseyNumber": "18",
+        "userCount": 204,
+        "gender": "M",
+        "id": 140735,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيكي يافرو"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. يافرو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 26.6,
+        "y": 40.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14.7,
+        "y": 44.2,
+        "z": 0
+      },
+      "xg": 0.03874833136797,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "André Onana",
+        "firstName": "",
+        "lastName": "",
+        "slug": "andre-onana",
+        "shortName": "A. Onana",
+        "position": "G",
+        "jerseyNumber": "24",
+        "userCount": 53493,
+        "gender": "M",
+        "sofascoreId": "AndréOnana24",
+        "id": 787498,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أندريه أونانا",
+            "bn": "আন্দ্রে ওনানা",
+            "hi": "आंद्रे ओनाना"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. أونانا",
+            "bn": "এ. ওনানা",
+            "hi": "ए. ओनाना"
+          }
+        }
+      },
+      "id": 6661467,
+      "time": 59,
+      "timeSeconds": 3487,
+      "draw": {
+        "start": {
+          "x": 40.5,
+          "y": 26.6
+        },
+        "block": {
+          "x": 44.2,
+          "y": 14.7
+        },
+        "end": {
+          "x": 48.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1913,
+      "periodTimeSeconds": 787,
+      "incidentType": "shot"
+    }
+  ]
+}

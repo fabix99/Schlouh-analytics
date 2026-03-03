@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Stefan Schimmer",
+        "slug": "stefan-schimmer",
+        "shortName": "S. Schimmer",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 105,
+        "gender": "M",
+        "id": 842922,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستيفان شيمر",
+            "bn": "স্টেফান শিমার",
+            "hi": "स्टीफ़न शिमर"
+          },
+          "shortNameTranslation": {
+            "ar": "س. شيمر",
+            "bn": "এস. শিমার",
+            "hi": "एस. शिमर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 4.9,
+        "y": 41.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 3.8,
+        "y": 43.5,
+        "z": 0
+      },
+      "xg": 0.066557861864567,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Daniel Heuer Fernandes",
+        "slug": "daniel-heuer-fernandes",
+        "shortName": "D. H. Fernandes",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 407,
+        "gender": "M",
+        "id": 113442,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دانييل هوير فرنانديز",
+            "bn": "ড্যানিয়েল হিউয়ার ফার্নান্ডেজ",
+            "hi": "डैनियल ह्यूअर फर्नांडीस"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ه. فرنانديز",
+            "bn": "ডি. এইচ. ফার্নান্ডেজ",
+            "hi": "डी.एच. फर्नांडीस"
+          }
+        }
+      },
+      "id": 6659993,
+      "time": 66,
+      "timeSeconds": 3936,
+      "draw": {
+        "start": {
+          "x": 41.5,
+          "y": 4.9
+        },
+        "block": {
+          "x": 43.5,
+          "y": 3.8
+        },
+        "end": {
+          "x": 50.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 25,
+      "reversedPeriodTimeSeconds": 1464,
+      "periodTimeSeconds": 1236,
+      "incidentType": "shot"
+    }
+  ]
+}

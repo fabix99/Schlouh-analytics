@@ -1,0 +1,111 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 8,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 0
+  },
+  "sections": [
+    {
+      "subtitle": "Current Form",
+      "text": "1. FC Köln are in strong form, winning their last 5 matches with a solid defensive record, conceding only 2 goals in those games. SC Freiburg, however, have struggled recently, managing just 1 win in their last 5 matches and sitting at 17th in the league with no points from their opening game."
+    },
+    {
+      "subtitle": "Head-to-Head Record",
+      "text": "In the last two encounters between these teams, SC Freiburg have not lost, winning 2-0 in December 2023 and drawing 0-0 in May 2024. Historically, matches between these sides tend to be low-scoring, with under 2.5 goals in their last 6 meetings."
+    },
+    {
+      "subtitle": "Season Statistics",
+      "text": "Köln have shown defensive solidity with no goals conceded in their first league game and a high clearance rate per game (68). Freiburg, on the other hand, have struggled offensively and defensively, conceding 3 goals in their only league match so far."
+    },
+    {
+      "subtitle": "Key Factors",
+      "text": "Köln's home advantage at RheinEnergieStadion and their current winning streak give them the edge. Freiburg’s poor league position and recent form suggest they may struggle to score, while Köln's late scoring tendency (e.g., 90th-minute goals) could be decisive."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "SC Freiburg",
+      "slug": "sc-freiburg",
+      "shortName": "Freiburg",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 115090,
+      "nameCode": "SCF",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 2538,
+      "teamColors": {
+        "primary": "#cc3333",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نادي فرايبورغ",
+          "hi": "एससी फ्रैबर्ग",
+          "ru": "Фрайбург"
+        },
+        "shortNameTranslation": {
+          "ar": "فرايبورغ",
+          "bn": "ফ্রেইবার্গ",
+          "hi": "फ्रायबर्ग"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Lucas Höler",
+      "slug": "lucas-holer",
+      "shortName": "L. Höler",
+      "position": "F",
+      "jerseyNumber": "9",
+      "userCount": 577,
+      "gender": "M",
+      "id": 280009,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "لوكاس هولير",
+          "bn": "লুকাস হোলার",
+          "hi": "लुकास होलर"
+        },
+        "shortNameTranslation": {
+          "ar": "ل. هولير",
+          "bn": "এল. হোলার",
+          "hi": "एल. होलर"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Half-time overview",
+      "text": "At half-time, 1. FC Köln lead SC Freiburg by a narrow margin of 1-0. The home side struck in the 35th minute through Jakub Kamiński, capitalizing on one of their key opportunities. Despite SC Freiburg dominating possession, they have struggled to convert their control into meaningful chances. Köln, on the other hand, have been more clinical, making the most of their limited time on the ball to secure the lead heading into the break."
+    },
+    {
+      "subtitle": "Team performance comparison",
+      "text": "SC Freiburg have controlled the ball for the majority of the first half, showcasing their ability to dictate the tempo of the game. They have made numerous entries into the final third and penalty area, but their lack of shots on target is a glaring concern. Meanwhile, 1. FC Köln have been efficient with their opportunities, creating a big chance and converting it into a goal. Their defensive structure has held firm, limiting Freiburg's attacking output despite the possession disparity. Both teams have shown physicality, with fairly even duel success rates, though Köln have a slight edge in aerial battles."
+    },
+    {
+      "subtitle": "Key players and contributions",
+      "text": "Jakub Kamiński has been the standout for 1. FC Köln, not only scoring the crucial goal but also contributing with key passes to unsettle Freiburg's defense. Marius Bülter has also been instrumental with an assist, playing a pivotal role in the build-up to the goal. On the Freiburg side, players like Vincenzo Grifo and Johan Manzambi have shown intent with their creativity, but they have yet to translate their efforts into tangible results. Lucas Höler has been involved in the attack, but without the necessary finishing touch, Freiburg remain goalless."
+    },
+    {
+      "subtitle": "Attack momentum analysis",
+      "text": "The first half saw fluctuating momentum between the two sides. Early on, SC Freiburg took charge with consistent attacking pressure, pushing forward in the opening minutes. However, 1. FC Köln responded with notable attacking spells around the midway point of the half, gaining traction and eventually building up to their goal. Freiburg regained some momentum late in the half with sustained periods of pressure, but they couldn't break through. The back-and-forth nature of the attacks suggests both teams have the potential to create danger, though Köln have been more decisive in critical moments."
+    },
+    {
+      "subtitle": "Areas for improvement",
+      "text": "For 1. FC Köln, maintaining their defensive solidity while seeking to exploit counter-attacking opportunities will be key in the second half. They need to avoid sitting too deep, as Freiburg’s persistent entries into the final third could eventually yield a breakthrough. SC Freiburg, on the other hand, must focus on converting their dominance in possession into clear scoring chances. Their inability to test Köln's goalkeeper in the first half is a concern, and they may need to adopt a more direct approach or introduce fresh legs to unlock the opposition defense."
+    }
+  ],
+  "modelName": "Grok3"
+}

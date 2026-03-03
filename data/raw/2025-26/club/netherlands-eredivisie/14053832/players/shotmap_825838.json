@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Armando Obispo",
+        "slug": "armando-obispo",
+        "shortName": "A. Obispo",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 456,
+        "gender": "M",
+        "id": 825838,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أرمندو أوبسيدو",
+            "bn": "আরমান্দো ওবিস্পো",
+            "hi": "अरमांडो ओबिस्पो"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. أوبسيدو",
+            "bn": "এ. ওবিস্পো",
+            "hi": "ए. ओबिस्पो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 3.5,
+        "y": 52.8,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.6,
+        "z": 18.4
+      },
+      "xg": 0.47703146934509,
+      "xgot": 0.67138504981995,
+      "goalkeeper": {
+        "name": "Timon Wellenreuther",
+        "firstName": "",
+        "lastName": "",
+        "slug": "timon-wellenreuther",
+        "shortName": "T. Wellenreuther",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 592,
+        "gender": "M",
+        "id": 253875,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تيمون ويلنرثر",
+            "bn": "টিমন ওয়েলেনরেউথার",
+            "hi": "टिमोन वेलेनरेउथर"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. ويلنرثر",
+            "bn": "টি. ওয়েলেনরিউথার",
+            "hi": "टी. वेलेनरेउथर"
+          }
+        }
+      },
+      "id": 6624110,
+      "time": 10,
+      "timeSeconds": 568,
+      "draw": {
+        "start": {
+          "x": 52.8,
+          "y": 3.5
+        },
+        "end": {
+          "x": 51.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.4,
+          "y": 81.6
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2132,
+      "periodTimeSeconds": 568,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Eduardo Doma",
+        "firstName": "Eduardo Doma",
+        "slug": "eduardo-doma",
+        "shortName": "E. Doma",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 88,
+        "gender": "M",
+        "id": 1122967,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إدواردو دوما"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. دوما"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 8.8,
+        "y": 52.1,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.5,
+        "z": 15.8
+      },
+      "xg": 0.051176220178604,
+      "xgot": 0.1694853156805,
+      "goalkeeper": {
+        "name": "Pedro Morisco",
+        "firstName": "Pedro Morisco",
+        "slug": "pedro-morisco",
+        "shortName": "Pedro Morisco",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1656,
+        "gender": "M",
+        "id": 1507616,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيدرو موريكو"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. موريكو"
+          }
+        }
+      },
+      "id": 6694061,
+      "time": 71,
+      "timeSeconds": 4255,
+      "draw": {
+        "start": {
+          "x": 52.1,
+          "y": 8.8
+        },
+        "end": {
+          "x": 47.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.5,
+          "y": 84.2
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1145,
+      "periodTimeSeconds": 1555,
+      "incidentType": "shot"
+    }
+  ]
+}

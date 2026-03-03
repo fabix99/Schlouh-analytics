@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sergi Gómez",
+        "slug": "sergi-gomez",
+        "shortName": "S. Gómez",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 190,
+        "gender": "M",
+        "id": 125625,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرجي جوميز",
+            "bn": "সার্জি গোমেজ",
+            "hi": "सर्जी गोमेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "س. جوميز",
+            "bn": "এস. গোমেজ",
+            "hi": "एस. गोमेज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 26.6,
+        "y": 47.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 21.6,
+        "y": 48.3,
+        "z": 0
+      },
+      "xg": 0.023137416690588,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Renan Ribeiro",
+        "slug": "renan-ribeiro",
+        "shortName": "R. Ribeiro",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 157,
+        "gender": "M",
+        "id": 82598,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رينان ريبيرو",
+            "bn": "রেনান রিবেইরো",
+            "hi": "रेनान रिबेरो"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ريبيرو",
+            "bn": "আর. রিবেইরো",
+            "hi": "आर. रिबेरो"
+          }
+        }
+      },
+      "id": 6618857,
+      "time": 29,
+      "timeSeconds": 1698,
+      "draw": {
+        "start": {
+          "x": 47.9,
+          "y": 26.6
+        },
+        "block": {
+          "x": 48.3,
+          "y": 21.6
+        },
+        "end": {
+          "x": 50.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 1002,
+      "periodTimeSeconds": 1698,
+      "incidentType": "shot"
+    }
+  ]
+}

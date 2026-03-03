@@ -1,0 +1,417 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Serie A",
+      "slug": "serie-a",
+      "category": {
+        "name": "Italy",
+        "slug": "italy",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 31,
+        "flag": "italy",
+        "alpha2": "IT",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "hi": "इटली",
+            "ar": "إيطاليا",
+            "bn": "ইতালি",
+            "ru": "Италия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Serie A",
+        "slug": "serie-a",
+        "primaryColorHex": "#09519e",
+        "secondaryColorHex": "#008fd7",
+        "category": {
+          "name": "Italy",
+          "slug": "italy",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "IT",
+            "alpha3": "ITA",
+            "name": "Italy",
+            "slug": "italy"
+          },
+          "id": 31,
+          "flag": "italy",
+          "alpha2": "IT",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "hi": "इटली",
+              "ar": "إيطاليا",
+              "bn": "ইতালি",
+              "ru": "Италия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 623958,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 23,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإيطالي",
+            "hi": "सीरी ए",
+            "bn": "সিরি আ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 698,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 33,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "सीरी ए",
+          "ar": "الدوري الإيطالي",
+          "bn": "সিরি আ"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Serie A 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 63515
+    },
+    "roundInfo": {
+      "round": 5
+    },
+    "customId": "Ldbseeb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 22977,
+    "venue": {
+      "city": {
+        "name": "Bergamo"
+      },
+      "venueCoordinates": {
+        "latitude": 45.709207,
+        "longitude": 9.680833
+      },
+      "hidden": false,
+      "slug": "gewiss-stadium",
+      "name": "New Balance Arena",
+      "capacity": 23439,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 588,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب جويس",
+          "hi": "गेविस स्टेडियम",
+          "bn": "গিউইস স্টেডিয়াম"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "New Balance Arena",
+        "capacity": 23439
+      }
+    },
+    "referee": {
+      "name": "Paride Tremolada",
+      "slug": "paride-tremolada",
+      "yellowCards": 361,
+      "redCards": 9,
+      "yellowRedCards": 9,
+      "games": 67,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 787924,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "باريدي تريمولادا",
+          "bn": "প্যারাইড ট্রেমোলাডা",
+          "hi": "पैरीडे ट्रेमोलाडा"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "shortName": "Atalanta",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 627481,
+      "manager": {
+        "name": "Raffaele Palladino",
+        "slug": "raffaele-palladino",
+        "shortName": "R. Palladino",
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 798965,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رافاييل بالادينو"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. بالادينو"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bergamo"
+        },
+        "venueCoordinates": {
+          "latitude": 45.709207,
+          "longitude": 9.680833
+        },
+        "hidden": false,
+        "slug": "gewiss-stadium",
+        "name": "New Balance Arena",
+        "capacity": 23439,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 588,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب جويس",
+            "hi": "गेविस स्टेडियम",
+            "bn": "গিউইস স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "New Balance Arena",
+          "capacity": 23439
+        }
+      },
+      "nameCode": "ATA",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2686,
+      "fullName": "Atalanta",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#0000cc",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -1963180800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أتالانتا",
+          "bn": "আটলান্টা",
+          "hi": "अटलांटा",
+          "ru": "Аталанта"
+        },
+        "shortNameTranslation": {
+          "ar": "أتالانتا"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Como",
+      "slug": "como",
+      "shortName": "Como",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 204784,
+      "manager": {
+        "name": "Cesc Fàbregas",
+        "slug": "cesc-fabregas",
+        "shortName": "C. Fàbregas",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 801245,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فابريجاس سيسك"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. سيسك"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Como"
+        },
+        "venueCoordinates": {
+          "latitude": 45.813829,
+          "longitude": 9.072324
+        },
+        "hidden": false,
+        "slug": "stadio-giuseppe-sinigaglia",
+        "name": "Stadio Giuseppe Sinigaglia",
+        "capacity": 12064,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 2035,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب جيوسيبي سينيغاليا",
+            "hi": "स्टेडियो गिउसेप्पे सिनीगालिया",
+            "bn": "স্টেডিও জিউসেপ সিনিগালিয়া"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stadio Giuseppe Sinigaglia",
+          "capacity": 12064
+        }
+      },
+      "nameCode": "COM",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2704,
+      "fullName": "Como",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#09436b",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -1975708800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كومو 1907"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 0,
+      "period2": 3,
+      "normaltime": 3
+    },
+    "time": {
+      "injuryTime1": 0,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1727207299
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type",
+        "homeScore.period2",
+        "homeScore.normaltime"
+      ],
+      "changeTimestamp": 1727210512
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12499295,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "como-atalanta",
+    "currentPeriodStartTimestamp": 1727207299,
+    "startTimestamp": 1727203500,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "IT",
+      "IR",
+      "GR",
+      "RU",
+      "CH",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

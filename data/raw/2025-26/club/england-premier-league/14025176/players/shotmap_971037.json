@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Amad Diallo",
+        "firstName": "",
+        "lastName": "",
+        "slug": "diallo-amad",
+        "shortName": "A. Diallo",
+        "position": "F",
+        "jerseyNumber": "16",
+        "userCount": 104356,
+        "gender": "M",
+        "sofascoreId": "AmadDiallo19",
+        "id": 971037,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديالو، أماد",
+            "bn": "ডায়ালো, আমাদ",
+            "hi": "डायलो, अमाद"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. ديالو",
+            "bn": "এ. ডায়ালো",
+            "hi": "ए. अमाद"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 1.2,
+        "y": 64.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.3,
+        "z": 2.5
+      },
+      "blockCoordinates": {
+        "x": 0.5,
+        "y": 54.9,
+        "z": 0
+      },
+      "xg": 0.019645785912871,
+      "xgot": 0.087996922433376,
+      "goalkeeper": {
+        "name": "Guglielmo Vicario",
+        "slug": "guglielmo-vicario",
+        "shortName": "G. Vicario",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 7184,
+        "gender": "M",
+        "sofascoreId": "guglielmovicario",
+        "id": 553606,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكاريو غولييلمو",
+            "bn": "উইলিয়াম দ্য ভিকারিও",
+            "hi": "गुग्लिल्मो विकारियो"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غولييلمو",
+            "bn": "জি. ভিকারিও",
+            "hi": "जी. विकारियो"
+          }
+        }
+      },
+      "id": 6658415,
+      "time": 71,
+      "timeSeconds": 4212,
+      "draw": {
+        "start": {
+          "x": 64.8,
+          "y": 1.2
+        },
+        "block": {
+          "x": 54.9,
+          "y": 0.5
+        },
+        "end": {
+          "x": 52.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.7,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1188,
+      "periodTimeSeconds": 1512,
+      "incidentType": "shot"
+    }
+  ]
+}

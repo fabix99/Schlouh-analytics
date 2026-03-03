@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Brayan Medina",
+        "slug": "medina-brayan",
+        "shortName": "B. Medina",
+        "position": "D",
+        "jerseyNumber": "20",
+        "userCount": 348,
+        "gender": "M",
+        "id": 1187281,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميدينا، برايان"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. ميدينا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 11.9,
+        "y": 38.8,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.1,
+        "y": 40.2,
+        "z": 0
+      },
+      "xg": 0.010653263889253,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "André Gomes",
+        "firstName": "André Gomes",
+        "lastName": "",
+        "slug": "andre-gomes",
+        "shortName": "A. Gomes",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 794,
+        "gender": "M",
+        "id": 1139990,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أندريه غوميش",
+            "bn": "আন্দ্রে গোমেস",
+            "hi": "आंद्रे गोम्स"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. غوميش",
+            "bn": "এ. গোমেস",
+            "hi": "ए. गोम्स"
+          }
+        }
+      },
+      "id": 6704107,
+      "time": 68,
+      "timeSeconds": 4073,
+      "draw": {
+        "start": {
+          "x": 38.8,
+          "y": 11.9
+        },
+        "block": {
+          "x": 40.2,
+          "y": 10.1
+        },
+        "end": {
+          "x": 48.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1327,
+      "periodTimeSeconds": 1373,
+      "incidentType": "shot"
+    }
+  ]
+}

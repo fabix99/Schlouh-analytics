@@ -1,0 +1,402 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Pro League",
+      "slug": "pro-league",
+      "category": {
+        "name": "Belgium",
+        "slug": "belgium",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 33,
+        "flag": "belgium",
+        "alpha2": "BE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بلجيكا",
+            "ru": "Бельгия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Pro League",
+        "slug": "pro-league",
+        "primaryColorHex": "#16002b",
+        "secondaryColorHex": "#ff1740",
+        "category": {
+          "name": "Belgium",
+          "slug": "belgium",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "BE",
+            "alpha3": "BEL",
+            "name": "Belgium",
+            "slug": "belgium"
+          },
+          "id": 33,
+          "flag": "belgium",
+          "alpha2": "BE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بلجيكا",
+              "ru": "Бельгия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 67568,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 38,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري المحترفين",
+            "bn": "প্রো লীগ",
+            "hi": "प्रो लीग"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 496,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 38,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الدوري الأول",
+          "bn": "ফার্স্ট ডিভিশন এ",
+          "hi": "फर्स्ट डिवीजन ए"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Pro League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 61459
+    },
+    "roundInfo": {
+      "round": 8
+    },
+    "customId": "Yhbsaib",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "venue": {
+      "city": {
+        "name": "Brussels"
+      },
+      "venueCoordinates": {
+        "latitude": 50.83402,
+        "longitude": 4.297855
+      },
+      "hidden": true,
+      "slug": "lotto-park",
+      "name": "Lotto Park",
+      "capacity": 21500,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 25821,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "لوتو بارك",
+          "hi": "लोट्टो पार्क",
+          "bn": "লোটো পার্ক"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Lotto Park",
+        "capacity": 21500
+      }
+    },
+    "referee": {
+      "name": "Jasper Vergoote",
+      "slug": "jasper-vergoote",
+      "yellowCards": 631,
+      "redCards": 21,
+      "yellowRedCards": 16,
+      "games": 161,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 787255,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ياسبر فيرغوت"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "RSC Anderlecht",
+      "slug": "anderlecht",
+      "shortName": "Anderlecht",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 105622,
+      "manager": {
+        "name": "Jérémy Taravel",
+        "slug": "jeremy-taravel",
+        "shortName": "J. Taravel",
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 818159
+      },
+      "venue": {
+        "city": {
+          "name": "Brussels"
+        },
+        "venueCoordinates": {
+          "latitude": 50.83402,
+          "longitude": 4.297855
+        },
+        "hidden": true,
+        "slug": "lotto-park",
+        "name": "Lotto Park",
+        "capacity": 21500,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 25821,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوتو بارك",
+            "hi": "लोट्टो पार्क",
+            "bn": "লোটো পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Lotto Park",
+          "capacity": 21500
+        }
+      },
+      "nameCode": "AND",
+      "class": 1,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 2900,
+      "fullName": "RSC Anderlecht",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#330066",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -1943913600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أندرلخت",
+          "hi": "आरएससी एंडरलेक्ट",
+          "ru": "Андерлехт"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "RC Sporting Charleroi",
+      "slug": "rc-sporting-charleroi",
+      "shortName": "Charleroi",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 25554,
+      "manager": {
+        "name": "Hans Cornelis",
+        "slug": "hans-cornelis",
+        "shortName": "H. Cornelis",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 805280,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هانس كورنيليس"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. كورنيليس"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Charleroi"
+        },
+        "venueCoordinates": {
+          "latitude": 50.414609,
+          "longitude": 4.453735
+        },
+        "hidden": true,
+        "slug": "stade-du-pays-de-charleroi",
+        "name": "Stade du Pays de Charleroi",
+        "capacity": 15000,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 1250,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب دو بايي دو شارليروا",
+            "hi": "स्टेड डू पेस डे शार्लेरोई",
+            "bn": "স্টেড ডু পেস ডি শার্লেরোই"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stade du Pays de Charleroi",
+          "capacity": 15000
+        }
+      },
+      "nameCode": "RCH",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 2898,
+      "fullName": "RC Sporting Charleroi",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2082844800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "آر سي سبورتينغ شارلروا",
+          "ru": "Роял Шарлеруа"
+        },
+        "shortNameTranslation": {
+          "ar": "شارلروا",
+          "bn": "চারলেরোই",
+          "hi": "चार्लेरोई"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 4,
+      "currentPeriodStartTimestamp": 1726948126
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1726951107
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12421060,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "rsc-anderlecht-rc-sporting-charleroi",
+    "currentPeriodStartTimestamp": 1726948126,
+    "startTimestamp": 1726944300,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "BE",
+      "IR",
+      "GR",
+      "RU",
+      "CH",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Michael Kayode",
+        "firstName": "",
+        "lastName": "",
+        "slug": "michael-kayode",
+        "shortName": "M. Kayode",
+        "position": "D",
+        "jerseyNumber": "33",
+        "userCount": 2470,
+        "gender": "M",
+        "id": 1137431,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايكل كايودي",
+            "bn": "মাইকেল কায়োড",
+            "hi": "माइकल कायोडे"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كايودي",
+            "bn": "এম. কায়োড",
+            "hi": "एम. कायोडे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 17.4,
+        "y": 42,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.9,
+        "y": 44.6,
+        "z": 0
+      },
+      "xg": 0.080721810460091,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "David Raya",
+        "slug": "david-raya",
+        "shortName": "D. Raya",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 26220,
+        "gender": "M",
+        "sofascoreId": "d_raya1",
+        "id": 581310,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد رايا",
+            "bn": "ডেভিড রায়া",
+            "hi": "डेविड राया"
+          },
+          "shortNameTranslation": {
+            "ar": "د. رايا",
+            "bn": "ডি. রায়া",
+            "hi": "डी. राया"
+          }
+        }
+      },
+      "id": 6698086,
+      "time": 69,
+      "timeSeconds": 4096,
+      "draw": {
+        "start": {
+          "x": 42,
+          "y": 17.4
+        },
+        "block": {
+          "x": 44.6,
+          "y": 11.9
+        },
+        "end": {
+          "x": 50.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 22,
+      "reversedPeriodTimeSeconds": 1304,
+      "periodTimeSeconds": 1396,
+      "incidentType": "shot"
+    }
+  ]
+}

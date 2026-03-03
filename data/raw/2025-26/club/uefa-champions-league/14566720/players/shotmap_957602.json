@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Riccardo Calafiori",
+        "slug": "riccardo-calafiori",
+        "shortName": "R. Calafiori",
+        "position": "D",
+        "jerseyNumber": "33",
+        "userCount": 24475,
+        "gender": "M",
+        "sofascoreId": "richycala",
+        "id": 957602,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكاردو كالافيوري",
+            "bn": "রিকার্ডো কালাফিয়োরি",
+            "hi": "रिकार्डो कैलाफियोरी"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. كالافيوري",
+            "bn": "আর. কালাফিয়োরি",
+            "hi": "आर. कैलाफियोरी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 24.3,
+        "y": 52.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 62.2,
+        "z": 13.9
+      },
+      "blockCoordinates": {
+        "x": 21.5,
+        "y": 50.7,
+        "z": 0
+      },
+      "xg": 0.011056950315833,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Temirlan Anarbekov",
+        "firstName": "",
+        "lastName": "",
+        "slug": "temirlan-anarbekov",
+        "shortName": "T. Anarbekov",
+        "position": "G",
+        "jerseyNumber": "77",
+        "userCount": 8976,
+        "gender": "M",
+        "id": 1005884,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تيميرلان أناربيكوف",
+            "bn": "তেমিরলান আনারবেকভ",
+            "hi": "तेमिरलान अनारबेकोव"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. أناربيكوف",
+            "bn": "টি. আনারবেকভ",
+            "hi": "टी. अनारबेकोव"
+          }
+        }
+      },
+      "id": 6602342,
+      "time": 9,
+      "timeSeconds": 532,
+      "draw": {
+        "start": {
+          "x": 52.1,
+          "y": 24.3
+        },
+        "block": {
+          "x": 50.7,
+          "y": 21.5
+        },
+        "end": {
+          "x": 37.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 37.8,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2168,
+      "periodTimeSeconds": 532,
+      "incidentType": "shot"
+    }
+  ]
+}

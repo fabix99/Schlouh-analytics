@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "George Thomason",
+        "slug": "george-thomason",
+        "shortName": "G. Thomason",
+        "position": "M",
+        "jerseyNumber": "14",
+        "userCount": 82,
+        "gender": "M",
+        "id": 1014623,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جورج توماسون"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. توماسون"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 23.5,
+        "y": 35.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 19.5,
+        "y": 37.9,
+        "z": 0
+      },
+      "goalkeeper": {
+        "name": "Alex Palmer",
+        "firstName": "",
+        "lastName": "",
+        "slug": "alex-palmer",
+        "shortName": "A. Palmer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 226,
+        "gender": "M",
+        "id": 796143,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليكس بالمر"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بالمر"
+          }
+        }
+      },
+      "id": 6703853,
+      "time": 65,
+      "timeSeconds": 3844,
+      "draw": {
+        "start": {
+          "x": 35.4,
+          "y": 23.5
+        },
+        "block": {
+          "x": 37.9,
+          "y": 19.5
+        },
+        "end": {
+          "x": 50.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1556,
+      "periodTimeSeconds": 1144,
+      "incidentType": "shot"
+    }
+  ]
+}

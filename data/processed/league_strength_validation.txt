@@ -1,0 +1,45 @@
+League strength validation report
+=================================
+Reference season: 2025-26
+Leagues in data: 14
+
+Side-by-side: data-derived rank vs static score rank
+(Data rank = by strength_score; static rank = by LEAGUE_QUALITY_SCORES)
+
+League                    slug                         strength  r_data  static r_static  diff
+-----------------------------------------------------------------------------------------------
+Champions League          uefa-champions-league           1.318       1    0.65       10    -9
+Eredivisie                netherlands-eredivisie          1.205       2    0.75        7    -5
+Bundesliga                germany-bundesliga              1.164       3    0.93        3    +0
+League Cup                england-league-cup              1.152       4    0.65       11    -7
+Saudi Pro League          saudi-pro-league                1.056       5    0.65       12    -7
+Europa League             uefa-europa-league              1.047       6    0.65       13    -7
+Ligue 1                   france-ligue-1                  1.030       7    0.87        5    +2
+Pro League                belgium-pro-league              1.007       8    0.72        8    +0
+Premier League            england-premier-league          1.000       9    1.00        1    +8
+Conference League         uefa-conference-league          1.000      10    0.65       14    -4
+La Liga                   spain-laliga                    0.975      11    0.95        2    +9
+Primeira Liga             portugal-primeira-liga          0.943      12    0.78        6    +6
+Süper Lig                 turkey-super-lig                0.929      13    0.70        9    +4
+Serie A                   italy-serie-a                   0.866      14    0.90        4   +10
+
+Summary
+-------
+Leagues with rank difference |diff| <= 1 (well aligned): 2
+Leagues with rank difference |diff| > 2 (consider review): 11
+
+Recommended review (static vs data order differs by >2 places):
+  - Champions League (uefa-champions-league): data rank 1, static rank 10
+  - Eredivisie (netherlands-eredivisie): data rank 2, static rank 7
+  - League Cup (england-league-cup): data rank 4, static rank 11
+  - Saudi Pro League (saudi-pro-league): data rank 5, static rank 12
+  - Europa League (uefa-europa-league): data rank 6, static rank 13
+  - Premier League (england-premier-league): data rank 9, static rank 1
+  - Conference League (uefa-conference-league): data rank 10, static rank 14
+  - La Liga (spain-laliga): data rank 11, static rank 2
+  - Primeira Liga (portugal-primeira-liga): data rank 12, static rank 6
+  - Süper Lig (turkey-super-lig): data rank 13, static rank 9
+  - Serie A (italy-serie-a): data rank 14, static rank 4
+
+Note: strength_score is scaled so england-premier-league in the reference season = 1.0.
+Use data-derived strength for these leagues or blend with static; fallback to static for leagues not in league_strength.parquet.

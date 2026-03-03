@@ -1,0 +1,174 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Serdar Dursun",
+        "slug": "serdar-dursun",
+        "shortName": "S. Dursun",
+        "position": "F",
+        "jerseyNumber": "19",
+        "userCount": 1053,
+        "gender": "M",
+        "id": 123917,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سردار دورسون",
+            "bn": "সেরদার দুরসুন",
+            "hi": "सेरदार दुरसुन"
+          },
+          "shortNameTranslation": {
+            "ar": "س. دورسون",
+            "bn": "এস. দুরসুন",
+            "hi": "एस. दुरसुन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12,
+        "y": 46,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.8,
+        "z": 12
+      },
+      "xg": 0.37254998087883,
+      "xgot": 0.70238226652145,
+      "goalkeeper": {
+        "name": "Zafer Görgen",
+        "slug": "zafer-gorgen",
+        "shortName": "Z. Görgen",
+        "position": "G",
+        "jerseyNumber": "20",
+        "userCount": 72,
+        "gender": "M",
+        "id": 930907,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ظافر غورغن"
+          },
+          "shortNameTranslation": {
+            "ar": "ظ. غورغن"
+          }
+        }
+      },
+      "id": 6716109,
+      "time": 76,
+      "timeSeconds": 4545,
+      "draw": {
+        "start": {
+          "x": 46,
+          "y": 12
+        },
+        "end": {
+          "x": 46.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.2,
+          "y": 88
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 855,
+      "periodTimeSeconds": 1845,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Serdar Dursun",
+        "slug": "serdar-dursun",
+        "shortName": "S. Dursun",
+        "position": "F",
+        "jerseyNumber": "19",
+        "userCount": 1053,
+        "gender": "M",
+        "id": 123917,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سردار دورسون",
+            "bn": "সেরদার দুরসুন",
+            "hi": "सेरदार दुरसुन"
+          },
+          "shortNameTranslation": {
+            "ar": "س. دورسون",
+            "bn": "এস. দুরসুন",
+            "hi": "एस. दुरसुन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7.3,
+        "y": 48.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.1,
+        "y": 49.1,
+        "z": 0
+      },
+      "xg": 0.26287814974785,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Zafer Görgen",
+        "slug": "zafer-gorgen",
+        "shortName": "Z. Görgen",
+        "position": "G",
+        "jerseyNumber": "20",
+        "userCount": 72,
+        "gender": "M",
+        "id": 930907,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ظافر غورغن"
+          },
+          "shortNameTranslation": {
+            "ar": "ظ. غورغن"
+          }
+        }
+      },
+      "id": 6715778,
+      "time": 60,
+      "timeSeconds": 3575,
+      "draw": {
+        "start": {
+          "x": 48.1,
+          "y": 7.3
+        },
+        "block": {
+          "x": 49.1,
+          "y": 7.1
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1825,
+      "periodTimeSeconds": 875,
+      "incidentType": "shot"
+    }
+  ]
+}

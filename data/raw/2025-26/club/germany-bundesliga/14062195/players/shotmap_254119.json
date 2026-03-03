@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Marius Wolf",
+        "slug": "marius-wolf",
+        "shortName": "M. Wolf",
+        "position": "M",
+        "jerseyNumber": "27",
+        "userCount": 540,
+        "gender": "M",
+        "id": 254119,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماريش وولف",
+            "bn": "মারিয়াস ওল্ফ",
+            "hi": "मारियस वुल्फ"
+          },
+          "shortNameTranslation": {
+            "ar": "م. وولف",
+            "bn": "এম. ওল্ফ",
+            "hi": "एम. वुल्फ"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 4.3,
+        "y": 59.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.6,
+        "z": 3.2
+      },
+      "blockCoordinates": {
+        "x": 2.9,
+        "y": 56.7,
+        "z": 0
+      },
+      "xg": 0.088736660778522,
+      "xgot": 0.13103355467319,
+      "goalkeeper": {
+        "name": "Nikola Vasilj",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nikola-vasilj",
+        "shortName": "N. Vasilj",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 1666,
+        "gender": "M",
+        "id": 325061,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولا فاسيل",
+            "bn": "নিকোলা ভাসিলজ",
+            "hi": "निकोला वासिलज"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. فاسيل",
+            "bn": "এন. ভাসিলজ",
+            "hi": "एन. वासिलज"
+          }
+        }
+      },
+      "id": 6615281,
+      "time": 19,
+      "timeSeconds": 1084,
+      "draw": {
+        "start": {
+          "x": 59.3,
+          "y": 4.3
+        },
+        "block": {
+          "x": 56.7,
+          "y": 2.9
+        },
+        "end": {
+          "x": 50.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.4,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1616,
+      "periodTimeSeconds": 1084,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -71,7 +71,7 @@ def main():
             "competition_slug": competition_slug,
             "opponent_tier": opponent_tier,
             "n_appearances": len(g),
-            "avg_rating": g["stat_rating"].mean(),
+            "avg_rating": (g["stat_rating"] / 2.0 if g["stat_rating"].dropna().max() > 10 else g["stat_rating"]).mean(),
             "goals": g["stat_goals"].sum() if "stat_goals" in g.columns else 0,
             "xg_total": g["stat_expectedGoals"].sum() if "stat_expectedGoals" in g.columns else np.nan,
             "xg_per90": (g["stat_expectedGoals"].sum() / mins * 90) if "stat_expectedGoals" in g.columns and mins else np.nan,

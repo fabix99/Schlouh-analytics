@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Gonzalo García",
+        "firstName": "Gonzalo García",
+        "slug": "gonzalo-garcia",
+        "shortName": "G. García",
+        "position": "F",
+        "jerseyNumber": "16",
+        "userCount": 101837,
+        "gender": "M",
+        "id": 1402716,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غونزالو غارسيا",
+            "bn": "গঞ্জালো গার্সিয়া",
+            "hi": "गोंजालो गार्सिया"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. غارسيا",
+            "bn": "জি. গার্সিয়া",
+            "hi": "जी. गार्सिया"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.4,
+        "y": 66.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.8,
+        "y": 64.9,
+        "z": 0
+      },
+      "xg": 0.024923797696829,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Philipp Köhn",
+        "firstName": "",
+        "lastName": "",
+        "slug": "philipp-kohn",
+        "shortName": "P. Köhn",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 738,
+        "gender": "M",
+        "id": 868964,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيليب كون",
+            "bn": "ফিলিপ কোহন",
+            "hi": "फिलिप कोह्न"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. كون",
+            "bn": "পি. কোহন",
+            "hi": "पी. कोह्न"
+          }
+        }
+      },
+      "id": 6557036,
+      "time": 89,
+      "timeSeconds": 5286,
+      "draw": {
+        "start": {
+          "x": 66.9,
+          "y": 15.4
+        },
+        "block": {
+          "x": 64.9,
+          "y": 13.8
+        },
+        "end": {
+          "x": 48,
+          "y": 0
+        },
+        "goal": {
+          "x": 48,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 114,
+      "periodTimeSeconds": 2586,
+      "incidentType": "shot"
+    }
+  ]
+}

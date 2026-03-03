@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Silvan Widmer",
+        "slug": "silvan-widmer",
+        "shortName": "S. Widmer",
+        "position": "M",
+        "jerseyNumber": "30",
+        "userCount": 529,
+        "gender": "M",
+        "id": 157377,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيلفان ويدمر",
+            "bn": "সিলভান উইডমার",
+            "hi": "सिल्वेन विडमर"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ويدمر",
+            "bn": "এস. উইডমার",
+            "hi": "एस. विडमर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 16.2,
+        "y": 33.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 12.7,
+        "y": 37.1,
+        "z": 0
+      },
+      "xg": 0.034942757338285,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Finn Dahmen",
+        "slug": "finn-dahmen",
+        "shortName": "F. Dahmen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 571,
+        "gender": "M",
+        "id": 822564,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فين داهمن",
+            "bn": "ফিন দাহমেন",
+            "hi": "फिन दाहमेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. داهمن",
+            "bn": "এফ. দাহমেন",
+            "hi": "एफ. दाहमेन"
+          }
+        }
+      },
+      "id": 6659749,
+      "time": 52,
+      "timeSeconds": 3105,
+      "draw": {
+        "start": {
+          "x": 33.5,
+          "y": 16.2
+        },
+        "block": {
+          "x": 37.1,
+          "y": 12.7
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2295,
+      "periodTimeSeconds": 405,
+      "incidentType": "shot"
+    }
+  ]
+}

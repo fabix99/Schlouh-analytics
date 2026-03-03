@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Billy Gilmour",
+        "slug": "gilmour-billy",
+        "shortName": "B. Gilmour",
+        "position": "M",
+        "jerseyNumber": "6",
+        "userCount": 4345,
+        "gender": "M",
+        "sofascoreId": "billygilmour",
+        "id": 907668,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غيلمور، بيلي",
+            "bn": "গিলমোর, বিলি",
+            "hi": "गिल्मर, बिली"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غيلمور",
+            "bn": "বি. গিলমোর",
+            "hi": "बी. गिल्मर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 14.3,
+        "y": 62.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 78.2,
+        "z": 9.7
+      },
+      "blockCoordinates": {
+        "x": 10.2,
+        "y": 46.9,
+        "z": 0
+      },
+      "xg": 0.047726757824421,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mile Svilar",
+        "slug": "svilar-mile",
+        "shortName": "M. Svilar",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 4546,
+        "gender": "M",
+        "id": 793986,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سفيلار، ميل",
+            "bn": "স্বিলার, মাইল",
+            "hi": "स्विलर, माइल"
+          },
+          "shortNameTranslation": {
+            "ar": "م. سفيلار",
+            "bn": "এম. স্বিলার",
+            "hi": "एम. स्विलर"
+          }
+        }
+      },
+      "id": 6720590,
+      "time": 89,
+      "timeSeconds": 5308,
+      "draw": {
+        "start": {
+          "x": 62.4,
+          "y": 14.3
+        },
+        "block": {
+          "x": 46.9,
+          "y": 10.2
+        },
+        "end": {
+          "x": 21.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 21.8,
+          "y": 90.3
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 92,
+      "periodTimeSeconds": 2608,
+      "incidentType": "shot"
+    }
+  ]
+}

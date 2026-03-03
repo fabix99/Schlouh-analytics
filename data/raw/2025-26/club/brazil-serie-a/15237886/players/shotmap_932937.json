@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Enzo Díaz",
+        "slug": "enzo-diaz",
+        "shortName": "E. Díaz",
+        "position": "D",
+        "jerseyNumber": "13",
+        "userCount": 2407,
+        "gender": "M",
+        "id": 932937,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إنزو دياز"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. دياز"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 26.2,
+        "y": 29.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 19.3,
+        "y": 34.5,
+        "z": 0
+      },
+      "xg": 0.01914120092988,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Agustín Rossi",
+        "slug": "agustin-rossi",
+        "shortName": "A. Rossi",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 10943,
+        "gender": "M",
+        "sofascoreId": "AgustinRossi",
+        "id": 1140986,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوغستين روسي",
+            "bn": "অগাস্টিন রসি",
+            "hi": "अगस्टिन रॉसी"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. روسي",
+            "bn": "অগাস্টিন রসি",
+            "hi": "अगस्टिन रॉसी"
+          }
+        }
+      },
+      "id": 6603582,
+      "time": 67,
+      "timeSeconds": 4011,
+      "draw": {
+        "start": {
+          "x": 29.9,
+          "y": 26.2
+        },
+        "block": {
+          "x": 34.5,
+          "y": 19.3
+        },
+        "end": {
+          "x": 47.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1389,
+      "periodTimeSeconds": 1311,
+      "incidentType": "shot"
+    }
+  ]
+}

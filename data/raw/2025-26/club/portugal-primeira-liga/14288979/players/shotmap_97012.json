@@ -1,0 +1,85 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bruma",
+        "slug": "bruma",
+        "shortName": "Bruma",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 2704,
+        "gender": "M",
+        "id": 97012,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برومة",
+            "bn": "ব্রুমা",
+            "hi": "ब्रुमा"
+          },
+          "shortNameTranslation": {
+            "ar": "برومة",
+            "bn": "ব্রুমা",
+            "hi": "ब्रुमा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 26.3,
+        "y": 36.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.9,
+        "z": 72.2
+      },
+      "xg": 0.04647833481431,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matheus Mendes",
+        "slug": "matheus-mendes",
+        "shortName": "M. Mendes",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 412,
+        "gender": "M",
+        "id": 1018555,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماثيوس مينديز"
+          },
+          "shortNameTranslation": {
+            "ar": "م. مينديز"
+          }
+        }
+      },
+      "id": 6672242,
+      "time": 90,
+      "addedTime": 5,
+      "timeSeconds": 5665,
+      "draw": {
+        "start": {
+          "x": 36.6,
+          "y": 26.3
+        },
+        "end": {
+          "x": 46.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.1,
+          "y": 27.8
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 635,
+      "periodTimeSeconds": 265,
+      "incidentType": "shot"
+    }
+  ]
+}

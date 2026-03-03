@@ -1,0 +1,421 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": false,
+    "correctHalftimeAiInsight": false,
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1189676,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76953
+    },
+    "roundInfo": {
+      "round": 6
+    },
+    "customId": "gnsydb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 81365,
+    "venue": {
+      "city": {
+        "name": "Dortmund"
+      },
+      "venueCoordinates": {
+        "latitude": 51.492492,
+        "longitude": 7.451855
+      },
+      "hidden": false,
+      "slug": "signal-iduna-park",
+      "name": "Signal Iduna Park",
+      "capacity": 81365,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 759,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سيجنال إيدونا بارك",
+          "hi": "सिग्नल इडुना पार्क",
+          "bn": "সিগন্যাল ইদুনা পার্ক"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Signal Iduna Park",
+        "capacity": 81365
+      }
+    },
+    "referee": {
+      "name": "Eric Lambrechts",
+      "slug": "lambrechts-eric",
+      "yellowCards": 1355,
+      "redCards": 35,
+      "yellowRedCards": 37,
+      "games": 333,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 171215,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "لامبرختس، إريك",
+          "bn": "ল্যামব্রেচটস, এরিক",
+          "hi": "लैम्ब्रेक्ट्स, एरिक"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "shortName": "Dortmund",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 1347041,
+      "manager": {
+        "name": "Niko Kovač",
+        "slug": "niko-kovac",
+        "shortName": "N. Kovač",
+        "country": {
+          "alpha2": "HR",
+          "alpha3": "HRV",
+          "name": "Croatia",
+          "slug": "croatia"
+        },
+        "id": 371,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكو كوفاتش",
+            "bn": "নিকো কোভাক",
+            "hi": "निको कोवाक"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. كوفاتش",
+            "bn": "এন. কোভাক",
+            "hi": "एन. कोवाक"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Dortmund"
+        },
+        "venueCoordinates": {
+          "latitude": 51.492492,
+          "longitude": 7.451855
+        },
+        "hidden": false,
+        "slug": "signal-iduna-park",
+        "name": "Signal Iduna Park",
+        "capacity": 81365,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 759,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيجنال إيدونا بارك",
+            "hi": "सिग्नल इडुना पार्क",
+            "bn": "সিগন্যাল ইদুনা পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Signal Iduna Park",
+          "capacity": 81365
+        }
+      },
+      "nameCode": "BVB",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2673,
+      "fullName": "Borussia Dortmund",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffe600",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -1894579200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بوروسيا دورتموند",
+          "hi": "बोरुस्सिया  डॉर्टमुंड",
+          "ru": "Боруссия Дортмунд"
+        },
+        "shortNameTranslation": {
+          "ar": "دورتموند",
+          "bn": "ডর্টমুন্ড",
+          "hi": "डॉर्टमुंड"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Bodø/Glimt",
+      "slug": "bodoglimt",
+      "shortName": "Bodø/Glimt",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 218420,
+      "manager": {
+        "name": "Kjetil Knutsen",
+        "slug": "kjetil-knudsen",
+        "shortName": "K. Knutsen",
+        "country": {
+          "alpha2": "NO",
+          "alpha3": "NOR",
+          "name": "Norway",
+          "slug": "norway"
+        },
+        "id": 785189,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيتيل كنوتسن",
+            "bn": "কেটিল নুটসেন",
+            "hi": "केजेटिल नुत्सेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. كنوتسن",
+            "bn": "কে. নুটসেন",
+            "hi": "के. नुत्सेन"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bodo"
+        },
+        "venueCoordinates": {
+          "latitude": 67.276648,
+          "longitude": 14.384434
+        },
+        "hidden": false,
+        "slug": "aspmyra-stadion",
+        "name": "Aspmyra Stadion",
+        "capacity": 8270,
+        "country": {
+          "alpha2": "NO",
+          "alpha3": "NOR",
+          "name": "Norway",
+          "slug": "norway"
+        },
+        "id": 1072,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب آسبمايرا",
+            "hi": "एस्पमायरा स्टेडियन",
+            "bn": "আস্পমাইরা স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Aspmyra Stadion",
+          "capacity": 8270
+        }
+      },
+      "nameCode": "BOG",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "NO",
+        "alpha3": "NOR",
+        "name": "Norway",
+        "slug": "norway"
+      },
+      "id": 656,
+      "fullName": "Bodø/Glimt",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffcc33",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -1681516800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بودو/غليمت",
+          "bn": "বোডো/গ্লিমট",
+          "hi": "बोड़ो/ग्लिम्ट",
+          "ru": "ФК Буде/Глимт"
+        },
+        "shortNameTranslation": {
+          "ar": "بودو/غليمت"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 3,
+      "injuryTime2": 5,
+      "currentPeriodStartTimestamp": 1765400637
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1765403669
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14566621,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "borussia-dortmund-bodoglimt",
+    "currentPeriodStartTimestamp": 1765400637,
+    "startTimestamp": 1765396800,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "club"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

@@ -1,0 +1,430 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": false,
+    "correctHalftimeAiInsight": true,
+    "tournament": {
+      "name": "Bundesliga",
+      "slug": "bundesliga",
+      "category": {
+        "name": "Germany",
+        "slug": "germany",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 30,
+        "flag": "germany",
+        "alpha2": "DE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألمانيا",
+            "bn": "জার্মানি",
+            "hi": "जर्मनी",
+            "ru": "Германия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Bundesliga",
+        "slug": "bundesliga",
+        "primaryColorHex": "#e2080e",
+        "secondaryColorHex": "#8e0902",
+        "category": {
+          "name": "Germany",
+          "slug": "germany",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "DE",
+            "alpha3": "DEU",
+            "name": "Germany",
+            "slug": "germany"
+          },
+          "id": 30,
+          "flag": "germany",
+          "alpha2": "DE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألمانيا",
+              "bn": "জার্মানি",
+              "hi": "जर्मनी",
+              "ru": "Германия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 508564,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 35,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "বুন্দেসলীগা",
+            "ar": "الدوري الألماني",
+            "hi": "बुंडेसलीगा"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 695,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 42,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "बुंडेसलीगा",
+          "ar": "الدوري الألماني",
+          "bn": "বুন্দেসলীগা"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Bundesliga 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 77333
+    },
+    "roundInfo": {
+      "round": 15
+    },
+    "customId": "Jabsacb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 30000,
+    "venue": {
+      "city": {
+        "name": "Augsburg"
+      },
+      "venueCoordinates": {
+        "latitude": 48.323118,
+        "longitude": 10.885879
+      },
+      "hidden": false,
+      "slug": "wwk-arena",
+      "name": "WWK ARENA",
+      "capacity": 30660,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 1655,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أرينا WWK",
+          "hi": "डब्ल्यूडब्ल्यूके एरिना",
+          "bn": "ডব্লিউকে ইরিনা"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "WWK ARENA",
+        "capacity": 30660
+      }
+    },
+    "referee": {
+      "name": "Tobias Welz",
+      "slug": "welz-tobias",
+      "yellowCards": 1018,
+      "redCards": 25,
+      "yellowRedCards": 18,
+      "games": 256,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 52234,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ويلز، توبياس",
+          "bn": "ওয়েলজ, টোবিয়াস",
+          "hi": "वेल्ज़, टोबियास"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "FC Augsburg",
+      "slug": "fc-augsburg",
+      "shortName": "Augsburg",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 72866,
+      "manager": {
+        "name": "Manuel Baum",
+        "slug": "manuel-baum",
+        "shortName": "M. Baum",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 787761,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل باوم"
+          },
+          "shortNameTranslation": {
+            "ar": "م. باوم"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Augsburg"
+        },
+        "venueCoordinates": {
+          "latitude": 48.323118,
+          "longitude": 10.885879
+        },
+        "hidden": false,
+        "slug": "wwk-arena",
+        "name": "WWK ARENA",
+        "capacity": 30660,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 1655,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أرينا WWK",
+            "hi": "डब्ल्यूडब्ल्यूके एरिना",
+            "bn": "ডব্লিউকে ইরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "WWK ARENA",
+          "capacity": 30660
+        }
+      },
+      "nameCode": "FCA",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2600,
+      "fullName": "FC Augsburg",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#cd1719",
+        "text": "#cd1719"
+      },
+      "foundationDateTimestamp": -1969228800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إف سي أوجسبورغ",
+          "hi": "ऍफ़सी ऑग्सबर्ग",
+          "ru": "Аугсбург"
+        },
+        "shortNameTranslation": {
+          "ar": "اوغسبورغ",
+          "bn": "অগসবার্গ",
+          "hi": "ऑग्सबर्ग"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "SV Werder Bremen",
+      "slug": "sv-werder-bremen",
+      "shortName": "Bremen",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 86181,
+      "manager": {
+        "name": "Daniel Thioune",
+        "slug": "daniel-thioune",
+        "shortName": "D. Thioune",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 789171,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دانييل ثيوني",
+            "bn": "ড্যানিয়েল থিউন",
+            "hi": "डैनियल थिओने"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ثيوني",
+            "bn": "ডি. থিউন",
+            "hi": "डी. थिओने"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bremen"
+        },
+        "venueCoordinates": {
+          "latitude": 53.066448,
+          "longitude": 8.837672
+        },
+        "hidden": false,
+        "slug": "weserstadion",
+        "name": "Weserstadion",
+        "capacity": 42100,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 821,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويرستاديون",
+            "hi": "वेसरस्टेडियन",
+            "bn": "ওয়েসারস্টেডিয়ন"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Weserstadion",
+          "capacity": 42100
+        }
+      },
+      "nameCode": "SVW",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2534,
+      "fullName": "SV Werder Bremen",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#009966",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2237587200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إس في فيردر بريمن",
+          "ru": "Вердер Бремен"
+        },
+        "shortNameTranslation": {
+          "ar": "بريمن",
+          "bn": "ব্রেমেন",
+          "hi": "ब्रेमन"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 3,
+      "injuryTime2": 7,
+      "currentPeriodStartTimestamp": 1766244885
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1766248103
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14062151,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "fc-augsburg-sv-werder-bremen",
+    "currentPeriodStartTimestamp": 1766244885,
+    "startTimestamp": 1766241000,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "club"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

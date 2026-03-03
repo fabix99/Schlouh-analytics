@@ -1,0 +1,403 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "tournament": {
+      "name": "Pro League",
+      "slug": "pro-league",
+      "category": {
+        "name": "Belgium",
+        "slug": "belgium",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 33,
+        "flag": "belgium",
+        "alpha2": "BE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بلجيكا",
+            "ru": "Бельгия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Pro League",
+        "slug": "pro-league",
+        "primaryColorHex": "#16002b",
+        "secondaryColorHex": "#ff1740",
+        "category": {
+          "name": "Belgium",
+          "slug": "belgium",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "BE",
+            "alpha3": "BEL",
+            "name": "Belgium",
+            "slug": "belgium"
+          },
+          "id": 33,
+          "flag": "belgium",
+          "alpha2": "BE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بلجيكا",
+              "ru": "Бельгия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 67568,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 38,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري المحترفين",
+            "bn": "প্রো লীগ",
+            "hi": "प्रो लीग"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 496,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 38,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الدوري الأول",
+          "bn": "ফার্স্ট ডিভিশন এ",
+          "hi": "फर्स्ट डिवीजन ए"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Pro League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 77040
+    },
+    "roundInfo": {
+      "round": 9
+    },
+    "customId": "ThbskXb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "venue": {
+      "city": {
+        "name": "Saint-Gilles"
+      },
+      "venueCoordinates": {
+        "latitude": 50.8287,
+        "longitude": 4.34419
+      },
+      "hidden": false,
+      "slug": "stade-joseph-marien",
+      "name": "Stade Joseph Marien",
+      "capacity": 9400,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 16279,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب جوزيف مارين",
+          "hi": "स्टेड जोसेफ मैरिएन",
+          "bn": "স্টেড জোসেফ মারিয়েন"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Stade Joseph Marien",
+        "capacity": 9400
+      }
+    },
+    "referee": {
+      "name": "Nicolas Laforge",
+      "slug": "laforge-nicolas",
+      "yellowCards": 1410,
+      "redCards": 59,
+      "yellowRedCards": 40,
+      "games": 301,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 217954,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "لافورج، نيكولا",
+          "bn": "লাফোরজ, নিকোলাস",
+          "hi": "लाफोर्ज, निकोलस"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Royale Union Saint-Gilloise",
+      "slug": "royale-union-saint-gilloise",
+      "shortName": "USG",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 173860,
+      "manager": {
+        "name": "David Hubert",
+        "slug": "david-hubert",
+        "shortName": "D. Hubert",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 806787,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد هوبرت"
+          },
+          "shortNameTranslation": {
+            "ar": "د. هوبرت"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Saint-Gilles"
+        },
+        "venueCoordinates": {
+          "latitude": 50.8287,
+          "longitude": 4.34419
+        },
+        "hidden": false,
+        "slug": "stade-joseph-marien",
+        "name": "Stade Joseph Marien",
+        "capacity": 9400,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 16279,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب جوزيف مارين",
+            "hi": "स्टेड जोसेफ मैरिएन",
+            "bn": "স্টেড জোসেফ মারিয়েন"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stade Joseph Marien",
+          "capacity": 9400
+        }
+      },
+      "nameCode": "USG",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 4860,
+      "fullName": "Royale Union Saint-Gilloise",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffec06",
+        "secondary": "#1649fa",
+        "text": "#1649fa"
+      },
+      "foundationDateTimestamp": -2277331200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "رويال يونيون سان جيلواز",
+          "ru": "Сент-Жиллуаз"
+        },
+        "shortNameTranslation": {
+          "ar": "رويال يونيون",
+          "bn": "ইউএসজি",
+          "hi": "यूएसजी"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "KVC Westerlo",
+      "slug": "kvc-westerlo",
+      "shortName": "Westerlo",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 19655,
+      "manager": {
+        "name": "Issame Charai",
+        "slug": "issame-charai",
+        "shortName": "I. Charai",
+        "country": {
+          "alpha2": "MA",
+          "alpha3": "MAR",
+          "name": "Morocco",
+          "slug": "morocco"
+        },
+        "id": 801193,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيسام شراي"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. شراي"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Westerlo"
+        },
+        "venueCoordinates": {
+          "latitude": 51.09049,
+          "longitude": 4.91544
+        },
+        "hidden": true,
+        "slug": "het-kuipje",
+        "name": "Het Kuipje",
+        "capacity": 7982,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 1249,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيت كويبجي",
+            "hi": "हेट कुइपजे",
+            "bn": "হেট কুইপজে"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Het Kuipje",
+          "capacity": 7982
+        }
+      },
+      "nameCode": "WES",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 2893,
+      "fullName": "KVC Westerlo",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffff00",
+        "secondary": "#3366ff",
+        "text": "#3366ff"
+      },
+      "foundationDateTimestamp": -1146268800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "في سي ويستيرلو",
+          "ru": "КВК Вестерло"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 5,
+      "currentPeriodStartTimestamp": 1759002468
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1759005486
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14035898,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "royale-union-saint-gilloise-kvc-westerlo",
+    "currentPeriodStartTimestamp": 1759002468,
+    "startTimestamp": 1758998700,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

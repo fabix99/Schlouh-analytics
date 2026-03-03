@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Lion Lauberbach",
+        "slug": "lion-lauberbach",
+        "shortName": "L. Lauberbach",
+        "position": "F",
+        "jerseyNumber": "29",
+        "userCount": 269,
+        "gender": "M",
+        "id": 886171,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليون لاوبرباخ"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. لاوبرباخ"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 3.1,
+        "y": 39.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 2.5,
+        "y": 41.2,
+        "z": 0
+      },
+      "xg": 0.058613698929548,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Andreas Jungdal",
+        "firstName": "",
+        "lastName": "",
+        "slug": "andreas-jungdal",
+        "shortName": "A. Jungdal",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 287,
+        "gender": "M",
+        "id": 963038,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أندرياس جونغدال",
+            "bn": "আন্দ্রেয়াস জংডাল",
+            "hi": "एंड्रियास जुंगडाल"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. جونغدال",
+            "bn": "এ. জঙ্গদল",
+            "hi": "ए. जुंगडाल"
+          }
+        }
+      },
+      "id": 6591236,
+      "time": 52,
+      "timeSeconds": 3060,
+      "draw": {
+        "start": {
+          "x": 39.1,
+          "y": 3.1
+        },
+        "block": {
+          "x": 41.2,
+          "y": 2.5
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2340,
+      "periodTimeSeconds": 360,
+      "incidentType": "shot"
+    }
+  ]
+}

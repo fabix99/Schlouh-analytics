@@ -1,0 +1,58 @@
+{
+  "passes": [
+    {
+      "playerCoordinates": {
+        "x": 55.9,
+        "y": 53.7
+      },
+      "passEndCoordinates": {
+        "x": 29.5,
+        "y": 43.6
+      },
+      "eventActionType": "pass",
+      "isHome": false,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 55.7,
+        "y": 70.5
+      },
+      "passEndCoordinates": {
+        "x": 44.5,
+        "y": 28.9
+      },
+      "eventActionType": "pass",
+      "isHome": false,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "dribbles": [],
+  "defensive": [
+    {
+      "playerCoordinates": {
+        "x": 5.5,
+        "y": 85
+      },
+      "eventActionType": "tackle",
+      "isHome": false,
+      "keypass": false
+    }
+  ],
+  "ball-carries": [
+    {
+      "playerCoordinates": {
+        "x": 58.4,
+        "y": 58.5
+      },
+      "passEndCoordinates": {
+        "x": 55.9,
+        "y": 53.7
+      },
+      "eventActionType": "ball-carry",
+      "isHome": false
+    }
+  ]
+}

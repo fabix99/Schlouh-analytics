@@ -1,0 +1,123 @@
+{
+  "passes": [
+    {
+      "playerCoordinates": {
+        "x": 59.2,
+        "y": 21.5
+      },
+      "passEndCoordinates": {
+        "x": 63.9,
+        "y": 8
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 8.2,
+        "y": 94.1
+      },
+      "passEndCoordinates": {
+        "x": 24.1,
+        "y": 92.8
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 41.6,
+        "y": 72.1
+      },
+      "passEndCoordinates": {
+        "x": 43.3,
+        "y": 88.1
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 71.5,
+        "y": 20.4
+      },
+      "passEndCoordinates": {
+        "x": 67.8,
+        "y": 39.5
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 34.2,
+        "y": 86.2
+      },
+      "passEndCoordinates": {
+        "x": 37.4,
+        "y": 88.8
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 34.5,
+        "y": 66.4
+      },
+      "passEndCoordinates": {
+        "x": 33.7,
+        "y": 52.7
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    }
+  ],
+  "dribbles": [
+    {
+      "playerCoordinates": {
+        "x": 57,
+        "y": 68.1
+      },
+      "eventActionType": "dribble",
+      "isHome": true,
+      "keypass": false
+    }
+  ],
+  "defensive": [
+    {
+      "playerCoordinates": {
+        "x": 8.2,
+        "y": 94.1
+      },
+      "eventActionType": "ball-recovery",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "ball-carries": [
+    {
+      "playerCoordinates": {
+        "x": 65.9,
+        "y": 33.2
+      },
+      "passEndCoordinates": {
+        "x": 66.2,
+        "y": 16.6
+      },
+      "eventActionType": "ball-carry",
+      "isHome": true
+    }
+  ]
+}

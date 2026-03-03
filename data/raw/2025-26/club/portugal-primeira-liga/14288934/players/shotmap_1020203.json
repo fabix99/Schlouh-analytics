@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Brandon Aguilera",
+        "firstName": "",
+        "lastName": "",
+        "slug": "brandon-aguilera",
+        "shortName": "B. Aguilera",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 926,
+        "gender": "M",
+        "id": 1020203,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "براندون أغويليرا",
+            "bn": "ব্র্যান্ডন আগুইলেরা",
+            "hi": "ब्रैंडन एगुइलेरा"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. أغويليرا",
+            "bn": "বি. আগুইলেরা",
+            "hi": "बी. एगुइलेरा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.1,
+        "y": 48.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 19.9,
+        "y": 48,
+        "z": 0
+      },
+      "xg": 0.037541091442108,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Anatoliy Trubin",
+        "slug": "anatoliy-trubin",
+        "shortName": "A. Trubin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9722,
+        "gender": "M",
+        "sofascoreId": "anatoliytrubin81",
+        "id": 966616,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أناتولي تروبين",
+            "bn": "আনাতোলি ট্রুবিন",
+            "hi": "अनातोली ट्रुबिन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. تروبين",
+            "bn": "এ. ট্রুবিন",
+            "hi": "ए. ट्रुबिन"
+          }
+        }
+      },
+      "id": 6536264,
+      "time": 41,
+      "timeSeconds": 2420,
+      "draw": {
+        "start": {
+          "x": 48.3,
+          "y": 23.1
+        },
+        "block": {
+          "x": 48,
+          "y": 19.9
+        },
+        "end": {
+          "x": 48.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 280,
+      "periodTimeSeconds": 2420,
+      "incidentType": "shot"
+    }
+  ]
+}

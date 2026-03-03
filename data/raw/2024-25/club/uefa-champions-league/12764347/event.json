@@ -1,0 +1,406 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1189676,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 61644
+    },
+    "roundInfo": {
+      "round": 3
+    },
+    "customId": "rstU",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 50116,
+    "venue": {
+      "city": {
+        "name": "Manchester"
+      },
+      "venueCoordinates": {
+        "latitude": 53.483091,
+        "longitude": -2.200252
+      },
+      "hidden": false,
+      "slug": "etihad-stadium",
+      "name": "Etihad Stadium",
+      "capacity": 53400,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 606,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب الإتحاد",
+          "hi": "क्रेवेन कॉटेज",
+          "bn": "ইতিহাদ স্টেডিয়াম"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Etihad Stadium",
+        "capacity": 53400
+      }
+    },
+    "referee": {
+      "name": "Maurizio Mariani",
+      "slug": "mariani-maurizio",
+      "yellowCards": 1569,
+      "redCards": 57,
+      "yellowRedCards": 37,
+      "games": 336,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 130916,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مارياني، ماوريتسيو",
+          "bn": "মারিয়ানি, মাউরিজিও",
+          "hi": "मारियानी, मौरिज़ियो"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "shortName": "Man City",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 3695597,
+      "manager": {
+        "name": "Pep Guardiola",
+        "slug": "pep-guardiola",
+        "shortName": "P. Guardiola",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 53463,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيب غوارديولا",
+            "bn": "পেপ গার্দিওলা",
+            "hi": "पेप गार्डियोला"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غوارديولا",
+            "bn": "পি. গার্দিওলা",
+            "hi": "पी. गार्डियोला"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Manchester"
+        },
+        "venueCoordinates": {
+          "latitude": 53.483091,
+          "longitude": -2.200252
+        },
+        "hidden": false,
+        "slug": "etihad-stadium",
+        "name": "Etihad Stadium",
+        "capacity": 53400,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 606,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب الإتحاد",
+            "hi": "क्रेवेन कॉटेज",
+            "bn": "ইতিহাদ স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Etihad Stadium",
+          "capacity": 53400
+        }
+      },
+      "nameCode": "MCI",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 17,
+      "fullName": "Manchester City",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#66ccff",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2811888000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مانشستر سيتي",
+          "hi": "मेनचेस्टर सिटी ऍफ़सी",
+          "ru": "Манчестер Сити"
+        },
+        "shortNameTranslation": {
+          "ar": "مان سيتي",
+          "bn": "ম্যান সিটি",
+          "hi": "मैन सिटी"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "AC Sparta Praha",
+      "slug": "sparta-praha",
+      "shortName": "Sparta Praha",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 108935,
+      "manager": {
+        "name": "Brian Priske",
+        "slug": "brian-priske",
+        "shortName": "B. Priske",
+        "country": {
+          "alpha2": "DK",
+          "alpha3": "DNK",
+          "name": "Denmark",
+          "slug": "denmark"
+        },
+        "id": 793001,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بريان بريسكي",
+            "bn": "ব্রায়ান প্রিসকে",
+            "hi": "ब्रायन प्रिस्के"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. بريسكي",
+            "bn": "বি. প্রিসকে",
+            "hi": "बी. प्रिस्के"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Prague"
+        },
+        "venueCoordinates": {
+          "latitude": 50.099713,
+          "longitude": 14.415892
+        },
+        "hidden": true,
+        "slug": "epet-arena",
+        "name": "epet ARENA",
+        "capacity": 18887,
+        "country": {
+          "alpha2": "CZ",
+          "alpha3": "CZE",
+          "name": "Czechia",
+          "slug": "czechia"
+        },
+        "id": 960,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيبت أرينا",
+            "hi": "एपेट एरिना",
+            "bn": "এপেট এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "epet ARENA",
+          "capacity": 18887
+        }
+      },
+      "nameCode": "SPA",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "CZ",
+        "alpha3": "CZE",
+        "name": "Czechia",
+        "slug": "czechia"
+      },
+      "id": 2218,
+      "fullName": "AC Sparta Praha",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#942536",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2402265600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سبارتا براها",
+          "bn": "স্পার্টা প্রাহা",
+          "hi": "स्पार्टा प्राहा",
+          "ru": "Спарта Прага"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 5,
+      "display": 5,
+      "period1": 1,
+      "period2": 4,
+      "normaltime": 5
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 2,
+      "currentPeriodStartTimestamp": 1729713744
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1729716580
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12764347,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "ac-sparta-praha-manchester-city",
+    "currentPeriodStartTimestamp": 1729713744,
+    "startTimestamp": 1729710000,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

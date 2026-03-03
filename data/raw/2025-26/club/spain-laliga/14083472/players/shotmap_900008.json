@@ -1,0 +1,188 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Óscar Valentín",
+        "firstName": "",
+        "lastName": "",
+        "slug": "oscar-valentin",
+        "shortName": "Ó. Valentín",
+        "position": "M",
+        "jerseyNumber": "23",
+        "userCount": 453,
+        "gender": "M",
+        "id": 900008,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوسكار فالنتين",
+            "bn": "অস্কার ভ্যালেন্টিন",
+            "hi": "ऑस्कर वैलेंटाइन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فالنتين",
+            "bn": "ও.ভ্যালেন্টিন",
+            "hi": "ओ. वैलेंटाइन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 0.7,
+        "y": 52.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.9,
+        "z": 6.3
+      },
+      "xg": 0.52889078855515,
+      "xgot": 0.94421607255936,
+      "goalkeeper": {
+        "name": "Jan Oblak",
+        "slug": "jan-oblak",
+        "shortName": "J. Oblak",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 12365,
+        "gender": "M",
+        "sofascoreId": "oblakjan",
+        "id": 69768,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يان أوبلاك",
+            "bn": "জন ওব্লাক",
+            "hi": "जान ओबलाक"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أوبلاك",
+            "bn": "জে. ওব্লাক",
+            "hi": "जे. ओबलाक"
+          }
+        }
+      },
+      "id": 6718445,
+      "time": 45,
+      "timeSeconds": 2650,
+      "draw": {
+        "start": {
+          "x": 52.6,
+          "y": 0.7
+        },
+        "end": {
+          "x": 52.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.1,
+          "y": 93.7
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 50,
+      "periodTimeSeconds": 2650,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Óscar Valentín",
+        "firstName": "",
+        "lastName": "",
+        "slug": "oscar-valentin",
+        "shortName": "Ó. Valentín",
+        "position": "M",
+        "jerseyNumber": "23",
+        "userCount": 453,
+        "gender": "M",
+        "id": 900008,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوسكار فالنتين",
+            "bn": "অস্কার ভ্যালেন্টিন",
+            "hi": "ऑस्कर वैलेंटाइन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فالنتين",
+            "bn": "ও.ভ্যালেন্টিন",
+            "hi": "ओ. वैलेंटाइन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 8.8,
+        "y": 50.3,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7,
+        "y": 50,
+        "z": 0
+      },
+      "xg": 0.081919319927692,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jan Oblak",
+        "slug": "jan-oblak",
+        "shortName": "J. Oblak",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 12365,
+        "gender": "M",
+        "sofascoreId": "oblakjan",
+        "id": 69768,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يان أوبلاك",
+            "bn": "জন ওব্লাক",
+            "hi": "जान ओबलाक"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أوبلاك",
+            "bn": "জে. ওব্লাক",
+            "hi": "जे. ओबलाक"
+          }
+        }
+      },
+      "id": 6718164,
+      "time": 29,
+      "timeSeconds": 1725,
+      "draw": {
+        "start": {
+          "x": 50.3,
+          "y": 8.8
+        },
+        "block": {
+          "x": 50,
+          "y": 7
+        },
+        "end": {
+          "x": 48.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 975,
+      "periodTimeSeconds": 1725,
+      "incidentType": "shot"
+    }
+  ]
+}

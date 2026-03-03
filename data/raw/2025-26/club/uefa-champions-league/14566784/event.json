@@ -1,0 +1,418 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": false,
+    "correctHalftimeAiInsight": false,
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1189818,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76953
+    },
+    "roundInfo": {
+      "round": 6
+    },
+    "customId": "JAsugb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 17023,
+    "venue": {
+      "city": {
+        "name": "Villarreal"
+      },
+      "venueCoordinates": {
+        "latitude": 39.944208,
+        "longitude": -0.103405
+      },
+      "hidden": false,
+      "slug": "estadio-de-la-ceramica",
+      "name": "Estadio de la Ceramica",
+      "capacity": 23500,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 619,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب دي لا سيراميكا",
+          "hi": "एस्टेडियो डे ला सेरेमिका",
+          "bn": "এস্তাদিও দে লা সিরামিকা"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Estadio de la Ceramica",
+        "capacity": 23500
+      }
+    },
+    "referee": {
+      "name": "Ivan Kružliak",
+      "slug": "ivan-kruzliak",
+      "yellowCards": 1621,
+      "redCards": 31,
+      "yellowRedCards": 54,
+      "games": 323,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "SK",
+        "alpha3": "SVK",
+        "name": "Slovakia",
+        "slug": "slovakia"
+      },
+      "id": 75262,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إيفان كروزلياك",
+          "bn": "ইভান ক্রুজলিয়াক",
+          "hi": "इवान क्रुज़्लियाक"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Villarreal",
+      "slug": "villarreal",
+      "shortName": "Villarreal",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 439182,
+      "manager": {
+        "name": "Marcelino",
+        "slug": "marcelino",
+        "shortName": "Marcelino",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 52990,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارسيلينو",
+            "bn": "মার্সেলিনো",
+            "hi": "मार्सेलिनो"
+          },
+          "shortNameTranslation": {
+            "ar": "مارسيلينو",
+            "bn": "মার্সেলিনো",
+            "hi": "मार्सेलिनो"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Villarreal"
+        },
+        "venueCoordinates": {
+          "latitude": 39.944208,
+          "longitude": -0.103405
+        },
+        "hidden": false,
+        "slug": "estadio-de-la-ceramica",
+        "name": "Estadio de la Ceramica",
+        "capacity": 23500,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 619,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب دي لا سيراميكا",
+            "hi": "एस्टेडियो डे ला सेरेमिका",
+            "bn": "এস্তাদিও দে লা সিরামিকা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estadio de la Ceramica",
+          "capacity": 23500
+        }
+      },
+      "nameCode": "VIL",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 2819,
+      "fullName": "Villarreal",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffff00",
+        "secondary": "#013765",
+        "text": "#013765"
+      },
+      "foundationDateTimestamp": -1477353600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فياريال",
+          "bn": "ভিলারিয়াল",
+          "hi": "विल्लारियल",
+          "ru": "Вильярреал"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "FC København",
+      "slug": "fc-kobenhavn",
+      "shortName": "København",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 194984,
+      "manager": {
+        "name": "Jacob Neestrup",
+        "slug": "jacob-neestrup",
+        "shortName": "J. Neestrup",
+        "country": {
+          "alpha2": "DK",
+          "alpha3": "DNK",
+          "name": "Denmark",
+          "slug": "denmark"
+        },
+        "id": 793010,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جاكوب نيستروب",
+            "bn": "জ্যাকব নেস্ট্রাপ",
+            "hi": "जैकब नीस्ट्रुप"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. نيستروب",
+            "bn": "জে. নেস্ট্রাপ",
+            "hi": "जे. नीस्ट्रुप"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Copenhagen"
+        },
+        "venueCoordinates": {
+          "latitude": 55.702704,
+          "longitude": 12.572264
+        },
+        "hidden": false,
+        "slug": "parken",
+        "name": "Parken",
+        "capacity": 38190,
+        "country": {
+          "alpha2": "DK",
+          "alpha3": "DNK",
+          "name": "Denmark",
+          "slug": "denmark"
+        },
+        "id": 936,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باركن",
+            "hi": "पारकेन",
+            "bn": "পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Parken",
+          "capacity": 38190
+        }
+      },
+      "nameCode": "FCK",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DK",
+        "alpha3": "DNK",
+        "name": "Denmark",
+        "slug": "denmark"
+      },
+      "id": 1284,
+      "fullName": "FC København",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#0066ff",
+        "text": "#0066ff"
+      },
+      "foundationDateTimestamp": 709862400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إف سي كوبنهاغن",
+          "ru": "Копенгаген"
+        },
+        "shortNameTranslation": {
+          "ar": "كوبنهاغن",
+          "bn": "কোবেনহাভন",
+          "hi": "कोबेनह्वान"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 1,
+      "period2": 2,
+      "normaltime": 3
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 5,
+      "currentPeriodStartTimestamp": 1765392432
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1765395437
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14566784,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "villarreal-fc-kobenhavn",
+    "currentPeriodStartTimestamp": 1765392432,
+    "startTimestamp": 1765388700,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "club"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

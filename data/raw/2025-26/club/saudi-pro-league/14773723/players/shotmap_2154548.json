@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "David Kaiki",
+        "firstName": "David Kaiki",
+        "slug": "david-kaiki",
+        "shortName": "D. Kaiki",
+        "position": "F",
+        "jerseyNumber": "77",
+        "userCount": 46,
+        "id": 2154548,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد كايكي"
+          },
+          "shortNameTranslation": {
+            "ar": "د. كايكي"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.9,
+        "y": 74.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.3,
+        "z": 19.6
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 55.1,
+        "z": 0
+      },
+      "xg": 0.049083180725574,
+      "xgot": 0.14152900874615,
+      "goalkeeper": {
+        "name": "Juan Cozzani",
+        "slug": "juan-cozzani",
+        "shortName": "J. Cozzani",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 132,
+        "gender": "M",
+        "id": 874969,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوان كوزاني"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. كوزاني"
+          }
+        }
+      },
+      "id": 6639915,
+      "time": 89,
+      "timeSeconds": 5307,
+      "draw": {
+        "start": {
+          "x": 74.4,
+          "y": 11.9
+        },
+        "block": {
+          "x": 55.1,
+          "y": 1.4
+        },
+        "end": {
+          "x": 47.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.7,
+          "y": 80.4
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 93,
+      "periodTimeSeconds": 2607,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jordan Bos",
+        "firstName": "Jordan Bos",
+        "lastName": "",
+        "slug": "jordan-bos",
+        "shortName": "J. Bos",
+        "position": "D",
+        "jerseyNumber": "15",
+        "userCount": 794,
+        "gender": "M",
+        "id": 1144138,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوردان بوس",
+            "bn": "জর্ডান বস",
+            "hi": "जॉर्डन बोस"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بوس",
+            "bn": "জে. বস",
+            "hi": "जे. बोस"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 17.2,
+        "y": 45.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.8,
+        "y": 45.8,
+        "z": 0
+      },
+      "xg": 0.05670827254653,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Pau López",
+        "slug": "pau-lopez",
+        "shortName": "P. López",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 1234,
+        "gender": "M",
+        "id": 548848,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باو لوبيز",
+            "bn": "পাউ লোপেজ",
+            "hi": "पाऊ लोपेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. لوبيز",
+            "bn": "পি. লোপেজ",
+            "hi": "पी. लोपेज़"
+          }
+        }
+      },
+      "id": 6605746,
+      "time": 5,
+      "timeSeconds": 263,
+      "draw": {
+        "start": {
+          "x": 45.4,
+          "y": 17.2
+        },
+        "block": {
+          "x": 45.8,
+          "y": 15.8
+        },
+        "end": {
+          "x": 50.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2437,
+      "periodTimeSeconds": 263,
+      "incidentType": "shot"
+    }
+  ]
+}

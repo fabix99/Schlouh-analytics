@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mohammed Al Shwirekh",
+        "firstName": "Mohammed Al Shwirekh",
+        "slug": "mohammed-al-shwirekh",
+        "shortName": "M. A. Shwirekh",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 63,
+        "gender": "M",
+        "id": 1519331,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد الشويرخ",
+            "bn": "মোহাম্মদ আল স্বিরেখ",
+            "hi": "मोहम्मद अल श्विरेख"
+          },
+          "shortNameTranslation": {
+            "ar": "م. الشويرخ",
+            "bn": "এম. এ. স্বিরেখ",
+            "hi": "एम. ए. श्विरेख"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 9.8,
+        "y": 41.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.5,
+        "y": 42.2,
+        "z": 0
+      },
+      "xg": 0.013482734560966,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Victor Braga",
+        "slug": "victor-braga",
+        "shortName": "V. Braga",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 92,
+        "gender": "M",
+        "id": 805020,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور براغا",
+            "bn": "ভিক্টর ব্রাগা",
+            "hi": "विक्टर ब्रागा"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. براغا",
+            "bn": "ভি.ব্রাগা",
+            "hi": "वी. ब्रागा"
+          }
+        }
+      },
+      "id": 6555462,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5523,
+      "draw": {
+        "start": {
+          "x": 41.5,
+          "y": 9.8
+        },
+        "block": {
+          "x": 42.2,
+          "y": 8.5
+        },
+        "end": {
+          "x": 47.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 777,
+      "periodTimeSeconds": 123,
+      "incidentType": "shot"
+    }
+  ]
+}

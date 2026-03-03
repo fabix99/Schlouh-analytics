@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Samuel Dahl",
+        "slug": "dahl-samuel",
+        "shortName": "S. Dahl",
+        "position": "D",
+        "jerseyNumber": "26",
+        "userCount": 2277,
+        "gender": "M",
+        "id": 993101,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "داهل، صمويل",
+            "bn": "ডহল, স্যামুয়েল",
+            "hi": "डाहल, सैमुअल"
+          },
+          "shortNameTranslation": {
+            "ar": "ص. داهل",
+            "bn": "এস. ডহল",
+            "hi": "एस. डाहल"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 25.4,
+        "y": 44.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 21.3,
+        "y": 45.3,
+        "z": 0
+      },
+      "xg": 0.013830297626555,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Michele Di Gregorio",
+        "firstName": "",
+        "lastName": "",
+        "slug": "michele-di-gregorio",
+        "shortName": "M. Di Gregorio",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 8229,
+        "gender": "M",
+        "sofascoreId": "L'UomoTigre",
+        "id": 844609,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميشيل دي غريغوريو",
+            "bn": "মিশেল ডি গ্রেগরিও",
+            "hi": "मिशेल डि ग्रेगोरियो"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دي غريغوريو",
+            "bn": "এম. ডি গ্রেগরিও",
+            "hi": "एम. डि ग्रेगोरियो"
+          }
+        }
+      },
+      "id": 6563530,
+      "time": 41,
+      "timeSeconds": 2430,
+      "draw": {
+        "start": {
+          "x": 44.2,
+          "y": 25.4
+        },
+        "block": {
+          "x": 45.3,
+          "y": 21.3
+        },
+        "end": {
+          "x": 50.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 270,
+      "periodTimeSeconds": 2430,
+      "incidentType": "shot"
+    }
+  ]
+}

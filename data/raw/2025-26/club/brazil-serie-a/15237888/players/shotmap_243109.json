@@ -1,0 +1,96 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Reinaldo",
+        "firstName": "",
+        "lastName": "",
+        "slug": "reinaldo",
+        "shortName": "Reinaldo",
+        "position": "D",
+        "jerseyNumber": "6",
+        "userCount": 2546,
+        "gender": "M",
+        "id": 243109,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رينالدو"
+          },
+          "shortNameTranslation": {
+            "ar": "رينالدو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.6,
+        "y": 29.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 6.3,
+        "y": 37.2,
+        "z": 0
+      },
+      "xg": 0.081529222428799,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Léo Jardim",
+        "slug": "leo-jardim",
+        "shortName": "L. Jardim",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5919,
+        "gender": "M",
+        "sofascoreId": "leocjardim",
+        "id": 595598,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليو جارديم",
+            "bn": "লিও জার্দিম",
+            "hi": "लियो जार्डिम"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. جارديم",
+            "bn": "এল. জার্দিম",
+            "hi": "एल. जार्डिम"
+          }
+        }
+      },
+      "id": 6606952,
+      "time": 73,
+      "timeSeconds": 4346,
+      "draw": {
+        "start": {
+          "x": 29.3,
+          "y": 11.6
+        },
+        "block": {
+          "x": 37.2,
+          "y": 6.3
+        },
+        "end": {
+          "x": 46.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 18,
+      "reversedPeriodTimeSeconds": 1054,
+      "periodTimeSeconds": 1646,
+      "incidentType": "shot"
+    }
+  ]
+}

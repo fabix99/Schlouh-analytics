@@ -1,0 +1,406 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Pro League",
+      "slug": "pro-league",
+      "category": {
+        "name": "Belgium",
+        "slug": "belgium",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 33,
+        "flag": "belgium",
+        "alpha2": "BE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بلجيكا",
+            "ru": "Бельгия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Pro League",
+        "slug": "pro-league",
+        "primaryColorHex": "#16002b",
+        "secondaryColorHex": "#ff1740",
+        "category": {
+          "name": "Belgium",
+          "slug": "belgium",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "BE",
+            "alpha3": "BEL",
+            "name": "Belgium",
+            "slug": "belgium"
+          },
+          "id": 33,
+          "flag": "belgium",
+          "alpha2": "BE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بلجيكا",
+              "ru": "Бельгия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 67568,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 38,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري المحترفين",
+            "bn": "প্রো লীগ",
+            "hi": "प्रो लीग"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 496,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 38,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الدوري الأول",
+          "bn": "ফার্স্ট ডিভিশন এ",
+          "hi": "फर्स्ट डिवीजन ए"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Pro League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 61459
+    },
+    "roundInfo": {
+      "round": 24
+    },
+    "customId": "ThbsiXb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "venue": {
+      "city": {
+        "name": "Kortrijk"
+      },
+      "venueCoordinates": {
+        "latitude": 50.830263,
+        "longitude": 3.249082
+      },
+      "hidden": true,
+      "slug": "guldensporenstadion",
+      "name": "Guldensporenstadion",
+      "capacity": 9399,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 1248,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب جيلدنسبورن",
+          "hi": "गुल्डेनस्पोरेनस्टेडियन",
+          "bn": "গুলডেনস্পোরেনস্টেডিয়ন"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Guldensporenstadion",
+        "capacity": 9399
+      }
+    },
+    "referee": {
+      "name": "Lawrence Visser",
+      "slug": "visser-lawrence",
+      "yellowCards": 1479,
+      "redCards": 44,
+      "yellowRedCards": 59,
+      "games": 315,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 329457,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فيزر، لورانس",
+          "bn": "ভিসার, লরেন্স",
+          "hi": "विसेर, लॉरेंस"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "KV Kortrijk",
+      "slug": "kv-kortrijk",
+      "shortName": "Kortrijk",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 13598,
+      "manager": {
+        "name": "Michiel Jonckheere",
+        "slug": "michiel-jonckheere",
+        "shortName": "M. Jonckheere",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 803183,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميشيل يونكهيير"
+          },
+          "shortNameTranslation": {
+            "ar": "م. يونكهيير"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Kortrijk"
+        },
+        "venueCoordinates": {
+          "latitude": 50.830263,
+          "longitude": 3.249082
+        },
+        "hidden": true,
+        "slug": "guldensporenstadion",
+        "name": "Guldensporenstadion",
+        "capacity": 9399,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 1248,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب جيلدنسبورن",
+            "hi": "गुल्डेनस्पोरेनस्टेडियन",
+            "bn": "গুলডেনস্পোরেনস্টেডিয়ন"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Guldensporenstadion",
+          "capacity": 9399
+        }
+      },
+      "nameCode": "KOR",
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 4858,
+      "fullName": "KV Kortrijk",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ff0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2171232000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كيه في كورتريجك",
+          "ru": "КВ Кортрейк"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "KVC Westerlo",
+      "slug": "kvc-westerlo",
+      "shortName": "Westerlo",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 19655,
+      "manager": {
+        "name": "Issame Charai",
+        "slug": "issame-charai",
+        "shortName": "I. Charai",
+        "country": {
+          "alpha2": "MA",
+          "alpha3": "MAR",
+          "name": "Morocco",
+          "slug": "morocco"
+        },
+        "id": 801193,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيسام شراي"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. شراي"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Westerlo"
+        },
+        "venueCoordinates": {
+          "latitude": 51.09049,
+          "longitude": 4.91544
+        },
+        "hidden": true,
+        "slug": "het-kuipje",
+        "name": "Het Kuipje",
+        "capacity": 7982,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 1249,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيت كويبجي",
+            "hi": "हेट कुइपजे",
+            "bn": "হেট কুইপজে"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Het Kuipje",
+          "capacity": 7982
+        }
+      },
+      "nameCode": "WES",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 2893,
+      "fullName": "KVC Westerlo",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffff00",
+        "secondary": "#3366ff",
+        "text": "#3366ff"
+      },
+      "foundationDateTimestamp": -1146268800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "في سي ويستيرلو",
+          "ru": "КВК Вестерло"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 1,
+      "display": 1,
+      "period1": 1,
+      "period2": 0,
+      "normaltime": 1
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 3,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1738524019
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1738527186
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12421211,
+    "homeRedCards": 1,
+    "awayRedCards": 1,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "kv-kortrijk-kvc-westerlo",
+    "currentPeriodStartTimestamp": 1738524019,
+    "startTimestamp": 1738520100,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "BE",
+      "IR",
+      "GR",
+      "RU",
+      "CH",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

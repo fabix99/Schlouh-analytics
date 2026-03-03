@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Radu Drăguşin",
+        "slug": "radu-dragusin",
+        "shortName": "R. Drăguşin",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 13769,
+        "gender": "M",
+        "sofascoreId": "radudragusin5",
+        "id": 997103,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رادو دراجوشين",
+            "bn": "রাদু ড্রাগুশিন",
+            "hi": "राडू द्रागुसिन"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. دراجوشين",
+            "bn": "আর. ড্রাগুসিন",
+            "hi": "आर. द्रागुसिन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 11.7,
+        "y": 53.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 6.3,
+        "y": 51.6,
+        "z": 0
+      },
+      "xg": 0.11744821071625,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nick Pope",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nick-pope",
+        "shortName": "N. Pope",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 4735,
+        "gender": "M",
+        "sofascoreId": "npope29",
+        "id": 162653,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيك بوب",
+            "bn": "নিক পোপ",
+            "hi": "निक पोप"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. بوب",
+            "bn": "এন. পোপ",
+            "hi": "एन. पोप"
+          }
+        }
+      },
+      "id": 6688774,
+      "time": 60,
+      "timeSeconds": 3553,
+      "draw": {
+        "start": {
+          "x": 53.1,
+          "y": 11.7
+        },
+        "block": {
+          "x": 51.6,
+          "y": 6.3
+        },
+        "end": {
+          "x": 49.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1847,
+      "periodTimeSeconds": 853,
+      "incidentType": "shot"
+    }
+  ]
+}

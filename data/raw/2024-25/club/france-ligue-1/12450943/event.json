@@ -1,0 +1,439 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Ligue 1",
+      "slug": "ligue-1",
+      "category": {
+        "name": "France",
+        "slug": "france",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 7,
+        "flag": "france",
+        "alpha2": "FR",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "hi": "फ्रांस",
+            "ar": "فرنسا",
+            "bn": "ফ্রান্স",
+            "ru": "Франция"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Ligue 1",
+        "slug": "ligue-1",
+        "primaryColorHex": "#091c3e",
+        "secondaryColorHex": "#a9c011",
+        "category": {
+          "name": "France",
+          "slug": "france",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+          },
+          "id": 7,
+          "flag": "france",
+          "alpha2": "FR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "hi": "फ्रांस",
+              "ar": "فرنسا",
+              "bn": "ফ্রান্স",
+              "ru": "Франция"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 414438,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 34,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "লীগ 1",
+            "ar": "الدوري الفرنسي",
+            "hi": "लीग 1"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 694,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 4,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "bn": "লীগ 1",
+          "hi": "लीग 1",
+          "ar": "الدوري الفرنسي 1"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Ligue 1 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 61736
+    },
+    "roundInfo": {
+      "round": 17
+    },
+    "customId": "XHsdI",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 25380,
+    "venue": {
+      "city": {
+        "name": "Nantes"
+      },
+      "venueCoordinates": {
+        "latitude": 47.256005,
+        "longitude": -1.524755
+      },
+      "hidden": false,
+      "slug": "stade-de-la-beaujoire",
+      "name": "Stade de la Beaujoire",
+      "capacity": 37473,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 953,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب لا بوجوار",
+          "hi": "स्टेड डे ला ब्यूजॉयर",
+          "bn": "স্টেড দে লা বেউজোয়ার"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Stade de la Beaujoire",
+        "capacity": 37473
+      }
+    },
+    "referee": {
+      "name": "Marc Bollengier",
+      "slug": "bollengier-marc",
+      "yellowCards": 371,
+      "redCards": 12,
+      "yellowRedCards": 10,
+      "games": 100,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 787834,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بولينجييه، مارك",
+          "bn": "বলিঞ্জিয়ার, মার্ক",
+          "hi": "बोलेंजियर, मार्क"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Nantes",
+      "slug": "nantes",
+      "shortName": "Nantes",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 79433,
+      "manager": {
+        "name": "Ahmed Kantari",
+        "slug": "ahmed-kantari",
+        "shortName": "A. Kantari",
+        "country": {
+          "alpha2": "MA",
+          "alpha3": "MAR",
+          "name": "Morocco",
+          "slug": "morocco"
+        },
+        "id": 800601,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أحمد قنطاري"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. قنطاري"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Nantes"
+        },
+        "venueCoordinates": {
+          "latitude": 47.256005,
+          "longitude": -1.524755
+        },
+        "hidden": false,
+        "slug": "stade-de-la-beaujoire",
+        "name": "Stade de la Beaujoire",
+        "capacity": 37473,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 953,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب لا بوجوار",
+            "hi": "स्टेड डे ला ब्यूजॉयर",
+            "bn": "স্টেড দে লা বেউজোয়ার"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stade de la Beaujoire",
+          "capacity": 37473
+        }
+      },
+      "nameCode": "FCN",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1647,
+      "fullName": "Nantes",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffdc12",
+        "secondary": "#00a94e",
+        "text": "#00a94e"
+      },
+      "foundationDateTimestamp": -842572800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نانت",
+          "bn": "ন্যান্টেস",
+          "hi": "नांत",
+          "ru": "Нант"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "AS Monaco",
+      "slug": "as-monaco",
+      "shortName": "AS Monaco",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 509861,
+      "manager": {
+        "name": "Sébastien Pocognoli",
+        "slug": "sebastien-pocognoli",
+        "shortName": "S. Pocognoli",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 800663,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيباستيان بوكونيولي",
+            "bn": "সেবাস্টিয়ান পোকগনোলি",
+            "hi": "सेबेस्टियन पोकोग्नोली"
+          },
+          "shortNameTranslation": {
+            "ar": "س. بوكونيولي",
+            "bn": "এস. পোকগনোলি",
+            "hi": "एस. पोकोग्नोली"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Fontvieille"
+        },
+        "venueCoordinates": {
+          "latitude": 43.727571,
+          "longitude": 7.415458
+        },
+        "hidden": false,
+        "slug": "stade-louis-ii",
+        "name": "Stade Louis II",
+        "capacity": 18523,
+        "country": {
+          "alpha2": "MC",
+          "alpha3": "MCO",
+          "name": "Monaco",
+          "slug": "monaco"
+        },
+        "id": 831,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب لويس الثاني",
+            "hi": "स्टेड लुई II",
+            "bn": "স্টেড লুই II"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stade Louis II",
+          "capacity": 18523
+        }
+      },
+      "nameCode": "ASM",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "MC",
+        "alpha3": "MCO",
+        "name": "Monaco",
+        "slug": "monaco"
+      },
+      "id": 1653,
+      "fullName": "AS Monaco",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#ff0000",
+        "text": "#ff0000"
+      },
+      "foundationDateTimestamp": -1431388800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نادي موناكو",
+          "bn": "এএস মোনাকো",
+          "hi": "एएस मोनाको",
+          "ru": "Монако"
+        },
+        "shortNameTranslation": {
+          "ar": "موناكو"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 2,
+      "injuryTime2": 5,
+      "currentPeriodStartTimestamp": 1736535805
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1736538810
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12450943,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "as-monaco-nantes",
+    "currentPeriodStartTimestamp": 1736535805,
+    "startTimestamp": 1736532000,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "AD",
+      "AQ",
+      "BL",
+      "CZ",
+      "FR",
+      "GF",
+      "GP",
+      "MC",
+      "MF",
+      "MQ",
+      "NC",
+      "PF",
+      "PM",
+      "RE",
+      "SK",
+      "TF",
+      "WF",
+      "YT",
+      "IR",
+      "GR",
+      "RU",
+      "CH",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": false,
+    "correctHalftimeAiInsight": true,
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1184603,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76953
+    },
+    "roundInfo": {
+      "round": 7
+    },
+    "customId": "GdbsVob",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 32400,
+    "venue": {
+      "city": {
+        "name": "Piraeus"
+      },
+      "venueCoordinates": {
+        "latitude": 37.946469,
+        "longitude": 23.664412
+      },
+      "hidden": false,
+      "slug": "georgios-karaiskakis",
+      "name": "Georgios Karaiskakis Stadium",
+      "capacity": 33334,
+      "country": {
+        "alpha2": "GR",
+        "alpha3": "GRC",
+        "name": "Greece",
+        "slug": "greece"
+      },
+      "id": 906,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "جورجيوس كارايسكاكيس",
+          "hi": "जॉर्जियोस कराइस्काकिस",
+          "bn": "জর্জিওস কারাইস্কাকিস"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Georgios Karaiskakis Stadium",
+        "capacity": 33334
+      }
+    },
+    "referee": {
+      "name": "Maurizio Mariani",
+      "slug": "mariani-maurizio",
+      "yellowCards": 1568,
+      "redCards": 57,
+      "yellowRedCards": 37,
+      "games": 335,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 130916,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مارياني، ماوريتسيو",
+          "bn": "মারিয়ানি, মাউরিজিও",
+          "hi": "मारियानी, मौरिज़ियो"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Olympiacos FC",
+      "slug": "olympiacos-fc",
+      "shortName": "Olympiacos",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 280104,
+      "manager": {
+        "name": "Jose Luis Mendilibar",
+        "slug": "jose-luis-mendilibar",
+        "shortName": "J. L. Mendilibar",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 785131,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه لويس مينديليبار"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ل. مينديليبار"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Piraeus"
+        },
+        "venueCoordinates": {
+          "latitude": 37.946469,
+          "longitude": 23.664412
+        },
+        "hidden": false,
+        "slug": "georgios-karaiskakis",
+        "name": "Georgios Karaiskakis Stadium",
+        "capacity": 33334,
+        "country": {
+          "alpha2": "GR",
+          "alpha3": "GRC",
+          "name": "Greece",
+          "slug": "greece"
+        },
+        "id": 906,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جورجيوس كارايسكاكيس",
+            "hi": "जॉर्जियोस कराइस्काकिस",
+            "bn": "জর্জিওস কারাইস্কাকিস"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Georgios Karaiskakis Stadium",
+          "capacity": 33334
+        }
+      },
+      "nameCode": "OLY",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "GR",
+        "alpha3": "GRC",
+        "name": "Greece",
+        "slug": "greece"
+      },
+      "id": 3245,
+      "fullName": "Olympiacos FC",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ff0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -1414195200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أولمبياكوس",
+          "bn": "অলিম্পিয়াকোস",
+          "hi": "ओलंपियाकोस",
+          "ru": "Олимпиакос"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Bayer 04 Leverkusen",
+      "slug": "bayer-04-leverkusen",
+      "shortName": "Leverkusen",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 1008220,
+      "manager": {
+        "name": "Kasper Hjulmand",
+        "slug": "kasper-hjulmand",
+        "shortName": "K. Hjulmand",
+        "country": {
+          "alpha2": "DK",
+          "alpha3": "DNK",
+          "name": "Denmark",
+          "slug": "denmark"
+        },
+        "id": 53105,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاسبر هيولماند",
+            "bn": "কাসপার হজুলমান্ড",
+            "hi": "कैस्पर हजुलमंड"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. هيولماند",
+            "bn": "কে. হজুলমান্ড",
+            "hi": "के. हजुलमंड"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Leverkusen"
+        },
+        "venueCoordinates": {
+          "latitude": 51.038144,
+          "longitude": 7.003096
+        },
+        "hidden": false,
+        "slug": "bayarena",
+        "name": "BayArena",
+        "capacity": 30210,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 593,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باي أرينا",
+            "hi": "बेएरिना",
+            "bn": "বেএরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "BayArena",
+          "capacity": 30210
+        }
+      },
+      "nameCode": "B04",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2681,
+      "fullName": "Bayer 04 Leverkusen",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#ff2222",
+        "text": "#ff2222"
+      },
+      "foundationDateTimestamp": -2067120000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "باير 04 ليفركوزن",
+          "ru": "Байер Леверкузен"
+        },
+        "shortNameTranslation": {
+          "ar": "ليفركوزن",
+          "bn": "লেভারকুসেন",
+          "hi": "लेवरकुसेन"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 2,
+      "period2": 0,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 5,
+      "currentPeriodStartTimestamp": 1768943087
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1768946095
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14566866,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "olympiacos-fc-bayer-04-leverkusen",
+    "currentPeriodStartTimestamp": 1768943087,
+    "startTimestamp": 1768939200,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "club"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

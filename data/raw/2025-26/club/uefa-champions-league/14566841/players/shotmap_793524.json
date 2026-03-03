@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Andreas Helmersen",
+        "slug": "andreas-helmersen",
+        "shortName": "A. Helmersen",
+        "position": "F",
+        "jerseyNumber": "21",
+        "userCount": 224,
+        "gender": "M",
+        "id": 793524,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أندرياس هيلميرسن"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. هيلميرسن"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.1,
+        "y": 40.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 6.3
+      },
+      "blockCoordinates": {
+        "x": 7.2,
+        "y": 42.6,
+        "z": 0
+      },
+      "xg": 0.43129605054855,
+      "xgot": 0.29402202367783,
+      "goalkeeper": {
+        "name": "Gianluigi Donnarumma",
+        "slug": "gianluigi-donnarumma",
+        "shortName": "G. Donnarumma",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 70202,
+        "gender": "M",
+        "sofascoreId": "donnarumma",
+        "id": 824509,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيانلويجي دوناروما",
+            "bn": "জিয়ানলুইগি ডোনারুম্মা",
+            "hi": "जियानलुइगी डोनारुम्मा"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. دوناروما",
+            "bn": "জি. ডোনারুম্মা",
+            "hi": "जी. डोनारुम्मा"
+          }
+        }
+      },
+      "id": 6555999,
+      "time": 90,
+      "addedTime": 1,
+      "timeSeconds": 5443,
+      "draw": {
+        "start": {
+          "x": 40.5,
+          "y": 10.1
+        },
+        "block": {
+          "x": 42.6,
+          "y": 7.2
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 93.7
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 857,
+      "periodTimeSeconds": 43,
+      "incidentType": "shot"
+    }
+  ]
+}

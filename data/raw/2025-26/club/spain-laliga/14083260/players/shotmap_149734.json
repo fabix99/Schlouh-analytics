@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Aymeric Laporte",
+        "firstName": "",
+        "lastName": "",
+        "slug": "aymeric-laporte",
+        "shortName": "A. Laporte",
+        "position": "D",
+        "jerseyNumber": "14",
+        "userCount": 10280,
+        "gender": "M",
+        "sofascoreId": "laporte27",
+        "id": 149734,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيميريك لابورت",
+            "bn": "আইমেরিক ল্যাপোর্টে",
+            "hi": "एमेरिक लापोर्टे"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. لابورت",
+            "bn": "এ. ল্যাপোর্টে",
+            "hi": "ए. लापोर्टे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 22.2,
+        "y": 66.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 12.3,
+        "y": 60.1,
+        "z": 0
+      },
+      "xg": 0.057717774063349,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mathew Ryan",
+        "slug": "mathew-ryan",
+        "shortName": "M. Ryan",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 1557,
+        "gender": "M",
+        "id": 134029,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماثيو رايان",
+            "bn": "ম্যাথু রায়ান",
+            "hi": "मैथ्यू रयान"
+          },
+          "shortNameTranslation": {
+            "ar": "م. رايان",
+            "bn": "এম. রায়ান",
+            "hi": "एम. रयान"
+          }
+        }
+      },
+      "id": 6669096,
+      "time": 20,
+      "timeSeconds": 1143,
+      "draw": {
+        "start": {
+          "x": 66.7,
+          "y": 22.2
+        },
+        "block": {
+          "x": 60.1,
+          "y": 12.3
+        },
+        "end": {
+          "x": 52,
+          "y": 0
+        },
+        "goal": {
+          "x": 52,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1557,
+      "periodTimeSeconds": 1143,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Torbjørn Heggem",
+        "slug": "torbjorn-heggem",
+        "shortName": "T. Heggem",
+        "position": "D",
+        "jerseyNumber": "14",
+        "userCount": 774,
+        "gender": "M",
+        "id": 933264,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توربيورن هيجيم",
+            "bn": "টর্বজর্ন হেগেম",
+            "hi": "टोरब्योर्न हेग्गेम"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. هيجيم",
+            "bn": "টি. হেগেম",
+            "hi": "टी. हेग्गेम"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 12.2,
+        "y": 52.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 63.9,
+        "z": 13.9
+      },
+      "blockCoordinates": {
+        "x": 9.8,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.085685200989246,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "David De Gea",
+        "firstName": "",
+        "lastName": "",
+        "slug": "david-de-gea",
+        "shortName": "D. De Gea",
+        "position": "G",
+        "jerseyNumber": "43",
+        "userCount": 23415,
+        "gender": "M",
+        "sofascoreId": "d_degea",
+        "id": 69378,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد دي خيا",
+            "bn": "ডেভিড ডে হায়া",
+            "hi": "डेविड डी गेआ"
+          },
+          "shortNameTranslation": {
+            "ar": "د. دي خيا",
+            "bn": "ডি. ডে হায়া",
+            "hi": "डी. डी गेआ"
+          }
+        }
+      },
+      "id": 6542117,
+      "time": 90,
+      "addedTime": 6,
+      "timeSeconds": 5727,
+      "draw": {
+        "start": {
+          "x": 52.8,
+          "y": 12.2
+        },
+        "block": {
+          "x": 49.8,
+          "y": 9.8
+        },
+        "end": {
+          "x": 36.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 36.1,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 573,
+      "periodTimeSeconds": 327,
+      "incidentType": "shot"
+    }
+  ]
+}

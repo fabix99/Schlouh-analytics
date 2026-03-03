@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nico O'Reilly",
+        "firstName": "Nico",
+        "lastName": "O’Reilly",
+        "slug": "nico-o-reilly",
+        "shortName": "N. O’Reilly",
+        "position": "D",
+        "jerseyNumber": "33",
+        "userCount": 20542,
+        "gender": "M",
+        "id": 1142703,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكو أوريلي",
+            "bn": "নিকো ও'রেইলি",
+            "hi": "निको ओ'रेली"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. أوريلي",
+            "bn": "এন. ও'রেইলি",
+            "hi": "एन. ओ'रेली"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.9,
+        "y": 47.8,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.2,
+        "z": 10.8
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 49.5,
+        "z": 0
+      },
+      "xg": 0.069349907338619,
+      "xgot": 0.020087763667107,
+      "goalkeeper": {
+        "name": "Nikita Haikin",
+        "firstName": "",
+        "lastName": "",
+        "slug": "haikin-nikita",
+        "shortName": "N. Haikin",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1352,
+        "gender": "M",
+        "id": 792624,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هايكين، نيكيتا",
+            "bn": "হাইকিন, নিকিতা",
+            "hi": "हाइकिन, निकिता"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. هايكين",
+            "bn": "এন. হাইকিন",
+            "hi": "एन. हाइकिन"
+          }
+        }
+      },
+      "id": 6555997,
+      "time": 87,
+      "timeSeconds": 5192,
+      "draw": {
+        "start": {
+          "x": 47.8,
+          "y": 9.9
+        },
+        "block": {
+          "x": 49.5,
+          "y": 1.1
+        },
+        "end": {
+          "x": 49.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.8,
+          "y": 89.2
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 208,
+      "periodTimeSeconds": 2492,
+      "incidentType": "shot"
+    }
+  ]
+}

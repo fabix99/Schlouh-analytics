@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kieffer Moore",
+        "slug": "kieffer-moore",
+        "shortName": "K. Moore",
+        "position": "F",
+        "jerseyNumber": "19",
+        "userCount": 1367,
+        "gender": "M",
+        "id": 298366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيفر مور",
+            "bn": "কিফার মুর",
+            "hi": "किफ़र मूर"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. مور",
+            "bn": "কে. মুর",
+            "hi": "के. मूर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7.7,
+        "y": 61.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 3.7,
+        "y": 58.7,
+        "z": 0
+      },
+      "goalkeeper": {
+        "name": "Alex Palmer",
+        "firstName": "",
+        "lastName": "",
+        "slug": "alex-palmer",
+        "shortName": "A. Palmer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 226,
+        "gender": "M",
+        "id": 796143,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليكس بالمر"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بالمر"
+          }
+        }
+      },
+      "id": 6703954,
+      "time": 77,
+      "timeSeconds": 4605,
+      "draw": {
+        "start": {
+          "x": 61.5,
+          "y": 7.7
+        },
+        "block": {
+          "x": 58.7,
+          "y": 3.7
+        },
+        "end": {
+          "x": 52.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 14,
+      "reversedPeriodTimeSeconds": 795,
+      "periodTimeSeconds": 1905,
+      "incidentType": "shot"
+    }
+  ]
+}

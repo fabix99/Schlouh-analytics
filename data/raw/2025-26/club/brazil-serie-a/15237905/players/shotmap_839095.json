@@ -1,0 +1,84 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Carlos Cuesta",
+        "slug": "carlos-cuesta",
+        "shortName": "C. Cuesta",
+        "position": "D",
+        "jerseyNumber": "46",
+        "userCount": 4403,
+        "gender": "M",
+        "id": 839095,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس كوستا",
+            "bn": "কার্লোস কুয়েস্তা",
+            "hi": "कार्लोस क्यूस्टा"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. كوستا",
+            "bn": "সি. কুয়েস্তা",
+            "hi": "सी. क्यूस्टा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 21.6,
+        "y": 57.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 61.5,
+        "z": 9.7
+      },
+      "xg": 0.046783089637756,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronaldo",
+        "slug": "ronaldo",
+        "shortName": "Ronaldo",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1024,
+        "gender": "M",
+        "id": 840106,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونالدو"
+          },
+          "shortNameTranslation": {
+            "ar": "رونالدو"
+          }
+        }
+      },
+      "id": 6694211,
+      "time": 26,
+      "timeSeconds": 1555,
+      "draw": {
+        "start": {
+          "x": 57.3,
+          "y": 21.6
+        },
+        "end": {
+          "x": 38.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 38.5,
+          "y": 90.3
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1145,
+      "periodTimeSeconds": 1555,
+      "incidentType": "shot"
+    }
+  ]
+}

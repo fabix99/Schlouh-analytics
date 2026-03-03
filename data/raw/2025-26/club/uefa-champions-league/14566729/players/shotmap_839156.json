@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nikola Krstović",
+        "slug": "nikola-krstovic",
+        "shortName": "N. Krstović",
+        "position": "F",
+        "jerseyNumber": "90",
+        "userCount": 4571,
+        "gender": "M",
+        "id": 839156,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولا كرستوفيتش",
+            "bn": "নিকোলা ক্রিস্টোভিচ",
+            "hi": "निकोला क्रस्टोविक"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. كرستوفيتش",
+            "bn": "এন. ক্রিস্টোভিচ",
+            "hi": "एन. क्रस्टोविक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 3,
+        "y": 49.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.2,
+        "z": 3.8
+      },
+      "xg": 0.94541919231415,
+      "xgot": 0.99526762962341,
+      "goalkeeper": {
+        "name": "Unai Simón",
+        "slug": "unai-simon",
+        "shortName": "U. Simón",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 6835,
+        "gender": "M",
+        "sofascoreId": "unai_simon",
+        "id": 797291,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوناي سيمون",
+            "bn": "উনাই সাইমন",
+            "hi": "उनाई सिमोन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سيمون",
+            "bn": "ইউ. সাইমন",
+            "hi": "यू. सिमोन"
+          }
+        }
+      },
+      "id": 6564407,
+      "time": 88,
+      "timeSeconds": 5243,
+      "draw": {
+        "start": {
+          "x": 49.9,
+          "y": 3
+        },
+        "end": {
+          "x": 49.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.8,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 157,
+      "periodTimeSeconds": 2543,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Gabri Veiga",
+        "slug": "gabri-veiga",
+        "shortName": "G. Veiga",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 5216,
+        "gender": "M",
+        "id": 1010505,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غابري فيغا",
+            "bn": "গাবরি ভেইগা",
+            "hi": "गैबरी वेइगा"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. فيغا",
+            "bn": "জি ভেইগা",
+            "hi": "जी. वेइगा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.8,
+        "y": 48.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.2,
+        "y": 48.7,
+        "z": 0
+      },
+      "xg": 0.12676455080509,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Daniel Figueira",
+        "firstName": "",
+        "lastName": "",
+        "slug": "daniel-figueira",
+        "shortName": "D. Figueira",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 77,
+        "gender": "M",
+        "id": 862060,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دانيال فيغيرا"
+          },
+          "shortNameTranslation": {
+            "ar": "د. فيغيرا"
+          }
+        }
+      },
+      "id": 6596249,
+      "time": 33,
+      "timeSeconds": 1966,
+      "draw": {
+        "start": {
+          "x": 48.8,
+          "y": 9.8
+        },
+        "block": {
+          "x": 48.7,
+          "y": 7.2
+        },
+        "end": {
+          "x": 48.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 734,
+      "periodTimeSeconds": 1966,
+      "incidentType": "shot"
+    }
+  ]
+}

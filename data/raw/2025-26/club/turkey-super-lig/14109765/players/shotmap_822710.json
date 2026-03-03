@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sekou Koita",
+        "firstName": "",
+        "lastName": "",
+        "slug": "sekou-koita",
+        "shortName": "S. Koita",
+        "position": "F",
+        "jerseyNumber": "22",
+        "userCount": 3281,
+        "gender": "M",
+        "id": 822710,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيكو كويتا",
+            "bn": "সেকউ কোইটা",
+            "hi": "सेकोउ कोइता"
+          },
+          "shortNameTranslation": {
+            "ar": "س. كويتا",
+            "bn": "এস. কোইটা",
+            "hi": "एस. कोइता"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.1,
+        "y": 53.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.6,
+        "z": 16.5
+      },
+      "xg": 0.22766502201557,
+      "xgot": 0.35238936543465,
+      "goalkeeper": {
+        "name": "Okan Kocuk",
+        "slug": "okan-kocuk",
+        "shortName": "O. Koçuk",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 292,
+        "gender": "M",
+        "id": 190179,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوكان كوتشوك",
+            "bn": "ওকান কোকুক",
+            "hi": "ओकान कोचुक"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. كوتشوك",
+            "bn": "ও. কোচুক",
+            "hi": "ओ. कोचुक"
+          }
+        }
+      },
+      "id": 6541733,
+      "time": 60,
+      "timeSeconds": 3550,
+      "draw": {
+        "start": {
+          "x": 53.7,
+          "y": 10.1
+        },
+        "end": {
+          "x": 48.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.4,
+          "y": 83.5
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1850,
+      "periodTimeSeconds": 850,
+      "incidentType": "shot"
+    }
+  ]
+}

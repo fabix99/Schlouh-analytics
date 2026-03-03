@@ -1,0 +1,414 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": false,
+    "correctHalftimeAiInsight": false,
+    "tournament": {
+      "name": "Bundesliga",
+      "slug": "bundesliga",
+      "category": {
+        "name": "Germany",
+        "slug": "germany",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 30,
+        "flag": "germany",
+        "alpha2": "DE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألمانيا",
+            "bn": "জার্মানি",
+            "hi": "जर्मनी",
+            "ru": "Германия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Bundesliga",
+        "slug": "bundesliga",
+        "primaryColorHex": "#e2080e",
+        "secondaryColorHex": "#8e0902",
+        "category": {
+          "name": "Germany",
+          "slug": "germany",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "DE",
+            "alpha3": "DEU",
+            "name": "Germany",
+            "slug": "germany"
+          },
+          "id": 30,
+          "flag": "germany",
+          "alpha2": "DE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألمانيا",
+              "bn": "জার্মানি",
+              "hi": "जर्मनी",
+              "ru": "Германия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 508963,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 35,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "বুন্দেসলীগা",
+            "ar": "الدوري الألماني",
+            "hi": "बुंडेसलीगा"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 695,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 42,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "बुंडेसलीगा",
+          "ar": "الدوري الألماني",
+          "bn": "বুন্দেসলীগা"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Bundesliga 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 77333
+    },
+    "roundInfo": {
+      "round": 1
+    },
+    "customId": "CabsBdb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 54042,
+    "venue": {
+      "city": {
+        "name": "Monchengladbach"
+      },
+      "venueCoordinates": {
+        "latitude": 51.174625,
+        "longitude": 6.385409
+      },
+      "hidden": false,
+      "slug": "borussia-park",
+      "name": "Borussia-Park",
+      "capacity": 54057,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 788,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بوروسيا-بارك",
+          "hi": "बोरुसिया पार्क",
+          "bn": "বরুশিয়া-পার্ক"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Borussia-Park",
+        "capacity": 54057
+      }
+    },
+    "referee": {
+      "name": "Sascha Stegemann",
+      "slug": "stegemann-sascha",
+      "yellowCards": 1506,
+      "redCards": 34,
+      "yellowRedCards": 43,
+      "games": 385,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 103007,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ستيغيمان، ساشا",
+          "bn": "স্টেগেম্যান, সাশা",
+          "hi": "स्टेगमैन, साशा"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Borussia M'gladbach",
+      "slug": "borussia-mgladbach",
+      "shortName": "M'gladbach",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 108346,
+      "manager": {
+        "name": "Eugen Polanski",
+        "slug": "eugen-polanski",
+        "shortName": "E. Polanski",
+        "country": {
+          "alpha2": "PL",
+          "alpha3": "POL",
+          "name": "Poland",
+          "slug": "poland"
+        },
+        "id": 813824,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوجن بولانسكي"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. بولانسكي"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Monchengladbach"
+        },
+        "venueCoordinates": {
+          "latitude": 51.174625,
+          "longitude": 6.385409
+        },
+        "hidden": false,
+        "slug": "borussia-park",
+        "name": "Borussia-Park",
+        "capacity": 54057,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 788,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بوروسيا-بارك",
+            "hi": "बोरुसिया पार्क",
+            "bn": "বরুশিয়া-পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Borussia-Park",
+          "capacity": 54057
+        }
+      },
+      "nameCode": "BMG",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2527,
+      "fullName": "Borussia M'gladbach",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2190672000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بوروسيا م'غلادباخ",
+          "ru": "Боруссия Мёнхенгладбах"
+        },
+        "shortNameTranslation": {
+          "ar": "م'غلادباخ",
+          "bn": "এম'গ্লাডবাখ",
+          "hi": "एम'ग्लैडबाक"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Hamburger SV",
+      "slug": "hamburger-sv",
+      "shortName": "HSV",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 79880,
+      "manager": {
+        "name": "Merlin Polzin",
+        "slug": "merlin-polzin",
+        "shortName": "M. Polzin",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 803993,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميرلين بولزين"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بولزين"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Hamburg"
+        },
+        "venueCoordinates": {
+          "latitude": 53.587153,
+          "longitude": 9.898706
+        },
+        "hidden": false,
+        "slug": "volksparkstadion",
+        "name": "Volksparkstadion",
+        "capacity": 57000,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 582,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فولكسباركستاديون",
+            "hi": "वोक्सपार्कस्टेडियन",
+            "bn": "ভক্সপার্কস্টেডিয়ন"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Volksparkstadion",
+          "capacity": 57000
+        }
+      },
+      "nameCode": "HSV",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2676,
+      "fullName": "Hamburger SV",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2595801600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "هامبورج",
+          "hi": "हैमबर्गर ऐसवि",
+          "ru": "Гамбург"
+        },
+        "shortNameTranslation": {
+          "ar": "أتش أس في",
+          "bn": "এইচএসভি",
+          "hi": "एचएसवी"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 2,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1756053226
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1756056298
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14062007,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "hamburger-sv-borussia-mgladbach",
+    "currentPeriodStartTimestamp": 1756053226,
+    "startTimestamp": 1756049400,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

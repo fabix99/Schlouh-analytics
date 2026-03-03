@@ -2,10 +2,12 @@
 
 ## Required
 
-- **Python 3.9+** with pandas, pyyaml, requests (and other deps from the project).
+- **Python 3.9+**. Install deps with `pip install -r requirements.txt`. For exact reproducibility, use `pip freeze > requirements.lock` and install from that, or use pip-tools/poetry.
 - **Project root**: All paths are relative to the repo root unless overridden.
 
 ## Configuration
+
+**Secrets:** Prefer environment variables for any app secrets. If you use `.streamlit/secrets.toml` for local overrides, never commit it; keep only placeholders.
 
 Paths and API base are defined in **`config/env.yaml`** and can be overridden by environment variables so you can run the same code with different roots (e.g. CI, staging, production).
 
@@ -16,7 +18,7 @@ Paths and API base are defined in **`config/env.yaml`** and can be overridden by
 | `api_base` | `SOFASCORE_API_BASE` | `https://api.sofascore.com/api/v1` | Sofascore API base URL. |
 | `log_dir` | `SOFASCORE_LOG_DIR` | `data/logs` | Directory for pipeline and scheduled run logs. |
 | `derived_dir` | `SOFASCORE_DERIVED_DIR` | `data/derived` | Derived artifacts (player_appearances, etc.). |
-| `processed_dir` | `SOFASCORE_PROCESSED_DIR` | `data/processed` | Processed build outputs (00–16). |
+| `processed_dir` | `SOFASCORE_PROCESSED_DIR` | `data/processed` | Processed build outputs (00–19). |
 | `index_dir` | `SOFASCORE_INDEX_DIR` | `data/index` | Index directory (progress, runs, etc.). |
 | `env` | `ENV` | `dev` | Run mode: `dev`, `staging`, or `prod`. |
 

@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Victor Gómez",
+        "slug": "victor-gomez",
+        "shortName": "V. Gómez",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 300,
+        "gender": "M",
+        "id": 877918,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور جوميز",
+            "bn": "ভিক্টর গোমেজ",
+            "hi": "विक्टर गोमेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. جوميز",
+            "bn": "ভি. গোমেজ",
+            "hi": "वी. गोमेज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21,
+        "y": 74,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.5,
+        "y": 67.9,
+        "z": 0
+      },
+      "xg": 0.01225028373301,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ennio Van Der Gouw",
+        "slug": "ennio-van-der-gouw",
+        "shortName": "E. V. D. Gouw",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 78,
+        "gender": "M",
+        "id": 1005270,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إنيو فان دير غاو"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. فان دير غاو"
+          }
+        }
+      },
+      "id": 6670687,
+      "time": 31,
+      "timeSeconds": 1823,
+      "draw": {
+        "start": {
+          "x": 74,
+          "y": 21
+        },
+        "block": {
+          "x": 67.9,
+          "y": 15.5
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 877,
+      "periodTimeSeconds": 1823,
+      "incidentType": "shot"
+    }
+  ]
+}

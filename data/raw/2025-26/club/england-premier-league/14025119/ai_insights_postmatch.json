@@ -1,0 +1,154 @@
+{
+  "predictions": {
+    "yellowCards": 5,
+    "corners": 10,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 45,
+      "draw": 26,
+      "away": 29
+    },
+    "possibleResultsMatrix": [
+      [
+        0.07424620620425,
+        0.083170309028408,
+        0.046583527007774,
+        0.017394228091203,
+        0.0048712365237767,
+        0.0010913480102093
+      ],
+      [
+        0.11029260432331,
+        0.12354934284296,
+        0.069199744672726,
+        0.025839094203613,
+        0.0072362129992766,
+        0.0016211954848968
+      ],
+      [
+        0.081919731595135,
+        0.091766162079021,
+        0.051398047446809,
+        0.019191963729648,
+        0.0053746906268373,
+        0.001204141472593
+      ],
+      [
+        0.040563870779869,
+        0.045439488973606,
+        0.02545056867708,
+        0.0095032090753043,
+        0.0026613643846673,
+        0.00059624998939625
+      ],
+      [
+        0.015064389072751,
+        0.01687506956326,
+        0.0094516933740102,
+        0.0035292499507007,
+        0.00098836298864475,
+        0.00022143206878931
+      ],
+      [
+        0.0044756245155546,
+        0.0050135770308556,
+        0.002808094664439,
+        0.0010485388769895,
+        0.00029364228452163,
+        6.5787387116552e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Current Form",
+      "text": "Newcastle United has had mixed performances in their last five matches, registering two wins, two draws, and one loss. Meanwhile, Aston Villa comes in with strong form, winning four of their last five games, indicating they are in better shape heading into this match."
+    },
+    {
+      "subtitle": "Head-to-Head",
+      "text": "In their last two encounters, both matches ended with a draw, suggesting a competitive rivalry. However, Aston Villa secured a convincing 4-1 victory earlier in the year, which might give them confidence."
+    },
+    {
+      "subtitle": "Statistical Insights",
+      "text": "Statistically, Newcastle United has a strong home advantage, with higher expected goals in their recent matches. Conversely, Aston Villa has been solid in defense. Sofascore's model favors Newcastle but also indicates a likelihood of a close match."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "shortName": "Aston Villa",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 907974,
+      "nameCode": "AVL",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 40,
+      "teamColors": {
+        "primary": "#670e36",
+        "secondary": "#94bee5",
+        "text": "#94bee5"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أستون فيلا",
+          "bn": "অ্যাস্টন ভিলা",
+          "hi": "एस्टन विला",
+          "ru": "Астон Вилла"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Sandro Tonali",
+      "firstName": "",
+      "lastName": "",
+      "slug": "sandro-tonali",
+      "shortName": "S. Tonali",
+      "position": "M",
+      "jerseyNumber": "8",
+      "userCount": 14564,
+      "gender": "M",
+      "sofascoreId": "sandrotonali",
+      "id": 892673,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ساندرو تونالي",
+          "bn": "সান্দ্রো টোনালি",
+          "hi": "सैंड्रो टोनाली"
+        },
+        "shortNameTranslation": {
+          "ar": "س. تونالي",
+          "bn": "এস. টোনালি",
+          "hi": "एस. टोनाली"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half summary",
+      "text": "The first half ended with Aston Villa leading 1-0, thanks to a goal from Emiliano Buendía in the 19th minute. Newcastle United struggled to convert their chances, missing a big opportunity and registering a total of three shots on target."
+    },
+    {
+      "subtitle": "Attack momentum analysis",
+      "text": "The first half saw a significant amount of momentum shifts with both teams experiencing attacking spells. Newcastle initially had a strong start, dominating the early minutes, but Aston Villa quickly responded with effective counter-attacks. During the 19th minute, Villa secured their lead, which seemed to shift the momentum further in favor of the away team. While Newcastle made efforts to reclaim control, Villa effectively contained their advances, creating opportunities themselves."
+    },
+    {
+      "subtitle": "Second half predictions",
+      "text": "Looking ahead to the second half, Newcastle is expected to increase their attacking intensity as they seek to equalize. Their ball possession and final third entries suggest they will create further chances. Aston Villa, on the other hand, may adopt a more defensive posture to protect their lead but still has the potential for quick counter-attacks. It's likely that both teams will score at least once in the second half, making an exciting finish to the match."
+    }
+  ],
+  "modelName": "Grok3"
+}

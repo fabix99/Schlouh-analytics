@@ -1,0 +1,404 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1189676,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76953
+    },
+    "roundInfo": {
+      "round": 1
+    },
+    "customId": "rsoeb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 49531,
+    "venue": {
+      "city": {
+        "name": "Manchester"
+      },
+      "venueCoordinates": {
+        "latitude": 53.483091,
+        "longitude": -2.200252
+      },
+      "hidden": false,
+      "slug": "etihad-stadium",
+      "name": "Etihad Stadium",
+      "capacity": 53400,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 606,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب الإتحاد",
+          "hi": "क्रेवेन कॉटेज",
+          "bn": "ইতিহাদ স্টেডিয়াম"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Etihad Stadium",
+        "capacity": 53400
+      }
+    },
+    "referee": {
+      "name": "Felix Zwayer",
+      "slug": "zwayer-felix",
+      "yellowCards": 2337,
+      "redCards": 49,
+      "yellowRedCards": 56,
+      "games": 510,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 52417,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "زواير، فيليكس",
+          "bn": "জাওয়ার, ফেলিক্স",
+          "hi": "ज़्वेयर, फ़ेलिक्स"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "shortName": "Man City",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 3695597,
+      "manager": {
+        "name": "Pep Guardiola",
+        "slug": "pep-guardiola",
+        "shortName": "P. Guardiola",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 53463,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيب غوارديولا",
+            "bn": "পেপ গার্দিওলা",
+            "hi": "पेप गार्डियोला"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غوارديولا",
+            "bn": "পি. গার্দিওলা",
+            "hi": "पी. गार्डियोला"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Manchester"
+        },
+        "venueCoordinates": {
+          "latitude": 53.483091,
+          "longitude": -2.200252
+        },
+        "hidden": false,
+        "slug": "etihad-stadium",
+        "name": "Etihad Stadium",
+        "capacity": 53400,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 606,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب الإتحاد",
+            "hi": "क्रेवेन कॉटेज",
+            "bn": "ইতিহাদ স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Etihad Stadium",
+          "capacity": 53400
+        }
+      },
+      "nameCode": "MCI",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 17,
+      "fullName": "Manchester City",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#66ccff",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2811888000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مانشستر سيتي",
+          "hi": "मेनचेस्टर सिटी ऍफ़सी",
+          "ru": "Манчестер Сити"
+        },
+        "shortNameTranslation": {
+          "ar": "مان سيتي",
+          "bn": "ম্যান সিটি",
+          "hi": "मैन सिटी"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Napoli",
+      "slug": "napoli",
+      "shortName": "Napoli",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 1090405,
+      "manager": {
+        "name": "Antonio Conte",
+        "slug": "antonio-conte",
+        "shortName": "A. Conte",
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 90447,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنطونيو كونتي"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. كونتي"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Naples"
+        },
+        "venueCoordinates": {
+          "latitude": 40.827977,
+          "longitude": 14.192889
+        },
+        "hidden": false,
+        "slug": "stadio-diego-armando-maradona",
+        "name": "Stadio Diego Armando Maradona",
+        "capacity": 54726,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 872,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب دييغو ارماندو مارادونا",
+            "hi": "स्टेडियो डिएगो अर्मांडो माराडोना",
+            "bn": "স্টেডিও দিয়েগো আরমান্দো ম্যারাডোনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stadio Diego Armando Maradona",
+          "capacity": 54726
+        }
+      },
+      "nameCode": "NAP",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2714,
+      "fullName": "Napoli",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#008cea",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -1370217600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نابولي",
+          "bn": "নাপোলি",
+          "hi": "नेपोली",
+          "ru": "Наполи"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 4,
+      "injuryTime2": 2,
+      "currentPeriodStartTimestamp": 1758225901
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1758228732
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14566664,
+    "awayRedCards": 1,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "napoli-manchester-city",
+    "currentPeriodStartTimestamp": 1758225901,
+    "startTimestamp": 1758222000,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

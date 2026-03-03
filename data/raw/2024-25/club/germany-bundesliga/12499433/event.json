@@ -1,0 +1,437 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Bundesliga",
+      "slug": "bundesliga",
+      "category": {
+        "name": "Germany",
+        "slug": "germany",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 30,
+        "flag": "germany",
+        "alpha2": "DE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألمانيا",
+            "bn": "জার্মানি",
+            "hi": "जर्मनी",
+            "ru": "Германия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Bundesliga",
+        "slug": "bundesliga",
+        "primaryColorHex": "#e2080e",
+        "secondaryColorHex": "#8e0902",
+        "category": {
+          "name": "Germany",
+          "slug": "germany",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "DE",
+            "alpha3": "DEU",
+            "name": "Germany",
+            "slug": "germany"
+          },
+          "id": 30,
+          "flag": "germany",
+          "alpha2": "DE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألمانيا",
+              "bn": "জার্মানি",
+              "hi": "जर्मनी",
+              "ru": "Германия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 508922,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 35,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "বুন্দেসলীগা",
+            "ar": "الدوري الألماني",
+            "hi": "बुंडेसलीगा"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 695,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 42,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "बुंडेसलीगा",
+          "ar": "الدوري الألماني",
+          "bn": "বুন্দেসলীগা"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Bundesliga 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 63516
+    },
+    "roundInfo": {
+      "round": 26
+    },
+    "customId": "Nabsgbb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 33305,
+    "venue": {
+      "city": {
+        "name": "Mainz"
+      },
+      "venueCoordinates": {
+        "latitude": 49.983945,
+        "longitude": 8.223228
+      },
+      "hidden": false,
+      "slug": "mewa-arena",
+      "name": "MEWA Arena",
+      "capacity": 34000,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2406,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أرينا MEWA",
+          "hi": "मेवा एरिना",
+          "bn": "এমইডব্লিউএ এরিনা"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "MEWA Arena",
+        "capacity": 34000
+      }
+    },
+    "referee": {
+      "name": "Benjamin Brand",
+      "slug": "brand-benjamin",
+      "yellowCards": 935,
+      "redCards": 23,
+      "yellowRedCards": 21,
+      "games": 232,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 102956,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "براند، بنجامين",
+          "bn": "ব্র্যান্ড, বেঞ্জামিন",
+          "hi": "ब्रांड, बेंजामिन"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "1. FSV Mainz 05",
+      "slug": "1-fsv-mainz-05",
+      "shortName": "Mainz 05",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 92019,
+      "manager": {
+        "name": "Urs Fischer",
+        "slug": "urs-fischer",
+        "shortName": "U. Fischer",
+        "country": {
+          "alpha2": "CH",
+          "alpha3": "CHE",
+          "name": "Switzerland",
+          "slug": "switzerland"
+        },
+        "id": 114244,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أورس فيشر"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فيشر"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Mainz"
+        },
+        "venueCoordinates": {
+          "latitude": 49.983945,
+          "longitude": 8.223228
+        },
+        "hidden": false,
+        "slug": "mewa-arena",
+        "name": "MEWA Arena",
+        "capacity": 34000,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 2406,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أرينا MEWA",
+            "hi": "मेवा एरिना",
+            "bn": "এমইডব্লিউএ এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "MEWA Arena",
+          "capacity": 34000
+        }
+      },
+      "nameCode": "M05",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2556,
+      "fullName": "1. FSV Mainz 05",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ff0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2044828800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "1. إف إس في ماينز 05",
+          "ru": "Майнц 05"
+        },
+        "shortNameTranslation": {
+          "ar": "ماينز 05",
+          "bn": "মেইনজ 05",
+          "hi": "माइनज़ 05"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "SC Freiburg",
+      "slug": "sc-freiburg",
+      "shortName": "Freiburg",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 115304,
+      "manager": {
+        "name": "Julian Schuster",
+        "slug": "julian-schuster",
+        "shortName": "J. Schuster",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 805739,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوليان شوشتر"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. شوشتر"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Freiburg im Breisgau"
+        },
+        "venueCoordinates": {
+          "latitude": 48.021378,
+          "longitude": 7.829817
+        },
+        "hidden": false,
+        "slug": "europa-park-stadion",
+        "name": "Europa-Park-Stadion",
+        "capacity": 34700,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 33302,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب أوروبا بارك",
+            "hi": "यूरोपा-पार्क-स्टेडियन",
+            "bn": "ইউরোপা-পার্ক-স্টেডিয়ন"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Europa-Park-Stadion",
+          "capacity": 34700
+        }
+      },
+      "nameCode": "SCF",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2538,
+      "fullName": "SC Freiburg",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#cc3333",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2069884800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نادي فرايبورغ",
+          "hi": "एससी फ्रैबर्ग",
+          "ru": "Фрайбург"
+        },
+        "shortNameTranslation": {
+          "ar": "فرايبورغ",
+          "bn": "ফ্রেইবার্গ",
+          "hi": "फ्रायबर्ग"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 4,
+      "injuryTime2": 3,
+      "currentPeriodStartTimestamp": 1742052939
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1742055860
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12499433,
+    "homeRedCards": 1,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "1-fsv-mainz-05-sc-freiburg",
+    "currentPeriodStartTimestamp": 1742052939,
+    "startTimestamp": 1742049000,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "??",
+      "AN",
+      "AS",
+      "AT",
+      "CH",
+      "CU",
+      "DE",
+      "GU",
+      "IR",
+      "KP",
+      "LI",
+      "LU",
+      "MP",
+      "PR",
+      "SY",
+      "US",
+      "VE",
+      "VI",
+      "GR",
+      "RU",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

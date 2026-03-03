@@ -1,0 +1,412 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Pro League",
+      "slug": "pro-league",
+      "category": {
+        "name": "Belgium",
+        "slug": "belgium",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 33,
+        "flag": "belgium",
+        "alpha2": "BE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بلجيكا",
+            "ru": "Бельгия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Pro League",
+        "slug": "pro-league",
+        "primaryColorHex": "#16002b",
+        "secondaryColorHex": "#ff1740",
+        "category": {
+          "name": "Belgium",
+          "slug": "belgium",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "BE",
+            "alpha3": "BEL",
+            "name": "Belgium",
+            "slug": "belgium"
+          },
+          "id": 33,
+          "flag": "belgium",
+          "alpha2": "BE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بلجيكا",
+              "ru": "Бельгия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 67584,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 38,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري المحترفين",
+            "bn": "প্রো লীগ",
+            "hi": "प्रो लीग"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 496,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 38,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الدوري الأول",
+          "bn": "ফার্স্ট ডিভিশন এ",
+          "hi": "फर्स्ट डिवीजन ए"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Pro League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 61459
+    },
+    "roundInfo": {
+      "round": 4
+    },
+    "customId": "VhbsHJfd",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "venue": {
+      "city": {
+        "name": "Sint- Truiden"
+      },
+      "venueCoordinates": {
+        "latitude": 50.813497,
+        "longitude": 5.166136
+      },
+      "hidden": true,
+      "slug": "stayen",
+      "name": "Stayen",
+      "capacity": 14600,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 1252,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ستاين",
+          "hi": "स्टेएन",
+          "bn": "স্টেইন"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Stayen",
+        "capacity": 14600
+      }
+    },
+    "referee": {
+      "name": "Michiel Allaerts",
+      "slug": "allaerts-michiel",
+      "yellowCards": 105,
+      "redCards": 3,
+      "yellowRedCards": 1,
+      "games": 29,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 788760,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ميشيل ألارتيز"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Sint-Truidense VV",
+      "slug": "sint-truidense-vv",
+      "shortName": "St. Truidense",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 23186,
+      "manager": {
+        "name": "Wouter Vrancken",
+        "slug": "wouter-vrancken",
+        "shortName": "W. Vrancken",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 790691,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ووتر فرانكين",
+            "bn": "ওয়াউটার ভ্র্যাঙ্কেন",
+            "hi": "वाउटर व्रानकेन"
+          },
+          "shortNameTranslation": {
+            "ar": "و. فرانكين",
+            "bn": "ডব্লিউ. ভ্র্যাঙ্কেন",
+            "hi": "डब्ल्यू. व्रानकेन"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Sint- Truiden"
+        },
+        "venueCoordinates": {
+          "latitude": 50.813497,
+          "longitude": 5.166136
+        },
+        "hidden": true,
+        "slug": "stayen",
+        "name": "Stayen",
+        "capacity": 14600,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 1252,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستاين",
+            "hi": "स्टेएन",
+            "bn": "স্টেইন"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stayen",
+          "capacity": 14600
+        }
+      },
+      "nameCode": "STT",
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 2895,
+      "fullName": "Sint-Truidense VV",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffff00",
+        "secondary": "#3333cc",
+        "text": "#3333cc"
+      },
+      "foundationDateTimestamp": -1447113600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سينت ترويدنس في في",
+          "ru": "Ст. Труйден"
+        },
+        "shortNameTranslation": {
+          "ar": "سانت ترويدنس"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "FCV Dender",
+      "slug": "fcv-dender-eh",
+      "shortName": "Dender ",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 12482,
+      "manager": {
+        "name": "Hayk Milkon",
+        "slug": "hayk-milkon",
+        "shortName": "H. Milkon",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 800578,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هايك ميلكون"
+          },
+          "shortNameTranslation": {
+            "ar": "هـ. ميلكون"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Denderleeuw"
+        },
+        "venueCoordinates": {
+          "latitude": 50.88506,
+          "longitude": 4.07601
+        },
+        "hidden": true,
+        "slug": "dender-football-complex",
+        "name": "Dender Football Complex",
+        "capacity": 6430,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 3006,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مجمع دندر لكرة القدم",
+            "hi": "डेंडर फुटबॉल कॉम्प्लेक्स",
+            "bn": "ডেন্ডার ফুটবল কমপ্লেক্স"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Dender Football Complex",
+          "capacity": 6430
+        }
+      },
+      "nameCode": "DEN",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 389232,
+      "fullName": "FCV Dender",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#0055ff",
+        "secondary": "#222226",
+        "text": "#222226"
+      },
+      "foundationDateTimestamp": 1120176000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إف سي في ديندر",
+          "ru": "ФКВ Дендер ЕХ"
+        },
+        "shortNameTranslation": {
+          "ar": "ديندر"
+        }
+      },
+      "createdByEditor": true,
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 2,
+      "period2": 1,
+      "normaltime": 3
+    },
+    "awayScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 1,
+      "period2": 2,
+      "normaltime": 3
+    },
+    "time": {
+      "injuryTime1": 3,
+      "injuryTime2": 5,
+      "currentPeriodStartTimestamp": 1723915368
+    },
+    "changes": {
+      "changes": [
+        "time.injuryTime2",
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1723918600
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12421009,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "fcv-dender-sint-truidense-vv",
+    "currentPeriodStartTimestamp": 1723915368,
+    "startTimestamp": 1723911300,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "BE",
+      "IR",
+      "GR",
+      "RU",
+      "CH",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

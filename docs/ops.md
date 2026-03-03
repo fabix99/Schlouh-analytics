@@ -1,5 +1,21 @@
 # Operations: scheduling and alerting
 
+## After a matchday (weekly sync)
+
+When new games have been played (e.g. after the weekend):
+
+1. **Discover** (if you added new competitions or seasons):  
+   `python src/discover_matches.py <competition> --seasons 2025-26`
+2. **Extract** new matches for each competition you care about. Include **player maps** so Scouts heatmaps stay up to date:  
+   `python src/extract_batch.py <competition> 2025-26 --extract-player-maps`  
+   (Omit `--extract-player-maps` for a faster run if you don’t need heatmaps.)
+3. **Pipeline** (rebuilds derived + processed, including heatmap parquet at step 18):  
+   `python scripts/run_pipeline.py`
+
+If you only need to backfill heatmaps for matches that already have lineups (e.g. after a one-off run without `--extract-player-maps`):  
+`python scripts/run_player_maps_season_all.py --season 2025-26`  
+then run the pipeline (or at least step 18).
+
 ## Recommended schedule
 
 Run the full pipeline after match days so derived and processed data stay up to date.

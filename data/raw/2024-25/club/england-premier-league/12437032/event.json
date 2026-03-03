@@ -1,0 +1,411 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Premier League",
+      "slug": "premier-league",
+      "category": {
+        "name": "England",
+        "slug": "england",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 1,
+        "flag": "england",
+        "alpha2": "EN",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إنجلترا",
+            "hi": "इंग्लैंड",
+            "bn": "ইংল্যান্ড",
+            "ru": "Англия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Premier League",
+        "slug": "premier-league",
+        "primaryColorHex": "#3c1c5a",
+        "secondaryColorHex": "#f80158",
+        "category": {
+          "name": "England",
+          "slug": "england",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
+          },
+          "id": 1,
+          "flag": "england",
+          "alpha2": "EN",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إنجلترا",
+              "hi": "इंग्लैंड",
+              "bn": "ইংল্যান্ড",
+              "ru": "Англия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1163098,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 17,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإنجليزي الممتاز",
+            "hi": "प्रिमियर लीग",
+            "bn": "প্রিমিয়ার লীগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 699,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 1,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "प्रिमियर लीग",
+          "ar": "الدوري الإنجليزي الممتاز",
+          "bn": "প্রিমিয়ার লীগ"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Premier League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 61627
+    },
+    "roundInfo": {
+      "round": 8
+    },
+    "customId": "NsU",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 60277,
+    "venue": {
+      "city": {
+        "name": "Liverpool"
+      },
+      "venueCoordinates": {
+        "latitude": 53.430916,
+        "longitude": -2.960931
+      },
+      "hidden": false,
+      "slug": "anfield",
+      "name": "Anfield",
+      "capacity": 61276,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 579,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أنفيلد",
+          "hi": "एनफील्ड",
+          "bn": "অ্যানফিল্ড"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Anfield",
+        "capacity": 61276
+      }
+    },
+    "referee": {
+      "name": "John Brooks",
+      "slug": "brooks-john",
+      "yellowCards": 1199,
+      "redCards": 25,
+      "yellowRedCards": 15,
+      "games": 302,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 785811,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بروكس، جون",
+          "bn": "ব্রুকস, জন",
+          "hi": "ब्रूक्स, जॉन"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "shortName": "Liverpool",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 3517681,
+      "manager": {
+        "name": "Arne Slot",
+        "slug": "arne-slot",
+        "shortName": "A. Slot",
+        "country": {
+          "alpha2": "NL",
+          "alpha3": "NLD",
+          "name": "Netherlands",
+          "slug": "netherlands"
+        },
+        "id": 787522,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أرني سلوت",
+            "bn": "আর্নে স্লট",
+            "hi": "अर्ने स्लॉट"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سلوت",
+            "bn": "এ. স্লট",
+            "hi": "ए. स्लॉट"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Liverpool"
+        },
+        "venueCoordinates": {
+          "latitude": 53.430916,
+          "longitude": -2.960931
+        },
+        "hidden": false,
+        "slug": "anfield",
+        "name": "Anfield",
+        "capacity": 61276,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 579,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنفيلد",
+            "hi": "एनफील्ड",
+            "bn": "অ্যানফিল্ড"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Anfield",
+          "capacity": 61276
+        }
+      },
+      "nameCode": "LIV",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 44,
+      "fullName": "Liverpool",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2455056000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ليفربول",
+          "bn": "লিভারপুল",
+          "hi": "लिवरपूल",
+          "ru": "Ливерпуль"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Chelsea",
+      "slug": "chelsea",
+      "shortName": "Chelsea",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 2905898,
+      "manager": {
+        "name": "Liam Rosenior",
+        "slug": "liam-rosenior",
+        "shortName": "L. Rosenior",
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 795173,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "Rosenior, Liam"
+          },
+          "shortNameTranslation": {
+            "ar": "L. Rosenior"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "London"
+        },
+        "venueCoordinates": {
+          "latitude": 51.481687,
+          "longitude": -0.191034
+        },
+        "hidden": false,
+        "slug": "stamford-bridge",
+        "name": "Stamford Bridge",
+        "capacity": 40341,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 799,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستامفورد بريدج",
+            "hi": "स्टैमफोर्ड ब्रिज",
+            "bn": "স্ট্যামফোর্ড ব্রিজ"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stamford Bridge",
+          "capacity": 40341
+        }
+      },
+      "nameCode": "CHE",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 38,
+      "fullName": "Chelsea",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#0310a7",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2045347200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "تشيلسي",
+          "bn": "চেলসি",
+          "hi": "चेल्सी",
+          "ru": "Челси"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 1,
+      "display": 1,
+      "period1": 0,
+      "period2": 1,
+      "normaltime": 1
+    },
+    "time": {
+      "injuryTime1": 5,
+      "injuryTime2": 7,
+      "currentPeriodStartTimestamp": 1729442465
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1729445617
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12437032,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "liverpool-chelsea",
+    "currentPeriodStartTimestamp": 1729442465,
+    "startTimestamp": 1729438200,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

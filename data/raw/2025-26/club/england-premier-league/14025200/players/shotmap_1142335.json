@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Archie Gray",
+        "firstName": "Archie Gray",
+        "slug": "archie-gray",
+        "shortName": "A. Gray",
+        "position": "D",
+        "jerseyNumber": "14",
+        "userCount": 5672,
+        "gender": "M",
+        "sofascoreId": "ArchieGray06",
+        "id": 1142335,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آرتشي غراي",
+            "bn": "আর্চি গ্রে",
+            "hi": "आर्ची ग्रे"
+          },
+          "shortNameTranslation": {
+            "ar": "آ. غراي",
+            "bn": "এ. গ্রে",
+            "hi": "ए. ग्रे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 3.6,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.1,
+        "z": 20.3
+      },
+      "xg": 0.56648600101471,
+      "xgot": 0.69971060752869,
+      "goalkeeper": {
+        "name": "Nick Pope",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nick-pope",
+        "shortName": "N. Pope",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 4735,
+        "gender": "M",
+        "sofascoreId": "npope29",
+        "id": 162653,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيك بوب",
+            "bn": "নিক পোপ",
+            "hi": "निक पोप"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. بوب",
+            "bn": "এন. পোপ",
+            "hi": "एन. पोप"
+          }
+        }
+      },
+      "id": 6688792,
+      "time": 64,
+      "timeSeconds": 3810,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 3.6
+        },
+        "end": {
+          "x": 49.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.9,
+          "y": 79.7
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1590,
+      "periodTimeSeconds": 1110,
+      "incidentType": "shot"
+    }
+  ]
+}

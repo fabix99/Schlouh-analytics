@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Stefano Moreo",
+        "slug": "stefano-moreo",
+        "shortName": "S. Moreo",
+        "position": "F",
+        "jerseyNumber": "32",
+        "userCount": 646,
+        "gender": "M",
+        "id": 346948,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستيفانو موريي"
+          },
+          "shortNameTranslation": {
+            "ar": "س. موريي"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.2,
+        "y": 53.6,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 37,
+        "z": 22.2
+      },
+      "blockCoordinates": {
+        "x": 2,
+        "y": 61.7,
+        "z": 0
+      },
+      "xg": 0.023502400144935,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mike Maignan",
+        "slug": "mike-maignan",
+        "shortName": "M. Maignan",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 15432,
+        "gender": "M",
+        "sofascoreId": "MMaignan",
+        "id": 191210,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايك مانيان",
+            "bn": "মাইক ম্যাগনান",
+            "hi": "माइक मैग्नन"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ميانيان",
+            "bn": "এম. ম্যাগনান",
+            "hi": "एम. मैग्नन"
+          }
+        }
+      },
+      "id": 6703442,
+      "time": 30,
+      "timeSeconds": 1778,
+      "draw": {
+        "start": {
+          "x": 53.6,
+          "y": 13.2
+        },
+        "block": {
+          "x": 61.7,
+          "y": 2
+        },
+        "end": {
+          "x": 63,
+          "y": 0
+        },
+        "goal": {
+          "x": 63,
+          "y": 77.8
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 922,
+      "periodTimeSeconds": 1778,
+      "incidentType": "shot"
+    }
+  ]
+}

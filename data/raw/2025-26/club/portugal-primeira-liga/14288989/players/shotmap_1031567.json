@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Pau Víctor",
+        "slug": "pau-victor",
+        "shortName": "P. Víctor",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 38289,
+        "gender": "M",
+        "sofascoreId": "PauVíctor",
+        "id": 1031567,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باو فيكتور",
+            "bn": "পাউ ভিক্টর",
+            "hi": "पॉ विक्टर"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيكتور",
+            "bn": "জু পি. ভিক্টর",
+            "hi": "पी. विक्टर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 10,
+        "y": 44.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8,
+        "y": 45.5,
+        "z": 0
+      },
+      "xg": 0.14828152954578,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ennio Van Der Gouw",
+        "slug": "ennio-van-der-gouw",
+        "shortName": "E. V. D. Gouw",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 78,
+        "gender": "M",
+        "id": 1005270,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إنيو فان دير غاو"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. فان دير غاو"
+          }
+        }
+      },
+      "id": 6670988,
+      "time": 58,
+      "timeSeconds": 3477,
+      "draw": {
+        "start": {
+          "x": 44.3,
+          "y": 10
+        },
+        "block": {
+          "x": 45.5,
+          "y": 8
+        },
+        "end": {
+          "x": 50.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1923,
+      "periodTimeSeconds": 777,
+      "incidentType": "shot"
+    }
+  ]
+}

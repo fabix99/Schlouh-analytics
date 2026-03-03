@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bakery Jatta",
+        "slug": "bakery-jatta",
+        "shortName": "B. Jatta",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 438,
+        "gender": "M",
+        "id": 842526,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باكاري جاتا",
+            "bn": "বেকারি জট্টা",
+            "hi": "बेकरी जट्टा"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. جاتا",
+            "bn": "বি. জাট্টা",
+            "hi": "बी. जट्टा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 12.3,
+        "y": 33.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.6,
+        "y": 35.7,
+        "z": 0
+      },
+      "xg": 0.076297283172607,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Frederik Rønnow",
+        "slug": "frederik-ronnow",
+        "shortName": "F. Rønnow",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 627,
+        "gender": "M",
+        "id": 137692,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فريدريك رونو",
+            "bn": "ফ্রেডরিক রননো",
+            "hi": "फ्रेडरिक रोन्नो"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. رونو",
+            "bn": "এফ. রননো",
+            "hi": "एफ. रोन्नो"
+          }
+        }
+      },
+      "id": 6706972,
+      "time": 3,
+      "timeSeconds": 128,
+      "draw": {
+        "start": {
+          "x": 33.6,
+          "y": 12.3
+        },
+        "block": {
+          "x": 35.7,
+          "y": 10.6
+        },
+        "end": {
+          "x": 49,
+          "y": 0
+        },
+        "goal": {
+          "x": 49,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 43,
+      "reversedPeriodTimeSeconds": 2572,
+      "periodTimeSeconds": 128,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Serginho",
+        "slug": "serginho",
+        "shortName": "Serginho",
+        "position": "M",
+        "jerseyNumber": "35",
+        "userCount": 94,
+        "gender": "M",
+        "id": 1019184,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرجينيو"
+          },
+          "shortNameTranslation": {
+            "ar": "سيرجينيو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 19.5,
+        "y": 67.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.4,
+        "y": 60.1,
+        "z": 0
+      },
+      "xg": 0.044855892658234,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Joel Robles",
+        "slug": "joel-robles",
+        "shortName": "J. Robles",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 156,
+        "gender": "M",
+        "id": 93796,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جويل روبلز",
+            "bn": "জোয়েল রোবেলস",
+            "hi": "जोएल रोबल्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. روبلز",
+            "bn": "জে. রোবেলস",
+            "hi": "जे. रोबल्स"
+          }
+        }
+      },
+      "id": 6615676,
+      "time": 12,
+      "timeSeconds": 702,
+      "draw": {
+        "start": {
+          "x": 67.8,
+          "y": 19.5
+        },
+        "block": {
+          "x": 60.1,
+          "y": 11.4
+        },
+        "end": {
+          "x": 49.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 1998,
+      "periodTimeSeconds": 702,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Riyad Mahrez",
+        "slug": "riyad-mahrez",
+        "shortName": "R. Mahrez",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 70704,
+        "gender": "M",
+        "sofascoreId": "RMahrez",
+        "id": 158213,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رياض محرز",
+            "bn": "রিয়াদ মাহরেজ",
+            "hi": "रियाद महरेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. محرز",
+            "bn": "আর. মাহরেজ",
+            "hi": "आर. महरेज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 24.6,
+        "y": 57,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 58.8,
+        "z": 62.5
+      },
+      "xg": 0.040803760290146,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Marek Rodák",
+        "slug": "marek-rodak",
+        "shortName": "M. Rodák",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 523,
+        "gender": "M",
+        "id": 358694,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماريك روداك",
+            "bn": "মারেক রডাক",
+            "hi": "मारेक रोडाक"
+          },
+          "shortNameTranslation": {
+            "ar": "م. روداك",
+            "bn": "এম. রডাক",
+            "hi": "एम. रोडाक"
+          }
+        }
+      },
+      "id": 6602193,
+      "time": 51,
+      "timeSeconds": 3020,
+      "draw": {
+        "start": {
+          "x": 57,
+          "y": 24.6
+        },
+        "end": {
+          "x": 41.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 41.2,
+          "y": 37.5
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2380,
+      "periodTimeSeconds": 320,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -7,13 +7,9 @@ Usage:
     from dashboard.components import FilterPanel, SearchInput, PlayerCard
 
 Structure:
-    filters.py      - Filter components (FilterState, debouncing, badges)
-    search.py       - Search components (debounced search, recent searches)
-    player_cards.py - Player display components
-    charts.py       - Chart/visualization components
-    forms.py        - Form input components
-    feedback.py     - Loading states, empty states, error states
-    layout.py       - Layout helpers and containers
+    Re-exports from dashboard.utils: filter_components (FilterState, debouncing, badges),
+    search_components (debounced search, recent searches), filters. Charts and layout
+    helpers live in dashboard.utils.charts and dashboard.utils.components.
 """
 
 # Filter Components (from Phase 1 Sprint 1.1)

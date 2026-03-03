@@ -1,0 +1,444 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Bundesliga",
+      "slug": "bundesliga",
+      "category": {
+        "name": "Germany",
+        "slug": "germany",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 30,
+        "flag": "germany",
+        "alpha2": "DE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألمانيا",
+            "bn": "জার্মানি",
+            "hi": "जर्मनी",
+            "ru": "Германия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Bundesliga",
+        "slug": "bundesliga",
+        "primaryColorHex": "#e2080e",
+        "secondaryColorHex": "#8e0902",
+        "category": {
+          "name": "Germany",
+          "slug": "germany",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "DE",
+            "alpha3": "DEU",
+            "name": "Germany",
+            "slug": "germany"
+          },
+          "id": 30,
+          "flag": "germany",
+          "alpha2": "DE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألمانيا",
+              "bn": "জার্মানি",
+              "hi": "जर्मनी",
+              "ru": "Германия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 508922,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 35,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "বুন্দেসলীগা",
+            "ar": "الدوري الألماني",
+            "hi": "बुंडेसलीगा"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 695,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 42,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "बुंडेसलीगा",
+          "ar": "الدوري الألماني",
+          "bn": "বুন্দেসলীগা"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Bundesliga 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 63516
+    },
+    "roundInfo": {
+      "round": 11
+    },
+    "customId": "RabsCdb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 59000,
+    "venue": {
+      "city": {
+        "name": "Stuttgart"
+      },
+      "venueCoordinates": {
+        "latitude": 48.792249,
+        "longitude": 9.232086
+      },
+      "hidden": false,
+      "slug": "mhp-arena",
+      "name": "MHP Arena",
+      "capacity": 60449,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 648,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "MHP أرينا",
+          "hi": "एमएचपी एरिना",
+          "bn": "এমএইচপি এরিনা"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "MHP Arena",
+        "capacity": 60449
+      }
+    },
+    "referee": {
+      "name": "Benjamin Brand",
+      "slug": "brand-benjamin",
+      "yellowCards": 935,
+      "redCards": 23,
+      "yellowRedCards": 21,
+      "games": 232,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 102956,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "براند، بنجامين",
+          "bn": "ব্র্যান্ড, বেঞ্জামিন",
+          "hi": "ब्रांड, बेंजामिन"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "VfB Stuttgart",
+      "slug": "vfb-stuttgart",
+      "shortName": "Stuttgart",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 235313,
+      "manager": {
+        "name": "Sebastian Hoeneß",
+        "slug": "sebastian-hoeness",
+        "shortName": "S. Hoeneß",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 792136,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيباستيان هوينس",
+            "bn": "সেবাস্টিয়ান হোয়েনেস",
+            "hi": "सेबेस्टियन होएनेस"
+          },
+          "shortNameTranslation": {
+            "ar": "س. هوينس",
+            "bn": "এস. হোয়েনেস",
+            "hi": "एस. होएनेस"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Stuttgart"
+        },
+        "venueCoordinates": {
+          "latitude": 48.792249,
+          "longitude": 9.232086
+        },
+        "hidden": false,
+        "slug": "mhp-arena",
+        "name": "MHP Arena",
+        "capacity": 60449,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 648,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "MHP أرينا",
+            "hi": "एमएचपी एरिना",
+            "bn": "এমএইচপি এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "MHP Arena",
+          "capacity": 60449
+        }
+      },
+      "nameCode": "VFB",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2677,
+      "fullName": "VfB Stuttgart",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#ff0000",
+        "text": "#ff0000"
+      },
+      "foundationDateTimestamp": -2408140800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "شتوتجارت",
+          "hi": "VFB स्टुटगार्ट",
+          "ru": "Штутгарт"
+        },
+        "shortNameTranslation": {
+          "ar": "شتوتغارت",
+          "bn": "স্টুটগার্ট",
+          "hi": "स्टुटगार्ट"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "VfL Bochum 1848",
+      "slug": "vfl-bochum-1848",
+      "shortName": "Bochum",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 51661,
+      "manager": {
+        "name": "Uwe Rösler",
+        "slug": "uwe-rosler",
+        "shortName": "U. Rösler",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 53095,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوفيه روزلر",
+            "bn": "উয়ে রোসলার",
+            "hi": "उवे रोस्लर"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. روزلر",
+            "bn": "ইউ. রোসলার",
+            "hi": "यू. रोस्लर"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bochum"
+        },
+        "venueCoordinates": {
+          "latitude": 51.490083,
+          "longitude": 7.236509
+        },
+        "hidden": false,
+        "slug": "vonovia-ruhrstadion",
+        "name": "Vonovia Ruhrstadion",
+        "capacity": 27559,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 738,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب فونوفيا روهر",
+            "hi": "वोनोविया रुहरस्टेडियन",
+            "bn": "ভোনোভিয়া রুহরস্টেডিয়ন"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Vonovia Ruhrstadion",
+          "capacity": 27559
+        }
+      },
+      "nameCode": "BOC",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2542,
+      "fullName": "VfL Bochum 1848",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#6666ff",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -3832099200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "في إف إل بوخوم 1848",
+          "ru": "Бохум"
+        },
+        "shortNameTranslation": {
+          "ar": "بوخوم",
+          "bn": "বোচুম",
+          "hi": "बोचुम"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 0,
+      "injuryTime2": 3,
+      "currentPeriodStartTimestamp": 1732376041
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1732378982
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12499808,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "vfb-stuttgart-vfl-bochum-1848",
+    "currentPeriodStartTimestamp": 1732376041,
+    "startTimestamp": 1732372200,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "??",
+      "AN",
+      "AS",
+      "AT",
+      "CH",
+      "CU",
+      "DE",
+      "GU",
+      "IR",
+      "KP",
+      "LI",
+      "LU",
+      "MP",
+      "PR",
+      "SY",
+      "US",
+      "VE",
+      "VI",
+      "GR",
+      "RU",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

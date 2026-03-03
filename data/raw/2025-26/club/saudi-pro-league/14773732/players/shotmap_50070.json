@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Alexandre Lacazette",
+        "firstName": "",
+        "lastName": "",
+        "slug": "alexandre-lacazette",
+        "shortName": "A. Lacazette",
+        "position": "F",
+        "jerseyNumber": "91",
+        "userCount": 9397,
+        "gender": "M",
+        "sofascoreId": "lacazettealex",
+        "id": 50070,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر لاكازيت",
+            "bn": "আলেকজান্ডার ল্যাকাজেট",
+            "hi": "एलेक्ज़ेंडर लैकाज़ेट"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. لاكازيت",
+            "bn": "এ. ল্যাকাজেট",
+            "hi": "ए. लैकाज़ेट"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.9,
+        "y": 59.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.2,
+        "z": 28.5
+      },
+      "goalkeeper": {
+        "name": "Milan Borjan",
+        "slug": "milan-borjan",
+        "shortName": "M. Borjan",
+        "position": "G",
+        "jerseyNumber": "82",
+        "userCount": 811,
+        "gender": "M",
+        "id": 79413,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميلان بوريان",
+            "bn": "মিলান বোরজান",
+            "hi": "मिलन बोरजान"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بوريان",
+            "bn": "এম. বোরজান",
+            "hi": "एम. बोरजान"
+          }
+        }
+      },
+      "id": 6654375,
+      "time": 55,
+      "timeSeconds": 3269,
+      "draw": {
+        "start": {
+          "x": 59.5,
+          "y": 12.9
+        },
+        "end": {
+          "x": 45.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.8,
+          "y": 71.5
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2131,
+      "periodTimeSeconds": 569,
+      "incidentType": "shot"
+    }
+  ]
+}

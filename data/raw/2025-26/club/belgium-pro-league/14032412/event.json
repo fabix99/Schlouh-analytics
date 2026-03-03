@@ -1,0 +1,414 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": false,
+    "correctHalftimeAiInsight": false,
+    "tournament": {
+      "name": "Pro League",
+      "slug": "pro-league",
+      "category": {
+        "name": "Belgium",
+        "slug": "belgium",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 33,
+        "flag": "belgium",
+        "alpha2": "BE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بلجيكا",
+            "ru": "Бельгия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Pro League",
+        "slug": "pro-league",
+        "primaryColorHex": "#16002b",
+        "secondaryColorHex": "#ff1740",
+        "category": {
+          "name": "Belgium",
+          "slug": "belgium",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "BE",
+            "alpha3": "BEL",
+            "name": "Belgium",
+            "slug": "belgium"
+          },
+          "id": 33,
+          "flag": "belgium",
+          "alpha2": "BE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بلجيكا",
+              "ru": "Бельгия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 67584,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 38,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري المحترفين",
+            "bn": "প্রো লীগ",
+            "hi": "प्रो लीग"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 496,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 38,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الدوري الأول",
+          "bn": "ফার্স্ট ডিভিশন এ",
+          "hi": "फर्स्ट डिवीजन ए"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Pro League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 77040
+    },
+    "roundInfo": {
+      "round": 25
+    },
+    "customId": "OhbsThb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "venue": {
+      "city": {
+        "name": "Antwerp"
+      },
+      "venueCoordinates": {
+        "latitude": 51.23257,
+        "longitude": 4.471772
+      },
+      "hidden": true,
+      "slug": "bosuilstadion",
+      "name": "Bosuilstadion",
+      "capacity": 21000,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 3056,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب بوسويل",
+          "hi": "बोसुइलस्टेडियन",
+          "bn": "বোসুইলস্টেডিয়ন"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Bosuilstadion",
+        "capacity": 21000
+      }
+    },
+    "referee": {
+      "name": "Bert Verbeke",
+      "slug": "bert-verbeke",
+      "yellowCards": 69,
+      "redCards": 1,
+      "yellowRedCards": 0,
+      "games": 23,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "NL",
+        "alpha3": "NLD",
+        "name": "Netherlands",
+        "slug": "netherlands"
+      },
+      "id": 789836,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بيرت فيربيك"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Royal Antwerp FC",
+      "slug": "royal-antwerp-fc",
+      "shortName": "Royal Antwerp",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 70306,
+      "manager": {
+        "name": "Joseph Oosting",
+        "slug": "joseph-oosting",
+        "shortName": "J. Oosting",
+        "country": {
+          "alpha2": "NL",
+          "alpha3": "NLD",
+          "name": "Netherlands",
+          "slug": "netherlands"
+        },
+        "id": 793944,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوزيف أوستينغ"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. أوستينغ"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Antwerp"
+        },
+        "venueCoordinates": {
+          "latitude": 51.23257,
+          "longitude": 4.471772
+        },
+        "hidden": true,
+        "slug": "bosuilstadion",
+        "name": "Bosuilstadion",
+        "capacity": 21000,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 3056,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب بوسويل",
+            "hi": "बोसुइलस्टेडियन",
+            "bn": "বোসুইলস্টেডিয়ন"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Bosuilstadion",
+          "capacity": 21000
+        }
+      },
+      "nameCode": "RAFC",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 2889,
+      "fullName": "Royal Antwerp FC",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#d10f2f",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2819059200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إف سي أنتويربين",
+          "hi": "ऍफ़सी एंटवेर्प",
+          "ru": "Антверпен"
+        },
+        "shortNameTranslation": {
+          "ar": "رويال أنتويرب",
+          "bn": "রয়্যাল এন্টওয়ার্প",
+          "hi": "रॉयल एंटवर्प"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "KVC Westerlo",
+      "slug": "kvc-westerlo",
+      "shortName": "Westerlo",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 19671,
+      "manager": {
+        "name": "Issame Charai",
+        "slug": "issame-charai",
+        "shortName": "I. Charai",
+        "country": {
+          "alpha2": "MA",
+          "alpha3": "MAR",
+          "name": "Morocco",
+          "slug": "morocco"
+        },
+        "id": 801193,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيسام شراي"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. شراي"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Westerlo"
+        },
+        "venueCoordinates": {
+          "latitude": 51.09049,
+          "longitude": 4.91544
+        },
+        "hidden": true,
+        "slug": "het-kuipje",
+        "name": "Het Kuipje",
+        "capacity": 7982,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 1249,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيت كويبجي",
+            "hi": "हेट कुइपजे",
+            "bn": "হেট কুইপজে"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Het Kuipje",
+          "capacity": 7982
+        }
+      },
+      "nameCode": "WES",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 2893,
+      "fullName": "KVC Westerlo",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffff00",
+        "secondary": "#3366ff",
+        "text": "#3366ff"
+      },
+      "foundationDateTimestamp": -1146268800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "في سي ويستيرلو",
+          "ru": "КВК Вестерло"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1771171399
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1771174471
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14032412,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "kvc-westerlo-royal-antwerp-fc",
+    "currentPeriodStartTimestamp": 1771171399,
+    "startTimestamp": 1771167600,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "club"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

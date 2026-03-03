@@ -43,7 +43,12 @@ def main():
                 "n_available": n_available,
                 "is_current": True,
             }
-            rec["avg_rating"] = last["stat_rating"].mean() if "stat_rating" in last.columns else np.nan
+            if "stat_rating" in last.columns:
+                r = last["stat_rating"].dropna()
+                r = r / 2.0 if r.max() > 10 else r
+                rec["avg_rating"] = r.mean()
+            else:
+                rec["avg_rating"] = np.nan
             rec["goals"] = last["stat_goals"].sum() if "stat_goals" in last.columns else 0
             rec["assists"] = last["stat_goalAssist"].sum() if "stat_goalAssist" in last.columns else 0
             rec["xg_total"] = last["stat_expectedGoals"].sum() if "stat_expectedGoals" in last.columns else np.nan

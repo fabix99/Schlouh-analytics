@@ -1,0 +1,112 @@
+{
+  "predictions": {
+    "yellowCards": 3,
+    "corners": 8,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 1
+  },
+  "sections": [
+    {
+      "subtitle": "Recent Form",
+      "text": "Manchester United have shown decent form in their last 5 matches with 2 wins, 2 draws, and 1 loss, scoring consistently but failing to keep clean sheets in 4 of those games. Arsenal, on the other hand, have had mixed results with 3 wins and 2 losses, showing attacking intent but defensive vulnerabilities, especially in recent high-scoring games."
+    },
+    {
+      "subtitle": "Head-to-Head Record",
+      "text": "The last two encounters between Manchester United and Arsenal ended in 1-1 draws, indicating closely contested matches with both teams scoring. Arsenal have historically dominated recent head-to-heads with 4 wins in the last 5 matchups against Manchester United, suggesting a slight edge."
+    },
+    {
+      "subtitle": "Key Players",
+      "text": "Bruno Fernandes has been in form for Manchester United, contributing with assists and a high Sofascore rating of 7.72. Arsenal’s Bukayo Saka has been a standout with 2 goals and 1 assist in the last 5 matches, posing a significant threat."
+    },
+    {
+      "subtitle": "Statistical Insights",
+      "text": "Both teams have shown a tendency for games with both teams scoring, with Manchester United at 5/6 and Arsenal often involved in high-shot games. Corners and cards are likely to be under typical thresholds, based on team streaks showing less than 10.5 corners and 4.5 cards in recent matches."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Manchester United",
+      "slug": "manchester-united",
+      "shortName": "Man Utd",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 3247161,
+      "nameCode": "MUN",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 35,
+      "teamColors": {
+        "primary": "#ff0000",
+        "secondary": "#373737",
+        "text": "#373737"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مانتشستر يونايتد",
+          "hi": "मेनचेस्टर यूनाइटेड ऍफ़सी",
+          "ru": "Манчестер Юнайтед"
+        },
+        "shortNameTranslation": {
+          "ar": "مان يونايتد",
+          "bn": "ম্যান ইউনাইটেড",
+          "hi": "मैन यूनाइटेड"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Matheus Cunha",
+      "slug": "matheus-cunha",
+      "shortName": "M. Cunha",
+      "position": "F",
+      "jerseyNumber": "10",
+      "userCount": 69976,
+      "gender": "M",
+      "sofascoreId": "Cunha",
+      "id": 886363,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ماثيوس كونيا",
+          "bn": "ম্যাথিউস কুনহা",
+          "hi": "मैथियस कुन्हा"
+        },
+        "shortNameTranslation": {
+          "ar": "م. كونيا",
+          "bn": "এম. কুনহা",
+          "hi": "एम. कुन्हा"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Half-time overview",
+      "text": "At half-time, Arsenal lead Manchester United 1-0 at Old Trafford. The visitors struck early through a headed goal by Riccardo Calafiori in the 13th minute, capitalizing on a defensive lapse from United. Despite trailing, Manchester United have shown resilience with a higher share of possession and more shots on target. Arsenal, however, have been clinical with their limited opportunities, converting one big chance into the decisive goal. Both teams have been evenly matched in terms of physicality, with United slightly edging out in duels and aerial challenges."
+    },
+    {
+      "subtitle": "Attack momentum analysis",
+      "text": "The first half saw fluctuating momentum between the two sides. Manchester United started with strong attacking intent, dominating the early minutes with persistent pressure in the opposition's half. Around the time of Arsenal's goal, there was a clear shift as the visitors gained confidence and mounted a series of dangerous attacks. As the half progressed, United regained control with several attacking spells, pushing forward aggressively. Towards the end of the half, Arsenal responded with renewed vigor, creating threats on the counter. The momentum swings indicate an open game with both teams capable of seizing the initiative."
+    },
+    {
+      "subtitle": "Manchester United's performance",
+      "text": "Manchester United have shown promise in their attacking play, with notable contributions in the final third and penalty area entries. Players like Bruno Fernandes and Mason Mount have been pivotal in creating opportunities through key passes. Defensively, Leny Yoro and Matthijs de Ligt have been solid with crucial clearances, though they couldn’t prevent Arsenal’s early goal. United's higher possession and shot count suggest they have the tools to turn the game around, but they need to be more clinical in front of goal after hitting the woodwork and failing to convert their chances."
+    },
+    {
+      "subtitle": "Arsenal's performance",
+      "text": "Arsenal have been efficient despite having less possession than their hosts. Riccardo Calafiori’s goal and overall performance have been standout, earning him a high rating so far. The Gunners have made the most of their penalty area entries, showing a direct approach in attack. Defensively, William Saliba and Ben White have been key in thwarting United’s advances with timely clearances and interceptions. However, Arsenal’s lower duel success rate hints at vulnerability if United continue to press physically in the second half."
+    },
+    {
+      "subtitle": "Key areas to watch",
+      "text": "The second half will likely hinge on Manchester United’s ability to convert their possession and final third dominance into goals. Players like Matheus Cunha, with multiple shots on target, could be crucial in breaking through Arsenal’s defense. On the other side, Arsenal will aim to exploit counter-attacking opportunities, relying on the creativity of Martin Ødegaard and the pace of Gabriel Martinelli. Discipline will also be critical, as Arsenal already have a yellow card, and any further bookings could tilt the balance in United’s favor."
+    }
+  ],
+  "modelName": "Grok3"
+}

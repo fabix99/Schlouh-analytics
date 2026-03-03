@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Gustavo Scarpa",
+        "slug": "gustavo-scarpa",
+        "shortName": "G. Scarpa",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 5525,
+        "gender": "M",
+        "sofascoreId": "gustavoscarpa10",
+        "id": 559036,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوستافو سكاربا",
+            "bn": "গুস্তাভো স্কারপা",
+            "hi": "गुस्तावो स्कार्पा"
+          },
+          "shortNameTranslation": {
+            "ar": "غوستافو سكاربا",
+            "bn": "গুস্তাভো স্কারপা",
+            "hi": "गुस्तावो स्कार्पा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 23.3,
+        "y": 58.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 21.5,
+        "y": 58.3,
+        "z": 0
+      },
+      "xg": 0.0099921375513077,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Carlos Miguel",
+        "slug": "carlos-miguel",
+        "shortName": "C. Miguel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5560,
+        "gender": "M",
+        "id": 973738,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس ميغيل",
+            "bn": "কার্লোস মিগুয়েল",
+            "hi": "कार्लोस मिगुएल"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. ميغيل",
+            "bn": "সি. মিগুয়েল",
+            "hi": "सी. मिगुएल"
+          }
+        }
+      },
+      "id": 6603165,
+      "time": 87,
+      "timeSeconds": 5168,
+      "draw": {
+        "start": {
+          "x": 58.8,
+          "y": 23.3
+        },
+        "block": {
+          "x": 58.3,
+          "y": 21.5
+        },
+        "end": {
+          "x": 52.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 232,
+      "periodTimeSeconds": 2468,
+      "incidentType": "shot"
+    }
+  ]
+}

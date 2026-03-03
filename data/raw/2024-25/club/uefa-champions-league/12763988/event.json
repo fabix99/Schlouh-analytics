@@ -1,0 +1,401 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1184603,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 61644
+    },
+    "roundInfo": {
+      "round": 3
+    },
+    "customId": "THsLgb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 61197,
+    "venue": {
+      "city": {
+        "name": "Madrid"
+      },
+      "venueCoordinates": {
+        "latitude": 40.436053,
+        "longitude": -3.599716
+      },
+      "hidden": false,
+      "slug": "c-vitas-metropolitano",
+      "name": "Riyadh Air Metropolitano",
+      "capacity": 70460,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 18391,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سيفيتاس ميتروبوليتانو",
+          "hi": "सिविटास मेट्रोपोलिटानो",
+          "bn": "সিভিটাস মেট্রোপলিটানো"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Riyadh Air Metropolitano",
+        "capacity": 70460
+      }
+    },
+    "referee": {
+      "name": "Marco Guida",
+      "slug": "guida-marco",
+      "yellowCards": 1482,
+      "redCards": 46,
+      "yellowRedCards": 30,
+      "games": 318,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 76140,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "غويدا، ماركو",
+          "bn": "গুইদা, মার্কো",
+          "hi": "गुइदा, मार्को"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Atlético Madrid",
+      "slug": "atletico-madrid",
+      "shortName": "Atl. Madrid",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 2178345,
+      "manager": {
+        "name": "Diego Simeone",
+        "slug": "diego-simeone",
+        "shortName": "D. Simeone",
+        "country": {
+          "alpha2": "AR",
+          "alpha3": "ARG",
+          "name": "Argentina",
+          "slug": "argentina"
+        },
+        "id": 53376,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دييغو سيميوني",
+            "bn": "দিয়েগো সিমিওনে",
+            "hi": "डिएगो सिमोन"
+          },
+          "shortNameTranslation": {
+            "ar": "د. سيميوني",
+            "bn": "ডি. সিমিওনে",
+            "hi": "डी. सिमोन"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Madrid"
+        },
+        "venueCoordinates": {
+          "latitude": 40.436053,
+          "longitude": -3.599716
+        },
+        "hidden": false,
+        "slug": "c-vitas-metropolitano",
+        "name": "Riyadh Air Metropolitano",
+        "capacity": 70460,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 18391,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيفيتاس ميتروبوليتانو",
+            "hi": "सिविटास मेट्रोपोलिटानो",
+            "bn": "সিভিটাস মেট্রোপলিটানো"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Riyadh Air Metropolitano",
+          "capacity": 70460
+        }
+      },
+      "nameCode": "ATM",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 2836,
+      "fullName": "Atlético Madrid",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#c40000",
+        "text": "#c40000"
+      },
+      "foundationDateTimestamp": -2104444800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أتلتيكو مدريد",
+          "hi": "एटलेटिको मैड्रिड",
+          "ru": "Атлетико Мадрид"
+        },
+        "shortNameTranslation": {
+          "ar": "أتل. مدريد",
+          "bn": "এটিএল. মাদ্রিদ"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Lille",
+      "slug": "lille",
+      "shortName": "Lille",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 304499,
+      "manager": {
+        "name": "Bruno Genesio",
+        "slug": "bruno-genesio",
+        "shortName": "B. Genesio",
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 786396,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برونو جينيسيو"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. جينيسيو"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Lille"
+        },
+        "venueCoordinates": {
+          "latitude": 50.611904,
+          "longitude": 3.130508
+        },
+        "hidden": false,
+        "slug": "decathlon-arena-stade-pierre-mauroy",
+        "name": "Decathlon Arena - Stade Pierre Mauroy",
+        "capacity": 50186,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 837,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديكاتلون أرينا - ملعب بيير موروا",
+            "hi": "डेकाथलॉन एरिना - स्टेड पियरे मौरॉय",
+            "bn": "ডেকাথলন এরিনা - স্টেড পিয়েরে মাউরয়"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Decathlon Arena - Stade Pierre Mauroy",
+          "capacity": 50186
+        }
+      },
+      "nameCode": "LIL",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1643,
+      "fullName": "Lille",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#df0000",
+        "secondary": "#24216a",
+        "text": "#24216a"
+      },
+      "foundationDateTimestamp": -797558400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ليل",
+          "bn": "লিল",
+          "hi": "लिली",
+          "ru": "Лилль"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 1,
+      "display": 1,
+      "period1": 1,
+      "period2": 0,
+      "normaltime": 1
+    },
+    "awayScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 0,
+      "period2": 3,
+      "normaltime": 3
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 2,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1729713976
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1729717045
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12763988,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "atletico-madrid-lille",
+    "currentPeriodStartTimestamp": 1729713976,
+    "startTimestamp": 1729710000,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

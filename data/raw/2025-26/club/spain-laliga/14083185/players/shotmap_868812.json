@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Vinícius Júnior",
+        "slug": "vinicius-junior",
+        "shortName": "Vinícius Jr.",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 1197093,
+        "gender": "M",
+        "sofascoreId": "ViniJr",
+        "id": 868812,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فينيسيوس جونيور",
+            "bn": "ভিনিসিয়াস জুনিয়র",
+            "hi": "विनीसियस जूनियर"
+          },
+          "shortNameTranslation": {
+            "ar": "فينيسيوس",
+            "bn": "ভিনিসিয়াস",
+            "hi": "विनीसियस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.9,
+        "y": 27.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.7,
+        "z": 1.9
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 45.1,
+        "z": 0
+      },
+      "xg": 0.020424393936992,
+      "xgot": 0.11154928803444,
+      "goalkeeper": {
+        "name": "Odysseas Vlachodimos",
+        "firstName": "",
+        "lastName": "",
+        "slug": "odysseas-vlachodimos",
+        "shortName": "O. Vlachodimos",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2904,
+        "gender": "M",
+        "id": 138149,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوديسياس فلاكوديموس",
+            "bn": "ওডেসিয়াস ভ্লাচোডিমোস",
+            "hi": "ओडिसीस व्लाचोदिमोस"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فلاكوديموس",
+            "bn": "ও. ভ্লাচোডিমোস",
+            "hi": "ओ. व्लाचोदिमोस"
+          }
+        }
+      },
+      "id": 6387087,
+      "time": 71,
+      "timeSeconds": 4235,
+      "draw": {
+        "start": {
+          "x": 27.6,
+          "y": 10.9
+        },
+        "block": {
+          "x": 45.1,
+          "y": 1.4
+        },
+        "end": {
+          "x": 47.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.3,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1165,
+      "periodTimeSeconds": 1535,
+      "incidentType": "shot"
+    }
+  ]
+}

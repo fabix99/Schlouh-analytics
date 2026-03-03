@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Chancel Mbemba",
+        "slug": "chancel-mbemba",
+        "shortName": "C. Mbemba",
+        "position": "D",
+        "jerseyNumber": "18",
+        "userCount": 35939,
+        "gender": "M",
+        "sofascoreId": "chancel22",
+        "id": 238612,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "شانسيل مبيمبا",
+            "bn": "চ্যান্সেল এমবেম্বা",
+            "hi": "चांसेल मबेम्बा"
+          },
+          "shortNameTranslation": {
+            "ar": "ش. مبيمبا",
+            "bn": "সি. এমবেম্বা",
+            "hi": "सी. मबेम्बा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 13.4,
+        "y": 46.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.6,
+        "z": 24.7
+      },
+      "blockCoordinates": {
+        "x": 1.9,
+        "y": 50.7,
+        "z": 0
+      },
+      "xg": 0.14720387756824,
+      "xgot": 0.66336673498154,
+      "goalkeeper": {
+        "name": "Mike Penders",
+        "firstName": "Mike Penders",
+        "lastName": "",
+        "slug": "mike-penders",
+        "shortName": "M. Penders",
+        "position": "G",
+        "jerseyNumber": "39",
+        "userCount": 4448,
+        "gender": "M",
+        "id": 1149148,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايك بيندرز",
+            "bn": "মাইক পেন্ডার্স",
+            "hi": "माइक पेंडर्स"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بيندرز",
+            "bn": "এম. পেন্ডার্স",
+            "hi": "एम. पेंडर्स"
+          }
+        }
+      },
+      "id": 6591573,
+      "time": 45,
+      "addedTime": 3,
+      "timeSeconds": 2850,
+      "draw": {
+        "start": {
+          "x": 46.6,
+          "y": 13.4
+        },
+        "block": {
+          "x": 50.7,
+          "y": 1.9
+        },
+        "end": {
+          "x": 47.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.4,
+          "y": 75.3
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2550,
+      "periodTimeSeconds": 150,
+      "incidentType": "shot"
+    }
+  ]
+}

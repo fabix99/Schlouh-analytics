@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Zé Carlos",
+        "firstName": "Zé",
+        "lastName": "Carlos",
+        "slug": "ze-carlos",
+        "shortName": "Z. Carlos",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 69,
+        "gender": "M",
+        "id": 1001662,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زي كارلوس",
+            "bn": "যে কার্লোস",
+            "hi": "ज़े कार्लोस"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. كارلوس",
+            "bn": "জেড. কার্লোস",
+            "hi": "ज़ेड. कार्लोस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 26.6,
+        "y": 52.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.9,
+        "y": 51.1,
+        "z": 0
+      },
+      "xg": 0.016038212925196,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lazar Carević",
+        "slug": "lazar-carevic",
+        "shortName": "L. Carević",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 248,
+        "gender": "M",
+        "id": 886204,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لازار كاريتش",
+            "bn": "লাজার কেরেভিচ",
+            "hi": "लाज़र कैरेविक"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. كاريتش",
+            "bn": "এল. কেরিভিচ",
+            "hi": "एल. कैरेविक"
+          }
+        }
+      },
+      "id": 6626007,
+      "time": 74,
+      "timeSeconds": 4405,
+      "draw": {
+        "start": {
+          "x": 52.1,
+          "y": 26.6
+        },
+        "block": {
+          "x": 51.1,
+          "y": 15.9
+        },
+        "end": {
+          "x": 49.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 995,
+      "periodTimeSeconds": 1705,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bojan Miovski",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bojan-miovski",
+        "shortName": "B. Miovski",
+        "position": "F",
+        "jerseyNumber": "28",
+        "userCount": 1318,
+        "gender": "M",
+        "id": 945768,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بويان ميوفسكي",
+            "bn": "বোজান মিওভস্কি",
+            "hi": "बोजान मिओव्स्की"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. ميوفسكي",
+            "bn": "বি. মিওভস্কি",
+            "hi": "बी. मिओव्स्की"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.4,
+        "y": 51.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.9,
+        "z": 6.9
+      },
+      "blockCoordinates": {
+        "x": 12.1,
+        "y": 50.7,
+        "z": 0
+      },
+      "xg": 0.11296584457159,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Hendrik Bonmann",
+        "slug": "hendrik-bonmann",
+        "shortName": "H. Bonmann",
+        "position": "G",
+        "jerseyNumber": "39",
+        "userCount": 109,
+        "gender": "M",
+        "id": 254461,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هندريك بونمان"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. بونمان"
+          }
+        }
+      },
+      "id": 6571459,
+      "time": 87,
+      "timeSeconds": 5210,
+      "draw": {
+        "start": {
+          "x": 51.3,
+          "y": 15.4
+        },
+        "block": {
+          "x": 50.7,
+          "y": 12.1
+        },
+        "end": {
+          "x": 53.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.1,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 190,
+      "periodTimeSeconds": 2510,
+      "incidentType": "shot"
+    }
+  ]
+}

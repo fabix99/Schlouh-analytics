@@ -1,0 +1,96 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Giovane",
+        "slug": "giovane",
+        "shortName": "Giovane",
+        "position": "F",
+        "jerseyNumber": "23",
+        "userCount": 5029,
+        "gender": "M",
+        "id": 1170773,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "Santana Do Nascimento, Giovane"
+          },
+          "shortNameTranslation": {
+            "ar": "G. S. D. Nascimento"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 13.8,
+        "y": 53.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.8,
+        "y": 51.8,
+        "z": 0
+      },
+      "xg": 0.1096103861928,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "David De Gea",
+        "firstName": "",
+        "lastName": "",
+        "slug": "david-de-gea",
+        "shortName": "D. De Gea",
+        "position": "G",
+        "jerseyNumber": "43",
+        "userCount": 23435,
+        "gender": "M",
+        "sofascoreId": "d_degea",
+        "id": 69378,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد دي خيا",
+            "bn": "ডেভিড ডে হায়া",
+            "hi": "डेविड डी गेआ"
+          },
+          "shortNameTranslation": {
+            "ar": "د. دي خيا",
+            "bn": "ডি. ডে হায়া",
+            "hi": "डी. डी गेआ"
+          }
+        }
+      },
+      "id": 6617800,
+      "time": 90,
+      "timeSeconds": 5349,
+      "draw": {
+        "start": {
+          "x": 53.1,
+          "y": 13.8
+        },
+        "block": {
+          "x": 51.8,
+          "y": 8.8
+        },
+        "end": {
+          "x": 49.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 51,
+      "periodTimeSeconds": 2649,
+      "incidentType": "shot"
+    }
+  ]
+}

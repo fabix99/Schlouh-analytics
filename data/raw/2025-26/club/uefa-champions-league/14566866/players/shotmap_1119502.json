@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ernest Poku",
+        "slug": "ernest-poku",
+        "shortName": "E. Poku",
+        "position": "F",
+        "jerseyNumber": "19",
+        "userCount": 5345,
+        "gender": "M",
+        "id": 1119502,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إرنست بوكو",
+            "bn": "আর্নেস্ট পোকু",
+            "hi": "अर्नेस्ट पोकू"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. بوكو",
+            "bn": "ই. পোকু",
+            "hi": "ई. पोकू"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.6,
+        "y": 41.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.9,
+        "y": 42.4,
+        "z": 0
+      },
+      "xg": 0.061360787600279,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Konstantinos Tzolakis",
+        "slug": "konstantinos-tzolakis",
+        "shortName": "K. Tzolakis",
+        "position": "G",
+        "jerseyNumber": "88",
+        "userCount": 2914,
+        "gender": "M",
+        "id": 953414,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كونستانتينوس تزولاكيس",
+            "bn": "কনস্টান্টিনোস জোলাকিস",
+            "hi": "कोंस्टैंटिनोस त्ज़ोलाकिस"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. تزولاكيس",
+            "bn": "কে. জোলাকিস",
+            "hi": "के. त्ज़ोलाकिस"
+          }
+        }
+      },
+      "id": 6556496,
+      "time": 38,
+      "timeSeconds": 2263,
+      "draw": {
+        "start": {
+          "x": 41.3,
+          "y": 12.6
+        },
+        "block": {
+          "x": 42.4,
+          "y": 10.9
+        },
+        "end": {
+          "x": 49.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 437,
+      "periodTimeSeconds": 2263,
+      "incidentType": "shot"
+    }
+  ]
+}

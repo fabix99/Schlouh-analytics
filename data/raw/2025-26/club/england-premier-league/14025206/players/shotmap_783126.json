@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Emiliano Buendía",
+        "slug": "emiliano-buendia",
+        "shortName": "E. Buendía",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 7692,
+        "gender": "M",
+        "sofascoreId": "EM10Buendia",
+        "id": 783126,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إميليانو بوينديا",
+            "bn": "এমিলিয়ানো বুয়েন্দিয়া",
+            "hi": "एमिलियानो बुएंडिया"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. بوينديا",
+            "bn": "ই. বুয়েন্দিয়া",
+            "hi": "ई. बुएंडिया"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.5,
+        "y": 37.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 20.3,
+        "y": 38.7,
+        "z": 0
+      },
+      "xg": 0.019252622500062,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 4229,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन"
+          }
+        }
+      },
+      "id": 6692956,
+      "time": 45,
+      "timeSeconds": 2651,
+      "draw": {
+        "start": {
+          "x": 37.6,
+          "y": 22.5
+        },
+        "block": {
+          "x": 38.7,
+          "y": 20.3
+        },
+        "end": {
+          "x": 49.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 49,
+      "periodTimeSeconds": 2651,
+      "incidentType": "shot"
+    }
+  ]
+}

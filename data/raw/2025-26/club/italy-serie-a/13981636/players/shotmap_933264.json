@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Torbjørn Heggem",
+        "slug": "torbjorn-heggem",
+        "shortName": "T. Heggem",
+        "position": "D",
+        "jerseyNumber": "14",
+        "userCount": 774,
+        "gender": "M",
+        "id": 933264,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توربيورن هيجيم",
+            "bn": "টর্বজর্ন হেগেম",
+            "hi": "टोरब्योर्न हेग्गेम"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. هيجيم",
+            "bn": "টি. হেগেম",
+            "hi": "टी. हेग्गेम"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 9.9,
+        "y": 49.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 68.6,
+        "z": 6.9
+      },
+      "blockCoordinates": {
+        "x": 7.5,
+        "y": 46.2,
+        "z": 0
+      },
+      "xg": 0.07098176330328,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Justin Bijlow",
+        "slug": "bijlow-justin",
+        "shortName": "J. Bijlow",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 1395,
+        "gender": "M",
+        "id": 556696,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيلو، جوستين",
+            "bn": "বিজলো, জাস্টিন",
+            "hi": "बिज्लो, जस्टिन"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بيلو",
+            "bn": "জে. বিজলো",
+            "hi": "जे. बिज्लो"
+          }
+        }
+      },
+      "id": 6589333,
+      "time": 84,
+      "timeSeconds": 5016,
+      "draw": {
+        "start": {
+          "x": 49.5,
+          "y": 9.9
+        },
+        "block": {
+          "x": 46.2,
+          "y": 7.5
+        },
+        "end": {
+          "x": 31.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 31.4,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 384,
+      "periodTimeSeconds": 2316,
+      "incidentType": "shot"
+    }
+  ]
+}

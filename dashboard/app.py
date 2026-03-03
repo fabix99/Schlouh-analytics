@@ -1,21 +1,22 @@
-"""Schlouh Analytics — Player Scouting Dashboard.
+"""Schlouh Analytics — Football Scouting & Tactics Platform.
 
-Entry point: streamlit run dashboard/app.py
+Single entry point for GitHub + Streamlit Cloud.
+Run: streamlit run dashboard/app.py
 """
 
 import sys
 import pathlib
 
-_project_root = pathlib.Path(__file__).parent.parent
-if str(_project_root) not in sys.path:
-    sys.path.insert(0, str(_project_root))
+_root = pathlib.Path(__file__).resolve().parent.parent
+if str(_root) not in sys.path:
+    sys.path.insert(0, str(_root))
 
 import streamlit as st
 import pandas as pd
 
 from dashboard.utils.data import (
     load_enriched_season_stats,
-    load_extraction_progress,
+    get_coverage_from_appearances,
     get_available_comp_seasons,
     load_players_index,
 )
@@ -23,26 +24,26 @@ from dashboard.utils.constants import COMP_NAMES, COMP_FLAGS, POSITION_NAMES
 from dashboard.utils.sidebar import render_sidebar
 
 st.set_page_config(
-    page_title="Schlouh Scouting",
+    page_title="Schlouh Analytics | Football Intelligence",
     page_icon="⚽",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
-# CSS is injected by render_sidebar()
 render_sidebar()
 
 # ---------------------------------------------------------------------------
-# Page hero
+# Hero — production-ready tagline
 # ---------------------------------------------------------------------------
 st.markdown(
     """
     <div class="page-hero">
-        <div class="page-hero-title">⚽ Player Scouting Dashboard</div>
+        <div class="page-hero-title">⚽ Schlouh Analytics</div>
         <div class="page-hero-sub">
-            Data-driven recruitment intelligence across 9 leagues and multiple seasons.
-            Filter, rank, and shortlist players — or dive into team tactics and trends.
+            Football scouting, tactical analysis, and match review in one platform.
+            Player discovery, comparison, shortlists, team styles, opponent prep, and AI-powered insights.
         </div>
+        <div class="page-hero-attribution">All data © Sofascore.</div>
     </div>
     """,
     unsafe_allow_html=True,
@@ -53,7 +54,7 @@ st.markdown(
 # ---------------------------------------------------------------------------
 with st.spinner("Loading dataset…"):
     df = load_enriched_season_stats()
-    ep = load_extraction_progress()
+    cov = get_coverage_from_appearances()
     avail = get_available_comp_seasons()
     players_idx = load_players_index()
 
@@ -78,10 +79,10 @@ st.markdown("<div class='kpi-accent'></div>", unsafe_allow_html=True)
 # ---------------------------------------------------------------------------
 # Data quality note
 # ---------------------------------------------------------------------------
-with st.expander("ℹ️ Data quality & coverage", expanded=False):
+with st.expander("ℹ️ Data quality & coverage — what's included and how to use it", expanded=False):
     st.markdown(
         """
-        - **Player & team stats:** All leagues and seasons with extracted match data shown below.
+        - **Player & team stats:** All leagues and seasons with match data shown in the table below.
         - **Match momentum & substitution impact:** Available on Team Analysis where pipeline data exists.
         - **Rolling form, consistency, big-game, progression:** From derived pipelines; coverage varies by league/season.
         - **Sample reliability:** Use the **Sample: High / Medium / Low** indicator on player profiles.
@@ -97,46 +98,48 @@ st.markdown("---")
 left, right = st.columns([3, 2], gap="large")
 
 with left:
-    st.markdown("<div class='section-header'>📋 Data Coverage</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-header'>📋 Data Coverage & Season Availability</div>", unsafe_allow_html=True)
+    st.caption("Matches per league and season. Scroll within the table to see all leagues.")
 
-    coverage = (
-        ep[ep["extracted"] > 0]
-        .groupby("competition_slug")
-        .agg(seasons=("season", "nunique"), matches=("extracted", "sum"))
-        .reset_index()
+    pivot = (
+        cov.pivot_table(
+            index="competition_slug", columns="season",
+            values="matches", aggfunc="sum", fill_value=0,
+        )
     )
-    coverage["league"] = coverage["competition_slug"].map(COMP_NAMES).fillna(coverage["competition_slug"])
-    coverage["flag"]   = coverage["competition_slug"].map(COMP_FLAGS).fillna("🏆")
-    coverage = coverage.sort_values("matches", ascending=False)
+    pivot["Total"] = pivot.sum(axis=1)
+    pivot = pivot.sort_values("Total", ascending=False)
 
-    _max_matches = max(coverage["matches"]) if len(coverage) and coverage["matches"].notna().any() else 1
-    for _, row in coverage.iterrows():
-        pct   = min(row["matches"] / _max_matches, 1.0) if _max_matches and _max_matches > 0 else 0.0
-        bar_w = int(pct * 180)
-        col_card, col_cta = st.columns([4, 1])
-        with col_card:
-            st.markdown(
-                f"""
-                <div class='info-card'>
-                    <span style='font-size:1.1rem;'>{row['flag']}</span>
-                    <strong style='margin-left:6px;color:#F0F6FC;'>{row['league']}</strong>
-                    <span style='color:#8B949E;font-size:0.82rem;margin-left:8px;'>
-                        {row['seasons']} season{'s' if row['seasons'] > 1 else ''} · {row['matches']:,} matches
-                    </span>
-                    <div style='margin-top:7px;background:#30363D;border-radius:4px;height:5px;'>
-                        <div style='background:#C9A840;border-radius:4px;height:5px;width:{bar_w}px;'></div>
-                    </div>
-                </div>
-                """,
-                unsafe_allow_html=True,
+    pivot_display = pivot.copy()
+    for col in pivot_display.columns:
+        pivot_display[col] = pivot_display[col].map(lambda x: f"{int(x):,}" if x > 0 else "—")
+    pivot_display.index = [
+        f"{COMP_FLAGS.get(c, '🏆')} {COMP_NAMES.get(c, c)}" for c in pivot_display.index
+    ]
+    st.dataframe(pivot_display, use_container_width=True, height=380, hide_index=True)
+
+    if len(pivot) > 0:
+        slugs = pivot.index.tolist()
+        display_names = pivot_display.index.tolist()
+        display_to_slug = dict(zip(display_names, slugs))
+        st.caption("Open Find Players with a league pre-selected.")
+        scout_col1, scout_col2 = st.columns([3, 1])
+        with scout_col1:
+            scout_choice = st.selectbox(
+                "Find players in a league",
+                options=display_names,
+                key="home_scout_league",
+                label_visibility="collapsed",
+                placeholder="Find players in a league…",
             )
-        with col_cta:
-            if st.button("Scout", key=f"scout_league_{row['competition_slug']}", use_container_width=True):
-                st.session_state["scout_prefill_league"] = row["competition_slug"]
-                st.switch_page("pages/1_🔍_Scout.py")
+        with scout_col2:
+            if st.button("Go to Find Players", key="home_scout_go", use_container_width=True) and scout_choice:
+                st.session_state["discover_prefill_league"] = display_to_slug[scout_choice]
+                st.switch_page("pages/8_🔎_Discover.py")
 
 with right:
     st.markdown("<div class='section-header'>📊 Position Breakdown</div>", unsafe_allow_html=True)
+    st.caption("Players by primary position.")
 
     pos_counts = (
         df.groupby("player_position")["player_id"]
@@ -154,75 +157,26 @@ with right:
             unsafe_allow_html=True,
         )
 
-    st.markdown("<div class='section-header'>🥇 All-Time Top Scorers</div>", unsafe_allow_html=True)
-    top_scorers = (
-        df.groupby("player_name")["goals"]
-        .sum()
-        .nlargest(5)
-        .reset_index()
-        .rename(columns={"goals": "Goals"})
-    )
-    medals = ["🥇", "🥈", "🥉", "4️⃣", "5️⃣"]
-    for i, row in top_scorers.iterrows():
-        st.markdown(
-            f"<div class='info-card'>{medals[i]} <b style='color:#F0F6FC;'>{row['player_name']}</b>"
-            f"<span style='float:right;color:#FFD93D;font-weight:600;'>{int(row['Goals'])} ⚽</span></div>",
-            unsafe_allow_html=True,
-        )
-
 # ---------------------------------------------------------------------------
-# Season availability grid
-# ---------------------------------------------------------------------------
-st.markdown("<div class='section-header'>🗓️ Season Availability</div>", unsafe_allow_html=True)
-
-pivot = (
-    ep[ep["extracted"] > 0]
-    .pivot_table(
-        index="competition_slug", columns="season",
-        values="extracted", aggfunc="sum", fill_value=0,
-    )
-)
-pivot.index = [
-    f"{COMP_FLAGS.get(c, '🏆')} {COMP_NAMES.get(c, c)}" for c in pivot.index
-]
-pivot = pivot.map(lambda x: f"{x:,}" if x > 0 else "—")
-
-st.dataframe(pivot, use_container_width=True)
-
-# ---------------------------------------------------------------------------
-# Navigation shortcuts
+# Navigation — all sections in one app
 # ---------------------------------------------------------------------------
 st.markdown("---")
 st.markdown("<div class='section-header'>🚀 Jump To</div>", unsafe_allow_html=True)
+st.caption("Jump to a section of the app.")
 
-c1, c2, c3, c4, c5 = st.columns(5)
-with c1:
-    st.page_link(
-        "pages/1_🔍_Scout.py",
-        label="🔍 Scout Players — filter, rank, and shortlist by any metric",
-        use_container_width=True,
-    )
-with c2:
-    st.page_link(
-        "pages/4_🏆_Teams.py",
-        label="🏆 Team Analysis — tactics, formation, match log, manager",
-        use_container_width=True,
-    )
-with c3:
-    st.page_link(
-        "pages/2_⚖️_Compare.py",
-        label="⚖️ Compare Players — radar & bar charts side by side",
-        use_container_width=True,
-    )
-with c4:
-    st.page_link(
-        "pages/3_📊_Explore.py",
-        label="📊 Explore Data — distributions, league tables, age curves",
-        use_container_width=True,
-    )
-with c5:
-    st.page_link(
-        "pages/5_🤖_AI_Scout.py",
-        label="🤖 AI Scout — ask questions about the database (RAG + Groq)",
-        use_container_width=True,
-    )
+r1, r2, r3 = st.columns(3)
+with r1:
+    st.markdown("**Scouting**")
+    st.page_link("pages/8_🔎_Discover.py", label="🔎 Find Players", use_container_width=True)
+    st.page_link("pages/2_📋_Profile.py", label="📋 Player Profile", use_container_width=True)
+    st.page_link("pages/3_⚖️_Compare.py", label="⚖️ Compare Players", use_container_width=True)
+    st.page_link("pages/4_🎯_Shortlist.py", label="🎯 Shortlist", use_container_width=True)
+with r2:
+    st.markdown("**Teams & Tactics**")
+    st.page_link("pages/6_🏆_Teams.py", label="🏆 Team Analysis", use_container_width=True)
+    st.page_link("pages/9_🏟️_Team_Directory.py", label="🏟️ Team Directory", use_container_width=True)
+    st.page_link("pages/11_⚔️_Opponent_Prep.py", label="⚔️ Opponent Prep", use_container_width=True)
+    st.page_link("pages/12_📊_League_Trends.py", label="📊 League Trends", use_container_width=True)
+with r3:
+    st.markdown("**Data**")
+    st.page_link("pages/5_📊_Explore.py", label="📊 Explore Data", use_container_width=True)

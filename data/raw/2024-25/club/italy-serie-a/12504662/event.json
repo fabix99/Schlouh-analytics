@@ -1,0 +1,411 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Serie A",
+      "slug": "serie-a",
+      "category": {
+        "name": "Italy",
+        "slug": "italy",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 31,
+        "flag": "italy",
+        "alpha2": "IT",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "hi": "इटली",
+            "ar": "إيطاليا",
+            "bn": "ইতালি",
+            "ru": "Италия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Serie A",
+        "slug": "serie-a",
+        "primaryColorHex": "#09519e",
+        "secondaryColorHex": "#008fd7",
+        "category": {
+          "name": "Italy",
+          "slug": "italy",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "IT",
+            "alpha3": "ITA",
+            "name": "Italy",
+            "slug": "italy"
+          },
+          "id": 31,
+          "flag": "italy",
+          "alpha2": "IT",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "hi": "इटली",
+              "ar": "إيطاليا",
+              "bn": "ইতালি",
+              "ru": "Италия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 624058,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 23,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإيطالي",
+            "hi": "सीरी ए",
+            "bn": "সিরি আ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 698,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 33,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "सीरी ए",
+          "ar": "الدوري الإيطالي",
+          "bn": "সিরি আ"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Serie A 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 63515
+    },
+    "roundInfo": {
+      "round": 15
+    },
+    "customId": "VdbsEeb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 9317,
+    "venue": {
+      "city": {
+        "name": "Monza"
+      },
+      "venueCoordinates": {
+        "latitude": 45.583112,
+        "longitude": 9.307928
+      },
+      "hidden": false,
+      "slug": "u-power-stadium",
+      "name": "U-Power Stadium",
+      "capacity": 17102,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2725,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "يو-باور ستاديوم",
+          "hi": "यू-पावर स्टेडियम",
+          "bn": "ইউ-পাওয়ার স্টেডিয়াম"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "U-Power Stadium",
+        "capacity": 17102
+      }
+    },
+    "referee": {
+      "name": "Gianluca Manganiello",
+      "slug": "manganiello-gianluca",
+      "yellowCards": 1171,
+      "redCards": 48,
+      "yellowRedCards": 34,
+      "games": 266,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 132287,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مانجانييلو، جيانلوكا",
+          "bn": "ম্যাঙ্গানিলো, জিয়ানলুকা",
+          "hi": "मैंगनीलो, गियानलुका"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Monza",
+      "slug": "monza",
+      "shortName": "Monza",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 70289,
+      "manager": {
+        "name": "Paolo Bianco",
+        "slug": "paolo-bianco",
+        "shortName": "P. Bianco",
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 788879,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "Bianco, Paolo"
+          },
+          "shortNameTranslation": {
+            "ar": "P. Bianco"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Monza"
+        },
+        "venueCoordinates": {
+          "latitude": 45.583112,
+          "longitude": 9.307928
+        },
+        "hidden": false,
+        "slug": "u-power-stadium",
+        "name": "U-Power Stadium",
+        "capacity": 17102,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 2725,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يو-باور ستاديوم",
+            "hi": "यू-पावर स्टेडियम",
+            "bn": "ইউ-পাওয়ার স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "U-Power Stadium",
+          "capacity": 17102
+        }
+      },
+      "nameCode": "MON",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2729,
+      "fullName": "Monza",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#d71742",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -1809302400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مونزا",
+          "bn": "মনজা",
+          "hi": "मॉन्ज़ा",
+          "ru": "Монца"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Udinese",
+      "slug": "udinese",
+      "shortName": "Udinese",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 117737,
+      "manager": {
+        "name": "Kosta Runjaic",
+        "slug": "kosta-runjaic",
+        "shortName": "K. Runjaic",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 111419,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كوستا رونيايتش",
+            "bn": "কোস্টা রুঞ্জাইক",
+            "hi": "कोस्टा रुनजाइक"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. رونيايتش",
+            "bn": "কে. রুঞ্জাইক",
+            "hi": "के. रुनजाइक"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Udine"
+        },
+        "venueCoordinates": {
+          "latitude": 46.081406,
+          "longitude": 13.199708
+        },
+        "hidden": false,
+        "slug": "bluenergy-stadium",
+        "name": "Bluenergy Stadium",
+        "capacity": 25132,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 641,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب بلو إينرجي",
+            "hi": "ब्लूनेर्जी स्टेडियम",
+            "bn": "ব্লুনার্জি স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Bluenergy Stadium",
+          "capacity": 25132
+        }
+      },
+      "nameCode": "UDI",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2695,
+      "fullName": "Udinese",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2319148800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أودينيزي",
+          "bn": "উদিনিজ",
+          "hi": "उडिनेज़े",
+          "ru": "Удинезе"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 1,
+      "display": 1,
+      "period1": 0,
+      "period2": 1,
+      "normaltime": 1
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 5,
+      "currentPeriodStartTimestamp": 1733777367
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1733780458
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12504662,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "monza-udinese",
+    "currentPeriodStartTimestamp": 1733777367,
+    "startTimestamp": 1733773500,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

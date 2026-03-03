@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Julian Brandt",
+        "firstName": "",
+        "lastName": "",
+        "slug": "julian-brandt",
+        "shortName": "J. Brandt",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 9481,
+        "gender": "M",
+        "sofascoreId": "julianbrandt",
+        "id": 226978,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوليان براندت",
+            "bn": "জুলিয়ান ব্র্যান্ডট",
+            "hi": "जूलियन ब्रैंट"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. براندت",
+            "bn": "জে. ব্র্যান্ড",
+            "hi": "जे. ब्रैंट"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.6,
+        "y": 55,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.1,
+        "z": 3.8
+      },
+      "blockCoordinates": {
+        "x": 1.8,
+        "y": 51.6,
+        "z": 0
+      },
+      "xg": 0.17414090037346,
+      "xgot": 0.31242427229881,
+      "goalkeeper": {
+        "name": "Daniel Batz",
+        "slug": "daniel-batz",
+        "shortName": "D. Batz",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 140,
+        "gender": "M",
+        "id": 94312,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دانيال باتز",
+            "bn": "ড্যানিয়েল বাটজ",
+            "hi": "डैनियल बैट्ज़"
+          },
+          "shortNameTranslation": {
+            "ar": "د. باتز",
+            "bn": "ডি. বাটজ",
+            "hi": "डी. बैट्ज़"
+          }
+        }
+      },
+      "id": 6703737,
+      "time": 58,
+      "timeSeconds": 3424,
+      "draw": {
+        "start": {
+          "x": 55,
+          "y": 12.6
+        },
+        "block": {
+          "x": 51.6,
+          "y": 1.8
+        },
+        "end": {
+          "x": 52.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.9,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1976,
+      "periodTimeSeconds": 724,
+      "incidentType": "shot"
+    }
+  ]
+}

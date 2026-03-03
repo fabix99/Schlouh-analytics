@@ -1,0 +1,108 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 6,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 1
+  },
+  "sections": [
+    {
+      "subtitle": "Current Form",
+      "text": "Girona FC is in poor form, losing their last 3 matches with a heavy goal deficit (1-8 in the last 2 league games). Sevilla also struggles, with no wins in their last 5 matches and consistent defensive issues, conceding in all 8 recent games."
+    },
+    {
+      "subtitle": "Head-to-Head Record",
+      "text": "In the last two encounters, Girona FC and Sevilla split the wins (1-2 for Sevilla and 0-2 for Girona). Girona has dominated historically, winning 4 of the last 5 matchups against Sevilla."
+    },
+    {
+      "subtitle": "Season Statistics",
+      "text": "Girona FC struggles offensively (1 goal scored, league rank 17) and defensively (8 conceded, worst in league). Sevilla mirrors these issues with identical stats, showing poor attacking and defensive efficiency."
+    },
+    {
+      "subtitle": "Defensive Vulnerabilities",
+      "text": "Both teams have failed to keep clean sheets recently (Girona 4 games, Sevilla 8 games). This suggests a high likelihood of both teams scoring in the match."
+    },
+    {
+      "subtitle": "Gameplay Metrics",
+      "text": "Girona averages low corner counts (1.5 per game) and struggles with duels (worst in league for ground duels). Sevilla also shows similar weaknesses, which might result in a low-scoring, scrappy game."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Sevilla",
+      "slug": "sevilla",
+      "shortName": "Sevilla",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 373021,
+      "nameCode": "SEV",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 2833,
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#cc1020",
+        "text": "#cc1020"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إشبيلية",
+          "bn": "সেভিলা",
+          "hi": "सेविला",
+          "ru": "Cевилья"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Alfon González",
+      "slug": "alfon-gonzalez",
+      "shortName": "A. González",
+      "position": "F",
+      "jerseyNumber": "11",
+      "userCount": 610,
+      "gender": "M",
+      "id": 1468090,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ألفون غونزاليس",
+          "bn": "আলফোন গঞ্জালেজ",
+          "hi": "अल्फोन गोंजालेज"
+        },
+        "shortNameTranslation": {
+          "ar": "أ. غونزاليس",
+          "bn": "এ. গঞ্জালেজ",
+          "hi": "ए. गोंजालेज"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 2
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half overview",
+      "text": "The first half at Estadi Montilivi saw Sevilla take a narrow lead over Girona FC with a scoreline of 0-1. Sevilla capitalized on their attacking opportunity in the 30th minute through a right-footed strike by Alfon González, showcasing their ability to convert chances. Girona, despite having slightly more ball possession, struggled to create significant threats in the final third, failing to register any big chances. Sevilla, on the other hand, demonstrated a higher attacking efficiency, creating a notable opportunity and missing another big chance, which reflects their sharper edge in front of goal."
+    },
+    {
+      "subtitle": "Team performance analysis",
+      "text": "Girona FC dominated possession and managed a decent number of entries into the final third and penalty area, indicating their intent to push forward. However, their lack of big chances created and minimal shots on target highlight a disconnect in translating possession into goal-scoring opportunities. Sevilla, while slightly behind in possession, were more clinical, evidenced by their higher expected goals and ability to generate dangerous moments. Their defense also held firm, limiting Girona's attacking output, although they were less dominant in aerial and ground duels compared to the home side."
+    },
+    {
+      "subtitle": "Key players impact",
+      "text": "For Girona, Yáser Asprilla stood out with a strong performance, contributing defensively while also showing potential in attack. Thomas Lemar and Iván Martín displayed creativity with key passes, but lacked the final product to trouble Sevilla's defense. On the Sevilla side, Alfon González was the standout performer, not only scoring the decisive goal but also consistently threatening with shots on target. Ruben Vargas played a pivotal role in setting up the goal, showing composure in attack, while Kike Salas was a rock at the back with significant clearances to thwart Girona’s advances."
+    },
+    {
+      "subtitle": "Attack momentum shifts",
+      "text": "The first half saw fluctuating momentum between the two sides. Sevilla started brightly with several spells of sustained pressure in the opening minutes, dictating the early tempo. Girona responded with a shift in momentum around the middle of the half, enjoying prolonged periods of attacking intent and pushing Sevilla onto the back foot. However, as the half progressed, particularly around the time of the goal, Sevilla regained control with notable attacking surges. Towards the end of the half, Girona mounted a late push to level the score, but Sevilla countered with dangerous forays to close out the half strongly."
+    }
+  ],
+  "modelName": "Grok3"
+}

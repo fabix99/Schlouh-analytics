@@ -1,0 +1,418 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": false,
+    "correctHalftimeAiInsight": false,
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1184603,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76953
+    },
+    "roundInfo": {
+      "round": 6
+    },
+    "customId": "UHsAgb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 51772,
+    "venue": {
+      "city": {
+        "name": "Bilbao"
+      },
+      "venueCoordinates": {
+        "latitude": 43.264204,
+        "longitude": -2.949391
+      },
+      "hidden": false,
+      "slug": "san-mam-s",
+      "name": "San Mamés",
+      "capacity": 53289,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 751,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سان ماميس",
+          "hi": "सैन मामेस",
+          "bn": "সান মামেস"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "San Mamés",
+        "capacity": 53289
+      }
+    },
+    "referee": {
+      "name": "Daniel Siebert",
+      "slug": "siebert-daniel",
+      "yellowCards": 1884,
+      "redCards": 36,
+      "yellowRedCards": 40,
+      "games": 443,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 67092,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سيبرت، دانييل",
+          "bn": "সিবার্ট, ড্যানিয়েল",
+          "hi": "सीबर्ट, डैनियल"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Athletic Club",
+      "slug": "athletic-club",
+      "shortName": "Athletic Club",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 509833,
+      "manager": {
+        "name": "Ernesto Valverde",
+        "slug": "ernesto-valverde",
+        "shortName": "E. Valverde",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 52991,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إرنستو فالڤيردي",
+            "bn": "আর্নেস্তো ভালভার্দে",
+            "hi": "अर्नेस्टो वाल्वरडे"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. فالڤيردي",
+            "bn": "ই. ভালভার্দে",
+            "hi": "ई. वाल्वरडे"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bilbao"
+        },
+        "venueCoordinates": {
+          "latitude": 43.264204,
+          "longitude": -2.949391
+        },
+        "hidden": false,
+        "slug": "san-mam-s",
+        "name": "San Mamés",
+        "capacity": 53289,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 751,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سان ماميس",
+            "hi": "सैन मामेस",
+            "bn": "সান মামেস"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "San Mamés",
+          "capacity": 53289
+        }
+      },
+      "nameCode": "ATH",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 2825,
+      "fullName": "Athletic Club",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#aa0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2274825600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نادي أتليتيك",
+          "bn": "অ্যাথলেটিক ক্লাব",
+          "hi": "एथलेटिक क्लब",
+          "ru": "Атлетик Бильбао"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Paris Saint-Germain",
+      "slug": "paris-saint-germain",
+      "shortName": "PSG",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 2873199,
+      "manager": {
+        "name": "Luis Enrique",
+        "slug": "luis-enrique",
+        "shortName": "L. Enrique",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 129465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لويس إنريكي",
+            "bn": "লুইস এনরিকে",
+            "hi": "लुइस एनरिक"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. إنريكي",
+            "bn": "এল. এনরিক",
+            "hi": "एल. एनरिक"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Paris"
+        },
+        "venueCoordinates": {
+          "latitude": 48.841363,
+          "longitude": 2.253069
+        },
+        "hidden": false,
+        "slug": "parc-des-princes",
+        "name": "Parc des Princes",
+        "capacity": 48583,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 843,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارك دي برانس",
+            "hi": "पार्क डेस प्रिंसेस",
+            "bn": "পার্ক দেস প্রিন্সেস"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Parc des Princes",
+          "capacity": 48583
+        }
+      },
+      "nameCode": "PSG",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1644,
+      "fullName": "Paris Saint-Germain",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000066",
+        "secondary": "#ff1541",
+        "text": "#ff1541"
+      },
+      "foundationDateTimestamp": 19267200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "باريس سان جيرمان",
+          "hi": "पेरिस सेंट-जर्मेन",
+          "ru": "Пари Сен-Жермен"
+        },
+        "shortNameTranslation": {
+          "bn": "পিএসজি",
+          "hi": "पीएसजी"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 3,
+      "currentPeriodStartTimestamp": 1765400562
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1765403475
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14566908,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "athletic-club-paris-saint-germain",
+    "currentPeriodStartTimestamp": 1765400562,
+    "startTimestamp": 1765396800,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "club"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

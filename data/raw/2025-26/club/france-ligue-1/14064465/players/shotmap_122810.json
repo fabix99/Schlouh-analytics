@@ -1,0 +1,102 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Aïssa Mandi",
+        "firstName": "",
+        "lastName": "",
+        "slug": "aissa-mandi",
+        "shortName": "A. Mandi",
+        "position": "D",
+        "jerseyNumber": "23",
+        "userCount": 10225,
+        "gender": "M",
+        "sofascoreId": "aissamandi23",
+        "id": 122810,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عيسى ماندي",
+            "bn": "আইসা মান্ডি",
+            "hi": "आइसा मंडी"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. ماندي",
+            "bn": "এ. মান্ডি",
+            "hi": "ए. मंडी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 11.8,
+        "y": 65.1,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.7,
+        "y": 62.8,
+        "z": 0
+      },
+      "xg": 0.0060710567049682,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mike Penders",
+        "firstName": "Mike Penders",
+        "lastName": "",
+        "slug": "mike-penders",
+        "shortName": "M. Penders",
+        "position": "G",
+        "jerseyNumber": "39",
+        "userCount": 4448,
+        "gender": "M",
+        "id": 1149148,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايك بيندرز",
+            "bn": "মাইক পেন্ডার্স",
+            "hi": "माइक पेंडर्स"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بيندرز",
+            "bn": "এম. পেন্ডার্স",
+            "hi": "एम. पेंडर्स"
+          }
+        }
+      },
+      "id": 6591566,
+      "time": 45,
+      "timeSeconds": 2671,
+      "draw": {
+        "start": {
+          "x": 65.1,
+          "y": 11.8
+        },
+        "block": {
+          "x": 62.8,
+          "y": 9.7
+        },
+        "end": {
+          "x": 52.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 29,
+      "periodTimeSeconds": 2671,
+      "incidentType": "shot"
+    }
+  ]
+}

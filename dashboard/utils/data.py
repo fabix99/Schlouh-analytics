@@ -2,13 +2,20 @@
 
 from __future__ import annotations
 
+import json
+import logging
 import pathlib
+import time
+from typing import Any, List, Optional
+
 import numpy as np
 import pandas as pd
 import streamlit as st
 
-# Resolve project root (two levels up from this file: dashboard/utils/ → project root)
-_PROJECT_ROOT = pathlib.Path(__file__).parent.parent.parent
+logger = logging.getLogger(__name__)
+
+from dashboard.utils.percentiles import get_percentile_zscore
+from dashboard.utils.paths import PROJECT_ROOT
 
 
 # ---------------------------------------------------------------------------
@@ -91,9 +98,10 @@ def format_minutes(value) -> str:
 def load_player_season_stats() -> pd.DataFrame:
     """Primary scouting DataFrame: one row per player × season × competition."""
     try:
-        df = pd.read_parquet(_PROJECT_ROOT / "data/processed/03_player_season_stats.parquet")
+        df = pd.read_parquet(PROJECT_ROOT / "data/processed/03_player_season_stats.parquet")
         return df
-    except Exception:
+    except Exception as e:
+        logger.warning("load_player_season_stats failed: %s", e)
         return pd.DataFrame()
 
 
@@ -102,7 +110,7 @@ def load_team_lookup() -> pd.DataFrame:
     """Lightweight lookup: player_id × season × competition_slug → team."""
     try:
         df = pd.read_parquet(
-            _PROJECT_ROOT / "data/derived/player_appearances.parquet",
+            PROJECT_ROOT / "data/derived/player_appearances.parquet",
             columns=["player_id", "season", "competition_slug", "team"],
         )
         lookup = (
@@ -111,39 +119,65 @@ def load_team_lookup() -> pd.DataFrame:
             .reset_index()
         )
         return lookup
-    except Exception:
+    except Exception as e:
+        logger.warning("load_player_appearances_lookup failed: %s", e)
         return pd.DataFrame()
 
 
 @st.cache_data(show_spinner=False, ttl=3600)
 def load_extraction_progress() -> pd.DataFrame:
     try:
-        return pd.read_csv(_PROJECT_ROOT / "data/index/extraction_progress.csv")
-    except Exception:
+        return pd.read_csv(PROJECT_ROOT / "data/index/extraction_progress.csv")
+    except Exception as e:
+        logger.warning("load_extraction_progress failed: %s", e)
         # Return empty DataFrame with expected columns so callers (app.py, get_available_comp_seasons)
         # can safely use ep["extracted"] and ep[ep["extracted"] > 0] without KeyError.
         return pd.DataFrame(columns=["competition_slug", "season", "extracted"])
 
 
 @st.cache_data(show_spinner=False, ttl=3600)
+def get_coverage_from_appearances() -> pd.DataFrame:
+    """Coverage derived from player_appearances: one row per (competition_slug, season) with match count.
+    Use this for Home Data Coverage and Season Availability so they reflect matches that actually feed the app."""
+    try:
+        import pyarrow.parquet as pq
+        pf = pq.read_table(
+            PROJECT_ROOT / "data/derived/player_appearances.parquet",
+            columns=["competition_slug", "season", "match_id"],
+        )
+        df = pf.to_pandas()
+        if df.empty:
+            return pd.DataFrame(columns=["competition_slug", "season", "matches"])
+        grp = (
+            df.groupby(["competition_slug", "season"])["match_id"]
+            .nunique()
+            .reset_index(name="matches")
+        )
+        return grp
+    except Exception as e:
+        logger.warning("get_coverage_from_appearances failed: %s", e)
+        return pd.DataFrame(columns=["competition_slug", "season", "matches"])
+
+
+@st.cache_data(show_spinner=False, ttl=3600)
 def load_players_index() -> pd.DataFrame:
-    return pd.read_csv(_PROJECT_ROOT / "data/index/players.csv")
+    return pd.read_csv(PROJECT_ROOT / "data/index/players.csv")
 
 
 @st.cache_data(show_spinner=False, ttl=3600)
 def load_scouting_profiles() -> pd.DataFrame:
-    return pd.read_parquet(_PROJECT_ROOT / "data/processed/08_player_scouting_profiles.parquet")
+    return pd.read_parquet(PROJECT_ROOT / "data/processed/08_player_scouting_profiles.parquet")
 
 
 @st.cache_data(show_spinner=False, ttl=3600)
 def load_rolling_form() -> pd.DataFrame:
-    return pd.read_parquet(_PROJECT_ROOT / "data/processed/07_player_rolling_form.parquet")
+    return pd.read_parquet(PROJECT_ROOT / "data/processed/07_player_rolling_form.parquet")
 
 
 @st.cache_data(show_spinner=False, ttl=3600)
 def load_incidents() -> pd.DataFrame:
     return pd.read_parquet(
-        _PROJECT_ROOT / "data/derived/player_incidents.parquet",
+        PROJECT_ROOT / "data/derived/player_incidents.parquet",
         columns=["player_id", "player_name", "incidentType", "incidentClass",
                  "time", "season", "competition_slug", "match_date_utc"],
     )
@@ -152,41 +186,287 @@ def load_incidents() -> pd.DataFrame:
 @st.cache_data(show_spinner=False, ttl=3600)
 def load_career_stats() -> pd.DataFrame:
     """Per-player career aggregates from 04_player_career_stats.parquet."""
-    return pd.read_parquet(_PROJECT_ROOT / "data/processed/04_player_career_stats.parquet")
+    return pd.read_parquet(PROJECT_ROOT / "data/processed/04_player_career_stats.parquet")
 
 
 @st.cache_data(show_spinner=False, ttl=3600)
 def load_player_progression() -> pd.DataFrame:
     """Season-on-season progression deltas from 09_player_progression.parquet."""
-    return pd.read_parquet(_PROJECT_ROOT / "data/processed/09_player_progression.parquet")
+    return pd.read_parquet(PROJECT_ROOT / "data/processed/09_player_progression.parquet")
 
 
 @st.cache_data(show_spinner=False, ttl=3600)
 def load_opponent_context_summary() -> pd.DataFrame:
     """Player performance vs opponent strength summary from 11_player_opponent_context_summary.parquet."""
-    return pd.read_parquet(_PROJECT_ROOT / "data/processed/11_player_opponent_context_summary.parquet")
+    return pd.read_parquet(PROJECT_ROOT / "data/processed/11_player_opponent_context_summary.parquet")
 
 
 @st.cache_data(show_spinner=False, ttl=3600)
 def load_player_consistency() -> pd.DataFrame:
     """Player rating consistency metrics from 10_player_consistency.parquet."""
-    return pd.read_parquet(_PROJECT_ROOT / "data/processed/10_player_consistency.parquet")
+    return pd.read_parquet(PROJECT_ROOT / "data/processed/10_player_consistency.parquet")
 
 
 @st.cache_data(show_spinner=False, ttl=3600)
 def load_team_season_stats() -> pd.DataFrame:
     """Team season aggregates from 01_team_season_stats.parquet."""
     try:
-        return pd.read_parquet(_PROJECT_ROOT / "data/processed/01_team_season_stats.parquet")
-    except Exception:
+        return pd.read_parquet(PROJECT_ROOT / "data/processed/01_team_season_stats.parquet")
+    except Exception as e:
+        logger.warning("load_team_season_stats failed: %s", e)
         return pd.DataFrame()
+
+
+def get_team_season_selector_options(
+    team_stats: pd.DataFrame,
+    default_season: Optional[str] = None,
+    default_competition_slugs: Optional[List[str]] = None,
+    *,
+    label_format: str = "short",
+    comp_name_getter: Optional[Any] = None,
+) -> pd.DataFrame:
+    """Build team selector options for Tactics (Profile / Opponent Prep).
+
+    Args:
+        team_stats: From load_team_season_stats().
+        default_season: Filter to this season when provided.
+        default_competition_slugs: Filter to these competitions when provided.
+        label_format: "short" = one row per (team_name, season), label "{team} ({season})";
+            "full" = one row per (team_name, season, competition_slug), label includes comp and match count.
+        comp_name_getter: For "full", callable(slug) -> display name (e.g. COMP_NAMES.get).
+
+    Returns:
+        DataFrame with columns: team_name, season, competition_slug, label, competitions (list), n_matches.
+    """
+    if team_stats.empty:
+        return pd.DataFrame()
+    df = team_stats.copy()
+    if default_season:
+        df = df[df["season"] == default_season]
+    if default_competition_slugs:
+        df = df[df["competition_slug"].isin(default_competition_slugs)]
+    if df.empty:
+        df = team_stats.copy()
+    if "matches_total" not in df.columns:
+        df["n_matches"] = 0
+    else:
+        df["n_matches"] = df["matches_total"].fillna(0).astype(int)
+
+    if label_format == "full" and comp_name_getter:
+        df["comp_label"] = df["competition_slug"].map(lambda c: comp_name_getter(c) or c)
+        df["label"] = df.apply(
+            lambda r: f"{r['team_name']} ({r['season']}, {r['comp_label']} — {int(r['n_matches'])} matches)",
+            axis=1,
+        )
+        out = df[["team_name", "season", "competition_slug", "label", "n_matches"]].copy()
+        out["competitions"] = out.apply(
+            lambda r: team_stats[
+                (team_stats["team_name"] == r["team_name"]) & (team_stats["season"] == r["season"])
+            ]["competition_slug"].unique().tolist(),
+            axis=1,
+        )
+        return out.drop_duplicates(subset=["team_name", "season", "competition_slug"])
+
+    # short: one row per (team_name, season)
+    agg = df.groupby(["team_name", "season"]).agg(
+        competition_slug=("competition_slug", "first"),
+        n_matches=("n_matches", "sum"),
+    ).reset_index()
+    agg["label"] = agg.apply(lambda r: f"{r['team_name']} ({r['season']})", axis=1)
+    agg["competitions"] = agg.apply(
+        lambda r: team_stats[
+            (team_stats["team_name"] == r["team_name"]) & (team_stats["season"] == r["season"])
+        ]["competition_slug"].unique().tolist(),
+        axis=1,
+    )
+    return agg[["team_name", "season", "competition_slug", "label", "competitions", "n_matches"]]
 
 
 @st.cache_data(show_spinner=False, ttl=3600)
 def load_match_summary() -> pd.DataFrame:
     """Match-level summary from 02_match_summary.parquet."""
     try:
-        return pd.read_parquet(_PROJECT_ROOT / "data/processed/02_match_summary.parquet")
+        return pd.read_parquet(PROJECT_ROOT / "data/processed/02_match_summary.parquet")
+    except Exception as e:
+        logger.warning("load_match_summary failed: %s", e)
+        return pd.DataFrame()
+
+
+@st.cache_data(show_spinner=False, ttl=3600)
+def load_match_best_players() -> pd.DataFrame:
+    """Match best players (player of match, best home/away) from 17_match_best_players.parquet."""
+    try:
+        path = PROJECT_ROOT / "data/processed/17_match_best_players.parquet"
+        if not path.exists():
+            return pd.DataFrame()
+        return pd.read_parquet(path)
+    except Exception as e:
+        logger.warning("load_match_best_players failed: %s", e)
+        return pd.DataFrame()
+
+
+@st.cache_data(show_spinner=False, ttl=3600)
+def load_match_ai_insights() -> pd.DataFrame:
+    """Match AI insights (predictions) from 17_match_ai_insights.parquet."""
+    try:
+        path = PROJECT_ROOT / "data/processed/17_match_ai_insights.parquet"
+        if not path.exists():
+            return pd.DataFrame()
+        return pd.read_parquet(path)
+    except Exception as e:
+        logger.warning("load_match_ai_insights failed: %s", e)
+        return pd.DataFrame()
+
+
+@st.cache_data(show_spinner=False, ttl=3600)
+def load_match_h2h_api() -> pd.DataFrame:
+    """Match H2H from API (home_wins, away_wins, draws) from 17_match_h2h_api.parquet."""
+    try:
+        path = PROJECT_ROOT / "data/processed/17_match_h2h_api.parquet"
+        if not path.exists():
+            return pd.DataFrame()
+        return pd.read_parquet(path)
+    except Exception as e:
+        logger.warning("load_match_h2h_api failed: %s", e)
+        return pd.DataFrame()
+
+
+def get_raw_match_dir_for_match_id(match_id: str) -> Optional[pathlib.Path]:
+    """Resolve raw match folder path for a match_id using match summary. Returns None if not found."""
+    try:
+        ms = load_match_summary()
+        if ms.empty or "match_id" not in ms.columns or "season" not in ms.columns or "competition_slug" not in ms.columns:
+            return None
+        row = ms[ms["match_id"].astype(str) == str(match_id)]
+        if row.empty:
+            return None
+        row = row.iloc[0]
+        season = row["season"]
+        comp = row["competition_slug"]
+        p = PROJECT_ROOT / "data" / "raw" / str(season) / "club" / str(comp) / str(match_id)
+        return p if p.exists() else None
+    except Exception:
+        return None
+
+
+def get_player_heatmap(match_id: str, player_id: int) -> Optional[dict]:
+    """Load heatmap JSON for a player in a match from raw or from 18_heatmap_points. Returns dict with 'heatmap' key (list of {x,y}) or None."""
+    match_dir = get_raw_match_dir_for_match_id(match_id)
+    if match_dir is not None:
+        path = match_dir / "players" / f"heatmap_{player_id}.json"
+        if path.exists():
+            try:
+                with open(path, encoding="utf-8") as f:
+                    return json.load(f)
+            except (json.JSONDecodeError, OSError):
+                pass
+    try:
+        path = PROJECT_ROOT / "data/processed/18_heatmap_points.parquet"
+        if path.exists():
+            df = pd.read_parquet(path)
+            sub = df[(df["match_id"].astype(str) == str(match_id)) & (df["player_id"] == player_id)]
+            if not sub.empty:
+                return {"heatmap": sub[["x", "y"]].to_dict("records")}
+    except Exception:
+        pass
+    return None
+
+
+def get_player_heatmap_season(
+    player_id: int,
+    season: str,
+    competition_slug: Optional[str] = None,
+) -> Optional[dict]:
+    """Aggregate heatmap points for a player across all matches in a season (optionally one competition).
+    Uses 18_heatmap_points.parquet and 02_match_summary.parquet for match_id -> season.
+    Returns dict with 'heatmap' key (list of {x, y}) or None."""
+    try:
+        path = PROJECT_ROOT / "data/processed/18_heatmap_points.parquet"
+        if not path.exists():
+            return None
+        df_hm = pd.read_parquet(path)
+        if df_hm.empty or "match_id" not in df_hm.columns or "player_id" not in df_hm.columns:
+            return None
+        ms = load_match_summary()
+        if ms.empty or "match_id" not in ms.columns or "season" not in ms.columns:
+            return None
+        season_str = str(season)
+        mask = ms["season"].astype(str) == season_str
+        if competition_slug and str(competition_slug) != "All" and "competition_slug" in ms.columns:
+            mask &= ms["competition_slug"].astype(str) == str(competition_slug)
+        match_ids = set(ms.loc[mask, "match_id"].astype(str).unique())
+        if not match_ids:
+            return None
+        sub = df_hm[
+            (df_hm["player_id"] == player_id)
+            & (df_hm["match_id"].astype(str).isin(match_ids))
+        ]
+        if sub.empty or "x" not in sub.columns or "y" not in sub.columns:
+            return None
+        return {"heatmap": sub[["x", "y"]].to_dict("records")}
+    except Exception:
+        pass
+    return None
+
+
+def get_player_shotmap(match_id: str, player_id: int) -> Optional[dict]:
+    """Load shotmap JSON for a player in a match from raw or from 18_shotmap_events. Returns dict with 'shotmap' key or None."""
+    match_dir = get_raw_match_dir_for_match_id(match_id)
+    if match_dir is not None:
+        path = match_dir / "players" / f"shotmap_{player_id}.json"
+        if path.exists():
+            try:
+                with open(path, encoding="utf-8") as f:
+                    return json.load(f)
+            except (json.JSONDecodeError, OSError):
+                pass
+    try:
+        path = PROJECT_ROOT / "data/processed/18_shotmap_events.parquet"
+        if path.exists():
+            df = pd.read_parquet(path)
+            sub = df[(df["match_id"].astype(str) == str(match_id)) & (df["player_id"] == player_id)]
+            if not sub.empty:
+                return {"shotmap": sub.to_dict("records")}
+    except Exception:
+        pass
+    return None
+
+
+def get_player_rating_breakdown(match_id: str, player_id: int) -> Optional[dict]:
+    """Load rating-breakdown JSON (passes, dribbles, defensive) for a player in a match from raw. Returns dict or None."""
+    match_dir = get_raw_match_dir_for_match_id(match_id)
+    if match_dir is None:
+        return None
+    path = match_dir / "players" / f"rating_breakdown_{player_id}.json"
+    if not path.exists():
+        return None
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return None
+
+
+@st.cache_data(show_spinner=False, ttl=3600)
+def load_player_profile_extras() -> pd.DataFrame:
+    """Player profile extras (height, market_value_eur) from 17_player_profile_extras.parquet. One row per player per match; use latest per player for display."""
+    try:
+        path = PROJECT_ROOT / "data/processed/17_player_profile_extras.parquet"
+        if not path.exists():
+            return pd.DataFrame()
+        return pd.read_parquet(path)
+    except Exception:
+        return pd.DataFrame()
+
+
+@st.cache_data(show_spinner=False, ttl=3600)
+def load_player_market_contract() -> pd.DataFrame:
+    """Player market value, salary, contract end from 19_player_market_contract.parquet (Sofascore best-players + Capology). One row per player."""
+    try:
+        path = PROJECT_ROOT / "data/processed/19_player_market_contract.parquet"
+        if not path.exists():
+            return pd.DataFrame()
+        return pd.read_parquet(path)
     except Exception:
         return pd.DataFrame()
 
@@ -195,7 +475,7 @@ def load_match_summary() -> pd.DataFrame:
 def load_tactical_profiles() -> pd.DataFrame:
     """Team tactical profiles from 15_team_tactical_profiles.parquet. Returns empty DataFrame if missing."""
     try:
-        path = _PROJECT_ROOT / "data/processed/15_team_tactical_profiles.parquet"
+        path = PROJECT_ROOT / "data/processed/15_team_tactical_profiles.parquet"
         if not path.exists():
             return pd.DataFrame()
         return pd.read_parquet(path)
@@ -209,16 +489,109 @@ load_team_tactical_profiles = load_tactical_profiles
 load_player_scouting_profiles = load_scouting_profiles
 
 
+# ---------------------------------------------------------------------------
+# Team-based recommendation (scouting report)
+# ---------------------------------------------------------------------------
+
+def get_teams_for_recommendation() -> list:
+    """
+    List of teams available for "Recommendation for [Team]" selector.
+    Uses 01_team_season_stats and 15_team_tactical_profiles; returns distinct
+    (team_name, season, competition_slug) with a display label.
+    """
+    from dashboard.utils.constants import COMP_NAMES
+    team_stats = load_team_season_stats()
+    tactical = load_tactical_profiles()
+    if team_stats.empty and tactical.empty:
+        return []
+    # Prefer 01 for team list; fallback to 15
+    if not team_stats.empty:
+        cols = [c for c in ["team_name", "season", "competition_slug"] if c in team_stats.columns]
+        if "team_name" not in cols and "team" in team_stats.columns:
+            cols = ["team", "season", "competition_slug"]
+            team_key = "team"
+        else:
+            team_key = "team_name"
+        df = team_stats[cols].drop_duplicates()
+    else:
+        cols = [c for c in ["team_name", "season", "competition_slug"] if c in tactical.columns]
+        df = tactical[cols].drop_duplicates()
+        team_key = "team_name" if "team_name" in tactical.columns else "team"
+    if df.empty:
+        return []
+    out = []
+    for _, row in df.iterrows():
+        tname = row.get(team_key, row.get("team_name", "?"))
+        season = row.get("season", "?")
+        comp = row.get("competition_slug", "?")
+        league = COMP_NAMES.get(comp, comp)
+        label = f"{tname} ({league} {season})"
+        out.append({"team_name": tname, "season": season, "competition_slug": comp, "label": label})
+    return sorted(out, key=lambda x: (x["team_name"], x["season"] or "", x["competition_slug"] or ""))
+
+
+def get_team_data_for_fit(
+    team_name: str,
+    season: str,
+    competition_slug: str,
+    df_all: pd.DataFrame,
+    team_stats_df: pd.DataFrame,
+    tactical_df: pd.DataFrame,
+) -> tuple:
+    """
+    Build team_data Series for calculate_fit_score: 01 row + position averages from df_all.
+    Returns (team_data_series, team_tactical_row or None).
+    """
+    team_key_01 = "team_name" if "team_name" in team_stats_df.columns else "team"
+    tr = team_stats_df[
+        (team_stats_df[team_key_01].astype(str) == str(team_name))
+        & (team_stats_df["season"].astype(str) == str(season))
+        & (team_stats_df["competition_slug"].astype(str) == str(competition_slug))
+    ]
+    team_row = tr.iloc[0].copy() if not tr.empty else pd.Series(dtype=object)
+    # Position averages from player season stats (df_all = enriched 03 with "team")
+    subset = df_all[
+        (df_all["team"].astype(str) == str(team_name))
+        & (df_all["season"].astype(str) == str(season))
+        & (df_all["competition_slug"].astype(str) == str(competition_slug))
+    ]
+    pos_stats = [
+        "goals_per90", "expectedGoals_per90", "keyPass_per90", "expectedAssists_per90",
+        "pass_accuracy", "duelWon_per90", "interceptionWon_per90", "totalTackle_per90",
+        "aerialWon_per90", "saves_per90", "goalsPrevented_per90",
+    ]
+    for pos in ["F", "M", "D", "G"]:
+        sub = subset[subset["player_position"] == pos]
+        if sub.empty:
+            continue
+        for stat in pos_stats:
+            if stat not in sub.columns:
+                continue
+            col = f"{pos}_{stat}_avg"
+            team_row[col] = sub[stat].mean()
+    tactical_row = None
+    if not tactical_df.empty:
+        tc = "team_name" if "team_name" in tactical_df.columns else "team"
+        tac = tactical_df[
+            (tactical_df[tc].astype(str) == str(team_name))
+            & (tactical_df["season"].astype(str) == str(season))
+            & (tactical_df["competition_slug"].astype(str) == str(competition_slug))
+        ]
+        if not tac.empty:
+            tactical_row = tac.iloc[0]
+    return (team_row, tactical_row)
+
+
 @st.cache_data(show_spinner=False, ttl=3600)
 def load_managers() -> pd.DataFrame:
     """Match-level manager records from 14_managers.parquet."""
-    return pd.read_parquet(_PROJECT_ROOT / "data/processed/14_managers.parquet")
+    return pd.read_parquet(PROJECT_ROOT / "data/processed/14_managers.parquet")
 
 
 @st.cache_data(show_spinner=False, ttl=3600)
 def load_manager_career_stats() -> pd.DataFrame:
     """Manager career stats from manager_career_stats.parquet."""
-    return pd.read_parquet(_PROJECT_ROOT / "data/processed/manager_career_stats.parquet")
+    return pd.read_parquet(PROJECT_ROOT / "data/processed/manager_career_stats.parquet")
 
 
 @st.cache_data(show_spinner=False, ttl=3600)
@@ -226,7 +599,7 @@ def load_player_appearances_slim() -> pd.DataFrame:
     """Slim version of appearances for match-log displays."""
     # Read available columns (be tolerant of missing optional cols)
     desired_cols = [
-        "player_id", "player_name", "season", "competition_slug", "match_date_utc",
+        "player_id", "player_name", "match_id", "season", "competition_slug", "match_date_utc",
         "round", "home_team_name", "away_team_name", "team", "side", "position",
         "stat_minutesPlayed", "stat_rating", "stat_goals", "stat_goalAssist",
         "stat_expectedGoals", "stat_expectedAssists", "stat_keyPass",
@@ -234,7 +607,7 @@ def load_player_appearances_slim() -> pd.DataFrame:
         "stat_onTargetScoringAttempt", "stat_touches", "stat_duelWon", "stat_duelLost",
     ]
     import pyarrow.parquet as pq
-    pf = pq.read_table(_PROJECT_ROOT / "data/derived/player_appearances.parquet")
+    pf = pq.read_table(PROJECT_ROOT / "data/derived/player_appearances.parquet")
     available = [c for c in desired_cols if c in pf.schema.names]
     return pf.select(available).to_pandas()
 
@@ -248,7 +621,7 @@ def load_player_appearances_for_teams() -> pd.DataFrame:
         "stat_minutesPlayed", "stat_rating",
     ]
     import pyarrow.parquet as pq
-    pf = pq.read_table(_PROJECT_ROOT / "data/derived/player_appearances.parquet")
+    pf = pq.read_table(PROJECT_ROOT / "data/derived/player_appearances.parquet")
     available = [c for c in desired_cols if c in pf.schema.names]
     return pf.select(available).to_pandas()
 
@@ -303,6 +676,7 @@ def load_enriched_season_stats() -> pd.DataFrame:
 # Percentile computation (computed from enriched stats, no giant file needed)
 # ---------------------------------------------------------------------------
 
+
 @st.cache_data(show_spinner=False, ttl=3600)
 def compute_percentiles(df: pd.DataFrame, group_cols: list, stat_cols: list) -> pd.DataFrame:
     """
@@ -318,6 +692,42 @@ def compute_percentiles(df: pd.DataFrame, group_cols: list, stat_cols: list) -> 
             .rank(pct=True, na_option="keep")
             .mul(100)
         )
+    return result
+
+
+@st.cache_data(show_spinner=False, ttl=3600)
+def compute_percentiles_zscore(
+    df: pd.DataFrame, group_cols: list, stat_cols: list
+) -> pd.DataFrame:
+    """
+    For each stat in stat_cols, compute within-group percentile (0–100) via
+    z-score → normal CDF. More actionable than rank: separates top tail
+    (e.g. 1.0 vs 0.5 xG/90 get clearly different percentiles).
+    group_cols can be empty/list for a single pool (no grouping).
+    """
+    from scipy.stats import norm
+    result = df.copy()
+    for stat in stat_cols:
+        if stat not in df.columns:
+            continue
+        s = df[stat]
+        if len(group_cols) == 0:
+            mean = s.mean()
+            std = s.std()
+            if pd.isna(std) or std < 1e-10:
+                result[f"{stat}_pct"] = 50.0
+            else:
+                z = (s - mean) / std
+                result[f"{stat}_pct"] = np.asarray(norm.cdf(z)) * 100
+        else:
+            def _z_to_pct(x: pd.Series) -> pd.Series:
+                m, sd = x.mean(), x.std()
+                if pd.isna(sd) or sd < 1e-10:
+                    return pd.Series(50.0, index=x.index)
+                z = (x - m) / sd
+                pct_arr = np.asarray(norm.cdf(z)) * 100
+                return pd.Series(pct_arr, index=x.index)
+            result[f"{stat}_pct"] = df.groupby(group_cols)[stat].transform(_z_to_pct)
     return result
 
 
@@ -355,9 +765,15 @@ def get_player_radar_data(
         return pd.DataFrame()
 
     valid_stats = [s for s in stat_keys if s in pool.columns]
-
+    from scipy.stats import norm
     for stat in valid_stats:
-        pool[f"{stat}_pct"] = pool[stat].rank(pct=True, na_option="keep") * 100
+        mean = pool[stat].mean()
+        std = pool[stat].std()
+        if pd.isna(std) or std < 1e-10:
+            pool[f"{stat}_pct"] = 50.0
+        else:
+            z = (pool[stat] - mean) / std
+            pool[f"{stat}_pct"] = norm.cdf(z) * 100
 
     rows = []
     for pid in player_ids:
@@ -732,8 +1148,8 @@ def get_tactics_data_refresh_date() -> str | None:
     """Return 'Data as of &lt;date&gt;' from newest of 01/15 parquet mtime, or None if unavailable."""
     import datetime
     paths = [
-        _PROJECT_ROOT / "data/processed/01_team_season_stats.parquet",
-        _PROJECT_ROOT / "data/processed/15_team_tactical_profiles.parquet",
+        PROJECT_ROOT / "data/processed/01_team_season_stats.parquet",
+        PROJECT_ROOT / "data/processed/15_team_tactical_profiles.parquet",
     ]
     latest = None
     for p in paths:
@@ -752,33 +1168,66 @@ def get_tactics_data_refresh_date() -> str | None:
 
 @st.cache_data(show_spinner=False, ttl=3600)
 def load_match_momentum_summary() -> pd.DataFrame:
-    return pd.read_parquet(_PROJECT_ROOT / "data/processed/match_momentum_summary.parquet")
+    return pd.read_parquet(PROJECT_ROOT / "data/processed/match_momentum_summary.parquet")
 
 
 @st.cache_data(show_spinner=False, ttl=3600)
 def load_match_momentum() -> pd.DataFrame:
-    return pd.read_parquet(_PROJECT_ROOT / "data/processed/13_match_momentum.parquet")
+    return pd.read_parquet(PROJECT_ROOT / "data/processed/13_match_momentum.parquet")
 
 
 @st.cache_data(show_spinner=False, ttl=3600)
 def load_substitution_impact() -> pd.DataFrame:
-    return pd.read_parquet(_PROJECT_ROOT / "data/processed/12_substitution_impact.parquet")
+    return pd.read_parquet(PROJECT_ROOT / "data/processed/12_substitution_impact.parquet")
 
 
 @st.cache_data(show_spinner=False, ttl=3600)
 def load_peak_age_by_position() -> pd.DataFrame:
-    return pd.read_parquet(_PROJECT_ROOT / "data/processed/16_peak_age_by_position.parquet")
+    return pd.read_parquet(PROJECT_ROOT / "data/processed/16_peak_age_by_position.parquet")
 
 
 # ---------------------------------------------------------------------------
 # M8 / C5: Similar players (Euclidean distance on per-90 stats)
 # ---------------------------------------------------------------------------
 
+# Default stat set (all positions); only columns present in pool are used.
 _SIMILARITY_STATS = [
     "goals_per90", "expectedGoals_per90", "expectedAssists_per90",
     "keyPass_per90", "totalTackle_per90", "interceptionWon_per90",
     "duelWon_per90", "ballRecovery_per90",
+    "progressiveBallCarriesCount_per90", "aerialWon_per90",
+    "bigChanceCreated_per90", "totalPass_per90",
 ]
+
+# Position-specific stat sets for more meaningful "style" similarity (only keys present in pool are used).
+_SIMILARITY_STATS_BY_POSITION = {
+    "F": [
+        "goals_per90", "expectedGoals_per90", "expectedAssists_per90", "keyPass_per90",
+        "bigChanceCreated_per90", "totalShots_per90", "duelWon_per90", "ballRecovery_per90", "aerialWon_per90",
+    ],
+    "M": [
+        "keyPass_per90", "expectedAssists_per90", "expectedGoals_per90", "totalPass_per90",
+        "ballRecovery_per90", "duelWon_per90", "totalTackle_per90", "interceptionWon_per90",
+        "progressiveBallCarriesCount_per90",
+    ],
+    "D": [
+        "totalTackle_per90", "interceptionWon_per90", "duelWon_per90", "ballRecovery_per90",
+        "aerialWon_per90", "totalClearance_per90", "blockedScoringAttempt_per90",
+    ],
+    "G": [
+        "saves_per90", "goalsPrevented_per90", "goodHighClaim_per90",
+    ],
+}
+
+
+def _normalize_season(s: str | None) -> str:
+    """Canonical season for comparison: 2023/24 or 2023-24 -> 2023-24."""
+    if s is None or (isinstance(s, float) and np.isnan(s)):
+        return ""
+    s = str(s).strip()
+    if not s:
+        return ""
+    return s.replace("/", "-")
 
 @st.cache_data(show_spinner=False, ttl=3600)
 def get_similar_players(
@@ -790,62 +1239,134 @@ def get_similar_players(
     n: int = 5,
     stat_keys: list | None = None,
     cross_league: bool = False,
+    include_all_leagues: bool = False,
+    reference_season: str | None = None,
+    min_minutes: int = 0,
+    _cache_version: int = 3,
 ) -> pd.DataFrame:
     """
-    Euclidean distance on normalized per-90 stats within the same
-    position × season × (competition or all leagues if cross_league) pool.
-    Returns top-n similar players (excluding the reference player),
-    with their distance score (lower = more similar).
+    Pool = players in `season` (e.g. current season 2025/2026) only.
+    Reference = when reference_season is set, use the player's row from that season
+    (e.g. Kroos 2023/24) so we get "his 2023/24 numbers vs 2025/26 other players".
+    When reference_season is not set, reference is from the pool (same season).
+    Uses position-specific stat sets when position is F/M/D/G for more meaningful style similarity.
+    min_minutes: exclude pool players with total_minutes below this (0 = no filter).
     """
-    if stat_keys is None:
-        stat_keys = _SIMILARITY_STATS
-
-    if cross_league:
-        from dashboard.utils.constants import TOP_5_LEAGUES
-        pool = df_all[
-            (df_all["season"] == season) &
-            (df_all["competition_slug"].isin(TOP_5_LEAGUES)) &
-            (df_all["player_position"] == position)
-        ].copy()
-    else:
-        pool = df_all[
-            (df_all["season"] == season) &
-            (df_all["competition_slug"] == competition_slug) &
-            (df_all["player_position"] == position)
-        ].copy()
-
-    valid_stats = [s for s in stat_keys if s in pool.columns]
-    if not valid_stats or pool.empty:
+    try:
+        if df_all is None or (not isinstance(df_all, pd.DataFrame)) or df_all.empty:
+            return pd.DataFrame()
+        if player_id is None or (isinstance(player_id, float) and np.isnan(player_id)):
+            return pd.DataFrame()
+        pid = int(player_id)
+    except (TypeError, ValueError):
         return pd.DataFrame()
 
-    # Normalize each stat to 0-1 range
-    for s in valid_stats:
-        mn, mx = pool[s].min(), pool[s].max()
-        pool[f"_norm_{s}"] = (pool[s] - mn) / (mx - mn + 1e-9)
+    try:
+        required = ["season", "player_position", "player_id"]
+        if not include_all_leagues:
+            required.append("competition_slug")
+        if any(c not in df_all.columns for c in required):
+            return pd.DataFrame()
 
-    ref = pool[pool["player_id"] == player_id]
-    if ref.empty:
+        if stat_keys is None:
+            position_str_for_stats = str(position).strip() if position is not None and pd.notna(position) else ""
+            if position_str_for_stats in _SIMILARITY_STATS_BY_POSITION:
+                stat_keys = _SIMILARITY_STATS_BY_POSITION[position_str_for_stats]
+            else:
+                stat_keys = _SIMILARITY_STATS
+
+        season_str = _normalize_season(season)
+        if not season_str and season is not None and not (isinstance(season, float) and np.isnan(season)):
+            season_str = str(season).strip().replace("/", "-")
+        position_str = str(position).strip() if position is not None and pd.notna(position) else ""
+        ref_season_str = _normalize_season(reference_season) or _normalize_season(season) or season_str
+
+        # Normalize season column for comparisons (2023/24 and 2023-24 both match)
+        df_season_norm = df_all["season"].astype(str).str.strip().str.replace("/", "-", regex=False)
+        if include_all_leagues:
+            pool = df_all[
+                (df_season_norm == season_str) &
+                (df_all["player_position"].astype(str).str.strip() == position_str)
+            ].copy()
+        elif cross_league:
+            from dashboard.utils.constants import TOP_5_LEAGUES
+            pool = df_all[
+                (df_season_norm == season_str) &
+                (df_all["competition_slug"].isin(TOP_5_LEAGUES)) &
+                (df_all["player_position"].astype(str).str.strip() == position_str)
+            ].copy()
+        else:
+            comp_str = str(competition_slug).strip() if competition_slug is not None and pd.notna(competition_slug) else ""
+            pool = df_all[
+                (df_season_norm == season_str) &
+                (df_all["competition_slug"].astype(str).str.strip() == comp_str) &
+                (df_all["player_position"].astype(str).str.strip() == position_str)
+            ].copy()
+
+        if min_minutes > 0 and "total_minutes" in pool.columns:
+            pool = pool[pool["total_minutes"].fillna(0) >= min_minutes].copy()
+
+        valid_stats = [s for s in stat_keys if s in pool.columns]
+        if not valid_stats or pool.empty:
+            return pd.DataFrame()
+
+        pool = pool.copy()
+        pool["_pid"] = pd.to_numeric(pool["player_id"], errors="coerce")
+
+        for s in valid_stats:
+            mn, mx = pool[s].min(), pool[s].max()
+            pool[f"_norm_{s}"] = (pool[s] - mn) / (mx - mn + 1e-9)
+
+        norm_cols = [f"_norm_{s}" for s in valid_stats]
+
+        # Reference: from reference_season (e.g. 2023/24) so "profile numbers vs current-season pool"
+        use_ref_season = ref_season_str != season_str
+        if use_ref_season:
+            ref_candidates = df_all[
+                (df_all["player_id"] == pid) &
+                (df_season_norm == ref_season_str) &
+                (df_all["player_position"].astype(str).str.strip() == position_str)
+            ]
+            if ref_candidates.empty:
+                return pd.DataFrame()
+            ref = ref_candidates.iloc[0]
+            ref_vals = []
+            for s in valid_stats:
+                mn, mx = pool[s].min(), pool[s].max()
+                try:
+                    v = ref.get(s, np.nan) if hasattr(ref, "get") else ref[s] if s in ref.index else np.nan
+                    if pd.isna(v):
+                        ref_vals.append(0.0)
+                    else:
+                        ref_vals.append((float(v) - mn) / (mx - mn + 1e-9))
+                except (TypeError, ValueError):
+                    ref_vals.append(0.0)
+            ref_vec = np.array(ref_vals, dtype=float)
+        else:
+            ref = pool[pool["_pid"] == pid]
+            if ref.empty:
+                return pd.DataFrame()
+            ref = ref.iloc[0]
+            ref_vec = ref[norm_cols].fillna(0).values.astype(float)
+
+        others = pool[pool["_pid"] != pid].copy()
+
+        if others.empty:
+            return pd.DataFrame()
+
+        mat = others[norm_cols].fillna(0).astype(float).values
+        diff = mat - ref_vec
+        others["_dist"] = np.sqrt(np.sum(diff ** 2, axis=1))
+
+        out_cols = ["player_id", "player_name", "team", "avg_rating",
+                    "expectedGoals_per90", "expectedAssists_per90", "_dist"]
+        if "competition_slug" in others.columns:
+            out_cols.append("competition_slug")
+        top = others.nsmallest(n, "_dist")[[c for c in out_cols if c in others.columns]].copy()
+        top = top.rename(columns={"_dist": "similarity_dist"})
+        return top.reset_index(drop=True)
+    except Exception:
         return pd.DataFrame()
-    ref = ref.iloc[0]
-
-    norm_cols = [f"_norm_{s}" for s in valid_stats]
-    ref_vec = ref[norm_cols].fillna(0).values
-
-    others = pool[pool["player_id"] != player_id].copy()
-    if others.empty:
-        return pd.DataFrame()
-
-    others["_dist"] = others[norm_cols].fillna(0).apply(
-        lambda row: float(np.sqrt(np.sum((row.values - ref_vec) ** 2))),
-        axis=1,
-    )
-
-    top = others.nsmallest(n, "_dist")[
-        ["player_id", "player_name", "team", "avg_rating",
-         "expectedGoals_per90", "expectedAssists_per90", "_dist"]
-    ].copy()
-    top = top.rename(columns={"_dist": "similarity_dist"})
-    return top.reset_index(drop=True)
 
 
 # ---------------------------------------------------------------------------
@@ -967,45 +1488,93 @@ def build_player_narrative(scout_row: "pd.Series", form_row: "pd.Series | None",
                             prow: "pd.Series") -> str:
     """
     One-paragraph rule-based player auto-summary from scouting profile + form.
+    For scouting-report layout use build_player_narrative_blobs() instead.
     """
-    parts = []
-    pos = prow.get("player_position", "?")
-    team = prow.get("team", "?")
-    rating = prow.get("avg_rating")
-    mins = prow.get("total_minutes", 0)
-
-    rating_desc = "elite" if rating and rating >= 7.5 else ("above average" if rating and rating >= 7.0 else "average")
-    parts.append(
-        f"{pos} for {team}. Season rating: {rating:.2f} ({rating_desc}). "
-        f"Played {int(mins):,} minutes."
-        if pd.notna(rating) else f"{pos} for {team}. Played {int(mins):,} minutes."
+    role, strengths, concerns = build_player_narrative_blobs(
+        prow, None, form_row, scout_row, None
     )
+    return " ".join(filter(None, [role, strengths, concerns]))
 
-    # Strengths
+
+def build_player_narrative_blobs(
+    prow: "pd.Series",
+    badges: "Optional[List[Any]]",
+    form_row: "Optional[pd.DataFrame]",
+    scout_row: "Optional[pd.Series]",
+    fit_result: "Optional[dict]",
+    performance_index_label: "Optional[str]" = None,
+    pool_label: "Optional[str]" = None,
+) -> tuple:
+    """
+    Rule-based scouting narrative in three blobs: role, strengths, concerns.
+    Used for Profile page executive summary.
+    """
+    # Paragraph 1 – Role and season
+    name = prow.get("player_name", "Player")
+    pos = prow.get("player_position", "?")
+    from dashboard.utils.constants import POSITION_NAMES
+    pos_label = POSITION_NAMES.get(pos, pos)
+    team = prow.get("team", "?")
+    league = prow.get("league_name", prow.get("competition_slug", "?"))
+    season = prow.get("season", "?")
+    age = int(prow.get("age_at_season_start", 0))
+    mins = int(prow.get("total_minutes", 0))
+    rating = prow.get("avg_rating")
+    role_para = (
+        f"{name} is a {pos_label} at {team} in {league}, {season}. "
+        f"{age} years old, {mins:,} minutes, {rating:.2f} average rating."
+        if pd.notna(rating) else
+        f"{name} is a {pos_label} at {team} in {league}, {season}. {age} years old, {mins:,} minutes."
+    )
+    if performance_index_label and pool_label:
+        role_para += f" Performance index: {performance_index_label} in comparison pool ({pool_label})."
+
+    # Paragraph 2 – Strengths (from positive badges + optional scout top stats)
     strength_parts = []
-    for i in range(1, 4):
-        sname = scout_row.get(f"top_pct_stat_{i}_name")
-        spct = scout_row.get(f"top_pct_stat_{i}_pct")
-        if pd.notna(sname) and pd.notna(spct) and spct >= 70:
-            label = sname.replace("_per90", "/90").replace("_", " ").title()
-            strength_parts.append(f"{label} ({spct:.0f}th pct)")
-    if strength_parts:
-        parts.append(f"Key strengths: {', '.join(strength_parts)}.")
+    if badges:
+        positive = [b for b in badges if getattr(b, "is_positive", True)]
+        if positive:
+            names = [getattr(b, "name", str(b)) for b in positive]
+            descs = [getattr(b, "description", "") for b in positive]
+            strength_parts.append("Strengths include " + ", ".join(names) + ": " + "; ".join(d for d in descs if d) + ".")
+        else:
+            strength_parts.append("No standout strength badges this season; see key percentiles and radar below.")
+    if scout_row is not None and not strength_parts:
+        for i in range(1, 4):
+            sname = scout_row.get(f"top_pct_stat_{i}_name")
+            spct = scout_row.get(f"top_pct_stat_{i}_pct")
+            if pd.notna(sname) and pd.notna(spct) and spct >= 70:
+                label = sname.replace("_per90", "/90").replace("_", " ").title()
+                strength_parts.append(f"Top strength: {label} ({spct:.0f}th percentile).")
+    strengths_para = " ".join(strength_parts) if strength_parts else "No standout strength badges this season; see key percentiles and radar below."
 
-    # Form
-    if form_row is not None and not form_row.empty:
-        fr = form_row.iloc[0] if hasattr(form_row, "iloc") else form_row
-        form_rating = fr.get("avg_rating")
-        form_goals = fr.get("goals", 0)
-        form_xg = fr.get("xg_total", 0)
-        if pd.notna(form_rating):
-            trend = "in good form" if form_rating >= 7.0 else ("in poor form" if form_rating < 6.5 else "in moderate form")
-            parts.append(
-                f"Recent form (last 5): {trend} ({form_rating:.2f} avg rating, "
-                f"{int(form_goals)} goals, {form_xg:.2f} xG)."
-            )
+    # Paragraph 3 – Concerns and fit
+    concern_parts = []
+    if badges:
+        negative = [b for b in badges if not getattr(b, "is_positive", True)]
+        if negative:
+            names = [getattr(b, "name", str(b)) for b in negative]
+            descs = [getattr(b, "description", "") for b in negative]
+            concern_parts.append("Concerns: " + ", ".join(names) + ": " + "; ".join(d for d in descs if d) + ".")
+    if fit_result and fit_result.get("selected_team_label"):
+        pct = fit_result.get("recommendation_pct", fit_result.get("overall_score", 0))
+        label = fit_result.get("recommendation_label", "")
+        expl = fit_result.get("explanation", "")
+        if "Statistical match" in expl or "Squad upgrade:" in expl or "/100" in expl:
+            if pct >= 70:
+                expl = "He would strengthen the squad and fits our style."
+            elif pct >= 55:
+                expl = "He would add to the squad but may need a clear role or time to adapt."
+            else:
+                expl = "Doesn't align well with our profile."
+        concern_parts.append(
+            f"For {fit_result['selected_team_label']}, recommendation is {pct:.0f}% ({label}). {expl}"
+        )
+    elif fit_result is not None:
+        concern_parts.append("Select a team above to see how he fits a specific club.")
+    concerns_para = " ".join(concern_parts) if concern_parts else ""
 
-    return " ".join(parts)
+    return (role_para, strengths_para, concerns_para)
 
 
 # ---------------------------------------------------------------------------

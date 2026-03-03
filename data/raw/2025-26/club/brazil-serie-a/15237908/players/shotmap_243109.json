@@ -1,0 +1,96 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Reinaldo",
+        "firstName": "",
+        "lastName": "",
+        "slug": "reinaldo",
+        "shortName": "Reinaldo",
+        "position": "D",
+        "jerseyNumber": "6",
+        "userCount": 2550,
+        "gender": "M",
+        "id": 243109,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رينالدو"
+          },
+          "shortNameTranslation": {
+            "ar": "رينالدو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 10,
+        "y": 32.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.9,
+        "y": 35.7,
+        "z": 0
+      },
+      "xg": 0.05572485178709,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Cássio",
+        "slug": "cassio",
+        "shortName": "Cássio",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 4569,
+        "gender": "M",
+        "sofascoreId": "rcassio12",
+        "id": 27756,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاسيو",
+            "bn": "ক্যাসিও",
+            "hi": "कैसियो"
+          },
+          "shortNameTranslation": {
+            "ar": "كاسيو",
+            "bn": "ক্যাসিও",
+            "hi": "कैसियो"
+          }
+        }
+      },
+      "id": 6693656,
+      "time": 21,
+      "timeSeconds": 1205,
+      "draw": {
+        "start": {
+          "x": 32.1,
+          "y": 10
+        },
+        "block": {
+          "x": 35.7,
+          "y": 7.9
+        },
+        "end": {
+          "x": 49.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 25,
+      "reversedPeriodTimeSeconds": 1495,
+      "periodTimeSeconds": 1205,
+      "incidentType": "shot"
+    }
+  ]
+}

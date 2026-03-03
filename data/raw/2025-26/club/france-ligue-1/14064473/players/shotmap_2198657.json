@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kenny Quetant",
+        "firstName": "Kenny",
+        "lastName": "Quetant",
+        "slug": "kenny-quetant",
+        "shortName": "K. Quetant",
+        "position": "F",
+        "jerseyNumber": "33",
+        "userCount": 75,
+        "gender": "M",
+        "id": 2198657,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيني كويتانت"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. كويتانت"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 19.4,
+        "y": 54.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.6,
+        "y": 54.5,
+        "z": 0
+      },
+      "xg": 0.059814531356096,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Philipp Köhn",
+        "firstName": "",
+        "lastName": "",
+        "slug": "philipp-kohn",
+        "shortName": "P. Köhn",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 737,
+        "gender": "M",
+        "id": 868964,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيليب كون",
+            "bn": "ফিলিপ কোহন",
+            "hi": "फिलिप कोह्न"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. كون",
+            "bn": "পি. কোহন",
+            "hi": "पी. कोह्न"
+          }
+        }
+      },
+      "id": 6582393,
+      "time": 51,
+      "timeSeconds": 3030,
+      "draw": {
+        "start": {
+          "x": 54.9,
+          "y": 19.4
+        },
+        "block": {
+          "x": 54.5,
+          "y": 17.6
+        },
+        "end": {
+          "x": 50.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2370,
+      "periodTimeSeconds": 330,
+      "incidentType": "shot"
+    }
+  ]
+}

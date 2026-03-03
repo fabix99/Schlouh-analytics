@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Max Bruns",
+        "firstName": "Max Bruns",
+        "lastName": "",
+        "slug": "max-bruns",
+        "shortName": "M. Bruns",
+        "position": "D",
+        "jerseyNumber": "38",
+        "userCount": 104,
+        "gender": "M",
+        "id": 1091627,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماكس برونز"
+          },
+          "shortNameTranslation": {
+            "ar": "م. برونز"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.8,
+        "y": 42.3,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 57.6,
+        "z": 1.4
+      },
+      "blockCoordinates": {
+        "x": 0.7,
+        "y": 43,
+        "z": 0
+      },
+      "xg": 0.07719823718071,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Stijn van Gassel",
+        "firstName": "",
+        "lastName": "",
+        "slug": "stijn-van-gassel",
+        "shortName": "S. van Gassel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 169,
+        "gender": "M",
+        "id": 367118,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستاين فان غاسل"
+          },
+          "shortNameTranslation": {
+            "ar": "س. فان غاسل"
+          }
+        }
+      },
+      "id": 6582721,
+      "time": 12,
+      "timeSeconds": 670,
+      "draw": {
+        "start": {
+          "x": 42.3,
+          "y": 8.8
+        },
+        "block": {
+          "x": 43,
+          "y": 0.7
+        },
+        "end": {
+          "x": 42.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 42.4,
+          "y": 98.6
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2030,
+      "periodTimeSeconds": 670,
+      "incidentType": "shot"
+    }
+  ]
+}

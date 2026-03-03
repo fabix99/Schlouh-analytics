@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nahuel Molina",
+        "slug": "nahuel-molina",
+        "shortName": "N. Molina",
+        "position": "D",
+        "jerseyNumber": "16",
+        "userCount": 13461,
+        "gender": "M",
+        "sofascoreId": "nahuelmolina_35",
+        "id": 831799,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناويل مولينا",
+            "bn": "নাহুয়েল মোলিনা",
+            "hi": "नहुएल मोलिना"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. مولينا",
+            "bn": "এন. মোলিনা",
+            "hi": "एन. मोलिना"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.4,
+        "y": 70.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 69.7,
+        "z": 9.7
+      },
+      "blockCoordinates": {
+        "x": 12.3,
+        "y": 56.3,
+        "z": 0
+      },
+      "xg": 0.034736718982458,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nikita Haikin",
+        "firstName": "",
+        "lastName": "",
+        "slug": "haikin-nikita",
+        "shortName": "N. Haikin",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1223,
+        "gender": "M",
+        "id": 792624,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هايكين، نيكيتا",
+            "bn": "হাইকিন, নিকিতা",
+            "hi": "हाइकिन, निकिता"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. هايكين",
+            "bn": "এন. হাইকিন",
+            "hi": "एन. हाइकिन"
+          }
+        }
+      },
+      "id": 6602743,
+      "time": 70,
+      "timeSeconds": 4177,
+      "draw": {
+        "start": {
+          "x": 70.7,
+          "y": 14.4
+        },
+        "block": {
+          "x": 56.3,
+          "y": 12.3
+        },
+        "end": {
+          "x": 30.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 30.3,
+          "y": 90.3
+        }
+      },
+      "reversedPeriodTime": 21,
+      "reversedPeriodTimeSeconds": 1223,
+      "periodTimeSeconds": 1477,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Aleix García",
+        "slug": "aleix-garcia",
+        "shortName": "A. García",
+        "position": "M",
+        "jerseyNumber": "24",
+        "userCount": 4639,
+        "gender": "M",
+        "sofascoreId": "AlexGarcia97",
+        "id": 796047,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليكس غارسيا",
+            "bn": "অ্যালেক্স গার্সিয়া",
+            "hi": "एलेक्स गार्सिया"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. غارسيا",
+            "bn": "এ. গার্সিয়া",
+            "hi": "ए. गार्सिया"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.3,
+        "y": 33.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.2,
+        "z": 13.3
+      },
+      "blockCoordinates": {
+        "x": 1.5,
+        "y": 48.4,
+        "z": 0
+      },
+      "xg": 0.02130045928061,
+      "xgot": 0.0087649831548333,
+      "goalkeeper": {
+        "name": "Arnau Tenas",
+        "firstName": "",
+        "lastName": "",
+        "slug": "arnau-tenas",
+        "shortName": "A. Tenas",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 5072,
+        "gender": "M",
+        "id": 908714,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أرنو تيناس",
+            "bn": "আরনাউ টেনাস",
+            "hi": "अर्नौ टेनस"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. تيناس",
+            "bn": "এ. টেনাস",
+            "hi": "ए. टेनस"
+          }
+        }
+      },
+      "id": 6602408,
+      "time": 19,
+      "timeSeconds": 1132,
+      "draw": {
+        "start": {
+          "x": 33.5,
+          "y": 23.3
+        },
+        "block": {
+          "x": 48.4,
+          "y": 1.5
+        },
+        "end": {
+          "x": 49.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.8,
+          "y": 86.7
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1568,
+      "periodTimeSeconds": 1132,
+      "incidentType": "shot"
+    }
+  ]
+}

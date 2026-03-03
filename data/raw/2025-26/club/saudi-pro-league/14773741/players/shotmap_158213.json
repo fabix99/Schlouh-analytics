@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Riyad Mahrez",
+        "slug": "riyad-mahrez",
+        "shortName": "R. Mahrez",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 70667,
+        "gender": "M",
+        "sofascoreId": "RMahrez",
+        "id": 158213,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رياض محرز",
+            "bn": "রিয়াদ মাহরেজ",
+            "hi": "रियाद महरेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. محرز",
+            "bn": "আর. মাহরেজ",
+            "hi": "आर. महरेज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.1,
+        "y": 67,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 6,
+        "y": 57.2,
+        "z": 0
+      },
+      "xg": 0.041427880525589,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Victor Braga",
+        "slug": "victor-braga",
+        "shortName": "V. Braga",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 90,
+        "gender": "M",
+        "id": 805020,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور براغا",
+            "bn": "ভিক্টর ব্রাগা",
+            "hi": "विक्टर ब्रागा"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. براغا",
+            "bn": "ভি.ব্রাগা",
+            "hi": "वी. ब्रागा"
+          }
+        }
+      },
+      "id": 6741685,
+      "time": 21,
+      "timeSeconds": 1255,
+      "draw": {
+        "start": {
+          "x": 67,
+          "y": 13.1
+        },
+        "block": {
+          "x": 57.2,
+          "y": 6
+        },
+        "end": {
+          "x": 48.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 25,
+      "reversedPeriodTimeSeconds": 1445,
+      "periodTimeSeconds": 1255,
+      "incidentType": "shot"
+    }
+  ]
+}

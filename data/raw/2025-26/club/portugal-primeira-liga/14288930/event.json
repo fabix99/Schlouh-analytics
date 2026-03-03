@@ -1,0 +1,419 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "tournament": {
+      "name": "Liga Portugal Betclic",
+      "slug": "liga-portugal-betclic",
+      "category": {
+        "name": "Portugal",
+        "slug": "portugal",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 44,
+        "flag": "portugal",
+        "alpha2": "PT",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "البرتغال",
+            "ru": "Португалия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Liga Portugal Betclic",
+        "slug": "liga-portugal-betclic",
+        "primaryColorHex": "#ffc501",
+        "secondaryColorHex": "#e6a100",
+        "category": {
+          "name": "Portugal",
+          "slug": "portugal",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "PT",
+            "alpha3": "PRT",
+            "name": "Portugal",
+            "slug": "portugal"
+          },
+          "id": 44,
+          "flag": "portugal",
+          "alpha2": "PT",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "البرتغال",
+              "ru": "Португалия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 149142,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 238,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري بيتكليك البرتغالي",
+            "bn": "লিগা পর্তুগাল বেটক্লিক",
+            "hi": "लीगा पुर्तगाल बेटक्लिक"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 516,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 52,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الدوري البرتغالي بيتكليك",
+          "bn": "লিগা পর্তুগাল বেটক্লিক",
+          "hi": "लीगा पुर्तगाल बेटक्लिक"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Liga Portugal 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 77806
+    },
+    "roundInfo": {
+      "round": 18
+    },
+    "customId": "bkbspCo",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "venue": {
+      "city": {
+        "name": "Lisbon"
+      },
+      "venueCoordinates": {
+        "latitude": 38.761216,
+        "longitude": -9.160783
+      },
+      "hidden": false,
+      "slug": "jos-alvalade",
+      "name": "Estádio José Alvalade",
+      "capacity": 52095,
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 910,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "خوسيه ألفالادي",
+          "hi": "जोस अलवालदे",
+          "bn": "হোসে আলভালাদে"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Estádio José Alvalade",
+        "capacity": 52095
+      }
+    },
+    "referee": {
+      "name": "David Rafael Oliveira da Silva",
+      "slug": "oliveira-da-silva-david-rafael",
+      "yellowCards": 642,
+      "redCards": 24,
+      "yellowRedCards": 14,
+      "games": 113,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 787265,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ديفيد رافائيل أوليفيرا دا سيلفا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Sporting CP",
+      "slug": "sporting",
+      "shortName": "Sporting",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 697944,
+      "manager": {
+        "name": "Rui Borges",
+        "slug": "rui-borges",
+        "shortName": "R. Borges",
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 791680,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روي بورغيس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. بورغيس"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Lisbon"
+        },
+        "venueCoordinates": {
+          "latitude": 38.761216,
+          "longitude": -9.160783
+        },
+        "hidden": false,
+        "slug": "jos-alvalade",
+        "name": "Estádio José Alvalade",
+        "capacity": 52095,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 910,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه ألفالادي",
+            "hi": "जोस अलवालदे",
+            "bn": "হোসে আলভালাদে"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estádio José Alvalade",
+          "capacity": 52095
+        }
+      },
+      "nameCode": "SCP",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 3001,
+      "fullName": "Sporting CP",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#009966",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2004048000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سبورتنج",
+          "bn": "স্পোর্টিং",
+          "hi": "स्पोर्टिंग",
+          "ru": "Спортинг Лиссабон"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Casa Pia",
+      "slug": "casa-pia",
+      "shortName": "Casa Pia",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 26199,
+      "manager": {
+        "name": "Álvaro Pacheco",
+        "slug": "alvaro-pacheco",
+        "shortName": "Á. Pacheco",
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 790638,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألفارو باتشيكو",
+            "bn": "আলভারো পাচেকো",
+            "hi": "अल्वारो पचेको"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باتشيكو",
+            "bn": "এ. পাচেকো",
+            "hi": "ए. पचेको"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Rio Maior"
+        },
+        "venueCoordinates": {
+          "latitude": 39.344577,
+          "longitude": -8.934484
+        },
+        "hidden": false,
+        "slug": "estadio-municipal-de-rio-maior",
+        "name": "Estádio Municipal de Rio Maior",
+        "capacity": 7000,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 2645,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب بلدية دو ريو مايّور",
+            "hi": "एस्टाडिओ म्यूनिसिपल डे रियो मायोर",
+            "bn": "এস্তাদিও মিউনিসিপ্যাল ​​ডি রিও মায়োর"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estádio Municipal de Rio Maior",
+          "capacity": 7000
+        }
+      },
+      "nameCode": "CAS",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "id": 36365,
+      "fullName": "Casa Pia",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -1562025600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كازا بيا",
+          "ru": "Каса Пиа"
+        },
+        "shortNameTranslation": {
+          "ar": "كازا بيا"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 2,
+      "period2": 1,
+      "normaltime": 3
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 4,
+      "injuryTime2": 4,
+      "currentPeriodStartTimestamp": 1768598613
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1768601666
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14288930,
+    "awayRedCards": 1,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "casa-pia-sporting",
+    "currentPeriodStartTimestamp": 1768598613,
+    "startTimestamp": 1768594500,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "club"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

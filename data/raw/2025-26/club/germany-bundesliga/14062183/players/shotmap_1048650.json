@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rocco Reitz",
+        "slug": "rocco-reitz",
+        "shortName": "R. Reitz",
+        "position": "M",
+        "jerseyNumber": "27",
+        "userCount": 1024,
+        "gender": "M",
+        "id": 1048650,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روكو ريتز",
+            "bn": "রোকো রিটজ",
+            "hi": "रोक्को रीट्ज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ريتز",
+            "bn": "আর. রিটজ",
+            "hi": "आर. रीट्ज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 26.7,
+        "y": 55.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.8,
+        "z": 73.6
+      },
+      "blockCoordinates": {
+        "x": 20.3,
+        "y": 53.4,
+        "z": 0
+      },
+      "xg": 0.010506878606975,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Alexander Nübel",
+        "firstName": "",
+        "lastName": "",
+        "slug": "alexander-nubel",
+        "shortName": "A. Nübel",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 2073,
+        "gender": "M",
+        "id": 584722,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر نوبل",
+            "bn": "আলেকজান্ডার নুবেল",
+            "hi": "अलेक्जेंडर नुबेल"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. نوبل",
+            "bn": "এ. নুবেল",
+            "hi": "ए. नुबेल"
+          }
+        }
+      },
+      "id": 6588752,
+      "time": 13,
+      "timeSeconds": 741,
+      "draw": {
+        "start": {
+          "x": 55.6,
+          "y": 26.7
+        },
+        "block": {
+          "x": 53.4,
+          "y": 20.3
+        },
+        "end": {
+          "x": 48.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.2,
+          "y": 26.4
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1959,
+      "periodTimeSeconds": 741,
+      "incidentType": "shot"
+    }
+  ]
+}

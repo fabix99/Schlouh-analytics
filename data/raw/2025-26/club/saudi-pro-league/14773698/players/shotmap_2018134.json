@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Aboubacar Bah",
+        "firstName": "Aboubacar Bah",
+        "slug": "aboubacar-bah",
+        "shortName": "A. Bah",
+        "position": "M",
+        "jerseyNumber": "24",
+        "userCount": 653,
+        "gender": "M",
+        "id": 2018134,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أبوبكر باه"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باه"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 24.4,
+        "y": 62.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.8,
+        "y": 58.7,
+        "z": 0
+      },
+      "xg": 0.010588171891868,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kewin",
+        "slug": "kewin",
+        "shortName": "Kewin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 111,
+        "gender": "M",
+        "id": 865371,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيوين"
+          },
+          "shortNameTranslation": {
+            "ar": "كيوين"
+          }
+        }
+      },
+      "id": 6594849,
+      "time": 28,
+      "timeSeconds": 1656,
+      "draw": {
+        "start": {
+          "x": 62.8,
+          "y": 24.4
+        },
+        "block": {
+          "x": 58.7,
+          "y": 13.8
+        },
+        "end": {
+          "x": 53.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 18,
+      "reversedPeriodTimeSeconds": 1044,
+      "periodTimeSeconds": 1656,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -71,7 +71,7 @@ def main():
             "minutes_after_sub": row["minutes_after_sub"],
             "sub_minute_estimated": sub_minute_estimated,
             "confidence_tier": confidence_tier,
-            "player_in_rating": row["stat_rating"] if "stat_rating" in row.index else np.nan,
+            "player_in_rating": (row["stat_rating"] / 2.0 if "stat_rating" in row.index and pd.notna(row["stat_rating"]) and row["stat_rating"] > 10 else row["stat_rating"]) if "stat_rating" in row.index else np.nan,
             "player_in_goals": int(row["stat_goals"]) if "stat_goals" in row.index and pd.notna(row["stat_goals"]) else 0,
             "player_in_assists": int(row["stat_goalAssist"]) if "stat_goalAssist" in row.index and pd.notna(row["stat_goalAssist"]) else 0,
             "player_in_xg": row["stat_expectedGoals"] if "stat_expectedGoals" in row.index else np.nan,

@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Dor Peretz",
+        "firstName": "Dor",
+        "lastName": "Peretz",
+        "slug": "dor-peretz",
+        "shortName": "D. Peretz",
+        "position": "M",
+        "jerseyNumber": "42",
+        "userCount": 472,
+        "gender": "M",
+        "id": 186953,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دور بيرتس",
+            "bn": "ডর পেরেৎজ",
+            "hi": "डोर पेरेट्ज़"
+          },
+          "shortNameTranslation": {
+            "ar": "د. بيرتس",
+            "bn": "ডি. পেরেৎজ",
+            "hi": "डी. पेरेट्ज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 17.5,
+        "y": 48.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.5,
+        "z": 4.4
+      },
+      "blockCoordinates": {
+        "x": 5.1,
+        "y": 49.6,
+        "z": 0
+      },
+      "xg": 0.050258193165064,
+      "xgot": 0.080561138689518,
+      "goalkeeper": {
+        "name": "Łukasz Skorupski",
+        "slug": "lukasz-skorupski",
+        "shortName": "Ł. Skorupski",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 4388,
+        "gender": "M",
+        "sofascoreId": "lukaszskorupski28",
+        "id": 44906,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس سكوروبسكي",
+            "bn": "লুকাস স্কোরুপস্কি",
+            "hi": "लुकाज़ स्कोर्पस्की"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. سكوروبسكي",
+            "bn": "এল.স্কোরুপস্কি",
+            "hi": "एल. स्कोर्पस्की"
+          }
+        }
+      },
+      "id": 6605769,
+      "time": 9,
+      "timeSeconds": 537,
+      "draw": {
+        "start": {
+          "x": 48.5,
+          "y": 17.5
+        },
+        "block": {
+          "x": 49.6,
+          "y": 5.1
+        },
+        "end": {
+          "x": 51.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.5,
+          "y": 95.6
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2163,
+      "periodTimeSeconds": 537,
+      "incidentType": "shot"
+    }
+  ]
+}

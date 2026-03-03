@@ -43,6 +43,9 @@ def main():
     ).reset_index()
     if "player_dateOfBirthTimestamp" not in identity.columns:
         identity["player_dateOfBirthTimestamp"] = np.nan
+    if "player_height" in app.columns:
+        height_agg = app.groupby(id_cols)["player_height"].first().reset_index()
+        identity = identity.merge(height_agg, on=id_cols, how="left")
 
     # Appearances / minutes
     app_agg = app.groupby(id_cols).agg(
@@ -54,8 +57,16 @@ def main():
     app_agg["avg_minutes_per_game"] = app_agg["total_minutes"] / app_agg["appearances"]
     app_agg["sufficient_minutes"] = app_agg["total_minutes"] >= MIN_MINUTES_SEASON
 
-    # Rating average (exclude nulls)
-    rating_agg = app.groupby(id_cols)["stat_rating"].apply(lambda x: x.dropna().mean()).reset_index(name="avg_rating")
+    # Rating average (exclude nulls). Sofascore scale is 0–10; normalize if source is 0–20.
+    if "stat_rating" in app.columns:
+        r = app["stat_rating"].copy()
+        r = pd.to_numeric(r, errors="coerce")
+        if r.notna().any() and r.max() > 10:
+            r = r / 2.0
+        app = app.assign(_rating_norm=r)
+        rating_agg = app.groupby(id_cols)["_rating_norm"].apply(lambda x: x.dropna().mean()).reset_index(name="avg_rating")
+    else:
+        rating_agg = pd.DataFrame(columns=id_cols + ["avg_rating"])
 
     # Totals for every stat column that exists
     stat_cols = [c for c in STAT_COLS if c in app.columns]

@@ -80,6 +80,9 @@ STEPS = [
     ("14", "14_managers", [sys.executable, str(ROOT / "scripts/build/14_build_managers.py")]),
     ("15", "15_team_tactical_profiles", [sys.executable, str(ROOT / "scripts/build/15_build_team_tactical_profiles.py")]),
     ("16", "16_player_age_curves", [sys.executable, str(ROOT / "scripts/build/16_build_player_age_curves.py")]),
+    ("17", "17_best_players_and_ai_insights", [sys.executable, str(ROOT / "scripts/build/17_build_best_players.py")]),
+    ("18", "18_player_match_maps", [sys.executable, str(ROOT / "scripts/build/18_player_match_maps.py")]),
+    ("19", "19_player_market_contract", [sys.executable, str(ROOT / "scripts/build/19_build_player_market_contract.py")]),
     ("dq", "dq_check", [sys.executable, str(ROOT / "scripts/build/dq_check.py")]),
     ("validate", "validate_data", [sys.executable, str(ROOT / "scripts/validate_data.py")]),
 ]

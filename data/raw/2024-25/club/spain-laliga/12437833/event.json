@@ -1,0 +1,445 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "LaLiga",
+      "slug": "laliga",
+      "category": {
+        "name": "Spain",
+        "slug": "spain",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 32,
+        "flag": "spain",
+        "alpha2": "ES",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إسبانيا",
+            "hi": "स्पेन",
+            "bn": "স্পেন",
+            "ru": "Испания"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "LaLiga",
+        "slug": "laliga",
+        "primaryColorHex": "#2f4a89",
+        "secondaryColorHex": "#f4a32e",
+        "category": {
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "ES",
+            "alpha3": "ESP",
+            "name": "Spain",
+            "slug": "spain"
+          },
+          "id": 32,
+          "flag": "spain",
+          "alpha2": "ES",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إسبانيا",
+              "hi": "स्पेन",
+              "bn": "স্পেন",
+              "ru": "Испания"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 813026,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 8,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإسباني",
+            "hi": "ला लिगा",
+            "bn": "লা লীগা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 697,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 36,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "ला लीगा",
+          "ar": "الدوري الإسباني",
+          "bn": "লা লীগা"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "LaLiga 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 61643
+    },
+    "roundInfo": {
+      "round": 9
+    },
+    "customId": "tgbsGgb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 21112,
+    "venue": {
+      "city": {
+        "name": "Valladolid"
+      },
+      "venueCoordinates": {
+        "latitude": 41.64458,
+        "longitude": -4.761258
+      },
+      "hidden": false,
+      "slug": "jos-zorrilla",
+      "name": "José Zorrilla",
+      "capacity": 27618,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 880,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "خوسيه زوريلا",
+          "hi": "जोस ज़ोरिल्ला",
+          "bn": "হোসে জোরিলা"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "José Zorrilla",
+        "capacity": 27618
+      }
+    },
+    "referee": {
+      "name": "Pablo Gonzalez Fuertes",
+      "slug": "pablo-gonzalez-fuertes",
+      "yellowCards": 1625,
+      "redCards": 32,
+      "yellowRedCards": 67,
+      "games": 295,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 787707,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بابلو غونزاليس فويرتس"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Real Valladolid",
+      "slug": "real-valladolid",
+      "shortName": "Real Valladolid",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 84693,
+      "manager": {
+        "name": "Francisco Escribá Segura",
+        "slug": "francisco-escriba-segura",
+        "shortName": "F. E. Segura",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 108902,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فرانسيسكو إسكريبا سيغورا"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. إ. سيغورا"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Valladolid"
+        },
+        "venueCoordinates": {
+          "latitude": 41.64458,
+          "longitude": -4.761258
+        },
+        "hidden": false,
+        "slug": "jos-zorrilla",
+        "name": "José Zorrilla",
+        "capacity": 27618,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 880,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه زوريلا",
+            "hi": "जोस ज़ोरिल्ला",
+            "bn": "হোসে জোরিলা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "José Zorrilla",
+          "capacity": 27618
+        }
+      },
+      "nameCode": "VLL",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 2831,
+      "fullName": "Real Valladolid",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#663399",
+        "text": "#663399"
+      },
+      "foundationDateTimestamp": -1310688000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ريال فايادوليد",
+          "bn": "রিয়েল ভ্যালাডোলিড",
+          "hi": "रियल वलाडोलिड",
+          "ru": "Реал Вальядолид"
+        },
+        "shortNameTranslation": {
+          "ar": "ريال فايادوليد"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Rayo Vallecano",
+      "slug": "rayo-vallecano",
+      "shortName": "Rayo Vallecano",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 186747,
+      "manager": {
+        "name": "Iñigo Pérez",
+        "slug": "inigo-perez",
+        "shortName": "I. Pérez",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 799520,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إينيغو بيريز"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. بيريز"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Madrid"
+        },
+        "venueCoordinates": {
+          "latitude": 40.3921,
+          "longitude": -3.6587
+        },
+        "hidden": false,
+        "slug": "estadio-de-vallecas",
+        "name": "Estadio de Vallecas",
+        "capacity": 14708,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 2440,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب فالكا",
+            "hi": "एस्टेडियो डे वैलेकास",
+            "bn": "এস্তাদিও ডি ভ্যালেকাস"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estadio de Vallecas",
+          "capacity": 14708
+        }
+      },
+      "nameCode": "RAY",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 2818,
+      "fullName": "Rayo Vallecano",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -1438819200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "رايو فاليكانو",
+          "bn": "রায়ো ভ্যালেকানো",
+          "hi": "रेयो वैलेकैनो",
+          "ru": "Райо Вальекано"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 1,
+      "display": 1,
+      "period1": 0,
+      "period2": 1,
+      "normaltime": 1
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 0,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1728149528
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1728152597
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12437833,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "real-valladolid-rayo-vallecano",
+    "currentPeriodStartTimestamp": 1728149528,
+    "startTimestamp": 1728145800,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "AD",
+      "AE",
+      "BH",
+      "CA",
+      "DJ",
+      "DZ",
+      "EG",
+      "EH",
+      "ES",
+      "IL",
+      "IQ",
+      "IR",
+      "JO",
+      "KW",
+      "LB",
+      "LY",
+      "MA",
+      "MR",
+      "OM",
+      "ON",
+      "PS",
+      "QA",
+      "SA",
+      "SD",
+      "SO",
+      "SY",
+      "TD",
+      "TN",
+      "UM",
+      "US",
+      "VI",
+      "YE",
+      "GR",
+      "RU",
+      "CH"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

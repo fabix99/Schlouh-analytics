@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Dan Glazer",
+        "slug": "dan-glazer",
+        "shortName": "D. Glazer",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 225,
+        "gender": "M",
+        "id": 801381,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دان غلايزر",
+            "bn": "ড্যান গ্লেজার",
+            "hi": "डैन ग्लेज़र"
+          },
+          "shortNameTranslation": {
+            "ar": "د. غلايزر",
+            "bn": "ডি. গ্লেজার",
+            "hi": "डी. ग्लेज़र"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 22.2,
+        "y": 40.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 75.5,
+        "z": 23.6
+      },
+      "blockCoordinates": {
+        "x": 18,
+        "y": 38.4,
+        "z": 0
+      },
+      "xg": 0.02760273963213,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nordin Jackers",
+        "slug": "nordin-jackers",
+        "shortName": "N. Jackers",
+        "position": "G",
+        "jerseyNumber": "29",
+        "userCount": 425,
+        "gender": "M",
+        "id": 361722,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نور الدين جاكرز"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. جاكرز"
+          }
+        }
+      },
+      "id": 6555186,
+      "time": 29,
+      "timeSeconds": 1691,
+      "draw": {
+        "start": {
+          "x": 40.1,
+          "y": 22.2
+        },
+        "block": {
+          "x": 38.4,
+          "y": 18
+        },
+        "end": {
+          "x": 24.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 24.5,
+          "y": 76.4
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 1009,
+      "periodTimeSeconds": 1691,
+      "incidentType": "shot"
+    }
+  ]
+}

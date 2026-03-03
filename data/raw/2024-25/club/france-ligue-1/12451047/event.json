@@ -1,0 +1,434 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Ligue 1",
+      "slug": "ligue-1",
+      "category": {
+        "name": "France",
+        "slug": "france",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 7,
+        "flag": "france",
+        "alpha2": "FR",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "hi": "फ्रांस",
+            "ar": "فرنسا",
+            "bn": "ফ্রান্স",
+            "ru": "Франция"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Ligue 1",
+        "slug": "ligue-1",
+        "primaryColorHex": "#091c3e",
+        "secondaryColorHex": "#a9c011",
+        "category": {
+          "name": "France",
+          "slug": "france",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+          },
+          "id": 7,
+          "flag": "france",
+          "alpha2": "FR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "hi": "फ्रांस",
+              "ar": "فرنسا",
+              "bn": "ফ্রান্স",
+              "ru": "Франция"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 414438,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 34,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "লীগ 1",
+            "ar": "الدوري الفرنسي",
+            "hi": "लीग 1"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 694,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 4,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "bn": "লীগ 1",
+          "hi": "लीग 1",
+          "ar": "الدوري الفرنسي 1"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Ligue 1 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 61736
+    },
+    "roundInfo": {
+      "round": 23
+    },
+    "customId": "mIsGI",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 17239,
+    "venue": {
+      "city": {
+        "name": "Le Havre"
+      },
+      "venueCoordinates": {
+        "latitude": 49.498751,
+        "longitude": 0.169464
+      },
+      "hidden": false,
+      "slug": "stade-oceane",
+      "name": "Stade Oceane",
+      "capacity": 25181,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 29125,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب أوشيان",
+          "hi": "स्टेड ओशिएन",
+          "bn": "স্টেড ওশেন"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Stade Oceane",
+        "capacity": 25181
+      }
+    },
+    "referee": {
+      "name": "François Letexier",
+      "slug": "francois-letexier",
+      "yellowCards": 1315,
+      "redCards": 62,
+      "yellowRedCards": 35,
+      "games": 327,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 785114,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فرانسوا ليتكسييه",
+          "bn": "ফ্রাঁসোয়া লেটেক্সিয়ার",
+          "hi": "फ्रांकोइस लेटेक्सियर"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Le Havre",
+      "slug": "le-havre",
+      "shortName": "Le Havre",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 49768,
+      "manager": {
+        "name": "Didier Digard",
+        "slug": "didier-digard",
+        "shortName": "D. Digard",
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 800054,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديدييه ديغارد"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ديغارد"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Le Havre"
+        },
+        "venueCoordinates": {
+          "latitude": 49.498751,
+          "longitude": 0.169464
+        },
+        "hidden": false,
+        "slug": "stade-oceane",
+        "name": "Stade Oceane",
+        "capacity": 25181,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 29125,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب أوشيان",
+            "hi": "स्टेड ओशिएन",
+            "bn": "স্টেড ওশেন"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stade Oceane",
+          "capacity": 25181
+        }
+      },
+      "nameCode": "HAC",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1662,
+      "fullName": "Le Havre",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#3399ff",
+        "secondary": "#3399ff",
+        "text": "#3399ff"
+      },
+      "foundationDateTimestamp": -3092601600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "لوهافر",
+          "bn": "লে হাভরে",
+          "hi": "ले हावरे",
+          "ru": "Гавр"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Toulouse",
+      "slug": "toulouse",
+      "shortName": "Toulouse",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 79024,
+      "manager": {
+        "name": "Carles Martínez",
+        "slug": "carles-martinez",
+        "shortName": "C. Martínez",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 801070,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارليس مارتينيز"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. مارتينيز"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Toulouse"
+        },
+        "venueCoordinates": {
+          "latitude": 43.583226,
+          "longitude": 1.434064
+        },
+        "hidden": false,
+        "slug": "stadium-de-toulouse",
+        "name": "Stadium de Toulouse",
+        "capacity": 33150,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 848,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب تولوز",
+            "hi": "स्टेडियम डे टूलूज़",
+            "bn": "স্টেডিয়াম ডি টুলুজ"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stadium de Toulouse",
+          "capacity": 33150
+        }
+      },
+      "nameCode": "TFC",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1681,
+      "fullName": "Toulouse",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#660099",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -1041379200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "تولوز",
+          "bn": "টুলুজ",
+          "hi": "टूलूज़",
+          "ru": "Тулуза"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 1,
+      "display": 1,
+      "period1": 0,
+      "period2": 1,
+      "normaltime": 1
+    },
+    "awayScore": {
+      "current": 4,
+      "display": 4,
+      "period1": 1,
+      "period2": 3,
+      "normaltime": 4
+    },
+    "time": {
+      "injuryTime1": 6,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1740331506
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1740334593
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12451047,
+    "homeRedCards": 1,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "toulouse-le-havre",
+    "currentPeriodStartTimestamp": 1740331506,
+    "startTimestamp": 1740327300,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "AD",
+      "AQ",
+      "BL",
+      "CZ",
+      "FR",
+      "GF",
+      "GP",
+      "MC",
+      "MF",
+      "MQ",
+      "NC",
+      "PF",
+      "PM",
+      "RE",
+      "SK",
+      "TF",
+      "WF",
+      "YT",
+      "IR",
+      "GR",
+      "RU",
+      "CH",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

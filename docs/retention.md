@@ -10,12 +10,12 @@
 | `data/index/extraction_batch_errors.csv` | Per-match extraction failures | Optional; useful for debugging. |
 | `data/index/pipeline_runs.csv` | Pipeline run history | Optional; useful for ops. |
 | `data/derived/` | player_appearances, player_incidents, match_scores; players.csv | **Recreatable** from raw + index. Safe to delete and re-run `build_player_appearances.py`. |
-| `data/processed/` | All build steps 00–16 (parquet files) | **Recreatable** from derived + raw. Safe to delete and re-run pipeline from derived. |
+| `data/processed/` | All build steps 00–19 (parquet files) | **Recreatable** from derived + raw. Safe to delete and re-run pipeline from derived. |
 
 ## What can be recreated
 
 - **Derived**: Run `python src/build_player_appearances.py` (or pipeline step `derived`) with existing `data/raw/` and `data/index/matches.csv`.
-- **Processed (00–16)**: Run `python scripts/run_pipeline.py` from step `derived` (or from step `00` if derived is already present).
+- **Processed (00–19)**: Run `python scripts/run_pipeline.py` from step `derived` (or from step `00` if derived is already present).
 - **Index**: Run `python src/discover_matches.py <competition> --seasons <seasons>` to repopulate or extend `data/index/matches.csv` (merge behaviour is append/upsert depending on implementation).
 
 ## Recommendations

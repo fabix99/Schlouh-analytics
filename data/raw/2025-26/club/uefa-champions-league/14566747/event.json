@@ -1,0 +1,416 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1189676,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76953
+    },
+    "roundInfo": {
+      "round": 8
+    },
+    "customId": "QHsNhb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 26361,
+    "venue": {
+      "city": {
+        "name": "Bruges"
+      },
+      "venueCoordinates": {
+        "latitude": 51.193346,
+        "longitude": 3.180585
+      },
+      "hidden": false,
+      "slug": "jan-breydel-stadium",
+      "name": "Jan Breydel Stadium",
+      "capacity": 29975,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 1187,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب يان بريدل",
+          "hi": "जान ब्रेडेल स्टेडियम",
+          "bn": "জান ব্রেইডেল স্টেডিয়াম"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Jan Breydel Stadium",
+        "capacity": 29975
+      }
+    },
+    "referee": {
+      "name": "Marco Guida",
+      "slug": "guida-marco",
+      "yellowCards": 1482,
+      "redCards": 46,
+      "yellowRedCards": 30,
+      "games": 318,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 76140,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "غويدا، ماركو",
+          "bn": "গুইদা, মার্কো",
+          "hi": "गुइदा, मार्को"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "shortName": "Club Brugge",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 298320,
+      "manager": {
+        "name": "Ivan Leko",
+        "slug": "ivan-leko",
+        "shortName": "I. Leko",
+        "country": {
+          "alpha2": "HR",
+          "alpha3": "HRV",
+          "name": "Croatia",
+          "slug": "croatia"
+        },
+        "id": 786964,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفان ليكو",
+            "bn": "ইভান লেকো",
+            "hi": "इवान लेको"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ليكو",
+            "bn": "আই. লেকো",
+            "hi": "आई. लेको"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bruges"
+        },
+        "venueCoordinates": {
+          "latitude": 51.193346,
+          "longitude": 3.180585
+        },
+        "hidden": false,
+        "slug": "jan-breydel-stadium",
+        "name": "Jan Breydel Stadium",
+        "capacity": 29975,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 1187,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب يان بريدل",
+            "hi": "जान ब्रेडेल स्टेडियम",
+            "bn": "জান ব্রেইডেল স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Jan Breydel Stadium",
+          "capacity": 29975
+        }
+      },
+      "nameCode": "BRU",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 2888,
+      "fullName": "Club Brugge KV",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#0080ff",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2465683200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كلوب بروج كي في",
+          "ru": "Брюгге"
+        },
+        "shortNameTranslation": {
+          "ar": "كلوب بروج",
+          "bn": "ব্রুগ কেভি",
+          "hi": "क्लब ब्रुग"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Olympique de Marseille",
+      "slug": "olympique-de-marseille",
+      "shortName": "Marseille",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 625304,
+      "manager": {
+        "name": "Habib Beye",
+        "slug": "habib-beye",
+        "shortName": "H. Beye",
+        "country": {
+          "alpha2": "SN",
+          "alpha3": "SEN",
+          "name": "Senegal",
+          "slug": "senegal"
+        },
+        "id": 796811,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "حبيب بيي"
+          },
+          "shortNameTranslation": {
+            "ar": "ح. بيي"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Marseille"
+        },
+        "venueCoordinates": {
+          "latitude": 43.269835,
+          "longitude": 5.395912
+        },
+        "hidden": false,
+        "slug": "orange-velodrome",
+        "name": "Orange Velodrome",
+        "capacity": 67395,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 839,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب أورانج فيلودروم",
+            "hi": "ऑरेंज वेलोड्रोम",
+            "bn": "ওরেঞ্জ ভেলোড্রোম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Orange Velodrome",
+          "capacity": 67395
+        }
+      },
+      "nameCode": "OM",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1641,
+      "fullName": "Olympique de Marseille",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#66b3ff",
+        "text": "#66b3ff"
+      },
+      "foundationDateTimestamp": -2219616000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أولمبيك دي مارسيليا",
+          "ru": "Олимпик Марсель"
+        },
+        "shortNameTranslation": {
+          "ar": "مارسيليا",
+          "bn": "মার্সেই",
+          "hi": "मार्सिले"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 2,
+      "period2": 1,
+      "normaltime": 3
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 1,
+      "injuryTime2": 5,
+      "currentPeriodStartTimestamp": 1769634302
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1769637307
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14566747,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "club-brugge-kv-olympique-de-marseille",
+    "currentPeriodStartTimestamp": 1769634302,
+    "startTimestamp": 1769630400,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "club"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

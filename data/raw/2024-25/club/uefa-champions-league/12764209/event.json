@@ -1,0 +1,401 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1189676,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 61644
+    },
+    "roundInfo": {
+      "round": 4
+    },
+    "customId": "rgbsZcc",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 48886,
+    "venue": {
+      "city": {
+        "name": "Belgrade"
+      },
+      "venueCoordinates": {
+        "latitude": 44.78322,
+        "longitude": 20.464675
+      },
+      "hidden": false,
+      "slug": "stadium-rajko-miti-",
+      "name": "Stadium Rajko Mitić",
+      "capacity": 51755,
+      "country": {
+        "alpha2": "RS",
+        "alpha3": "SRB",
+        "name": "Serbia",
+        "slug": "serbia"
+      },
+      "id": 26868,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب رايكو ميتيتش",
+          "hi": "स्टेडियम राजको मिटिक",
+          "bn": "স্টেডিয়াম রাজকো মিটিক"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Stadium Rajko Mitić",
+        "capacity": 51755
+      }
+    },
+    "referee": {
+      "name": "Espen Eskas",
+      "slug": "espen-eskas",
+      "yellowCards": 1078,
+      "redCards": 15,
+      "yellowRedCards": 23,
+      "games": 315,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "NO",
+        "alpha3": "NOR",
+        "name": "Norway",
+        "slug": "norway"
+      },
+      "id": 92295,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إسبن إسكاس",
+          "bn": "এসপেন এসকাস",
+          "hi": "एस्पेन एस्कास"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "FK Crvena zvezda",
+      "slug": "fk-crvena-zvezda",
+      "shortName": "Crvena zvezda",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 212553,
+      "manager": {
+        "name": "Dejan Stanković",
+        "slug": "dejan-stankovic",
+        "shortName": "D. Stanković",
+        "country": {
+          "alpha2": "RS",
+          "alpha3": "SRB",
+          "name": "Serbia",
+          "slug": "serbia"
+        },
+        "id": 794082,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديان ستانكوفيتش",
+            "bn": "দেজান স্ট্যানকোভিচ",
+            "hi": "देजान स्टेनकोविक"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ستانكوفيتش",
+            "bn": "ডি. স্ট্যানকোভিচ",
+            "hi": "डी. स्टेनकोविक"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Belgrade"
+        },
+        "venueCoordinates": {
+          "latitude": 44.78322,
+          "longitude": 20.464675
+        },
+        "hidden": false,
+        "slug": "stadium-rajko-miti-",
+        "name": "Stadium Rajko Mitić",
+        "capacity": 51755,
+        "country": {
+          "alpha2": "RS",
+          "alpha3": "SRB",
+          "name": "Serbia",
+          "slug": "serbia"
+        },
+        "id": 26868,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب رايكو ميتيتش",
+            "hi": "स्टेडियम राजको मिटिक",
+            "bn": "স্টেডিয়াম রাজকো মিটিক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stadium Rajko Mitić",
+          "capacity": 51755
+        }
+      },
+      "nameCode": "FCZ",
+      "class": 1,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "RS",
+        "alpha3": "SRB",
+        "name": "Serbia",
+        "slug": "serbia"
+      },
+      "id": 5149,
+      "fullName": "FK Crvena zvezda",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#d90512",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -783561600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إف كيه كرفينا زفيزدا",
+          "ru": "Црвена Звезда"
+        },
+        "shortNameTranslation": {
+          "ar": "كرفينا زفيزدا",
+          "bn": "ক্রভেনা জেভেজদা",
+          "hi": "क्रवेना ज़्वेज़्दा"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "shortName": "Barcelona",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 6438555,
+      "manager": {
+        "name": "Hans-Dieter Flick",
+        "slug": "hans-dieter-flick",
+        "shortName": "H. Flick",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 793676,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هانس-ديتر فليك"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. فليك"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Barcelona"
+        },
+        "venueCoordinates": {
+          "latitude": 41.380881,
+          "longitude": 2.122818
+        },
+        "hidden": false,
+        "slug": "spotify-camp-nou",
+        "name": "Spotify Camp Nou",
+        "capacity": 99354,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 709,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سبوتيفاي كامب نو",
+            "hi": "स्पॉटिफ़ी कैंप नोउ",
+            "bn": "স্পটিফাই ক্যাম্প ন্যু"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Spotify Camp Nou",
+          "capacity": 99354
+        }
+      },
+      "nameCode": "BAR",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 2817,
+      "fullName": "Barcelona",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#154284",
+        "secondary": "#9d1009",
+        "text": "#9d1009"
+      },
+      "foundationDateTimestamp": -2211840000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "برشلونة",
+          "bn": "বার্সেলোনা",
+          "hi": "बार्सिलोना",
+          "ru": "Барселона"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 5,
+      "display": 5,
+      "period1": 2,
+      "period2": 3,
+      "normaltime": 5
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 2,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1730927186
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1730930260
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12764209,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "fk-crvena-zvezda-barcelona",
+    "currentPeriodStartTimestamp": 1730927186,
+    "startTimestamp": 1730923200,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

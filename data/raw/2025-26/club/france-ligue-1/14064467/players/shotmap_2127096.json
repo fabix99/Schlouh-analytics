@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Khalis Merah",
+        "firstName": "Khalis",
+        "lastName": "Merah",
+        "slug": "khalis-merah",
+        "shortName": "K. Merah",
+        "position": "M",
+        "jerseyNumber": "44",
+        "userCount": 3661,
+        "id": 2127096,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خالص مره"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. مره"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 3.8,
+        "y": 32.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 3.8
+      },
+      "blockCoordinates": {
+        "x": 1.5,
+        "y": 42.4,
+        "z": 0
+      },
+      "xg": 0.083003222942352,
+      "xgot": 0.11289071291685,
+      "goalkeeper": {
+        "name": "Jonathan Fischer",
+        "slug": "jonathan-fischer",
+        "shortName": "J. Fischer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 276,
+        "gender": "M",
+        "id": 1004550,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوناثان فيشر"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. فيشر"
+          }
+        }
+      },
+      "id": 6589675,
+      "time": 10,
+      "timeSeconds": 586,
+      "draw": {
+        "start": {
+          "x": 32.7,
+          "y": 3.8
+        },
+        "block": {
+          "x": 42.4,
+          "y": 1.5
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2114,
+      "periodTimeSeconds": 586,
+      "incidentType": "shot"
+    }
+  ]
+}

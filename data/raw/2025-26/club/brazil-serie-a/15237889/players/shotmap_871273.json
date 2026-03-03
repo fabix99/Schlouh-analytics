@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Tomás Cuello",
+        "slug": "tomas-cuello",
+        "shortName": "T. Cuello",
+        "position": "M",
+        "jerseyNumber": "28",
+        "userCount": 1946,
+        "gender": "M",
+        "id": 871273,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توماس كويلو",
+            "bn": "টমাস কুয়েলো",
+            "hi": "टॉमस कुएल्लो"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. كويلو",
+            "bn": "টি. কুয়েলো",
+            "hi": "टी. कुएल्लो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.4,
+        "y": 29.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.4,
+        "y": 32.8,
+        "z": 0
+      },
+      "xg": 0.024564933031797,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Carlos Miguel",
+        "slug": "carlos-miguel",
+        "shortName": "C. Miguel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5560,
+        "gender": "M",
+        "id": 973738,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس ميغيل",
+            "bn": "কার্লোস মিগুয়েল",
+            "hi": "कार्लोस मिगुएल"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. ميغيل",
+            "bn": "সি. মিগুয়েল",
+            "hi": "सी. मिगुएल"
+          }
+        }
+      },
+      "id": 6603167,
+      "time": 89,
+      "timeSeconds": 5292,
+      "draw": {
+        "start": {
+          "x": 29.5,
+          "y": 18.4
+        },
+        "block": {
+          "x": 32.8,
+          "y": 15.4
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 108,
+      "periodTimeSeconds": 2592,
+      "incidentType": "shot"
+    }
+  ]
+}

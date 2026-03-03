@@ -1,0 +1,441 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Ligue 1",
+      "slug": "ligue-1",
+      "category": {
+        "name": "France",
+        "slug": "france",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 7,
+        "flag": "france",
+        "alpha2": "FR",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "hi": "फ्रांस",
+            "ar": "فرنسا",
+            "bn": "ফ্রান্স",
+            "ru": "Франция"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Ligue 1",
+        "slug": "ligue-1",
+        "primaryColorHex": "#091c3e",
+        "secondaryColorHex": "#a9c011",
+        "category": {
+          "name": "France",
+          "slug": "france",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+          },
+          "id": 7,
+          "flag": "france",
+          "alpha2": "FR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "hi": "फ्रांस",
+              "ar": "فرنسا",
+              "bn": "ফ্রান্স",
+              "ru": "Франция"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 414438,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 34,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "লীগ 1",
+            "ar": "الدوري الفرنسي",
+            "hi": "लीग 1"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 694,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 4,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "bn": "লীগ 1",
+          "hi": "लीग 1",
+          "ar": "الدوري الفرنسي 1"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Ligue 1 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 61736
+    },
+    "roundInfo": {
+      "round": 20
+    },
+    "customId": "QHsZH",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 66096,
+    "venue": {
+      "city": {
+        "name": "Marseille"
+      },
+      "venueCoordinates": {
+        "latitude": 43.269835,
+        "longitude": 5.395912
+      },
+      "hidden": false,
+      "slug": "orange-velodrome",
+      "name": "Orange Velodrome",
+      "capacity": 67395,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 839,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب أورانج فيلودروم",
+          "hi": "ऑरेंज वेलोड्रोम",
+          "bn": "ওরেঞ্জ ভেলোড্রোম"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Orange Velodrome",
+        "capacity": 67395
+      }
+    },
+    "referee": {
+      "name": "Jérôme Brisard",
+      "slug": "jerome-brisard",
+      "yellowCards": 1042,
+      "redCards": 63,
+      "yellowRedCards": 23,
+      "games": 273,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 157707,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "جيروم بريزارد",
+          "bn": "জেরোম ব্রিসার্ড",
+          "hi": "जेरोम ब्रिसार्ड"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Olympique de Marseille",
+      "slug": "olympique-de-marseille",
+      "shortName": "Marseille",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 625304,
+      "manager": {
+        "name": "Habib Beye",
+        "slug": "habib-beye",
+        "shortName": "H. Beye",
+        "country": {
+          "alpha2": "SN",
+          "alpha3": "SEN",
+          "name": "Senegal",
+          "slug": "senegal"
+        },
+        "id": 796811,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "حبيب بيي"
+          },
+          "shortNameTranslation": {
+            "ar": "ح. بيي"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Marseille"
+        },
+        "venueCoordinates": {
+          "latitude": 43.269835,
+          "longitude": 5.395912
+        },
+        "hidden": false,
+        "slug": "orange-velodrome",
+        "name": "Orange Velodrome",
+        "capacity": 67395,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 839,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب أورانج فيلودروم",
+            "hi": "ऑरेंज वेलोड्रोम",
+            "bn": "ওরেঞ্জ ভেলোড্রোম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Orange Velodrome",
+          "capacity": 67395
+        }
+      },
+      "nameCode": "OM",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1641,
+      "fullName": "Olympique de Marseille",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#66b3ff",
+        "text": "#66b3ff"
+      },
+      "foundationDateTimestamp": -2219616000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أولمبيك دي مارسيليا",
+          "ru": "Олимпик Марсель"
+        },
+        "shortNameTranslation": {
+          "ar": "مارسيليا",
+          "bn": "মার্সেই",
+          "hi": "मार्सिले"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Olympique Lyonnais",
+      "slug": "olympique-lyonnais",
+      "shortName": "Lyon",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 477548,
+      "manager": {
+        "name": "Paulo Fonseca",
+        "slug": "paulo-fonseca",
+        "shortName": "P. Fonseca",
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 143589,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باولو فونسيكا",
+            "bn": "পাওলো ফনসেকা",
+            "hi": "पाउलो फोंसेका"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فونسيكا",
+            "bn": "পি. ফনসেকা",
+            "hi": "पी. फोंसेका"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Lyon"
+        },
+        "venueCoordinates": {
+          "latitude": 45.765362,
+          "longitude": 4.982054
+        },
+        "hidden": false,
+        "slug": "groupama-stadium",
+        "name": "Groupama Stadium",
+        "capacity": 59186,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 16314,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب جروباما",
+            "hi": "ग्रुपामा स्टेडियम",
+            "bn": "গ্রুপমা স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Groupama Stadium",
+          "capacity": 59186
+        }
+      },
+      "nameCode": "OL",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 1649,
+      "fullName": "Olympique Lyonnais",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#004080",
+        "text": "#004080"
+      },
+      "foundationDateTimestamp": -612662400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أولمبيك ليون",
+          "ru": "Лион"
+        },
+        "shortNameTranslation": {
+          "ar": "ليون",
+          "bn": "লিওন",
+          "hi": "लियोन"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 0,
+      "period2": 3,
+      "normaltime": 3
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 0,
+      "injuryTime2": 4,
+      "currentPeriodStartTimestamp": 1738529254
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1738532215
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12450987,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "olympique-lyonnais-olympique-de-marseille",
+    "currentPeriodStartTimestamp": 1738529254,
+    "startTimestamp": 1738525500,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "AD",
+      "AQ",
+      "BL",
+      "CZ",
+      "FR",
+      "GF",
+      "GP",
+      "MC",
+      "MF",
+      "MQ",
+      "NC",
+      "PF",
+      "PM",
+      "RE",
+      "SK",
+      "TF",
+      "WF",
+      "YT",
+      "IR",
+      "GR",
+      "RU",
+      "CH",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

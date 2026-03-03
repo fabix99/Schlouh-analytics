@@ -1,0 +1,82 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Anísio Cabral",
+        "firstName": "Anísio Cabral",
+        "slug": "anisio-cabral",
+        "shortName": "A. Cabral",
+        "position": "F",
+        "jerseyNumber": "72",
+        "userCount": 2533,
+        "gender": "M",
+        "id": 2163561,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنيشيو كابرال"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. كابرال"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.1,
+        "y": 50.9,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.1,
+        "z": 8.9
+      },
+      "xg": 0.052436210215092,
+      "xgot": 0.57176434993744,
+      "goalkeeper": {
+        "name": "Matheus Mendes",
+        "slug": "matheus-mendes",
+        "shortName": "M. Mendes",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 412,
+        "gender": "M",
+        "id": 1018555,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماثيوس مينديز"
+          },
+          "shortNameTranslation": {
+            "ar": "م. مينديز"
+          }
+        }
+      },
+      "id": 6672161,
+      "time": 86,
+      "timeSeconds": 5113,
+      "draw": {
+        "start": {
+          "x": 50.9,
+          "y": 10.1
+        },
+        "end": {
+          "x": 53.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.9,
+          "y": 91.1
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 287,
+      "periodTimeSeconds": 2413,
+      "incidentType": "shot"
+    }
+  ]
+}

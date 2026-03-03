@@ -1,0 +1,422 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1189676,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76953
+    },
+    "roundInfo": {
+      "round": 7
+    },
+    "customId": "zdbsmuc",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 27820,
+    "venue": {
+      "city": {
+        "name": "Baku"
+      },
+      "venueCoordinates": {
+        "latitude": 40.397615,
+        "longitude": 49.852433
+      },
+      "hidden": false,
+      "slug": "tofiq-b-hramov",
+      "name": "Tofiq Bəhramov",
+      "capacity": 31200,
+      "country": {
+        "alpha2": "AZ",
+        "alpha3": "AZE",
+        "name": "Azerbaijan",
+        "slug": "azerbaijan"
+      },
+      "id": 920,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "توفيق بهراموف",
+          "hi": "तोफीक बेहरामोव",
+          "bn": "তোফিক বাহরামভ"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Tofiq Bəhramov",
+        "capacity": 31200
+      }
+    },
+    "referee": {
+      "name": "Sandro Schärer",
+      "slug": "scharer-sandro",
+      "yellowCards": 1532,
+      "redCards": 32,
+      "yellowRedCards": 49,
+      "games": 340,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "CH",
+        "alpha3": "CHE",
+        "name": "Switzerland",
+        "slug": "switzerland"
+      },
+      "id": 137333,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سشارير، ساندرو",
+          "bn": "স্চারার, স্যান্ড্রো",
+          "hi": "शारेर, सैंड्रो"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Qarabağ FK",
+      "slug": "qarabag",
+      "shortName": "Qarabağ",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 296641,
+      "manager": {
+        "name": "Gurban Gurbanov",
+        "slug": "gurban-gurbanov",
+        "shortName": "G. Gurbanov",
+        "country": {
+          "alpha2": "AZ",
+          "alpha3": "AZE",
+          "name": "Azerbaijan",
+          "slug": "azerbaijan"
+        },
+        "id": 11090,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوربان غوربانوف",
+            "bn": "গুরবান গুরবানভ",
+            "hi": "गुरबन गुरबानोव"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. غوربانوف",
+            "bn": "জি. গুরবানভ",
+            "hi": "जी. गुरबानोव"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Baku"
+        },
+        "venueCoordinates": {
+          "latitude": 40.421532,
+          "longitude": 49.99633
+        },
+        "hidden": false,
+        "slug": "az-rsun-arena",
+        "name": "Azərsun Arena",
+        "capacity": 4677,
+        "country": {
+          "alpha2": "AZ",
+          "alpha3": "AZE",
+          "name": "Azerbaijan",
+          "slug": "azerbaijan"
+        },
+        "id": 16513,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أذرسون أرينا",
+            "hi": "अज़ेर्सुन एरिना",
+            "bn": "আজারসুন এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Azərsun Arena",
+          "capacity": 4677
+        }
+      },
+      "nameCode": "QAR",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "AZ",
+        "alpha3": "AZE",
+        "name": "Azerbaijan",
+        "slug": "azerbaijan"
+      },
+      "id": 5962,
+      "fullName": "Qarabağ FK",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -586569600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كاراباج",
+          "bn": "কারাবাগ",
+          "hi": "करबाख",
+          "ru": "Карабах"
+        },
+        "shortNameTranslation": {
+          "ar": "كاراباج"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Eintracht Frankfurt",
+      "slug": "eintracht-frankfurt",
+      "shortName": "Frankfurt",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 270803,
+      "manager": {
+        "name": "Albert Riera",
+        "slug": "albert-riera",
+        "shortName": "A. Riera",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 797039,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألبرت رييرا",
+            "bn": "আলবার্ট রিয়েরা",
+            "hi": "अल्बर्ट रीरा"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. رييرا",
+            "bn": "এ. রিয়েরা",
+            "hi": "ए. रीरा"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Frankfurt"
+        },
+        "venueCoordinates": {
+          "latitude": 50.06861,
+          "longitude": 8.645415
+        },
+        "hidden": false,
+        "slug": "deutsche-bank-park",
+        "name": "Deutsche Bank Park",
+        "capacity": 58000,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 37241,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "حديقة دويتشه بنك",
+            "hi": "ड्यूश बैंक पार्क",
+            "bn": "ডয়েচে ব্যাংক পার্ক"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Deutsche Bank Park",
+          "capacity": 58000
+        }
+      },
+      "nameCode": "SGE",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2674,
+      "fullName": "Eintracht Frankfurt",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#ff1111",
+        "text": "#ff1111"
+      },
+      "foundationDateTimestamp": -2234822400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "اينتراخت فرنكفورت",
+          "hi": "एईनट्राख्ट फ्रांकफुर्ट",
+          "ru": "Айнтрахт Франкфурт"
+        },
+        "shortNameTranslation": {
+          "ar": "فرانكفورت",
+          "bn": "ফ্রাঙ্কফুর্ট",
+          "hi": "फ्रैंकफर्ट"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 1,
+      "period2": 2,
+      "normaltime": 3
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 0,
+      "injuryTime2": 4,
+      "currentPeriodStartTimestamp": 1769021406
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type",
+        "homeScore.normaltime"
+      ],
+      "changeTimestamp": 1769024427
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14566920,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "qarabag-eintracht-frankfurt",
+    "currentPeriodStartTimestamp": 1769021406,
+    "startTimestamp": 1769017500,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "club"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

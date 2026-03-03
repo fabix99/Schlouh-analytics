@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ross Barkley",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ross-barkley",
+        "shortName": "R. Barkley",
+        "position": "M",
+        "jerseyNumber": "6",
+        "userCount": 2398,
+        "gender": "M",
+        "id": 98435,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روس باركلي",
+            "bn": "রস বার্কলে",
+            "hi": "रॉस बार्कले"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. باركلي",
+            "bn": "আর. বার্কলে",
+            "hi": "आर. बार्कले"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.9,
+        "y": 54,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.1,
+        "z": 20.3
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 49.8,
+        "z": 0
+      },
+      "goalkeeper": {
+        "name": "Aaron Ramsdale",
+        "firstName": "",
+        "lastName": "",
+        "slug": "aaron-ramsdale",
+        "shortName": "A. Ramsdale",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 8483,
+        "gender": "M",
+        "sofascoreId": "ARamsdale",
+        "id": 839410,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آرون رامسديل",
+            "bn": "অ্যারন রামসডেল",
+            "hi": "आरोन रामस्डेल"
+          },
+          "shortNameTranslation": {
+            "ar": "آ. رامسديل",
+            "bn": "এ. রামসডেল",
+            "hi": "ए. रामस्डेल"
+          }
+        }
+      },
+      "id": 6709795,
+      "time": 18,
+      "timeSeconds": 1046,
+      "draw": {
+        "start": {
+          "x": 54,
+          "y": 13.9
+        },
+        "block": {
+          "x": 49.8,
+          "y": 1.2
+        },
+        "end": {
+          "x": 45.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.9,
+          "y": 79.7
+        }
+      },
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1654,
+      "periodTimeSeconds": 1046,
+      "incidentType": "shot"
+    }
+  ]
+}

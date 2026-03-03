@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "John Egan",
+        "firstName": "",
+        "lastName": "",
+        "slug": "john-egan",
+        "shortName": "J. Egan",
+        "position": "D",
+        "jerseyNumber": "15",
+        "userCount": 213,
+        "gender": "M",
+        "id": 100578,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جون إيغن",
+            "bn": "জন ইগান",
+            "hi": "जॉन एगन"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. إيغن",
+            "bn": "জে. ইগান",
+            "hi": "जे. एगन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.9,
+        "y": 51,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.9,
+        "y": 50.7,
+        "z": 0
+      },
+      "goalkeeper": {
+        "name": "Robert Sánchez",
+        "slug": "robert-sanchez",
+        "shortName": "R. Sánchez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 18388,
+        "gender": "M",
+        "sofascoreId": "RS1",
+        "id": 920546,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبرت سانشيز",
+            "bn": "রবার্ট সানচেজ",
+            "hi": "रॉबर्ट सांचेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. سانشيز",
+            "bn": "আর. সানচেজ",
+            "hi": "आर. सांचेज़"
+          }
+        }
+      },
+      "id": 6704010,
+      "time": 90,
+      "addedTime": 4,
+      "timeSeconds": 5597,
+      "draw": {
+        "start": {
+          "x": 51,
+          "y": 11.9
+        },
+        "block": {
+          "x": 50.7,
+          "y": 9.9
+        },
+        "end": {
+          "x": 49.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 703,
+      "periodTimeSeconds": 197,
+      "incidentType": "shot"
+    }
+  ]
+}

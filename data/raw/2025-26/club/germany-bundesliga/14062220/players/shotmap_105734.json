@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Christian Eriksen",
+        "slug": "christian-eriksen",
+        "shortName": "C. Eriksen",
+        "position": "M",
+        "jerseyNumber": "24",
+        "userCount": 20399,
+        "gender": "M",
+        "sofascoreId": "chriseriksen8",
+        "id": 105734,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستيان إريكسن",
+            "bn": "ক্রিশ্চিয়ান এরিকসেন",
+            "hi": "क्रिस्टियन एरिक्सन"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. إريكسن",
+            "bn": "সি. এরিকসেন",
+            "hi": "सी. एरिक्सन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 24.1,
+        "y": 60.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.9,
+        "z": 84.7
+      },
+      "xg": 0.025860644876957,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Finn Dahmen",
+        "slug": "finn-dahmen",
+        "shortName": "F. Dahmen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 570,
+        "gender": "M",
+        "id": 822564,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فين داهمن",
+            "bn": "ফিন দাহমেন",
+            "hi": "फिन दाहमेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. داهمن",
+            "bn": "এফ. দাহমেন",
+            "hi": "एफ. दाहमेन"
+          }
+        }
+      },
+      "id": 6750195,
+      "time": 35,
+      "timeSeconds": 2050,
+      "draw": {
+        "start": {
+          "x": 60.5,
+          "y": 24.1
+        },
+        "end": {
+          "x": 47.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.1,
+          "y": 15.3
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 650,
+      "periodTimeSeconds": 2050,
+      "incidentType": "shot"
+    }
+  ]
+}

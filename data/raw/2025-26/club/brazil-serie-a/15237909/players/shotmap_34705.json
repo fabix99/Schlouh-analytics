@@ -1,0 +1,168 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Hulk",
+        "slug": "hulk",
+        "shortName": "Hulk",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 24289,
+        "gender": "M",
+        "sofascoreId": "Hulk",
+        "id": 34705,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هولك"
+          },
+          "shortNameTranslation": {
+            "ar": "هولك"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.8,
+        "y": 60.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48,
+        "z": 23.4
+      },
+      "xg": 0.2462013810873,
+      "xgot": 0.41117975115776,
+      "goalkeeper": {
+        "name": "Marcelo Rangel",
+        "slug": "marcelo-rangel",
+        "shortName": "M. Rangel",
+        "position": "G",
+        "jerseyNumber": "88",
+        "userCount": 381,
+        "gender": "M",
+        "id": 870902,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارسيلو رينجل"
+          },
+          "shortNameTranslation": {
+            "ar": "م. رينجل"
+          }
+        }
+      },
+      "id": 6694047,
+      "time": 22,
+      "timeSeconds": 1283,
+      "draw": {
+        "start": {
+          "x": 60.5,
+          "y": 12.8
+        },
+        "end": {
+          "x": 52,
+          "y": 0
+        },
+        "goal": {
+          "x": 52,
+          "y": 76.6
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1417,
+      "periodTimeSeconds": 1283,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Hulk",
+        "slug": "hulk",
+        "shortName": "Hulk",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 24289,
+        "gender": "M",
+        "sofascoreId": "Hulk",
+        "id": 34705,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هولك"
+          },
+          "shortNameTranslation": {
+            "ar": "هولك"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 5.2,
+        "y": 66.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 3.6,
+        "y": 62.8,
+        "z": 0
+      },
+      "xg": 0.041186019778252,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Marcelo Rangel",
+        "slug": "marcelo-rangel",
+        "shortName": "M. Rangel",
+        "position": "G",
+        "jerseyNumber": "88",
+        "userCount": 381,
+        "gender": "M",
+        "id": 870902,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارسيلو رينجل"
+          },
+          "shortNameTranslation": {
+            "ar": "م. رينجل"
+          }
+        }
+      },
+      "id": 6694021,
+      "time": 5,
+      "timeSeconds": 249,
+      "draw": {
+        "start": {
+          "x": 66.9,
+          "y": 5.2
+        },
+        "block": {
+          "x": 62.8,
+          "y": 3.6
+        },
+        "end": {
+          "x": 53.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2451,
+      "periodTimeSeconds": 249,
+      "incidentType": "shot"
+    }
+  ]
+}

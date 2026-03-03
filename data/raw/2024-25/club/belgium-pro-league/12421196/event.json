@@ -1,0 +1,409 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Pro League",
+      "slug": "pro-league",
+      "category": {
+        "name": "Belgium",
+        "slug": "belgium",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 33,
+        "flag": "belgium",
+        "alpha2": "BE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بلجيكا",
+            "ru": "Бельгия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Pro League",
+        "slug": "pro-league",
+        "primaryColorHex": "#16002b",
+        "secondaryColorHex": "#ff1740",
+        "category": {
+          "name": "Belgium",
+          "slug": "belgium",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "BE",
+            "alpha3": "BEL",
+            "name": "Belgium",
+            "slug": "belgium"
+          },
+          "id": 33,
+          "flag": "belgium",
+          "alpha2": "BE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بلجيكا",
+              "ru": "Бельгия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 67524,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 38,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري المحترفين",
+            "bn": "প্রো লীগ",
+            "hi": "प्रो लीग"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 496,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 38,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الدوري الأول",
+          "bn": "ফার্স্ট ডিভিশন এ",
+          "hi": "फर्स्ट डिवीजन ए"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Pro League 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 61459
+    },
+    "roundInfo": {
+      "round": 22
+    },
+    "customId": "PhbsUac",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "venue": {
+      "city": {
+        "name": "Mechelen"
+      },
+      "venueCoordinates": {
+        "latitude": 51.02574,
+        "longitude": 4.47762
+      },
+      "hidden": true,
+      "slug": "veoliastadion-achter-de-kazerne",
+      "name": "Veoliastadion Achter De Kazerne",
+      "capacity": 16672,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 1254,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فيوليستاديون آختير دي كازيرن",
+          "hi": "वेओलियास्टेडियन अचर डी काज़र्ने",
+          "bn": "ভেওলিয়াস্ট্যাডিয়ন আখটার ডি কাজারনে"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Veoliastadion Achter De Kazerne",
+        "capacity": 16672
+      }
+    },
+    "referee": {
+      "name": "Kevin van Damme",
+      "slug": "kevin-van-damme",
+      "yellowCards": 565,
+      "redCards": 17,
+      "yellowRedCards": 16,
+      "games": 142,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 785203,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كيفن فان دام"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "KV Mechelen",
+      "slug": "kv-mechelen",
+      "shortName": "Mechelen",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 21746,
+      "manager": {
+        "name": "Frederik Vanderbiest",
+        "slug": "frederik-vanderbiest",
+        "shortName": "F. Vanderbiest",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 6342,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فريدريك فاندربيست"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فاندربيست"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Mechelen"
+        },
+        "venueCoordinates": {
+          "latitude": 51.02574,
+          "longitude": 4.47762
+        },
+        "hidden": true,
+        "slug": "veoliastadion-achter-de-kazerne",
+        "name": "Veoliastadion Achter De Kazerne",
+        "capacity": 16672,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 1254,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيوليستاديون آختير دي كازيرن",
+            "hi": "वेओलियास्टेडियन अचर डी काज़र्ने",
+            "bn": "ভেওলিয়াস্ট্যাডিয়ন আখটার ডি কাজারনে"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Veoliastadion Achter De Kazerne",
+          "capacity": 16672
+        }
+      },
+      "nameCode": "KVM",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 5044,
+      "fullName": "KV Mechelen",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffcc00",
+        "secondary": "#cc0000",
+        "text": "#cc0000"
+      },
+      "foundationDateTimestamp": -2059171200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كي في ميشيلن",
+          "ru": "Мехелен"
+        },
+        "shortNameTranslation": {
+          "ar": "ميشيلن"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "KRC Genk",
+      "slug": "krc-genk",
+      "shortName": "Genk",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 102182,
+      "manager": {
+        "name": "Nicky Hayen",
+        "slug": "nicky-hayen",
+        "shortName": "N. Hayen",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 794602,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكي هاين"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. هاين"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Genk"
+        },
+        "venueCoordinates": {
+          "latitude": 51.004956,
+          "longitude": 5.534188
+        },
+        "hidden": true,
+        "slug": "cegeka-arena",
+        "name": "Cegeka Arena",
+        "capacity": 24956,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 1204,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أرينا سيجيكا",
+            "hi": "सेगेका एरिना",
+            "bn": "চেগেকা এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Cegeka Arena",
+          "capacity": 24956
+        }
+      },
+      "nameCode": "GNK",
+      "class": 1,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 2890,
+      "fullName": "KRC Genk",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#0000dd",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": 583718400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كيه آر سي جينك",
+          "hi": "केआरसी गेंक",
+          "ru": "Генк"
+        },
+        "shortNameTranslation": {
+          "ar": "جينك",
+          "bn": "জেঙ্ক",
+          "hi": "गेंक"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 1,
+      "display": 1,
+      "period1": 1,
+      "period2": 0,
+      "normaltime": 1
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 2,
+      "period2": 0,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 7,
+      "injuryTime2": 4,
+      "currentPeriodStartTimestamp": 1737224542
+    },
+    "changes": {
+      "changes": [
+        "time.injuryTime1"
+      ],
+      "changeTimestamp": 1737249031
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12421196,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "kv-mechelen-krc-genk",
+    "currentPeriodStartTimestamp": 1737224542,
+    "startTimestamp": 1737220500,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "BE",
+      "IR",
+      "GR",
+      "RU",
+      "CH",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

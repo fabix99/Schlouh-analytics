@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Dorgeles Nene",
+        "firstName": "Nene Dorgeles",
+        "slug": "nene-dorgeles",
+        "shortName": "D. Nene",
+        "position": "F",
+        "jerseyNumber": "45",
+        "userCount": 10357,
+        "gender": "M",
+        "sofascoreId": "d.nene10",
+        "id": 1102788,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيني دورجيليس",
+            "bn": "নেনে ডরগেলেস",
+            "hi": "नेने डोर्गेलेस"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. دورجيليس",
+            "bn": "এন. ডরগেলেস",
+            "hi": "एन. डोर्गेलेस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.2,
+        "y": 58.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.6,
+        "y": 56.9,
+        "z": 0
+      },
+      "xg": 0.061863679438829,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ricardo Velho",
+        "slug": "ricardo-velho",
+        "shortName": "R. Velho",
+        "position": "G",
+        "jerseyNumber": "24",
+        "userCount": 501,
+        "gender": "M",
+        "id": 845792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكاردو فيليو"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. فيليو"
+          }
+        }
+      },
+      "id": 6680704,
+      "time": 36,
+      "timeSeconds": 2117,
+      "draw": {
+        "start": {
+          "x": 58.1,
+          "y": 9.2
+        },
+        "block": {
+          "x": 56.9,
+          "y": 7.6
+        },
+        "end": {
+          "x": 51,
+          "y": 0
+        },
+        "goal": {
+          "x": 51,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 10,
+      "reversedPeriodTimeSeconds": 583,
+      "periodTimeSeconds": 2117,
+      "incidentType": "shot"
+    }
+  ]
+}

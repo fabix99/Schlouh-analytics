@@ -1,0 +1,176 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Breno Bidon",
+        "slug": "breno-bidon",
+        "shortName": "B. Bidon",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 10167,
+        "gender": "M",
+        "sofascoreId": "BrenoBidon",
+        "id": 1199261,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برينو بيدون",
+            "bn": "ব্রেনো বিডন",
+            "hi": "ब्रेनो बिडॉन"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. بيدون",
+            "bn": "বি. বিডন",
+            "hi": "बी. बिडॉन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 20.4,
+        "y": 37.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.1,
+        "z": 25
+      },
+      "blockCoordinates": {
+        "x": 18,
+        "y": 39.2,
+        "z": 0
+      },
+      "xg": 0.028532478958368,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronaldo",
+        "slug": "ronaldo",
+        "shortName": "Ronaldo",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1027,
+        "gender": "M",
+        "id": 840106,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونالدو"
+          },
+          "shortNameTranslation": {
+            "ar": "رونالدو"
+          }
+        }
+      },
+      "id": 6603350,
+      "time": 61,
+      "timeSeconds": 3640,
+      "draw": {
+        "start": {
+          "x": 37.8,
+          "y": 20.4
+        },
+        "block": {
+          "x": 39.2,
+          "y": 18
+        },
+        "end": {
+          "x": 50.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.9,
+          "y": 75
+        }
+      },
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1760,
+      "periodTimeSeconds": 940,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Breno Bidon",
+        "slug": "breno-bidon",
+        "shortName": "B. Bidon",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 10167,
+        "gender": "M",
+        "sofascoreId": "BrenoBidon",
+        "id": 1199261,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برينو بيدون",
+            "bn": "ব্রেনো বিডন",
+            "hi": "ब्रेनो बिडॉन"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. بيدون",
+            "bn": "বি. বিডন",
+            "hi": "बी. बिडॉन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.9,
+        "y": 60.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.7,
+        "z": 0.6
+      },
+      "xg": 0.5025999546051,
+      "xgot": 0.76012521982193,
+      "goalkeeper": {
+        "name": "Ronaldo",
+        "slug": "ronaldo",
+        "shortName": "Ronaldo",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1027,
+        "gender": "M",
+        "id": 840106,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونالدو"
+          },
+          "shortNameTranslation": {
+            "ar": "رونالدو"
+          }
+        }
+      },
+      "id": 6603031,
+      "time": 12,
+      "timeSeconds": 715,
+      "draw": {
+        "start": {
+          "x": 60.5,
+          "y": 8.9
+        },
+        "end": {
+          "x": 52.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.3,
+          "y": 99.4
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 1985,
+      "periodTimeSeconds": 715,
+      "incidentType": "shot"
+    }
+  ]
+}

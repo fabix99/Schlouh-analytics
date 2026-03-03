@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Pedro",
+        "firstName": "",
+        "lastName": "",
+        "slug": "pedro",
+        "shortName": "Pedro",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 57000,
+        "gender": "M",
+        "sofascoreId": "pedroguilherme",
+        "id": 840219,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيدرو",
+            "bn": "পেড্রো",
+            "hi": "पेड्रो"
+          },
+          "shortNameTranslation": {
+            "ar": "بيدرو",
+            "bn": "পেড্রো",
+            "hi": "पेड्रो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.4,
+        "y": 47.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.4,
+        "z": 15.8
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 50,
+        "z": 0
+      },
+      "xg": 0.044712103903294,
+      "xgot": 0.094986848533154,
+      "goalkeeper": {
+        "name": "Sergio Rochet",
+        "slug": "sergio-rochet",
+        "shortName": "S. Rochet",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2598,
+        "gender": "M",
+        "id": 581060,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرجيو روشيت",
+            "bn": "সার্জিও রোচেট",
+            "hi": "सर्जियो रोशेट"
+          },
+          "shortNameTranslation": {
+            "ar": "س. روشيت",
+            "bn": "সার্জিও রোচেট",
+            "hi": "सर्जियो रोशेट"
+          }
+        }
+      },
+      "id": 6647176,
+      "time": 79,
+      "timeSeconds": 4685,
+      "draw": {
+        "start": {
+          "x": 47.4,
+          "y": 18.4
+        },
+        "block": {
+          "x": 50,
+          "y": 1.4
+        },
+        "end": {
+          "x": 50.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.6,
+          "y": 84.2
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 715,
+      "periodTimeSeconds": 1985,
+      "incidentType": "shot"
+    }
+  ]
+}

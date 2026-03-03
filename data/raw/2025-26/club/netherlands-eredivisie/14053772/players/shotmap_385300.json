@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jeff Hardeveld",
+        "slug": "jeff-hardeveld",
+        "shortName": "J. Hardeveld",
+        "position": "M",
+        "jerseyNumber": "2",
+        "userCount": 82,
+        "gender": "M",
+        "id": 385300,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيف هاردفيلد"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. هاردفيلد"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 27.2,
+        "y": 37.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 22,
+        "y": 39.9,
+        "z": 0
+      },
+      "xg": 0.017475752159953,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Stijn van Gassel",
+        "firstName": "",
+        "lastName": "",
+        "slug": "stijn-van-gassel",
+        "shortName": "S. van Gassel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 169,
+        "gender": "M",
+        "id": 367118,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستاين فان غاسل"
+          },
+          "shortNameTranslation": {
+            "ar": "س. فان غاسل"
+          }
+        }
+      },
+      "id": 6536000,
+      "time": 82,
+      "timeSeconds": 4898,
+      "draw": {
+        "start": {
+          "x": 37.6,
+          "y": 27.2
+        },
+        "block": {
+          "x": 39.9,
+          "y": 22
+        },
+        "end": {
+          "x": 49.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 9,
+      "reversedPeriodTimeSeconds": 502,
+      "periodTimeSeconds": 2198,
+      "incidentType": "shot"
+    }
+  ]
+}

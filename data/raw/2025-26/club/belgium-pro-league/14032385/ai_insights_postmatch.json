@@ -1,0 +1,162 @@
+{
+  "predictions": {
+    "yellowCards": 3,
+    "corners": 10,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 39,
+      "draw": 26,
+      "away": 35
+    },
+    "possibleResultsMatrix": [
+      [
+        0.07479355480561,
+        0.093511057627842,
+        0.058456359785307,
+        0.024361796248374,
+        0.0076146177930047,
+        0.0019040436441517
+      ],
+      [
+        0.10076711031419,
+        0.12598463977373,
+        0.078756498074755,
+        0.032821916492565,
+        0.010258945883002,
+        0.0025652608226996
+      ],
+      [
+        0.067880250828182,
+        0.084867660903188,
+        0.0530531323861,
+        0.022109991218664,
+        0.0069107848543004,
+        0.0017280494353923
+      ],
+      [
+        0.030484341158076,
+        0.038113216976897,
+        0.023825630686842,
+        0.0099293757328309,
+        0.0031035643003413,
+        0.00077604970346765
+      ],
+      [
+        0.010267659346835,
+        0.012837198170088,
+        0.0080248891831856,
+        0.0033443874355942,
+        0.0010453347451946,
+        0.00026138711511261
+      ],
+      [
+        0.0027666618193509,
+        0.0034590343178429,
+        0.0021623384412812,
+        0.00090115855178108,
+        0.00028166962208989,
+        7.0431802129787e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Current Form",
+      "text": "KRC Genk has shown some recovery recently, with 2 wins and 1 draw in their last 5 matches, positioning them to exploit their home advantage. Meanwhile, Cercle Brugge has performed slightly better with a recent victory, indicating a more stable form heading into this clash."
+    },
+    {
+      "subtitle": "Head-to-Head",
+      "text": "In their last two encounters, the teams drew on both occasions, indicating a balanced rivalry. Both matches highlighted the potential for scoring from both sides, emphasizing the expectation of goals in today's fixture."
+    },
+    {
+      "subtitle": "Matchup Insights",
+      "text": "Cercle Brugge's solid away form and Genk's home edge create a competitive dynamic, as their defenses have shown vulnerabilities. There is a slight unpredictability in the scoring, but the chance of both teams finding the net remains high."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "KRC Genk",
+      "slug": "krc-genk",
+      "shortName": "Genk",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 102182,
+      "nameCode": "GNK",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 2890,
+      "teamColors": {
+        "primary": "#0000dd",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كيه آر سي جينك",
+          "hi": "केआरसी गेंक",
+          "ru": "Генк"
+        },
+        "shortNameTranslation": {
+          "ar": "جينك",
+          "bn": "জেঙ্ক",
+          "hi": "गेंक"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Yira Collins Sor",
+      "slug": "yira-collins-sor",
+      "shortName": "Y. C. Sor",
+      "position": "F",
+      "jerseyNumber": "14",
+      "userCount": 405,
+      "gender": "M",
+      "id": 985162,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ييرا كولينز سور",
+          "bn": "ইরা কলিন্স সোর",
+          "hi": "यिरा कोलिन्स सोर"
+        },
+        "shortNameTranslation": {
+          "ar": "ي. كولينز سور",
+          "bn": "ওয়াই. সি. সোর",
+          "hi": "वाईसी कोलिन्स"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 0
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "First half overview",
+      "text": "KRC Genk took a lead in the first half with a goal from Yira Collins Sor in the 17th minute. The home team demonstrated superior ball possession, holding 61% of the ball. They created 1 big chance and maintained reasonable attacking momentum with several attacking spells."
+    },
+    {
+      "subtitle": "Offensive performance",
+      "text": "Genk was more effective in the final third, entering it 28 times with 4 shots on target. Conversely, Cercle Brugge struggled to convert their possession into meaningful opportunities, managing only 1 shot on target and failing to create any big chances."
+    },
+    {
+      "subtitle": "Defensive dynamics",
+      "text": "Defensively, Genk showed strength, securing a 75% success rate in aerial duels. In contrast, Brugge's duels were less successful, winning only 40%. This may hinder their ability to regain possession and launch effective counter-attacks."
+    },
+    {
+      "subtitle": "Momentum shifts",
+      "text": "The first half saw significant attacking momentum from both sides, with Brugge initially putting pressure early on. However, after Genk's lead, they shifted control, dominating a majority of the attacking spells until midway through the period before Brugge regained some momentum towards the end of the half."
+    },
+    {
+      "subtitle": "Second half prediction",
+      "text": "Looking ahead to the second half, the momentum and performance of both teams suggest that Genk will continue to hold the advantage due to their offensive efficiency and defensive solidity. If Brugge can adjust their strategy and capitalize on their final third entries, they might find themselves in goal-scoring positions."
+    }
+  ],
+  "modelName": "Grok3"
+}

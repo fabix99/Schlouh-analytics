@@ -1,0 +1,411 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Serie A",
+      "slug": "serie-a",
+      "category": {
+        "name": "Italy",
+        "slug": "italy",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 31,
+        "flag": "italy",
+        "alpha2": "IT",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "hi": "इटली",
+            "ar": "إيطاليا",
+            "bn": "ইতালি",
+            "ru": "Италия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Serie A",
+        "slug": "serie-a",
+        "primaryColorHex": "#09519e",
+        "secondaryColorHex": "#008fd7",
+        "category": {
+          "name": "Italy",
+          "slug": "italy",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "IT",
+            "alpha3": "ITA",
+            "name": "Italy",
+            "slug": "italy"
+          },
+          "id": 31,
+          "flag": "italy",
+          "alpha2": "IT",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "hi": "इटली",
+              "ar": "إيطاليا",
+              "bn": "ইতালি",
+              "ru": "Италия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 624058,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 23,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإيطالي",
+            "hi": "सीरी ए",
+            "bn": "সিরি আ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 698,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 33,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "सीरी ए",
+          "ar": "الدوري الإيطالي",
+          "bn": "সিরি আ"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Serie A 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 63515
+    },
+    "roundInfo": {
+      "round": 26
+    },
+    "customId": "KdbsPdb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 19510,
+    "venue": {
+      "city": {
+        "name": "Parma"
+      },
+      "venueCoordinates": {
+        "latitude": 44.794758,
+        "longitude": 10.338373
+      },
+      "hidden": false,
+      "slug": "ennio-tardini",
+      "name": "Ennio Tardini",
+      "capacity": 27906,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 626,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إنيو تارديني",
+          "hi": "एन्नियो तारदिनी",
+          "bn": "এনিও তারদিনি"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Ennio Tardini",
+        "capacity": 27906
+      }
+    },
+    "referee": {
+      "name": "Rosario Abisso",
+      "slug": "abisso-rosario",
+      "yellowCards": 1272,
+      "redCards": 52,
+      "yellowRedCards": 37,
+      "games": 240,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 172185,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أبيسو، روزاريو",
+          "bn": "আবিসো, রোজারিও",
+          "hi": "अबिसो, रोसारियो"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Parma",
+      "slug": "parma",
+      "shortName": "Parma",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 97176,
+      "manager": {
+        "name": "Carlos Cuesta",
+        "slug": "carlos-cuesta",
+        "shortName": "C. Cuesta",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 811357,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس كويستا"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. كويستا"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Parma"
+        },
+        "venueCoordinates": {
+          "latitude": 44.794758,
+          "longitude": 10.338373
+        },
+        "hidden": false,
+        "slug": "ennio-tardini",
+        "name": "Ennio Tardini",
+        "capacity": 27906,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 626,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إنيو تارديني",
+            "hi": "एन्नियो तारदिनी",
+            "bn": "এনিও তারদিনি"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Ennio Tardini",
+          "capacity": 27906
+        }
+      },
+      "nameCode": "PAR",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2690,
+      "fullName": "Parma",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -1780876800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بارما",
+          "bn": "পরমা",
+          "hi": "पर्मा",
+          "ru": "Парма Кальчо"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Bologna",
+      "slug": "bologna",
+      "shortName": "Bologna",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 222645,
+      "manager": {
+        "name": "Vincenzo Italiano",
+        "slug": "vincenzo-italiano",
+        "shortName": "V. Italiano",
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 790589,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فينشينزو إيتاليانو",
+            "bn": "ভিনসেনজো ইতালিয়ানো",
+            "hi": "विन्सेन्ज़ो इटालियनो"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. إيتاليانو",
+            "bn": "ভি. ইতালিয়ানো",
+            "hi": "वी. इटालियानो"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Bologna"
+        },
+        "venueCoordinates": {
+          "latitude": 44.492317,
+          "longitude": 11.310801
+        },
+        "hidden": false,
+        "slug": "renato-dall-ara",
+        "name": "Renato Dall'Ara",
+        "capacity": 36532,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 1164,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريناتو دالارا",
+            "hi": "रेनाटो डाल'आरा",
+            "bn": "রেনাতো ডাল'আরা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Renato Dall'Ara",
+          "capacity": 36532
+        }
+      },
+      "nameCode": "BOL",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 2685,
+      "fullName": "Bologna",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#003366",
+        "secondary": "#cc0000",
+        "text": "#cc0000"
+      },
+      "foundationDateTimestamp": -1901232000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بولونيا",
+          "bn": "বোলোগনা",
+          "hi": "बोलोग्ना",
+          "ru": "Болонья"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 2,
+      "injuryTime2": 5,
+      "currentPeriodStartTimestamp": 1740236683
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1740239697
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12504367,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "parma-bologna",
+    "currentPeriodStartTimestamp": 1740236683,
+    "startTimestamp": 1740232800,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

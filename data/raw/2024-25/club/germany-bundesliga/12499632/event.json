@@ -1,0 +1,442 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Bundesliga",
+      "slug": "bundesliga",
+      "category": {
+        "name": "Germany",
+        "slug": "germany",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 30,
+        "flag": "germany",
+        "alpha2": "DE",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألمانيا",
+            "bn": "জার্মানি",
+            "hi": "जर्मनी",
+            "ru": "Германия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Bundesliga",
+        "slug": "bundesliga",
+        "primaryColorHex": "#e2080e",
+        "secondaryColorHex": "#8e0902",
+        "category": {
+          "name": "Germany",
+          "slug": "germany",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "DE",
+            "alpha3": "DEU",
+            "name": "Germany",
+            "slug": "germany"
+          },
+          "id": 30,
+          "flag": "germany",
+          "alpha2": "DE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألمانيا",
+              "bn": "জার্মানি",
+              "hi": "जर्मनी",
+              "ru": "Германия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 508963,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "country": {},
+        "id": 35,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "বুন্দেসলীগা",
+            "ar": "الدوري الألماني",
+            "hi": "बुंडेसलीगा"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 695,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 42,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "बुंडेसलीगा",
+          "ar": "الدوري الألماني",
+          "bn": "বুন্দেসলীগা"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Bundesliga 24/25",
+      "year": "24/25",
+      "editor": false,
+      "id": 63516
+    },
+    "roundInfo": {
+      "round": 16
+    },
+    "customId": "XabsKrc",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 15000,
+    "venue": {
+      "city": {
+        "name": "Heidenheim an der Brenz"
+      },
+      "venueCoordinates": {
+        "latitude": 48.668524,
+        "longitude": 10.139296
+      },
+      "hidden": true,
+      "slug": "voith-arena",
+      "name": "Voith-Arena",
+      "capacity": 15000,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 23671,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أرينا فويث",
+          "hi": "वोइथ-एरिना",
+          "bn": "ভোইথ-এরিনা"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Voith-Arena",
+        "capacity": 15000
+      }
+    },
+    "referee": {
+      "name": "Robert Hartmann",
+      "slug": "hartmann-robert",
+      "yellowCards": 1239,
+      "redCards": 16,
+      "yellowRedCards": 19,
+      "games": 336,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 52457,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "هارتمان، روبرت",
+          "bn": "হার্টম্যান, রবার্ট",
+          "hi": "हार्टमैन, रॉबर्ट"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "1. FC Heidenheim",
+      "slug": "1-fc-heidenheim",
+      "shortName": "Heidenheim",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 63567,
+      "manager": {
+        "name": "Frank Schmidt",
+        "slug": "frank-schmidt",
+        "shortName": "F. Schmidt",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 102661,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فرانك شميت",
+            "bn": "ফ্রাঙ্ক শ্মিট",
+            "hi": "फ्रैंक श्मिट"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. شميت",
+            "bn": "এফ. শ্মিট",
+            "hi": "एफ. श्मिट"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Heidenheim an der Brenz"
+        },
+        "venueCoordinates": {
+          "latitude": 48.668524,
+          "longitude": 10.139296
+        },
+        "hidden": true,
+        "slug": "voith-arena",
+        "name": "Voith-Arena",
+        "capacity": 15000,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 23671,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أرينا فويث",
+            "hi": "वोइथ-एरिना",
+            "bn": "ভোইথ-এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Voith-Arena",
+          "capacity": 15000
+        }
+      },
+      "nameCode": "SCH",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 5885,
+      "fullName": "1. FC Heidenheim",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#243475",
+        "secondary": "#400040",
+        "text": "#400040"
+      },
+      "foundationDateTimestamp": 75772800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "1. نادي هايدنهايم",
+          "hi": "1. ऍफ़सी हेइडेनहैएम",
+          "ru": "1. ФК Хайденхайм"
+        },
+        "shortNameTranslation": {
+          "ar": "هايدنهايم",
+          "bn": "হাইডেনহাইম",
+          "hi": "हाइडेनहाइम"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "1. FC Union Berlin",
+      "slug": "1-fc-union-berlin",
+      "shortName": "Union Berlin",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 123137,
+      "manager": {
+        "name": "Steffen Baumgart",
+        "slug": "steffen-baumgart",
+        "shortName": "S. Baumgart",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 785174,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "شتيفن بومغارت"
+          },
+          "shortNameTranslation": {
+            "ar": "ش. بومغارت"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Berlin"
+        },
+        "venueCoordinates": {
+          "latitude": 52.456974,
+          "longitude": 13.568079
+        },
+        "hidden": false,
+        "slug": "an-der-alten-f-rsterei",
+        "name": "An der alten Försterei",
+        "capacity": 22012,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 578,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آن دير آلتن فورستيري",
+            "hi": "एक डेर अल्टेन फ़ोर्सटेरी",
+            "bn": "আন ডের আলটেন ফর্স্টেরেই"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "An der alten Försterei",
+          "capacity": 22012
+        }
+      },
+      "nameCode": "FCU",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "name": "Germany",
+        "slug": "germany"
+      },
+      "id": 2547,
+      "fullName": "1. FC Union Berlin",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ff0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -124588800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "1 إف سي يونيون برلين",
+          "ru": "Унион Берлин"
+        },
+        "shortNameTranslation": {
+          "ar": "يونيون برلين",
+          "bn": "ইউনিয়ন বার্লিন",
+          "hi": "यूनियन बर्लिन"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 4,
+      "injuryTime2": 3,
+      "currentPeriodStartTimestamp": 1736609790
+    },
+    "changes": {
+      "changes": [
+        "time.injuryTime2",
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1736612692
+    },
+    "hasGlobalHighlights": false,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 12499632,
+    "awayRedCards": 1,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "1-fc-heidenheim-1-fc-union-berlin",
+    "currentPeriodStartTimestamp": 1736609790,
+    "startTimestamp": 1736605800,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "??",
+      "AN",
+      "AS",
+      "AT",
+      "CH",
+      "CU",
+      "DE",
+      "GU",
+      "IR",
+      "KP",
+      "LI",
+      "LU",
+      "MP",
+      "PR",
+      "SY",
+      "US",
+      "VE",
+      "VI",
+      "GR",
+      "RU",
+      "CA"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "event": {
+    "eventState": {},
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "tournament": {
+      "name": "UEFA Champions League",
+      "slug": "uefa-champions-league",
+      "category": {
+        "name": "Europe",
+        "slug": "europe",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "country": {},
+        "id": 1465,
+        "flag": "europe",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوروبا",
+            "hi": "यूरोप",
+            "bn": "ইউরোপ",
+            "ru": "Европа"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "primaryColorHex": "#062b5c",
+        "secondaryColorHex": "#086aab",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1189676,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 7,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+            "ar": "دوري أبطال أوروبا",
+            "hi": "यूईएफए चैंपियंस लीग",
+            "hr": "UEFA Liga prvaka"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 714,
+      "isGroup": false,
+      "competitionType": 1,
+      "id": 138314,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دوري أبطال أوروبا"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "UEFA Champions League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76953
+    },
+    "roundInfo": {
+      "round": 2
+    },
+    "customId": "Egbsxdc",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 22788,
+    "venue": {
+      "city": {
+        "name": "Almaty"
+      },
+      "venueCoordinates": {
+        "latitude": 43.238371230402,
+        "longitude": 76.924166976535
+      },
+      "hidden": false,
+      "slug": "central-stadium",
+      "name": "Central Stadium",
+      "capacity": 23804,
+      "country": {
+        "alpha2": "KZ",
+        "alpha3": "KAZ",
+        "name": "Kazakhstan",
+        "slug": "kazakhstan"
+      },
+      "id": 952,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الملعب المركزي",
+          "hi": "सेंट्रल स्टेडियम",
+          "bn": "সেন্ট্রাল স্টেডিয়াম"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Central Stadium",
+        "capacity": 23804
+      }
+    },
+    "referee": {
+      "name": "Marco Guida",
+      "slug": "guida-marco",
+      "yellowCards": 1482,
+      "redCards": 46,
+      "yellowRedCards": 30,
+      "games": 318,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "name": "Italy",
+        "slug": "italy"
+      },
+      "id": 76140,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "غويدا، ماركو",
+          "bn": "গুইদা, মার্কো",
+          "hi": "गुइदा, मार्को"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "shortName": "Kairat",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 82309,
+      "manager": {
+        "name": "Rafael Urazbakhtin",
+        "slug": "rafael-urazbakhtin",
+        "shortName": "R. Urazbakhtin",
+        "country": {
+          "alpha2": "KZ",
+          "alpha3": "KAZ",
+          "name": "Kazakhstan",
+          "slug": "kazakhstan"
+        },
+        "id": 805008,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رافائيل أوزراباختين"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. أوزراباختين"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Almaty"
+        },
+        "venueCoordinates": {
+          "latitude": 43.238371230402,
+          "longitude": 76.924166976535
+        },
+        "hidden": false,
+        "slug": "central-stadium",
+        "name": "Central Stadium",
+        "capacity": 23804,
+        "country": {
+          "alpha2": "KZ",
+          "alpha3": "KAZ",
+          "name": "Kazakhstan",
+          "slug": "kazakhstan"
+        },
+        "id": 952,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الملعب المركزي",
+            "hi": "सेंट्रल स्टेडियम",
+            "bn": "সেন্ট্রাল স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Central Stadium",
+          "capacity": 23804
+        }
+      },
+      "nameCode": "ALM",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "KZ",
+        "alpha3": "KAZ",
+        "name": "Kazakhstan",
+        "slug": "kazakhstan"
+      },
+      "id": 5172,
+      "fullName": "Kairat Almaty",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#ffeb3b",
+        "text": "#ffeb3b"
+      },
+      "foundationDateTimestamp": -504921600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كايرات ألماتي",
+          "ru": "Кайрат Алматы"
+        },
+        "shortNameTranslation": {
+          "ar": "كايرات",
+          "bn": "কাইরাত",
+          "hi": "कैरात"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "shortName": "Real Madrid",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 6782203,
+      "manager": {
+        "name": "Álvaro Arbeloa",
+        "slug": "alvaro-arbeloa",
+        "shortName": "Á. Arbeloa",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 798940,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألفارو أربيلوا"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. أربيلوا"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Madrid"
+        },
+        "venueCoordinates": {
+          "latitude": 40.453,
+          "longitude": -3.6883
+        },
+        "hidden": false,
+        "slug": "santiago-bernab-u",
+        "name": "Bernabéu",
+        "capacity": 84744,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 754,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سانتياغو برنابيو",
+            "hi": "सैंटियागो बर्नबेउ",
+            "bn": "সান্তিয়াগো বার্নাব্যু"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Bernabéu",
+          "capacity": 84744
+        }
+      },
+      "nameCode": "RMA",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 2829,
+      "fullName": "Real Madrid",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#004996",
+        "text": "#004996"
+      },
+      "foundationDateTimestamp": -2140387200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ريال مدريد",
+          "bn": "রিয়াল মাদ্রিদ",
+          "hi": "रियल मैड्रिड",
+          "ru": "Реал Мадрид"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 5,
+      "display": 5,
+      "period1": 1,
+      "period2": 4,
+      "normaltime": 5
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 0,
+      "injuryTime2": 3,
+      "currentPeriodStartTimestamp": 1759254492
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type",
+        "awayScore.period2",
+        "awayScore.normaltime"
+      ],
+      "changeTimestamp": 1759257403
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 14566983,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "kairat-almaty-real-madrid",
+    "currentPeriodStartTimestamp": 1759254492,
+    "startTimestamp": 1759250700,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false
+  }
+}

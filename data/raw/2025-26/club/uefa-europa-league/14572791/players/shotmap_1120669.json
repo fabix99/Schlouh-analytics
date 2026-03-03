@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Hugo Sotelo",
+        "firstName": "Hugo Sotelo",
+        "slug": "hugo-sotelo",
+        "shortName": "H. Sotelo",
+        "position": "M",
+        "jerseyNumber": "22",
+        "userCount": 624,
+        "gender": "M",
+        "id": 1120669,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هوغو سوتيلو",
+            "bn": "হুগো সোটেলো",
+            "hi": "ह्यूगो सोटेलो"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. سوتيلو",
+            "bn": "এইচ. সোটেলো",
+            "hi": "एच. सोटेलो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 30.9,
+        "y": 43.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 24.7,
+        "y": 45.1,
+        "z": 0
+      },
+      "xg": 0.030251558870077,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Berke Özer",
+        "slug": "berke-ozer",
+        "shortName": "B. Özer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3069,
+        "gender": "M",
+        "id": 847494,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيرك أوزير",
+            "bn": "বার্ক ওজার",
+            "hi": "बर्क ओज़र"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. أوزير",
+            "bn": "বি. ওজার",
+            "hi": "बी. ओज़र"
+          }
+        }
+      },
+      "id": 6571047,
+      "time": 10,
+      "timeSeconds": 565,
+      "draw": {
+        "start": {
+          "x": 43.8,
+          "y": 30.9
+        },
+        "block": {
+          "x": 45.1,
+          "y": 24.7
+        },
+        "end": {
+          "x": 50.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2135,
+      "periodTimeSeconds": 565,
+      "incidentType": "shot"
+    }
+  ]
+}

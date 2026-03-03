@@ -3,6 +3,8 @@ Shared utilities for the processed analytics build scripts.
 Paths and constants; parse_ratio, parse_pct, position_group, per90.
 
 Paths prefer src.config when importable so SOFASCORE_* env overrides apply in CI/prod.
+This script adds ROOT to sys.path (not ROOT/src); other scripts may add ROOT or ROOT/src
+depending on whether they import via "from src.config" or "from config". See run_pipeline.py.
 """
 
 import re

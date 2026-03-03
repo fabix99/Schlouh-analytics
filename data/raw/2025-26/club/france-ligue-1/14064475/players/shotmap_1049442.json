@@ -1,0 +1,189 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ilan Kebbal",
+        "firstName": "Ilan Kebbal",
+        "lastName": "",
+        "slug": "ilan-kebbal",
+        "shortName": "I. Kebbal",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 10695,
+        "gender": "M",
+        "id": 1049442,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيلان كبال",
+            "bn": "ইলান কেব্বল",
+            "hi": "इलान केबल"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. كبال",
+            "bn": "আই. কেব্বল",
+            "hi": "आई. केबल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.9,
+        "z": 30.4
+      },
+      "xg": 0.7884,
+      "xgot": 0.98913437128067,
+      "goalkeeper": {
+        "name": "Gerónimo Rulli",
+        "slug": "geronimo-rulli",
+        "shortName": "G. Rulli",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 13304,
+        "gender": "M",
+        "sofascoreId": "gerorulli",
+        "id": 128383,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيرونيمو رولي",
+            "bn": "জেরোনিমো রুলি",
+            "hi": "गेरोनिमो रुल्ली"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. رولي",
+            "bn": "জি রুলি",
+            "hi": "जी. रुल्ली"
+          }
+        }
+      },
+      "id": 6617309,
+      "time": 90,
+      "addedTime": 4,
+      "timeSeconds": 5586,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 47.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.1,
+          "y": 69.6
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 714,
+      "periodTimeSeconds": 186,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ilan Kebbal",
+        "firstName": "Ilan Kebbal",
+        "lastName": "",
+        "slug": "ilan-kebbal",
+        "shortName": "I. Kebbal",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 10695,
+        "gender": "M",
+        "id": 1049442,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيلان كبال",
+            "bn": "ইলান কেব্বল",
+            "hi": "इलान केबल"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. كبال",
+            "bn": "আই. কেব্বল",
+            "hi": "आई. केबल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 16,
+        "y": 72.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.8,
+        "y": 60.8,
+        "z": 0
+      },
+      "xg": 0.041063506156206,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gerónimo Rulli",
+        "slug": "geronimo-rulli",
+        "shortName": "G. Rulli",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 13304,
+        "gender": "M",
+        "sofascoreId": "gerorulli",
+        "id": 128383,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيرونيمو رولي",
+            "bn": "জেরোনিমো রুলি",
+            "hi": "गेरोनिमो रुल्ली"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. رولي",
+            "bn": "জি রুলি",
+            "hi": "जी. रुल्ली"
+          }
+        }
+      },
+      "id": 6615995,
+      "time": 9,
+      "timeSeconds": 508,
+      "draw": {
+        "start": {
+          "x": 72.5,
+          "y": 16
+        },
+        "block": {
+          "x": 60.8,
+          "y": 8.8
+        },
+        "end": {
+          "x": 46.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2192,
+      "periodTimeSeconds": 508,
+      "incidentType": "shot"
+    }
+  ]
+}

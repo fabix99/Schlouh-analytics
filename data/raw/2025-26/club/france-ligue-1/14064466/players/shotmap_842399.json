@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Alimami Gory",
+        "firstName": "",
+        "lastName": "",
+        "slug": "alimami-gory",
+        "shortName": "A. Gory",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 164,
+        "gender": "M",
+        "id": 842399,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عليمي جوري",
+            "bn": "আলিমামি গোরি",
+            "hi": "अलीमामी गोरी"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. جوري",
+            "bn": "এ. গোরি",
+            "hi": "ए. गोरी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.5,
+        "y": 57,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 5.8,
+        "y": 54.7,
+        "z": 0
+      },
+      "xg": 0.054379750043154,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Hervé Koffi",
+        "slug": "herve-koffi",
+        "shortName": "H. Koffi",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 15744,
+        "gender": "M",
+        "sofascoreId": "HKoffi",
+        "id": 867299,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيرفي كوفي",
+            "bn": "হার্ভে কফি",
+            "hi": "हर्वे कोफ़ी"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. كوفي",
+            "bn": "এইচ. কফি",
+            "hi": "एच. कोफ़ी"
+          }
+        }
+      },
+      "id": 6589930,
+      "time": 42,
+      "timeSeconds": 2510,
+      "draw": {
+        "start": {
+          "x": 57,
+          "y": 8.5
+        },
+        "block": {
+          "x": 54.7,
+          "y": 5.8
+        },
+        "end": {
+          "x": 49.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 190,
+      "periodTimeSeconds": 2510,
+      "incidentType": "shot"
+    }
+  ]
+}

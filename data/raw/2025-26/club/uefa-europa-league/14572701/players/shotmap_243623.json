@@ -1,0 +1,183 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Fred",
+        "slug": "fred",
+        "shortName": "Fred",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 11485,
+        "gender": "M",
+        "sofascoreId": "fred08",
+        "id": 243623,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فريد",
+            "bn": "ফ্রেড",
+            "hi": "फ्रेड"
+          },
+          "shortNameTranslation": {
+            "ar": "فريد",
+            "bn": "ফ্রেড",
+            "hi": "फ्रेड"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 27.2,
+        "y": 45,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.3,
+        "z": 63.9
+      },
+      "xg": 0.027783459052444,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Marco Bizot",
+        "slug": "marco-bizot",
+        "shortName": "M. Bizot",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 903,
+        "gender": "M",
+        "id": 100390,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركو بيزوت",
+            "bn": "মার্কো বিজোট",
+            "hi": "मार्को बिज़ोट"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بيزوت",
+            "bn": "এম. বিজোট",
+            "hi": "एम. बिज़ोट"
+          }
+        }
+      },
+      "id": 6570391,
+      "time": 33,
+      "timeSeconds": 1947,
+      "draw": {
+        "start": {
+          "x": 45,
+          "y": 27.2
+        },
+        "end": {
+          "x": 45.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.7,
+          "y": 36.1
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 753,
+      "periodTimeSeconds": 1947,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Fred",
+        "slug": "fred",
+        "shortName": "Fred",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 11485,
+        "gender": "M",
+        "sofascoreId": "fred08",
+        "id": 243623,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فريد",
+            "bn": "ফ্রেড",
+            "hi": "फ्रेड"
+          },
+          "shortNameTranslation": {
+            "ar": "فريد",
+            "bn": "ফ্রেড",
+            "hi": "फ्रेड"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 27.8,
+        "y": 51.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.7,
+        "z": 13.3
+      },
+      "blockCoordinates": {
+        "x": 2.2,
+        "y": 50,
+        "z": 0
+      },
+      "xg": 0.027547989040613,
+      "xgot": 0.010049261152744,
+      "goalkeeper": {
+        "name": "Marco Bizot",
+        "slug": "marco-bizot",
+        "shortName": "M. Bizot",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 903,
+        "gender": "M",
+        "id": 100390,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركو بيزوت",
+            "bn": "মার্কো বিজোট",
+            "hi": "मार्को बिज़ोट"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بيزوت",
+            "bn": "এম. বিজোট",
+            "hi": "एम. बिज़ोट"
+          }
+        }
+      },
+      "id": 6570303,
+      "time": 10,
+      "timeSeconds": 571,
+      "draw": {
+        "start": {
+          "x": 51.7,
+          "y": 27.8
+        },
+        "block": {
+          "x": 50,
+          "y": 2.2
+        },
+        "end": {
+          "x": 49.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.3,
+          "y": 86.7
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2129,
+      "periodTimeSeconds": 571,
+      "incidentType": "shot"
+    }
+  ]
+}
