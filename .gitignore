@@ -49,6 +49,17 @@ data/derived/players/
 # data/logs/
 # data/index/
 
+# Platform warehouse (regenerate via DLT)
+data/warehouse/*.duckdb
+data/warehouse/*.duckdb.wal
+platform/.dlt/
+# dbt artifacts
+platform/dbt/target/
+platform/dbt/dbt_packages/
+platform/dbt/logs/
+# Airflow local home (DB, logs)
+platform/airflow_home/
+
 # Test / QA artifacts (regenerate as needed)
 dq_check_stdout.txt
 qa_extended_checks.json
@@ -66,3 +77,4 @@ dashboard/pages/*_test_results*.md
 
 # Viz generated output
 viz/output/
+platform/dbt/.user.yml

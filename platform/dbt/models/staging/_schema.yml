@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_matches
+    columns:
+      - name: match_id
+        tests: [not_null, unique]
+  - name: stg_players
+    columns:
+      - name: player_id
+        tests: [not_null, unique]
+  - name: stg_player_appearances
+    columns:
+      - name: match_id
+        tests: [not_null]
+      - name: player_id
+        tests: [not_null]
+  - name: stg_match_summary
+    columns:
+      - name: match_id
+        tests: [not_null, unique]

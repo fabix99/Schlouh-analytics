@@ -1,0 +1,40 @@
+# CI for the Schlouh data platform slice: DLT → DuckDB → dbt tests (fixtures only, no live API).
+
+name: Platform
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - "platform/**"
+      - "requirements-platform.txt"
+      - ".github/workflows/platform.yml"
+  pull_request:
+    branches: [main, master]
+    paths:
+      - "platform/**"
+      - "requirements-platform.txt"
+      - ".github/workflows/platform.yml"
+  workflow_dispatch:
+
+jobs:
+  platform:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install platform dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-platform.txt
+
+      - name: Run platform pipeline (DLT + dbt + validate + AI index)
+        run: bash platform/scripts/run_platform.sh
+
+      - name: Smoke AI retrieval query
+        run: python platform/ai/query_retrieval.py "Standard" --limit 3

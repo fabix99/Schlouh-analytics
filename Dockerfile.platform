@@ -1,0 +1,17 @@
+# Reproducible Schlouh data platform image (DLT + DuckDB + dbt).
+FROM python:3.11-slim
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y --no-install-recommends git \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements-platform.txt .
+RUN pip install --no-cache-dir -r requirements-platform.txt
+
+COPY platform/ platform/
+COPY data/warehouse/.gitkeep data/warehouse/.gitkeep
+
+ENV SOFASCORE_WAREHOUSE_PATH=/app/data/warehouse/schlouh.duckdb
+
+CMD ["bash", "platform/scripts/run_platform.sh"]

@@ -1,0 +1,29 @@
+version: 2
+
+sources:
+  - name: raw_sofascore
+    description: "Sofascore tabular extracts loaded by DLT into DuckDB."
+    schema: raw_sofascore
+    tables:
+      - name: matches
+        description: "Match index (competition, teams, date, status)."
+        columns:
+          - name: match_id
+            tests: [not_null, unique]
+      - name: players
+        description: "Player index."
+        columns:
+          - name: player_id
+            tests: [not_null, unique]
+      - name: player_appearances
+        description: "Per-match player appearance rows with core stats."
+        columns:
+          - name: match_id
+            tests: [not_null]
+          - name: player_id
+            tests: [not_null]
+      - name: match_summary
+        description: "Match-level facts (scores, shots, venue) from curated extract."
+        columns:
+          - name: match_id
+            tests: [not_null, unique]

@@ -1,0 +1,9 @@
+# Data platform slice (DLT → DuckDB → dbt). Install alongside or instead of base requirements for CI/platform work.
+# Airflow is optional locally: bash platform/scripts/setup_airflow.sh (pins Airflow via official constraints).
+duckdb>=1.0
+dlt[duckdb]>=1.0
+dbt-duckdb>=1.8,<1.11
+pandas>=2.0
+pyarrow>=14
+pyyaml>=6.0
+typing_extensions>=4.12.0

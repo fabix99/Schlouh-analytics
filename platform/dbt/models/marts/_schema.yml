@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: mart_match_summary
+    description: "One row per match with scores and basic match context."
+    columns:
+      - name: match_id
+        tests: [not_null, unique]
+      - name: season
+        tests: [not_null]
+      - name: competition_slug
+        tests: [not_null]
+
+  - name: mart_player_season_stats
+    description: "Player season competition aggregates with per-90 rates."
+    columns:
+      - name: player_id
+        tests: [not_null]
+      - name: season
+        tests: [not_null]
+      - name: competition_slug
+        tests: [not_null]
+      - name: player_season_comp_key
+        tests: [not_null, unique]
+      - name: appearances
+        tests: [not_null]
+
+  - name: mart_player_scouting_profiles
+    description: "One scouting profile row per player across the loaded slice."
+    columns:
+      - name: player_id
+        tests: [not_null, unique]
+      - name: player_name
+        tests: [not_null]
