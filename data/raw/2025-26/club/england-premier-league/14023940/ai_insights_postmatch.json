@@ -1,0 +1,200 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 10,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 54,
+      "draw": 23,
+      "away": 23
+    },
+    "possibleResultsMatrix": [
+      [
+        0.051921922531659,
+        0.057772711442307,
+        0.032141396395336,
+        0.011921076421161,
+        0.0033160988392787,
+        0.00073795426677047
+      ],
+      [
+        0.096492068421668,
+        0.10736521595473,
+        0.059731798610802,
+        0.022154212818087,
+        0.0061626615597216,
+        0.0013714194338212
+      ],
+      [
+        0.089660771542258,
+        0.099764138718996,
+        0.055502998709152,
+        0.020585772972559,
+        0.0057263669360245,
+        0.0012743277924887
+      ],
+      [
+        0.055542070866885,
+        0.061800793896723,
+        0.034382388580891,
+        0.012752248744063,
+        0.0035473069515196,
+        0.00078940659711692
+      ],
+      [
+        0.025804944429305,
+        0.028712758226354,
+        0.015974118588467,
+        0.0059247173368434,
+        0.0016480850880954,
+        0.00036675970220034
+      ],
+      [
+        0.0095912182834585,
+        0.010671998632804,
+        0.0059372830151824,
+        0.0022021073287383,
+        0.0006125625991151,
+        0.0001363177654196
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Leeds United host Burnley at Elland Road with contrasting trajectories: Leeds are 15th (40 points) and looking to seal safety, while Burnley are 19th (20 points) and on a slide. The Sofascore model rates Leeds as favourites, with both teams to score slightly more likely than not."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Leeds have 2 wins, 2 draws, 1 loss in their last 5, including strong chance creation against Wolverhampton and Manchester United. Burnley are winless in 5 (4 losses), no win in 9 away, and have conceded first in 4 straight."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "Burnley are unbeaten in the last 3 meetings with Leeds and have not conceded in that run. However, in the 2-0 Burnley win (Oct 2025), underlying data favoured Leeds (xG 2.63 vs 0.45; touches in box 44 vs 3)."
+    },
+    {
+      "subtitle": "Season stats check",
+      "text": "Leeds: 44 scored (xG 49.3, +5.3), 51 conceded; 82 big chances (8th) but 54 missed; pressing strength (interceptions rank 1). Burnley: 34 scored, 68 conceded; bottom-two defence in the table. Leeds’ corners per game 4.41."
+    },
+    {
+      "subtitle": "Key players and tactical notes",
+      "text": "Leeds’ supply runs through Anton Stach (58 key passes, league rank 4), with Dominic Calvert-Lewin leading xG. Ethan Ampadu provides stability. Possible absences include Noah Okafor and Jaka Bijol. Burnley’s main threats are Zian Flemming and Jaidon Anthony, with James Ward-Prowse on set pieces; Lesley Ugochukwu impressed in the last head-to-head."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Thomas Bramall averages 3.4 yellows and 0.13 reds per match. Leeds average 1.59 yellows; away team trends point to lower card counts. Expect around 4 total yellows and roughly 10 corners overall."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Leeds have the edge at home given recent performances and Burnley’s form, but the visitors’ set pieces keep them competitive. The model view and current metrics suggest a home win is most likely, with a fair chance both teams score."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Leeds United",
+      "slug": "leeds-united",
+      "shortName": "Leeds",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 250712,
+      "nameCode": "LEE",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 34,
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#1d4189",
+        "text": "#1d4189"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ليدز يونايتد",
+          "bn": "লিডস",
+          "hi": "लीड्स यूनाइटेड",
+          "ru": "Лидс Юнайтед"
+        },
+        "shortNameTranslation": {
+          "ar": "ليدز",
+          "hi": "लीड्स",
+          "ru": "Лидс"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Dominic Calvert-Lewin",
+      "firstName": "Dominic",
+      "lastName": "Calvert-Lewin",
+      "slug": "dominic-calvert-lewin",
+      "shortName": "D. Calvert-Lewin",
+      "position": "F",
+      "jerseyNumber": "9",
+      "userCount": 7502,
+      "gender": "M",
+      "sofascoreId": "5hi-gqz",
+      "id": 372344,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دومينيك كالفيرت-لوين",
+          "bn": "ডমিনিক কালভার্ট-লেউইন",
+          "hi": "डोमिनिक कैल्वर्ट-लेविन",
+          "ru": "Доминик Кальверт-Льюин"
+        },
+        "shortNameTranslation": {
+          "ar": "د. كالفيرت-لوين",
+          "bn": "ডি. কালভার্ট-লেউইন",
+          "hi": "डी. कैल्वर्ट-लेविन",
+          "ru": "Д. Кальверт-Льюин"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 0
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Leeds United lead Burnley 1-0 at half-time at Elland Road after an 8' strike from Anton Stach. The hosts have controlled territory and tempo, while Burnley have sat deep and struggled to progress the ball into dangerous areas."
+    },
+    {
+      "subtitle": "First-half summary and key numbers",
+      "text": "Leeds are ahead on almost every indicator: expected goals 0.44 to 0.05, shots on target 2 to 0, possession 62% to 38%, final-third entries 30 to 16, and penalty-area entries 13 to 4. They have edged the physical contests too, winning 55% of aerials and 51% of all duels. Burnley’s defensive line has been busy clearing danger but they have created very little."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Leeds began on the front foot with sustained pressure that produced the early goal. After an extended spell of home control, Burnley enjoyed a brief attacking period around the half-hour, before Leeds reasserted themselves and finished the half stronger. There was a short away uptick just before the whistle, but the hosts closed the half with another push."
+    },
+    {
+      "subtitle": "Tactical notes",
+      "text": "Leeds’ press has been effective, with 3 high regains and repeated entries into the box. Width from James Justin and Noah Okafor has stretched Burnley, while Dominic Calvert-Lewin has occupied the centre-backs to create inside lanes for runners like Stach. Burnley have kept a compact block and relied on clearances, but progression has been limited. To change the pattern, they need quicker passes into channels for Loum Tchaouna or Jaidon Anthony and to leverage James Ward-Prowse’s delivery from advanced free-kicks."
+    },
+    {
+      "subtitle": "Key player performances",
+      "text": "Anton Stach has been the standout with 1 goal and 2 key passes. Jaka Bijol supplied the assist and added 2 clearances. Ao Tanaka and Ethan Ampadu have read play well with interceptions that kept Leeds on the front foot. For Burnley, Bashir Humphreys (6 clearances) and Hjalmar Ekdal (5 clearances) have done most of the emergency work, while Ward-Prowse remains their best route to quality service. Martin Dúbravka’s low rating at the break reflects pressure faced rather than shot-stopping volume."
+    },
+    {
+      "subtitle": "Discipline and set pieces",
+      "text": "Cards: Leeds 2 yellows (Joe Rodon, Pascal Struijk); Burnley 2 yellows (Bashir Humphreys, Loum Tchaouna). Corners: Leeds 2, Burnley 0. With both Leeds centre-backs booked, there is risk in aerial and recovery duels if Burnley increase direct play. Expect corner counts to rise after the break as Burnley push higher; Burnley should register their first corners and Leeds can add more on transitions. Another 1–2 yellow cards are likely if the game opens up."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "The next phase should see Burnley advance their line in the first 15 minutes, seeking set-pieces and quicker switches. If they over-commit, Leeds have space to attack behind and can create high-value chances from crosses and cut-backs. Given the first-half pattern and chance quality, the next goal leans towards Leeds, with Calvert-Lewin well placed to profit from low deliveries or second balls."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Leeds to manage the game and find a second goal while limiting Burnley’s open-play threat. If Burnley score, it most likely comes from a dead ball, but the balance of play points to a home win without conceding."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

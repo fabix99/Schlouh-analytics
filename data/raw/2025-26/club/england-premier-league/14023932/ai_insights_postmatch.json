@@ -1,0 +1,201 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 9,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 45,
+      "draw": 28,
+      "away": 27
+    },
+    "possibleResultsMatrix": [
+      [
+        0.10005936534589,
+        0.096823394312926,
+        0.046846038118818,
+        0.015110337764977,
+        0.0036554154290366,
+        0.00070743948502911
+      ],
+      [
+        0.1338193901554,
+        0.1294916026595,
+        0.062651889011953,
+        0.020208564963025,
+        0.0048887524100055,
+        0.00094612953151555
+      ],
+      [
+        0.089485022814507,
+        0.08659103142539,
+        0.041895316598709,
+        0.013513466879984,
+        0.0032691086130029,
+        0.00063267679381015
+      ],
+      [
+        0.039892421662829,
+        0.038602280350326,
+        0.018676931433742,
+        0.0060243033073867,
+        0.0014573685645902,
+        0.00028204730401957
+      ],
+      [
+        0.013338030678808,
+        0.012906671947277,
+        0.0062446317888333,
+        0.0020142257346898,
+        0.00048727116115256,
+        9.4302512534439e-05
+      ],
+      [
+        0.0035676563111151,
+        0.0034522764819665,
+        0.0016703140477416,
+        0.00053876507915026,
+        0.0001303352852586,
+        2.5224035099278e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Sunderland host Nottingham Forest at the Stadium of Light with both sides needing points for their respective pushes. Model probabilities edge towards the hosts (home 45%, draw 28%, away 27%) with a relatively low chance of both teams scoring (46%). Expect a measured game given both teams’ recent defensive trends."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Sunderland have 2 wins from their last 5, including a clean sheet at home to Tottenham, but they also had two narrow blanks before a late 3-4 at Aston Villa. Forest are unbeaten across their last 5 (3 wins, 2 draws), scoring in each of those matches and beating Tottenham away 3-0 before strong home displays versus FC Porto and Burnley."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "The last 2 meetings between these sides finished 1-0 to Sunderland, both away from home. Head-to-head trends point to low scoring, with ‘under 2.5 goals’ landing in recent clashes."
+    },
+    {
+      "subtitle": "Tactical notes and key players",
+      "text": "Sunderland’s structure is solid without the ball and they counter well; Enzo Le Fée (4 goals, 5 assists) and Brian Brobbey (6 goals) provide end product, while Granit Xhaka dictates with distribution (5 assists). Forest’s attacking edge runs through Morgan Gibbs-White (12 goals) with Neco Williams delivering from wide; recent form suggests they transition efficiently and finish better than earlier in the season."
+    },
+    {
+      "subtitle": "Season stats snapshot",
+      "text": "Sunderland’s defence is a strength (40 conceded, 10 clean sheets) and they limit opponents’ shots well, but creativity ranks mid-to-low despite decent big-chance volume. Corners for the hosts are low (3.6 per game, rank 19), reinforcing controlled rather than high-volume attacking phases."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee Darren England averages 3.7 yellows and 0.13 reds per game. Sunderland average 2.15 yellows per match, while recent head-to-head and Forest streaks skew to moderate card counts and sub-10.5 corners. Expect a controlled game state with cards and corners around league-average to slightly below."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Forest’s unbeaten run and Gibbs-White’s form make this competitive, but home advantage, Sunderland’s defensive record and the model edge tilt this towards the hosts. With both teams to score priced at 46%, a home win in a tight, low-scoring game is the likeliest outcome."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Nottingham Forest",
+      "slug": "nottingham-forest",
+      "shortName": "Forest",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 364705,
+      "nameCode": "NFO",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 14,
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#cc0000",
+        "text": "#cc0000"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نوتينغهام فورست",
+          "hi": "नाटिंन्ग्हम फारेस्ट",
+          "ru": "Ноттингем Форест"
+        },
+        "shortNameTranslation": {
+          "ar": "نوتينغهام فورست",
+          "bn": "ফরেস্ট",
+          "hi": "फॉरेस्ट"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Chris Wood",
+      "slug": "chris-wood",
+      "shortName": "C. Wood",
+      "position": "F",
+      "jerseyNumber": "9",
+      "userCount": 9337,
+      "gender": "M",
+      "sofascoreId": "sni-y43",
+      "id": 50480,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كريس وود",
+          "bn": "ক্রিস উড",
+          "hi": "क्रिस वुड",
+          "ru": "Крис Вуд"
+        },
+        "shortNameTranslation": {
+          "ar": "ك. وود",
+          "bn": "সি. উড",
+          "hi": "सी. वुड",
+          "ru": "К. Вуд"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 5
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Nottingham Forest lead 4-0 at the interval at the Stadium of Light. Forest have been far more decisive in both boxes, punishing Sunderland’s errors and transitions. Sunderland have seen more of the ball but have lacked penetration and composure in front of goal."
+    },
+    {
+      "subtitle": "Scoreline and key numbers",
+      "text": "Sunderland: 61% possession, 1 shot on target, expected goals 0.22, 32 final-third entries, 17 penalty-area entries, 5 possessions won in the final third, 44% of aerial duels won. Forest: 39% possession, 5 shots on target, expected goals 1.13, 20 final-third entries, 16 penalty-area entries, 6 possessions won in the final third, 59% of aerial duels won, 6 corners. Goals: Trai Hume own goal 17’, Chris Wood 31’, Morgan Gibbs-White 34’, Igor Jesus 37’."
+    },
+    {
+      "subtitle": "Tactical patterns",
+      "text": "Sunderland’s build-up has been comfortable but too slow to unsettle Forest’s back line. With a deficit in aerial duels, crosses have not been a reliable route. Granit Xhaka and Enzo Le Fée have seen plenty of the ball but central progression has been crowded out and turnovers have cost them, especially before the break. Forest have been compact in a mid-to-low block, then breaking quickly through Morgan Gibbs-White and Igor Jesus to find Chris Wood early. Their set-piece threat and second balls, helped by a clear aerial edge, have also mattered."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Sunderland started brightly, but Forest responded with a strong spell. After a brief home surge around the quarter-hour, Forest took control and sustained pressure through the half-hour, when they added three quick goals. Sunderland had only a short attacking spell just before the interval."
+    },
+    {
+      "subtitle": "Player highlights",
+      "text": "For Sunderland, Chris Rigg registered their only shot on target, while Xhaka led their ball recoveries and tackles. For Forest, Wood has been a constant target with 2 shots on target and the opener, Gibbs-White has 1 goal and 1 assist, and Igor Jesus has matched that output with sharp movement and decision-making. Ola Aina and Neco Williams have defended the box well and provided quick outlets."
+    },
+    {
+      "subtitle": "Adjustments for the second half",
+      "text": "Sunderland need to protect transitions by keeping their double pivot deeper when full-backs advance, and favour low crosses and cut-backs over aerial deliveries given the duel deficit. Earlier runs into the channels for Brian Brobbey could help stretch Forest and create second-phase chances. Forest can manage the game with a mid-block, keep distances tight in the centre, and continue to target Wood early with runners beyond. They should prioritise control and avoid risky passes in their own third."
+    },
+    {
+      "subtitle": "Discipline and corners outlook",
+      "text": "There were no cards in the first half. Corners are 1-6 to Forest. With Sunderland chasing, expect a slight rise in home pressure and potential frustration. Projection for the second half: 1-2 yellow cards in total, likely 1 for Sunderland; corners to add roughly 4-5 more, finishing around 11-12 overall, with a more even split after the break."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "Game state favours Forest controlling territory without over-committing. Sunderland should improve territory again, but Forest’s counter-attacking threat remains the more dangerous source of chances. A quieter second half is likely, with Forest still more likely to score next if chances arise from transitions."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Forest to see it out with comfort. Predicted final score: Sunderland 0-5 Nottingham Forest. Next goal probability leans Forest via direct play to Wood. Fewer goals after the break than before."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

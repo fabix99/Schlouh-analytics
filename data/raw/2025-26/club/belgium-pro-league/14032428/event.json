@@ -1,8 +1,6 @@
 {
   "event": {
     "eventState": {},
-    "correctAiInsight": true,
-    "correctHalftimeAiInsight": true,
     "tournament": {
       "name": "Pro League",
       "slug": "pro-league",
@@ -14,6 +12,7 @@
           "slug": "football",
           "id": 1
         },
+        "priority": 0,
         "country": {
           "alpha2": "BE",
           "alpha3": "BEL",
@@ -44,6 +43,7 @@
             "slug": "football",
             "id": 1
           },
+          "priority": 0,
           "country": {
             "alpha2": "BE",
             "alpha3": "BEL",
@@ -61,9 +61,10 @@
             "shortNameTranslation": {}
           }
         },
-        "userCount": 67584,
+        "userCount": 71611,
         "hasRounds": true,
         "hasPerformanceGraphFeature": false,
+        "liveActivityEnabled": true,
         "country": {},
         "id": 38,
         "hasEventPlayerStatistics": true,
@@ -72,12 +73,13 @@
           "nameTranslation": {
             "ar": "دوري المحترفين",
             "bn": "প্রো লীগ",
-            "hi": "प्रो लीग"
+            "hi": "प्रो लीग",
+            "ru": "Профессиональная лига"
           },
           "shortNameTranslation": {}
         }
       },
-      "priority": 496,
+      "priority": 500,
       "isGroup": false,
       "competitionType": 1,
       "isLive": false,
@@ -86,7 +88,8 @@
         "nameTranslation": {
           "ar": "الدوري الأول",
           "bn": "ফার্স্ট ডিভিশন এ",
-          "hi": "फर्स्ट डिवीजन ए"
+          "hi": "फर्स्ट डिवीजन ए",
+          "ru": "Профессиональная лига"
         },
         "shortNameTranslation": {}
       }
@@ -109,7 +112,14 @@
     "winnerCode": 2,
     "venue": {
       "city": {
-        "name": "Denderleeuw"
+        "name": "Denderleeuw",
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 30237
       },
       "venueCoordinates": {
         "latitude": 50.88506,
@@ -130,7 +140,8 @@
         "nameTranslation": {
           "ar": "مجمع دندر لكرة القدم",
           "hi": "डेंडर फुटबॉल कॉम्प्लेक्स",
-          "bn": "ডেন্ডার ফুটবল কমপ্লেক্স"
+          "bn": "ডেন্ডার ফুটবল কমপ্লেক্স",
+          "ru": "Спортивный комплекс Dender Football"
         },
         "shortNameTranslation": {}
       },
@@ -142,10 +153,10 @@
     "referee": {
       "name": "Simon Bourdeaud'hui",
       "slug": "bourdeaudhui-simon",
-      "yellowCards": 167,
-      "redCards": 4,
+      "yellowCards": 210,
+      "redCards": 5,
       "yellowRedCards": 1,
-      "games": 44,
+      "games": 57,
       "sport": {
         "id": 1,
         "slug": "football",
@@ -160,7 +171,8 @@
       "id": 788508,
       "fieldTranslations": {
         "nameTranslation": {
-          "ar": "سيمون بورودوهي"
+          "ar": "سيمون بورودوهي",
+          "ru": "Симон Бурдо-д'уи"
         },
         "shortNameTranslation": {}
       }
@@ -175,30 +187,39 @@
         "slug": "football",
         "id": 1
       },
-      "userCount": 12482,
+      "userCount": 11608,
       "manager": {
-        "name": "Hayk Milkon",
-        "slug": "hayk-milkon",
-        "shortName": "H. Milkon",
+        "name": "Jonathan Silva",
+        "slug": "jonathan-silva",
+        "shortName": "J. Silva",
         "country": {
-          "alpha2": "BE",
-          "alpha3": "BEL",
-          "name": "Belgium",
-          "slug": "belgium"
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
         },
-        "id": 800578,
+        "id": 803991,
         "fieldTranslations": {
           "nameTranslation": {
-            "ar": "هايك ميلكون"
+            "ar": "جوناثان سيلفا",
+            "ru": "Джонатан Силва"
           },
           "shortNameTranslation": {
-            "ar": "هـ. ميلكون"
+            "ar": "ج. سيلفا",
+            "ru": "Д. Силва"
           }
         }
       },
       "venue": {
         "city": {
-          "name": "Denderleeuw"
+          "name": "Denderleeuw",
+          "country": {
+            "alpha2": "BE",
+            "alpha3": "BEL",
+            "name": "Belgium",
+            "slug": "belgium"
+          },
+          "id": 30237
         },
         "venueCoordinates": {
           "latitude": 50.88506,
@@ -219,7 +240,8 @@
           "nameTranslation": {
             "ar": "مجمع دندر لكرة القدم",
             "hi": "डेंडर फुटबॉल कॉम्प्लेक्स",
-            "bn": "ডেন্ডার ফুটবল কমপ্লেক্স"
+            "bn": "ডেন্ডার ফুটবল কমপ্লেক্স",
+            "ru": "Спортивный комплекс Dender Football"
           },
           "shortNameTranslation": {}
         },
@@ -269,34 +291,39 @@
         "slug": "football",
         "id": 1
       },
-      "userCount": 23186,
+      "userCount": 27697,
       "manager": {
-        "name": "Wouter Vrancken",
-        "slug": "wouter-vrancken",
-        "shortName": "W. Vrancken",
+        "name": "Frédéric De Meyer",
+        "slug": "frederic-de-meyer",
+        "shortName": "F. D. Meyer",
         "country": {
           "alpha2": "BE",
           "alpha3": "BEL",
           "name": "Belgium",
           "slug": "belgium"
         },
-        "id": 790691,
+        "id": 810373,
         "fieldTranslations": {
           "nameTranslation": {
-            "ar": "ووتر فرانكين",
-            "bn": "ওয়াউটার ভ্র্যাঙ্কেন",
-            "hi": "वाउटर व्रानकेन"
+            "ar": "فريديريك دي ماير",
+            "ru": "Фредерик Де Мейер"
           },
           "shortNameTranslation": {
-            "ar": "و. فرانكين",
-            "bn": "ডব্লিউ. ভ্র্যাঙ্কেন",
-            "hi": "डब्ल्यू. व्रानकेन"
+            "ar": "ف. د. ماير",
+            "ru": "Ф. Мейер"
           }
         }
       },
       "venue": {
         "city": {
-          "name": "Sint- Truiden"
+          "name": "Sint- Truiden",
+          "country": {
+            "alpha2": "BE",
+            "alpha3": "BEL",
+            "name": "Belgium",
+            "slug": "belgium"
+          },
+          "id": 20711
         },
         "venueCoordinates": {
           "latitude": 50.813497,
@@ -317,7 +344,8 @@
           "nameTranslation": {
             "ar": "ستاين",
             "hi": "स्टेएन",
-            "bn": "স্টেইন"
+            "bn": "স্টেইন",
+            "ru": "Stayen"
           },
           "shortNameTranslation": {}
         },
@@ -327,6 +355,7 @@
         }
       },
       "nameCode": "STT",
+      "disabled": false,
       "national": false,
       "type": 0,
       "country": {
@@ -386,6 +415,8 @@
     "hasEventPlayerHeatMap": true,
     "detailId": 1,
     "crowdsourcingDataDisplayEnabled": false,
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
     "id": 14032428,
     "defaultPeriodCount": 2,
     "defaultPeriodLength": 45,

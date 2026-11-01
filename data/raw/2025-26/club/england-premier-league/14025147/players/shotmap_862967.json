@@ -1,0 +1,96 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Cody Gakpo",
+        "firstName": "",
+        "lastName": "",
+        "slug": "cody-gakpo",
+        "shortName": "C. Gakpo",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 50447,
+        "gender": "M",
+        "sofascoreId": "CodyGakpo",
+        "id": 862967,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كودي جاكبو",
+            "bn": "কোডি গাকপো",
+            "hi": "कोडी गाकपो"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. جاكبو",
+            "bn": "সি. গাকপো",
+            "hi": "सी. गाकपो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 19.3,
+        "y": 33.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.6,
+        "z": 18.1
+      },
+      "blockCoordinates": {
+        "x": 15.5,
+        "y": 37.2,
+        "z": 0
+      },
+      "xg": 0.021604580804706,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Robin Roefs",
+        "slug": "robin-roefs",
+        "shortName": "R. Roefs",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 2211,
+        "gender": "M",
+        "id": 1012928,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن روفس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. روفس"
+          }
+        }
+      },
+      "id": 6292983,
+      "time": 43,
+      "timeSeconds": 2548,
+      "draw": {
+        "start": {
+          "x": 33.9,
+          "y": 19.3
+        },
+        "block": {
+          "x": 37.2,
+          "y": 15.5
+        },
+        "end": {
+          "x": 46.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.4,
+          "y": 81.9
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 152,
+      "periodTimeSeconds": 2548,
+      "incidentType": "shot"
+    }
+  ]
+}

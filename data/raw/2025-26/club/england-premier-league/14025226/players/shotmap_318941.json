@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rúben Dias",
+        "slug": "ruben-dias",
+        "shortName": "R. Dias",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 40157,
+        "gender": "M",
+        "sofascoreId": "RúbenD",
+        "id": 318941,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن دياز",
+            "bn": "রুবেন ডায়াস",
+            "hi": "रुबेन डियास"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. دياز",
+            "bn": "আর. ডায়াস",
+            "hi": "आर. डियास"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 7.7,
+        "y": 41.8,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.6,
+        "z": 16.5
+      },
+      "blockCoordinates": {
+        "x": 0.3,
+        "y": 47.7,
+        "z": 0
+      },
+      "xg": 0.1103267967701,
+      "xgot": 0.072320654988289,
+      "goalkeeper": {
+        "name": "Alphonse Aréola",
+        "slug": "alphonse-areola",
+        "shortName": "A. Aréola",
+        "position": "G",
+        "jerseyNumber": "23",
+        "userCount": 3018,
+        "gender": "M",
+        "id": 96531,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألفونس أريولا",
+            "bn": "আলফোনস আরেওলা",
+            "hi": "अल्फोंस एरियोला"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. أريولا",
+            "bn": "এ. আরেওলা",
+            "hi": "ए. एरियोला"
+          }
+        }
+      },
+      "id": 6384563,
+      "time": 50,
+      "timeSeconds": 2940,
+      "draw": {
+        "start": {
+          "x": 41.8,
+          "y": 7.7
+        },
+        "block": {
+          "x": 47.7,
+          "y": 0.3
+        },
+        "end": {
+          "x": 49.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.4,
+          "y": 83.5
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2460,
+      "periodTimeSeconds": 240,
+      "incidentType": "shot"
+    }
+  ]
+}

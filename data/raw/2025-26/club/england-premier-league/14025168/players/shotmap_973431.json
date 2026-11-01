@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Brenden Aaronson",
+        "firstName": "",
+        "lastName": "",
+        "slug": "brenden-aaronson",
+        "shortName": "B. Aaronson",
+        "position": "M",
+        "jerseyNumber": "11",
+        "userCount": 2629,
+        "gender": "M",
+        "id": 973431,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بريندن آرونسون",
+            "bn": "ব্রেন্ডেন অ্যারনসন",
+            "hi": "ब्रेंडन आरोनसन"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. آرونسون",
+            "bn": "বি. অ্যারনসন",
+            "hi": "बी. आरोनसन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 16.6,
+        "y": 25.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.4,
+        "z": 3.8
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 47.8,
+        "z": 0
+      },
+      "xg": 0.033978585153818,
+      "xgot": 0.073737785220146,
+      "goalkeeper": {
+        "name": "Alisson",
+        "slug": "alisson",
+        "shortName": "Alisson",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 63959,
+        "gender": "M",
+        "sofascoreId": "AlissonBecker",
+        "id": 243609,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليسون",
+            "bn": "অ্যালিসন",
+            "hi": "एलिसन"
+          },
+          "shortNameTranslation": {
+            "ar": "أليسون",
+            "bn": "অ্যালিসন",
+            "hi": "एलिसन"
+          }
+        }
+      },
+      "id": 6306101,
+      "time": 86,
+      "timeSeconds": 5133,
+      "draw": {
+        "start": {
+          "x": 25.9,
+          "y": 16.6
+        },
+        "block": {
+          "x": 47.8,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 46.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.6,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 267,
+      "periodTimeSeconds": 2433,
+      "incidentType": "shot"
+    }
+  ]
+}

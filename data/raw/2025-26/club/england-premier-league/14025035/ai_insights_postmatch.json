@@ -1,0 +1,196 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 10,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 39,
+      "draw": 28,
+      "away": 33
+    },
+    "possibleResultsMatrix": [
+      [
+        0.088947008041845,
+        0.10177455810765,
+        0.058226020784956,
+        0.022207707960857,
+        0.0063526017177463,
+        0.0014537492533833
+      ],
+      [
+        0.11374007738299,
+        0.13014317591592,
+        0.074455928935452,
+        0.028397879564184,
+        0.0081233245149728,
+        0.0018589669986145
+      ],
+      [
+        0.072721980693288,
+        0.083209627987608,
+        0.047604879046392,
+        0.018156749115292,
+        0.0051938090964539,
+        0.0011885675242464
+      ],
+      [
+        0.030997496500418,
+        0.035467820427298,
+        0.020291417499573,
+        0.007739252448774,
+        0.0022138434316054,
+        0.00050662285765738
+      ],
+      [
+        0.0099094329541078,
+        0.011338528211396,
+        0.00648686068093,
+        0.0024741224909891,
+        0.00070773241497389,
+        0.00016195970022633
+      ],
+      [
+        0.0025343172206345,
+        0.0028998054112551,
+        0.0016590013583696,
+        0.00063275176934051,
+        0.00018100111834614,
+        4.1420862246435e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "A finely balanced derby in Liverpool today. Model: home 39%, draw 28%, away 33%; both teams to score 49%. Everton are 10th (47 points) and Liverpool are 5th (52), with momentum currently favouring the hosts."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Everton are 3-1-1 across their last 5, including a decisive 3-0 vs Chelsea and an away win at Newcastle; xG over the run is 7.19 for and 8.29 against. Liverpool are 1-0-4 (losses at Manchester City, Paris Saint-Germain and Brighton), with 6.49 xG for and 8.60 against. The away side have conceded first in 4/5."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "Liverpool won the last 2 meetings (2-1, 1-0) and are unbeaten in 3 head-to-head. Last 5 head-to-head: Liverpool 3 wins, Everton 1, draws 1. Low-scoring trend holds in this fixture (under 2.5 goals in 6/8)."
+    },
+    {
+      "subtitle": "Season stats and matchup",
+      "text": "Everton: 39 scored, 37 conceded, 11 clean sheets (3rd), 43.6% possession, strong duels (ground 51.2%, aerial 54.7%). Liverpool: 52 scored, 42 conceded. Everton create fewer big chances (58) but convert well (40%), and defend the box effectively (opponent shots 13.7 per game, 5th best)."
+    },
+    {
+      "subtitle": "Key players",
+      "text": "Everton: Beto is in form (last 5: 4 goals, 1 assist), James Garner supplies (6 assists; 11 big chances created, 5th), Iliman Ndiaye drives carries (2.1 successful dribbles per game, 3rd). Liverpool: Mohamed Salah (6 goals, 6 assists), Dominik Szoboszlai (60 key passes, 3rd), Virgil van Dijk elite in duels (75% ground and aerial)."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee Chris Kavanagh averages 3.7 yellow cards per game (reds 0.12). Team trends point to fewer cards (Everton 4/5 under 4.5; Liverpool 8/10 under 4.5) and moderate corner volume (Liverpool away under 10.5 in 5/7; Everton average 4.31 corners per game). Projection: 3-4 yellows and around 9-10 corners."
+    },
+    {
+      "subtitle": "Model view",
+      "text": "With home 39% vs away 33% and both teams to score at 49%, numbers lean slightly towards Everton but remain tight. Recent form and the head-to-head goal profile suggest narrow margins."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Slight lean to Everton to edge a tight contest, with low-to-medium scoring likelihood. Draw remains a strong alternative given the model and head-to-head pattern."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Liverpool FC",
+      "slug": "liverpool",
+      "shortName": "Liverpool",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 3726328,
+      "nameCode": "LIV",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 44,
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ليفربول",
+          "bn": "লিভারপুল",
+          "hi": "लिवरपूल",
+          "ru": "Ливерпуль"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Mohamed Salah",
+      "firstName": "Mohamed",
+      "lastName": "Salah",
+      "slug": "mohamed-salah",
+      "shortName": "M. Salah",
+      "position": "M",
+      "jerseyNumber": "10",
+      "userCount": 546414,
+      "gender": "M",
+      "sofascoreId": "kud-3pj",
+      "id": 159665,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "محمد صلاح",
+          "bn": "মোহাম্মদ সালাহ",
+          "hi": "मोहम्मद सलाह",
+          "ru": "Мохамед Салах"
+        },
+        "shortNameTranslation": {
+          "ar": "م. صلاح",
+          "bn": "এম. সালাহ",
+          "hi": "एम. सलाह",
+          "ru": "М. Салах"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 2
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Liverpool lead 1-0 at half-time after Mohamed Salah finished on 29 minutes. The half was competitive, with Liverpool slightly stronger in the final third, while Everton were dangerous from direct play and set-pieces but lacked composure in front of goal. The game state favours Liverpool’s counter-attacking threats as Everton will need to push higher after the break."
+    },
+    {
+      "subtitle": "Key stats at the break",
+      "text": "Possession: Everton 45% – Liverpool 55%. Shots on target: Everton 2 – Liverpool 4. Expected goals: Everton 0.27 – Liverpool 0.93. Big chances: Everton 2 (both missed) – Liverpool 1 (scored). Corners: Everton 1 – Liverpool 5. Duels won: Everton 68% – Liverpool 32%. Aerial duels won: Everton 67% – Liverpool 33%."
+    },
+    {
+      "subtitle": "Tactical notes and momentum",
+      "text": "Liverpool started sharper, then Everton put together a strong spell through the middle of the half with sustained pressure and deliveries. Just before the interval Liverpool seized control again with a prolonged attacking spell. The pattern suggests Everton can force territory and set-pieces, but Liverpool carry the cleaner transitions when space opens."
+    },
+    {
+      "subtitle": "Player highlights",
+      "text": "Everton: James Tarkowski and Beto each had a big chance and 1 shot on target, but both were not taken. Jarrad Branthwaite led the defensive line well (5 clearances). James Garner and Iliman Ndiaye were active without the ball (3 tackles each). Vitaliy Mykolenko’s duels were important on the left (3 tackles won). Liverpool: Mohamed Salah was decisive with the opener and remains the main outlet. Cody Gakpo was influential between the lines (2 shots on target, 1 assist, 1 big chance created). Curtis Jones disrupted Everton’s build-up (3 interceptions). Virgil van Dijk and Ibrahima Konaté limited penalty-area entries despite losing the overall duel count."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Cards at half-time: Everton 1 yellow (Jordan Pickford) – Liverpool 0. Corners at half-time: Everton 1 – Liverpool 5. Projection for second half: expect 2-3 additional yellow cards overall, with Everton slightly more likely to be booked as they chase the game. Red cards are unlikely but the risk increases if tactical fouls occur in transition. Corners projection: Liverpool 3-4 more; Everton 2-3 more, with Everton’s aerial strength keeping set-pieces relevant."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "Everton need earlier deliveries and second-ball occupation around Beto, plus set-piece quality targeting Tarkowski and Branthwaite. Neater support from Dwight McNeil and Kiernan Dewsbury-Hall between the lines would help convert territory into chances. Liverpool are positioned to manage tempo and break through Salah and Gakpo, with Andy Robertson’s overlaps offering width. If Everton overcommit, Liverpool’s next clear chance is likely to come in transition."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Liverpool to extend their lead if they maintain compact distances and play forward quickly after regain. Everton’s route back is via a set-piece or a second phase cross, but Liverpool’s chance quality so far points to an away clean sheet being more likely. Predicted outcome: Liverpool to score the next goal and see out a 2-goal margin."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

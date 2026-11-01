@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Malick Thiaw",
+        "slug": "malick-thiaw",
+        "shortName": "M. Thiaw",
+        "position": "D",
+        "jerseyNumber": "12",
+        "userCount": 6640,
+        "gender": "M",
+        "sofascoreId": "MThiaw",
+        "id": 1014286,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماليك تياو",
+            "bn": "ম্যালিক থিয়াও",
+            "hi": "मलिक थियाव"
+          },
+          "shortNameTranslation": {
+            "ar": "م. تياو",
+            "bn": "এম. থিয়াও",
+            "hi": "एम. थियाव"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 4.3,
+        "y": 39.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 3.5,
+        "y": 41.7,
+        "z": 0
+      },
+      "xg": 0.05432054027915,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Guglielmo Vicario",
+        "slug": "guglielmo-vicario",
+        "shortName": "G. Vicario",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 7200,
+        "gender": "M",
+        "sofascoreId": "guglielmovicario",
+        "id": 553606,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكاريو غولييلمو",
+            "bn": "উইলিয়াম দ্য ভিকারিও",
+            "hi": "गुग्लिल्मो विकारियो"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غولييلمو",
+            "bn": "জি. ভিকারিও",
+            "hi": "जी. विकारियो"
+          }
+        }
+      },
+      "id": 6287714,
+      "time": 31,
+      "timeSeconds": 1829,
+      "draw": {
+        "start": {
+          "x": 39.5,
+          "y": 4.3
+        },
+        "block": {
+          "x": 41.7,
+          "y": 3.5
+        },
+        "end": {
+          "x": 50.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 871,
+      "periodTimeSeconds": 1829,
+      "incidentType": "shot"
+    }
+  ]
+}

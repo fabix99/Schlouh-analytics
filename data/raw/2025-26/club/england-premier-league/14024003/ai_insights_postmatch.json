@@ -1,0 +1,199 @@
+{
+  "predictions": {
+    "yellowCards": 3,
+    "corners": 11,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 1,
+    "winningProbability": {
+      "home": 11,
+      "draw": 19,
+      "away": 70
+    },
+    "possibleResultsMatrix": [
+      [
+        0.065870042826741,
+        0.13678576180932,
+        0.14202468854447,
+        0.098309511600924,
+        0.051037394467792,
+        0.021196855454922
+      ],
+      [
+        0.043686343625411,
+        0.090719081649661,
+        0.094193643738253,
+        0.06520085491277,
+        0.033849031468376,
+        0.014058182922662
+      ],
+      [
+        0.014486832993091,
+        0.030083364183877,
+        0.031235564082618,
+        0.021621262338344,
+        0.011224680876589,
+        0.0046618355139355
+      ],
+      [
+        0.0032026534725089,
+        0.0066506317021941,
+        0.0069053524550659,
+        0.0047798860483135,
+        0.0024814784021018,
+        0.00103060784259
+      ],
+      [
+        0.00053101612701678,
+        0.0011027083382666,
+        0.0011449423260589,
+        0.00079252925698783,
+        0.00041144165663594,
+        0.00017087998740511
+      ],
+      [
+        7.0436125437199e-05,
+        0.00014626769109846,
+        0.00015186977794761,
+        0.00010512428402402,
+        5.4575284369813e-05,
+        2.2666212220693e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Burnley welcome Manchester City to Turf Moor with contrasting aims: Burnley sit 19th (20 points) while City are 2nd (67 points) and pushing at the top. The model makes City clear favourites, and the visitors arrive on a strong run. Home advantage is limited by Burnley’s poor record against this opponent."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Burnley are winless in 5 (D1 L4), scoring 2 and conceding 11, with underperformance against expected goals in several games. City have won 4 straight against leading sides, scoring 11 and conceding 1 in that spell, with controlled performances in and out of possession."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "City won the last 2 meetings (3-1, 5-1) and have dominated recent matchups. Trends show City as first to score in 10/10 and leading at half-time in 9/10, while Burnley are without a clean sheet in 19 against City."
+    },
+    {
+      "subtitle": "Season stats snapshot",
+      "text": "Burnley: 34 scored (19th), 67 conceded (20th), opponents’ big chances faced 101 (20th), average possession 41.7% (20th). City: 65 scored, 29 conceded. Burnley’s corners per game are low (3.7), and they allow high shot volumes."
+    },
+    {
+      "subtitle": "Tactical notes and key players",
+      "text": "City’s front line should find spaces between the lines and in wide channels; Jérémy Doku’s 2.8 successful dribbles per game stretches blocks, while Erling Haaland leads the league with 23 goals. Rayan Cherki adds creativity (17 big chances created). For Burnley, Zian Flemming (9 goals) is the main threat, with a tendency to score late. City list Joško Gvardiol, Ruben Dias and Rodri as missing, but depth has covered well lately."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee Andy Madley averages 3.1 yellow cards per match with low reds, which points to a moderate card count. City’s recent away games often produce high corners, while Burnley generate fewer; expect City to drive the total up. Projection: around 3 yellows and about 11 total corners."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "City should control territory and chance quality, and their first-goal trend is strong. Burnley’s recent attacking output is limited, so City’s win probability aligns with the model. Expect an away win with City limiting clear chances against."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "shortName": "Man City",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 4156055,
+      "nameCode": "MCI",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 17,
+      "teamColors": {
+        "primary": "#66ccff",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مانشستر سيتي",
+          "hi": "मेनचेस्टर सिटी ऍफ़सी",
+          "ru": "Манчестер Сити"
+        },
+        "shortNameTranslation": {
+          "ar": "مانشستر سيتي",
+          "bn": "ম্যান সিটি",
+          "hi": "मैन सिटी"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Erling Haaland",
+      "firstName": "Erling",
+      "lastName": "Haaland",
+      "slug": "erling-haaland",
+      "shortName": "E. Haaland",
+      "position": "F",
+      "jerseyNumber": "9",
+      "userCount": 1086522,
+      "gender": "M",
+      "sofascoreId": "ghm-8ni",
+      "id": 839956,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إيرلينغ هالاند",
+          "bn": "এরলিং হালান্ড",
+          "hi": "एर्लिंग हालैंड",
+          "ru": "Эрлинг Холанд"
+        },
+        "shortNameTranslation": {
+          "ar": "إ. هالاند",
+          "bn": "ই. হালান্ড",
+          "hi": "ई. हालैंड",
+          "ru": "Э. Холанд"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 2
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Manchester City lead 1-0 at half-time at Turf Moor after an early Erling Haaland strike on 5 minutes. The away side have controlled territory and tempo, while Burnley have relied on sporadic breaks and set-pieces to create their best looks. Given recent trends in this fixture and the first-half data, City remain in a strong position heading into the second half."
+    },
+    {
+      "subtitle": "First-half summary and key stats",
+      "text": "Score: Burnley 0-1 Manchester City. Expected goals: Burnley 0.63, Manchester City 1.44. Shots on target: 1 vs 6. Big chances: 2 vs 2 (home missed 2; away missed 1 and hit the woodwork once). Possession: 34% vs 66%. Final third entries: 13 vs 29. Penalty area entries: 4 vs 16. Duels won: 48% vs 51%. Corners: 1 vs 6. City’s numbers reflect sustained territory and shot volume; Burnley’s 2 big misses are their main regret."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "City started with strong pressure and sustained it through most of the half, quickly capitalising with the early goal. Burnley enjoyed a short attacking spell around the middle of the half, then another brief push right before the interval. Between those moments, City reasserted control with a long, dominant passage approaching the half-hour and another strong period before the break."
+    },
+    {
+      "subtitle": "Tactical observations",
+      "text": "City pressed high and recovered the ball in advanced areas, forcing Burnley deep and defending their box for long spells. Wide play was effective, with Jérémy Doku’s direct running stretching the home back line and creating the assist for Haaland. Central combinations around the edge of the area produced cut-back chances and second balls, reflected in the shot count and penalty area entries. Burnley sat compact, looked to spring counters, and threatened mainly when they could find an early forward pass into space or from set-pieces. The home side will want to push their line higher and support the first pass in transition to avoid being pinned in."
+    },
+    {
+      "subtitle": "Key players",
+      "text": "Erling Haaland’s movement across the front line created the early separation for the opener and he remains the most likely scorer after the break. Jérémy Doku has been the primary ball-carrier and creator from wide areas. For the home side, the goalkeeper’s interventions have kept the match within reach, but the forwards must be more decisive after already missing 2 big chances."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "No bookings in the first half. Corners stand at 1-6, reflecting City’s territorial control. Expect a modest rise in fouls and potentially 1-2 home cautions if Burnley press higher and commit to transitions, with City likely to keep their card count low. Corner imbalance should persist, with the away side generating the majority after the break."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "Burnley need to add pressure on City’s build-up, deny easy switches to the winger on the far side, and commit runners beyond the ball to turn final-third entries into shots. Set-pieces remain their clearest route back, so delivery quality and second-ball reactions are key. City can manage the tempo, continue to isolate the wide 1v1, and look early for Haaland’s runs between centre-back and full-back. If they maintain field position and shot volume, the next goal probability remains in their favour."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "City’s control of possession, territory and chance quality points to them extending the lead if they sustain intensity. Burnley are not out of it, but they will likely need a set-piece or a fast break to level. Predicted outcome: Burnley 0-2 Manchester City, with City scoring the next goal and Haaland the most likely scorer in the second half."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

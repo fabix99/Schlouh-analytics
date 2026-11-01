@@ -1,0 +1,102 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Xavi Simons",
+        "slug": "xavi-simons",
+        "shortName": "X. Simons",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 50202,
+        "gender": "M",
+        "sofascoreId": "XaviSimons",
+        "id": 997183,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تشافي سيمونز",
+            "bn": "জাভি সিমন্স",
+            "hi": "ज़ावी सिमंस"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. سيمونز",
+            "bn": "এক্স. সিমন্স",
+            "hi": "एक्स. सिमंस"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7.9,
+        "y": 39.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7,
+        "y": 41,
+        "z": 0
+      },
+      "xg": 0.061653826385736,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Aaron Ramsdale",
+        "firstName": "",
+        "lastName": "",
+        "slug": "aaron-ramsdale",
+        "shortName": "A. Ramsdale",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 8486,
+        "gender": "M",
+        "sofascoreId": "ARamsdale",
+        "id": 839410,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آرون رامسديل",
+            "bn": "অ্যারন রামসডেল",
+            "hi": "आरोन रामस्डेल"
+          },
+          "shortNameTranslation": {
+            "ar": "آ. رامسديل",
+            "bn": "এ. রামসডেল",
+            "hi": "ए. रामस्डेल"
+          }
+        }
+      },
+      "id": 6288179,
+      "time": 90,
+      "addedTime": 4,
+      "timeSeconds": 5591,
+      "draw": {
+        "start": {
+          "x": 39.9,
+          "y": 7.9
+        },
+        "block": {
+          "x": 41,
+          "y": 7
+        },
+        "end": {
+          "x": 48.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 709,
+      "periodTimeSeconds": 191,
+      "incidentType": "shot"
+    }
+  ]
+}

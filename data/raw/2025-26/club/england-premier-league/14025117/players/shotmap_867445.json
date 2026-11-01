@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Emile Smith Rowe",
+        "slug": "emile-smith-rowe",
+        "shortName": "E. Smith Rowe",
+        "position": "M",
+        "jerseyNumber": "32",
+        "userCount": 7242,
+        "gender": "M",
+        "sofascoreId": "esr",
+        "id": 867445,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيميل سميث رو",
+            "bn": "এমিল স্মিথ রো",
+            "hi": "एमिल स्मिथ रोवे"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. سميث رو",
+            "bn": "ই. স্মিথ রো",
+            "hi": "ई. स्मिथ"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 12.7,
+        "y": 45.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.4,
+        "z": 8.3
+      },
+      "blockCoordinates": {
+        "x": 11.2,
+        "y": 46.4,
+        "z": 0
+      },
+      "xg": 0.093733459711075,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Guglielmo Vicario",
+        "slug": "guglielmo-vicario",
+        "shortName": "G. Vicario",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 7200,
+        "gender": "M",
+        "sofascoreId": "guglielmovicario",
+        "id": 553606,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكاريو غولييلمو",
+            "bn": "উইলিয়াম দ্য ভিকারিও",
+            "hi": "गुग्लिल्मो विकारियो"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غولييلمو",
+            "bn": "জি. ভিকারিও",
+            "hi": "जी. विकारियो"
+          }
+        }
+      },
+      "id": 6268500,
+      "time": 73,
+      "timeSeconds": 4361,
+      "draw": {
+        "start": {
+          "x": 45.9,
+          "y": 12.7
+        },
+        "block": {
+          "x": 46.4,
+          "y": 11.2
+        },
+        "end": {
+          "x": 53.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.6,
+          "y": 91.7
+        }
+      },
+      "reversedPeriodTime": 18,
+      "reversedPeriodTimeSeconds": 1039,
+      "periodTimeSeconds": 1661,
+      "incidentType": "shot"
+    }
+  ]
+}

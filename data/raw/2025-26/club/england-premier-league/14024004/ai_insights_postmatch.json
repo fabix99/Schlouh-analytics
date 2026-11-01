@@ -1,0 +1,190 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 11,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 41,
+      "draw": 26,
+      "away": 33
+    },
+    "possibleResultsMatrix": [
+      [
+        0.065665540957517,
+        0.083797629315422,
+        0.053468246636603,
+        0.022744107215982,
+        0.0072560974820421,
+        0.0018519416979146
+      ],
+      [
+        0.095407141820631,
+        0.12175171616269,
+        0.077685381333555,
+        0.033045494350571,
+        0.010542569381731,
+        0.00269073339898
+      ],
+      [
+        0.069309736717703,
+        0.088448089221974,
+        0.056435537469154,
+        0.02400632142875,
+        0.0076587841772856,
+        0.001954717643795
+      ],
+      [
+        0.033567295642701,
+        0.042836162717491,
+        0.027332211326925,
+        0.011626465874119,
+        0.0037092143891656,
+        0.00094668639868762
+      ],
+      [
+        0.012192695320938,
+        0.015559438755265,
+        0.0099279170030232,
+        0.0042230973138654,
+        0.0013473030835884,
+        0.00034386621271302
+      ],
+      [
+        0.0035430156965067,
+        0.0045213412037019,
+        0.0028849048425679,
+        0.0012271691924596,
+        0.00039150621314291,
+        9.992240083687e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Craven Cottage hosts a meeting between mid-table Fulham (12th, 45 points, 43-46) and top‑four Aston Villa (4th, 58 points, 47-41). The Sofascore model gives Fulham a slight edge (home 41%, draw 26%, away 33%) with a 55% chance that both teams score."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Fulham are 1‑2‑2 across their last 5, with 2 clean sheets but only 3 goals scored. Aston Villa are 3‑1‑1, unbeaten in 4 competitive matches and have scored 13 in their last 5."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "Villa won the last 2 meetings (3‑1, 1‑0), both at Villa Park. In those games Villa led the big chances count 3‑1 and 5‑1, while Fulham struggled to limit clear openings."
+    },
+    {
+      "subtitle": "Tactical notes and key players",
+      "text": "Fulham circulate the ball well (83.8% passing) but rank low for big chances created, leaning on Harry Wilson’s output (10 goals, 6 assists). Raul Jimenez underperforms his expected goals, which has capped Fulham’s scoring. Villa’s threat is clear: Ollie Watkins is in form (6 goals, 1 assist last 5), Morgan Rogers creates regularly, and John McGinn has produced well against Fulham recently."
+    },
+    {
+      "subtitle": "Season stats snapshot",
+      "text": "Fulham: 43 scored, 46 conceded; 7 clean sheets; strong crossing volume (161 accurate, league rank 3) but they allow many opposition big chances. Villa: 47 scored, 41 conceded and a superior league position points to better consistency."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Michael Oliver averages 3.5 yellows and 0.14 reds per match. Fulham’s recent home matches lean towards higher corner counts, while Villa’s away games have stayed moderate for cards. Expect a balanced card profile and above‑average corners."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Villa’s attack should create chances, but Fulham’s home edge and the model’s probabilities point slightly towards the hosts. A close game with a fair likelihood that both teams score."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Fulham",
+      "slug": "fulham",
+      "shortName": "Fulham",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 301102,
+      "nameCode": "FUL",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 43,
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فولهام",
+          "bn": "ফুলহাম",
+          "hi": "फुलहम",
+          "ru": "Фулхэм"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Raúl Jiménez",
+      "slug": "raul-jimenez",
+      "shortName": "R. Jiménez",
+      "position": "F",
+      "jerseyNumber": "9",
+      "userCount": 40965,
+      "gender": "M",
+      "sofascoreId": "t7c-4s5",
+      "id": 192442,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "راؤول خيمينيز",
+          "bn": "রাউল জিমেনেজ",
+          "hi": "राउल जिमेनेज़",
+          "ru": "Рауль Хименес"
+        },
+        "shortNameTranslation": {
+          "ar": "ر. خيمينيز",
+          "bn": "আর. জিমেনেজ",
+          "hi": "आर. जिमेनेज़",
+          "ru": "Р. Хименес"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 0
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Fulham lead 1-0 at half-time at Craven Cottage after Ryan Sessegnon finished with his left foot on 43 minutes. The hosts have been sharper in decisive moments, while Aston Villa have had pressure without turning it into clear chances."
+    },
+    {
+      "subtitle": "First-half summary and key stats",
+      "text": "Fulham carried the greater threat in open play. Attacking output favoured the hosts: shots on target 5-1, big chances 2-0, expected goals 0.69-0.27, final third entries 29-18, penalty area entries 14-10. Fulham also won their duels more often (duels 63% won, aerials 64%). Possession was close (53-47). Villa’s one clear statistical edge was on corners (4-1), but it did not translate into big chances."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Villa had an early spell of pressure after a quiet opening, then Fulham grew into control through the middle of the half. Villa enjoyed a sustained territorial phase before the break without carving a major opening. Fulham finished the half strongly, with a pronounced surge immediately before scoring."
+    },
+    {
+      "subtitle": "Tactical notes and adjustments",
+      "text": "Fulham’s width and direct running were effective. Sessegnon attacked the far post well and Samuel Chukwueze provided vertical threat, while Raul Jimenez linked play and occupied centre-backs. Sasa Lukic’s late runs produced a big chance. At the back, Joachim Andersen read danger and led duels effectively, which limited service into Ollie Watkins. For Villa, John McGinn created from deeper areas and Youri Tielemans disrupted passing lanes, but entries were often in front of Fulham’s block. To improve, Villa need quicker switches to isolate full-backs, earlier deliveries from Lucas Digne and Matty Cash, and more aggressive runs beyond Watkins. Fulham’s route to a second goal looks like transition attacks into the space Villa leave, with early passes into channels and support from wide players."
+    },
+    {
+      "subtitle": "Discipline and set plays",
+      "text": "No cards were shown in the first half. Corners favoured Villa (4-1). Expect a few cautions after the interval if Villa increase the press. Set pieces remain Villa’s clearest route back, but Fulham’s aerial numbers were strong, which may blunt that threat."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "Game state should tilt the second half. Villa are likely to push higher and commit more numbers, creating counter-attacking opportunities for Fulham. With Emiliano Martinez in good form, Villa can stay in the match, but the more dangerous open-play chances have been Fulham’s. The next goal feels pivotal; if Fulham score it, they should manage the remainder with their defensive structure and transition threat."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Fulham to stay compact, exploit space on the break and add one more. Aston Villa to create pressure and corners but struggle for high-quality chances in open play. Predicted final score: Fulham 2-0 Aston Villa. Next goal: Fulham, with Raul Jimenez the most likely scorer from a transition or cross."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

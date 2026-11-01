@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "John McGinn",
+        "slug": "john-mcginn",
+        "shortName": "J. McGinn",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 3906,
+        "gender": "M",
+        "id": 250223,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جون ماكجين",
+            "bn": "জন ম্যাকগিন",
+            "hi": "जॉन मैकगिन"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ماكجين",
+            "bn": "জে. ম্যাকগিন",
+            "hi": "जे. मैकगिन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 18.4,
+        "y": 68.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.9,
+        "y": 57.9,
+        "z": 0
+      },
+      "xg": 0.029559314250946,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Sam Johnstone",
+        "slug": "sam-johnstone",
+        "shortName": "S. Johnstone",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 600,
+        "gender": "M",
+        "id": 98427,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سام جونستون",
+            "bn": "স্যাম জনস্টোন",
+            "hi": "सैम जॉनस्टोन"
+          },
+          "shortNameTranslation": {
+            "ar": "س. جونستون",
+            "bn": "এস. জনস্টোন",
+            "hi": "एस. जॉनस्टोन"
+          }
+        }
+      },
+      "id": 6273433,
+      "time": 74,
+      "timeSeconds": 4420,
+      "draw": {
+        "start": {
+          "x": 68.1,
+          "y": 18.4
+        },
+        "block": {
+          "x": 57.9,
+          "y": 8.9
+        },
+        "end": {
+          "x": 48.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 980,
+      "periodTimeSeconds": 1720,
+      "incidentType": "shot"
+    }
+  ]
+}

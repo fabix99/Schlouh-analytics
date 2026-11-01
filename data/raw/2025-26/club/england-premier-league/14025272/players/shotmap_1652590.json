@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ezra Mayers",
+        "slug": "ezra-mayers",
+        "shortName": "E. Mayers",
+        "position": "D",
+        "jerseyNumber": "63",
+        "userCount": 182,
+        "gender": "M",
+        "id": 1652590,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إزرا مايرز"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. مايرز"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 14.5,
+        "y": 60.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.2,
+        "y": 58.3,
+        "z": 0
+      },
+      "xg": 0.11884916573763,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 4257,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन"
+          }
+        }
+      },
+      "id": 6436297,
+      "time": 85,
+      "timeSeconds": 5074,
+      "draw": {
+        "start": {
+          "x": 60.8,
+          "y": 14.5
+        },
+        "block": {
+          "x": 58.3,
+          "y": 11.2
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 326,
+      "periodTimeSeconds": 2374,
+      "incidentType": "shot"
+    }
+  ]
+}

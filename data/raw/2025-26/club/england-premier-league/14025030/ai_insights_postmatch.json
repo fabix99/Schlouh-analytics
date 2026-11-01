@@ -1,0 +1,196 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 10,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 49,
+      "draw": 31,
+      "away": 20
+    },
+    "possibleResultsMatrix": [
+      [
+        0.16745787039617,
+        0.10345139814897,
+        0.031954878423022,
+        0.0065803154801883,
+        0.0010162897018161,
+        0.00012556781037349
+      ],
+      [
+        0.19602942883983,
+        0.12110221182107,
+        0.037407000047783,
+        0.0077030448441476,
+        0.0011896884231926,
+        0.00014699211264271
+      ],
+      [
+        0.11473792447126,
+        0.07088229821137,
+        0.021894679648768,
+        0.0045086667994565,
+        0.00069633616366929,
+        8.6035908067921e-05
+      ],
+      [
+        0.044771479431726,
+        0.027658730721059,
+        0.0085434454569079,
+        0.0017593109149097,
+        0.00027171486997828,
+        3.357176719209e-05
+      ],
+      [
+        0.013102590401621,
+        0.0080944615694332,
+        0.0025002807113211,
+        0.00051487086421425,
+        7.9518673328279e-05,
+        9.8249403450545e-06
+      ],
+      [
+        0.0030676292570489,
+        0.0018951067208343,
+        0.00058537541247834,
+        0.00012054356262791,
+        1.8617220053934e-05,
+        2.3002531199876e-06
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Aston Villa host Sunderland at Villa Park, with Villa sitting 4th (55 points) and Sunderland 11th (46). The Sofascore model gives Villa a 49% chance, draw 31%, Sunderland 20%, with both teams to score at 32%. On paper this leans towards a home win in a relatively tight game."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Villa are unbeaten in 3 and have 3 wins in their last 5, including controlled home displays and 2 clean sheets. Sunderland have won 3 of their last 5 but their matches have generally been low scoring, and they have relied on defensive resilience and late moments."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "The last meeting ended 1-1, while the prior clash saw Villa win 3-0 away. Historical trends show goals in this fixture, but the current model’s 32% for both teams to score suggests a lower likelihood this time."
+    },
+    {
+      "subtitle": "Season stats snapshot",
+      "text": "Villa’s profile: 43 scored, 38 conceded; 53.8% possession (rank 5), 85.2% pass accuracy (rank 4), 9 clean sheets. They create many big chances (66) but convert at 25.8% and underperform xG (-3.95). Sunderland have 33 scored and 36 conceded, with a strong late-goal share (61–90 minutes: 19 goals), pointing to compact matches decided late."
+    },
+    {
+      "subtitle": "Playing styles and key players",
+      "text": "Ollie Watkins (9 goals, 10.61 xG) and Morgan Rogers (8 goals, 5 assists) lead Villa’s threat, with Ezri Konsa and Matty Cash influential recently. For Sunderland, Brian Brobbey (6 goals), Enzo Le Fée (4 goals, 4 assists), and Granit Xhaka (5 assists) provide end product, while Daniel Ballard is a set-piece threat."
+    },
+    {
+      "subtitle": "Tactical notes",
+      "text": "Villa’s ‘first to score’ in 6/6 and strong final-third volume (96.5 successful passes per game) match a game script where they control territory. Sunderland’s recent away wins came from compact blocks and efficient counter moments, but their chance conversion has varied."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee Samuel Barrott averages 3.8 yellows and 0.06 reds per match. Villa trend to low card counts (club among the lowest cautioned), and head-to-head data points to fewer cards and moderate corners. Expect a controlled card profile and corners around the league average."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Villa to win narrowly, with Sunderland limited to few clear chances. The draw remains a realistic alternative, but the model and Villa’s recent control point to a home result, with both teams to score unlikely."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "shortName": "Aston Villa",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 918079,
+      "nameCode": "AVL",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 40,
+      "teamColors": {
+        "primary": "#670e36",
+        "secondary": "#94bee5",
+        "text": "#94bee5"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أستون فيلا",
+          "bn": "অ্যাস্টন ভিলা",
+          "hi": "एस्टन विला",
+          "ru": "Астон Вилла"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Ollie Watkins",
+      "firstName": "Ollie",
+      "lastName": "Watkins",
+      "slug": "ollie-watkins",
+      "shortName": "O. Watkins",
+      "position": "F",
+      "jerseyNumber": "11",
+      "userCount": 23014,
+      "gender": "M",
+      "sofascoreId": "t8w-nj5",
+      "id": 555386,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أولي واتكينز",
+          "bn": "অলি ওয়াটকিন্স",
+          "hi": "ओली वॉटकिंस",
+          "ru": "Олли Уоткинс"
+        },
+        "shortNameTranslation": {
+          "ar": "أ. واتكينز",
+          "bn": "ও. ওয়াটকিন্স",
+          "hi": "ओ. वॉटकिंस",
+          "ru": "О. Уоткинс"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 3,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Aston Villa lead 2-1 at half-time at Villa Park after overturning an early Sunderland opener. Chris Rigg struck on 9 minutes, before Ollie Watkins levelled on 2 minutes and then headed Villa in front on 36 minutes. Villa have had the clearer chances and a slight edge in possession, while Sunderland remain competitive in duels and set-pieces."
+    },
+    {
+      "subtitle": "Key stats at half-time",
+      "text": "Possession: Villa 55% – Sunderland 45%. Expected goals: Villa 0.99 – Sunderland 0.24. Shots on target: 2 – 2. Big chances: Villa 3 (1 missed) – Sunderland 0. Final-third entries: 24 – 23. Penalty-area entries: 12 – 13. Possessions won in final third: 1 – 3. Aerial duels won: 44% – 56%. Duels won: 47% – 53%. Woodwork: Villa 1."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Sunderland enjoyed a strong early spell that led to the opening goal. Villa then responded with a sustained period of pressure around the quarter-hour and reasserted control late in the half, which preceded the second goal. Sunderland had a steady middle-phase without creating clear chances, while Villa’s late surge created the better openings before the interval."
+    },
+    {
+      "subtitle": "Tactical and individual notes",
+      "text": "Villa’s width has been productive, with Ian Maatsen supplying an assist and 1 big chance created, and John McGinn delivering 1 assist, 2 big chances created and 3 key passes. Watkins has been efficient with 2 goals from 2 attempts on target (xG 0.78). Amadou Onana’s late run produced a big chance that went begging. Sunderland’s best routes have been transitions and set-pieces; they lead aerial and overall duels and have 4 corners, which suits their direct deliveries. Chris Rigg’s timing from midfield has been a threat."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Corners: Villa 2 – Sunderland 4 at the break. No cards are recorded in the data so far. Given Sunderland’s set-piece volume and aerial edge, corners are likely to remain close with a slight lean towards Sunderland by full-time. Discipline has been controlled; expect a low to moderate card count unless the game state becomes volatile late on."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "Villa’s chance quality and creativity edge suggest they are well placed to manage the lead and find the next goal, especially if Sunderland push up and leave space for Watkins. Sunderland can still threaten from corners and second balls, but they need to improve chance creation in open play. The next goal feels pivotal; Villa appear more likely to score it based on first-half shot quality and big chance volume."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Villa to score next and close the game out. Predicted final score: 3-1, with Watkins the most likely second-half scorer given his movement and service from wide areas."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

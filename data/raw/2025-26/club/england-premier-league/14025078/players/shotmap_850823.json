@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Joël Piroe",
+        "slug": "joel-piroe",
+        "shortName": "J. Piroe",
+        "position": "F",
+        "jerseyNumber": "10",
+        "userCount": 2090,
+        "gender": "M",
+        "id": 850823,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جويل بيروي",
+            "bn": "জোয়েল পিরো",
+            "hi": "जोएल पिरो"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بيروي",
+            "bn": "জে. পিরো",
+            "hi": "जे. पिरो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.5,
+        "y": 68.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.3,
+        "y": 61,
+        "z": 0
+      },
+      "xg": 0.022401932626963,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Emiliano Martínez",
+        "slug": "emiliano-martinez",
+        "shortName": "E. Martínez",
+        "position": "G",
+        "jerseyNumber": "23",
+        "userCount": 60161,
+        "gender": "M",
+        "sofascoreId": "EmiMartínez",
+        "id": 158263,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إميليانو مارتينيز",
+            "bn": "এমিলিয়ানো মার্টিনেজ",
+            "hi": "एमिलियानो मार्टिनेज"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. مارتينيز",
+            "bn": "ই. মার্টিনেজ",
+            "hi": "ई. मार्टिनेज"
+          }
+        }
+      },
+      "id": 6230379,
+      "time": 90,
+      "addedTime": 4,
+      "timeSeconds": 5626,
+      "draw": {
+        "start": {
+          "x": 68.7,
+          "y": 22.5
+        },
+        "block": {
+          "x": 61,
+          "y": 13.3
+        },
+        "end": {
+          "x": 49.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 674,
+      "periodTimeSeconds": 226,
+      "incidentType": "shot"
+    }
+  ]
+}

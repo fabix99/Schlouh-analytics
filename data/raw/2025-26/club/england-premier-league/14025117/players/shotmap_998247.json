@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Micky van de Ven",
+        "firstName": "",
+        "lastName": "",
+        "slug": "micky-van-de-ven",
+        "shortName": "M. van de Ven",
+        "position": "D",
+        "jerseyNumber": "37",
+        "userCount": 12749,
+        "gender": "M",
+        "sofascoreId": "mickyvdven",
+        "id": 998247,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميكي فان دي فين",
+            "bn": "মিকি ভ্যান ডি ভেন",
+            "hi": "मिकी वैन डे वेन"
+          },
+          "shortNameTranslation": {
+            "ar": "م. فان دي فين",
+            "bn": "এম. ভ্যান ডি ভেন",
+            "hi": "एम. वैन डे वेन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.8,
+        "y": 37.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.2,
+        "z": 81.9
+      },
+      "xg": 0.054225463420153,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bernd Leno",
+        "slug": "bernd-leno",
+        "shortName": "B. Leno",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2687,
+        "gender": "M",
+        "id": 103335,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيرند لينو",
+            "bn": "বার্ন্ড লেনো",
+            "hi": "बर्न्ड लेनो"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. لينو",
+            "bn": "বি. লেনো",
+            "hi": "बी. लेनो"
+          }
+        }
+      },
+      "id": 6268275,
+      "time": 45,
+      "timeSeconds": 2668,
+      "draw": {
+        "start": {
+          "x": 37.6,
+          "y": 21.8
+        },
+        "end": {
+          "x": 51.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.8,
+          "y": 18.1
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 32,
+      "periodTimeSeconds": 2668,
+      "incidentType": "shot"
+    }
+  ]
+}

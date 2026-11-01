@@ -1,0 +1,134 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Eliezer Mayenda",
+        "firstName": "Eliezer Mayenda",
+        "lastName": "",
+        "slug": "eliezer-mayenda",
+        "shortName": "E. Mayenda",
+        "position": "F",
+        "jerseyNumber": "12",
+        "userCount": 2924,
+        "gender": "M",
+        "id": 1168588,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيليزر مايندا"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. مايندا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.8,
+        "y": 55.7,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.3,
+        "z": 15.8
+      },
+      "xg": 0.041619479656219,
+      "xgot": 0.46032330393791,
+      "id": 5429475,
+      "time": 61,
+      "timeSeconds": 3642,
+      "draw": {
+        "start": {
+          "x": 55.7,
+          "y": 9.8
+        },
+        "end": {
+          "x": 45.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.7,
+          "y": 84.2
+        }
+      },
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1758,
+      "periodTimeSeconds": 942,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Eliezer Mayenda",
+        "firstName": "Eliezer Mayenda",
+        "lastName": "",
+        "slug": "eliezer-mayenda",
+        "shortName": "E. Mayenda",
+        "position": "F",
+        "jerseyNumber": "12",
+        "userCount": 2924,
+        "gender": "M",
+        "id": 1168588,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيليزر مايندا"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. مايندا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 8.3,
+        "y": 59.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.3,
+        "y": 58.1,
+        "z": 0
+      },
+      "xg": 0.04990941286087,
+      "xgot": 0,
+      "id": 5429154,
+      "time": 44,
+      "timeSeconds": 2601,
+      "draw": {
+        "start": {
+          "x": 59.1,
+          "y": 8.3
+        },
+        "block": {
+          "x": 58.1,
+          "y": 7.3
+        },
+        "end": {
+          "x": 50.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 99,
+      "periodTimeSeconds": 2601,
+      "incidentType": "shot"
+    }
+  ]
+}

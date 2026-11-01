@@ -1,0 +1,199 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 11,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 43,
+      "draw": 26,
+      "away": 31
+    },
+    "possibleResultsMatrix": [
+      [
+        0.062906010022034,
+        0.078638954377182,
+        0.0491533729716,
+        0.020482249911386,
+        0.0064012274652267,
+        0.0016004379690259
+      ],
+      [
+        0.095783677128003,
+        0.11973940507607,
+        0.074843259091062,
+        0.031187246046602,
+        0.009746812817049,
+        0.0024369028274862
+      ],
+      [
+        0.072922386914604,
+        0.09116045121355,
+        0.056979949622259,
+        0.023743590674349,
+        0.0074204799475304,
+        0.0018552719647812
+      ],
+      [
+        0.037011696027058,
+        0.046268410192833,
+        0.028920125413966,
+        0.012051039438122,
+        0.0037662583441556,
+        0.00094164172229329
+      ],
+      [
+        0.014088941346676,
+        0.017612619452354,
+        0.011008788962225,
+        0.0045873711835864,
+        0.0014336709365722,
+        0.00035844709697374
+      ],
+      [
+        0.0042904981846813,
+        0.0053635620965684,
+        0.0033525009364247,
+        0.0013969898270802,
+        0.00043659508542454,
+        0.00010915771320412
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Top-of-the-table meeting at the Etihad: Arsenal lead (70 points) with the league's best defence (24 conceded), Manchester City chase (64 points) with the league's top attack (63 scored). The Sofascore model leans home win (43%) over away win (31%) with a 26% draw and 56% chance of both teams to score."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Manchester City come in strong: 3 wins and 3 clean sheets, including 4-0 v Liverpool and 3-0 at Chelsea; they beat Arsenal 2-0 away in March. Arsenal are 1-1-3 in their last 5, losing to Southampton and Bournemouth despite creating 2.10 and 2.32 expected goals."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "The last 2 meetings: Arsenal 0-2 Manchester City and 1-1. Over the last 5, it is balanced (1-3-1). Recent meetings have trended low scoring (under 2.5 in 5/7), though both sides generated chances in March (expected goals 2.29-1.12 to Manchester City)."
+    },
+    {
+      "subtitle": "Season stats snapshot",
+      "text": "Manchester City lead in possession (60%), accurate passing (88.6%) and aerial duels (58.5%), with 98 big chances created but 61 missed. Arsenal's defensive record (24 conceded) is the benchmark, and they score late (31-90 minutes: 39 goals combined across periods, with 15 in 76-90)."
+    },
+    {
+      "subtitle": "Tactical matchup",
+      "text": "Manchester City should control territory and second balls (successful final-third passes 141.5 per game; possessions won high up 4.6 per game), with Jérémy Doku's 2.8 successful dribbles per game a key outlet. Arsenal's build runs through Declan Rice (61 key passes, 16 big chances created), while Saliba and Gabriel anchor the duels."
+    },
+    {
+      "subtitle": "Key players",
+      "text": "Erling Haaland leads the league with 22 goals; Antoine Semenyo adds 15. Rodri sets the platform (7.41 average rating; 77.8% aerials won). For Arsenal, Viktor Gyökeres has 12 goals and Rice drives chance creation. Notable absentees listed: Rúben Dias, Joško Gvardiol (Manchester City); Bukayo Saka, Jurriën Timber, Riccardo Calafiori, Mikel Merino (Arsenal)."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee Anthony Taylor averages 3.8 yellows and 0.18 reds per game. Manchester City average 1.84 yellows per game; Arsenal's trend shows under 4.5 cards in 6/7. Corners profile is high: Manchester City 5.9 per game, and ‘more than 10.5 corners’ has landed in 5/7 across these teams."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Edge to Manchester City at home, but Arsenal's defence should keep the game close. Model probabilities point to a narrow home win being the most likely outcome, with a fair chance both teams score."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "shortName": "Man City",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 4146215,
+      "nameCode": "MCI",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 17,
+      "teamColors": {
+        "primary": "#66ccff",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مانشستر سيتي",
+          "hi": "मेनचेस्टर सिटी ऍफ़सी",
+          "ru": "Манчестер Сити"
+        },
+        "shortNameTranslation": {
+          "ar": "مانشستر سيتي",
+          "bn": "ম্যান সিটি",
+          "hi": "मैन सिटी"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Erling Haaland",
+      "firstName": "Erling",
+      "lastName": "Haaland",
+      "slug": "erling-haaland",
+      "shortName": "E. Haaland",
+      "position": "F",
+      "jerseyNumber": "9",
+      "userCount": 1086522,
+      "gender": "M",
+      "sofascoreId": "ghm-8ni",
+      "id": 839956,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إيرلينغ هالاند",
+          "bn": "এরলিং হালান্ড",
+          "hi": "एर्लिंग हालैंड",
+          "ru": "Эрлинг Холанд"
+        },
+        "shortNameTranslation": {
+          "ar": "إ. هالاند",
+          "bn": "ই. হালান্ড",
+          "hi": "ई. हालैंड",
+          "ru": "Э. Холанд"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Manchester City and Arsenal are level at 1-1 at the interval at the Etihad Stadium. Rayan Cherki put the home side ahead before Kai Havertz replied almost immediately. City have controlled more of the ball, while Arsenal have looked dangerous from aggressive pressing and quick breaks. The balance of chance quality is marginally in City’s favour, but Arsenal’s work without the ball has disrupted City’s rhythm."
+    },
+    {
+      "subtitle": "First-half performance",
+      "text": "Score: 1-1 (Cherki 16, Havertz 18). Possession: City 60% – Arsenal 40%. Expected goals: City 0.69 – Arsenal 0.55. Shots on target: City 2 – Arsenal 1. Big chances: City 2 (1 missed) – Arsenal 1. Penalty area entries: 14 – 14. Final third entries: City 12 – Arsenal 23. Possessions won high up the pitch: City 1 – Arsenal 6. Duels: City edge overall (57% won) and in the air (73%). City also struck the woodwork once."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "After a quiet opening for City, Arsenal built the first sustained attacking spell and carried it until the home side’s opener. City capitalised during their first real surge to score, but Arsenal answered quickly during a brief away spell. From there, City produced the most sustained pressure phase before the break, with Arsenal limited to shorter counters. The half closed on a more even footing."
+    },
+    {
+      "subtitle": "Key player impact",
+      "text": "City: Erling Haaland found a high-value chance and missed a big opportunity, signalling threat if service improves. Rayan Cherki was sharp between the lines with a composed finish and useful link play. Matheus Nunes supplied the assist and created a big chance, while Nico O’Reilly’s final pass numbers were strong. Rodri controlled defensive transitions with multiple clearances.\nArsenal: Kai Havertz’s movement between centre-backs was decisive for the equaliser and remains their main penalty-box outlet. Martin Odegaard and Eberechi Eze offered the creative supply, with Eze leading by expected assists. Declan Rice helped stabilise midfield under pressure, and the Saliba–Gabriel pairing handled several aerial deliveries but are being asked to defend their box often."
+    },
+    {
+      "subtitle": "Tactical adjustments to watch",
+      "text": "City may look to speed up circulation into the channels for Haaland, with more early balls and underlapping runs from midfielders to pin Arsenal’s centre-backs. Jeremy Doku’s dribbling can isolate the visiting left side and draw fouls or cut-backs. City should also guard against turnovers in central zones, where Arsenal have recovered possession high.\nArsenal’s press has been effective; they can continue to trap on City’s right to force rushed passes. Pushing Odegaard a touch higher in restarts can connect quicker to Havertz and wide runners. With City dominant in the air, Arsenal’s best route may be low crosses or cut-backs after quick switches rather than floated deliveries."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Discipline: Arsenal have 1 yellow card; City have none. Given the intensity of Arsenal’s press and City’s dribblers, expect 1-2 additional cautions after the break, likely split across both sides. Corners: 7 in the first half (City 3, Arsenal 4) points to continued set-piece volume; project the total to land around 10-12, with a fairly even share. City’s aerial advantage suggests their corners carry slightly greater threat, while Arsenal’s best set-piece looks are near-post routines and quick second balls."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "City’s control of territory, the quality of their best chances, and their aerial superiority suggest they are more likely to strike next. Arsenal’s pressing threat on turnovers keeps them live, but if City refine the final ball into Haaland, the margin tilts to the hosts. Prediction: City to score the next goal and edge a narrow win."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Tyler Adams",
+        "slug": "tyler-adams",
+        "shortName": "T. Adams",
+        "position": "M",
+        "jerseyNumber": "12",
+        "userCount": 2938,
+        "gender": "M",
+        "id": 800419,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تايلر آدامز",
+            "bn": "টাইলার অ্যাডামস",
+            "hi": "टायलर एडम्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. آدامز",
+            "bn": "টি. অ্যাডামস",
+            "hi": "टी. एडम्स"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 21.2,
+        "y": 34.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.5,
+        "z": 3.2
+      },
+      "blockCoordinates": {
+        "x": 2.3,
+        "y": 48.7,
+        "z": 0
+      },
+      "xg": 0.0287348870188,
+      "xgot": 0.27676311135292,
+      "goalkeeper": {
+        "name": "Bernd Leno",
+        "slug": "bernd-leno",
+        "shortName": "B. Leno",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2687,
+        "gender": "M",
+        "id": 103335,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيرند لينو",
+            "bn": "বার্ন্ড লেনো",
+            "hi": "बर्न्ड लेनो"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. لينو",
+            "bn": "বি. লেনো",
+            "hi": "बी. लेनो"
+          }
+        }
+      },
+      "id": 5831126,
+      "time": 10,
+      "timeSeconds": 588,
+      "draw": {
+        "start": {
+          "x": 34.4,
+          "y": 21.2
+        },
+        "block": {
+          "x": 48.7,
+          "y": 2.3
+        },
+        "end": {
+          "x": 45.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.5,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2112,
+      "periodTimeSeconds": 588,
+      "incidentType": "shot"
+    }
+  ]
+}

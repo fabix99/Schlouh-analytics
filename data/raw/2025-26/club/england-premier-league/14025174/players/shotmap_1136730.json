@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Lewis Hall",
+        "firstName": "Lewis Hall",
+        "slug": "lewis-hall",
+        "shortName": "L. Hall",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 4223,
+        "gender": "M",
+        "sofascoreId": "lewishall_10",
+        "id": 1136730,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لويس هال",
+            "bn": "লুইস হল",
+            "hi": "लुईस हॉल"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. هال",
+            "bn": "এল. হল",
+            "hi": "एल. हॉल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 4.9,
+        "y": 34.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.2,
+        "z": 17.7
+      },
+      "blockCoordinates": {
+        "x": 3.7,
+        "y": 37.5,
+        "z": 0
+      },
+      "xg": 0.10511814802885,
+      "xgot": 0.43544629216194,
+      "goalkeeper": {
+        "name": "Martin Dúbravka",
+        "firstName": "",
+        "lastName": "",
+        "slug": "martin-dubravka",
+        "shortName": "M. Dúbravka",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3053,
+        "gender": "M",
+        "id": 42209,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتن دوبرافكا",
+            "bn": "মার্টিন ডুব্রাভকা",
+            "hi": "मार्टिन डुब्राव्का"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دوبرافكا",
+            "bn": "এম. ডুব্রাভকা",
+            "hi": "एम. डुब्राव्का"
+          }
+        }
+      },
+      "id": 6304734,
+      "time": 66,
+      "timeSeconds": 3922,
+      "draw": {
+        "start": {
+          "x": 34.5,
+          "y": 4.9
+        },
+        "block": {
+          "x": 37.5,
+          "y": 3.7
+        },
+        "end": {
+          "x": 52.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.8,
+          "y": 82.3
+        }
+      },
+      "reversedPeriodTime": 25,
+      "reversedPeriodTimeSeconds": 1478,
+      "periodTimeSeconds": 1222,
+      "incidentType": "shot"
+    }
+  ]
+}

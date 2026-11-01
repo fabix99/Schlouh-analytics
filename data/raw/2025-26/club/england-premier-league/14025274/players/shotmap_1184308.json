@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Álex Jiménez",
+        "firstName": "Alejandro Jiménez",
+        "lastName": "",
+        "slug": "alex-jimenez",
+        "shortName": "A. Jiménez",
+        "position": "D",
+        "jerseyNumber": "20",
+        "userCount": 3609,
+        "gender": "M",
+        "id": 1184308,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليكس خيمينيز",
+            "bn": "অ্যালেক্স জিমেনেজ",
+            "hi": "एलेक्स जिमेनेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. خيمينيز",
+            "bn": "এ. জিমেনেজ",
+            "hi": "ए. जिमेनेज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 27.2,
+        "y": 48.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 60.3,
+        "z": 8.3
+      },
+      "blockCoordinates": {
+        "x": 11.2,
+        "y": 42.8,
+        "z": 0
+      },
+      "xg": 0.023718735203147,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "David Raya",
+        "slug": "david-raya",
+        "shortName": "D. Raya",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 26481,
+        "gender": "M",
+        "sofascoreId": "d_raya1",
+        "id": 581310,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد رايا",
+            "bn": "ডেভিড রায়া",
+            "hi": "डेविड राया"
+          },
+          "shortNameTranslation": {
+            "ar": "د. رايا",
+            "bn": "ডি. রায়া",
+            "hi": "डी. राया"
+          }
+        }
+      },
+      "id": 6447830,
+      "time": 58,
+      "timeSeconds": 3479,
+      "draw": {
+        "start": {
+          "x": 48.7,
+          "y": 27.2
+        },
+        "block": {
+          "x": 42.8,
+          "y": 11.2
+        },
+        "end": {
+          "x": 39.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 39.7,
+          "y": 91.7
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1921,
+      "periodTimeSeconds": 779,
+      "incidentType": "shot"
+    }
+  ]
+}

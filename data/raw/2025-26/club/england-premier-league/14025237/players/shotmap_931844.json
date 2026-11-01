@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Chris Richards",
+        "firstName": "",
+        "lastName": "",
+        "slug": "chris-richards",
+        "shortName": "C. Richards",
+        "position": "D",
+        "jerseyNumber": "26",
+        "userCount": 2065,
+        "gender": "M",
+        "id": 931844,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريس ريتشاردز",
+            "bn": "ক্রিস রিচার্ডস",
+            "hi": "क्रिस रिचर्ड्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. ريتشاردز",
+            "bn": "সি. রিচার্ডস",
+            "hi": "सी. रिचर्ड्स"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 15.3,
+        "y": 40.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.8,
+        "y": 41.3,
+        "z": 0
+      },
+      "xg": 0.030015520751476,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Đorđe Petrović",
+        "slug": "dorde-petrovic",
+        "shortName": "Đ. Petrović",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 8536,
+        "gender": "M",
+        "sofascoreId": "dj.petrovic12",
+        "id": 882604,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوردي بيتروفيتش",
+            "bn": "ডোরে পেট্রোভিচ",
+            "hi": "डोरे पेट्रोविक"
+          },
+          "shortNameTranslation": {
+            "ar": "د. بيتروفيتش",
+            "bn": "ডি. পেট্রোভিচ",
+            "hi": "डी. पेट्रोविक"
+          }
+        }
+      },
+      "id": 5961278,
+      "time": 90,
+      "addedTime": 4,
+      "timeSeconds": 5607,
+      "draw": {
+        "start": {
+          "x": 40.4,
+          "y": 15.3
+        },
+        "block": {
+          "x": 41.3,
+          "y": 13.8
+        },
+        "end": {
+          "x": 50.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 693,
+      "periodTimeSeconds": 207,
+      "incidentType": "shot"
+    }
+  ]
+}

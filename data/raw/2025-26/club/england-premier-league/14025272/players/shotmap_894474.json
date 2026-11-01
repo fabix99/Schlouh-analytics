@@ -1,0 +1,88 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Max Kilman",
+        "slug": "max-kilman",
+        "shortName": "M. Kilman",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 1255,
+        "gender": "M",
+        "id": 894474,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماكس كيلمان",
+            "bn": "ম্যাক্স কিলম্যান",
+            "hi": "मैक्स किलमन"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كيلمان",
+            "bn": "এম. কিলম্যান",
+            "hi": "एम. किलमन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 13.7,
+        "y": 45.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 68.6,
+        "z": 18.1
+      },
+      "xg": 0.011823823675513,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 4257,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन"
+          }
+        }
+      },
+      "id": 6436251,
+      "time": 71,
+      "timeSeconds": 4200,
+      "draw": {
+        "start": {
+          "x": 45.2,
+          "y": 13.7
+        },
+        "end": {
+          "x": 31.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 31.4,
+          "y": 81.9
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1200,
+      "periodTimeSeconds": 1500,
+      "incidentType": "shot"
+    }
+  ]
+}

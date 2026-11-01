@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "James Garner",
+        "slug": "james-garner",
+        "shortName": "J. Garner",
+        "position": "M",
+        "jerseyNumber": "37",
+        "userCount": 3102,
+        "gender": "M",
+        "id": 927361,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيمس غارنر",
+            "bn": "জেমস গার্নার",
+            "hi": "जेम्स गार्नर"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. غارنر",
+            "bn": "জে. গার্নার",
+            "hi": "जे. गार्नर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 14.1,
+        "y": 35,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 38.5,
+        "z": 79.2
+      },
+      "xg": 0.02364837564528,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Aaron Ramsdale",
+        "firstName": "",
+        "lastName": "",
+        "slug": "aaron-ramsdale",
+        "shortName": "A. Ramsdale",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 8486,
+        "gender": "M",
+        "sofascoreId": "ARamsdale",
+        "id": 839410,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آرون رامسديل",
+            "bn": "অ্যারন রামসডেল",
+            "hi": "आरोन रामस्डेल"
+          },
+          "shortNameTranslation": {
+            "ar": "آ. رامسديل",
+            "bn": "এ. রামসডেল",
+            "hi": "ए. रामस्डेल"
+          }
+        }
+      },
+      "id": 6267056,
+      "time": 13,
+      "timeSeconds": 727,
+      "draw": {
+        "start": {
+          "x": 35,
+          "y": 14.1
+        },
+        "end": {
+          "x": 61.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 61.5,
+          "y": 20.8
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1973,
+      "periodTimeSeconds": 727,
+      "incidentType": "shot"
+    }
+  ]
+}

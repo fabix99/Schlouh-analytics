@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Wilson Odobert",
+        "slug": "wilson-odobert",
+        "shortName": "W. Odobert",
+        "position": "F",
+        "jerseyNumber": "28",
+        "userCount": 4557,
+        "gender": "M",
+        "id": 1142679,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويلسون أودوبيرت",
+            "bn": "উইলসন ওডোবার্ট",
+            "hi": "विल्सन ओडोबर्ट"
+          },
+          "shortNameTranslation": {
+            "ar": "و. أودوبيرت",
+            "bn": "ডব্লিউ. ওডোবার্ট",
+            "hi": "डब्लू. ओडोबर्ट"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 18.8,
+        "y": 46.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.8,
+        "y": 48,
+        "z": 0
+      },
+      "xg": 0.10320577770472,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Caoimhin Kelleher",
+        "firstName": "",
+        "lastName": "",
+        "slug": "caoimhin-kelleher",
+        "shortName": "C. Kelleher",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9844,
+        "gender": "M",
+        "sofascoreId": "caoimhinkelleher98",
+        "id": 827362,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاويمن كيليهير",
+            "bn": "কাওইমহিন কেলেহার",
+            "hi": "काओइमहिन केल्हेर"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. كيليهير",
+            "bn": "সি. কেলেহার",
+            "hi": "सी. केल्हेर"
+          }
+        }
+      },
+      "id": 6441980,
+      "time": 44,
+      "timeSeconds": 2630,
+      "draw": {
+        "start": {
+          "x": 46.4,
+          "y": 18.8
+        },
+        "block": {
+          "x": 48,
+          "y": 9.8
+        },
+        "end": {
+          "x": 49.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 70,
+      "periodTimeSeconds": 2630,
+      "incidentType": "shot"
+    }
+  ]
+}

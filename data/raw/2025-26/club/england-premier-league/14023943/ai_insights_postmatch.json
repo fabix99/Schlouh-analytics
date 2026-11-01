@@ -1,0 +1,199 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 9,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 1,
+    "winningProbability": {
+      "home": 35,
+      "draw": 27,
+      "away": 38
+    },
+    "possibleResultsMatrix": [
+      [
+        0.093246847560321,
+        0.11359229257478,
+        0.069188445883108,
+        0.028094870025729,
+        0.0085562160526357,
+        0.0020846178130694
+      ],
+      [
+        0.10790390794596,
+        0.13144736365946,
+        0.080063872300512,
+        0.032510978637094,
+        0.0099011298876576,
+        0.0024122896858088
+      ],
+      [
+        0.062432423479401,
+        0.076054497278712,
+        0.046324379496706,
+        0.018810617934407,
+        0.0057287223960449,
+        0.0013957334269564
+      ],
+      [
+        0.024081966851861,
+        0.029336389336306,
+        0.017868634746187,
+        0.0072557919797692,
+        0.0022097316611549,
+        0.00053837420123678
+      ],
+      [
+        0.0069668262314708,
+        0.0084869117220394,
+        0.0051693316428881,
+        0.0020990744736801,
+        0.00063926740685869,
+        0.00015574971639967
+      ],
+      [
+        0.0016123821791827,
+        0.0019641863830475,
+        0.001196375213383,
+        0.00048580374501814,
+        0.00014795020577593,
+        3.6046265371336e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Nottingham Forest host Newcastle United at the City Ground with league positions close (Forest 16th, 42 points; Newcastle 13th, 45 points). The Sofascore model gives a slight away edge (home 35%, draw 27%, away 38%) and a near‑even chance of both teams to score (48%). Expect a competitive match decided by small margins."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Forest come in with 4 wins from their last 5, featuring decisive attacking displays before a setback at Aston Villa. They have been efficient on limited chances and solid at home (beat Villa 1-0, won 3-1 at Chelsea). Newcastle are 1-0-4 across their last 5, but their 3-1 win over Brighton showed strong chance creation despite low possession."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "Newcastle won the last 2 meetings (2-0, 4-3) and the away side have dominated recent matchups. Forest are without a clean sheet in this fixture in 14 encounters, while both teams have scored in 6 of the last 7. Bruno Guimarães has been a consistent influence against Forest."
+    },
+    {
+      "subtitle": "Season stats and patterns",
+      "text": "Forest: 44 scored, 46 conceded; low chance volume but high conversion (big chances created 59, conversion 45.8% – best in the league sample provided). They average 5.26 corners and win ground duels well (50.8%). Newcastle’s tally sits at 49 scored, 51 conceded, with a notable late-goal profile (37% after 76')."
+    },
+    {
+      "subtitle": "Tactical notes and key players",
+      "text": "Forest are missing Morgan Gibbs-White and Callum Hudson-Odoi, so output may lean on Taiwo Awoniyi, Igor Jesus and Neco Williams’ deliveries. Newcastle’s edge lies in midfield control from Bruno Guimarães, with Anthony Gordon and Harvey Barnes attacking space; Fabian Schär’s absence could still affect defensive stability. Bruno averages a 7.54 rating vs Forest with 3 goals in the last 5 head-to-heads."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Paul Tierney averages 3.2 yellows and 0.12 reds per match. Trends point to restraint in this fixture context (Forest under 4.5 cards in 9/10; corners under 10.5 common for both teams and head-to-head). Expect a low‑to‑moderate card count and corners around single digits."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Model probabilities slightly favour Newcastle, which aligns with their recent head-to-head edge. Forest’s recent upturn and home resilience keep this tight, but Newcastle’s midfield quality can tilt it. Lean towards a narrow away win, with both teams to score only marginally less likely than not."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Newcastle United",
+      "slug": "newcastle-united",
+      "shortName": "Newcastle",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 764473,
+      "nameCode": "NEW",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 39,
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نيوكاسل يونايتد",
+          "hi": "न्यू कास्सेल यूनाइटेड ऍफ़सी",
+          "ru": "Ньюкасл Юнайтед"
+        },
+        "shortNameTranslation": {
+          "ar": "نيوكاسل",
+          "bn": "নিউক্যাসল",
+          "hi": "न्यूकैसल"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "William Osula",
+      "firstName": "William",
+      "lastName": "Osula",
+      "slug": "william-osula",
+      "shortName": "W. Osula",
+      "position": "F",
+      "jerseyNumber": "10",
+      "userCount": 7016,
+      "gender": "M",
+      "sofascoreId": "vuz-g53",
+      "id": 1122603,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ويليام أوسولا",
+          "bn": "উইলিয়াম ওসুলা",
+          "hi": "विलियम ओसुला",
+          "ru": "Уильям Осула"
+        },
+        "shortNameTranslation": {
+          "ar": "و. أوسولا",
+          "bn": "ডব্লিউ. ওসুলা",
+          "hi": "डब्लू. ओसुला",
+          "ru": "У. Осула"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Goalless at the City Ground, with Newcastle United enjoying more territory and box entries but Nottingham Forest showing threat on transitions. Both sides created 1 big chance and each missed it, so the scoreline reflects profligacy rather than a lack of openings."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Newcastle controlled the opening phase with sustained pressure and again finished the half on the front foot. Forest’s best spell came around the mid-to-late first half, when they pushed higher and forced their clearest opening. The final passages before the interval swung back to Newcastle, suggesting they carried the initiative into the break."
+    },
+    {
+      "subtitle": "Half-time stats snapshot",
+      "text": "Possession: Newcastle 55% vs Forest 45%. Final third entries: 30 vs 26. Penalty area entries: 13 vs 6. Shots on target: Forest 2 vs Newcastle 1. Big chances: 1 vs 1. Expected goals: Newcastle 0.553 vs Forest 0.316. Duels won: Forest 60% (aerials 63%) vs Newcastle 40% (aerials 37%). Corners: Forest 2 vs Newcastle 1."
+    },
+    {
+      "subtitle": "Tactical notes and adjustments",
+      "text": "Newcastle’s midfield trio pressed well and won 6 possessions in the final third, with Bruno Guimarães and Sandro Tonali combining to progress play and feed runners. Width from Lewis Hall and Jacob Murphy helped stretch Forest and supply William Osula, whose movement created the half’s best away chance. To turn superiority into goals, Newcastle should keep targeting quick deliveries into the box and third-man runs from midfield.\nForest defended the box stoutly, with Nikola Milenković and Morato clearing danger, while Neco Williams and Luca Netz provided outlets on the flanks. In attack, Taiwo Awoniyi’s hold-up work and Elliot Anderson’s support were useful but isolated at times. Forest would benefit from earlier support around the striker, quicker switches to Netz’s side, and more aggressive penalty-area occupation to convert final-third touches into shots."
+    },
+    {
+      "subtitle": "Key players",
+      "text": "For Newcastle, Osula’s movement was decisive (big chance, 1 shot on target), while Hall’s involvement down the left stood out and Bruno Guimarães provided creativity. For Forest, Netz was influential on the ball, Jair was lively with a shot on target and the big chance, and Milenković led clearances under pressure."
+    },
+    {
+      "subtitle": "Discipline and set pieces",
+      "text": "No cards in the first half. Corners stand at Forest 2 vs Newcastle 1. Given the physical duel profile (Forest winning a high share of duels and aerials), 1–3 cards overall looks likely after the break. Expect 3–5 additional corners, with Newcastle slightly more likely to edge the corner count if their territorial trend continues."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "The next goal looks more likely to come from Newcastle, driven by superior territory, penalty-area entries and high recoveries. Forest remain dangerous in transition and from wide deliveries, so they can still create a decisive moment if they connect quicker with Awoniyi and commit runners through Anderson and Netz. Game state will matter: if Newcastle score first, Forest will need to push the full-backs higher and accept more risk."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Newcastle to convert one of their attacking moves after the interval and edge a tight contest. Forest’s aerial strength keeps set pieces live, but Newcastle’s box entry volume points to a narrow away win."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

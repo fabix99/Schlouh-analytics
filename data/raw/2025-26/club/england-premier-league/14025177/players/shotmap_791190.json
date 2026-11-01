@@ -1,0 +1,102 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rodrigo Bentancur",
+        "slug": "bentancur-rodrigo",
+        "shortName": "R. Bentancur",
+        "position": "M",
+        "jerseyNumber": "30",
+        "userCount": 8294,
+        "gender": "M",
+        "sofascoreId": "rodrigo_bentancur",
+        "id": 791190,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رودريغو بينتانكور",
+            "bn": "বেন্টানকুর, রদ্রিগো",
+            "hi": "बेनटानकुर, रोड्रिगो"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. بينتانكور",
+            "bn": "আর. বেন্টানকুর",
+            "hi": "आर. बेनटानकुर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 21,
+        "y": 50.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.1,
+        "y": 51.3,
+        "z": 0
+      },
+      "xg": 0.034571923315525,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Caoimhin Kelleher",
+        "firstName": "",
+        "lastName": "",
+        "slug": "caoimhin-kelleher",
+        "shortName": "C. Kelleher",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9844,
+        "gender": "M",
+        "sofascoreId": "caoimhinkelleher98",
+        "id": 827362,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاويمن كيليهير",
+            "bn": "কাওইমহিন কেলেহার",
+            "hi": "काओइमहिन केल्हेर"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. كيليهير",
+            "bn": "সি. কেলেহার",
+            "hi": "सी. केल्हेर"
+          }
+        }
+      },
+      "id": 6304278,
+      "time": 45,
+      "addedTime": 1,
+      "timeSeconds": 2726,
+      "draw": {
+        "start": {
+          "x": 50.9,
+          "y": 21
+        },
+        "block": {
+          "x": 51.3,
+          "y": 15.1
+        },
+        "end": {
+          "x": 52.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2674,
+      "periodTimeSeconds": 26,
+      "incidentType": "shot"
+    }
+  ]
+}

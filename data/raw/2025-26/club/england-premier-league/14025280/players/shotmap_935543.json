@@ -1,0 +1,102 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Dwight McNeil",
+        "firstName": "Dwight",
+        "lastName": "McNeil",
+        "slug": "dwight-mcneil",
+        "shortName": "D. McNeil",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 1978,
+        "gender": "M",
+        "id": 935543,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوايت مكنيل",
+            "bn": "ডোয়াইট ম্যাকনিল",
+            "hi": "ड्वाइट मैकनील"
+          },
+          "shortNameTranslation": {
+            "ar": "د. مكنيل",
+            "bn": "ডি. ম্যাকনিল",
+            "hi": "डी. मैकनील"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 17.6,
+        "y": 36.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.8,
+        "z": 1.9
+      },
+      "blockCoordinates": {
+        "x": 2.4,
+        "y": 48,
+        "z": 0
+      },
+      "xg": 0.03836527094245,
+      "xgot": 0.30410540103912,
+      "goalkeeper": {
+        "name": "Caoimhin Kelleher",
+        "firstName": "",
+        "lastName": "",
+        "slug": "caoimhin-kelleher",
+        "shortName": "C. Kelleher",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9855,
+        "gender": "M",
+        "sofascoreId": "caoimhinkelleher98",
+        "id": 827362,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاويمن كيليهير",
+            "bn": "কাওইমহিন কেলেহার",
+            "hi": "काओइमहिन केल्हेर"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. كيليهير",
+            "bn": "সি. কেলেহার",
+            "hi": "सी. केल्हेर"
+          }
+        }
+      },
+      "id": 6453748,
+      "time": 4,
+      "timeSeconds": 225,
+      "draw": {
+        "start": {
+          "x": 36.8,
+          "y": 17.6
+        },
+        "block": {
+          "x": 48,
+          "y": 2.4
+        },
+        "end": {
+          "x": 53.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.2,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 42,
+      "reversedPeriodTimeSeconds": 2475,
+      "periodTimeSeconds": 225,
+      "incidentType": "shot"
+    }
+  ]
+}

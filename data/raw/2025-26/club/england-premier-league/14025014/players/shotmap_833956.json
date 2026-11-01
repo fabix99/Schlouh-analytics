@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Matty Cash",
+        "slug": "matty-cash",
+        "shortName": "M. Cash",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 9398,
+        "gender": "M",
+        "sofascoreId": "mattycash622",
+        "id": 833956,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتي كاش",
+            "bn": "ম্যাটি ক্যাশ",
+            "hi": "मैटी कैश"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كاش",
+            "bn": "এম. ক্যাশ",
+            "hi": "एम. कैश"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.4,
+        "y": 77.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 19.6
+      },
+      "blockCoordinates": {
+        "x": 15.5,
+        "y": 69.5,
+        "z": 0
+      },
+      "xg": 0.0093542682006955,
+      "xgot": 0.01025796495378,
+      "goalkeeper": {
+        "name": "Đorđe Petrović",
+        "slug": "dorde-petrovic",
+        "shortName": "Đ. Petrović",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 8536,
+        "gender": "M",
+        "sofascoreId": "dj.petrovic12",
+        "id": 882604,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوردي بيتروفيتش",
+            "bn": "ডোরে পেট্রোভিচ",
+            "hi": "डोरे पेट्रोविक"
+          },
+          "shortNameTranslation": {
+            "ar": "د. بيتروفيتش",
+            "bn": "ডি. পেট্রোভিচ",
+            "hi": "डी. पेट्रोविक"
+          }
+        }
+      },
+      "id": 6143939,
+      "time": 9,
+      "timeSeconds": 525,
+      "draw": {
+        "start": {
+          "x": 77.4,
+          "y": 22.4
+        },
+        "block": {
+          "x": 69.5,
+          "y": 15.5
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 80.4
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2175,
+      "periodTimeSeconds": 525,
+      "incidentType": "shot"
+    }
+  ]
+}

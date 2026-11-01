@@ -1,0 +1,190 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 10,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 51,
+      "draw": 23,
+      "away": 26
+    },
+    "possibleResultsMatrix": [
+      [
+        0.053439657075467,
+        0.063058795349051,
+        0.03720468925594,
+        0.01463384444067,
+        0.0043169841099976,
+        0.0010188082499594
+      ],
+      [
+        0.094053796452821,
+        0.11098347981433,
+        0.065480253090454,
+        0.025755566215579,
+        0.0075978920335957,
+        0.0017931025199286
+      ],
+      [
+        0.082767340878483,
+        0.09766546223661,
+        0.0576226227196,
+        0.022664898269709,
+        0.0066861449895642,
+        0.0015779302175372
+      ],
+      [
+        0.048556839982043,
+        0.057297071178811,
+        0.033805271995499,
+        0.013296740318229,
+        0.0039225383938777,
+        0.00092571906095513
+      ],
+      [
+        0.021365009592099,
+        0.025210711318677,
+        0.014874319678019,
+        0.0058505657400209,
+        0.0017259168933062,
+        0.00040731638682026
+      ],
+      [
+        0.0075204833764189,
+        0.0088741703841743,
+        0.0052357605266628,
+        0.0020593991404874,
+        0.00060752274644377,
+        0.00014337536816073
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Vitality Stadium hosts Bournemouth (8th, 49 points) against Crystal Palace (14th, 43). Sofascore model: home 51%, draw 23%, away 26%; both teams to score 57%. Bournemouth are 13 unbeaten, but they are without a clean sheet in 4."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Bournemouth are W2-D3 across 5, with higher expected goals than their opponents in 4 of those. They drew 2-2 with Leeds (xG 1.65-0.81) after away wins at Newcastle (xG 2.99) and Arsenal. Palace are W2-D1-L2; they created well away (2.26 xG at Liverpool, 2.20 at Shakhtar) but finishing has been inconsistent."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "The last 2 meetings finished 3-3 and 0-0. Bournemouth are unbeaten in the last 5 head-to-head. The longer series often skews low scoring (under 2.5 in 9 of 10), but recent results show volatility."
+    },
+    {
+      "subtitle": "Season stats snapshot",
+      "text": "Bournemouth: 52 scored (rank 6) and 52 conceded; 81 big chances created with 41% conversion; 33 penalty-area entries per game (rank 3); 9 clean sheets; aerial duels weak (46%, rank 19); 81 yellows (2.38 per game); 5.68 corners per game (rank 6). Palace sit mid-table with 36 scored and 39 conceded, leaning on transition rather than long spells of possession."
+    },
+    {
+      "subtitle": "Tactical notes and key players",
+      "text": "Bournemouth’s front line mixes form and variance: Eli Junior Kroupi 11 goals from 6.90 xG (+4.10), Alex Scott in form (8.04 average last 5), Evanilson under xG (-3.51) but volume is there. For Palace, Jean Philippe Mateta 10 from 13.46 xG (underperforming) with supply from Adam Wharton and Yéremy Pino (13 big chances created each). Daniel Muñoz offers an extra runner from deep."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee Robert Jones averages 3.6 yellows and 0.11 reds. Bournemouth commit many fouls and have 81 yellows; recent head-to-heads have usually stayed controlled (less than 4.5 cards in 6 of 8). Corners trend up in Bournemouth matches (over 10.5 in 4 of 5; team average 5.68). Projection: about 4 yellows and roughly 10 total corners."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Home edge and stronger recent process point towards Bournemouth, while Palace’s counter threat and the model’s both-teams-to-score lean suggest a tight contest decided by small details."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Bournemouth",
+      "slug": "bournemouth",
+      "shortName": "Bournemouth",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 313525,
+      "nameCode": "BOU",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 60,
+      "teamColors": {
+        "primary": "#000000",
+        "secondary": "#cc0000",
+        "text": "#cc0000"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بورنموث",
+          "bn": "বোর্নেমাউথ",
+          "hi": "बोर्नमाउथ",
+          "ru": "Борнмут"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Eli Junior Kroupi",
+      "slug": "eli-junior-kroupi",
+      "shortName": "E. J. Kroupi",
+      "position": "M",
+      "jerseyNumber": "22",
+      "userCount": 16230,
+      "gender": "M",
+      "sofascoreId": "g8d-6kn",
+      "id": 1426228,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إيلي جونيور كروبي",
+          "bn": "এলি জুনিয়র ক্রুপি",
+          "hi": "एली जूनियर क्रुपी",
+          "ru": "Эли Джуниор Крупи"
+        },
+        "shortNameTranslation": {
+          "ar": "إ. جونيور كروبي",
+          "bn": "ই. জে. ক্রুপি",
+          "hi": "ई.जे. क्रुपी",
+          "ru": "Э. Крупи"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 3,
+    "awayNormaltimeScore": 0
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Bournemouth lead Crystal Palace 2-0 at the break at Vitality Stadium. An early own goal by Jefferson Lerma opened the scoring before Eli Junior Kroupi converted a penalty near the half-hour to give the hosts a clear cushion."
+    },
+    {
+      "subtitle": "First-half summary",
+      "text": "Bournemouth were in control for most of the half. They produced 4 shots on target, 7 corners and 26 penalty-area entries, supported by 7 possessions won in the final third. Their expected goals were 1.51. Crystal Palace offered little threat with 0 shots on target, 0 corners, 18 final-third entries and 6 penalty-area entries, and finished the half on 0.00 expected goals. The duel data (aerials 57% won; overall duels 56% won) underlines the hosts’ edge in physical contests."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "After a brief away spell at kick-off, Bournemouth took control and sustained pressure for most of the half. Their strongest attacking periods coincided with the opening goal and the approach to half-time, with only short lulls before momentum swung back to the hosts. Crystal Palace had minimal sustained attacking phases."
+    },
+    {
+      "subtitle": "Key stats at the break",
+      "text": "Bournemouth: 51% possession, 4 shots on target, 7 corners, 26 penalty-area entries, expected goals 1.51. Crystal Palace: 49% possession, 0 shots on target, 0 corners, 6 penalty-area entries, expected goals 0.00. Discipline: Bournemouth 0 yellows; Crystal Palace 2 yellows (Jaydee Canvot, Maxence Lacroix)."
+    },
+    {
+      "subtitle": "Tactical outlook for the second half",
+      "text": "Bournemouth can manage the lead by keeping the press compact and using quick transitions into the wide channels, where Marcus Tavernier and Eli Junior Kroupi have space to attack. Set pieces remain a route to chances given the first-half corner count and aerial advantage. Crystal Palace need to quicken progression into the final third, involve Daichi Kamada between the lines and use the pace of Brennan Johnson and Yéremy Pino to attack space behind Bournemouth’s full-backs. They must also avoid risky challenges in the box after conceding a penalty."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "First half: Crystal Palace collected 2 yellow cards (Jaydee Canvot, Maxence Lacroix); Bournemouth none. Corners were 7-0 to Bournemouth. With Palace likely to chase the game, expect 1-2 additional away bookings and 0-1 for Bournemouth. Corners should narrow slightly but remain in the hosts’ favour, with Bournemouth likely to add 2-3 more and Crystal Palace 2-3 after adjustments."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Game state favours Bournemouth. Given their control of duels, set-piece threat and counter pace, the hosts are more likely to score next. Crystal Palace should improve territorially but may struggle to create clear chances. Predicted outcome: Bournemouth to see the match out comfortably, next goal Bournemouth, and a 3-0 final score with a single goal after the break."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

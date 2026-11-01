@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Lewis Miley",
+        "firstName": "Lewis Miley",
+        "slug": "lewis-miley",
+        "shortName": "L. Miley",
+        "position": "M",
+        "jerseyNumber": "67",
+        "userCount": 3357,
+        "gender": "M",
+        "id": 1400650,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لويس مايلي",
+            "bn": "লুইস মাইলি",
+            "hi": "लुईस माइली"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. مايلي",
+            "bn": "এল. মাইলি",
+            "hi": "एल. माइली"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.4,
+        "y": 50.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51,
+        "z": 15.2
+      },
+      "xg": 0.12955988943577,
+      "xgot": 0.044148810207844,
+      "goalkeeper": {
+        "name": "Jordan Pickford",
+        "slug": "jordan-pickford",
+        "shortName": "J. Pickford",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 7693,
+        "gender": "M",
+        "sofascoreId": "jpickford1",
+        "id": 138530,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوردان بيكفورد",
+            "bn": "জর্ডান পিকফোর্ড",
+            "hi": "जॉर्डन पिकफोर्ड"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بيكفورد",
+            "bn": "জে.পিকফোর্ড",
+            "hi": "जे. पिकफोर्ड"
+          }
+        }
+      },
+      "id": 6267187,
+      "time": 25,
+      "timeSeconds": 1471,
+      "draw": {
+        "start": {
+          "x": 50.9,
+          "y": 15.4
+        },
+        "end": {
+          "x": 49,
+          "y": 0
+        },
+        "goal": {
+          "x": 49,
+          "y": 84.8
+        }
+      },
+      "reversedPeriodTime": 21,
+      "reversedPeriodTimeSeconds": 1229,
+      "periodTimeSeconds": 1471,
+      "incidentType": "shot"
+    }
+  ]
+}

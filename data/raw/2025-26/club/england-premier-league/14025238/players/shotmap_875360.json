@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Hjalmar Ekdal",
+        "slug": "hjalmar-ekdal",
+        "shortName": "H. Ekdal",
+        "position": "D",
+        "jerseyNumber": "18",
+        "userCount": 549,
+        "gender": "M",
+        "id": 875360,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هالمار إيكدال",
+            "bn": "হজলমার একদল",
+            "hi": "हजलमर एकदल"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. إيكدال",
+            "bn": "এইচ. একডাল",
+            "hi": "एच. एकदल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 16.6,
+        "y": 45.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15,
+        "y": 46.1,
+        "z": 0
+      },
+      "xg": 0.029222637414932,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jordan Pickford",
+        "slug": "jordan-pickford",
+        "shortName": "J. Pickford",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 7693,
+        "gender": "M",
+        "sofascoreId": "jpickford1",
+        "id": 138530,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوردان بيكفورد",
+            "bn": "জর্ডান পিকফোর্ড",
+            "hi": "जॉर्डन पिकफोर्ड"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بيكفورد",
+            "bn": "জে.পিকফোর্ড",
+            "hi": "जे. पिकफोर्ड"
+          }
+        }
+      },
+      "id": 6418032,
+      "time": 72,
+      "timeSeconds": 4280,
+      "draw": {
+        "start": {
+          "x": 45.8,
+          "y": 16.6
+        },
+        "block": {
+          "x": 46.1,
+          "y": 15
+        },
+        "end": {
+          "x": 49.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 19,
+      "reversedPeriodTimeSeconds": 1120,
+      "periodTimeSeconds": 1580,
+      "incidentType": "shot"
+    }
+  ]
+}

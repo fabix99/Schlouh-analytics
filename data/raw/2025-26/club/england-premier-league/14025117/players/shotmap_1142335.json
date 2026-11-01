@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Archie Gray",
+        "firstName": "Archie Gray",
+        "slug": "archie-gray",
+        "shortName": "A. Gray",
+        "position": "M",
+        "jerseyNumber": "14",
+        "userCount": 5753,
+        "gender": "M",
+        "sofascoreId": "ArchieGray06",
+        "id": 1142335,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آرتشي غراي",
+            "bn": "আর্চি গ্রে",
+            "hi": "आर्ची ग्रे"
+          },
+          "shortNameTranslation": {
+            "ar": "آ. غراي",
+            "bn": "এ. গ্রে",
+            "hi": "ए. ग्रे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 25.9,
+        "y": 69.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 61.5,
+        "z": 9.7
+      },
+      "xg": 0.020291896536946,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bernd Leno",
+        "slug": "bernd-leno",
+        "shortName": "B. Leno",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2687,
+        "gender": "M",
+        "id": 103335,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيرند لينو",
+            "bn": "বার্ন্ড লেনো",
+            "hi": "बर्न्ड लेनो"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. لينو",
+            "bn": "বি. লেনো",
+            "hi": "बी. लेनो"
+          }
+        }
+      },
+      "id": 6268141,
+      "time": 25,
+      "timeSeconds": 1475,
+      "draw": {
+        "start": {
+          "x": 69.7,
+          "y": 25.9
+        },
+        "end": {
+          "x": 38.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 38.5,
+          "y": 90.3
+        }
+      },
+      "reversedPeriodTime": 21,
+      "reversedPeriodTimeSeconds": 1225,
+      "periodTimeSeconds": 1475,
+      "incidentType": "shot"
+    }
+  ]
+}

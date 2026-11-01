@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Fabian Schär",
+        "firstName": "",
+        "lastName": "",
+        "slug": "fabian-schar",
+        "shortName": "F. Schär",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 3135,
+        "gender": "M",
+        "id": 101882,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فابيان شار",
+            "bn": "ফ্যাবিয়ান শার",
+            "hi": "फेबियन शार"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. شار",
+            "bn": "এফ. শার",
+            "hi": "एफ. शार"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 25.7,
+        "y": 67.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 12.1,
+        "y": 56,
+        "z": 0
+      },
+      "xg": 0.023009553551674,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Robin Roefs",
+        "slug": "robin-roefs",
+        "shortName": "R. Roefs",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 2211,
+        "gender": "M",
+        "id": 1012928,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن روفس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. روفس"
+          }
+        }
+      },
+      "id": 6348883,
+      "time": 68,
+      "timeSeconds": 4054,
+      "draw": {
+        "start": {
+          "x": 67.7,
+          "y": 25.7
+        },
+        "block": {
+          "x": 56,
+          "y": 12.1
+        },
+        "end": {
+          "x": 45.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1346,
+      "periodTimeSeconds": 1354,
+      "incidentType": "shot"
+    }
+  ]
+}

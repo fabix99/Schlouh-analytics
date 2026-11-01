@@ -1,0 +1,186 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Erling Haaland",
+        "slug": "erling-haaland",
+        "shortName": "E. Haaland",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 856522,
+        "gender": "M",
+        "sofascoreId": "EHaaland",
+        "id": 839956,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيرلينغ هالاند",
+            "bn": "এরলিং হালান্ড",
+            "hi": "एर्लिंग हालैंड"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. هالاند",
+            "bn": "ই. হালান্ড",
+            "hi": "ई. हालैंड"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7.9,
+        "y": 43,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.8,
+        "z": 13.9
+      },
+      "xg": 0.054153554141521,
+      "xgot": 0.59382963180542,
+      "goalkeeper": {
+        "name": "Giorgi Mamardashvili",
+        "slug": "giorgi-mamardashvili",
+        "shortName": "G. Mamardashvili",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 17409,
+        "gender": "M",
+        "sofascoreId": "mamardashvili",
+        "id": 930997,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيورجي مامارداشفيلي",
+            "bn": "জিওর্গি মামারদাশভিলি",
+            "hi": "जियोर्जी ममारदाश्विली"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. مامارداشفيلي",
+            "bn": "জি. মামারদাশভিলি",
+            "hi": "जी. ममारदाश्विली"
+          }
+        }
+      },
+      "id": 6146632,
+      "time": 29,
+      "timeSeconds": 1709,
+      "draw": {
+        "start": {
+          "x": 43,
+          "y": 7.9
+        },
+        "end": {
+          "x": 54.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.2,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 991,
+      "periodTimeSeconds": 1709,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Erling Haaland",
+        "slug": "erling-haaland",
+        "shortName": "E. Haaland",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 856522,
+        "gender": "M",
+        "sofascoreId": "EHaaland",
+        "id": 839956,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيرلينغ هالاند",
+            "bn": "এরলিং হালান্ড",
+            "hi": "एर्लिंग हालैंड"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. هالاند",
+            "bn": "ই. হালান্ড",
+            "hi": "ई. हालैंड"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.4,
+        "z": 1.9
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 49.6,
+        "z": 0
+      },
+      "xg": 0.7884,
+      "xgot": 0.81501895189285,
+      "goalkeeper": {
+        "name": "Giorgi Mamardashvili",
+        "slug": "giorgi-mamardashvili",
+        "shortName": "G. Mamardashvili",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 17409,
+        "gender": "M",
+        "sofascoreId": "mamardashvili",
+        "id": 930997,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيورجي مامارداشفيلي",
+            "bn": "জিওর্গি মামারদাশভিলি",
+            "hi": "जियोर्जी ममारदाश्विली"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. مامارداشفيلي",
+            "bn": "জি. মামারদাশভিলি",
+            "hi": "जी. ममारदाश्विली"
+          }
+        }
+      },
+      "id": 6146448,
+      "time": 13,
+      "timeSeconds": 729,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "block": {
+          "x": 49.6,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 53.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.6,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1971,
+      "periodTimeSeconds": 729,
+      "incidentType": "shot"
+    }
+  ]
+}

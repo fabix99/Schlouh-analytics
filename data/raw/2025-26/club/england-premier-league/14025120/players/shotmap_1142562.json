@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mateus Fernandes",
+        "slug": "mateus-fernandes",
+        "shortName": "M. Fernandes",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 4128,
+        "gender": "M",
+        "id": 1142562,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتيوس فرنانديز",
+            "bn": "মাতেউস ফার্নান্ডেজ",
+            "hi": "माटेयस फर्नांडीस"
+          },
+          "shortNameTranslation": {
+            "ar": "م. فرنانديز",
+            "bn": "এম. ফার্নান্ডেজ",
+            "hi": "एम. फर्नांडीस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 28.5,
+        "y": 44.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14.6,
+        "y": 46.4,
+        "z": 0
+      },
+      "xg": 0.016641551628709,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Alisson",
+        "slug": "alisson",
+        "shortName": "Alisson",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 63959,
+        "gender": "M",
+        "sofascoreId": "AlissonBecker",
+        "id": 243609,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليسون",
+            "bn": "অ্যালিসন",
+            "hi": "एलिसन"
+          },
+          "shortNameTranslation": {
+            "ar": "أليسون",
+            "bn": "অ্যালিসন",
+            "hi": "एलिसन"
+          }
+        }
+      },
+      "id": 6272815,
+      "time": 11,
+      "timeSeconds": 631,
+      "draw": {
+        "start": {
+          "x": 44.9,
+          "y": 28.5
+        },
+        "block": {
+          "x": 46.4,
+          "y": 14.6
+        },
+        "end": {
+          "x": 48,
+          "y": 0
+        },
+        "goal": {
+          "x": 48,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2069,
+      "periodTimeSeconds": 631,
+      "incidentType": "shot"
+    }
+  ]
+}

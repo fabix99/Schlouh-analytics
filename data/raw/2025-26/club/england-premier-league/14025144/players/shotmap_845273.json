@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jean-Ricner Bellegarde",
+        "slug": "jean-ricner-bellegarde",
+        "shortName": "J.-R. Bellegarde",
+        "position": "M",
+        "jerseyNumber": "27",
+        "userCount": 31666,
+        "gender": "M",
+        "id": 845273,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جان ريسنير بلغارد",
+            "bn": "জিন-রিকনার বেলেগার্ড",
+            "hi": "जीन-रिकनर बेलेगार्डे"
+          },
+          "shortNameTranslation": {
+            "ar": "ج-ر. بيلغارد",
+            "bn": "জে.-আর. বেলগার্ড",
+            "hi": "जे.आर. बेलेगार्डे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 24.4,
+        "y": 33.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.1,
+        "z": 9.7
+      },
+      "blockCoordinates": {
+        "x": 11.8,
+        "y": 43.3,
+        "z": 0
+      },
+      "xg": 0.01756053045392,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matz Sels",
+        "slug": "matz-sels",
+        "shortName": "M. Sels",
+        "position": "G",
+        "jerseyNumber": "26",
+        "userCount": 2416,
+        "gender": "M",
+        "id": 78152,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتس سيلس",
+            "bn": "ম্যাটজ সেলস",
+            "hi": "मैट्ज़ सेल्स"
+          },
+          "shortNameTranslation": {
+            "ar": "م. سيلس",
+            "bn": "এম. সেলস",
+            "hi": "एम. सेल्स"
+          }
+        }
+      },
+      "id": 6292605,
+      "time": 32,
+      "timeSeconds": 1862,
+      "draw": {
+        "start": {
+          "x": 33.6,
+          "y": 24.4
+        },
+        "block": {
+          "x": 43.3,
+          "y": 11.8
+        },
+        "end": {
+          "x": 52.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.9,
+          "y": 90.3
+        }
+      },
+      "reversedPeriodTime": 14,
+      "reversedPeriodTimeSeconds": 838,
+      "periodTimeSeconds": 1862,
+      "incidentType": "shot"
+    }
+  ]
+}

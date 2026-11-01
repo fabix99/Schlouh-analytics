@@ -1,0 +1,195 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 9,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 47,
+      "draw": 28,
+      "away": 25
+    },
+    "possibleResultsMatrix": [
+      [
+        0.11152277263949,
+        0.097965398543842,
+        0.0430280698942,
+        0.012599106938705,
+        0.0027668710688729,
+        0.00048610274039327
+      ],
+      [
+        0.14696271806229,
+        0.12909705260466,
+        0.056701622054064,
+        0.016602878112214,
+        0.0036461332800963,
+        0.00064057750982085
+      ],
+      [
+        0.09683242260338,
+        0.085060895167762,
+        0.037360192444925,
+        0.010939488129996,
+        0.0024024046595062,
+        0.00042207080107829
+      ],
+      [
+        0.042534679048172,
+        0.037363909507152,
+        0.016410864791968,
+        0.0048052873619255,
+        0.0010552819849863,
+        0.00018539912125304
+      ],
+      [
+        0.0140128601022,
+        0.012309373163531,
+        0.0054064861339503,
+        0.0015830804665828,
+        0.00034765793829636,
+        6.1078912720779e-05
+      ],
+      [
+        0.0036931793564763,
+        0.003244214423548,
+        0.0014249141742196,
+        0.00041723103322118,
+        9.1627484429799e-05,
+        1.6097740070993e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Selhurst Park hosts a meeting between mid-table Crystal Palace and West Ham United who sit near the bottom. Palace are 13th (42 points) with a strong defensive record (36 conceded), while West Ham are 17th (32 points) with 57 conceded. The Sofascore model rates outcomes as home 47%, draw 28%, away 25%, with a 43% chance of both teams scoring."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Palace have been positive over their last 5, including home wins built on strong chance creation (xG 3.05 vs Fiorentina, xG 2.56 vs Newcastle). West Ham’s last 5 read 1-3-1, featuring a 4-0 win over Wolverhampton and draws with Manchester City and Leeds, but they were second best away at Aston Villa."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "The last 2 meetings were both West Ham 0-2 and 1-2 defeats at home, with Palace holding the xG edge in each. A longer trend shows both teams scoring in 8/10, though Palace have controlled recent matchups."
+    },
+    {
+      "subtitle": "Season stats and playing styles",
+      "text": "Palace defend their area well (11 clean sheets, 3rd; 33.6 clearances per game, 1st) and create regularly (80 big chances, 8th) but convert at 36%. They are strong in the air (10 headers scored, 4th). West Ham’s table line (40 scored, 57 conceded) points to defensive fragility; their threat often comes from Jarrod Bowen’s supply and set-piece presence."
+    },
+    {
+      "subtitle": "Key players",
+      "text": "Ismaïla Sarr is in form (last 5: 4 goals; 7.46 average rating). Jean-Philippe Mateta has hurt West Ham repeatedly (5 goals in his last 5 vs them; 7.6 average rating). For West Ham, Jarrod Bowen has 2 goals and 3 assists in his last 5, while Konstantinos Mavropanos has scored 3. Palace miss Adam Wharton (11 big chances created, rank 5) which may reduce supply."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee Darren England averages 3.7 yellows and 0.13 reds per match. Recent trends point to fewer cards (fewer than 4.5 in 5/5 West Ham matches and 8/10 head-to-head). Corners lean lower in head-to-head (fewer than 10.5 in 8/10), despite West Ham’s recent higher totals; expectation is a moderate card count and corners on the lower side."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Crystal Palace to win at home, supported by superior defensive metrics and recent head-to-head results. With both teams to score rated at 43%, a Palace win with only one side scoring is more likely than not."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "West Ham United",
+      "slug": "west-ham-united",
+      "shortName": "West Ham",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 415561,
+      "nameCode": "WHU",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 37,
+      "teamColors": {
+        "primary": "#66192c",
+        "secondary": "#59b3e4",
+        "text": "#59b3e4"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "وست هام يونايتد",
+          "hi": "वेस्ट हैम यूनाइटेड ऍफ़सी",
+          "ru": "Вест Хэм Юнайтед"
+        },
+        "shortNameTranslation": {
+          "ar": "وست هام",
+          "bn": "ওয়েস্ট হ্যাম",
+          "hi": "वेस्ट हैम"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Jarrod Bowen",
+      "firstName": "Jarrod",
+      "lastName": "Bowen",
+      "slug": "jarrod-bowen",
+      "shortName": "J. Bowen",
+      "position": "M",
+      "jerseyNumber": "20",
+      "userCount": 9274,
+      "gender": "M",
+      "sofascoreId": "gbf-3gi",
+      "id": 552884,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "جارود بوين",
+          "bn": "জারড বোয়েন",
+          "hi": "जारोड बोवेन",
+          "ru": "Джаррод Боун"
+        },
+        "shortNameTranslation": {
+          "ar": "ج. بوين",
+          "bn": "জে. বোয়েন",
+          "hi": "जे. बोवेन",
+          "ru": "Д. Боун"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Goalless at Selhurst Park after a balanced first half. Underlying numbers are close (expected goals: Crystal Palace 0.55, West Ham United 0.52; possession: 49-51). Both sides created 1 big chance and missed it, but West Ham worked the goalkeeper more (shots on target: 2-0)."
+    },
+    {
+      "subtitle": "First-half stats snapshot",
+      "text": "Territorial metrics are near even (final third entries: Palace 26, West Ham 27; penalty area entries: 12-15). West Ham edged the contests (duels won: 55%-45%; aerials: 50%-50). Turnovers high up were limited (possessions won in the final third: 1-2). Set-piece volume favoured West Ham (corners: 0-2)."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Palace produced the first meaningful attacking spell after the opening exchanges and enjoyed another strong period around the midway point. From just after the half-hour, West Ham seized control and sustained pressure until the interval, forcing Palace deeper and generating the clearer late openings."
+    },
+    {
+      "subtitle": "Tactical observations",
+      "text": "Palace looked most dangerous when circulating quickly to wide areas, with Yéremy Pino supplying 2 key passes and Tyrick Mitchell advancing. Jørgen Strand Larsen saw limited high-quality service (expected goals 0.14) and needs earlier deliveries. Chris Richards and Maxence Lacroix coped well with balls into the box (9 clearances combined). West Ham’s threat came from quick switches to Crysencio Summerville and Jarrod Bowen, plus set pieces. El Hadji Malick Diouf created the standout opening, Konstantinos Mavropanos tested the goalkeeper, and Tomáš Souček’s late runs remain a set-piece weapon."
+    },
+    {
+      "subtitle": "Discipline and corners",
+      "text": "Cards so far: Palace 1 yellow (Brennan Johnson), West Ham 0. Corners: Palace 0, West Ham 2. Expect a moderate card count by full time (total 2-4), with the next caution slightly more likely for Palace given game state and an existing booking. If West Ham resume on the front foot, they are more likely to win the next corner and to finish ahead on corners overall."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "The final phase before the break suggests West Ham will restart on the front foot. Palace need to convert entries into shots on target and find early crosses into Strand Larsen. West Ham should continue to target set plays and wide isolations for Bowen and Summerville, with Souček attacking second balls. One goal may decide it, with set-piece situations and turnovers in wide areas the likeliest sources."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "West Ham to edge a tight contest. Predicted final score: 0-1. Next goal: West Ham (37). Likely second-half scorer: Jarrod Bowen (552884). More than 1.5 second-half goals: no."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

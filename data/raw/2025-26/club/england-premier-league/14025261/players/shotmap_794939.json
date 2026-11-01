@@ -1,0 +1,96 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Marc Cucurella",
+        "firstName": "",
+        "lastName": "",
+        "slug": "marc-cucurella",
+        "shortName": "M. Cucurella",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 37729,
+        "gender": "M",
+        "sofascoreId": "cucurella3",
+        "id": 794939,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارك كوكوريلا",
+            "bn": "মার্ক কুকুরেলা",
+            "hi": "मार्क कोकोरेला"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوكوريلا",
+            "bn": "এম. কুকুরেলা",
+            "hi": "एम. कोकोरेला"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 10.5,
+        "y": 43.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 6.7,
+        "y": 45.5,
+        "z": 0
+      },
+      "xg": 0.11508691310883,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Robin Roefs",
+        "slug": "robin-roefs",
+        "shortName": "R. Roefs",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 2211,
+        "gender": "M",
+        "id": 1012928,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن روفس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. روفس"
+          }
+        }
+      },
+      "id": 6020439,
+      "time": 13,
+      "timeSeconds": 726,
+      "draw": {
+        "start": {
+          "x": 43.6,
+          "y": 10.5
+        },
+        "block": {
+          "x": 45.5,
+          "y": 6.7
+        },
+        "end": {
+          "x": 48.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1974,
+      "periodTimeSeconds": 726,
+      "incidentType": "shot"
+    }
+  ]
+}

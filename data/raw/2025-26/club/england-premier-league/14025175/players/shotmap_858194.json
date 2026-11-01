@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Edward Nketiah",
+        "firstName": "",
+        "lastName": "",
+        "slug": "edward-nketiah",
+        "shortName": "E. Nketiah",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 6361,
+        "gender": "M",
+        "sofascoreId": "EN9",
+        "id": 858194,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إدوارد نكيتياه",
+            "bn": "এডওয়ার্ড এনকেটিয়া",
+            "hi": "एडवर्ड नेकेटिया"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. نكيتياه",
+            "bn": "ই. এনকেটিয়া",
+            "hi": "ई. नेकेटिया"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 12,
+        "y": 43.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.3,
+        "y": 44.8,
+        "z": 0
+      },
+      "xg": 0.043401528149843,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Alphonse Aréola",
+        "slug": "alphonse-areola",
+        "shortName": "A. Aréola",
+        "position": "G",
+        "jerseyNumber": "23",
+        "userCount": 3018,
+        "gender": "M",
+        "id": 96531,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألفونس أريولا",
+            "bn": "আলফোনস আরেওলা",
+            "hi": "अल्फोंस एरियोला"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. أريولا",
+            "bn": "এ. আরেওলা",
+            "hi": "ए. एरियोला"
+          }
+        }
+      },
+      "id": 5715155,
+      "time": 76,
+      "timeSeconds": 4508,
+      "draw": {
+        "start": {
+          "x": 43.8,
+          "y": 12
+        },
+        "block": {
+          "x": 44.8,
+          "y": 10.3
+        },
+        "end": {
+          "x": 50.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 892,
+      "periodTimeSeconds": 1808,
+      "incidentType": "shot"
+    }
+  ]
+}

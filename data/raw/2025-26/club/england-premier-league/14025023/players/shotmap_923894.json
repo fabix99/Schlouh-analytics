@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Wesley Fofana",
+        "firstName": "",
+        "lastName": "",
+        "slug": "wesley-fofana",
+        "shortName": "W. Fofana",
+        "position": "D",
+        "jerseyNumber": "29",
+        "userCount": 14707,
+        "gender": "M",
+        "sofascoreId": "wesley_fofana3",
+        "id": 923894,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويسلي فوفانا",
+            "bn": "ওয়েসলি ফোফানা",
+            "hi": "वेस्ले फोफाना"
+          },
+          "shortNameTranslation": {
+            "ar": "و. فوفانا",
+            "bn": "ডব্লিউ. ফোফানা",
+            "hi": "डब्लू. फोफाना"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 4.8,
+        "y": 59.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.8,
+        "z": 8.3
+      },
+      "blockCoordinates": {
+        "x": 2.8,
+        "y": 56.9,
+        "z": 0
+      },
+      "xg": 0.13068756461143,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Sam Johnstone",
+        "slug": "sam-johnstone",
+        "shortName": "S. Johnstone",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 600,
+        "gender": "M",
+        "id": 98427,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سام جونستون",
+            "bn": "স্যাম জনস্টোন",
+            "hi": "सैम जॉनस्टोन"
+          },
+          "shortNameTranslation": {
+            "ar": "س. جونستون",
+            "bn": "এস. জনস্টোন",
+            "hi": "एस. जॉनस्टोन"
+          }
+        }
+      },
+      "id": 6135814,
+      "time": 23,
+      "timeSeconds": 1337,
+      "draw": {
+        "start": {
+          "x": 59.7,
+          "y": 4.8
+        },
+        "block": {
+          "x": 56.9,
+          "y": 2.8
+        },
+        "end": {
+          "x": 47.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.2,
+          "y": 91.7
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1363,
+      "periodTimeSeconds": 1337,
+      "incidentType": "shot"
+    }
+  ]
+}

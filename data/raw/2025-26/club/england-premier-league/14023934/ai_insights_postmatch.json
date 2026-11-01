@@ -1,0 +1,190 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 9,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 1,
+    "winningProbability": {
+      "home": 32,
+      "draw": 28,
+      "away": 40
+    },
+    "possibleResultsMatrix": [
+      [
+        0.087674213960829,
+        0.11387314670405,
+        0.073950440810763,
+        0.032016138743809,
+        0.010395811662764,
+        0.0027004605644038
+      ],
+      [
+        0.099833114064773,
+        0.12966538655138,
+        0.084206090469195,
+        0.036456224546847,
+        0.011837531294987,
+        0.00307496783118
+      ],
+      [
+        0.056839121867251,
+        0.073823868735343,
+        0.047942010854615,
+        0.020756036804518,
+        0.006739596277109,
+        0.0017507063956847
+      ],
+      [
+        0.021573908984041,
+        0.028020655010572,
+        0.018196913405964,
+        0.0078781802775894,
+        0.0025580873154781,
+        0.00066449971775588
+      ],
+      [
+        0.00614145944151,
+        0.0079766590467805,
+        0.0051801277981688,
+        0.0022426869735805,
+        0.00072821246754456,
+        0.00018916358961704
+      ],
+      [
+        0.0013986347712735,
+        0.0018165767937853,
+        0.0011797044215891,
+        0.00051074178901694,
+        0.00016584059337731,
+        4.3079462856839e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "West Ham United host Everton at London Stadium. The hosts sit 17th (33 points) and need points, while Everton are 11th (47 points). Sofascore model: home win 32%, draw 28%, away win 40%, both teams to score 49%. Expect a competitive game with fine margins."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "West Ham are 1-3-1 in their last 5, including a 4-0 win over Wolverhampton and draws with Manchester City and Crystal Palace; underlying numbers vary (xG 3.54 vs Leeds, 0.54 vs City). Everton are 2-1-2, beating Chelsea 3-0 and Burnley 2-0, drawing at Brentford and losing late to Liverpool. Both have been in tight matches recently."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "The last 2 meetings ended 1-1 at Goodison Park (Michael Keane man of the match) and 2-1 to West Ham at home. West Ham are unbeaten in the last 5 head-to-heads, with no away wins in that span. Trends: fewer than 2.5 goals in 6/8 and both teams scoring in 4/5."
+    },
+    {
+      "subtitle": "Season stats and context",
+      "text": "West Ham: 40 scored, 57 conceded; xG 39.33; possession 42% (19th); interceptions per game 9.33 (1st); fast breaks per game 1.33 (3rd); opponents’ shots per game 15.1 (2nd most). Everton: 40 scored, 39 conceded, a sturdier defence. Both sides often strike late (Everton 76–90: 13 goals; West Ham 76–90: 10)."
+    },
+    {
+      "subtitle": "Tactical notes and key players",
+      "text": "West Ham rely on transition and set plays (9 headers), with Jarrod Bowen (8 goals, 8 assists, 11 big chances created) and in‑form Konstantinos Mavropanos a threat at dead balls. Everton’s supply line runs through James Garner (6 assists, 11 big chances), Kiernan Dewsbury‑Hall and Iliman Ndiaye’s ball carrying. Jordan Pickford has performed well in recent head‑to‑heads (avg rating 7.5, 3.4 saves per game). Beto and Jarrad Branthwaite are listed out."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee is Stuart Attwell (3.5 yellow cards per game; 0.14 reds). Both teams trend under 4.5 cards (West Ham 6/6, Everton 5/5). West Ham average 5.06 corners per game and have 57 yellows this season (1.73 per game). Expect a moderate card count and a mid‑range corner total."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Everton have a slight edge based on the model and a stronger defensive record, but West Ham’s recent resilience at home keeps it close. With recent form and head‑to‑head trends, a narrow away result is the most plausible outcome, while both teams to score sits close to a coin flip."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Everton",
+      "slug": "everton",
+      "shortName": "Everton",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 336270,
+      "nameCode": "EVE",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 48,
+      "teamColors": {
+        "primary": "#274488",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إيفرتون",
+          "bn": "এভারটন",
+          "hi": "एवर्टन",
+          "ru": "Эвертон"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Thierno Barry",
+      "slug": "thierno-barry",
+      "shortName": "T. Barry",
+      "position": "F",
+      "jerseyNumber": "11",
+      "userCount": 9741,
+      "gender": "M",
+      "sofascoreId": "rs4-8q3",
+      "id": 1395746,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ثيرنو باري",
+          "bn": "থিয়ের্নো ব্যারি",
+          "hi": "थिएर्नो बैरी",
+          "ru": "Тьерно Барри"
+        },
+        "shortNameTranslation": {
+          "ar": "ث. باري",
+          "bn": "টি. ব্যারি",
+          "hi": "टी. बैरी",
+          "ru": "Т. Барри"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context at the break",
+      "text": "Goalless at half-time at London Stadium, with Everton edging the underlying numbers. Everton lead on expected goals 0.67-0.31, have the only shot on target (1-0), and hold a slight possession advantage (53-47). Entries are close (final third entries 26-28, penalty area entries 19-18), but Everton have been stronger in duels (64% won) and dominant in the air (75% of aerials). West Ham have yet to win possession in the final third (0), while Everton have done so 3 times, reflecting a more effective press."
+    },
+    {
+      "subtitle": "Key first-half patterns",
+      "text": "Everton created the best opening through Thierno Barry, who produced the only on-target effort and the highest-quality chance. Iliman Ndiaye also found good positions. Dwight McNeil’s delivery was a major avenue, leading the half in creative output (expected assists 0.95). Centre-backs James Tarkowski and Michael Keane, supported by Jake O’Brien, dealt well with crosses and long balls. For West Ham, the build-up reached the box regularly but produced low-quality shots. Jarrod Bowen carried the main threat (expected goals 0.11), with Crysencio Summerville and Tomáš Souček involved around the area. Konstantinos Mavropanos’ 6 clearances were important defensively, and El Hadji Malick Diouf’s 4 key passes hint at a route via the right side."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Everton started on the front foot, forcing West Ham back in the opening phase. West Ham then produced their strongest spell around the middle of the half, pinning Everton deep for several minutes. Everton reasserted control before the interval, with another sustained attacking spell, while the final moments were more even."
+    },
+    {
+      "subtitle": "Tactical notes and adjustments",
+      "text": "West Ham need more incision after reaching advanced areas. Playing to feet into Bowen and Summerville, with quick combinations and cut-backs, should help avoid Everton’s aerial strength. More runners beyond the ball from Souček can add second-phase shots. Set-pieces remain a key route given Everton’s box protection in open play. Everton should continue to work wide-to-inside through McNeil and the full-backs, attack second balls and keep targeting deliveries that test West Ham’s defensive line. With aerial dominance established, set-pieces and back-post situations are promising. Everton’s press has been effective; maintaining that intensity can generate another high-value chance."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Discipline is manageable so far (West Ham 0 bookings, Everton 1), and corners are close (West Ham 2, Everton 1). Given the duel intensity and aerial contests, expect 2-3 additional bookings after the break, with at least 1 for West Ham if they increase aggression. Corner count should stay tight, with roughly 4-6 more in the second half."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "If West Ham raise tempo and connect quicker between midfield and forwards, they can turn territory into shots on target. However, Everton’s pressing structure and superiority in duels suggest they are slightly likelier to strike first, especially from a cross or set-piece. Game state will matter: the first goal should tilt control towards the scorers, as chances have been limited."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Everton to score the next goal, most likely via continued wide service. Low margin outcome expected, with limited scoring after the interval. Predicted full-time: West Ham United 0-1 Everton."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

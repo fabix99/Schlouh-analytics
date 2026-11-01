@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Florian Wirtz",
+        "firstName": "",
+        "lastName": "",
+        "slug": "florian-wirtz",
+        "shortName": "F. Wirtz",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 148334,
+        "gender": "M",
+        "sofascoreId": "FWirtz",
+        "id": 1019322,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فلوريان فيرتز",
+            "bn": "ফ্লোরিয়ান উইর্টজ",
+            "hi": "फ्लोरियन विर्ट्ज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فيرتز",
+            "bn": "এফ. উইর্টজ",
+            "hi": "एफ. विर्ट्ज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 19.1,
+        "y": 33.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14.4,
+        "y": 38.4,
+        "z": 0
+      },
+      "xg": 0.054709143936634,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 4257,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन"
+          }
+        }
+      },
+      "id": 6340982,
+      "time": 42,
+      "timeSeconds": 2477,
+      "draw": {
+        "start": {
+          "x": 33.6,
+          "y": 19.1
+        },
+        "block": {
+          "x": 38.4,
+          "y": 14.4
+        },
+        "end": {
+          "x": 53.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 223,
+      "periodTimeSeconds": 2477,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 11,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 55,
+      "draw": 23,
+      "away": 22
+    },
+    "possibleResultsMatrix": [
+      [
+        0.056258026432748,
+        0.05923977800673,
+        0.031189783225704,
+        0.010947627989151,
+        0.0028819667739005,
+        0.00060694298301676
+      ],
+      [
+        0.10334706759332,
+        0.1088246021071,
+        0.057296226683335,
+        0.020111001425438,
+        0.0052942279327919,
+        0.0011149658363168
+      ],
+      [
+        0.094925267178594,
+        0.099956434867329,
+        0.052627130627869,
+        0.01847214660266,
+        0.0048627988459455,
+        0.0010241067537965
+      ],
+      [
+        0.058126508787432,
+        0.061207292456126,
+        0.032225680915312,
+        0.011311228545737,
+        0.0029776847435,
+        0.00062710121333473
+      ],
+      [
+        0.026694876329334,
+        0.028109740919498,
+        0.01479979762433,
+        0.0051947356457537,
+        0.0013675159171552,
+        0.00028799922247464
+      ],
+      [
+        0.0098077993962369,
+        0.010327626043942,
+        0.0054375021039087,
+        0.0019085656925875,
+        0.00050243056462043,
+        0.00010581201296668
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Brentford host West Ham at the Brentford Community Stadium. The model gives Brentford a 55% chance, draw 23%, West Ham 22%, with 55% for both teams to score. Table context: Brentford 9th (48 points), West Ham 17th (36 points)."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Brentford are winless in 7, with their last 5 reading L-D-D-D-D despite solid chance creation. West Ham are unbeaten in 3 (W-D-W) and 2-2-1 over the last 5, including a 4-0 over Wolverhampton."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "The last 2 meetings at West Ham ended 2-2 and 0-2 to Brentford, with Brentford ahead on expected goals in both. Recent head-to-heads have produced high corner counts."
+    },
+    {
+      "subtitle": "Season stats snapshot",
+      "text": "Brentford: 49 scored (7th), 46 conceded, expected goals outperforming by +5.46, 104 big chances (2nd), fast breaks rank 1st. West Ham: 42 scored, 58 conceded, 17th place; late goals are a feature (76–90 minutes their top period)."
+    },
+    {
+      "subtitle": "Tactical notes",
+      "text": "Brentford attack through quick transitions and wide delivery (168 accurate crosses, 3rd), plus strong penalty-area entries. West Ham carry set-piece threat and direct runs, with Tomáš Souček’s aerial presence and Konstantinos Mavropanos in form."
+    },
+    {
+      "subtitle": "Key players",
+      "text": "Igor Thiago leads Brentford with 21 goals (league rank 2). Mathias Jensen and Mikkel Damsgaard supply service. For West Ham, Jarrod Bowen (8 goals, 10 assists; 5 goals vs Brentford across recent meetings) is the main outlet, with Mavropanos adding goals recently."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Craig Pawson averages 3.7 yellows per game (reds 0.14). Both teams trend to lower card totals, while the last two head-to-heads each hit high corner numbers. Expect a moderate card count and corners to be above average again."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Brentford’s chance creation and home edge, plus West Ham’s defensive record (58 conceded), point to a narrow home win. With both teams to score at 55%, a home win with goals at both ends is the most likely outcome, but the draw remains a live risk."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "West Ham United",
+      "slug": "west-ham-united",
+      "shortName": "West Ham",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 415561,
+      "nameCode": "WHU",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 37,
+      "teamColors": {
+        "primary": "#66192c",
+        "secondary": "#59b3e4",
+        "text": "#59b3e4"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "وست هام يونايتد",
+          "hi": "वेस्ट हैम यूनाइटेड ऍफ़सी",
+          "ru": "Вест Хэм Юнайтед"
+        },
+        "shortNameTranslation": {
+          "ar": "وست هام",
+          "bn": "ওয়েস্ট হ্যাম",
+          "hi": "वेस्ट हैम"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Jarrod Bowen",
+      "firstName": "Jarrod",
+      "lastName": "Bowen",
+      "slug": "jarrod-bowen",
+      "shortName": "J. Bowen",
+      "position": "M",
+      "jerseyNumber": "20",
+      "userCount": 9274,
+      "gender": "M",
+      "sofascoreId": "gbf-3gi",
+      "id": 552884,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "جارود بوين",
+          "bn": "জারড বোয়েন",
+          "hi": "जारोड बोवेन",
+          "ru": "Джаррод Боун"
+        },
+        "shortNameTranslation": {
+          "ar": "ج. بوين",
+          "bn": "জে. বোয়েন",
+          "hi": "जे. बोवेन",
+          "ru": "Д. Боун"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context and half-time overview",
+      "text": "Brentford lead 1-0 at the break at Brentford Community Stadium after a Konstantinos Mavropanos own goal on 15 minutes. The half was competitive. Brentford created the clearer chances, but West Ham United carried sustained pressure and struck the woodwork twice. Possession sits 45-55, with both sides carrying threat in different ways."
+    },
+    {
+      "subtitle": "First-half statistics snapshot",
+      "text": "Chance quality leans Brentford: expected goals 0.98 vs 0.45; big chances 3 vs 1; big chances missed 3 vs 1. Shooting: shots on target 3 vs 4; woodwork 1 vs 2. Territory: final third entries 24 vs 33; penalty area entries 11 vs 15. Duels: aerial success 47% vs 53%; total duels won 46% vs 54%."
+    },
+    {
+      "subtitle": "Tactical patterns and match-ups",
+      "text": "Brentford looked most dangerous when they played quickly into the front line and combined around the box. Mikkel Damsgaard and Mathias Jensen each created a big chance, while Keane Lewis-Potter, Dango Ouattara and Igor Thiago all tested the goalkeeper. Out of possession, Brentford pressed selectively, with limited high regains. West Ham United built pressure through sustained entries and switches, with Jarrod Bowen the main creator from the right and Valentín Castellanos providing penalty-box presence. Their midfield second balls and aerial strength hinted at set-piece threat."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Brentford started on the front foot and turned that early spell into the opening goal. From roughly the 18th to the 33rd minute West Ham United controlled territory and produced their best sustained attacking spell. Brentford then rallied late in the half, before West Ham United surged again just before the interval, finishing the half with the initiative."
+    },
+    {
+      "subtitle": "Key performers and threats",
+      "text": "For Brentford, Damsgaard’s creativity and Jensen’s delivery stood out, with Lewis-Potter and Igor Thiago getting into good shooting positions. Sepp van den Berg and Nathan Collins dealt with a steady stream of crosses and long balls. For West Ham United, Bowen produced 3 key passes and 1 shot on target, Castellanos generated the visitors’ best chance, and Crysencio Summerville linked play well. Mads Hermansen’s first-half rating reflects important interventions. West Ham United’s centre-backs remain a set-piece danger despite the early setback for Mavropanos."
+    },
+    {
+      "subtitle": "Discipline, referee and set pieces",
+      "text": "No cards were shown in the first half. Corners: Brentford 0, West Ham United 5. Given the physical duel profile and territorial pattern, expect a few bookings after the break and further set-piece value for the visitors. Projection: 1-3 yellow cards by full-time, with total corners likely to rise notably and West Ham United favoured to win the corner count."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "Expect West Ham United to restart aggressively, pushing full-backs higher and increasing deliveries towards Castellanos and late runners like Tomáš Souček. Bowen’s diagonal runs into the box remain a primary route to goal. Brentford will look for transitions into the channels, target space behind the visitors’ advanced full-backs, and continue to work early crosses and cut-backs. Fresh legs out wide for either side could swing momentum, but game state should encourage West Ham United pressure and Brentford counter-punching."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "With West Ham United finishing the half on top and dangerous from wide areas and set plays, the next goal edge slightly leans to the visitors. Brentford’s chance creation suggests they can still threaten on the break, but a tight scoreline is likely. Prediction: next goal West Ham United, final score 1-1, with a controlled second half rather than a high-scoring finish."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

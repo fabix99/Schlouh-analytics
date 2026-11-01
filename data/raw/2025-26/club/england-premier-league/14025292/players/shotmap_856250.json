@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ladislav Krejčí",
+        "slug": "ladislav-krejci",
+        "shortName": "L. Krejčí",
+        "position": "D",
+        "jerseyNumber": "37",
+        "userCount": 2133,
+        "gender": "M",
+        "id": 856250,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لاديسلاف كريتشي",
+            "bn": "লাদিস্লাভ ক্রেজচি",
+            "hi": "लादिस्लाव क्रेजी"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. كريتشي",
+            "bn": "এল. ক্রেজচি",
+            "hi": "एल. क्रेजी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 6.1,
+        "y": 33.9,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.7,
+        "z": 22.2
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 45.7,
+        "z": 0
+      },
+      "xg": 0.017615716904402,
+      "xgot": 0.085333503782749,
+      "goalkeeper": {
+        "name": "Alphonse Aréola",
+        "slug": "alphonse-areola",
+        "shortName": "A. Aréola",
+        "position": "G",
+        "jerseyNumber": "23",
+        "userCount": 3018,
+        "gender": "M",
+        "id": 96531,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألفونس أريولا",
+            "bn": "আলফোনস আরেওলা",
+            "hi": "अल्फोंस एरियोला"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. أريولا",
+            "bn": "এ. আরেওলা",
+            "hi": "ए. एरियोला"
+          }
+        }
+      },
+      "id": 6447210,
+      "time": 45,
+      "addedTime": 6,
+      "timeSeconds": 3041,
+      "draw": {
+        "start": {
+          "x": 33.9,
+          "y": 6.1
+        },
+        "block": {
+          "x": 45.7,
+          "y": 1.6
+        },
+        "end": {
+          "x": 47.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.3,
+          "y": 77.8
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2359,
+      "periodTimeSeconds": 341,
+      "incidentType": "shot"
+    }
+  ]
+}

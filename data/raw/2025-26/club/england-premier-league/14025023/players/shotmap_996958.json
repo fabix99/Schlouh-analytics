@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Malo Gusto",
+        "slug": "gusto-malo",
+        "shortName": "M. Gusto",
+        "position": "D",
+        "jerseyNumber": "27",
+        "userCount": 19355,
+        "gender": "M",
+        "sofascoreId": "malogst",
+        "id": 996958,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوستو، مالو",
+            "bn": "গুস্টো, মালো",
+            "hi": "गुस्टो, मालो"
+          },
+          "shortNameTranslation": {
+            "ar": "م. جوستو",
+            "bn": "এম. গুস্টো",
+            "hi": "एम. गुस्टो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 2.9,
+        "y": 53.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.2,
+        "z": 12
+      },
+      "xg": 0.62394911050797,
+      "xgot": 0.77447181940079,
+      "goalkeeper": {
+        "name": "Sam Johnstone",
+        "slug": "sam-johnstone",
+        "shortName": "S. Johnstone",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 600,
+        "gender": "M",
+        "id": 98427,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سام جونستون",
+            "bn": "স্যাম জনস্টোন",
+            "hi": "सैम जॉनस्टोन"
+          },
+          "shortNameTranslation": {
+            "ar": "س. جونستون",
+            "bn": "এস. জনস্টোন",
+            "hi": "एस. जॉनस्टोन"
+          }
+        }
+      },
+      "id": 6136241,
+      "time": 51,
+      "timeSeconds": 3034,
+      "draw": {
+        "start": {
+          "x": 53.4,
+          "y": 2.9
+        },
+        "end": {
+          "x": 48.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.8,
+          "y": 88
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2366,
+      "periodTimeSeconds": 334,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "James Garner",
+        "slug": "james-garner",
+        "shortName": "J. Garner",
+        "position": "M",
+        "jerseyNumber": "37",
+        "userCount": 3101,
+        "gender": "M",
+        "id": 927361,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيمس غارنر",
+            "bn": "জেমস গার্নার",
+            "hi": "जेम्स गार्नर"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. غارنر",
+            "bn": "জে. গার্নার",
+            "hi": "जे. गार्नर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 4.2,
+        "y": 66.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 3.6,
+        "y": 64.3,
+        "z": 0
+      },
+      "xg": 0.043943513184786,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Caoimhin Kelleher",
+        "firstName": "",
+        "lastName": "",
+        "slug": "caoimhin-kelleher",
+        "shortName": "C. Kelleher",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9855,
+        "gender": "M",
+        "sofascoreId": "caoimhinkelleher98",
+        "id": 827362,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاويمن كيليهير",
+            "bn": "কাওইমহিন কেলেহার",
+            "hi": "काओइमहिन केल्हेर"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. كيليهير",
+            "bn": "সি. কেলেহার",
+            "hi": "सी. केल्हेर"
+          }
+        }
+      },
+      "id": 6454545,
+      "time": 84,
+      "timeSeconds": 5006,
+      "draw": {
+        "start": {
+          "x": 66.7,
+          "y": 4.2
+        },
+        "block": {
+          "x": 64.3,
+          "y": 3.6
+        },
+        "end": {
+          "x": 51,
+          "y": 0
+        },
+        "goal": {
+          "x": 51,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 394,
+      "periodTimeSeconds": 2306,
+      "incidentType": "shot"
+    }
+  ]
+}

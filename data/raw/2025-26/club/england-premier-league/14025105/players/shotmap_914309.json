@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Iliman Ndiaye",
+        "slug": "iliman-ndiaye",
+        "shortName": "I. Ndiaye",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 55994,
+        "gender": "M",
+        "sofascoreId": "ilimanndiaye10",
+        "id": 914309,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إليمان نداي",
+            "bn": "ইলিমান এনদিয়ায়ে",
+            "hi": "इलीमन नदिये"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. نداي",
+            "bn": "আই. এনদিয়ায়ে",
+            "hi": "आई. नदिये"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.6,
+        "y": 70.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.4,
+        "z": 8.9
+      },
+      "blockCoordinates": {
+        "x": 2.2,
+        "y": 52.7,
+        "z": 0
+      },
+      "xg": 0.024353638291359,
+      "xgot": 0.011936030350626,
+      "goalkeeper": {
+        "name": "Aaron Ramsdale",
+        "firstName": "",
+        "lastName": "",
+        "slug": "aaron-ramsdale",
+        "shortName": "A. Ramsdale",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 8486,
+        "gender": "M",
+        "sofascoreId": "ARamsdale",
+        "id": 839410,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آرون رامسديل",
+            "bn": "অ্যারন রামসডেল",
+            "hi": "आरोन रामस्डेल"
+          },
+          "shortNameTranslation": {
+            "ar": "آ. رامسديل",
+            "bn": "এ. রামসডেল",
+            "hi": "ए. रामस्डेल"
+          }
+        }
+      },
+      "id": 6267496,
+      "time": 51,
+      "timeSeconds": 3048,
+      "draw": {
+        "start": {
+          "x": 70.6,
+          "y": 18.6
+        },
+        "block": {
+          "x": 52.7,
+          "y": 2.2
+        },
+        "end": {
+          "x": 49.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.6,
+          "y": 91.1
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2352,
+      "periodTimeSeconds": 348,
+      "incidentType": "shot"
+    }
+  ]
+}
