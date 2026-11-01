@@ -46,8 +46,20 @@ Thumbs.db
 data/derived/player_appearances.csv
 data/derived/players/
 # data/processed/
-# data/logs/
-# data/index/
+data/logs/
+data/index/*.backup*
+data/index/*_missing_match_ids.txt
+data/index/full_progress_table.txt
+data/index/extraction_batch_errors.csv
+data/index/competition_config_audit.csv
+data/index/quality_report.csv
+data/index/extraction_progress.csv
+data/index/extraction_progress_runs.csv
+data/index/latest_successful_run.json
+data/index/pipeline_runs.csv
+data/football.db
+*.docx
+dashboard/docs/FULL_APP_TEST_PROMPT.md
 
 # Platform warehouse (regenerate via DLT)
 data/warehouse/*.duckdb
