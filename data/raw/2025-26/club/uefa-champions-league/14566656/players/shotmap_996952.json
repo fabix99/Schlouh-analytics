@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bradley Barcola",
+        "slug": "barcola-bradley",
+        "shortName": "B. Barcola",
+        "position": "F",
+        "jerseyNumber": "29",
+        "userCount": 37640,
+        "gender": "M",
+        "sofascoreId": "bradley_b",
+        "id": 996952,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برادلي باركولا",
+            "bn": "বারকোলা, ব্র্যাডলি",
+            "hi": "बारकोला, ब्रैडली"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. باركولا",
+            "bn": "বি. বারকোলা",
+            "hi": "बी. बारकोला"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 6.3,
+        "y": 39.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.7,
+        "z": 1.9
+      },
+      "blockCoordinates": {
+        "x": 2.8,
+        "y": 44.4,
+        "z": 0
+      },
+      "xg": 0.21191830933094,
+      "xgot": 0.21146647632122,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 36186,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर"
+          }
+        }
+      },
+      "id": 6110287,
+      "time": 30,
+      "timeSeconds": 1782,
+      "draw": {
+        "start": {
+          "x": 39.3,
+          "y": 6.3
+        },
+        "block": {
+          "x": 44.4,
+          "y": 2.8
+        },
+        "end": {
+          "x": 49.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.3,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 918,
+      "periodTimeSeconds": 1782,
+      "incidentType": "shot"
+    }
+  ]
+}

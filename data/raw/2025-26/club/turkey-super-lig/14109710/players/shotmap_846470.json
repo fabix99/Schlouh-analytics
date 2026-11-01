@@ -1,0 +1,96 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Youssef En-Nesyri",
+        "firstName": "",
+        "lastName": "",
+        "slug": "youssef-en-nesyri",
+        "shortName": "Y. En-Nesyri",
+        "position": "F",
+        "jerseyNumber": "21",
+        "userCount": 33880,
+        "gender": "M",
+        "sofascoreId": "ennesyri15",
+        "id": 846470,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوسف النصيري",
+            "bn": "ইউসুফ এন-নেসিরি",
+            "hi": "यूसुफ एन-नेसरी"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. النصيري",
+            "bn": "ই. এন-নেসিরি",
+            "hi": "वाई. एन-नेसरी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 24,
+        "y": 50.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 21.6,
+        "y": 50.2,
+        "z": 0
+      },
+      "xg": 0.029125787317753,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Onurcan Piri",
+        "slug": "onurcan-piri",
+        "shortName": "O. Piri",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 59,
+        "gender": "M",
+        "id": 213542,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أونوركان بيري"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بيري"
+          }
+        }
+      },
+      "id": 6147745,
+      "time": 76,
+      "timeSeconds": 4501,
+      "draw": {
+        "start": {
+          "x": 50.1,
+          "y": 24
+        },
+        "block": {
+          "x": 50.2,
+          "y": 21.6
+        },
+        "end": {
+          "x": 50.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 899,
+      "periodTimeSeconds": 1801,
+      "incidentType": "shot"
+    }
+  ]
+}

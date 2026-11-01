@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Riyad Idrissi",
+        "slug": "riyad-idrissi",
+        "shortName": "R. Idrissi",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 505,
+        "gender": "M",
+        "id": 1123175,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رياض إدريسي"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. إدريسي"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 6,
+        "y": 32.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.9,
+        "z": 10.8
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 45.1,
+        "z": 0
+      },
+      "xg": 0.04502871260047,
+      "xgot": 0.17389656603336,
+      "goalkeeper": {
+        "name": "Mattia Perin",
+        "slug": "mattia-perin",
+        "shortName": "M. Perin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3326,
+        "gender": "M",
+        "id": 79645,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتيا بيرين",
+            "bn": "মাতিয়া পেরিন",
+            "hi": "मटिया पेरिन"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بيرين",
+            "bn": "এম. পেরিন",
+            "hi": "एम. पेरिन"
+          }
+        }
+      },
+      "id": 6267355,
+      "time": 58,
+      "timeSeconds": 3477,
+      "draw": {
+        "start": {
+          "x": 32.8,
+          "y": 6
+        },
+        "block": {
+          "x": 45.1,
+          "y": 1.2
+        },
+        "end": {
+          "x": 46.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.1,
+          "y": 89.2
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1923,
+      "periodTimeSeconds": 777,
+      "incidentType": "shot"
+    }
+  ]
+}

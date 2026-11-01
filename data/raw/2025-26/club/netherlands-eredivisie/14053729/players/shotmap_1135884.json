@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Lewis Holtby",
+        "firstName": "Lewis",
+        "lastName": "Holtby",
+        "slug": "lewis-holtby",
+        "shortName": "L. Holtby",
+        "position": "M",
+        "jerseyNumber": "90",
+        "userCount": 211,
+        "gender": "M",
+        "id": 1135884,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لويس هولتبي",
+            "bn": "লুইস হোল্টবি",
+            "hi": "लुईस होल्टबी"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. هولتبي",
+            "bn": "এল. হোল্টবি",
+            "hi": "एल. होल्टबी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 13,
+        "y": 36.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 12.3,
+        "z": 18.1
+      },
+      "blockCoordinates": {
+        "x": 9.2,
+        "y": 53.6,
+        "z": 0
+      },
+      "xg": 0.044236794114113,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronald Koeman Jr",
+        "slug": "ronald-koeman-jr",
+        "shortName": "R. Koeman Jr",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 163,
+        "gender": "M",
+        "id": 268701,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونالد كومان جونيور"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. جونيور"
+          }
+        }
+      },
+      "id": 6386495,
+      "time": 2,
+      "timeSeconds": 77,
+      "draw": {
+        "start": {
+          "x": 36.6,
+          "y": 13
+        },
+        "block": {
+          "x": 53.6,
+          "y": 9.2
+        },
+        "end": {
+          "x": 87.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 87.7,
+          "y": 81.9
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2623,
+      "periodTimeSeconds": 77,
+      "incidentType": "shot"
+    }
+  ]
+}

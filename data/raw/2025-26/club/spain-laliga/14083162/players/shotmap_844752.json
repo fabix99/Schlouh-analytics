@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nacho Vidal",
+        "slug": "nacho-vidal",
+        "shortName": "N. Vidal",
+        "position": "D",
+        "jerseyNumber": "22",
+        "userCount": 322,
+        "gender": "M",
+        "id": 844752,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناتشو فيدال",
+            "bn": "নাচো ভিদাল",
+            "hi": "नाचो विडाल"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. فيدال",
+            "bn": "এন. ভিদাল",
+            "hi": "एन. विडाल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 3,
+        "y": 54.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.7,
+        "z": 13.3
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 53.2,
+        "z": 0
+      },
+      "xg": 0.45951500535011,
+      "xgot": 0.36570951342583,
+      "goalkeeper": {
+        "name": "Lucas Bergström",
+        "slug": "lucas-bergstrom",
+        "shortName": "L. Bergström",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 3100,
+        "gender": "M",
+        "id": 996903,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس بيرغستروم",
+            "bn": "লুকাস বার্গস্ট্রোম",
+            "hi": "लुकास बर्गस्ट्रोम"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. بيرغستروم",
+            "bn": "এল. বার্গস্ট্রোম",
+            "hi": "एल. बर्गस्ट्रोम"
+          }
+        }
+      },
+      "id": 6301060,
+      "time": 87,
+      "timeSeconds": 5217,
+      "draw": {
+        "start": {
+          "x": 54.5,
+          "y": 3
+        },
+        "block": {
+          "x": 53.2,
+          "y": 1.4
+        },
+        "end": {
+          "x": 51.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.3,
+          "y": 86.7
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 183,
+      "periodTimeSeconds": 2517,
+      "incidentType": "shot"
+    }
+  ]
+}

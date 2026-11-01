@@ -1,0 +1,103 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Alexandre Lacazette",
+        "firstName": "",
+        "lastName": "",
+        "slug": "alexandre-lacazette",
+        "shortName": "A. Lacazette",
+        "position": "F",
+        "jerseyNumber": "91",
+        "userCount": 9369,
+        "gender": "M",
+        "sofascoreId": "lacazettealex",
+        "id": 50070,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر لاكازيت",
+            "bn": "আলেকজান্ডার ল্যাকাজেট",
+            "hi": "एलेक्ज़ेंडर लैकाज़ेट"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. لاكازيت",
+            "bn": "এ. ল্যাকাজেট",
+            "hi": "ए. लैकाज़ेट"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 10.8,
+        "y": 38.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49,
+        "z": 11.4
+      },
+      "blockCoordinates": {
+        "x": 2.7,
+        "y": 46.2,
+        "z": 0
+      },
+      "xg": 0.3302743434906,
+      "xgot": 0.23225030303001,
+      "goalkeeper": {
+        "name": "Edouard Mendy",
+        "firstName": "",
+        "lastName": "",
+        "slug": "edouard-mendy",
+        "shortName": "E. Mendy",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 19645,
+        "gender": "M",
+        "sofascoreId": "edou_mendy",
+        "id": 845074,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إدوارد ميندي",
+            "bn": "এডোয়ার্ড মেন্ডি",
+            "hi": "एडौर्ड मेंडी"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ميندي",
+            "bn": "ই. মেন্ডি",
+            "hi": "ई. मेंडी"
+          }
+        }
+      },
+      "id": 5513251,
+      "time": 50,
+      "timeSeconds": 2945,
+      "draw": {
+        "start": {
+          "x": 38.3,
+          "y": 10.8
+        },
+        "block": {
+          "x": 46.2,
+          "y": 2.7
+        },
+        "end": {
+          "x": 51,
+          "y": 0
+        },
+        "goal": {
+          "x": 51,
+          "y": 88.6
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2455,
+      "periodTimeSeconds": 245,
+      "incidentType": "shot"
+    }
+  ]
+}

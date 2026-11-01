@@ -1,0 +1,88 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kristinn Jónsson",
+        "slug": "kristinn-jonsson",
+        "shortName": "K. Jónsson",
+        "position": "D",
+        "jerseyNumber": "19",
+        "userCount": 9,
+        "gender": "M",
+        "id": 64384,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستين يونسون",
+            "bn": "ক্রিস্টিন জনসন",
+            "hi": "क्रिस्टिन जोन्सन"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. يونسون",
+            "bn": "কে. জনসন",
+            "hi": "के. जोन्सन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 43.3,
+        "y": 25,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.7,
+        "z": 1.3
+      },
+      "xg": 0.1628462523222,
+      "xgot": 0.93912297487259,
+      "goalkeeper": {
+        "name": "Edward McGinty",
+        "firstName": "",
+        "lastName": "",
+        "slug": "edward-mcginty",
+        "shortName": "E. McGinty",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 45,
+        "gender": "M",
+        "id": 888057,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إدوارد مكغينتي"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. مكغينتي"
+          }
+        }
+      },
+      "id": 6333765,
+      "time": 90,
+      "addedTime": 2,
+      "timeSeconds": 5470,
+      "draw": {
+        "start": {
+          "x": 25,
+          "y": 43.3
+        },
+        "end": {
+          "x": 54.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.3,
+          "y": 98.7
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 830,
+      "periodTimeSeconds": 70,
+      "incidentType": "shot"
+    }
+  ]
+}

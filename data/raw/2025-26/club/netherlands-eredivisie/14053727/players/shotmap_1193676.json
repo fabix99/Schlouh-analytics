@@ -1,0 +1,134 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Başar Önal",
+        "firstName": "Basar Onal",
+        "lastName": "",
+        "slug": "basar-onal",
+        "shortName": "B. Önal",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 651,
+        "gender": "M",
+        "id": 1193676,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باشار أونال"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. أونال"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7.7,
+        "y": 40.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.8,
+        "z": 6.3
+      },
+      "xg": 0.18455992639065,
+      "xgot": 0.8509481549263,
+      "id": 5785025,
+      "time": 26,
+      "timeSeconds": 1502,
+      "draw": {
+        "start": {
+          "x": 40.4,
+          "y": 7.7
+        },
+        "end": {
+          "x": 53.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.2,
+          "y": 93.7
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1198,
+      "periodTimeSeconds": 1502,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Başar Önal",
+        "firstName": "Basar Onal",
+        "lastName": "",
+        "slug": "basar-onal",
+        "shortName": "B. Önal",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 651,
+        "gender": "M",
+        "id": 1193676,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باشار أونال"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. أونال"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 20.1,
+        "y": 33.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.2,
+        "y": 43,
+        "z": 0
+      },
+      "xg": 0.011446912772954,
+      "xgot": 0,
+      "id": 5785020,
+      "time": 22,
+      "timeSeconds": 1319,
+      "draw": {
+        "start": {
+          "x": 33.6,
+          "y": 20.1
+        },
+        "block": {
+          "x": 43,
+          "y": 9.2
+        },
+        "end": {
+          "x": 50.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1381,
+      "periodTimeSeconds": 1319,
+      "incidentType": "shot"
+    }
+  ]
+}

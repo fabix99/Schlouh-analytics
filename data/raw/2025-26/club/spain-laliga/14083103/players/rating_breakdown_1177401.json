@@ -1,0 +1,111 @@
+{
+  "passes": [
+    {
+      "playerCoordinates": {
+        "x": 31.5,
+        "y": 83.8
+      },
+      "passEndCoordinates": {
+        "x": 79.7,
+        "y": 51.6
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false,
+      "isLongBall": true
+    },
+    {
+      "playerCoordinates": {
+        "x": 58.7,
+        "y": 87.1
+      },
+      "passEndCoordinates": {
+        "x": 74.1,
+        "y": 93.2
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 19.9,
+        "y": 87.4
+      },
+      "passEndCoordinates": {
+        "x": 6.1,
+        "y": 56.9
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 55.1,
+        "y": 45.4
+      },
+      "passEndCoordinates": {
+        "x": 45.8,
+        "y": 56.7
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 36.3,
+        "y": 91.5
+      },
+      "passEndCoordinates": {
+        "x": 27.4,
+        "y": 74.5
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "dribbles": [],
+  "defensive": [
+    {
+      "playerCoordinates": {
+        "x": 17.8,
+        "y": 87.6
+      },
+      "eventActionType": "tackle",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 26.5,
+        "y": 82
+      },
+      "passEndCoordinates": {
+        "x": 38.2,
+        "y": 94.6
+      },
+      "eventActionType": "clearance",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 32,
+        "y": 86.8
+      },
+      "eventActionType": "ball-recovery",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "ball-carries": []
+}

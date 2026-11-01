@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ridle Baku",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ridle-baku",
+        "shortName": "R. Baku",
+        "position": "D",
+        "jerseyNumber": "17",
+        "userCount": 1457,
+        "gender": "M",
+        "id": 856553,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريدل باكو",
+            "bn": "রিডল বাকু",
+            "hi": "रिडल बाकू"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. باكو",
+            "bn": "আর. বাকু",
+            "hi": "आर. बाकू"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 15.5,
+        "y": 49.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 6.8,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.096092790365219,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Noah Atubolu",
+        "slug": "noah-atubolu",
+        "shortName": "N. Atubolu",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1859,
+        "gender": "M",
+        "id": 980626,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نواه أتوبولو",
+            "bn": "নোয়া আতুবোলু",
+            "hi": "नोआ अतुबोलू"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. أتوبولو",
+            "bn": "এন. আতুবোলু",
+            "hi": "ओ. कैमारा"
+          }
+        }
+      },
+      "id": 6518499,
+      "time": 81,
+      "timeSeconds": 4816,
+      "draw": {
+        "start": {
+          "x": 49.3,
+          "y": 15.5
+        },
+        "block": {
+          "x": 49.8,
+          "y": 6.8
+        },
+        "end": {
+          "x": 50.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 10,
+      "reversedPeriodTimeSeconds": 584,
+      "periodTimeSeconds": 2116,
+      "incidentType": "shot"
+    }
+  ]
+}

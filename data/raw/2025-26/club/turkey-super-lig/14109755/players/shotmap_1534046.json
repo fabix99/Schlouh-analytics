@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Baris Kalayci",
+        "firstName": "Baris Kalayci",
+        "slug": "baris-kalayci",
+        "shortName": "B. Kalaycı",
+        "position": "F",
+        "jerseyNumber": "72",
+        "userCount": 74,
+        "gender": "M",
+        "id": 1534046,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كالايجي، باريس"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. كالايجي"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 3,
+        "y": 32.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.2,
+        "z": 5.1
+      },
+      "blockCoordinates": {
+        "x": 1,
+        "y": 44.4,
+        "z": 0
+      },
+      "xg": 0.040160119533539,
+      "xgot": 0.081300541758537,
+      "goalkeeper": {
+        "name": "Ertuğrul Taşkıran",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ertugrul-taskiran",
+        "shortName": "E. Taşkıran",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 132,
+        "gender": "M",
+        "id": 105974,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إرتوغول تاشكيران"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. تاشكيران"
+          }
+        }
+      },
+      "id": 6388286,
+      "time": 90,
+      "addedTime": 5,
+      "timeSeconds": 5667,
+      "draw": {
+        "start": {
+          "x": 32.8,
+          "y": 3
+        },
+        "block": {
+          "x": 44.4,
+          "y": 1
+        },
+        "end": {
+          "x": 51.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.8,
+          "y": 94.9
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 633,
+      "periodTimeSeconds": 267,
+      "incidentType": "shot"
+    }
+  ]
+}

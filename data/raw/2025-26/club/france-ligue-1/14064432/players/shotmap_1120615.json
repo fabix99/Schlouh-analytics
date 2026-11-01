@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Antoine Mendy",
+        "slug": "mendy-antoine",
+        "shortName": "A. Mendy",
+        "position": "D",
+        "jerseyNumber": "33",
+        "userCount": 6245,
+        "gender": "M",
+        "id": 1120615,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مندي، أنطوان",
+            "bn": "মেন্ডি, অ্যান্টোইন",
+            "hi": "मेंडी, एंटोनी"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. مندي",
+            "bn": "এ. মেন্ডি",
+            "hi": "ए. मेंडी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 14.2,
+        "y": 49.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.9,
+        "z": 17.7
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 51.3,
+        "z": 0
+      },
+      "xg": 0.13772489130497,
+      "xgot": 0.55960702896118,
+      "goalkeeper": {
+        "name": "Hervé Koffi",
+        "slug": "herve-koffi",
+        "shortName": "H. Koffi",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 15835,
+        "gender": "M",
+        "sofascoreId": "HKoffi",
+        "id": 867299,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيرفي كوفي",
+            "bn": "হার্ভে কফি",
+            "hi": "हर्वे कोफ़ी"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. كوفي",
+            "bn": "এইচ. কফি",
+            "hi": "एच. कोफ़ी"
+          }
+        }
+      },
+      "id": 6311574,
+      "time": 40,
+      "timeSeconds": 2398,
+      "draw": {
+        "start": {
+          "x": 49.2,
+          "y": 14.2
+        },
+        "block": {
+          "x": 51.3,
+          "y": 1.2
+        },
+        "end": {
+          "x": 48.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.1,
+          "y": 82.3
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 302,
+      "periodTimeSeconds": 2398,
+      "incidentType": "shot"
+    }
+  ]
+}

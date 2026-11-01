@@ -1,0 +1,96 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Konan N'Dri",
+        "slug": "ndri-konan",
+        "shortName": "K. N'Dri",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 432,
+        "gender": "M",
+        "id": 978327,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كونان ن'دري"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. ن'دري"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 19.5,
+        "y": 74.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.6,
+        "z": 16.7
+      },
+      "blockCoordinates": {
+        "x": 17.5,
+        "y": 72.4,
+        "z": 0
+      },
+      "xg": 0.0060920715332031,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Edoardo Corvi",
+        "firstName": "",
+        "lastName": "",
+        "slug": "edoardo-corvi",
+        "shortName": "E. Corvi",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 282,
+        "gender": "M",
+        "id": 990411,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إدواردو كورفي",
+            "bn": "এডোয়ার্দো কর্ভি",
+            "hi": "एडोआर्डो कोरवी"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. كورفي",
+            "bn": "ই. কর্ভি",
+            "hi": "ई. कोरवी"
+          }
+        }
+      },
+      "id": 6493022,
+      "time": 90,
+      "addedTime": 2,
+      "timeSeconds": 5502,
+      "draw": {
+        "start": {
+          "x": 74.4,
+          "y": 19.5
+        },
+        "block": {
+          "x": 72.4,
+          "y": 17.5
+        },
+        "end": {
+          "x": 46.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.4,
+          "y": 83.3
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 798,
+      "periodTimeSeconds": 102,
+      "incidentType": "shot"
+    }
+  ]
+}

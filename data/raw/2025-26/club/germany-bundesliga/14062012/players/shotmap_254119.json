@@ -1,0 +1,139 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Marius Wolf",
+        "slug": "marius-wolf",
+        "shortName": "M. Wolf",
+        "position": "M",
+        "jerseyNumber": "27",
+        "userCount": 537,
+        "gender": "M",
+        "id": 254119,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماريش وولف",
+            "bn": "মারিয়াস ওল্ফ",
+            "hi": "मारियस वुल्फ"
+          },
+          "shortNameTranslation": {
+            "ar": "م. وولف",
+            "bn": "এম. ওল্ফ",
+            "hi": "एम. वुल्फ"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 10.7,
+        "y": 61.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.5,
+        "z": 1.9
+      },
+      "xg": 0.20246231555939,
+      "xgot": 0.69923973083496,
+      "id": 5477218,
+      "time": 45,
+      "addedTime": 2,
+      "timeSeconds": 2800,
+      "draw": {
+        "start": {
+          "x": 61.4,
+          "y": 10.7
+        },
+        "end": {
+          "x": 45.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.5,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2600,
+      "periodTimeSeconds": 100,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Marius Wolf",
+        "slug": "marius-wolf",
+        "shortName": "M. Wolf",
+        "position": "M",
+        "jerseyNumber": "27",
+        "userCount": 537,
+        "gender": "M",
+        "id": 254119,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماريش وولف",
+            "bn": "মারিয়াস ওল্ফ",
+            "hi": "मारियस वुल्फ"
+          },
+          "shortNameTranslation": {
+            "ar": "م. وولف",
+            "bn": "এম. ওল্ফ",
+            "hi": "एम. वुल्फ"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.2,
+        "y": 67.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.6,
+        "y": 64.9,
+        "z": 0
+      },
+      "xg": 0.088770851492882,
+      "xgot": 0,
+      "id": 5476796,
+      "time": 10,
+      "timeSeconds": 593,
+      "draw": {
+        "start": {
+          "x": 67.9,
+          "y": 14.2
+        },
+        "block": {
+          "x": 64.9,
+          "y": 11.6
+        },
+        "end": {
+          "x": 51.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2107,
+      "periodTimeSeconds": 593,
+      "incidentType": "shot"
+    }
+  ]
+}

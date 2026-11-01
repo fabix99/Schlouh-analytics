@@ -1,0 +1,84 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nicolas Cozza",
+        "slug": "nicolas-cozza",
+        "shortName": "N. Cozza",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 179,
+        "gender": "M",
+        "id": 886286,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولا كوزا",
+            "bn": "নিকোলাস কোজা",
+            "hi": "निकोलस कोज़ा"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. كوزا",
+            "bn": "এন. কোজ্জা",
+            "hi": "एन. कोज़ा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 24.8,
+        "y": 38.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45,
+        "z": 93.1
+      },
+      "xg": 0.012943231500685,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jonathan Fischer",
+        "slug": "jonathan-fischer",
+        "shortName": "J. Fischer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 276,
+        "gender": "M",
+        "id": 1004550,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوناثان فيشر"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. فيشر"
+          }
+        }
+      },
+      "id": 6092318,
+      "time": 55,
+      "timeSeconds": 3241,
+      "draw": {
+        "start": {
+          "x": 38.6,
+          "y": 24.8
+        },
+        "end": {
+          "x": 55,
+          "y": 0
+        },
+        "goal": {
+          "x": 55,
+          "y": 6.9
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2159,
+      "periodTimeSeconds": 541,
+      "incidentType": "shot"
+    }
+  ]
+}

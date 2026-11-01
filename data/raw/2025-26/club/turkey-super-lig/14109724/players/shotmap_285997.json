@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kenneth Paal",
+        "slug": "kenneth-paal",
+        "shortName": "K. Paal",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 255,
+        "gender": "M",
+        "id": 285997,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كينيث بال",
+            "bn": "কেনেথ পল",
+            "hi": "केनेथ पाल"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. بال",
+            "bn": "কে. পাল",
+            "hi": "के. पाल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 24.4,
+        "y": 61,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.2,
+        "y": 57.2,
+        "z": 0
+      },
+      "xg": 0.063470475375652,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mateusz Lis",
+        "slug": "mateusz-lis",
+        "shortName": "M. Lis",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 583,
+        "gender": "M",
+        "id": 798375,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتيوز ليز",
+            "bn": "ম্যাথু লিস",
+            "hi": "माटेयूज़ लिस"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ليز",
+            "bn": "এম. লিস",
+            "hi": "एम. लिस"
+          }
+        }
+      },
+      "id": 6273426,
+      "time": 73,
+      "timeSeconds": 4340,
+      "draw": {
+        "start": {
+          "x": 61,
+          "y": 24.4
+        },
+        "block": {
+          "x": 57.2,
+          "y": 17.2
+        },
+        "end": {
+          "x": 48.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 18,
+      "reversedPeriodTimeSeconds": 1060,
+      "periodTimeSeconds": 1640,
+      "incidentType": "shot"
+    }
+  ]
+}

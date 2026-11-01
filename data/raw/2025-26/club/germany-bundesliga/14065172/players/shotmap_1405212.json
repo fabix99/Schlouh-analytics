@@ -1,0 +1,88 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Luka Vušković",
+        "slug": "luka-vuskovic",
+        "shortName": "L. Vušković",
+        "position": "D",
+        "jerseyNumber": "44",
+        "userCount": 11915,
+        "gender": "M",
+        "sofascoreId": "lukavuskovic",
+        "id": 1405212,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكا فوسكوفيتش",
+            "bn": "লুকা ভুসকোভিচ",
+            "hi": "लुका वुस्कोविक"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. فوسكوفيتش",
+            "bn": "এল. ভুসকোভিচ",
+            "hi": "एल. वुस्कोविक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 9.4,
+        "y": 50.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.4,
+        "z": 15.8
+      },
+      "xg": 0.079189963638783,
+      "xgot": 0.71215349435806,
+      "goalkeeper": {
+        "name": "Mio Backhaus",
+        "firstName": "Mio Backhaus",
+        "lastName": "",
+        "slug": "mio-backhaus",
+        "shortName": "M. Backhaus",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 1096,
+        "gender": "M",
+        "id": 1083390,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باكهاوس ، ميو"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. ، ميو"
+          }
+        }
+      },
+      "id": 6312390,
+      "time": 75,
+      "timeSeconds": 4451,
+      "draw": {
+        "start": {
+          "x": 50.6,
+          "y": 9.4
+        },
+        "end": {
+          "x": 46.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.6,
+          "y": 84.2
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 949,
+      "periodTimeSeconds": 1751,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Leroy Sané",
+        "slug": "leroy-sane",
+        "shortName": "L. Sané",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 40962,
+        "gender": "M",
+        "sofascoreId": "LeroySane",
+        "id": 293519,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليروي ساني",
+            "bn": "লিরোয় সানে",
+            "hi": "लेरॉय साने"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. ساني",
+            "bn": "এল. সানে",
+            "hi": "एल. साने"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 15.2,
+        "y": 54.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.2,
+        "y": 54.2,
+        "z": 0
+      },
+      "xg": 0.030040381476283,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kjell Scherpen",
+        "slug": "kjell-scherpen",
+        "shortName": "K. Scherpen",
+        "position": "G",
+        "jerseyNumber": "37",
+        "userCount": 783,
+        "gender": "M",
+        "id": 852394,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كييل شيربين",
+            "bn": "কেজেল শেরপেন",
+            "hi": "केजेल शेरपेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. شيربين",
+            "bn": "কে. শেরপেন",
+            "hi": "के. शेरपेन"
+          }
+        }
+      },
+      "id": 6244782,
+      "time": 22,
+      "timeSeconds": 1276,
+      "draw": {
+        "start": {
+          "x": 54.8,
+          "y": 15.2
+        },
+        "block": {
+          "x": 54.2,
+          "y": 13.2
+        },
+        "end": {
+          "x": 49.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1424,
+      "periodTimeSeconds": 1276,
+      "incidentType": "shot"
+    }
+  ]
+}

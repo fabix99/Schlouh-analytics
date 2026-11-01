@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Stav Lemkin",
+        "slug": "stav-lemkin",
+        "shortName": "S. Lemkin",
+        "position": "D",
+        "jerseyNumber": "23",
+        "userCount": 319,
+        "gender": "M",
+        "id": 1091923,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستاف ليمكين",
+            "bn": "স্ট্যাভ লেমকিন",
+            "hi": "स्टाव लेमकिन"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ليمكين",
+            "bn": "এস. লেমকিন",
+            "hi": "एस. लेमकिन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.2,
+        "y": 56.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.6,
+        "y": 54,
+        "z": 0
+      },
+      "xg": 0.14841479063034,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronald Koeman Jr",
+        "slug": "ronald-koeman-jr",
+        "shortName": "R. Koeman Jr",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 163,
+        "gender": "M",
+        "id": 268701,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونالد كومان جونيور"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. جونيور"
+          }
+        }
+      },
+      "id": 6127003,
+      "time": 90,
+      "addedTime": 2,
+      "timeSeconds": 5506,
+      "draw": {
+        "start": {
+          "x": 56.2,
+          "y": 14.2
+        },
+        "block": {
+          "x": 54,
+          "y": 8.6
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 794,
+      "periodTimeSeconds": 106,
+      "incidentType": "shot"
+    }
+  ]
+}

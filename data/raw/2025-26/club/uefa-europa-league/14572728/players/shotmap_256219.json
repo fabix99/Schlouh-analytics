@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Paulo Dybala",
+        "firstName": "",
+        "lastName": "",
+        "slug": "paulo-dybala",
+        "shortName": "P. Dybala",
+        "position": "F",
+        "jerseyNumber": "21",
+        "userCount": 115731,
+        "gender": "M",
+        "sofascoreId": "LaJoya",
+        "id": 256219,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باولو ديبالا",
+            "bn": "পাওলো দিবালা",
+            "hi": "पाउलो डिबाला"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. ديبالا",
+            "bn": "পি. দিবালা",
+            "hi": "पी. डिबाला"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 18.8,
+        "y": 53.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.5,
+        "y": 52.3,
+        "z": 0
+      },
+      "xg": 0.18470242619514,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kasper Schmeichel",
+        "slug": "kasper-schmeichel",
+        "shortName": "K. Schmeichel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3807,
+        "gender": "M",
+        "id": 1076,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاسبر شمايكل",
+            "bn": "ক্যাসপার স্মিচেল",
+            "hi": "कैस्पर श्माइचेल"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. شمايكل",
+            "bn": "কে. স্মিচেল",
+            "hi": "के. श्माइचेल"
+          }
+        }
+      },
+      "id": 6335347,
+      "time": 82,
+      "timeSeconds": 4906,
+      "draw": {
+        "start": {
+          "x": 53.8,
+          "y": 18.8
+        },
+        "block": {
+          "x": 52.3,
+          "y": 10.5
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 9,
+      "reversedPeriodTimeSeconds": 494,
+      "periodTimeSeconds": 2206,
+      "incidentType": "shot"
+    }
+  ]
+}

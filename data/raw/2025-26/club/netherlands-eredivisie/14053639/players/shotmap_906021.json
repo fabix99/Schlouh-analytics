@@ -1,0 +1,96 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sergiño Dest",
+        "slug": "sergino-dest",
+        "shortName": "S. Dest",
+        "position": "D",
+        "jerseyNumber": "8",
+        "userCount": 6082,
+        "gender": "M",
+        "sofascoreId": "sergino",
+        "id": 906021,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرجينيو ديست",
+            "bn": "সার্জিনো ডেস্ট",
+            "hi": "सर्जिनो डेस्ट"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ديست",
+            "bn": "এস. ডেস্ট",
+            "hi": "एस. डेस्ट"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.9,
+        "y": 65.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.9,
+        "z": 8.9
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 52,
+        "z": 0
+      },
+      "xg": 0.11581855267286,
+      "xgot": 0.036360956728458,
+      "goalkeeper": {
+        "name": "Kayne van Oevelen",
+        "firstName": "Kayne van Oevelen",
+        "lastName": "",
+        "slug": "kayne-van-oevelen",
+        "shortName": "K. v. Oevelen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 279,
+        "gender": "M",
+        "id": 1393970,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاين فان أويفيلن"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. فان أويفيلن"
+          }
+        }
+      },
+      "id": 6271387,
+      "time": 28,
+      "timeSeconds": 1663,
+      "draw": {
+        "start": {
+          "x": 65.2,
+          "y": 9.9
+        },
+        "block": {
+          "x": 52,
+          "y": 1.2
+        },
+        "end": {
+          "x": 50.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.1,
+          "y": 91.1
+        }
+      },
+      "reversedPeriodTime": 18,
+      "reversedPeriodTimeSeconds": 1037,
+      "periodTimeSeconds": 1663,
+      "incidentType": "shot"
+    }
+  ]
+}

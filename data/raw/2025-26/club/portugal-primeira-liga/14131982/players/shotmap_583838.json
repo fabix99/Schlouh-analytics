@@ -1,0 +1,182 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Gil Dias",
+        "slug": "gil-dias",
+        "shortName": "Gil",
+        "position": "M",
+        "jerseyNumber": "23",
+        "userCount": 363,
+        "gender": "M",
+        "id": 583838,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غيل دياز",
+            "bn": "গিল দিয়াজ",
+            "hi": "गिल डायस"
+          },
+          "shortNameTranslation": {
+            "ar": "غيل",
+            "bn": "গিল",
+            "hi": "गिल डायस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 7.4,
+        "y": 64,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.8,
+        "z": 0.6
+      },
+      "xg": 0.31881135702133,
+      "xgot": 0.27406999468803,
+      "goalkeeper": {
+        "name": "Joel Robles",
+        "slug": "joel-robles",
+        "shortName": "J. Robles",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 152,
+        "gender": "M",
+        "id": 93796,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جويل روبلز",
+            "bn": "জোয়েল রোবেলস",
+            "hi": "जोएल रोबल्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. روبلز",
+            "bn": "জে. রোবেলস",
+            "hi": "जे. रोबल्स"
+          }
+        }
+      },
+      "id": 6349393,
+      "time": 50,
+      "timeSeconds": 2996,
+      "draw": {
+        "start": {
+          "x": 64,
+          "y": 7.4
+        },
+        "end": {
+          "x": 50.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.2,
+          "y": 99.4
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2404,
+      "periodTimeSeconds": 296,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Gil Dias",
+        "slug": "gil-dias",
+        "shortName": "Gil",
+        "position": "M",
+        "jerseyNumber": "23",
+        "userCount": 363,
+        "gender": "M",
+        "id": 583838,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غيل دياز",
+            "bn": "গিল দিয়াজ",
+            "hi": "गिल डायस"
+          },
+          "shortNameTranslation": {
+            "ar": "غيل",
+            "bn": "গিল",
+            "hi": "गिल डायस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.6,
+        "y": 70.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.5,
+        "y": 68.1,
+        "z": 0
+      },
+      "xg": 0.022119294852018,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Joel Robles",
+        "slug": "joel-robles",
+        "shortName": "J. Robles",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 152,
+        "gender": "M",
+        "id": 93796,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جويل روبلز",
+            "bn": "জোয়েল রোবেলস",
+            "hi": "जोएल रोबल्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. روبلز",
+            "bn": "জে. রোবেলস",
+            "hi": "जे. रोबल्स"
+          }
+        }
+      },
+      "id": 6348948,
+      "time": 2,
+      "timeSeconds": 76,
+      "draw": {
+        "start": {
+          "x": 70.2,
+          "y": 11.6
+        },
+        "block": {
+          "x": 68.1,
+          "y": 10.5
+        },
+        "end": {
+          "x": 48.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2624,
+      "periodTimeSeconds": 76,
+      "incidentType": "shot"
+    }
+  ]
+}

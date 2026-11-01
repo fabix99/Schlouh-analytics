@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Aïssa Mandi",
+        "firstName": "",
+        "lastName": "",
+        "slug": "aissa-mandi",
+        "shortName": "A. Mandi",
+        "position": "D",
+        "jerseyNumber": "23",
+        "userCount": 10203,
+        "gender": "M",
+        "sofascoreId": "aissamandi23",
+        "id": 122810,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عيسى ماندي",
+            "bn": "আইসা মান্ডি",
+            "hi": "आइसा मंडी"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. ماندي",
+            "bn": "এ. মান্ডি",
+            "hi": "ए. मंडी"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 9.1,
+        "y": 36.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 37,
+        "z": 4.2
+      },
+      "blockCoordinates": {
+        "x": 4.4,
+        "y": 51.8,
+        "z": 0
+      },
+      "xg": 0.09572396427393,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mory Diaw",
+        "slug": "mory-diaw",
+        "shortName": "M. Diaw",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 3513,
+        "gender": "M",
+        "id": 580226,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موري دياو",
+            "bn": "মোরি ডায়াউ",
+            "hi": "मोरी डियाव"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دياو",
+            "bn": "এম. দিয়াও",
+            "hi": "एम. डियाव"
+          }
+        }
+      },
+      "id": 6274169,
+      "time": 34,
+      "timeSeconds": 2029,
+      "draw": {
+        "start": {
+          "x": 36.6,
+          "y": 9.1
+        },
+        "block": {
+          "x": 51.8,
+          "y": 4.4
+        },
+        "end": {
+          "x": 63,
+          "y": 0
+        },
+        "goal": {
+          "x": 63,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 671,
+      "periodTimeSeconds": 2029,
+      "incidentType": "shot"
+    }
+  ]
+}

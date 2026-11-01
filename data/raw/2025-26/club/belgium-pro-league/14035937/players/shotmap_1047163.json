@@ -1,0 +1,96 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rein Van Helden",
+        "firstName": "",
+        "lastName": "",
+        "slug": "rein-van-helden",
+        "shortName": "R. V. Helden",
+        "position": "D",
+        "jerseyNumber": "20",
+        "userCount": 193,
+        "gender": "M",
+        "id": 1047163,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "راين فاند هيلدن"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. هيلدن"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 8,
+        "y": 46.9,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 4.7,
+        "y": 47.8,
+        "z": 0
+      },
+      "xg": 0.070026412606239,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matthieu Epolo",
+        "firstName": "Matthieu Epolo",
+        "slug": "matthieu-epolo",
+        "shortName": "M. Epolo",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3203,
+        "gender": "M",
+        "id": 1121943,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتيو إيبولو",
+            "bn": "ম্যাথিউ এপোলো",
+            "hi": "मैथ्यू एपोलो"
+          },
+          "shortNameTranslation": {
+            "ar": "م. إيبولو",
+            "bn": "এম. এপোলো",
+            "hi": "एम. एपोलो"
+          }
+        }
+      },
+      "id": 6145334,
+      "time": 31,
+      "timeSeconds": 1800,
+      "draw": {
+        "start": {
+          "x": 46.9,
+          "y": 8
+        },
+        "block": {
+          "x": 47.8,
+          "y": 4.7
+        },
+        "end": {
+          "x": 49.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 900,
+      "periodTimeSeconds": 1800,
+      "incidentType": "shot"
+    }
+  ]
+}

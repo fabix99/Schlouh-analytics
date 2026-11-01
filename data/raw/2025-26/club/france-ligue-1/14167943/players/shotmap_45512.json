@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Youssef El Arabi",
+        "slug": "youssef-el-arabi",
+        "shortName": "Y. E. Arabi",
+        "position": "F",
+        "jerseyNumber": "19",
+        "userCount": 2436,
+        "gender": "M",
+        "id": 45512,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوسف العربي",
+            "bn": "ইউসুফ এল আরাবি",
+            "hi": "यूसुफ अल अरबी"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. العربي",
+            "bn": "ওয়াই. ই. আরবি",
+            "hi": "ये अल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 11.1,
+        "y": 44.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 21,
+        "z": 18.1
+      },
+      "blockCoordinates": {
+        "x": 4.9,
+        "y": 64.6,
+        "z": 0
+      },
+      "xg": 0.038590792566538,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jonathan Fischer",
+        "slug": "jonathan-fischer",
+        "shortName": "J. Fischer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 276,
+        "gender": "M",
+        "id": 1004550,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوناثان فيشر"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. فيشر"
+          }
+        }
+      },
+      "id": 6092311,
+      "time": 54,
+      "timeSeconds": 3205,
+      "draw": {
+        "start": {
+          "x": 44.2,
+          "y": 11.1
+        },
+        "block": {
+          "x": 64.6,
+          "y": 4.9
+        },
+        "end": {
+          "x": 79,
+          "y": 0
+        },
+        "goal": {
+          "x": 79,
+          "y": 81.9
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2195,
+      "periodTimeSeconds": 505,
+      "incidentType": "shot"
+    }
+  ]
+}

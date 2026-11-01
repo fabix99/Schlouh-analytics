@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bartłomiej Wdowik",
+        "slug": "bartlomiej-wdowik",
+        "shortName": "B. Wdowik",
+        "position": "D",
+        "jerseyNumber": "27",
+        "userCount": 615,
+        "gender": "M",
+        "id": 936874,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارتومي فداويك",
+            "bn": "বার্টলোমিজ উইডোভিক",
+            "hi": "बार्टोलोमिए वडोविक"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فداويك",
+            "bn": "বি. উইডোভিক",
+            "hi": "बी. वडोविक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.9,
+        "y": 35.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.7,
+        "z": 2.5
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 49.3,
+        "z": 0
+      },
+      "xg": 0.0344024784863,
+      "xgot": 0.016953818500042,
+      "goalkeeper": {
+        "name": "Johannes Kreidl",
+        "slug": "johannes-kreidl",
+        "shortName": "J. Kreidl",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 81,
+        "gender": "M",
+        "id": 578086,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوهانس كرايدل"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. كرايدل"
+          }
+        }
+      },
+      "id": 6258420,
+      "time": 78,
+      "timeSeconds": 4668,
+      "draw": {
+        "start": {
+          "x": 35.2,
+          "y": 18.9
+        },
+        "block": {
+          "x": 49.3,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 50.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.3,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 732,
+      "periodTimeSeconds": 1968,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Brenner",
+        "slug": "brenner",
+        "shortName": "Brenner",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 185,
+        "gender": "M",
+        "id": 1799251,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برينر"
+          },
+          "shortNameTranslation": {
+            "ar": "برينر"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 11.9,
+        "y": 37.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.2,
+        "z": 2.5
+      },
+      "blockCoordinates": {
+        "x": 9,
+        "y": 40.2,
+        "z": 0
+      },
+      "xg": 0.32869547605515,
+      "xgot": 0.31903403997421,
+      "id": 5714250,
+      "time": 7,
+      "timeSeconds": 368,
+      "draw": {
+        "start": {
+          "x": 37.6,
+          "y": 11.9
+        },
+        "block": {
+          "x": 40.2,
+          "y": 9
+        },
+        "end": {
+          "x": 47.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.8,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2332,
+      "periodTimeSeconds": 368,
+      "incidentType": "shot"
+    }
+  ]
+}

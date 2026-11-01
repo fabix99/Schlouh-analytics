@@ -1,0 +1,67 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jesper Karlsson",
+        "slug": "jesper-karlsson",
+        "shortName": "J. Karlsson",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 1254,
+        "gender": "M",
+        "id": 834597,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جاسبر كارلسون",
+            "bn": "জেসপার কার্লসন",
+            "hi": "जेस्पर कार्लसन"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. كارلسون",
+            "bn": "জে. কার্লসন",
+            "hi": "जे. कार्लसन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.2,
+        "z": 1.3
+      },
+      "xg": 0.7884,
+      "xgot": 0.92423915863037,
+      "id": 5824674,
+      "time": 8,
+      "timeSeconds": 454,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 45.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.8,
+          "y": 98.7
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2246,
+      "periodTimeSeconds": 454,
+      "incidentType": "shot"
+    }
+  ]
+}

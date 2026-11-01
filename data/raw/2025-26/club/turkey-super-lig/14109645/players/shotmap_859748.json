@@ -1,0 +1,75 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Carlos Mané",
+        "slug": "carlos-mane",
+        "shortName": "C. Mané",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 372,
+        "gender": "M",
+        "id": 859748,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس ماني",
+            "bn": "কার্লোস মানে",
+            "hi": "कार्लोस माने"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. ماني",
+            "bn": "সি. মানে",
+            "hi": "सी. माने"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.9,
+        "y": 46.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.6,
+        "z": 0.6
+      },
+      "blockCoordinates": {
+        "x": 5.7,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.10486632585526,
+      "xgot": 0.18583245575428,
+      "id": 5655469,
+      "time": 34,
+      "timeSeconds": 1985,
+      "draw": {
+        "start": {
+          "x": 46.6,
+          "y": 20.9
+        },
+        "block": {
+          "x": 49.8,
+          "y": 5.7
+        },
+        "end": {
+          "x": 53.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.4,
+          "y": 99.4
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 715,
+      "periodTimeSeconds": 1985,
+      "incidentType": "shot"
+    }
+  ]
+}

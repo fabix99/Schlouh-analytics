@@ -1,0 +1,85 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ivan Brnić",
+        "slug": "ivan-brnic",
+        "shortName": "I. Brnić",
+        "position": "F",
+        "jerseyNumber": "77",
+        "userCount": 377,
+        "gender": "M",
+        "id": 916182,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفان برنيتش",
+            "bn": "ইভান ব্রনিক",
+            "hi": "इवान ब्रनिक"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. برنيتش",
+            "bn": "আই. ব্রনিক",
+            "hi": "आई. ब्रनिक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 5.2,
+        "y": 33.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51,
+        "z": 1.3
+      },
+      "xg": 0.046364076435566,
+      "xgot": 0.065736569464207,
+      "goalkeeper": {
+        "name": "Zafer Görgen",
+        "slug": "zafer-gorgen",
+        "shortName": "Z. Görgen",
+        "position": "G",
+        "jerseyNumber": "20",
+        "userCount": 72,
+        "gender": "M",
+        "id": 930907,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ظافر غورغن"
+          },
+          "shortNameTranslation": {
+            "ar": "ظ. غورغن"
+          }
+        }
+      },
+      "id": 6397155,
+      "time": 84,
+      "timeSeconds": 5023,
+      "draw": {
+        "start": {
+          "x": 33.6,
+          "y": 5.2
+        },
+        "end": {
+          "x": 49,
+          "y": 0
+        },
+        "goal": {
+          "x": 49,
+          "y": 98.7
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 377,
+      "periodTimeSeconds": 2323,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Zé Carlos",
+        "firstName": "Zé",
+        "lastName": "Carlos",
+        "slug": "ze-carlos",
+        "shortName": "Z. Carlos",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 75,
+        "gender": "M",
+        "id": 1001662,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زي كارلوس",
+            "bn": "যে কার্লোস",
+            "hi": "ज़े कार्लोस"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. كارلوس",
+            "bn": "জেড. কার্লোস",
+            "hi": "ज़ेड. कार्लोस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.2,
+        "y": 71.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9,
+        "y": 75,
+        "z": 0
+      },
+      "xg": 0.020934307947755,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gabriel Batista",
+        "firstName": "",
+        "lastName": "",
+        "slug": "gabriel-batista",
+        "shortName": "G. Batista",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 350,
+        "gender": "M",
+        "id": 822526,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غابرييل باتيستا"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. باتيستا"
+          }
+        }
+      },
+      "id": 6103435,
+      "time": 46,
+      "timeSeconds": 2728,
+      "draw": {
+        "start": {
+          "x": 71.8,
+          "y": 8.2
+        },
+        "block": {
+          "x": 75,
+          "y": 9
+        },
+        "end": {
+          "x": 53.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 45,
+      "reversedPeriodTimeSeconds": 2672,
+      "periodTimeSeconds": 28,
+      "incidentType": "shot"
+    }
+  ]
+}

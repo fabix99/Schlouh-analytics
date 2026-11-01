@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sergio Carreira",
+        "slug": "sergio-carreira",
+        "shortName": "S. Carreira",
+        "position": "M",
+        "jerseyNumber": "5",
+        "userCount": 463,
+        "gender": "M",
+        "id": 1002764,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرجيو كاريرا",
+            "bn": "সার্জিও ক্যারেরা",
+            "hi": "सर्जियो कैरीरा"
+          },
+          "shortNameTranslation": {
+            "ar": "س. كاريرا",
+            "bn": "এস. ক্যারেইরা",
+            "hi": "एस. कारीरा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.1,
+        "y": 55.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.5,
+        "z": 7
+      },
+      "xg": 0.36977252364159,
+      "xgot": 0.7583954334259,
+      "goalkeeper": {
+        "name": "Wojciech Szczęsny",
+        "slug": "wojciech-szczesny",
+        "shortName": "W. Szczęsny",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 94750,
+        "gender": "M",
+        "sofascoreId": "wojciech.szczesny1",
+        "id": 50490,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فويتشيك تشيزني",
+            "bn": "ওজসিচ স্‌জ্‌সনি",
+            "hi": "वोज्शिएक स्ज़ेसनी"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. شتشيسني",
+            "bn": "ডব্লিউ. স্‌জ্‌সনি",
+            "hi": "डब्लू. स्ज़ेसनी"
+          }
+        }
+      },
+      "id": 6148477,
+      "time": 11,
+      "timeSeconds": 653,
+      "draw": {
+        "start": {
+          "x": 55.7,
+          "y": 14.1
+        },
+        "end": {
+          "x": 45.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.5,
+          "y": 93
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2047,
+      "periodTimeSeconds": 653,
+      "incidentType": "shot"
+    }
+  ]
+}

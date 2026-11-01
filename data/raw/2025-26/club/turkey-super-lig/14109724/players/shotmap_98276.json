@@ -1,0 +1,85 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Veysel Sarı",
+        "slug": "veysel-sari",
+        "shortName": "V. Sarı",
+        "position": "D",
+        "jerseyNumber": "89",
+        "userCount": 107,
+        "gender": "M",
+        "id": 98276,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيسل ساري"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. ساري"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 7.7,
+        "y": 53.8,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.8,
+        "z": 13.9
+      },
+      "xg": 0.082555912435055,
+      "xgot": 0.48466461896896,
+      "goalkeeper": {
+        "name": "Mateusz Lis",
+        "slug": "mateusz-lis",
+        "shortName": "M. Lis",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 583,
+        "gender": "M",
+        "id": 798375,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتيوز ليز",
+            "bn": "ম্যাথু লিস",
+            "hi": "माटेयूज़ लिस"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ليز",
+            "bn": "এম. লিস",
+            "hi": "एम. लिस"
+          }
+        }
+      },
+      "id": 6273014,
+      "time": 40,
+      "timeSeconds": 2376,
+      "draw": {
+        "start": {
+          "x": 53.8,
+          "y": 7.7
+        },
+        "end": {
+          "x": 46.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.2,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 324,
+      "periodTimeSeconds": 2376,
+      "incidentType": "shot"
+    }
+  ]
+}

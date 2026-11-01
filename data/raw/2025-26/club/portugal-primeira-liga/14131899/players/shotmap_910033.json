@@ -1,0 +1,129 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Cedric Teguia",
+        "slug": "cedric-teguia",
+        "shortName": "C. Teguia",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 82,
+        "gender": "M",
+        "id": 910033,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيدريك تيغويا"
+          },
+          "shortNameTranslation": {
+            "ar": "س. تيغويا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.9,
+        "y": 49.9,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 57.8,
+        "z": 13.9
+      },
+      "xg": 0.098465040326118,
+      "xgot": 0,
+      "id": 5632542,
+      "time": 42,
+      "timeSeconds": 2463,
+      "draw": {
+        "start": {
+          "x": 49.9,
+          "y": 8.9
+        },
+        "end": {
+          "x": 42.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 42.2,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 237,
+      "periodTimeSeconds": 2463,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Cedric Teguia",
+        "slug": "cedric-teguia",
+        "shortName": "C. Teguia",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 82,
+        "gender": "M",
+        "id": 910033,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيدريك تيغويا"
+          },
+          "shortNameTranslation": {
+            "ar": "س. تيغويا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.9,
+        "y": 71.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 4.1,
+        "y": 54.9,
+        "z": 0
+      },
+      "xg": 0.021334458142519,
+      "xgot": 0,
+      "id": 5632290,
+      "time": 23,
+      "timeSeconds": 1360,
+      "draw": {
+        "start": {
+          "x": 71.1,
+          "y": 11.9
+        },
+        "block": {
+          "x": 54.9,
+          "y": 4.1
+        },
+        "end": {
+          "x": 46.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1340,
+      "periodTimeSeconds": 1360,
+      "incidentType": "shot"
+    }
+  ]
+}

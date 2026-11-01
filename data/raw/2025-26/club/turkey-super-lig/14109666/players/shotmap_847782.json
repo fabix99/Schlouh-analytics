@@ -1,0 +1,130 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Soner Dikmen",
+        "slug": "soner-dikmen",
+        "shortName": "S. Dikmen",
+        "position": "M",
+        "jerseyNumber": "6",
+        "userCount": 81,
+        "gender": "M",
+        "id": 847782,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سونر ديكمن"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ديكمن"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 14.8,
+        "y": 43.9,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.6,
+        "y": 45.8,
+        "z": 0
+      },
+      "xg": 0.0096250846982002,
+      "xgot": 0,
+      "id": 5830785,
+      "time": 72,
+      "timeSeconds": 4281,
+      "draw": {
+        "start": {
+          "x": 43.9,
+          "y": 14.8
+        },
+        "block": {
+          "x": 45.8,
+          "y": 9.6
+        },
+        "end": {
+          "x": 49.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 19,
+      "reversedPeriodTimeSeconds": 1119,
+      "periodTimeSeconds": 1581,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Soner Dikmen",
+        "slug": "soner-dikmen",
+        "shortName": "S. Dikmen",
+        "position": "M",
+        "jerseyNumber": "6",
+        "userCount": 81,
+        "gender": "M",
+        "id": 847782,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سونر ديكمن"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ديكمن"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.2,
+        "y": 47.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.6,
+        "z": 7
+      },
+      "xg": 0.13411244750023,
+      "xgot": 0.53419774770737,
+      "id": 5830013,
+      "time": 13,
+      "timeSeconds": 752,
+      "draw": {
+        "start": {
+          "x": 47.8,
+          "y": 15.2
+        },
+        "end": {
+          "x": 53.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.4,
+          "y": 93
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1948,
+      "periodTimeSeconds": 752,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bruno",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bruno",
+        "shortName": "Bruno",
+        "position": "D",
+        "jerseyNumber": "7",
+        "userCount": 657,
+        "gender": "M",
+        "id": 800106,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برونو",
+            "bn": "ব্রুনো",
+            "hi": "ब्रूनो"
+          },
+          "shortNameTranslation": {
+            "ar": "برونو",
+            "bn": "ব্রুনো",
+            "hi": "ब्रूनो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 28.3,
+        "y": 67.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 40.7,
+        "z": 86.1
+      },
+      "xg": 0.013319908641279,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lukáš Hrádecký",
+        "slug": "lukas-hradecky",
+        "shortName": "L. Hrádecký",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2511,
+        "gender": "M",
+        "id": 15219,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس هراديكى",
+            "bn": "লুকাস হ্রাডেকি",
+            "hi": "लुकास ह्राडेकी"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. هراديكى",
+            "bn": "এল. হ্রাডেকি",
+            "hi": "एल. ह्राडेकी"
+          }
+        }
+      },
+      "id": 6251452,
+      "time": 56,
+      "timeSeconds": 3324,
+      "draw": {
+        "start": {
+          "x": 67.5,
+          "y": 28.3
+        },
+        "end": {
+          "x": 59.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 59.3,
+          "y": 13.9
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2076,
+      "periodTimeSeconds": 624,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Bruno",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bruno",
+        "shortName": "Bruno",
+        "position": "D",
+        "jerseyNumber": "7",
+        "userCount": 657,
+        "gender": "M",
+        "id": 800106,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برونو",
+            "bn": "ব্রুনো",
+            "hi": "ब्रूनो"
+          },
+          "shortNameTranslation": {
+            "ar": "برونو",
+            "bn": "ব্রুনো",
+            "hi": "ब्रूनो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 20.4,
+        "y": 57,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.7,
+        "y": 55.8,
+        "z": 0
+      },
+      "xg": 0.070081830024719,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lukáš Hrádecký",
+        "slug": "lukas-hradecky",
+        "shortName": "L. Hrádecký",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2511,
+        "gender": "M",
+        "id": 15219,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس هراديكى",
+            "bn": "লুকাস হ্রাডেকি",
+            "hi": "लुकास ह्राडेकी"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. هراديكى",
+            "bn": "এল. হ্রাডেকি",
+            "hi": "एल. ह्राडेकी"
+          }
+        }
+      },
+      "id": 6251268,
+      "time": 17,
+      "timeSeconds": 998,
+      "draw": {
+        "start": {
+          "x": 57,
+          "y": 20.4
+        },
+        "block": {
+          "x": 55.8,
+          "y": 17.7
+        },
+        "end": {
+          "x": 47.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1702,
+      "periodTimeSeconds": 998,
+      "incidentType": "shot"
+    }
+  ]
+}

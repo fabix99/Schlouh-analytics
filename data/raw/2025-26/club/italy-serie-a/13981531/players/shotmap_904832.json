@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Khéphren Thuram",
+        "firstName": "",
+        "lastName": "",
+        "slug": "khephren-thuram",
+        "shortName": "K. Thuram",
+        "position": "M",
+        "jerseyNumber": "19",
+        "userCount": 11954,
+        "gender": "M",
+        "sofascoreId": "k_thuram",
+        "id": 904832,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيفرين تورام",
+            "bn": "খেফ্রেন থুরাম",
+            "hi": "खेफ्रेन थुरम"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. تورام",
+            "bn": "কে. থুরাম",
+            "hi": "के. थुरम"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 21.4,
+        "y": 46.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.2,
+        "z": 13.3
+      },
+      "blockCoordinates": {
+        "x": 7.7,
+        "y": 49.1,
+        "z": 0
+      },
+      "xg": 0.08455716073513,
+      "xgot": 0.035637378692627,
+      "goalkeeper": {
+        "name": "Alberto Paleari",
+        "slug": "alberto-paleari",
+        "shortName": "A. Paleari",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 380,
+        "gender": "M",
+        "id": 259281,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألبرتو باليري",
+            "bn": "আলবার্তো পালিয়ারি",
+            "hi": "अल्बर्टो पलेरी"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باليري",
+            "bn": "এ. পালিয়ারি",
+            "hi": "ए. पलेरी"
+          }
+        }
+      },
+      "id": 6134112,
+      "time": 30,
+      "timeSeconds": 1797,
+      "draw": {
+        "start": {
+          "x": 46.9,
+          "y": 21.4
+        },
+        "block": {
+          "x": 49.1,
+          "y": 7.7
+        },
+        "end": {
+          "x": 50.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.8,
+          "y": 86.7
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 903,
+      "periodTimeSeconds": 1797,
+      "incidentType": "shot"
+    }
+  ]
+}

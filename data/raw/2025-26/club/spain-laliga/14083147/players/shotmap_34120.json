@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Alexis Sánchez",
+        "firstName": "",
+        "lastName": "",
+        "slug": "alexis-sanchez",
+        "shortName": "A. Sánchez",
+        "position": "F",
+        "jerseyNumber": "10",
+        "userCount": 29745,
+        "gender": "M",
+        "sofascoreId": "AlexisS",
+        "id": 34120,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليكسيس سانشيز",
+            "bn": "অ্যালেক্সিস সানচেজ",
+            "hi": "एलेक्सिस सांचेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سانشيز",
+            "bn": "এ. সানচেজ",
+            "hi": "ए. सांचेज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 5.6,
+        "y": 34.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 4.1,
+        "y": 37.9,
+        "z": 0
+      },
+      "xg": 0.031087340787053,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Álvaro Valles",
+        "slug": "alvaro-valles",
+        "shortName": "Á. Valles",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 977,
+        "gender": "M",
+        "id": 964983,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألفارو فاليس",
+            "bn": "আলভারো ভ্যালেস",
+            "hi": "अल्वारो वल्लेस"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فاليس",
+            "bn": "আ. ভ্যালেস",
+            "hi": "ए. वल्लेस"
+          }
+        }
+      },
+      "id": 6274403,
+      "time": 88,
+      "timeSeconds": 5266,
+      "draw": {
+        "start": {
+          "x": 34.5,
+          "y": 5.6
+        },
+        "block": {
+          "x": 37.9,
+          "y": 4.1
+        },
+        "end": {
+          "x": 47.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 134,
+      "periodTimeSeconds": 2566,
+      "incidentType": "shot"
+    }
+  ]
+}

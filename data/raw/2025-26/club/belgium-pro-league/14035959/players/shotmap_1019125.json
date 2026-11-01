@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Omri Gandelman",
+        "firstName": "Omri Gandelman",
+        "slug": "omri-gandelman",
+        "shortName": "O. Gandelman",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 1100,
+        "gender": "M",
+        "id": 1019125,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عمري غاندلمان",
+            "bn": "ওমরি গ্যান্ডেলম্যান",
+            "hi": "ओमरी गंडेलमैन"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. غاندلمان",
+            "bn": "ও. গ্যান্ডেলম্যান",
+            "hi": "ओ. गंडेलमैन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.5,
+        "y": 53.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.2,
+        "y": 53.1,
+        "z": 0
+      },
+      "xg": 0.12842436134815,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yannick Thoelen",
+        "slug": "yannick-thoelen",
+        "shortName": "Y. Thoelen",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 94,
+        "gender": "M",
+        "id": 794571,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يانيك ثويلن"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ثويلن"
+          }
+        }
+      },
+      "id": 6347944,
+      "time": 57,
+      "timeSeconds": 3399,
+      "draw": {
+        "start": {
+          "x": 53.6,
+          "y": 14.5
+        },
+        "block": {
+          "x": 53.1,
+          "y": 11.2
+        },
+        "end": {
+          "x": 51.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2001,
+      "periodTimeSeconds": 699,
+      "incidentType": "shot"
+    }
+  ]
+}

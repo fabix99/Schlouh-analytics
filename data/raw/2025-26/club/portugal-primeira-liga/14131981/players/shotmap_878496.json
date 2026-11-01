@@ -1,0 +1,85 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ricardo Mangas",
+        "firstName": "Ricardo",
+        "lastName": "Mangas",
+        "slug": "mangas-ricardo",
+        "shortName": "R. Mangas",
+        "position": "D",
+        "jerseyNumber": "91",
+        "userCount": 1173,
+        "gender": "M",
+        "id": 878496,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانجاس، ريكاردو",
+            "bn": "মাঙ্গাস, রিকার্ডো",
+            "hi": "मंगास, रिकार्डो"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ريكاردو",
+            "bn": "আর. মঙ্গাস",
+            "hi": "आर. मंगास"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.2,
+        "y": 35.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 57.1,
+        "z": 38.9
+      },
+      "xg": 0.09982892125845,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "João Gonçalves",
+        "slug": "joao-goncalves",
+        "shortName": "J. Gonçalves",
+        "position": "G",
+        "userCount": 62,
+        "gender": "M",
+        "id": 987596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جواو غونكالفيس"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. غونكالفيس"
+          }
+        }
+      },
+      "id": 6343583,
+      "time": 39,
+      "timeSeconds": 2325,
+      "draw": {
+        "start": {
+          "x": 35.4,
+          "y": 10.2
+        },
+        "end": {
+          "x": 42.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 42.9,
+          "y": 61.1
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 375,
+      "periodTimeSeconds": 2325,
+      "incidentType": "shot"
+    }
+  ]
+}

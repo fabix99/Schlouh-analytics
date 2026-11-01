@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Fran Navarro",
+        "slug": "fran-navarro",
+        "shortName": "F. Navarro",
+        "position": "F",
+        "jerseyNumber": "39",
+        "userCount": 1032,
+        "gender": "M",
+        "id": 914772,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فران نافارو",
+            "bn": "ফ্রাঙ্ক নাভারো",
+            "hi": "फ्रान नवारो"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. نافارو",
+            "bn": "এফ. নাভারো",
+            "hi": "एफ. नवारो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.8,
+        "y": 67.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.6,
+        "y": 65.5,
+        "z": 0
+      },
+      "xg": 0.08099440485239,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gabriel Batista",
+        "firstName": "",
+        "lastName": "",
+        "slug": "gabriel-batista",
+        "shortName": "G. Batista",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 350,
+        "gender": "M",
+        "id": 822526,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غابرييل باتيستا"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. باتيستا"
+          }
+        }
+      },
+      "id": 6355779,
+      "time": 18,
+      "timeSeconds": 1067,
+      "draw": {
+        "start": {
+          "x": 67.7,
+          "y": 8.8
+        },
+        "block": {
+          "x": 65.5,
+          "y": 7.6
+        },
+        "end": {
+          "x": 51.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1633,
+      "periodTimeSeconds": 1067,
+      "incidentType": "shot"
+    }
+  ]
+}

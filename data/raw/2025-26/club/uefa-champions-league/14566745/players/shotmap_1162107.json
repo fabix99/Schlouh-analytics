@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Roony Bardghji",
+        "slug": "roony-bardghji",
+        "shortName": "R. Bardghji",
+        "position": "F",
+        "jerseyNumber": "19",
+        "userCount": 98682,
+        "gender": "M",
+        "id": 1162107,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روني باردغجي",
+            "bn": "রুনি বর্ধজী",
+            "hi": "रूनी बार्डघजी"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. باردغجي",
+            "bn": "আর. বর্ধজী",
+            "hi": "आर. बार्डघजी"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.5,
+        "y": 51.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.8,
+        "y": 48.4,
+        "z": 0
+      },
+      "xg": 0.036368165165186,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nordin Jackers",
+        "slug": "nordin-jackers",
+        "shortName": "N. Jackers",
+        "position": "G",
+        "jerseyNumber": "29",
+        "userCount": 423,
+        "gender": "M",
+        "id": 361722,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نور الدين جاكرز"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. جاكرز"
+          }
+        }
+      },
+      "id": 6115159,
+      "time": 90,
+      "addedTime": 6,
+      "timeSeconds": 5755,
+      "draw": {
+        "start": {
+          "x": 51.1,
+          "y": 23.5
+        },
+        "block": {
+          "x": 48.4,
+          "y": 11.8
+        },
+        "end": {
+          "x": 45.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 545,
+      "periodTimeSeconds": 355,
+      "incidentType": "shot"
+    }
+  ]
+}

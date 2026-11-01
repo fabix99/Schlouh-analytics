@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "André Almeida",
+        "slug": "andre-almeida",
+        "shortName": "A. Almeida",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 1167,
+        "gender": "M",
+        "id": 845693,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أندريه ألميدا",
+            "bn": "আন্দ্রে আলমেদা",
+            "hi": "आंद्रे अल्मेडा"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. ألميدا",
+            "bn": "এ. আলমেদা",
+            "hi": "ए. अल्मेडा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 24.3,
+        "y": 40.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.8,
+        "y": 44,
+        "z": 0
+      },
+      "xg": 0.05997946485877,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Leo Román",
+        "firstName": "",
+        "lastName": "",
+        "slug": "leo-roman",
+        "shortName": "L. Román",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1600,
+        "gender": "M",
+        "id": 1131909,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليو روماني",
+            "bn": "লিও রোমান",
+            "hi": "लियो रोमान"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. روماني",
+            "bn": "এল. রোমান",
+            "hi": "एल. रोमान"
+          }
+        }
+      },
+      "id": 6380243,
+      "time": 43,
+      "timeSeconds": 2560,
+      "draw": {
+        "start": {
+          "x": 40.2,
+          "y": 24.3
+        },
+        "block": {
+          "x": 44,
+          "y": 13.8
+        },
+        "end": {
+          "x": 49.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 140,
+      "periodTimeSeconds": 2560,
+      "incidentType": "shot"
+    }
+  ]
+}

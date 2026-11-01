@@ -1,0 +1,102 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nico Williams",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nico-williams",
+        "shortName": "N. Williams",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 82664,
+        "gender": "M",
+        "sofascoreId": "NicoWill",
+        "id": 1085400,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكو ويليامز",
+            "bn": "নিকো উইলিয়ামস",
+            "hi": "निको विलियम्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. ويليامز",
+            "bn": "এন. উইলিয়ামস",
+            "hi": "एन. विलियम्स"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.2,
+        "y": 35,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.1,
+        "y": 38.2,
+        "z": 0
+      },
+      "xg": 0.048839721828699,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Leo Román",
+        "firstName": "",
+        "lastName": "",
+        "slug": "leo-roman",
+        "shortName": "L. Román",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1600,
+        "gender": "M",
+        "id": 1131909,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليو روماني",
+            "bn": "লিও রোমান",
+            "hi": "लियो रोमान"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. روماني",
+            "bn": "এল. রোমান",
+            "hi": "एल. रोमान"
+          }
+        }
+      },
+      "id": 5840069,
+      "time": 61,
+      "timeSeconds": 3628,
+      "draw": {
+        "start": {
+          "x": 35,
+          "y": 14.2
+        },
+        "block": {
+          "x": 38.2,
+          "y": 11.1
+        },
+        "end": {
+          "x": 49.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1772,
+      "periodTimeSeconds": 928,
+      "incidentType": "shot"
+    }
+  ]
+}

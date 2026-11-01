@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Andy Diouf",
+        "firstName": "",
+        "lastName": "",
+        "slug": "andy-diouf",
+        "shortName": "A. Diouf",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 4173,
+        "gender": "M",
+        "id": 1048889,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أندي ديوف",
+            "bn": "অ্যান্ডি ডিউফ",
+            "hi": "एंडी डियॉफ़"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. ديوف",
+            "bn": "এ. ডিউফ",
+            "hi": "ए. डियॉफ़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 25,
+        "y": 59.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51,
+        "z": 7.6
+      },
+      "blockCoordinates": {
+        "x": 2.2,
+        "y": 51.1,
+        "z": 0
+      },
+      "xg": 0.017972528934479,
+      "xgot": 0.021342966705561,
+      "goalkeeper": {
+        "name": "Mike Maignan",
+        "slug": "mike-maignan",
+        "shortName": "M. Maignan",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 15432,
+        "gender": "M",
+        "sofascoreId": "MMaignan",
+        "id": 191210,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايك مانيان",
+            "bn": "মাইক ম্যাগনান",
+            "hi": "माइक मैग्नन"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ميانيان",
+            "bn": "এম. ম্যাগনান",
+            "hi": "एम. मैग्नन"
+          }
+        }
+      },
+      "id": 6233427,
+      "time": 88,
+      "timeSeconds": 5247,
+      "draw": {
+        "start": {
+          "x": 59.3,
+          "y": 25
+        },
+        "block": {
+          "x": 51.1,
+          "y": 2.2
+        },
+        "end": {
+          "x": 49,
+          "y": 0
+        },
+        "goal": {
+          "x": 49,
+          "y": 92.4
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 153,
+      "periodTimeSeconds": 2547,
+      "incidentType": "shot"
+    }
+  ]
+}

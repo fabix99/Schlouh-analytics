@@ -1,0 +1,96 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Karol Świderski",
+        "slug": "karol-swiderski",
+        "shortName": "K. Świderski",
+        "position": "F",
+        "jerseyNumber": "19",
+        "userCount": 4785,
+        "gender": "M",
+        "sofascoreId": "swider9",
+        "id": 576438,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارول سويدرسكي",
+            "bn": "করোল সুইডারস্কি",
+            "hi": "करोल स्विडेर्स्की"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. سويدرسكي",
+            "bn": "কে. উইডারস্কি",
+            "hi": "के. स्विडेर्स्की"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 3.8,
+        "y": 57.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 2.5,
+        "y": 55.4,
+        "z": 0
+      },
+      "xg": 0.13641680777073,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Florian Wiegele",
+        "firstName": "",
+        "lastName": "",
+        "slug": "florian-wiegele",
+        "shortName": "F. Wiegele",
+        "position": "G",
+        "jerseyNumber": "44",
+        "userCount": 118,
+        "gender": "M",
+        "id": 869476,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فلوريان ويغلي"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. ويغلي"
+          }
+        }
+      },
+      "id": 6335354,
+      "time": 89,
+      "timeSeconds": 5291,
+      "draw": {
+        "start": {
+          "x": 57.3,
+          "y": 3.8
+        },
+        "block": {
+          "x": 55.4,
+          "y": 2.5
+        },
+        "end": {
+          "x": 52,
+          "y": 0
+        },
+        "goal": {
+          "x": 52,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 109,
+      "periodTimeSeconds": 2591,
+      "incidentType": "shot"
+    }
+  ]
+}

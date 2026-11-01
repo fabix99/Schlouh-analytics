@@ -1,0 +1,129 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Roman Kvet",
+        "slug": "roman-kvet",
+        "shortName": "R. Kvet",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 93,
+        "gender": "M",
+        "id": 858926,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رومان كفيت"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. كفيت"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.8,
+        "y": 47.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 29.9,
+        "z": 8.3
+      },
+      "xg": 0.13356947898865,
+      "xgot": 0,
+      "id": 5792124,
+      "time": 59,
+      "timeSeconds": 3520,
+      "draw": {
+        "start": {
+          "x": 47.2,
+          "y": 12.8
+        },
+        "end": {
+          "x": 70.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 70.1,
+          "y": 91.7
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1880,
+      "periodTimeSeconds": 820,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Roman Kvet",
+        "slug": "roman-kvet",
+        "shortName": "R. Kvet",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 93,
+        "gender": "M",
+        "id": 858926,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رومان كفيت"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. كفيت"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 22.6,
+        "y": 64.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14,
+        "y": 58.7,
+        "z": 0
+      },
+      "xg": 0.055423364043236,
+      "xgot": 0,
+      "id": 5791606,
+      "time": 36,
+      "timeSeconds": 2153,
+      "draw": {
+        "start": {
+          "x": 64.6,
+          "y": 22.6
+        },
+        "block": {
+          "x": 58.7,
+          "y": 14
+        },
+        "end": {
+          "x": 49.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 10,
+      "reversedPeriodTimeSeconds": 547,
+      "periodTimeSeconds": 2153,
+      "incidentType": "shot"
+    }
+  ]
+}

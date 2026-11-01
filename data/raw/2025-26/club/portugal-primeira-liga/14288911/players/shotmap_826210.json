@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rafik Guitane",
+        "slug": "rafik-guitane",
+        "shortName": "R. Guitane",
+        "position": "F",
+        "jerseyNumber": "99",
+        "userCount": 2115,
+        "gender": "M",
+        "id": 826210,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رفيق غويتان",
+            "bn": "রফিক গিটানে",
+            "hi": "राफ़िक गुइताने"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. غويتان",
+            "bn": "আর. গুইটেন",
+            "hi": "आर. गुइताने"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 20.1,
+        "y": 69.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 18.8,
+        "y": 68.1,
+        "z": 0
+      },
+      "xg": 0.0091406758874655,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "André Gomes",
+        "firstName": "André Gomes",
+        "lastName": "",
+        "slug": "andre-gomes",
+        "shortName": "A. Gomes",
+        "position": "G",
+        "jerseyNumber": "75",
+        "userCount": 796,
+        "gender": "M",
+        "id": 1139990,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بولون إ / شيران-هول ه",
+            "bn": "আন্দ্রে গোমেস",
+            "hi": "आंद्रे गोम्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. ه",
+            "bn": "এ. গোমেস",
+            "hi": "ए. गोम्स"
+          }
+        }
+      },
+      "id": 6418777,
+      "time": 43,
+      "timeSeconds": 2527,
+      "draw": {
+        "start": {
+          "x": 69.3,
+          "y": 20.1
+        },
+        "block": {
+          "x": 68.1,
+          "y": 18.8
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 173,
+      "periodTimeSeconds": 2527,
+      "incidentType": "shot"
+    }
+  ]
+}

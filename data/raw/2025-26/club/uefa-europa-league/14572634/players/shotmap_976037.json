@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jakub Kiwior",
+        "slug": "kiwior-jakub",
+        "shortName": "J. Kiwior",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 15071,
+        "gender": "M",
+        "sofascoreId": "j_kiwior",
+        "id": 976037,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيويور، جاكوب",
+            "bn": "কিভিওর, জাকুব",
+            "hi": "किविओर, जेकब"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. كيويور",
+            "bn": "জে. কিভিওর",
+            "hi": "जे. किविओर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 25.7,
+        "y": 37.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 22.1,
+        "y": 38.4,
+        "z": 0
+      },
+      "xg": 0.016173368319869,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yehvann Diouf",
+        "firstName": "",
+        "lastName": "",
+        "slug": "yehvann-diouf",
+        "shortName": "Y. Diouf",
+        "position": "G",
+        "jerseyNumber": "80",
+        "userCount": 3019,
+        "gender": "M",
+        "id": 845183,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياهفان ديوف",
+            "bn": "জেভান দিউফ",
+            "hi": "येह्वान्न दिउफ़"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ديوف",
+            "bn": "ওয়াই. দিউফ",
+            "hi": "वाई. दिउफ़"
+          }
+        }
+      },
+      "id": 6257366,
+      "time": 44,
+      "timeSeconds": 2615,
+      "draw": {
+        "start": {
+          "x": 37.2,
+          "y": 25.7
+        },
+        "block": {
+          "x": 38.4,
+          "y": 22.1
+        },
+        "end": {
+          "x": 46.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 85,
+      "periodTimeSeconds": 2615,
+      "incidentType": "shot"
+    }
+  ]
+}

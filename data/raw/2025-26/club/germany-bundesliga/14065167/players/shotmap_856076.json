@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "David Raum",
+        "slug": "david-raum",
+        "shortName": "D. Raum",
+        "position": "D",
+        "jerseyNumber": "22",
+        "userCount": 2224,
+        "gender": "M",
+        "id": 856076,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد راوم",
+            "bn": "ডেভিড রাউম",
+            "hi": "डेविड राउम"
+          },
+          "shortNameTranslation": {
+            "ar": "د. راوم",
+            "bn": "ডি. রাউম",
+            "hi": "डी. राउम"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.2,
+        "z": 2.5
+      },
+      "xg": 0.7884,
+      "xgot": 0.8612185716629,
+      "goalkeeper": {
+        "name": "Michael Zetterer",
+        "slug": "michael-zetterer",
+        "shortName": "M. Zetterer",
+        "position": "G",
+        "jerseyNumber": "23",
+        "userCount": 480,
+        "gender": "M",
+        "id": 190161,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايكل زيترير",
+            "bn": "মাইকেল জেটটেরার",
+            "hi": "माइकल ज़ेटेरर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. زيترير",
+            "bn": "এম. জেটটেরার",
+            "hi": "एम. ज़ेटेरर"
+          }
+        }
+      },
+      "id": 6305981,
+      "time": 62,
+      "timeSeconds": 3713,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 53.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.8,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1687,
+      "periodTimeSeconds": 1013,
+      "incidentType": "shot"
+    }
+  ]
+}

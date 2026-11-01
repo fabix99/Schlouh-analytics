@@ -1,0 +1,140 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jérémy Doku",
+        "slug": "jeremy-doku",
+        "shortName": "J. Doku",
+        "position": "M",
+        "jerseyNumber": "11",
+        "userCount": 71525,
+        "gender": "M",
+        "sofascoreId": "Dokss",
+        "id": 934386,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيريمي دوكو",
+            "bn": "জেরেমি ডকু",
+            "hi": "जेरेमी डोकू"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. دوكو",
+            "bn": "জে. ডকু",
+            "hi": "जे. डोकू"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 2.9,
+        "y": 38.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.4,
+        "z": 1.3
+      },
+      "xg": 0.25673082470894,
+      "xgot": 0.60884273052216,
+      "id": 5690625,
+      "time": 65,
+      "timeSeconds": 3895,
+      "draw": {
+        "start": {
+          "x": 38.3,
+          "y": 2.9
+        },
+        "end": {
+          "x": 53.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.6,
+          "y": 98.7
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1505,
+      "periodTimeSeconds": 1195,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Jérémy Doku",
+        "slug": "jeremy-doku",
+        "shortName": "J. Doku",
+        "position": "M",
+        "jerseyNumber": "11",
+        "userCount": 71525,
+        "gender": "M",
+        "sofascoreId": "Dokss",
+        "id": 934386,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيريمي دوكو",
+            "bn": "জেরেমি ডকু",
+            "hi": "जेरेमी डोकू"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. دوكو",
+            "bn": "জে. ডকু",
+            "hi": "जे. डोकू"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 6.8,
+        "y": 43.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 5,
+        "y": 44.8,
+        "z": 0
+      },
+      "xg": 0.092211201786995,
+      "xgot": 0,
+      "id": 5690478,
+      "time": 10,
+      "timeSeconds": 545,
+      "draw": {
+        "start": {
+          "x": 43.8,
+          "y": 6.8
+        },
+        "block": {
+          "x": 44.8,
+          "y": 5
+        },
+        "end": {
+          "x": 47.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2155,
+      "periodTimeSeconds": 545,
+      "incidentType": "shot"
+    }
+  ]
+}

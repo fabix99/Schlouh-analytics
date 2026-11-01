@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Tomané",
+        "slug": "tomane",
+        "shortName": "Tomané",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 180,
+        "gender": "M",
+        "id": 126076,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توماني",
+            "bn": "টোমানে",
+            "hi": "तोमने"
+          },
+          "shortNameTranslation": {
+            "ar": "توماني",
+            "bn": "টোমানে",
+            "hi": "तोमने"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.8,
+        "y": 65.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.6,
+        "z": 3.2
+      },
+      "blockCoordinates": {
+        "x": 3.2,
+        "y": 55.8,
+        "z": 0
+      },
+      "xg": 0.23875807225704,
+      "xgot": 0.2184279859066,
+      "goalkeeper": {
+        "name": "Cezary Miszta",
+        "firstName": "",
+        "lastName": "",
+        "slug": "cezary-miszta",
+        "shortName": "C. Miszta",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 668,
+        "gender": "M",
+        "id": 938292,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تسيزاري ميشتا",
+            "bn": "সেজারি মিসটা",
+            "hi": "सेज़री मिज़्टा"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. ميشتا",
+            "bn": "সি. মিসতা",
+            "hi": "सी. मिज़्टा"
+          }
+        }
+      },
+      "id": 6305714,
+      "time": 10,
+      "timeSeconds": 574,
+      "draw": {
+        "start": {
+          "x": 65.1,
+          "y": 8.8
+        },
+        "block": {
+          "x": 55.8,
+          "y": 3.2
+        },
+        "end": {
+          "x": 51.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.4,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2126,
+      "periodTimeSeconds": 574,
+      "incidentType": "shot"
+    }
+  ]
+}

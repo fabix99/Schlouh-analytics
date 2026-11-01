@@ -1,0 +1,107 @@
+{
+  "passes": [
+    {
+      "playerCoordinates": {
+        "x": 43,
+        "y": 96.5
+      },
+      "passEndCoordinates": {
+        "x": 76.2,
+        "y": 87.7
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false,
+      "isLongBall": true
+    },
+    {
+      "playerCoordinates": {
+        "x": 11.2,
+        "y": 88
+      },
+      "passEndCoordinates": {
+        "x": 56.9,
+        "y": 76.7
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false,
+      "isLongBall": true
+    },
+    {
+      "playerCoordinates": {
+        "x": 43.1,
+        "y": 81.7
+      },
+      "passEndCoordinates": {
+        "x": 40.8,
+        "y": 96.2
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 37.7,
+        "y": 74.4
+      },
+      "passEndCoordinates": {
+        "x": 70.8,
+        "y": 70.9
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false,
+      "isLongBall": true
+    },
+    {
+      "playerCoordinates": {
+        "x": 62.7,
+        "y": 40.1
+      },
+      "passEndCoordinates": {
+        "x": 69.8,
+        "y": 36.8
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    }
+  ],
+  "dribbles": [],
+  "defensive": [
+    {
+      "playerCoordinates": {
+        "x": 10.1,
+        "y": 88.7
+      },
+      "eventActionType": "tackle",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 11.2,
+        "y": 88
+      },
+      "eventActionType": "ball-recovery",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 23.8,
+        "y": 98
+      },
+      "eventActionType": "tackle",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "ball-carries": []
+}

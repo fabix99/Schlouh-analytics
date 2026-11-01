@@ -1,0 +1,87 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Paul Wanner",
+        "slug": "paul-wanner",
+        "shortName": "P. Wanner",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 3848,
+        "gender": "M",
+        "id": 1146018,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باول فانر",
+            "bn": "পল ওয়ানার",
+            "hi": "पॉल वानर"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فانر",
+            "bn": "পি. ওয়ানার",
+            "hi": "पी. वानर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.5,
+        "y": 56.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.2,
+        "z": 0.6
+      },
+      "xg": 0.30943009257317,
+      "xgot": 0.53016984462738,
+      "goalkeeper": {
+        "name": "Stijn van Gassel",
+        "firstName": "",
+        "lastName": "",
+        "slug": "stijn-van-gassel",
+        "shortName": "S. van Gassel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 170,
+        "gender": "M",
+        "id": 367118,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستاين فان غاسل"
+          },
+          "shortNameTranslation": {
+            "ar": "س. فان غاسل"
+          }
+        }
+      },
+      "id": 6486978,
+      "time": 8,
+      "timeSeconds": 479,
+      "draw": {
+        "start": {
+          "x": 56.1,
+          "y": 12.5
+        },
+        "end": {
+          "x": 48.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.8,
+          "y": 99.4
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2221,
+      "periodTimeSeconds": 479,
+      "incidentType": "shot"
+    }
+  ]
+}

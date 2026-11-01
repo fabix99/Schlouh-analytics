@@ -1,0 +1,107 @@
+{
+  "passes": [
+    {
+      "playerCoordinates": {
+        "x": 68.7,
+        "y": 37.4
+      },
+      "passEndCoordinates": {
+        "x": 75.8,
+        "y": 56.4
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 65.1,
+        "y": 8.8
+      },
+      "passEndCoordinates": {
+        "x": 57.4,
+        "y": 13.1
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 78.2,
+        "y": 75
+      },
+      "passEndCoordinates": {
+        "x": 96.1,
+        "y": 59
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 65.1,
+        "y": 24.1
+      },
+      "passEndCoordinates": {
+        "x": 46.6,
+        "y": 39.8
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 41.2,
+        "y": 57
+      },
+      "passEndCoordinates": {
+        "x": 38.3,
+        "y": 49
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "dribbles": [
+    {
+      "playerCoordinates": {
+        "x": 46.4,
+        "y": 36.5
+      },
+      "eventActionType": "dribble",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "defensive": [
+    {
+      "playerCoordinates": {
+        "x": 60.9,
+        "y": 34.6
+      },
+      "eventActionType": "tackle",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 68.7,
+        "y": 37.4
+      },
+      "eventActionType": "ball-recovery",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "ball-carries": []
+}

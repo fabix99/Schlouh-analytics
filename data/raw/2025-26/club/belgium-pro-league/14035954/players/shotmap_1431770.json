@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kevin Rodriguez",
+        "firstName": "Kevin Rodríguez",
+        "lastName": "",
+        "slug": "rodriguez-kevin",
+        "shortName": "K. Rodríguez",
+        "position": "F",
+        "jerseyNumber": "13",
+        "userCount": 3039,
+        "gender": "M",
+        "id": 1431770,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رودريغيز، كيفن",
+            "bn": "রদ্রিগেজ, কেভিন",
+            "hi": "रोड्रिग्ज़, केविन"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. رودريغيز",
+            "bn": "কে. রদ্রিগেজ",
+            "hi": "के. रोड्रिग्ज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.1,
+        "y": 47.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.8,
+        "y": 47.8,
+        "z": 0
+      },
+      "xg": 0.067955173552036,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Davy Roef",
+        "firstName": "",
+        "lastName": "",
+        "slug": "davy-roef",
+        "shortName": "D. Roef",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 226,
+        "gender": "M",
+        "id": 156663,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفي روف",
+            "bn": "ডেভি রোফ",
+            "hi": "डेवी रोफ़"
+          },
+          "shortNameTranslation": {
+            "ar": "د. روف",
+            "bn": "ডি. রোফ",
+            "hi": "डी. रोफ़"
+          }
+        }
+      },
+      "id": 6305582,
+      "time": 34,
+      "timeSeconds": 2023,
+      "draw": {
+        "start": {
+          "x": 47.7,
+          "y": 15.1
+        },
+        "block": {
+          "x": 47.8,
+          "y": 13.8
+        },
+        "end": {
+          "x": 49.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 677,
+      "periodTimeSeconds": 2023,
+      "incidentType": "shot"
+    }
+  ]
+}

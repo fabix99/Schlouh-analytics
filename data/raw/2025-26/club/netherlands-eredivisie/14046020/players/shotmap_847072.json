@@ -1,0 +1,72 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sam Kersten",
+        "slug": "sam-kersten",
+        "shortName": "S. Kersten",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 82,
+        "gender": "M",
+        "id": 847072,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سام كيرستين"
+          },
+          "shortNameTranslation": {
+            "ar": "س. كيرستين"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.1,
+        "y": 46.6,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 38.3,
+        "z": 1.4
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 57.8,
+        "z": 0
+      },
+      "xg": 0.055649951100349,
+      "xgot": 0,
+      "id": 5432555,
+      "time": 90,
+      "addedTime": 6,
+      "timeSeconds": 5700,
+      "draw": {
+        "start": {
+          "x": 46.6,
+          "y": 10.1
+        },
+        "block": {
+          "x": 57.8,
+          "y": 1.6
+        },
+        "end": {
+          "x": 61.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 61.7,
+          "y": 98.6
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 600,
+      "periodTimeSeconds": 300,
+      "incidentType": "shot"
+    }
+  ]
+}

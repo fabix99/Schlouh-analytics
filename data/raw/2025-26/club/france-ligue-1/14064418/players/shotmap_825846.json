@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jordan Teze",
+        "slug": "jordan-teze",
+        "shortName": "J. Teze",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 1096,
+        "gender": "M",
+        "id": 825846,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوردان تيزي",
+            "bn": "জর্ডান তেজে",
+            "hi": "जॉर्डन टेज़े"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. تيزي",
+            "bn": "জে. তেজে",
+            "hi": "जे. टेज़े"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 23.2,
+        "y": 52.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49,
+        "z": 9.5
+      },
+      "blockCoordinates": {
+        "x": 2.7,
+        "y": 50.5,
+        "z": 0
+      },
+      "xg": 0.061164155602455,
+      "xgot": 0.032377734780312,
+      "goalkeeper": {
+        "name": "Lucas Chevalier",
+        "firstName": "",
+        "lastName": "",
+        "slug": "chevalier-lucas",
+        "shortName": "L. Chevalier",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 21448,
+        "gender": "M",
+        "id": 996953,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "شوفالييه، لوكاس",
+            "bn": "শেভালিয়ার, লুকাস",
+            "hi": "शेवेलियर, लुकास"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. شوفالييه",
+            "bn": "এল. শেভালিয়ার",
+            "hi": "एल. शेवेलियर"
+          }
+        }
+      },
+      "id": 6266952,
+      "time": 73,
+      "timeSeconds": 4350,
+      "draw": {
+        "start": {
+          "x": 52.8,
+          "y": 23.2
+        },
+        "block": {
+          "x": 50.5,
+          "y": 2.7
+        },
+        "end": {
+          "x": 51,
+          "y": 0
+        },
+        "goal": {
+          "x": 51,
+          "y": 90.5
+        }
+      },
+      "reversedPeriodTime": 18,
+      "reversedPeriodTimeSeconds": 1050,
+      "periodTimeSeconds": 1650,
+      "incidentType": "shot"
+    }
+  ]
+}

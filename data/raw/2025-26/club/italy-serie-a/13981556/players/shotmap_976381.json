@@ -1,0 +1,182 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Gustav Isaksen",
+        "slug": "gustav-isaksen",
+        "shortName": "G. Isaksen",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 3365,
+        "gender": "M",
+        "id": 976381,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوستاف إسكسين",
+            "bn": "গুস্তাভ ইসাকসেন",
+            "hi": "गुस्ताव इसाक्सेन"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. إسكسين",
+            "bn": "জি.ইসাকসেন",
+            "hi": "जी. इसाक्सेन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 3.4,
+        "y": 59.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.4,
+        "z": 3.8
+      },
+      "xg": 0.31488659977913,
+      "xgot": 0.96811491250992,
+      "goalkeeper": {
+        "name": "Federico Ravaglia",
+        "slug": "federico-ravaglia",
+        "shortName": "F. Ravaglia",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 578,
+        "gender": "M",
+        "id": 850952,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيديريكو رافاجليا",
+            "bn": "ফেদেরিকো রাভাগলিয়া",
+            "hi": "फेडेरिको रवाग्लिया"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. رافاجليا",
+            "bn": "এফ. রাভাগলিয়া",
+            "hi": "एफ. रवाग्लिया"
+          }
+        }
+      },
+      "id": 6313204,
+      "time": 38,
+      "timeSeconds": 2267,
+      "draw": {
+        "start": {
+          "x": 59.7,
+          "y": 3.4
+        },
+        "end": {
+          "x": 52.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.6,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 433,
+      "periodTimeSeconds": 2267,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Gustav Isaksen",
+        "slug": "gustav-isaksen",
+        "shortName": "G. Isaksen",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 3365,
+        "gender": "M",
+        "id": 976381,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوستاف إسكسين",
+            "bn": "গুস্তাভ ইসাকসেন",
+            "hi": "गुस्ताव इसाक्सेन"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. إسكسين",
+            "bn": "জি.ইসাকসেন",
+            "hi": "जी. इसाक्सेन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15,
+        "y": 56.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.2,
+        "z": 2.5
+      },
+      "blockCoordinates": {
+        "x": 5.9,
+        "y": 52.5,
+        "z": 0
+      },
+      "xg": 0.23960228264332,
+      "xgot": 0.1329635232687,
+      "goalkeeper": {
+        "name": "Federico Ravaglia",
+        "slug": "federico-ravaglia",
+        "shortName": "F. Ravaglia",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 578,
+        "gender": "M",
+        "id": 850952,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيديريكو رافاجليا",
+            "bn": "ফেদেরিকো রাভাগলিয়া",
+            "hi": "फेडेरिको रवाग्लिया"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. رافاجليا",
+            "bn": "এফ. রাভাগলিয়া",
+            "hi": "एफ. रवाग्लिया"
+          }
+        }
+      },
+      "id": 6312952,
+      "time": 15,
+      "timeSeconds": 895,
+      "draw": {
+        "start": {
+          "x": 56.6,
+          "y": 15
+        },
+        "block": {
+          "x": 52.5,
+          "y": 5.9
+        },
+        "end": {
+          "x": 49.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.8,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1805,
+      "periodTimeSeconds": 895,
+      "incidentType": "shot"
+    }
+  ]
+}

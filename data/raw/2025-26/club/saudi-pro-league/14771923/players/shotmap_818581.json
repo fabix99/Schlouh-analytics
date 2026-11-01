@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mansour Hamzi",
+        "slug": "mansour-hamzi",
+        "shortName": "M. Hamzi",
+        "position": "M",
+        "jerseyNumber": "15",
+        "userCount": 31,
+        "gender": "M",
+        "id": 818581,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "منصور حمزي",
+            "bn": "মনসুর হামজি",
+            "hi": "मंसूर हामजी"
+          },
+          "shortNameTranslation": {
+            "ar": "م. حمزي",
+            "bn": "এম. হামজী",
+            "hi": "एम. हामजी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8,
+        "y": 43.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.4,
+        "z": 0.6
+      },
+      "blockCoordinates": {
+        "x": 0.5,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.37173929810524,
+      "xgot": 0.39701643586159,
+      "goalkeeper": {
+        "name": "Kewin",
+        "slug": "kewin",
+        "shortName": "Kewin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 112,
+        "gender": "M",
+        "id": 865371,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيوين"
+          },
+          "shortNameTranslation": {
+            "ar": "كيوين"
+          }
+        }
+      },
+      "id": 6480057,
+      "time": 55,
+      "timeSeconds": 3278,
+      "draw": {
+        "start": {
+          "x": 43.6,
+          "y": 8
+        },
+        "block": {
+          "x": 49.8,
+          "y": 0.5
+        },
+        "end": {
+          "x": 51.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.6,
+          "y": 99.4
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2122,
+      "periodTimeSeconds": 578,
+      "incidentType": "shot"
+    }
+  ]
+}

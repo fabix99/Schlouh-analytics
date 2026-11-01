@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Patrick Wimmer",
+        "slug": "patrick-wimmer",
+        "shortName": "P. Wimmer",
+        "position": "M",
+        "jerseyNumber": "39",
+        "userCount": 1018,
+        "gender": "M",
+        "id": 987504,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باتريك ويمر",
+            "bn": "প্যাট্রিক উইমার",
+            "hi": "पैट्रिक विमर"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. ويمر",
+            "bn": "পি. উইমার",
+            "hi": "पी. विमर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.8,
+        "y": 41.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.8,
+        "z": 0.6
+      },
+      "xg": 0.097093552350998,
+      "xgot": 0.37394642829895,
+      "goalkeeper": {
+        "name": "Frederik Rønnow",
+        "slug": "frederik-ronnow",
+        "shortName": "F. Rønnow",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 625,
+        "gender": "M",
+        "id": 137692,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فريدريك رونو",
+            "bn": "ফ্রেডরিক রননো",
+            "hi": "फ्रेडरिक रोन्नो"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. رونو",
+            "bn": "এফ. রননো",
+            "hi": "एफ. रोन्नो"
+          }
+        }
+      },
+      "id": 6303749,
+      "time": 10,
+      "timeSeconds": 594,
+      "draw": {
+        "start": {
+          "x": 41.1,
+          "y": 13.8
+        },
+        "end": {
+          "x": 47.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.2,
+          "y": 99.4
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2106,
+      "periodTimeSeconds": 594,
+      "incidentType": "shot"
+    }
+  ]
+}

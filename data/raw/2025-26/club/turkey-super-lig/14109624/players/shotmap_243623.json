@@ -1,0 +1,76 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Fred",
+        "slug": "fred",
+        "shortName": "Fred",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 11477,
+        "gender": "M",
+        "sofascoreId": "fred08",
+        "id": 243623,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فريد",
+            "bn": "ফ্রেড",
+            "hi": "फ्रेड"
+          },
+          "shortNameTranslation": {
+            "ar": "فريد",
+            "bn": "ফ্রেড",
+            "hi": "फ्रेड"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.7,
+        "y": 39.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.6,
+        "z": 27.2
+      },
+      "blockCoordinates": {
+        "x": 1.5,
+        "y": 48.7,
+        "z": 0
+      },
+      "xg": 0.03284128010273,
+      "xgot": 0.84215462207794,
+      "id": 5479817,
+      "time": 34,
+      "timeSeconds": 2034,
+      "draw": {
+        "start": {
+          "x": 39.8,
+          "y": 22.7
+        },
+        "block": {
+          "x": 48.7,
+          "y": 1.5
+        },
+        "end": {
+          "x": 54.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.4,
+          "y": 72.8
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 666,
+      "periodTimeSeconds": 2034,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Marcus Rashford",
+        "slug": "marcus-rashford",
+        "shortName": "M. Rashford",
+        "position": "M",
+        "jerseyNumber": "14",
+        "userCount": 367393,
+        "gender": "M",
+        "sofascoreId": "Rashford",
+        "id": 814590,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركوس راشفورد",
+            "bn": "মার্কাস রাশফোর্ড",
+            "hi": "मार्कस रैशफोर्ड"
+          },
+          "shortNameTranslation": {
+            "ar": "م. راشفورد",
+            "bn": "এম. রাশফোর্ড",
+            "hi": "एम. रैशफोर्ड"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13,
+        "y": 42.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.5,
+        "y": 44.7,
+        "z": 0
+      },
+      "xg": 0.11700233817101,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Michael Zetterer",
+        "slug": "michael-zetterer",
+        "shortName": "M. Zetterer",
+        "position": "G",
+        "jerseyNumber": "23",
+        "userCount": 480,
+        "gender": "M",
+        "id": 190161,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايكل زيترير",
+            "bn": "মাইকেল জেটটেরার",
+            "hi": "माइकल ज़ेटेरर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. زيترير",
+            "bn": "এম. জেটটেরার",
+            "hi": "एम. ज़ेटेरर"
+          }
+        }
+      },
+      "id": 6325702,
+      "time": 59,
+      "timeSeconds": 3509,
+      "draw": {
+        "start": {
+          "x": 42.7,
+          "y": 13
+        },
+        "block": {
+          "x": 44.7,
+          "y": 9.5
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1891,
+      "periodTimeSeconds": 809,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Oskar Repka",
+        "slug": "oskar-repka",
+        "shortName": "O. Repka",
+        "position": "M",
+        "jerseyNumber": "6",
+        "userCount": 282,
+        "gender": "M",
+        "id": 940867,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوسكار ريبكا"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. ريبكا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.9,
+        "y": 50.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.9,
+        "z": 13.9
+      },
+      "xg": 0.060451276600361,
+      "xgot": 0.28916636109352,
+      "id": 5825088,
+      "time": 80,
+      "timeSeconds": 4761,
+      "draw": {
+        "start": {
+          "x": 50.3,
+          "y": 22.9
+        },
+        "end": {
+          "x": 48.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.1,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 639,
+      "periodTimeSeconds": 2061,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Oskar Repka",
+        "slug": "oskar-repka",
+        "shortName": "O. Repka",
+        "position": "M",
+        "jerseyNumber": "6",
+        "userCount": 282,
+        "gender": "M",
+        "id": 940867,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوسكار ريبكا"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. ريبكا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 12.4,
+        "y": 53.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.3,
+        "z": 4.2
+      },
+      "blockCoordinates": {
+        "x": 10.1,
+        "y": 52,
+        "z": 0
+      },
+      "xg": 0.049621194601059,
+      "xgot": 0,
+      "id": 5824804,
+      "time": 33,
+      "timeSeconds": 1974,
+      "draw": {
+        "start": {
+          "x": 53.1,
+          "y": 12.4
+        },
+        "block": {
+          "x": 52,
+          "y": 10.1
+        },
+        "end": {
+          "x": 47.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.7,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 726,
+      "periodTimeSeconds": 1974,
+      "incidentType": "shot"
+    }
+  ]
+}

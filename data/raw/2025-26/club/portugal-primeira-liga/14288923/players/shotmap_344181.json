@@ -1,0 +1,82 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "José Gomes",
+        "slug": "jose-gomes",
+        "shortName": "J. Gomes",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 33,
+        "gender": "M",
+        "id": 344181,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه غوميس"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. غوميس"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 12.5,
+        "y": 26.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 60.3,
+        "z": 19.4
+      },
+      "xg": 0.057303261011839,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Juan Castillo",
+        "firstName": "Juan Castillo",
+        "lastName": "",
+        "slug": "juan-castillo",
+        "shortName": "J. Castillo",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 395,
+        "gender": "M",
+        "id": 1175004,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوان كاستيو"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. كاستيو"
+          }
+        }
+      },
+      "id": 6444457,
+      "time": 46,
+      "timeSeconds": 2750,
+      "draw": {
+        "start": {
+          "x": 26.6,
+          "y": 12.5
+        },
+        "end": {
+          "x": 39.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 39.7,
+          "y": 80.6
+        }
+      },
+      "reversedPeriodTime": 45,
+      "reversedPeriodTimeSeconds": 2650,
+      "periodTimeSeconds": 50,
+      "incidentType": "shot"
+    }
+  ]
+}

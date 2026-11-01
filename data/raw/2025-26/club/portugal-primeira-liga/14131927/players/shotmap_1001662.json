@@ -1,0 +1,68 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Zé Carlos",
+        "firstName": "Zé",
+        "lastName": "Carlos",
+        "slug": "ze-carlos",
+        "shortName": "Z. Carlos",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 75,
+        "gender": "M",
+        "id": 1001662,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زي كارلوس",
+            "bn": "যে কার্লোস",
+            "hi": "ज़े कार्लोस"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. كارلوس",
+            "bn": "জেড. কার্লোস",
+            "hi": "ज़ेड. कार्लोस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 24.6,
+        "y": 66.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 60.7,
+        "z": 8.3
+      },
+      "xg": 0.02206003293395,
+      "xgot": 0,
+      "id": 5838266,
+      "time": 30,
+      "timeSeconds": 1766,
+      "draw": {
+        "start": {
+          "x": 66.9,
+          "y": 24.6
+        },
+        "end": {
+          "x": 39.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 39.3,
+          "y": 91.7
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 934,
+      "periodTimeSeconds": 1766,
+      "incidentType": "shot"
+    }
+  ]
+}

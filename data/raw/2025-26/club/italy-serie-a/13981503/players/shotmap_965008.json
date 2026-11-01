@@ -1,0 +1,138 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sebastiano Esposito",
+        "slug": "sebastiano-esposito",
+        "shortName": "S. Esposito",
+        "position": "F",
+        "jerseyNumber": "70",
+        "userCount": 4255,
+        "gender": "M",
+        "id": 965008,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيباستيانو إسبوسيتو",
+            "bn": "সেবাস্তিয়ানো এসপোসিটো",
+            "hi": "सेबेस्टियानो एस्पोसिटो"
+          },
+          "shortNameTranslation": {
+            "ar": "س. إسبوسيتو",
+            "bn": "এস. এসপোসিটো",
+            "hi": "एस. एस्पोसिटो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 8.2,
+        "y": 53.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.3,
+        "z": 1.9
+      },
+      "xg": 0.40012100338936,
+      "xgot": 0.45556584000587,
+      "id": 6068235,
+      "time": 73,
+      "timeSeconds": 4324,
+      "draw": {
+        "start": {
+          "x": 53.6,
+          "y": 8.2
+        },
+        "end": {
+          "x": 53.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.7,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 18,
+      "reversedPeriodTimeSeconds": 1076,
+      "periodTimeSeconds": 1624,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Sebastiano Esposito",
+        "slug": "sebastiano-esposito",
+        "shortName": "S. Esposito",
+        "position": "F",
+        "jerseyNumber": "70",
+        "userCount": 4255,
+        "gender": "M",
+        "id": 965008,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيباستيانو إسبوسيتو",
+            "bn": "সেবাস্তিয়ানো এসপোসিটো",
+            "hi": "सेबेस्टियानो एस्पोसिटो"
+          },
+          "shortNameTranslation": {
+            "ar": "س. إسبوسيتو",
+            "bn": "এস. এসপোসিটো",
+            "hi": "एस. एस्पोसिटो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 26.9,
+        "y": 37.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 12.4,
+        "y": 43.9,
+        "z": 0
+      },
+      "xg": 0.037599600851536,
+      "xgot": 0,
+      "id": 6068018,
+      "time": 11,
+      "timeSeconds": 612,
+      "draw": {
+        "start": {
+          "x": 37.9,
+          "y": 26.9
+        },
+        "block": {
+          "x": 43.9,
+          "y": 12.4
+        },
+        "end": {
+          "x": 49,
+          "y": 0
+        },
+        "goal": {
+          "x": 49,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2088,
+      "periodTimeSeconds": 612,
+      "incidentType": "shot"
+    }
+  ]
+}

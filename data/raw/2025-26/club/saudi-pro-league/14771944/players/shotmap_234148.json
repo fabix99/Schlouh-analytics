@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "N'Golo Kanté",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ngolo-kante",
+        "shortName": "N. Kanté",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 44525,
+        "gender": "M",
+        "sofascoreId": "nglkante",
+        "id": 234148,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نغولو كانتي",
+            "bn": "এন'গোলো কান্তে",
+            "hi": "नगोलो कंटे"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. كانتي",
+            "bn": "এন. কান্তে",
+            "hi": "एन. कंटे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 15.5,
+        "y": 52.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.4,
+        "z": 7
+      },
+      "blockCoordinates": {
+        "x": 5.3,
+        "y": 50.9,
+        "z": 0
+      },
+      "xg": 0.36395725607872,
+      "xgot": 0.16526620090008,
+      "goalkeeper": {
+        "name": "Marek Rodák",
+        "slug": "marek-rodak",
+        "shortName": "M. Rodák",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 521,
+        "gender": "M",
+        "id": 358694,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماريك روداك",
+            "bn": "মারেক রডাক",
+            "hi": "मारेक रोडाक"
+          },
+          "shortNameTranslation": {
+            "ar": "م. روداك",
+            "bn": "এম. রডাক",
+            "hi": "एम. रोडाक"
+          }
+        }
+      },
+      "id": 6527464,
+      "time": 54,
+      "timeSeconds": 3184,
+      "draw": {
+        "start": {
+          "x": 52.9,
+          "y": 15.5
+        },
+        "block": {
+          "x": 50.9,
+          "y": 5.3
+        },
+        "end": {
+          "x": 53.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.6,
+          "y": 93
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2216,
+      "periodTimeSeconds": 484,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Cristhian Mosquera",
+        "firstName": "Cristhian Mosquera",
+        "slug": "cristhian-mosquera",
+        "shortName": "C. Mosquera",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 16105,
+        "gender": "M",
+        "id": 1144630,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستيان موسكيرا",
+            "bn": "ক্রিস্টিয়ান মস্কেরা",
+            "hi": "क्रिस्टियन मॉस्केरा"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. موسكيرا",
+            "bn": "সি. মস্কেরা",
+            "hi": "सी. मॉस्केरा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 2.9,
+        "y": 45.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.9,
+        "z": 21.5
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 46.6,
+        "z": 0
+      },
+      "xg": 0.23484912514687,
+      "xgot": 0.36851933598518,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 36186,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर"
+          }
+        }
+      },
+      "id": 6252200,
+      "time": 60,
+      "timeSeconds": 3550,
+      "draw": {
+        "start": {
+          "x": 45.4,
+          "y": 2.9
+        },
+        "block": {
+          "x": 46.6,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 47.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.1,
+          "y": 78.5
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1850,
+      "periodTimeSeconds": 850,
+      "incidentType": "shot"
+    }
+  ]
+}

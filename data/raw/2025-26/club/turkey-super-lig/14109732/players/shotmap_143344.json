@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Massadio Haïdara",
+        "slug": "massadio-haidara",
+        "shortName": "M. Haïdara",
+        "position": "D",
+        "jerseyNumber": "21",
+        "userCount": 595,
+        "gender": "M",
+        "id": 143344,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماساديو هايدارا",
+            "bn": "মাসাদিও হায়দারা",
+            "hi": "मासाडियो हैदरा"
+          },
+          "shortNameTranslation": {
+            "ar": "م. هايدارا",
+            "bn": "এম. হায়দরা",
+            "hi": "एम. हैदरा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 10.5,
+        "y": 33.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.1,
+        "z": 22.2
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 46.7,
+        "z": 0
+      },
+      "xg": 0.037999857217073,
+      "xgot": 0.36729264259338,
+      "goalkeeper": {
+        "name": "Ricardo Velho",
+        "slug": "ricardo-velho",
+        "shortName": "R. Velho",
+        "position": "G",
+        "jerseyNumber": "24",
+        "userCount": 499,
+        "gender": "M",
+        "id": 845792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكاردو فيليو"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. فيليو"
+          }
+        }
+      },
+      "id": 6260731,
+      "time": 37,
+      "timeSeconds": 2214,
+      "draw": {
+        "start": {
+          "x": 33.6,
+          "y": 10.5
+        },
+        "block": {
+          "x": 46.7,
+          "y": 1.6
+        },
+        "end": {
+          "x": 45.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.9,
+          "y": 77.8
+        }
+      },
+      "reversedPeriodTime": 9,
+      "reversedPeriodTimeSeconds": 486,
+      "periodTimeSeconds": 2214,
+      "incidentType": "shot"
+    }
+  ]
+}

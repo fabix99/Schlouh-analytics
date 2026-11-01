@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mats Rots",
+        "slug": "mats-rots",
+        "shortName": "M. Rots",
+        "position": "D",
+        "jerseyNumber": "39",
+        "userCount": 382,
+        "gender": "M",
+        "id": 1387012,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتس روتس"
+          },
+          "shortNameTranslation": {
+            "ar": "م. روتس"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 16,
+        "y": 42.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14.6,
+        "y": 42.6,
+        "z": 0
+      },
+      "xg": 0.036913726478815,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kayne van Oevelen",
+        "firstName": "Kayne van Oevelen",
+        "lastName": "",
+        "slug": "kayne-van-oevelen",
+        "shortName": "K. v. Oevelen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 279,
+        "gender": "M",
+        "id": 1393970,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاين فان أويفيلن"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. فان أويفيلن"
+          }
+        }
+      },
+      "id": 6221979,
+      "time": 4,
+      "timeSeconds": 180,
+      "draw": {
+        "start": {
+          "x": 42.1,
+          "y": 16
+        },
+        "block": {
+          "x": 42.6,
+          "y": 14.6
+        },
+        "end": {
+          "x": 47.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 42,
+      "reversedPeriodTimeSeconds": 2520,
+      "periodTimeSeconds": 180,
+      "incidentType": "shot"
+    }
+  ]
+}

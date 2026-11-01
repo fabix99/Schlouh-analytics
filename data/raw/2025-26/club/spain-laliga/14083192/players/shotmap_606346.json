@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Eric Bailly",
+        "firstName": "",
+        "lastName": "",
+        "slug": "eric-bailly",
+        "shortName": "E. Bailly",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 4304,
+        "gender": "M",
+        "sofascoreId": "ericbailly",
+        "id": 606346,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيريك بايي",
+            "bn": "এরিক বেলি",
+            "hi": "एरिक बैली"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. بايي",
+            "bn": "ই. বেলি",
+            "hi": "ई. बैली"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7.6,
+        "y": 54.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 99.5,
+        "z": 2.8
+      },
+      "blockCoordinates": {
+        "x": 6,
+        "y": 45.7,
+        "z": 0
+      },
+      "xg": 0.20888401567936,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ionuț Radu",
+        "slug": "ionut-radu",
+        "shortName": "I. Radu",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 3790,
+        "gender": "M",
+        "id": 815202,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيونوت رادو",
+            "bn": "আয়নাট রাডু",
+            "hi": "इओनुट राडू"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. رادو",
+            "bn": "আই. রাদু",
+            "hi": "आई. राडू"
+          }
+        }
+      },
+      "id": 6383277,
+      "time": 20,
+      "timeSeconds": 1196,
+      "draw": {
+        "start": {
+          "x": 54.6,
+          "y": 7.6
+        },
+        "block": {
+          "x": 45.7,
+          "y": 6
+        },
+        "end": {
+          "x": 0.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 0.5,
+          "y": 97.2
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1504,
+      "periodTimeSeconds": 1196,
+      "incidentType": "shot"
+    }
+  ]
+}

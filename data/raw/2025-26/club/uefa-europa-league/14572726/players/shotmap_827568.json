@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Tomáš Ladra",
+        "firstName": "",
+        "lastName": "",
+        "slug": "tomas-ladra",
+        "shortName": "T. Ladra",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 69,
+        "gender": "M",
+        "id": 827568,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توماس لادرا",
+            "bn": "টমাস লাডরা",
+            "hi": "टॉमस लाद्रा"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. لادرا",
+            "bn": "টি. লাডরা",
+            "hi": "टी. लाद्रा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 25.4,
+        "y": 51.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 22,
+        "y": 51.8,
+        "z": 0
+      },
+      "xg": 0.026958284899592,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Noah Atubolu",
+        "slug": "noah-atubolu",
+        "shortName": "N. Atubolu",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1863,
+        "gender": "M",
+        "id": 980626,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نواه أتوبولو",
+            "bn": "নোয়া আতুবোলু",
+            "hi": "नोआ अतुबोलू"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. أتوبولو",
+            "bn": "এন. আতুবোলু",
+            "hi": "ओ. कैमारा"
+          }
+        }
+      },
+      "id": 6257388,
+      "time": 48,
+      "timeSeconds": 2830,
+      "draw": {
+        "start": {
+          "x": 51.5,
+          "y": 25.4
+        },
+        "block": {
+          "x": 51.8,
+          "y": 22
+        },
+        "end": {
+          "x": 53.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 43,
+      "reversedPeriodTimeSeconds": 2570,
+      "periodTimeSeconds": 130,
+      "incidentType": "shot"
+    }
+  ]
+}

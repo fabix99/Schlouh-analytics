@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nadiem Amiri",
+        "slug": "nadiem-amiri",
+        "shortName": "N. Amiri",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 2909,
+        "gender": "M",
+        "id": 327755,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناديم أميري",
+            "bn": "নাদিম আমিরি",
+            "hi": "नादिम अमीरी"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. أميري",
+            "bn": "এন. আমিরি",
+            "hi": "एन. अमीरी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.7,
+        "y": 40.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.3,
+        "y": 41.9,
+        "z": 0
+      },
+      "xg": 0.066688619554043,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Tommaso Martinelli",
+        "firstName": "",
+        "lastName": "",
+        "slug": "martinelli-tommaso",
+        "shortName": "T. Martinelli",
+        "position": "G",
+        "jerseyNumber": "50",
+        "userCount": 709,
+        "gender": "M",
+        "id": 1397756,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتينيلي، توماسو",
+            "bn": "মার্টিনেলি, টমাসো",
+            "hi": "मार्टिनेली, टोमासो"
+          },
+          "shortNameTranslation": {
+            "ar": "م. توماسو",
+            "bn": "টি. মার্টিনেলি",
+            "hi": "टी. मार्टिनेली"
+          }
+        }
+      },
+      "id": 6120394,
+      "time": 43,
+      "timeSeconds": 2525,
+      "draw": {
+        "start": {
+          "x": 40.3,
+          "y": 12.7
+        },
+        "block": {
+          "x": 41.9,
+          "y": 10.3
+        },
+        "end": {
+          "x": 48.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 175,
+      "periodTimeSeconds": 2525,
+      "incidentType": "shot"
+    }
+  ]
+}

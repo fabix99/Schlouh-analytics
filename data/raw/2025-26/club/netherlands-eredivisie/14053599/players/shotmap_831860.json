@@ -1,0 +1,84 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Koki Ogawa",
+        "slug": "koki-ogawa",
+        "shortName": "K. Ogawa",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 1466,
+        "gender": "M",
+        "id": 831860,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كوكي أوجاوا",
+            "bn": "কোকি ওগাওয়া",
+            "hi": "कोकी ओगावा"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. أوجاوا",
+            "bn": "কে. ওগাওয়া",
+            "hi": "के. ओगावा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.8,
+        "y": 51.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 59,
+        "z": 23.6
+      },
+      "xg": 0.14045782387257,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Etienne Vaessen",
+        "slug": "etienne-vaessen",
+        "shortName": "E. Vaessen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 473,
+        "gender": "M",
+        "id": 809408,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إتيان فايزن"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. فايزن"
+          }
+        }
+      },
+      "id": 6144053,
+      "time": 40,
+      "timeSeconds": 2378,
+      "draw": {
+        "start": {
+          "x": 51.2,
+          "y": 14.8
+        },
+        "end": {
+          "x": 41,
+          "y": 0
+        },
+        "goal": {
+          "x": 41,
+          "y": 76.4
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 322,
+      "periodTimeSeconds": 2378,
+      "incidentType": "shot"
+    }
+  ]
+}

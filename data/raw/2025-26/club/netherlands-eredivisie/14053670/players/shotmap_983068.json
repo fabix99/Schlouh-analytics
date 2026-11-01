@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Václav Sejk",
+        "slug": "vaclav-sejk",
+        "shortName": "V. Sejk",
+        "position": "F",
+        "jerseyNumber": "10",
+        "userCount": 206,
+        "gender": "M",
+        "id": 983068,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فاكلاف سيك",
+            "bn": "ভ্যাক্লাভ শেজক",
+            "hi": "वाक्लाव सेजक"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. سيك",
+            "bn": "ভি. সেজক",
+            "hi": "वी. सेजक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 7.3,
+        "y": 49.8,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 5.9,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.15128989517689,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "",
+        "lastName": "",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2061,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर"
+          }
+        }
+      },
+      "id": 6305099,
+      "time": 71,
+      "timeSeconds": 4242,
+      "draw": {
+        "start": {
+          "x": 49.8,
+          "y": 7.3
+        },
+        "block": {
+          "x": 49.8,
+          "y": 5.9
+        },
+        "end": {
+          "x": 49.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1158,
+      "periodTimeSeconds": 1542,
+      "incidentType": "shot"
+    }
+  ]
+}

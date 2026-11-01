@@ -1,0 +1,117 @@
+{
+  "passes": [
+    {
+      "playerCoordinates": {
+        "x": 34.2,
+        "y": 15.9
+      },
+      "passEndCoordinates": {
+        "x": 33.3,
+        "y": 3.3
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 39.6,
+        "y": 32.7
+      },
+      "passEndCoordinates": {
+        "x": 36,
+        "y": 28.5
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 79.4,
+        "y": 50.7
+      },
+      "passEndCoordinates": {
+        "x": 99,
+        "y": 69
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 35.8,
+        "y": 31
+      },
+      "passEndCoordinates": {
+        "x": 43.7,
+        "y": 53.7
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false,
+      "isLongBall": true
+    },
+    {
+      "playerCoordinates": {
+        "x": 35.2,
+        "y": 32.1
+      },
+      "passEndCoordinates": {
+        "x": 31.6,
+        "y": 34.5
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "dribbles": [
+    {
+      "playerCoordinates": {
+        "x": 54,
+        "y": 5.4
+      },
+      "eventActionType": "dribble",
+      "isHome": true,
+      "keypass": false
+    }
+  ],
+  "defensive": [
+    {
+      "playerCoordinates": {
+        "x": 39.6,
+        "y": 32.7
+      },
+      "eventActionType": "ball-recovery",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 67.4,
+        "y": 46
+      },
+      "eventActionType": "interception",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 71.8,
+        "y": 51.9
+      },
+      "eventActionType": "ball-recovery",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "ball-carries": []
+}

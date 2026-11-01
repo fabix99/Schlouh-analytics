@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bernard Nguene",
+        "firstName": "Bernard Nguene",
+        "slug": "bernard-nguene",
+        "shortName": "B. Nguene",
+        "position": "F",
+        "jerseyNumber": "26",
+        "userCount": 225,
+        "gender": "M",
+        "id": 2017474,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برنارد نغوين"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. نغوين"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.6,
+        "y": 67.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.6,
+        "y": 65.7,
+        "z": 0
+      },
+      "xg": 0.027859684079885,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lukáš Horníček",
+        "slug": "lukas-hornicek",
+        "shortName": "L. Horníček",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 524,
+        "gender": "M",
+        "id": 963744,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاش هورنيتشيك",
+            "bn": "লুকাস হর্নিসেক",
+            "hi": "लुकास हॉर्निसेक"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. هورنيتشيك",
+            "bn": "এল. হর্নিক",
+            "hi": "एल. हॉर्निसेक"
+          }
+        }
+      },
+      "id": 6333541,
+      "time": 50,
+      "timeSeconds": 2998,
+      "draw": {
+        "start": {
+          "x": 67.3,
+          "y": 11.6
+        },
+        "block": {
+          "x": 65.7,
+          "y": 10.6
+        },
+        "end": {
+          "x": 49,
+          "y": 0
+        },
+        "goal": {
+          "x": 49,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2402,
+      "periodTimeSeconds": 298,
+      "incidentType": "shot"
+    }
+  ]
+}

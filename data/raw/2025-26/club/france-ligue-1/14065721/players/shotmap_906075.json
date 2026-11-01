@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Melvin Bard",
+        "firstName": "",
+        "lastName": "",
+        "slug": "melvin-bard",
+        "shortName": "M. Bard",
+        "position": "D",
+        "jerseyNumber": "26",
+        "userCount": 504,
+        "gender": "M",
+        "id": 906075,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميلفين بارد",
+            "bn": "মেলভিন বার্ড",
+            "hi": "मेल्विन बार्ड"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بارد",
+            "bn": "এম. বার্ড",
+            "hi": "एम. बार्ड"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.9,
+        "y": 31.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 28.7,
+        "z": 1.4
+      },
+      "blockCoordinates": {
+        "x": 7.2,
+        "y": 46.4,
+        "z": 0
+      },
+      "xg": 0.044894434511662,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Anthony Lopes",
+        "firstName": "",
+        "lastName": "",
+        "slug": "anthony-lopes",
+        "shortName": "A. Lopes",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1186,
+        "gender": "M",
+        "id": 48535,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنتوني لوبيس",
+            "bn": "অ্যান্টনি লোপেস",
+            "hi": "एंथनी लोपेस"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. لوبيس",
+            "bn": "এ. লোপেজ",
+            "hi": "ए. लोपेस"
+          }
+        }
+      },
+      "id": 5632940,
+      "time": 34,
+      "timeSeconds": 2024,
+      "draw": {
+        "start": {
+          "x": 31.9,
+          "y": 9.9
+        },
+        "block": {
+          "x": 46.4,
+          "y": 7.2
+        },
+        "end": {
+          "x": 71.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 71.3,
+          "y": 98.6
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 676,
+      "periodTimeSeconds": 2024,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ahmed Bamasud",
+        "slug": "ahmed-bamasud",
+        "shortName": "A. Bamasud",
+        "position": "D",
+        "jerseyNumber": "18",
+        "userCount": 112,
+        "gender": "M",
+        "id": 893197,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أحمد بمسعود",
+            "bn": "আহমেদ বামাসুদ",
+            "hi": "अहमद बामसुद"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بمسعود",
+            "bn": "এ. বামাসুদ",
+            "hi": "ए. बामसुद"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 25.5,
+        "y": 73.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.3,
+        "z": 5.1
+      },
+      "blockCoordinates": {
+        "x": 0.5,
+        "y": 52.5,
+        "z": 0
+      },
+      "xg": 0.03134448081255,
+      "xgot": 0.49240824580193,
+      "goalkeeper": {
+        "name": "Bruno Varela",
+        "slug": "bruno-varela",
+        "shortName": "B. Varela",
+        "position": "G",
+        "jerseyNumber": "14",
+        "userCount": 614,
+        "gender": "M",
+        "id": 138895,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برونو فاريلا",
+            "bn": "ব্রুনো ভারেলা",
+            "hi": "ब्रूनो वारेला"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فاريلا",
+            "bn": "বি. ভারেলা",
+            "hi": "बी. वारेला"
+          }
+        }
+      },
+      "id": 6410945,
+      "time": 45,
+      "timeSeconds": 2665,
+      "draw": {
+        "start": {
+          "x": 73.6,
+          "y": 25.5
+        },
+        "block": {
+          "x": 52.5,
+          "y": 0.5
+        },
+        "end": {
+          "x": 45.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.7,
+          "y": 94.9
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 35,
+      "periodTimeSeconds": 2665,
+      "incidentType": "shot"
+    }
+  ]
+}

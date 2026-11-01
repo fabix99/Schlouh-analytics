@@ -1,0 +1,68 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kevin De Bruyne",
+        "slug": "kevin-de-bruyne",
+        "shortName": "K. De Bruyne",
+        "position": "M",
+        "jerseyNumber": "11",
+        "userCount": 311477,
+        "gender": "M",
+        "sofascoreId": "KDB",
+        "id": 70996,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيفن دي بروين",
+            "bn": "কেভিন ডি ব্রুইন",
+            "hi": "केविन डी ब्रूने"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. دي بروين",
+            "bn": "কে. ডি ব্রুইন",
+            "hi": "के. डी ब्रूने"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.4,
+        "z": 14.6
+      },
+      "xg": 0.7884,
+      "xgot": 0.70890313386917,
+      "id": 6022500,
+      "time": 33,
+      "timeSeconds": 1960,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 46.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.6,
+          "y": 85.4
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 740,
+      "periodTimeSeconds": 1960,
+      "incidentType": "shot"
+    }
+  ]
+}

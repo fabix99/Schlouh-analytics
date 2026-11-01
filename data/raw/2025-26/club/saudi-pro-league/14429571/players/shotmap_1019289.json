@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Khalil Al-Absi",
+        "slug": "khalil-al-absi",
+        "shortName": "K. Al-Absi",
+        "position": "M",
+        "jerseyNumber": "11",
+        "userCount": 54,
+        "gender": "M",
+        "id": 1019289,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خليل العبسي",
+            "bn": "খলিল আল-আবসি",
+            "hi": "खलील अल-अब्सी"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. العبسي",
+            "bn": "কে. আল-আবসি",
+            "hi": "के. अल-अब्सी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 13.9,
+        "y": 62.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 2.9,
+        "y": 53.8,
+        "z": 0
+      },
+      "xg": 0.14257073402405,
+      "xgot": 0.062108494341373,
+      "goalkeeper": {
+        "name": "Juan Cozzani",
+        "slug": "juan-cozzani",
+        "shortName": "J. Cozzani",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 134,
+        "gender": "M",
+        "id": 874969,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوان كوزاني"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. كوزاني"
+          }
+        }
+      },
+      "id": 6008418,
+      "time": 86,
+      "timeSeconds": 5131,
+      "draw": {
+        "start": {
+          "x": 62.4,
+          "y": 13.9
+        },
+        "block": {
+          "x": 53.8,
+          "y": 2.9
+        },
+        "end": {
+          "x": 50.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 269,
+      "periodTimeSeconds": 2431,
+      "incidentType": "shot"
+    }
+  ]
+}

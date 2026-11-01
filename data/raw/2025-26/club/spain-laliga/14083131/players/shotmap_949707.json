@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Juan Iglesias",
+        "firstName": "",
+        "lastName": "",
+        "slug": "juan-iglesias",
+        "shortName": "J. Iglesias",
+        "position": "D",
+        "jerseyNumber": "21",
+        "userCount": 568,
+        "gender": "M",
+        "id": 949707,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوان إغليسياس",
+            "bn": "জুয়ান ইগলেসিয়াস",
+            "hi": "जुआन इग्लेसियस"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. إغليسياس",
+            "bn": "জে. ইগলেসিয়াস",
+            "hi": "जे. इग्लेसियस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.2,
+        "y": 56.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.9,
+        "y": 53.8,
+        "z": 0
+      },
+      "xg": 0.095545575022697,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Juan Musso",
+        "slug": "juan-musso",
+        "shortName": "J. Musso",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 6278,
+        "gender": "M",
+        "sofascoreId": "juanmusso",
+        "id": 263651,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوان موسو",
+            "bn": "জুয়ান মুসো",
+            "hi": "जुआन मुस्सो"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. موسو",
+            "bn": "জে. মুসো",
+            "hi": "जे. मुस्सो"
+          }
+        }
+      },
+      "id": 6231354,
+      "time": 1,
+      "timeSeconds": 28,
+      "draw": {
+        "start": {
+          "x": 56.3,
+          "y": 18.2
+        },
+        "block": {
+          "x": 53.8,
+          "y": 10.9
+        },
+        "end": {
+          "x": 50.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 45,
+      "reversedPeriodTimeSeconds": 2672,
+      "periodTimeSeconds": 28,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kerem Aktürkoğlu",
+        "firstName": "",
+        "lastName": "",
+        "slug": "kerem-akturkoglu",
+        "shortName": "K. Aktürkoğlu",
+        "position": "F",
+        "jerseyNumber": "17",
+        "userCount": 24666,
+        "gender": "M",
+        "sofascoreId": "KAktürkoğlu",
+        "id": 903324,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريم أكتوركوغلو",
+            "bn": "কেরেম আক্তুরকোগলু",
+            "hi": "केरेम अकतुर्कोग्लू"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. أكتوركوغلو",
+            "bn": "কে. আক্তুরকোগলু",
+            "hi": "के. अकतुर्कोग्लू"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 21.9,
+        "y": 24.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.2,
+        "y": 39,
+        "z": 0
+      },
+      "xg": 0.035184808075428,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Uğurcan Çakır",
+        "slug": "ugurcan-cakir",
+        "shortName": "U. Çakır",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5057,
+        "gender": "M",
+        "id": 754330,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوغورجان تشاكير",
+            "bn": "উগুরকান কাকির",
+            "hi": "उगुरकन चाकिर"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. تشاكير",
+            "bn": "ইউ. কাকির",
+            "hi": "यू. चाकिर"
+          }
+        }
+      },
+      "id": 6280701,
+      "time": 41,
+      "timeSeconds": 2448,
+      "draw": {
+        "start": {
+          "x": 24.9,
+          "y": 21.9
+        },
+        "block": {
+          "x": 39,
+          "y": 9.2
+        },
+        "end": {
+          "x": 49.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 252,
+      "periodTimeSeconds": 2448,
+      "incidentType": "shot"
+    }
+  ]
+}

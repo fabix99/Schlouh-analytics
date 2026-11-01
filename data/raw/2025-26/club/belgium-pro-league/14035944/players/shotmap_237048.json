@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Tobias Mohr",
+        "slug": "tobias-mohr",
+        "shortName": "T. Mohr",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 155,
+        "gender": "M",
+        "id": 237048,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توبياس موهر",
+            "bn": "টোবিয়াস মোহর",
+            "hi": "टोबियास मोहर"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. موهر",
+            "bn": "টি. মোহর",
+            "hi": "टी. मोहर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.1,
+        "y": 33.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.6,
+        "y": 36.1,
+        "z": 0
+      },
+      "xg": 0.027262343093753,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Brent Gabriel",
+        "firstName": "",
+        "lastName": "",
+        "slug": "gabriel-brent",
+        "shortName": "B. Gabriel",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 74,
+        "gender": "M",
+        "id": 861977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برينت غابرييل"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غابرييل"
+          }
+        }
+      },
+      "id": 6216758,
+      "time": 71,
+      "timeSeconds": 4202,
+      "draw": {
+        "start": {
+          "x": 33.4,
+          "y": 21.1
+        },
+        "block": {
+          "x": 36.1,
+          "y": 17.6
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1198,
+      "periodTimeSeconds": 1502,
+      "incidentType": "shot"
+    }
+  ]
+}

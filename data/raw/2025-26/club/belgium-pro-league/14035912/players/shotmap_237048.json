@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Tobias Mohr",
+        "slug": "tobias-mohr",
+        "shortName": "T. Mohr",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 155,
+        "gender": "M",
+        "id": 237048,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توبياس موهر",
+            "bn": "টোবিয়াস মোহর",
+            "hi": "टोबियास मोहर"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. موهر",
+            "bn": "টি. মোহর",
+            "hi": "टी. मोहर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 26.5,
+        "y": 70.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.6,
+        "z": 2.5
+      },
+      "blockCoordinates": {
+        "x": 0.3,
+        "y": 51.6,
+        "z": 0
+      },
+      "xg": 0.031472653150558,
+      "xgot": 0.18382170796394,
+      "goalkeeper": {
+        "name": "Taishi Brandon Nozawa",
+        "firstName": "",
+        "lastName": "",
+        "slug": "taishi-brandon-nozawa",
+        "shortName": "T. B. Nozawa",
+        "position": "G",
+        "jerseyNumber": "41",
+        "userCount": 538,
+        "gender": "M",
+        "id": 1002358,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تايشي براندون نوزاوا",
+            "bn": "তাইশি ব্র্যান্ডন নোজাওয়া",
+            "hi": "ताइशी ब्रैंडन नोज़ावा"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. نوزاوا",
+            "bn": "টি. বি. নোজাওয়া",
+            "hi": "टी.बी. नोज़ावा"
+          }
+        }
+      },
+      "id": 5953305,
+      "time": 45,
+      "addedTime": 7,
+      "timeSeconds": 3080,
+      "draw": {
+        "start": {
+          "x": 70.2,
+          "y": 26.5
+        },
+        "block": {
+          "x": 51.6,
+          "y": 0.3
+        },
+        "end": {
+          "x": 46.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.4,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2320,
+      "periodTimeSeconds": 380,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sam Lammers",
+        "slug": "sam-lammers",
+        "shortName": "S. Lammers",
+        "position": "F",
+        "jerseyNumber": "10",
+        "userCount": 846,
+        "gender": "M",
+        "id": 804901,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سام لامرز",
+            "bn": "স্যাম ল্যামারস",
+            "hi": "सैम लेमर्स"
+          },
+          "shortNameTranslation": {
+            "ar": "س. لامرز",
+            "bn": "এস. ল্যামার্স",
+            "hi": "एस. लेमर्स"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.8,
+        "y": 50.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 40.5,
+        "z": 11.1
+      },
+      "xg": 0.30294093489647,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kayne van Oevelen",
+        "firstName": "Kayne van Oevelen",
+        "lastName": "",
+        "slug": "kayne-van-oevelen",
+        "shortName": "K. v. Oevelen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 279,
+        "gender": "M",
+        "id": 1393970,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاين فان أويفيلن"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. فان أويفيلن"
+          }
+        }
+      },
+      "id": 6222972,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5537,
+      "draw": {
+        "start": {
+          "x": 50.9,
+          "y": 12.8
+        },
+        "end": {
+          "x": 59.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 59.5,
+          "y": 88.9
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 763,
+      "periodTimeSeconds": 137,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ricardo Horta",
+        "slug": "ricardo-horta",
+        "shortName": "R. Horta",
+        "position": "F",
+        "jerseyNumber": "21",
+        "userCount": 2215,
+        "gender": "M",
+        "id": 314380,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكاردو هورتا",
+            "bn": "রিকার্ডো হোর্টা",
+            "hi": "रिकार्डो होर्ता"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. هورتا",
+            "bn": "আর. হোর্টা",
+            "hi": "आर. होर्ता"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 6.6,
+        "y": 52.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51,
+        "z": 8.2
+      },
+      "xg": 0.57336729764938,
+      "xgot": 0.61538362503052,
+      "goalkeeper": {
+        "name": "Gabriel Batista",
+        "firstName": "",
+        "lastName": "",
+        "slug": "gabriel-batista",
+        "shortName": "G. Batista",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 350,
+        "gender": "M",
+        "id": 822526,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غابرييل باتيستا"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. باتيستا"
+          }
+        }
+      },
+      "id": 6355908,
+      "time": 42,
+      "timeSeconds": 2461,
+      "draw": {
+        "start": {
+          "x": 52.8,
+          "y": 6.6
+        },
+        "end": {
+          "x": 49,
+          "y": 0
+        },
+        "goal": {
+          "x": 49,
+          "y": 91.8
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 239,
+      "periodTimeSeconds": 2461,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Wout Weghorst",
+        "slug": "wout-weghorst",
+        "shortName": "W. Weghorst",
+        "position": "F",
+        "jerseyNumber": "25",
+        "userCount": 6720,
+        "gender": "M",
+        "sofascoreId": "wout.weghorst",
+        "id": 252215,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فاوت فيجورست",
+            "bn": "ওয়াউট ওয়েঘর্স্ট",
+            "hi": "वॉट वेघोर्स्ट"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فيجورست",
+            "bn": "ডব্লিউ. ওয়েঘর্স্ট",
+            "hi": "डब्लू. वेघोर्स्ट"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 8.5,
+        "y": 28.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 41.7,
+        "z": 4.2
+      },
+      "xg": 0.02300838008523,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Etienne Vaessen",
+        "slug": "etienne-vaessen",
+        "shortName": "E. Vaessen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 473,
+        "gender": "M",
+        "id": 809408,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إتيان فايزن"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. فايزن"
+          }
+        }
+      },
+      "id": 6285508,
+      "time": 66,
+      "timeSeconds": 3947,
+      "draw": {
+        "start": {
+          "x": 28.6,
+          "y": 8.5
+        },
+        "end": {
+          "x": 58.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 58.3,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 25,
+      "reversedPeriodTimeSeconds": 1453,
+      "periodTimeSeconds": 1247,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Wout Weghorst",
+        "slug": "wout-weghorst",
+        "shortName": "W. Weghorst",
+        "position": "F",
+        "jerseyNumber": "25",
+        "userCount": 6720,
+        "gender": "M",
+        "sofascoreId": "wout.weghorst",
+        "id": 252215,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فاوت فيجورست",
+            "bn": "ওয়াউট ওয়েঘর্স্ট",
+            "hi": "वॉट वेघोर्स्ट"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فيجورست",
+            "bn": "ডব্লিউ. ওয়েঘর্স্ট",
+            "hi": "डब्लू. वेघोर्स्ट"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.2,
+        "y": 29.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 0.5,
+        "y": 46.9,
+        "z": 0
+      },
+      "xg": 0.031561139971018,
+      "xgot": 0.031713493168354,
+      "goalkeeper": {
+        "name": "Etienne Vaessen",
+        "slug": "etienne-vaessen",
+        "shortName": "E. Vaessen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 473,
+        "gender": "M",
+        "id": 809408,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إتيان فايزن"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. فايزن"
+          }
+        }
+      },
+      "id": 6285470,
+      "time": 23,
+      "timeSeconds": 1352,
+      "draw": {
+        "start": {
+          "x": 29.7,
+          "y": 9.2
+        },
+        "block": {
+          "x": 46.9,
+          "y": 0.5
+        },
+        "end": {
+          "x": 48.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1348,
+      "periodTimeSeconds": 1352,
+      "incidentType": "shot"
+    }
+  ]
+}

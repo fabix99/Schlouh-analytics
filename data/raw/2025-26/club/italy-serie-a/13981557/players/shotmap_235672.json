@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Matteo Politano",
+        "slug": "matteo-politano",
+        "shortName": "M. Politano",
+        "position": "F",
+        "jerseyNumber": "21",
+        "userCount": 4495,
+        "gender": "M",
+        "id": 235672,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتيو بوليتانو",
+            "bn": "মাত্তেও পলিটানো",
+            "hi": "माटेओ पोलिटानो"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بوليتانو",
+            "bn": "এম. পলিটানো",
+            "hi": "एम. पोलिटानो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 21.4,
+        "y": 67.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 19.5,
+        "y": 66.2,
+        "z": 0
+      },
+      "xg": 0.020487414672971,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Michele Di Gregorio",
+        "firstName": "",
+        "lastName": "",
+        "slug": "michele-di-gregorio",
+        "shortName": "M. Di Gregorio",
+        "position": "G",
+        "jerseyNumber": "29",
+        "userCount": 8227,
+        "gender": "M",
+        "sofascoreId": "L'UomoTigre",
+        "id": 844609,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميشيل دي غريغوريو",
+            "bn": "মিশেল ডি গ্রেগরিও",
+            "hi": "मिशेल डि ग्रेगोरियो"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دي غريغوريو",
+            "bn": "এম. ডি গ্রেগরিও",
+            "hi": "एम. डि ग्रेगोरियो"
+          }
+        }
+      },
+      "id": 6314712,
+      "time": 81,
+      "timeSeconds": 4827,
+      "draw": {
+        "start": {
+          "x": 67.8,
+          "y": 21.4
+        },
+        "block": {
+          "x": 66.2,
+          "y": 19.5
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 10,
+      "reversedPeriodTimeSeconds": 573,
+      "periodTimeSeconds": 2127,
+      "incidentType": "shot"
+    }
+  ]
+}

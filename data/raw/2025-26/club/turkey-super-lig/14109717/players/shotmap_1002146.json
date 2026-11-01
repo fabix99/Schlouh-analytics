@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Maestro",
+        "slug": "maestro",
+        "shortName": "Maestro",
+        "position": "M",
+        "jerseyNumber": "58",
+        "userCount": 1198,
+        "gender": "M",
+        "id": 1002146,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايسترو",
+            "bn": "মায়েস্ট্রো",
+            "hi": "माएस्ट्रो"
+          },
+          "shortNameTranslation": {
+            "ar": "مايسترو",
+            "bn": "মায়েস্ট্রো",
+            "hi": "कलाकार"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 8.3,
+        "y": 25.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.1,
+        "y": 28.4,
+        "z": 0
+      },
+      "xg": 0.014006655663252,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Andreas Gianniotis",
+        "slug": "andreas-gianniotis",
+        "shortName": "A. Gianniotis",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 178,
+        "gender": "M",
+        "id": 236746,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أندرياس جيانيوتيس",
+            "bn": "আন্দ্রেয়াস জিয়ানিয়োটিস",
+            "hi": "एंड्रियास जियानियोटिस"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. جيانيوتيس",
+            "bn": "এ. জিয়ানিয়োটিস",
+            "hi": "ए. जियानियोटिस"
+          }
+        }
+      },
+      "id": 6230154,
+      "time": 62,
+      "timeSeconds": 3668,
+      "draw": {
+        "start": {
+          "x": 25.2,
+          "y": 8.3
+        },
+        "block": {
+          "x": 28.4,
+          "y": 7.1
+        },
+        "end": {
+          "x": 47.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1732,
+      "periodTimeSeconds": 968,
+      "incidentType": "shot"
+    }
+  ]
+}

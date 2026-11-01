@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Joris Kramer",
+        "slug": "joris-kramer",
+        "shortName": "J. Kramer",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 144,
+        "gender": "M",
+        "id": 793742,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كرامر، جوريس",
+            "bn": "ক্রেমার, ক্রেমার",
+            "hi": "क्रेमर, जोरिस"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. جوريس",
+            "bn": "জে. ক্রেমার",
+            "hi": "जे. क्रेमर"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 2,
+        "y": 42.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 11.1,
+        "z": 4.2
+      },
+      "blockCoordinates": {
+        "x": 2.3,
+        "y": 43.1,
+        "z": 0
+      },
+      "xg": 0.17125809192657,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Christian Zawieschitzky",
+        "firstName": "Christian Zawieschitzky",
+        "slug": "zawieschitzky-christian",
+        "shortName": "C. Zawieschitzky",
+        "position": "G",
+        "jerseyNumber": "41",
+        "userCount": 254,
+        "gender": "M",
+        "id": 1474199,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستيان زافيشيتسكي"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. زافيشيتسكي"
+          }
+        }
+      },
+      "id": 6120869,
+      "time": 90,
+      "addedTime": 1,
+      "timeSeconds": 5437,
+      "draw": {
+        "start": {
+          "x": 42.4,
+          "y": 2
+        },
+        "block": {
+          "x": 43.1,
+          "y": 2.3
+        },
+        "end": {
+          "x": 88.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 88.9,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 863,
+      "periodTimeSeconds": 37,
+      "incidentType": "shot"
+    }
+  ]
+}

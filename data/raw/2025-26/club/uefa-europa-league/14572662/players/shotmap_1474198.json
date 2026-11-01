@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jannik Schuster",
+        "firstName": "Jannik Schuster",
+        "slug": "schuster-jannik",
+        "shortName": "J. Schuster",
+        "position": "D",
+        "jerseyNumber": "44",
+        "userCount": 230,
+        "gender": "M",
+        "id": 1474198,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يانيك شوشتر"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. شوشتر"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 9,
+        "y": 48.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 6.6,
+        "z": 6.9
+      },
+      "blockCoordinates": {
+        "x": 7.1,
+        "y": 61.6,
+        "z": 0
+      },
+      "xg": 0.053030900657177,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jari De Busser",
+        "slug": "jari-de-busser",
+        "shortName": "J. D. Busser",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 302,
+        "gender": "M",
+        "id": 837072,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياري دي بوسر"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. دي بوسر"
+          }
+        }
+      },
+      "id": 6120349,
+      "time": 29,
+      "timeSeconds": 1704,
+      "draw": {
+        "start": {
+          "x": 48.5,
+          "y": 9
+        },
+        "block": {
+          "x": 61.6,
+          "y": 7.1
+        },
+        "end": {
+          "x": 93.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 93.4,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 996,
+      "periodTimeSeconds": 1704,
+      "incidentType": "shot"
+    }
+  ]
+}

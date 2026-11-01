@@ -1,0 +1,81 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Anton Tanghe",
+        "slug": "tanghe-anton",
+        "shortName": "A. Tanghe",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 70,
+        "gender": "M",
+        "id": 1005175,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنتون تانغ"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. تانغ"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54,
+        "z": 15.8
+      },
+      "xg": 0.7884,
+      "xgot": 0.85492503643036,
+      "goalkeeper": {
+        "name": "Marcos Hernán Peano",
+        "slug": "marcos-hernan-peano",
+        "shortName": "M. H. Peano",
+        "position": "G",
+        "jerseyNumber": "21",
+        "userCount": 126,
+        "gender": "M",
+        "id": 789394,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركوس هيرنان بيانو"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بيانو"
+          }
+        }
+      },
+      "id": 6342402,
+      "time": 33,
+      "timeSeconds": 1945,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 46,
+          "y": 0
+        },
+        "goal": {
+          "x": 46,
+          "y": 84.2
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 755,
+      "periodTimeSeconds": 1945,
+      "incidentType": "shot"
+    }
+  ]
+}

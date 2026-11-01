@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Zeki Yavru",
+        "slug": "zeki-yavru",
+        "shortName": "Z. Yavru",
+        "position": "D",
+        "jerseyNumber": "18",
+        "userCount": 207,
+        "gender": "M",
+        "id": 140735,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيكي يافرو"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. يافرو"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 26.2,
+        "y": 74.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 20.2,
+        "y": 69.1,
+        "z": 0
+      },
+      "xg": 0.017165925353765,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ersin Destanoğlu",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ersin-destanoglu",
+        "shortName": "E. Destanoğlu",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 1679,
+        "gender": "M",
+        "id": 913656,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيرسن ديستانوغلو",
+            "bn": "এরসিন ডেস্টানোগলু",
+            "hi": "एरसिन डेस्तानोग्लू"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ديستانوغلو",
+            "bn": "ই. ডেস্টানোগলু",
+            "hi": "ई. डेस्तानोग्लू"
+          }
+        }
+      },
+      "id": 6229778,
+      "time": 46,
+      "timeSeconds": 2745,
+      "draw": {
+        "start": {
+          "x": 74.4,
+          "y": 26.2
+        },
+        "block": {
+          "x": 69.1,
+          "y": 20.2
+        },
+        "end": {
+          "x": 51.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 45,
+      "reversedPeriodTimeSeconds": 2655,
+      "periodTimeSeconds": 45,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Alfonso Espino",
+        "slug": "alfonso-espino",
+        "shortName": "A. Espino",
+        "position": "D",
+        "jerseyNumber": "22",
+        "userCount": 666,
+        "gender": "M",
+        "id": 542634,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألفونسو إسبينو",
+            "bn": "আলফোনসো এস্পিনো",
+            "hi": "अल्फोंसो एस्पिनो"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. إسبينو",
+            "bn": "এ. এস্পিনো",
+            "hi": "ए. एस्पिनो"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7.9,
+        "y": 6.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.8,
+        "z": 10.1
+      },
+      "xg": 0.0094476174563169,
+      "xgot": 0.2275423258543,
+      "goalkeeper": {
+        "name": "Sławomir Abramowicz",
+        "firstName": "",
+        "lastName": "",
+        "slug": "slawomir-abramowicz",
+        "shortName": "S. Abramowicz",
+        "position": "G",
+        "jerseyNumber": "50",
+        "userCount": 515,
+        "gender": "M",
+        "id": 1152849,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سلاومير أبراموفيتش"
+          },
+          "shortNameTranslation": {
+            "ar": "س. أبراموفيتش"
+          }
+        }
+      },
+      "id": 6333607,
+      "time": 61,
+      "timeSeconds": 3643,
+      "draw": {
+        "start": {
+          "x": 6.4,
+          "y": 7.9
+        },
+        "end": {
+          "x": 46.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.2,
+          "y": 89.9
+        }
+      },
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1757,
+      "periodTimeSeconds": 943,
+      "incidentType": "shot"
+    }
+  ]
+}

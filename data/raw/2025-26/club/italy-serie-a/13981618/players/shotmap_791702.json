@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Marcus Thuram",
+        "slug": "marcus-thuram",
+        "shortName": "M. Thuram",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 25673,
+        "gender": "M",
+        "sofascoreId": "m_thuram",
+        "id": 791702,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركوس تورام",
+            "bn": "থুরাম, মার্কাস",
+            "hi": "थुरम, मार्कस"
+          },
+          "shortNameTranslation": {
+            "ar": "م. تورام",
+            "bn": "এম. থুরাম",
+            "hi": "एम. मार्कस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.5,
+        "y": 50.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 36.1
+      },
+      "blockCoordinates": {
+        "x": 0.59999999999999,
+        "y": 50,
+        "z": 0
+      },
+      "xg": 0.10025821626186,
+      "xgot": 0.038086611777544,
+      "goalkeeper": {
+        "name": "Vanja Milinković-Savić",
+        "slug": "vanja-milinkovic-savic",
+        "shortName": "V. Milinković-Savić",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 6391,
+        "gender": "M",
+        "id": 356160,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فانيا ميلينكوفيتش-سافيتش",
+            "bn": "ভাঞ্জা মিলিনকোভিচ-সাভিচ",
+            "hi": "वानजा मिलिन्कोविक-साविक"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. ميلينكوفيتش-سافيتش",
+            "bn": "ভি. মিলিনকোভিচ-সাভিচ",
+            "hi": "वी. मिलिन्कोविक-साविक"
+          }
+        }
+      },
+      "id": 6496258,
+      "time": 44,
+      "timeSeconds": 2605,
+      "draw": {
+        "start": {
+          "x": 50.2,
+          "y": 9.5
+        },
+        "block": {
+          "x": 50,
+          "y": 0.59999999999999
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 63.9
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 95,
+      "periodTimeSeconds": 2605,
+      "incidentType": "shot"
+    }
+  ]
+}

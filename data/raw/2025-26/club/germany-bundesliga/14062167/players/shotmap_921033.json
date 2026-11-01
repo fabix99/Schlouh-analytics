@@ -1,0 +1,92 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Linton Maina",
+        "firstName": "",
+        "lastName": "",
+        "slug": "linton-maina",
+        "shortName": "L. Maina",
+        "position": "M",
+        "jerseyNumber": "37",
+        "userCount": 488,
+        "gender": "M",
+        "id": 921033,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لينتون ماينا",
+            "bn": "লিন্টন মাইনা",
+            "hi": "लिंटन मैना"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. ماينا",
+            "bn": "এল. মাইনা",
+            "hi": "एल. मैना"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 18.1,
+        "y": 48.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.8,
+        "z": 20.3
+      },
+      "xg": 0.1478905826807,
+      "xgot": 0.085619196295738,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 36222,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर"
+          }
+        }
+      },
+      "id": 6518004,
+      "time": 41,
+      "timeSeconds": 2408,
+      "draw": {
+        "start": {
+          "x": 48.6,
+          "y": 18.1
+        },
+        "end": {
+          "x": 52.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.2,
+          "y": 79.7
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 292,
+      "periodTimeSeconds": 2408,
+      "incidentType": "shot"
+    }
+  ]
+}

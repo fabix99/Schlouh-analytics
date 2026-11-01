@@ -1,0 +1,81 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Aleksander Trumci",
+        "firstName": "Aleksander Trumci",
+        "slug": "aleksander-trumci",
+        "shortName": "A. Trumci",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 19,
+        "gender": "M",
+        "id": 1887752,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ترومسي، ألكسندر"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. ترومسي"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.6,
+        "y": 74.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 68.7,
+        "z": 1.4
+      },
+      "xg": 0.036291021853685,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Dominik Takáč",
+        "slug": "dominik-takac",
+        "shortName": "D. Takáč",
+        "position": "G",
+        "jerseyNumber": "71",
+        "userCount": 238,
+        "gender": "M",
+        "id": 886365,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دومينيك تاكاش"
+          },
+          "shortNameTranslation": {
+            "ar": "د. تاكاش"
+          }
+        }
+      },
+      "id": 6333275,
+      "time": 11,
+      "timeSeconds": 623,
+      "draw": {
+        "start": {
+          "x": 74.8,
+          "y": 12.6
+        },
+        "end": {
+          "x": 31.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 31.3,
+          "y": 98.6
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2077,
+      "periodTimeSeconds": 623,
+      "incidentType": "shot"
+    }
+  ]
+}

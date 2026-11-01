@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jean-Philippe Krasso",
+        "slug": "jean-philippe-krasso",
+        "shortName": "J. Krasso",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 2915,
+        "gender": "M",
+        "sofascoreId": "JPKrasso",
+        "id": 940328,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جان فيليب كراسو",
+            "bn": "জিন-ফিলিপ ক্র্যাসো",
+            "hi": "जीन-फिलिप क्रासो"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. كراسو",
+            "bn": "জে. ক্র্যাসো",
+            "hi": "जे. क्रासो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 4.2,
+        "y": 64.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.4,
+        "z": 3.2
+      },
+      "blockCoordinates": {
+        "x": 0.7,
+        "y": 53.4,
+        "z": 0
+      },
+      "xg": 0.17155368626118,
+      "xgot": 0.24142929911613,
+      "goalkeeper": {
+        "name": "Brice Samba",
+        "slug": "brice-samba",
+        "shortName": "B. Samba",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 2118,
+        "gender": "M",
+        "id": 164055,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برايس سامبا",
+            "bn": "ব্রাইস সাম্বা",
+            "hi": "ब्राइस साम्बा"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. سامبا",
+            "bn": "বি. সাম্বা",
+            "hi": "बी. साम्बा"
+          }
+        }
+      },
+      "id": 6126753,
+      "time": 39,
+      "timeSeconds": 2294,
+      "draw": {
+        "start": {
+          "x": 64.8,
+          "y": 4.2
+        },
+        "block": {
+          "x": 53.4,
+          "y": 0.7
+        },
+        "end": {
+          "x": 52.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.6,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 406,
+      "periodTimeSeconds": 2294,
+      "incidentType": "shot"
+    }
+  ]
+}

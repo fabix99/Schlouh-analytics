@@ -1,0 +1,82 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Aaron Bouwman",
+        "firstName": "Aaron Bouwman",
+        "slug": "aaron-bouwman",
+        "shortName": "A. Bouwman",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 796,
+        "gender": "M",
+        "id": 1586649,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آرون بومان"
+          },
+          "shortNameTranslation": {
+            "ar": "آ. بومان"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 5.6,
+        "y": 57.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.5,
+        "z": 6.3
+      },
+      "xg": 0.20671178400517,
+      "xgot": 0.76975411176682,
+      "goalkeeper": {
+        "name": "Etienne Vaessen",
+        "slug": "etienne-vaessen",
+        "shortName": "E. Vaessen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 473,
+        "gender": "M",
+        "id": 809408,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إتيان فايزن"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. فايزن"
+          }
+        }
+      },
+      "id": 6285505,
+      "time": 60,
+      "timeSeconds": 3582,
+      "draw": {
+        "start": {
+          "x": 57.1,
+          "y": 5.6
+        },
+        "end": {
+          "x": 53.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.5,
+          "y": 93.7
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1818,
+      "periodTimeSeconds": 882,
+      "incidentType": "shot"
+    }
+  ]
+}

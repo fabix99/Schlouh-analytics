@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Federico Viñas",
+        "slug": "federico-vinas",
+        "shortName": "F. Viñas",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 1384,
+        "gender": "M",
+        "id": 976104,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيديريكو فيناس"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فيناس"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 10.2,
+        "y": 44.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.7,
+        "z": 11.1
+      },
+      "blockCoordinates": {
+        "x": 0.5,
+        "y": 52.5,
+        "z": 0
+      },
+      "xg": 0.14272600412369,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Augusto Batalla",
+        "slug": "augusto-batalla",
+        "shortName": "A. Batalla",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 1517,
+        "gender": "M",
+        "id": 358910,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوغوستو باتالا",
+            "bn": "অগাস্টো বাটাল্লা",
+            "hi": "ऑगस्टो बटाला"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باتالا",
+            "bn": "এ. বাটাল্লা",
+            "hi": "ए. बटाला"
+          }
+        }
+      },
+      "id": 6228568,
+      "time": 31,
+      "timeSeconds": 1811,
+      "draw": {
+        "start": {
+          "x": 44.4,
+          "y": 10.2
+        },
+        "block": {
+          "x": 52.5,
+          "y": 0.5
+        },
+        "end": {
+          "x": 53.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.3,
+          "y": 88.9
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 889,
+      "periodTimeSeconds": 1811,
+      "incidentType": "shot"
+    }
+  ]
+}

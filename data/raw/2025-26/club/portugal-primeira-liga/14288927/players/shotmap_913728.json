@@ -1,0 +1,86 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ivan Barbero",
+        "slug": "ivan-barbero",
+        "shortName": "I. Barbero",
+        "position": "F",
+        "jerseyNumber": "17",
+        "userCount": 163,
+        "gender": "M",
+        "id": 913728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باربيرو",
+            "bn": "বারবেরো",
+            "hi": "बारबेरो"
+          },
+          "shortNameTranslation": {
+            "ar": "باربيرو",
+            "bn": "আই এম. গঞ্জালেজ",
+            "hi": "आई.एम.गोंजालेज"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.1,
+        "y": 47,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 39,
+        "z": 19.4
+      },
+      "xg": 0.039079342037439,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bernardo Fontes",
+        "firstName": "Bernardo",
+        "lastName": "Fontes",
+        "slug": "bernardo-fontes",
+        "shortName": "B. Fontes",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 203,
+        "gender": "M",
+        "id": 1394935,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برناردو فونتس"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فونتس"
+          }
+        }
+      },
+      "id": 6447261,
+      "time": 41,
+      "timeSeconds": 2403,
+      "draw": {
+        "start": {
+          "x": 47,
+          "y": 15.1
+        },
+        "end": {
+          "x": 61,
+          "y": 0
+        },
+        "goal": {
+          "x": 61,
+          "y": 80.6
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 297,
+      "periodTimeSeconds": 2403,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Casper Højer",
+        "firstName": "",
+        "lastName": "",
+        "slug": "casper-hojer",
+        "shortName": "C. Højer",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 151,
+        "gender": "M",
+        "id": 281233,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاسبر هوجر",
+            "bn": "ক্যাসপার হোজার",
+            "hi": "कैस्पर होजेर"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. هوجر",
+            "bn": "সি. হোজার",
+            "hi": "सी. होजेर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 24.1,
+        "y": 39.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.3,
+        "y": 44.2,
+        "z": 0
+      },
+      "xg": 0.013747265562415,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ederson",
+        "slug": "ederson",
+        "shortName": "Ederson",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 47707,
+        "gender": "M",
+        "sofascoreId": "Ederson93",
+        "id": 254491,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيدرسون",
+            "bn": "এডারসন",
+            "hi": "एडरसन"
+          },
+          "shortNameTranslation": {
+            "ar": "إيدرسون",
+            "bn": "এডারসন",
+            "hi": "एडरसन"
+          }
+        }
+      },
+      "id": 6231191,
+      "time": 12,
+      "timeSeconds": 679,
+      "draw": {
+        "start": {
+          "x": 39.7,
+          "y": 24.1
+        },
+        "block": {
+          "x": 44.2,
+          "y": 15.3
+        },
+        "end": {
+          "x": 52,
+          "y": 0
+        },
+        "goal": {
+          "x": 52,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2021,
+      "periodTimeSeconds": 679,
+      "incidentType": "shot"
+    }
+  ]
+}

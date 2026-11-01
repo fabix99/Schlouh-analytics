@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Oliver Sørensen",
+        "firstName": "",
+        "lastName": "",
+        "slug": "oliver-sorensen",
+        "shortName": "O. Sørensen",
+        "position": "M",
+        "jerseyNumber": "22",
+        "userCount": 630,
+        "gender": "M",
+        "id": 957921,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوليفر سورنسن",
+            "bn": "অলিভার সোরেনসেন",
+            "hi": "ओलिवर सोरेंसन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سورنسن",
+            "bn": "ও. সোরেনসেন",
+            "hi": "ओ. सोरेंसन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 27.4,
+        "y": 48.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 4.4,
+        "y": 46.4,
+        "z": 0
+      },
+      "xg": 0.017545891925693,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Łukasz Skorupski",
+        "slug": "lukasz-skorupski",
+        "shortName": "Ł. Skorupski",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 4381,
+        "gender": "M",
+        "sofascoreId": "lukaszskorupski28",
+        "id": 44906,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس سكوروبسكي",
+            "bn": "লুকাস স্কোরুপস্কি",
+            "hi": "लुकाज़ स्कोर्पस्की"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. سكوروبسكي",
+            "bn": "এল.স্কোরুপস্কি",
+            "hi": "एल. स्कोर्पस्की"
+          }
+        }
+      },
+      "id": 6093471,
+      "time": 83,
+      "timeSeconds": 4955,
+      "draw": {
+        "start": {
+          "x": 48.1,
+          "y": 27.4
+        },
+        "block": {
+          "x": 46.4,
+          "y": 4.4
+        },
+        "end": {
+          "x": 46.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 445,
+      "periodTimeSeconds": 2255,
+      "incidentType": "shot"
+    }
+  ]
+}

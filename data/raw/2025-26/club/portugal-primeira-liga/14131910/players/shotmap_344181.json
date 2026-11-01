@@ -1,0 +1,71 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "José Gomes",
+        "slug": "jose-gomes",
+        "shortName": "J. Gomes",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 33,
+        "gender": "M",
+        "id": 344181,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه غوميس"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. غوميس"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 3.9,
+        "y": 50.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.2,
+        "z": 2.5
+      },
+      "blockCoordinates": {
+        "x": 2.4,
+        "y": 50,
+        "z": 0
+      },
+      "xg": 0.54796034097672,
+      "xgot": 0.60391056537628,
+      "id": 5714615,
+      "time": 26,
+      "timeSeconds": 1500,
+      "draw": {
+        "start": {
+          "x": 50.4,
+          "y": 3.9
+        },
+        "block": {
+          "x": 50,
+          "y": 2.4
+        },
+        "end": {
+          "x": 50.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.8,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1200,
+      "periodTimeSeconds": 1500,
+      "incidentType": "shot"
+    }
+  ]
+}

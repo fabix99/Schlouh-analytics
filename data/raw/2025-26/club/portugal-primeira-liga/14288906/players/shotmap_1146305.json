@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Gustavo Varela",
+        "firstName": "Gustavo",
+        "lastName": "Varela",
+        "slug": "gustavo-varela",
+        "shortName": "G. Varela",
+        "position": "F",
+        "jerseyNumber": "89",
+        "userCount": 593,
+        "gender": "M",
+        "id": 1146305,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فاريل، غوستافو"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. فاريل"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 13.1,
+        "y": 46.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.9,
+        "y": 46.9,
+        "z": 0
+      },
+      "xg": 0.015087862499058,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nico Mantl",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nico-mantl",
+        "shortName": "N. Mantl",
+        "position": "G",
+        "jerseyNumber": "58",
+        "userCount": 154,
+        "gender": "M",
+        "id": 888592,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكو مانتل",
+            "bn": "নিকো ম্যান্টল",
+            "hi": "निको मेंटल"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. مانتل",
+            "bn": "এন. মান্টল",
+            "hi": "एन. मेंटल"
+          }
+        }
+      },
+      "id": 6422718,
+      "time": 81,
+      "timeSeconds": 4841,
+      "draw": {
+        "start": {
+          "x": 46.2,
+          "y": 13.1
+        },
+        "block": {
+          "x": 46.9,
+          "y": 10.9
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 10,
+      "reversedPeriodTimeSeconds": 559,
+      "periodTimeSeconds": 2141,
+      "incidentType": "shot"
+    }
+  ]
+}

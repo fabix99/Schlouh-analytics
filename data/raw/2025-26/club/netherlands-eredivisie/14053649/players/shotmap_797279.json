@@ -1,0 +1,177 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bart Nieuwkoop",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bart-nieuwkoop",
+        "shortName": "B. Nieuwkoop",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 338,
+        "gender": "M",
+        "id": 797279,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت نيوكوب",
+            "bn": "বার্ট নিউকূপ",
+            "hi": "बार्ट नियुवकोप"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. نيوكوب",
+            "bn": "বি. নিউকূপ",
+            "hi": "बी. नियुवकोप"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 7,
+        "y": 42.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 43.9,
+        "z": 76.4
+      },
+      "xg": 0.070313543081284,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronald Koeman Jr",
+        "slug": "ronald-koeman-jr",
+        "shortName": "R. Koeman Jr",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 163,
+        "gender": "M",
+        "id": 268701,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونالد كومان جونيور"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. جونيور"
+          }
+        }
+      },
+      "id": 6273054,
+      "time": 61,
+      "timeSeconds": 3655,
+      "draw": {
+        "start": {
+          "x": 42.9,
+          "y": 7
+        },
+        "end": {
+          "x": 56.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 56.1,
+          "y": 23.6
+        }
+      },
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1745,
+      "periodTimeSeconds": 955,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Bart Nieuwkoop",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bart-nieuwkoop",
+        "shortName": "B. Nieuwkoop",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 338,
+        "gender": "M",
+        "id": 797279,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت نيوكوب",
+            "bn": "বার্ট নিউকূপ",
+            "hi": "बार्ट नियुवकोप"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. نيوكوب",
+            "bn": "বি. নিউকূপ",
+            "hi": "बी. नियुवकोप"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.2,
+        "y": 62.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.1,
+        "z": 4.4
+      },
+      "blockCoordinates": {
+        "x": 2,
+        "y": 51.3,
+        "z": 0
+      },
+      "xg": 0.10787104070187,
+      "xgot": 0.34081539511681,
+      "goalkeeper": {
+        "name": "Ronald Koeman Jr",
+        "slug": "ronald-koeman-jr",
+        "shortName": "R. Koeman Jr",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 163,
+        "gender": "M",
+        "id": 268701,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونالد كومان جونيور"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. جونيور"
+          }
+        }
+      },
+      "id": 6272763,
+      "time": 41,
+      "timeSeconds": 2420,
+      "draw": {
+        "start": {
+          "x": 62.8,
+          "y": 10.2
+        },
+        "block": {
+          "x": 51.3,
+          "y": 2
+        },
+        "end": {
+          "x": 45.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.9,
+          "y": 95.6
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 280,
+      "periodTimeSeconds": 2420,
+      "incidentType": "shot"
+    }
+  ]
+}

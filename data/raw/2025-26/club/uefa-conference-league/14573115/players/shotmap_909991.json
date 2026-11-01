@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Simon Sohm",
+        "firstName": "",
+        "lastName": "",
+        "slug": "simon-sohm",
+        "shortName": "S. Sohm",
+        "position": "M",
+        "jerseyNumber": "23",
+        "userCount": 927,
+        "gender": "M",
+        "id": 909991,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سايمون سوهم",
+            "bn": "সাইমন সোহম",
+            "hi": "साइमन सोहम"
+          },
+          "shortNameTranslation": {
+            "ar": "س. سوهم",
+            "bn": "এস. সোহম",
+            "hi": "एस. सोहम"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 9.6,
+        "y": 31.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.7,
+        "z": 7.6
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 48.4,
+        "z": 0
+      },
+      "xg": 0.02355850674212,
+      "xgot": 0.12724502384663,
+      "goalkeeper": {
+        "name": "Karlo Letica",
+        "slug": "karlo-letica",
+        "shortName": "K. Letica",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 512,
+        "gender": "M",
+        "id": 827372,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلو ليتيسا",
+            "bn": "কার্লো লেটিকা",
+            "hi": "कार्लो लेटिका"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. ليتيسا",
+            "bn": "কে. লেটিকা",
+            "hi": "के. लेटिका"
+          }
+        }
+      },
+      "id": 6376426,
+      "time": 90,
+      "addedTime": 5,
+      "timeSeconds": 5683,
+      "draw": {
+        "start": {
+          "x": 31.9,
+          "y": 9.6
+        },
+        "block": {
+          "x": 48.4,
+          "y": 1.1
+        },
+        "end": {
+          "x": 53.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.3,
+          "y": 92.4
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 617,
+      "periodTimeSeconds": 283,
+      "incidentType": "shot"
+    }
+  ]
+}

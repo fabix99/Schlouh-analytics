@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Fred",
+        "slug": "fred",
+        "shortName": "Fred",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 11477,
+        "gender": "M",
+        "sofascoreId": "fred08",
+        "id": 243623,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فريد",
+            "bn": "ফ্রেড",
+            "hi": "फ्रेड"
+          },
+          "shortNameTranslation": {
+            "ar": "فريد",
+            "bn": "ফ্রেড",
+            "hi": "फ्रेड"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 9.1,
+        "y": 53.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51,
+        "z": 1.9
+      },
+      "blockCoordinates": {
+        "x": 1.9,
+        "y": 50.7,
+        "z": 0
+      },
+      "xg": 0.44413816928864,
+      "xgot": 0.34678503870964,
+      "goalkeeper": {
+        "name": "Bahadır Han Güngördü",
+        "slug": "bahadir-han-gungordu",
+        "shortName": "B. H. Güngördü",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 100,
+        "gender": "M",
+        "id": 807289,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باهادير هان غونغوردو"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غونغوردو"
+          }
+        }
+      },
+      "id": 6355414,
+      "time": 44,
+      "timeSeconds": 2581,
+      "draw": {
+        "start": {
+          "x": 53.6,
+          "y": 9.1
+        },
+        "block": {
+          "x": 50.7,
+          "y": 1.9
+        },
+        "end": {
+          "x": 49,
+          "y": 0
+        },
+        "goal": {
+          "x": 49,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 119,
+      "periodTimeSeconds": 2581,
+      "incidentType": "shot"
+    }
+  ]
+}

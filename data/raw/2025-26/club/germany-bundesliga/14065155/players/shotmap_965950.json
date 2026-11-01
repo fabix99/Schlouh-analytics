@@ -1,0 +1,84 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Joel Schmied",
+        "slug": "schmied-joel",
+        "shortName": "J. Schmied",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 148,
+        "gender": "M",
+        "id": 965950,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "شمييد، جويل"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. شمييد"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 4.3,
+        "y": 44.2,
+        "z": 0
+      },
+      "bodyPart": "other",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 37.5,
+        "z": 15.3
+      },
+      "xg": 0.12345863133669,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Michael Zetterer",
+        "slug": "michael-zetterer",
+        "shortName": "M. Zetterer",
+        "position": "G",
+        "jerseyNumber": "23",
+        "userCount": 480,
+        "gender": "M",
+        "id": 190161,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايكل زيترير",
+            "bn": "মাইকেল জেটটেরার",
+            "hi": "माइकल ज़ेटेरर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. زيترير",
+            "bn": "এম. জেটটেরার",
+            "hi": "एम. ज़ेटेरर"
+          }
+        }
+      },
+      "id": 6222056,
+      "time": 28,
+      "timeSeconds": 1674,
+      "draw": {
+        "start": {
+          "x": 44.2,
+          "y": 4.3
+        },
+        "end": {
+          "x": 62.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 62.5,
+          "y": 84.7
+        }
+      },
+      "reversedPeriodTime": 18,
+      "reversedPeriodTimeSeconds": 1026,
+      "periodTimeSeconds": 1674,
+      "incidentType": "shot"
+    }
+  ]
+}

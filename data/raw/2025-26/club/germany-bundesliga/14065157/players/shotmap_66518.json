@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mario Götze",
+        "slug": "mario-gotze",
+        "shortName": "M. Götze",
+        "position": "M",
+        "jerseyNumber": "27",
+        "userCount": 5844,
+        "gender": "M",
+        "sofascoreId": "MarioGotze",
+        "id": 66518,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماريو غوتزه",
+            "bn": "মারিও গোটজে",
+            "hi": "मारियो गोत्ज़े"
+          },
+          "shortNameTranslation": {
+            "ar": "م. غوتزه",
+            "bn": "এম.গোটজে",
+            "hi": "एम. गोत्ज़े"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.7,
+        "y": 40.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 42.7,
+        "z": 6.9
+      },
+      "xg": 0.14289140701294,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kamil Grabara",
+        "slug": "grabara-kamil",
+        "shortName": "K. Grabara",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3162,
+        "gender": "M",
+        "id": 902080,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غابارا، كامل",
+            "bn": "গ্রাবারা, কামিল",
+            "hi": "ग्राबारा, कामिल"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. غرابارا",
+            "bn": "কে. গ্রাবারা",
+            "hi": "के. ग्राबारा"
+          }
+        }
+      },
+      "id": 6274042,
+      "time": 12,
+      "timeSeconds": 675,
+      "draw": {
+        "start": {
+          "x": 40.9,
+          "y": 11.7
+        },
+        "end": {
+          "x": 57.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 57.3,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2025,
+      "periodTimeSeconds": 675,
+      "incidentType": "shot"
+    }
+  ]
+}

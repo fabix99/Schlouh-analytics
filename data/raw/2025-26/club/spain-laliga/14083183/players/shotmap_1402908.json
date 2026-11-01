@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Hector Fort",
+        "firstName": "Héctor Fort",
+        "slug": "fort-hector",
+        "shortName": "H. Fort",
+        "position": "D",
+        "jerseyNumber": "39",
+        "userCount": 45030,
+        "gender": "M",
+        "sofascoreId": "hctorfort",
+        "id": 1402908,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فورت، هيكتور",
+            "bn": "ফোর্ট, হেক্টর",
+            "hi": "फोर्ट, हेक्टर"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. فورت",
+            "bn": "এইচ. ফোর্ট",
+            "hi": "एच. फोर्ट"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13,
+        "y": 60.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.7,
+        "z": 34.8
+      },
+      "xg": 0.18199954926968,
+      "xgot": 0.55540543794632,
+      "goalkeeper": {
+        "name": "Augusto Batalla",
+        "slug": "augusto-batalla",
+        "shortName": "A. Batalla",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 1517,
+        "gender": "M",
+        "id": 358910,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوغوستو باتالا",
+            "bn": "অগাস্টো বাটাল্লা",
+            "hi": "ऑगस्टो बटाला"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باتالا",
+            "bn": "এ. বাটাল্লা",
+            "hi": "ए. बटाला"
+          }
+        }
+      },
+      "id": 6390442,
+      "time": 6,
+      "timeSeconds": 350,
+      "draw": {
+        "start": {
+          "x": 60.3,
+          "y": 13
+        },
+        "end": {
+          "x": 48.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.3,
+          "y": 65.2
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2350,
+      "periodTimeSeconds": 350,
+      "incidentType": "shot"
+    }
+  ]
+}

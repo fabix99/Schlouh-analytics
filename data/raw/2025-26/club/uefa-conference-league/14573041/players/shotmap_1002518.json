@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Péter Baráth",
+        "firstName": "Péter Baráth",
+        "slug": "peter-barath",
+        "shortName": "P. Baráth",
+        "position": "M",
+        "jerseyNumber": "88",
+        "userCount": 267,
+        "gender": "M",
+        "id": 1002518,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيتر باراث",
+            "bn": "পিটার বারাথ",
+            "hi": "पीटर बराथ"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. باراث",
+            "bn": "পি. বারাথ",
+            "hi": "पी. बराथ"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.2,
+        "y": 62.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.6,
+        "z": 20.9
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 50.2,
+        "z": 0
+      },
+      "xg": 0.020364634692669,
+      "xgot": 0.014974139630795,
+      "goalkeeper": {
+        "name": "Fabiano",
+        "slug": "fabiano",
+        "shortName": "Fabiano",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 499,
+        "gender": "M",
+        "id": 34317,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فابيانو",
+            "bn": "ফ্যাবিয়ানো",
+            "hi": "फ़ाबियानो"
+          },
+          "shortNameTranslation": {
+            "ar": "فابيانو",
+            "bn": "ফ্যাবিয়ানো",
+            "hi": "फ़ाबियानो"
+          }
+        }
+      },
+      "id": 6376320,
+      "time": 85,
+      "timeSeconds": 5050,
+      "draw": {
+        "start": {
+          "x": 62.4,
+          "y": 22.2
+        },
+        "block": {
+          "x": 50.2,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 49.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.4,
+          "y": 79.1
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 350,
+      "periodTimeSeconds": 2350,
+      "incidentType": "shot"
+    }
+  ]
+}

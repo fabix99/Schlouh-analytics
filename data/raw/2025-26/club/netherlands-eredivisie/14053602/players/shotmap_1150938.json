@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Leo Sauer",
+        "firstName": "Leo Sauer",
+        "lastName": "",
+        "slug": "sauer-leo",
+        "shortName": "L. Sauer",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 1912,
+        "gender": "M",
+        "id": 1150938,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليو ساور",
+            "bn": "সাউয়ার, লিও",
+            "hi": "सॉयर, लियो"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. ساور",
+            "bn": "এল. সওয়ার",
+            "hi": "एल. सॉयर"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.9,
+        "y": 36.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 34.8,
+        "z": 15.3
+      },
+      "blockCoordinates": {
+        "x": 13.2,
+        "y": 49.3,
+        "z": 0
+      },
+      "xg": 0.020073968917131,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jari De Busser",
+        "slug": "jari-de-busser",
+        "shortName": "J. D. Busser",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 302,
+        "gender": "M",
+        "id": 837072,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياري دي بوسر"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. دي بوسر"
+          }
+        }
+      },
+      "id": 6148176,
+      "time": 26,
+      "timeSeconds": 1507,
+      "draw": {
+        "start": {
+          "x": 36.4,
+          "y": 20.9
+        },
+        "block": {
+          "x": 49.3,
+          "y": 13.2
+        },
+        "end": {
+          "x": 65.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 65.2,
+          "y": 84.7
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1193,
+      "periodTimeSeconds": 1507,
+      "incidentType": "shot"
+    }
+  ]
+}

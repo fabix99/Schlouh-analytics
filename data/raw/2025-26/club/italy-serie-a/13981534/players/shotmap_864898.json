@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nicolò Zaniolo",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nicolo-zaniolo",
+        "shortName": "N. Zaniolo",
+        "position": "F",
+        "jerseyNumber": "10",
+        "userCount": 9127,
+        "gender": "M",
+        "sofascoreId": "nicolozaniolo",
+        "id": 864898,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولو زانيولو",
+            "bn": "নিকোলো জানিওলো",
+            "hi": "निकोलो ज़ेनिओलो"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. زانيولو",
+            "bn": "এন. জানিওলো",
+            "hi": "एन. ज़ेनिओलो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.1,
+        "y": 42.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.7,
+        "y": 43.7,
+        "z": 0
+      },
+      "xg": 0.072865471243858,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Federico Ravaglia",
+        "slug": "federico-ravaglia",
+        "shortName": "F. Ravaglia",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 578,
+        "gender": "M",
+        "id": 850952,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيديريكو رافاجليا",
+            "bn": "ফেদেরিকো রাভাগলিয়া",
+            "hi": "फेडेरिको रवाग्लिया"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. رافاجليا",
+            "bn": "এফ. রাভাগলিয়া",
+            "hi": "एफ. रवाग्लिया"
+          }
+        }
+      },
+      "id": 6219752,
+      "time": 45,
+      "addedTime": 1,
+      "timeSeconds": 2701,
+      "draw": {
+        "start": {
+          "x": 42.7,
+          "y": 11.1
+        },
+        "block": {
+          "x": 43.7,
+          "y": 9.7
+        },
+        "end": {
+          "x": 50.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2699,
+      "periodTimeSeconds": 1,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Žan Žužek",
+        "slug": "zan-zuzek",
+        "shortName": "Ž. Žužek",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 102,
+        "gender": "M",
+        "id": 355582,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زان زوزيك"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. زوزيك"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 2.1,
+        "y": 56,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.8,
+        "z": 15.2
+      },
+      "xg": 0.32058584690094,
+      "xgot": 0.9656508564949,
+      "id": 5836263,
+      "time": 66,
+      "timeSeconds": 3908,
+      "draw": {
+        "start": {
+          "x": 56,
+          "y": 2.1
+        },
+        "end": {
+          "x": 54.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.2,
+          "y": 84.8
+        }
+      },
+      "reversedPeriodTime": 25,
+      "reversedPeriodTimeSeconds": 1492,
+      "periodTimeSeconds": 1208,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Žan Žužek",
+        "slug": "zan-zuzek",
+        "shortName": "Ž. Žužek",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 102,
+        "gender": "M",
+        "id": 355582,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زان زوزيك"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. زوزيك"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 27.4,
+        "y": 56.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.3,
+        "z": 25.9
+      },
+      "blockCoordinates": {
+        "x": 2,
+        "y": 50.9,
+        "z": 0
+      },
+      "xg": 0.011948149651289,
+      "xgot": 0.19941125810146,
+      "id": 5835550,
+      "time": 26,
+      "timeSeconds": 1507,
+      "draw": {
+        "start": {
+          "x": 56.3,
+          "y": 27.4
+        },
+        "block": {
+          "x": 50.9,
+          "y": 2
+        },
+        "end": {
+          "x": 53.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.7,
+          "y": 74.1
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1193,
+      "periodTimeSeconds": 1507,
+      "incidentType": "shot"
+    }
+  ]
+}

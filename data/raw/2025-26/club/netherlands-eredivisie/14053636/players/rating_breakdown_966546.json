@@ -1,0 +1,114 @@
+{
+  "passes": [
+    {
+      "playerCoordinates": {
+        "x": 86,
+        "y": 25
+      },
+      "passEndCoordinates": {
+        "x": 81.2,
+        "y": 39.3
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 65.4,
+        "y": 20.2
+      },
+      "passEndCoordinates": {
+        "x": 66,
+        "y": 7.9
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 91.1,
+        "y": 9.4
+      },
+      "passEndCoordinates": {
+        "x": 93.3,
+        "y": 55.9
+      },
+      "eventActionType": "cross",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 74.6,
+        "y": 3.3
+      },
+      "passEndCoordinates": {
+        "x": 66.4,
+        "y": 11.2
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 36.2,
+        "y": 67.2
+      },
+      "passEndCoordinates": {
+        "x": 45.8,
+        "y": 77.8
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "dribbles": [],
+  "defensive": [
+    {
+      "playerCoordinates": {
+        "x": 26.2,
+        "y": 67.5
+      },
+      "passEndCoordinates": {
+        "x": 50.2,
+        "y": 69.1
+      },
+      "eventActionType": "clearance",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 36.2,
+        "y": 67.2
+      },
+      "eventActionType": "ball-recovery",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 20,
+        "y": 61.8
+      },
+      "passEndCoordinates": {
+        "x": 49.3,
+        "y": 49.6
+      },
+      "eventActionType": "clearance",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "ball-carries": []
+}

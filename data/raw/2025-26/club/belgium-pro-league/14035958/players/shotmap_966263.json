@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ibrahim Karamoko",
+        "slug": "karamoko-ibrahim",
+        "shortName": "I. Karamoko",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 140,
+        "gender": "M",
+        "id": 966263,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاراموكو، إبراهيم",
+            "bn": "কারামোকো, ইব্রাহিম",
+            "hi": "करामोको, इब्राहिम"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. إبراهيم",
+            "bn": "আই. কারামোকো",
+            "hi": "आई. करामोको"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 5.7,
+        "y": 48.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51,
+        "z": 14.6
+      },
+      "blockCoordinates": {
+        "x": 3.7,
+        "y": 48.7,
+        "z": 0
+      },
+      "xg": 0.2045244127512,
+      "xgot": 0.18926033377647,
+      "goalkeeper": {
+        "name": "Tobe Leysen",
+        "firstName": "",
+        "lastName": "",
+        "slug": "tobe-leysen",
+        "shortName": "T. Leysen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 286,
+        "gender": "M",
+        "id": 996979,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توبي ليسين",
+            "bn": "টোবে লেসেন",
+            "hi": "टोबे लेयसेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. ليسين",
+            "bn": "টি. লেসেন",
+            "hi": "टी. लेयसेन"
+          }
+        }
+      },
+      "id": 6338068,
+      "time": 50,
+      "timeSeconds": 2980,
+      "draw": {
+        "start": {
+          "x": 48.1,
+          "y": 5.7
+        },
+        "block": {
+          "x": 48.7,
+          "y": 3.7
+        },
+        "end": {
+          "x": 49,
+          "y": 0
+        },
+        "goal": {
+          "x": 49,
+          "y": 85.4
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2420,
+      "periodTimeSeconds": 280,
+      "incidentType": "shot"
+    }
+  ]
+}

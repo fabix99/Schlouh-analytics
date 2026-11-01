@@ -1,0 +1,92 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Andreas Ndoj",
+        "slug": "andreas-ndoj",
+        "shortName": "A. Ndoj",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 430,
+        "gender": "M",
+        "id": 1005992,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أندرياس ندو",
+            "bn": "আন্দ্রেয়াস এনডোজ",
+            "hi": "एंड्रियास एनडोज"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. ندو",
+            "bn": "এ. এনডোজ",
+            "hi": "ए. एनडोज"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 14.1,
+        "y": 54.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.2,
+        "y": 53.6,
+        "z": 0
+      },
+      "xg": 0.10899017006159,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "João Gonçalves",
+        "slug": "joao-goncalves",
+        "shortName": "J. Gonçalves",
+        "position": "G",
+        "userCount": 62,
+        "gender": "M",
+        "id": 987596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جواو غونكالفيس"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. غونكالفيس"
+          }
+        }
+      },
+      "id": 6305682,
+      "time": 6,
+      "timeSeconds": 314,
+      "draw": {
+        "start": {
+          "x": 54.6,
+          "y": 14.1
+        },
+        "block": {
+          "x": 53.6,
+          "y": 11.2
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2386,
+      "periodTimeSeconds": 314,
+      "incidentType": "shot"
+    }
+  ]
+}

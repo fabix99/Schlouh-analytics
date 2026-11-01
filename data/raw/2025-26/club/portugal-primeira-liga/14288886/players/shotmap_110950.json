@@ -1,0 +1,85 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ivan Cavaleiro",
+        "slug": "ivan-cavaleiro",
+        "shortName": "I. Cavaleiro",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 365,
+        "gender": "M",
+        "id": 110950,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفان كافاليرو",
+            "bn": "ইভান ক্যাভালিরো",
+            "hi": "इवान कैवेलिरो"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. كافاليرو",
+            "bn": "আই. ক্যাভালিরো",
+            "hi": "आई. कैवेलिरो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.1,
+        "z": 22.8
+      },
+      "xg": 0.7884,
+      "xgot": 0.91394603252411,
+      "goalkeeper": {
+        "name": "Ricardo Batista",
+        "slug": "ricardo-batista",
+        "shortName": "R. Batista",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 110,
+        "gender": "M",
+        "id": 9668,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكاردو باتيستا"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. باتيستا"
+          }
+        }
+      },
+      "id": 6391418,
+      "time": 58,
+      "timeSeconds": 3466,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 52.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.9,
+          "y": 77.2
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1934,
+      "periodTimeSeconds": 766,
+      "incidentType": "shot"
+    }
+  ]
+}

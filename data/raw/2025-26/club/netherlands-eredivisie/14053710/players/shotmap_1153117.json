@@ -1,0 +1,136 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mexx Meerdink",
+        "firstName": "",
+        "lastName": "",
+        "slug": "mexx-meerdink",
+        "shortName": "M. Meerdink",
+        "position": "F",
+        "jerseyNumber": "35",
+        "userCount": 936,
+        "gender": "M",
+        "id": 1153117,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميكس ميردينك"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ميردينك"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.1,
+        "z": 33.5
+      },
+      "xg": 0.7884,
+      "xgot": 0.98679047822952,
+      "id": 5728949,
+      "time": 90,
+      "addedTime": 8,
+      "timeSeconds": 5825,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 51.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.9,
+          "y": 66.5
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 475,
+      "periodTimeSeconds": 425,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Mexx Meerdink",
+        "firstName": "",
+        "lastName": "",
+        "slug": "mexx-meerdink",
+        "shortName": "M. Meerdink",
+        "position": "F",
+        "jerseyNumber": "35",
+        "userCount": 936,
+        "gender": "M",
+        "id": 1153117,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميكس ميردينك"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ميردينك"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 12.2,
+        "y": 40.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.5,
+        "z": 25.9
+      },
+      "blockCoordinates": {
+        "x": 3.2,
+        "y": 46.6,
+        "z": 0
+      },
+      "xg": 0.12890186905861,
+      "xgot": 0.39731580018997,
+      "id": 5728919,
+      "time": 90,
+      "addedTime": 5,
+      "timeSeconds": 5667,
+      "draw": {
+        "start": {
+          "x": 40.9,
+          "y": 12.2
+        },
+        "block": {
+          "x": 46.6,
+          "y": 3.2
+        },
+        "end": {
+          "x": 47.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.5,
+          "y": 74.1
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 633,
+      "periodTimeSeconds": 267,
+      "incidentType": "shot"
+    }
+  ]
+}

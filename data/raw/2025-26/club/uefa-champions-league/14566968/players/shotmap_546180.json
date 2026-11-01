@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "David Goldar",
+        "slug": "david-goldar",
+        "shortName": "D. Goldar",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 123,
+        "gender": "M",
+        "id": 546180,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد غولدار"
+          },
+          "shortNameTranslation": {
+            "ar": "د. غولدار"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 7.3,
+        "y": 49.3,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 4.7,
+        "y": 49.3,
+        "z": 0
+      },
+      "xg": 0.11968802660704,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lukáš Hrádecký",
+        "slug": "lukas-hradecky",
+        "shortName": "L. Hrádecký",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2511,
+        "gender": "M",
+        "id": 15219,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس هراديكى",
+            "bn": "লুকাস হ্রাডেকি",
+            "hi": "लुकास ह्राडेकी"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. هراديكى",
+            "bn": "এল. হ্রাডেকি",
+            "hi": "एल. ह्राडेकी"
+          }
+        }
+      },
+      "id": 6251341,
+      "time": 30,
+      "timeSeconds": 1752,
+      "draw": {
+        "start": {
+          "x": 49.3,
+          "y": 7.3
+        },
+        "block": {
+          "x": 49.3,
+          "y": 4.7
+        },
+        "end": {
+          "x": 49.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 948,
+      "periodTimeSeconds": 1752,
+      "incidentType": "shot"
+    }
+  ]
+}

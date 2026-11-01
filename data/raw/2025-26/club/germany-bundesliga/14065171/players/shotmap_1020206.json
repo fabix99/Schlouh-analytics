@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sebastian Sebulonsen",
+        "slug": "sebastian-sebulonsen",
+        "shortName": "S. Sebulonsen",
+        "position": "D",
+        "jerseyNumber": "28",
+        "userCount": 234,
+        "gender": "M",
+        "id": 1020206,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيباستيان سوراس سيبولونسن",
+            "bn": "সেবাস্তিয়ান সোরাস সেবুলোনসেন",
+            "hi": "सेबेस्टियन सोरास सेबुलोन्सेन"
+          },
+          "shortNameTranslation": {
+            "ar": "س. س. سيبولونسن",
+            "bn": "এস. এস. সেবুলোনসেন",
+            "hi": "एस.एस. सेबुलोन्सेन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 7.9,
+        "y": 68.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48,
+        "z": 18.4
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 52.5,
+        "z": 0
+      },
+      "xg": 0.051538582891226,
+      "xgot": 0.084664925932884,
+      "goalkeeper": {
+        "name": "Nikola Vasilj",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nikola-vasilj",
+        "shortName": "N. Vasilj",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 1689,
+        "gender": "M",
+        "id": 325061,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولا فاسيل",
+            "bn": "নিকোলা ভাসিলজ",
+            "hi": "निकोला वासिलज"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. فاسيل",
+            "bn": "এন. ভাসিলজ",
+            "hi": "एन. वासिलज"
+          }
+        }
+      },
+      "id": 6303808,
+      "time": 21,
+      "timeSeconds": 1210,
+      "draw": {
+        "start": {
+          "x": 68.2,
+          "y": 7.9
+        },
+        "block": {
+          "x": 52.5,
+          "y": 1.1
+        },
+        "end": {
+          "x": 52,
+          "y": 0
+        },
+        "goal": {
+          "x": 52,
+          "y": 81.6
+        }
+      },
+      "reversedPeriodTime": 25,
+      "reversedPeriodTimeSeconds": 1490,
+      "periodTimeSeconds": 1210,
+      "incidentType": "shot"
+    }
+  ]
+}

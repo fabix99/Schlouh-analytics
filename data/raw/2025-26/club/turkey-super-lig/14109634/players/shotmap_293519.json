@@ -1,0 +1,139 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Leroy Sané",
+        "slug": "leroy-sane",
+        "shortName": "L. Sané",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 40962,
+        "gender": "M",
+        "sofascoreId": "LeroySane",
+        "id": 293519,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليروي ساني",
+            "bn": "লিরোয় সানে",
+            "hi": "लेरॉय साने"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. ساني",
+            "bn": "এল. সানে",
+            "hi": "एल. साने"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 22.3,
+        "y": 78.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.1,
+        "z": 80.6
+      },
+      "xg": 0.031768936663866,
+      "xgot": 0,
+      "id": 5523404,
+      "time": 54,
+      "timeSeconds": 3219,
+      "draw": {
+        "start": {
+          "x": 78.3,
+          "y": 22.3
+        },
+        "end": {
+          "x": 50.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.9,
+          "y": 19.4
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2181,
+      "periodTimeSeconds": 519,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Leroy Sané",
+        "slug": "leroy-sane",
+        "shortName": "L. Sané",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 40962,
+        "gender": "M",
+        "sofascoreId": "LeroySane",
+        "id": 293519,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليروي ساني",
+            "bn": "লিরোয় সানে",
+            "hi": "लेरॉय साने"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. ساني",
+            "bn": "এল. সানে",
+            "hi": "एल. साने"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 20.3,
+        "y": 53.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.2,
+        "y": 52.5,
+        "z": 0
+      },
+      "xg": 0.040944673120975,
+      "xgot": 0,
+      "id": 5522709,
+      "time": 23,
+      "timeSeconds": 1353,
+      "draw": {
+        "start": {
+          "x": 53.4,
+          "y": 20.3
+        },
+        "block": {
+          "x": 52.5,
+          "y": 17.2
+        },
+        "end": {
+          "x": 48.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1347,
+      "periodTimeSeconds": 1353,
+      "incidentType": "shot"
+    }
+  ]
+}

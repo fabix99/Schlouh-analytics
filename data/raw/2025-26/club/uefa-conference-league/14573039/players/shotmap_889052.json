@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Willy Semedo",
+        "firstName": "",
+        "lastName": "",
+        "slug": "willy-semedo",
+        "shortName": "W. Semedo",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 726,
+        "gender": "M",
+        "id": 889052,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويلي سيميدو",
+            "bn": "উইলি সেমেডো",
+            "hi": "विली सेमेदो"
+          },
+          "shortNameTranslation": {
+            "ar": "و. سيميدو",
+            "bn": "ডব্লিউ. সেমেডো",
+            "hi": "डब्लू. सेमेदो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.2,
+        "z": 17.7
+      },
+      "xg": 0.7884,
+      "xgot": 0.92486828565598,
+      "goalkeeper": {
+        "name": "Ruslan Neshcheret",
+        "slug": "ruslan-neshcheret",
+        "shortName": "R. Neshcheret",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 300,
+        "gender": "M",
+        "id": 976364,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روسلان نيشيريت",
+            "bn": "রুসলান নেশচেরেট",
+            "hi": "रुस्लान नेशचेरेट"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. نيشيريت",
+            "bn": "আর. নেশেরেট",
+            "hi": "आर. नेशचेरेट"
+          }
+        }
+      },
+      "id": 6257288,
+      "time": 34,
+      "timeSeconds": 2002,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 45.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.8,
+          "y": 82.3
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 698,
+      "periodTimeSeconds": 2002,
+      "incidentType": "shot"
+    }
+  ]
+}

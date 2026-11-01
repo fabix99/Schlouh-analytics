@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Victor Okoh Boniface",
+        "slug": "victor-okoh-boniface",
+        "shortName": "V. O. Boniface",
+        "position": "F",
+        "jerseyNumber": "44",
+        "userCount": 27929,
+        "gender": "M",
+        "sofascoreId": "boniface_jrn",
+        "id": 978521,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور بونيفاس",
+            "bn": "ভিক্টর ওকোহ বোনিফেস",
+            "hi": "विक्टर ओकोह बोनिफेस"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. بونيفاس",
+            "bn": "ভি. ও. বোনিফেস",
+            "hi": "वी.ओ. बोनिफेस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 54.3,
+        "y": 42,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.9,
+        "z": 2.5
+      },
+      "blockCoordinates": {
+        "x": 17.3,
+        "y": 48.2,
+        "z": 0
+      },
+      "xg": 0.016903078183532,
+      "xgot": 0.045326296240091,
+      "goalkeeper": {
+        "name": "Marvin Schwäbe",
+        "firstName": "",
+        "lastName": "",
+        "slug": "marvin-schwabe",
+        "shortName": "M. Schwäbe",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 342,
+        "gender": "M",
+        "id": 187185,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارفن شوابي",
+            "bn": "মারভিন শোয়াবে",
+            "hi": "मार्विन श्वाबे"
+          },
+          "shortNameTranslation": {
+            "ar": "م. شوابي",
+            "bn": "এম. শোয়েব",
+            "hi": "एम. श्वाबे"
+          }
+        }
+      },
+      "id": 6265932,
+      "time": 87,
+      "timeSeconds": 5180,
+      "draw": {
+        "start": {
+          "x": 42,
+          "y": 54.3
+        },
+        "block": {
+          "x": 48.2,
+          "y": 17.3
+        },
+        "end": {
+          "x": 46.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.1,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 220,
+      "periodTimeSeconds": 2480,
+      "incidentType": "shot"
+    }
+  ]
+}

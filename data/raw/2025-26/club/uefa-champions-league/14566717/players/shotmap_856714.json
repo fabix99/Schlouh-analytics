@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Declan Rice",
+        "slug": "declan-rice",
+        "shortName": "D. Rice",
+        "position": "M",
+        "jerseyNumber": "41",
+        "userCount": 64937,
+        "gender": "M",
+        "sofascoreId": "DeclanRice",
+        "id": 856714,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديكلان رايس",
+            "bn": "ডেক্লান রাইস",
+            "hi": "डेक्लान राइस"
+          },
+          "shortNameTranslation": {
+            "ar": "د. رايس",
+            "bn": "ডি. রাইস",
+            "hi": "डी. राइस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 6.9,
+        "y": 39.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.1,
+        "z": 3.8
+      },
+      "blockCoordinates": {
+        "x": 2.7,
+        "y": 46.6,
+        "z": 0
+      },
+      "xg": 0.23224806785583,
+      "xgot": 0.2275568395853,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 36186,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर"
+          }
+        }
+      },
+      "id": 6252213,
+      "time": 62,
+      "timeSeconds": 3697,
+      "draw": {
+        "start": {
+          "x": 39.6,
+          "y": 6.9
+        },
+        "block": {
+          "x": 46.6,
+          "y": 2.7
+        },
+        "end": {
+          "x": 50.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.9,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1703,
+      "periodTimeSeconds": 997,
+      "incidentType": "shot"
+    }
+  ]
+}

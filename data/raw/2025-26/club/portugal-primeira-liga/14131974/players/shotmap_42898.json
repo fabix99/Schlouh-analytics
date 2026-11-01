@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nélson Oliveira",
+        "slug": "nelson-oliveira",
+        "shortName": "N. Oliveira",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 438,
+        "gender": "M",
+        "id": 42898,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيلسون أوليفيرا",
+            "bn": "নেলসন অলিভেরা",
+            "hi": "नेल्सन ओलिवेरा"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. أوليفيرا",
+            "bn": "এন. অলিভেইরা",
+            "hi": "एन. ओलिवेरा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 17.7,
+        "y": 57.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.3,
+        "z": 7.6
+      },
+      "blockCoordinates": {
+        "x": 0.59999999999999,
+        "y": 50.9,
+        "z": 0
+      },
+      "xg": 0.12656642496586,
+      "xgot": 0.24416337907314,
+      "goalkeeper": {
+        "name": "Andrew",
+        "slug": "andrew",
+        "shortName": "Andrew",
+        "position": "G",
+        "jerseyNumber": "42",
+        "userCount": 2943,
+        "gender": "M",
+        "id": 947893,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أندرو"
+          },
+          "shortNameTranslation": {
+            "ar": "أندرو"
+          }
+        }
+      },
+      "id": 6319767,
+      "time": 44,
+      "timeSeconds": 2631,
+      "draw": {
+        "start": {
+          "x": 57.9,
+          "y": 17.7
+        },
+        "block": {
+          "x": 50.9,
+          "y": 0.59999999999999
+        },
+        "end": {
+          "x": 47.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.7,
+          "y": 92.4
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 69,
+      "periodTimeSeconds": 2631,
+      "incidentType": "shot"
+    }
+  ]
+}

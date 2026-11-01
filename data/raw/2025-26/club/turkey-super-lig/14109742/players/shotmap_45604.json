@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Taras Stepanenko",
+        "slug": "taras-stepanenko",
+        "shortName": "T. Stepanenko",
+        "position": "M",
+        "jerseyNumber": "33",
+        "userCount": 397,
+        "gender": "M",
+        "id": 45604,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تاراس ستيبانينكو",
+            "bn": "তারাস স্টেপানেঙ্কো",
+            "hi": "टारस स्टेपेनेंको"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. ستيبانينكو",
+            "bn": "টি. স্টেপানেঙ্কো",
+            "hi": "टी. स्टेपेनेंको"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 25.7,
+        "y": 50.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.5,
+        "z": 6.3
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 51.1,
+        "z": 0
+      },
+      "xg": 0.030804520472884,
+      "xgot": 0.19357445836067,
+      "goalkeeper": {
+        "name": "Bilal Bayazit",
+        "slug": "bilal-bayazit",
+        "shortName": "B. Bayazit",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 241,
+        "gender": "M",
+        "id": 825850,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بلال بايازيت"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. بايازيت"
+          }
+        }
+      },
+      "id": 6302766,
+      "time": 31,
+      "timeSeconds": 1828,
+      "draw": {
+        "start": {
+          "x": 50.1,
+          "y": 25.7
+        },
+        "block": {
+          "x": 51.1,
+          "y": 1.1
+        },
+        "end": {
+          "x": 46.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.5,
+          "y": 93.7
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 872,
+      "periodTimeSeconds": 1828,
+      "incidentType": "shot"
+    }
+  ]
+}

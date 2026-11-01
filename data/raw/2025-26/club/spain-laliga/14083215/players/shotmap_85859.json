@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Antoine Griezmann",
+        "slug": "antoine-griezmann",
+        "shortName": "A. Griezmann",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 97877,
+        "gender": "M",
+        "sofascoreId": "AGriez",
+        "id": 85859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنطوان غريزمان",
+            "bn": "অ্যান্টোইন গ্রিজম্যান",
+            "hi": "एंटोनी ग्रीज़मैन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. غريزمان",
+            "bn": "এ. গ্রিজম্যান",
+            "hi": "ए. ग्रीज़मैन"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.5,
+        "y": 39.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 4.5,
+        "z": 18.1
+      },
+      "blockCoordinates": {
+        "x": 3.8,
+        "y": 93.3,
+        "z": 0
+      },
+      "xg": 0.20448161661625,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Joan García",
+        "slug": "joan-garcia",
+        "shortName": "J. García",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 114558,
+        "gender": "M",
+        "id": 930267,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوان جارسيا",
+            "bn": "জোয়ান গার্সিয়া",
+            "hi": "जोन गार्सिया"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. جارسيا",
+            "bn": "জে. গার্সিয়া",
+            "hi": "जे. गार्सिया"
+          }
+        }
+      },
+      "id": 6288169,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5524,
+      "draw": {
+        "start": {
+          "x": 39.9,
+          "y": 9.5
+        },
+        "block": {
+          "x": 93.3,
+          "y": 3.8
+        },
+        "end": {
+          "x": 95.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 95.5,
+          "y": 81.9
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 776,
+      "periodTimeSeconds": 124,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Julius Lindberg",
+        "slug": "lindberg-julius",
+        "shortName": "J. Lindberg",
+        "position": "D",
+        "jerseyNumber": "11",
+        "userCount": 45,
+        "gender": "M",
+        "id": 1021083,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليندبرغ، يوليوس"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ليندبرغ"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 13.8,
+        "y": 65.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 2.5,
+        "y": 51.1,
+        "z": 0
+      },
+      "xg": 0.070180781185627,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Marin Ljubić",
+        "firstName": "",
+        "lastName": "",
+        "slug": "marin-ljubic",
+        "shortName": "M. Ljubić",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 95,
+        "gender": "M",
+        "id": 920972,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارين ليوبتش",
+            "bn": "মারিন লুবিচ",
+            "hi": "मारिन लजुबिक"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ليوبتش",
+            "bn": "এম. লিউবিক",
+            "hi": "एम. लजुबिक"
+          }
+        }
+      },
+      "id": 6257346,
+      "time": 43,
+      "timeSeconds": 2520,
+      "draw": {
+        "start": {
+          "x": 65.6,
+          "y": 13.8
+        },
+        "block": {
+          "x": 51.1,
+          "y": 2.5
+        },
+        "end": {
+          "x": 47.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 180,
+      "periodTimeSeconds": 2520,
+      "incidentType": "shot"
+    }
+  ]
+}

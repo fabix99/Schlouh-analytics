@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Julian Baas",
+        "firstName": "",
+        "lastName": "",
+        "slug": "julian-baas",
+        "shortName": "J. Baas",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 146,
+        "gender": "M",
+        "id": 1046143,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوليان بااس"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بااس"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 29.2,
+        "y": 48.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 22,
+        "y": 48.4,
+        "z": 0
+      },
+      "xg": 0.011987941339612,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mattijs Branderhorst",
+        "slug": "mattijs-branderhorst",
+        "shortName": "M. Branderhorst",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 152,
+        "gender": "M",
+        "id": 146871,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتيس براندرهورست"
+          },
+          "shortNameTranslation": {
+            "ar": "م. براندرهورست"
+          }
+        }
+      },
+      "id": 6223335,
+      "time": 34,
+      "timeSeconds": 2031,
+      "draw": {
+        "start": {
+          "x": 48.8,
+          "y": 29.2
+        },
+        "block": {
+          "x": 48.4,
+          "y": 22
+        },
+        "end": {
+          "x": 47.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 669,
+      "periodTimeSeconds": 2031,
+      "incidentType": "shot"
+    }
+  ]
+}

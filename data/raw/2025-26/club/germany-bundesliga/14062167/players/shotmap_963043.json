@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kristoffer Lund",
+        "firstName": "",
+        "lastName": "",
+        "slug": "kristoffer-lund",
+        "shortName": "K. Lund",
+        "position": "D",
+        "jerseyNumber": "32",
+        "userCount": 398,
+        "gender": "M",
+        "id": 963043,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستوفر لوند",
+            "bn": "ক্রিস্টোফার লুন্ড",
+            "hi": "क्रिस्टोफ़र लुंड"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. لوند",
+            "bn": "কে. লুন্ড",
+            "hi": "के. लुंड"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 12.9,
+        "y": 26.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 57.8,
+        "z": 13.9
+      },
+      "blockCoordinates": {
+        "x": 0.3,
+        "y": 41.2,
+        "z": 0
+      },
+      "xg": 0.041634481400251,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 36222,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर"
+          }
+        }
+      },
+      "id": 6518111,
+      "time": 45,
+      "addedTime": 5,
+      "timeSeconds": 2965,
+      "draw": {
+        "start": {
+          "x": 26.6,
+          "y": 12.9
+        },
+        "block": {
+          "x": 41.2,
+          "y": 0.3
+        },
+        "end": {
+          "x": 42.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 42.2,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2435,
+      "periodTimeSeconds": 265,
+      "incidentType": "shot"
+    }
+  ]
+}

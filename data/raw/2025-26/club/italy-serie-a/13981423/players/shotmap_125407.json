@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Álvaro Morata",
+        "slug": "alvaro-morata",
+        "shortName": "Á. Morata",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 27528,
+        "gender": "M",
+        "sofascoreId": "ÁMorata",
+        "id": 125407,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألفارو موراتا",
+            "bn": "আলভারো মোরাতা",
+            "hi": "अल्वारो मोराटा"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موراتا",
+            "bn": "এ. মোরাতা",
+            "hi": "ए. मोराटा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 27.4,
+        "y": 43.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 39.7,
+        "z": 33.3
+      },
+      "xg": 0.025536637753248,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ivan Provedel",
+        "slug": "ivan-provedel",
+        "shortName": "I. Provedel",
+        "position": "G",
+        "jerseyNumber": "94",
+        "userCount": 1866,
+        "gender": "M",
+        "id": 308182,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفان بروفيديل",
+            "bn": "ইভান প্রোভেডেল",
+            "hi": "इवान प्रोवेडेल"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. بروفيديل",
+            "bn": "আই. প্রোভেডেল",
+            "hi": "आई. प्रोवेडेल"
+          }
+        }
+      },
+      "id": 5490546,
+      "time": 71,
+      "timeSeconds": 4210,
+      "draw": {
+        "start": {
+          "x": 43.6,
+          "y": 27.4
+        },
+        "end": {
+          "x": 60.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 60.3,
+          "y": 66.7
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1190,
+      "periodTimeSeconds": 1510,
+      "incidentType": "shot"
+    }
+  ]
+}

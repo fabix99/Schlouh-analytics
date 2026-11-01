@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Frank Magri",
+        "firstName": "Frank Magri",
+        "lastName": "",
+        "slug": "frank-magri",
+        "shortName": "F. Magri",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 1808,
+        "gender": "M",
+        "id": 1169436,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيريكويتشيا ن / مونو أ",
+            "bn": "ফ্রাঙ্ক মাগ্রি",
+            "hi": "फ्रैंक मैग्री"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. ماجري",
+            "bn": "এফ. মাগরি",
+            "hi": "एफ. मैग्री"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.3,
+        "y": 28.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.9,
+        "y": 35.6,
+        "z": 0
+      },
+      "xg": 0.017182022333145,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Hervé Koffi",
+        "slug": "herve-koffi",
+        "shortName": "H. Koffi",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 15835,
+        "gender": "M",
+        "sofascoreId": "HKoffi",
+        "id": 867299,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيرفي كوفي",
+            "bn": "হার্ভে কফি",
+            "hi": "हर्वे कोफ़ी"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. كوفي",
+            "bn": "এইচ. কফি",
+            "hi": "एच. कोफ़ी"
+          }
+        }
+      },
+      "id": 6230535,
+      "time": 2,
+      "timeSeconds": 70,
+      "draw": {
+        "start": {
+          "x": 28.6,
+          "y": 13.3
+        },
+        "block": {
+          "x": 35.6,
+          "y": 8.9
+        },
+        "end": {
+          "x": 48.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2630,
+      "periodTimeSeconds": 70,
+      "incidentType": "shot"
+    }
+  ]
+}

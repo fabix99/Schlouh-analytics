@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Peer Koopmeiners",
+        "slug": "peer-koopmeiners",
+        "shortName": "P. Koopmeiners",
+        "position": "M",
+        "jerseyNumber": "6",
+        "userCount": 509,
+        "gender": "M",
+        "id": 922018,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بير كوبمينرز",
+            "bn": "পিয়ার কুপমেইনার্স",
+            "hi": "पीयर कूपमेइनर्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. كوبمينرز",
+            "bn": "পি. কুপমেইনার্স",
+            "hi": "पी. कूपमेइनर्स"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.4,
+        "y": 48.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.6,
+        "z": 5.7
+      },
+      "blockCoordinates": {
+        "x": 1.9,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.14259198307991,
+      "xgot": 0.078073978424072,
+      "goalkeeper": {
+        "name": "Kayne van Oevelen",
+        "firstName": "Kayne van Oevelen",
+        "lastName": "",
+        "slug": "kayne-van-oevelen",
+        "shortName": "K. v. Oevelen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 277,
+        "gender": "M",
+        "id": 1393970,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاين فان أويفيلن"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. فان أويفيلن"
+          }
+        }
+      },
+      "id": 6485486,
+      "time": 37,
+      "timeSeconds": 2200,
+      "draw": {
+        "start": {
+          "x": 48.3,
+          "y": 14.4
+        },
+        "block": {
+          "x": 49.8,
+          "y": 1.9
+        },
+        "end": {
+          "x": 49.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.4,
+          "y": 94.3
+        }
+      },
+      "reversedPeriodTime": 9,
+      "reversedPeriodTimeSeconds": 500,
+      "periodTimeSeconds": 2200,
+      "incidentType": "shot"
+    }
+  ]
+}

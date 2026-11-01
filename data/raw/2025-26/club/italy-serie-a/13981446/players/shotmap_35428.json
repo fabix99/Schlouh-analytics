@@ -1,0 +1,78 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Pedro",
+        "firstName": "",
+        "lastName": "",
+        "slug": "pedro",
+        "shortName": "Pedro",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 5229,
+        "gender": "M",
+        "sofascoreId": "Pedro",
+        "id": 35428,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيدرو",
+            "bn": "পেত্রো",
+            "hi": "पेड्रो"
+          },
+          "shortNameTranslation": {
+            "ar": "بيدرو",
+            "bn": "পেড্রো",
+            "hi": "पेड्रो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.8,
+        "y": 52.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 20.8,
+        "y": 51.6,
+        "z": 0
+      },
+      "xg": 0.026122402399778,
+      "xgot": 0,
+      "id": 5534232,
+      "time": 80,
+      "timeSeconds": 4746,
+      "draw": {
+        "start": {
+          "x": 52.3,
+          "y": 23.8
+        },
+        "block": {
+          "x": 51.6,
+          "y": 20.8
+        },
+        "end": {
+          "x": 46.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 654,
+      "periodTimeSeconds": 2046,
+      "incidentType": "shot"
+    }
+  ]
+}

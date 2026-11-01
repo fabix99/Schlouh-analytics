@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Juan Iglesias",
+        "firstName": "",
+        "lastName": "",
+        "slug": "juan-iglesias",
+        "shortName": "J. Iglesias",
+        "position": "D",
+        "jerseyNumber": "21",
+        "userCount": 568,
+        "gender": "M",
+        "id": 949707,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوان إغليسياس",
+            "bn": "জুয়ান ইগলেসিয়াস",
+            "hi": "जुआन इग्लेसियस"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. إغليسياس",
+            "bn": "জে. ইগলেসিয়াস",
+            "hi": "जे. इग्लेसियस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 32.3,
+        "y": 64.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 23.8,
+        "y": 60.1,
+        "z": 0
+      },
+      "xg": 0.0091311326250434,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Marko Dmitrović",
+        "slug": "marko-dmitrovic",
+        "shortName": "M. Dmitrović",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 1186,
+        "gender": "M",
+        "id": 94527,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركو ديميتروفيتش",
+            "bn": "মার্ক দিমিত্রোভিচ",
+            "hi": "मार्को दिमित्रोविक"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ديميتروفيتش",
+            "bn": "এম. দিমিত্রোভিচ",
+            "hi": "एम. दिमित्रोविक"
+          }
+        }
+      },
+      "id": 6343380,
+      "time": 42,
+      "timeSeconds": 2512,
+      "draw": {
+        "start": {
+          "x": 64.1,
+          "y": 32.3
+        },
+        "block": {
+          "x": 60.1,
+          "y": 23.8
+        },
+        "end": {
+          "x": 48.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 188,
+      "periodTimeSeconds": 2512,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "John Martin",
+        "firstName": "",
+        "lastName": "",
+        "slug": "martin-john",
+        "shortName": "J. Martin",
+        "position": "F",
+        "jerseyNumber": "10",
+        "userCount": 196,
+        "gender": "M",
+        "id": 883223,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتن، جون"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. مارتن"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 4.6,
+        "y": 53,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 48.6
+      },
+      "xg": 0.22914880514145,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Faton Maloku",
+        "slug": "faton-maloku",
+        "shortName": "F. Maloku",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 78,
+        "gender": "M",
+        "id": 921157,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فاتون مالوكو",
+            "bn": "ফাটন মালোকু",
+            "hi": "फातोन मालोकू"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. مالوكو",
+            "bn": "এফ. মালোকু",
+            "hi": "एफ. मालोकू"
+          }
+        }
+      },
+      "id": 6121820,
+      "time": 64,
+      "timeSeconds": 3816,
+      "draw": {
+        "start": {
+          "x": 53,
+          "y": 4.6
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 51.4
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1584,
+      "periodTimeSeconds": 1116,
+      "incidentType": "shot"
+    }
+  ]
+}

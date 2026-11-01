@@ -1,0 +1,130 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Alan Minda",
+        "slug": "minda-alan",
+        "shortName": "A. Minda",
+        "position": "F",
+        "jerseyNumber": "27",
+        "userCount": 2586,
+        "gender": "M",
+        "id": 1122552,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "Minda Garcia, Alan Steve"
+          },
+          "shortNameTranslation": {
+            "ar": "A. S. M. Garcia"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7.4,
+        "y": 47.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.3,
+        "z": 17.1
+      },
+      "xg": 0.33021911978722,
+      "xgot": 0.7739394903183,
+      "id": 5441616,
+      "time": 37,
+      "timeSeconds": 2168,
+      "draw": {
+        "start": {
+          "x": 47.7,
+          "y": 7.4
+        },
+        "end": {
+          "x": 48.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.7,
+          "y": 82.9
+        }
+      },
+      "reversedPeriodTime": 9,
+      "reversedPeriodTimeSeconds": 532,
+      "periodTimeSeconds": 2168,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Alan Minda",
+        "slug": "minda-alan",
+        "shortName": "A. Minda",
+        "position": "F",
+        "jerseyNumber": "27",
+        "userCount": 2586,
+        "gender": "M",
+        "id": 1122552,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "Minda Garcia, Alan Steve"
+          },
+          "shortNameTranslation": {
+            "ar": "A. S. M. Garcia"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 2.6,
+        "y": 33.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 18.4
+      },
+      "blockCoordinates": {
+        "x": 0.7,
+        "y": 42.6,
+        "z": 0
+      },
+      "xg": 0.093660920858383,
+      "xgot": 0.097934804856777,
+      "id": 5441284,
+      "time": 10,
+      "timeSeconds": 578,
+      "draw": {
+        "start": {
+          "x": 33.1,
+          "y": 2.6
+        },
+        "block": {
+          "x": 42.6,
+          "y": 0.7
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 81.6
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2122,
+      "periodTimeSeconds": 578,
+      "incidentType": "shot"
+    }
+  ]
+}

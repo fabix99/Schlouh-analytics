@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bogdan Racovițan",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bogdan-racovitan",
+        "shortName": "B. Racovițan",
+        "position": "D",
+        "jerseyNumber": "25",
+        "userCount": 567,
+        "gender": "M",
+        "id": 1048102,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بوجدان راكوفيتشان",
+            "bn": "বোগদান রাকোভিশান",
+            "hi": "बोगदान राकोवितान"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. راكوفيتشان",
+            "bn": "বি. রাকোভিটান",
+            "hi": "बी. राकोवितान"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 10.5,
+        "y": 46.8,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.9,
+        "y": 47.1,
+        "z": 0
+      },
+      "xg": 0.02851534076035,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Paul Gartler",
+        "slug": "paul-gartler",
+        "shortName": "P. Gartler",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 67,
+        "gender": "M",
+        "id": 355478,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بول غارتلر",
+            "bn": "পল গার্টলার",
+            "hi": "पॉल गार्टलर"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غارتلر",
+            "bn": "পি. গার্টলার",
+            "hi": "पी. गार्टलर"
+          }
+        }
+      },
+      "id": 6257145,
+      "time": 14,
+      "timeSeconds": 800,
+      "draw": {
+        "start": {
+          "x": 46.8,
+          "y": 10.5
+        },
+        "block": {
+          "x": 47.1,
+          "y": 8.9
+        },
+        "end": {
+          "x": 48.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1900,
+      "periodTimeSeconds": 800,
+      "incidentType": "shot"
+    }
+  ]
+}

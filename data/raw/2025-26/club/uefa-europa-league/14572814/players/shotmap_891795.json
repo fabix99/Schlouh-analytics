@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Melle Meulensteen",
+        "slug": "melle-meulensteen",
+        "shortName": "M. Meulensteen",
+        "position": "M",
+        "jerseyNumber": "21",
+        "userCount": 209,
+        "gender": "M",
+        "id": 891795,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميل ميولنستين"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ميولنستين"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.5,
+        "y": 73.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51,
+        "z": 14.6
+      },
+      "blockCoordinates": {
+        "x": 2.9,
+        "y": 52.7,
+        "z": 0
+      },
+      "xg": 0.023288104683161,
+      "xgot": 0.015113697387278,
+      "goalkeeper": {
+        "name": "Alexander Nübel",
+        "firstName": "",
+        "lastName": "",
+        "slug": "alexander-nubel",
+        "shortName": "A. Nübel",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 2069,
+        "gender": "M",
+        "id": 584722,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر نوبل",
+            "bn": "আলেকজান্ডার নুবেল",
+            "hi": "अलेक्जेंडर नुबेल"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. نوبل",
+            "bn": "এ. নুবেল",
+            "hi": "ए. नुबेल"
+          }
+        }
+      },
+      "id": 6258283,
+      "time": 67,
+      "timeSeconds": 3960,
+      "draw": {
+        "start": {
+          "x": 73.6,
+          "y": 22.5
+        },
+        "block": {
+          "x": 52.7,
+          "y": 2.9
+        },
+        "end": {
+          "x": 49,
+          "y": 0
+        },
+        "goal": {
+          "x": 49,
+          "y": 85.4
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1440,
+      "periodTimeSeconds": 1260,
+      "incidentType": "shot"
+    }
+  ]
+}

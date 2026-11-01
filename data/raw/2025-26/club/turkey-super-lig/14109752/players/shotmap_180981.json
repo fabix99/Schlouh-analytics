@@ -1,0 +1,183 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mame Thiam",
+        "slug": "mame-thiam",
+        "shortName": "M. Thiam",
+        "position": "F",
+        "jerseyNumber": "17",
+        "userCount": 1064,
+        "gender": "M",
+        "id": 180981,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مامو ثيام",
+            "bn": "মামে থিয়াম",
+            "hi": "मामे थियाम"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ثيام",
+            "bn": "এম. থিয়াম",
+            "hi": "एम. थियाम"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7.3,
+        "y": 40.1,
+        "z": 0
+      },
+      "bodyPart": "other",
+      "goalMouthLocation": "close-high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.8,
+        "z": 54.2
+      },
+      "xg": 0.012384361587465,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ederson",
+        "slug": "ederson",
+        "shortName": "Ederson",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 47707,
+        "gender": "M",
+        "sofascoreId": "Ederson93",
+        "id": 254491,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيدرسون",
+            "bn": "এডারসন",
+            "hi": "एडरसन"
+          },
+          "shortNameTranslation": {
+            "ar": "إيدرسون",
+            "bn": "এডারসন",
+            "hi": "एडरसन"
+          }
+        }
+      },
+      "id": 6384114,
+      "time": 71,
+      "timeSeconds": 4201,
+      "draw": {
+        "start": {
+          "x": 40.1,
+          "y": 7.3
+        },
+        "end": {
+          "x": 46.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.2,
+          "y": 45.8
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1199,
+      "periodTimeSeconds": 1501,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Mame Thiam",
+        "slug": "mame-thiam",
+        "shortName": "M. Thiam",
+        "position": "F",
+        "jerseyNumber": "17",
+        "userCount": 1064,
+        "gender": "M",
+        "id": 180981,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مامو ثيام",
+            "bn": "মামে থিয়াম",
+            "hi": "मामे थियाम"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ثيام",
+            "bn": "এম. থিয়াম",
+            "hi": "एम. थियाम"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 7.7,
+        "y": 49.1,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.7,
+        "z": 17.7
+      },
+      "blockCoordinates": {
+        "x": 0.7,
+        "y": 49.1,
+        "z": 0
+      },
+      "xg": 0.18516509234905,
+      "xgot": 0.045950882136822,
+      "goalkeeper": {
+        "name": "Ederson",
+        "slug": "ederson",
+        "shortName": "Ederson",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 47707,
+        "gender": "M",
+        "sofascoreId": "Ederson93",
+        "id": 254491,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيدرسون",
+            "bn": "এডারসন",
+            "hi": "एडरसन"
+          },
+          "shortNameTranslation": {
+            "ar": "إيدرسون",
+            "bn": "এডারসন",
+            "hi": "एडरसन"
+          }
+        }
+      },
+      "id": 6383969,
+      "time": 59,
+      "timeSeconds": 3516,
+      "draw": {
+        "start": {
+          "x": 49.1,
+          "y": 7.7
+        },
+        "block": {
+          "x": 49.1,
+          "y": 0.7
+        },
+        "end": {
+          "x": 50.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.3,
+          "y": 82.3
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1884,
+      "periodTimeSeconds": 816,
+      "incidentType": "shot"
+    }
+  ]
+}

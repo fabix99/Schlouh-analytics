@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rico Lewis",
+        "firstName": "Rico Lewis",
+        "lastName": "",
+        "slug": "rico-lewis",
+        "shortName": "R. Lewis",
+        "position": "D",
+        "jerseyNumber": "82",
+        "userCount": 17418,
+        "gender": "M",
+        "sofascoreId": "Rico_Lewis",
+        "id": 1136731,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكو لويس",
+            "bn": "রিকো লুইস",
+            "hi": "रिको लुईस"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. لويس",
+            "bn": "আর. লুইস",
+            "hi": "आर. लुईस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 12.9,
+        "y": 58.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 63.7,
+        "z": 12.5
+      },
+      "blockCoordinates": {
+        "x": 9.3,
+        "y": 52,
+        "z": 0
+      },
+      "xg": 0.07631228864193,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mark Flekken",
+        "slug": "mark-flekken",
+        "shortName": "M. Flekken",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2823,
+        "gender": "M",
+        "id": 171919,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارك فليكين",
+            "bn": "মার্ক ফ্লেককেন",
+            "hi": "मार्क फ्लेकेन"
+          },
+          "shortNameTranslation": {
+            "ar": "م. فليكين",
+            "bn": "এম. ফ্লেকেন",
+            "hi": "एम. फ्लेकेन"
+          }
+        }
+      },
+      "id": 6245546,
+      "time": 5,
+      "timeSeconds": 278,
+      "draw": {
+        "start": {
+          "x": 58.9,
+          "y": 12.9
+        },
+        "block": {
+          "x": 52,
+          "y": 9.3
+        },
+        "end": {
+          "x": 36.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 36.3,
+          "y": 87.5
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2422,
+      "periodTimeSeconds": 278,
+      "incidentType": "shot"
+    }
+  ]
+}

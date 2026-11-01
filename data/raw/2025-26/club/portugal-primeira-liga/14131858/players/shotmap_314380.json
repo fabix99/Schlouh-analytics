@@ -1,0 +1,67 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ricardo Horta",
+        "slug": "ricardo-horta",
+        "shortName": "R. Horta",
+        "position": "F",
+        "jerseyNumber": "21",
+        "userCount": 2215,
+        "gender": "M",
+        "id": 314380,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكاردو هورتا",
+            "bn": "রিকার্ডো হোর্টা",
+            "hi": "रिकार्डो होर्ता"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. هورتا",
+            "bn": "আর. হোর্টা",
+            "hi": "आर. होर्ता"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53,
+        "z": 1.3
+      },
+      "xg": 0.7884,
+      "xgot": 0.78445953130722,
+      "id": 5400302,
+      "time": 83,
+      "timeSeconds": 4958,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 47,
+          "y": 0
+        },
+        "goal": {
+          "x": 47,
+          "y": 98.7
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 442,
+      "periodTimeSeconds": 2258,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Juan Miranda",
+        "slug": "juan-miranda",
+        "shortName": "J. Miranda",
+        "position": "D",
+        "jerseyNumber": "33",
+        "userCount": 2205,
+        "gender": "M",
+        "id": 855829,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوان ميراندا",
+            "bn": "জুয়ান মিরান্ডা",
+            "hi": "जुआन मिरांडा"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. ميراندا",
+            "bn": "জে. মিরান্ডা",
+            "hi": "जे. मिरांडा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 2.7,
+        "y": 33.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 2.3,
+        "y": 35.7,
+        "z": 0
+      },
+      "xg": 0.033904116600752,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Vanja Milinković-Savić",
+        "slug": "vanja-milinkovic-savic",
+        "shortName": "V. Milinković-Savić",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 6394,
+        "gender": "M",
+        "id": 356160,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فانيا ميلينكوفيتش-سافيتش",
+            "bn": "ভাঞ্জা মিলিনকোভিচ-সাভিচ",
+            "hi": "वानजा मिलिन्कोविक-साविक"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. ميلينكوفيتش-سافيتش",
+            "bn": "ভি. মিলিনকোভিচ-সাভিচ",
+            "hi": "वी. मिलिन्कोविक-साविक"
+          }
+        }
+      },
+      "id": 6145551,
+      "time": 85,
+      "timeSeconds": 5085,
+      "draw": {
+        "start": {
+          "x": 33.8,
+          "y": 2.7
+        },
+        "block": {
+          "x": 35.7,
+          "y": 2.3
+        },
+        "end": {
+          "x": 46.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 315,
+      "periodTimeSeconds": 2385,
+      "incidentType": "shot"
+    }
+  ]
+}

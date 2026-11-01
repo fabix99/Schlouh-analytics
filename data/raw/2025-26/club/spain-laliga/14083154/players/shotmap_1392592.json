@@ -1,0 +1,85 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Roberto Fernández",
+        "slug": "roberto-fernandez",
+        "shortName": "R. Fernández",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 2024,
+        "gender": "M",
+        "id": 1392592,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبرتو فرنانديز"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. فرنانديز"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.4,
+        "z": 2.5
+      },
+      "xg": 0.7884,
+      "xgot": 0.74667394161224,
+      "goalkeeper": {
+        "name": "Augusto Batalla",
+        "slug": "augusto-batalla",
+        "shortName": "A. Batalla",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 1517,
+        "gender": "M",
+        "id": 358910,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوغوستو باتالا",
+            "bn": "অগাস্টো বাটাল্লা",
+            "hi": "ऑगस्टो बटाला"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باتالا",
+            "bn": "এ. বাটাল্লা",
+            "hi": "ए. बटाला"
+          }
+        }
+      },
+      "id": 6313484,
+      "time": 39,
+      "timeSeconds": 2336,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 47.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.6,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 364,
+      "periodTimeSeconds": 2336,
+      "incidentType": "shot"
+    }
+  ]
+}

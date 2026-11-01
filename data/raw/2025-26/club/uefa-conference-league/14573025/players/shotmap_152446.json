@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Iván Balliu",
+        "slug": "ivan-balliu",
+        "shortName": "I. Balliu",
+        "position": "D",
+        "jerseyNumber": "20",
+        "userCount": 687,
+        "gender": "M",
+        "id": 152446,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفان باليو",
+            "bn": "ইভান বালিউ",
+            "hi": "इवान बल्लु"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. باليو",
+            "bn": "আই. বালিউ",
+            "hi": "आई. बल्लु"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 5,
+        "y": 59.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 4,
+        "y": 57.4,
+        "z": 0
+      },
+      "xg": 0.10291834920645,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Laurit Behluli",
+        "firstName": "",
+        "lastName": "",
+        "slug": "laurit-behluli",
+        "shortName": "L. Behluli",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 11,
+        "gender": "M",
+        "id": 938675,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوريت بهلولي"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. بهلولي"
+          }
+        }
+      },
+      "id": 6375519,
+      "time": 5,
+      "timeSeconds": 278,
+      "draw": {
+        "start": {
+          "x": 59.1,
+          "y": 5
+        },
+        "block": {
+          "x": 57.4,
+          "y": 4
+        },
+        "end": {
+          "x": 50.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2422,
+      "periodTimeSeconds": 278,
+      "incidentType": "shot"
+    }
+  ]
+}

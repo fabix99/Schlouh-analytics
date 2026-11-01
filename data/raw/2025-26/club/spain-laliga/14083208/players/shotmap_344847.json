@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Johan Mojica",
+        "slug": "johan-mojica",
+        "shortName": "J. Mojica",
+        "position": "D",
+        "jerseyNumber": "22",
+        "userCount": 3940,
+        "gender": "M",
+        "id": 344847,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوهان موجيكا",
+            "bn": "জোহান মোজিকা",
+            "hi": "जोहान मोजिका"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. موجيكا",
+            "bn": "জে. মোজিকা",
+            "hi": "जे. मोजिका"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.3,
+        "y": 32.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 6.2,
+        "y": 43.1,
+        "z": 0
+      },
+      "xg": 0.038327738642693,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Paulo Gazzaniga",
+        "slug": "paulo-gazzaniga",
+        "shortName": "P. Gazzaniga",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 1930,
+        "gender": "M",
+        "id": 164343,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باولو غازانيغا",
+            "bn": "পাওলো গাজ্জানিগা",
+            "hi": "पाउलो गज़ानिगा"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غازانيغا",
+            "bn": "পি. গাজ্জানিগা",
+            "hi": "पी. गज़ानिगा"
+          }
+        }
+      },
+      "id": 6455605,
+      "time": 77,
+      "timeSeconds": 4567,
+      "draw": {
+        "start": {
+          "x": 32.5,
+          "y": 12.3
+        },
+        "block": {
+          "x": 43.1,
+          "y": 6.2
+        },
+        "end": {
+          "x": 53.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 14,
+      "reversedPeriodTimeSeconds": 833,
+      "periodTimeSeconds": 1867,
+      "incidentType": "shot"
+    }
+  ]
+}

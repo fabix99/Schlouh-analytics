@@ -1,0 +1,86 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Archie Brown",
+        "slug": "brown-archie",
+        "shortName": "A. Brown",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 3137,
+        "gender": "M",
+        "id": 1009738,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أرتشي براون"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. براون"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 6.6,
+        "y": 33.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.5,
+        "z": 31
+      },
+      "xg": 0.21280750632286,
+      "xgot": 0.1871239989996,
+      "goalkeeper": {
+        "name": "Yahia Fofana",
+        "slug": "yahia-fofana",
+        "shortName": "Y. Fofana",
+        "position": "G",
+        "jerseyNumber": "75",
+        "userCount": 3498,
+        "gender": "M",
+        "sofascoreId": "yahia.fofana_",
+        "id": 877977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يحيى فوفانا",
+            "bn": "ইয়াহিয়া ফোফানা",
+            "hi": "याहिया फ़ोफ़ाना"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. فوفانا",
+            "bn": "ওয়াই. ফোফানা",
+            "hi": "वाई. फ़ोफ़ाना"
+          }
+        }
+      },
+      "id": 6232045,
+      "time": 88,
+      "timeSeconds": 5269,
+      "draw": {
+        "start": {
+          "x": 33.8,
+          "y": 6.6
+        },
+        "end": {
+          "x": 52.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.5,
+          "y": 69
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 131,
+      "periodTimeSeconds": 2569,
+      "incidentType": "shot"
+    }
+  ]
+}

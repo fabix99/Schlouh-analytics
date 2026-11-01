@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Leon Goretzka",
+        "slug": "leon-goretzka",
+        "shortName": "L. Goretzka",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 12176,
+        "gender": "M",
+        "sofascoreId": "leon_goretzka",
+        "id": 184661,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليون غوريتسكا",
+            "bn": "লিওন গোরেটজকা",
+            "hi": "लियोन गोरेट्ज़का"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. غوريتسكا",
+            "bn": "এল. গোরেটজকা",
+            "hi": "एल. गोरेट्ज़का"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 2.9,
+        "y": 65.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.6,
+        "z": 1.9
+      },
+      "xg": 0.16721515357494,
+      "xgot": 0.21187341213226,
+      "goalkeeper": {
+        "name": "Kamil Grabara",
+        "slug": "grabara-kamil",
+        "shortName": "K. Grabara",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3167,
+        "gender": "M",
+        "id": 902080,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غابارا، كامل",
+            "bn": "গ্রাবারা, কামিল",
+            "hi": "ग्राबारा, कामिल"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. غرابارا",
+            "bn": "কে. গ্রাবারা",
+            "hi": "के. ग्राबारा"
+          }
+        }
+      },
+      "id": 6495408,
+      "time": 88,
+      "timeSeconds": 5271,
+      "draw": {
+        "start": {
+          "x": 65.4,
+          "y": 2.9
+        },
+        "end": {
+          "x": 47.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.4,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 129,
+      "periodTimeSeconds": 2571,
+      "incidentType": "shot"
+    }
+  ]
+}

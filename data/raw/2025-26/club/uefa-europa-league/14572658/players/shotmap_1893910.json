@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Pablo García",
+        "slug": "pablo-garcia",
+        "shortName": "P. García",
+        "position": "M",
+        "jerseyNumber": "52",
+        "userCount": 2263,
+        "gender": "M",
+        "id": 1893910,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بابلو غارسيا"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غارسيا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.9,
+        "y": 45.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52,
+        "z": 8.2
+      },
+      "blockCoordinates": {
+        "x": 6.7,
+        "y": 46.2,
+        "z": 0
+      },
+      "xg": 0.65897572040558,
+      "xgot": 0.46117001771927,
+      "goalkeeper": {
+        "name": "Michael Brouwer",
+        "slug": "michael-brouwer",
+        "shortName": "M. Brouwer",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 80,
+        "gender": "M",
+        "id": 252027,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايكل بروير"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بروير"
+          }
+        }
+      },
+      "id": 6258593,
+      "time": 90,
+      "addedTime": 2,
+      "timeSeconds": 5499,
+      "draw": {
+        "start": {
+          "x": 45.2,
+          "y": 9.9
+        },
+        "block": {
+          "x": 46.2,
+          "y": 6.7
+        },
+        "end": {
+          "x": 48,
+          "y": 0
+        },
+        "goal": {
+          "x": 48,
+          "y": 91.8
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 801,
+      "periodTimeSeconds": 99,
+      "incidentType": "shot"
+    }
+  ]
+}

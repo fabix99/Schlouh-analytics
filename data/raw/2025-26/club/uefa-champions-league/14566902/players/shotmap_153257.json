@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Giovanni Di Lorenzo",
+        "slug": "giovanni-di-lorenzo",
+        "shortName": "G. Di Lorenzo",
+        "position": "D",
+        "jerseyNumber": "22",
+        "userCount": 6958,
+        "gender": "M",
+        "sofascoreId": "dilorenzo22",
+        "id": 153257,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيوفاني دي لورينزو",
+            "bn": "জিওভানি ডি লরেঞ্জো",
+            "hi": "जियोवानी डी लोरेंज़ो"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. دي لورينزو",
+            "bn": "জি. ডি. লরেঞ্জো",
+            "hi": "जी. डी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.8,
+        "y": 59.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 6.6,
+        "y": 57.4,
+        "z": 0
+      },
+      "xg": 0.26386454701424,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mateusz Kochalski",
+        "firstName": "",
+        "lastName": "",
+        "slug": "kochalski-mateusz",
+        "shortName": "M. Kochalski",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 11665,
+        "gender": "M",
+        "id": 851249,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كوتشالسكي، ميتيوش",
+            "bn": "কোচালস্কি, মাতেউস",
+            "hi": "कोचाल्स्की, माटुस्ज़"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوتشالسكي",
+            "bn": "এম. কোচালস্কি",
+            "hi": "एम. कोचाल्स्की"
+          }
+        }
+      },
+      "id": 6245769,
+      "time": 41,
+      "timeSeconds": 2422,
+      "draw": {
+        "start": {
+          "x": 59.3,
+          "y": 8.8
+        },
+        "block": {
+          "x": 57.4,
+          "y": 6.6
+        },
+        "end": {
+          "x": 51.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 278,
+      "periodTimeSeconds": 2422,
+      "incidentType": "shot"
+    }
+  ]
+}

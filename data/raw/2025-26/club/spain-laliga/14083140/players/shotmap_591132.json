@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kike Barja",
+        "slug": "kike-barja",
+        "shortName": "K. Barja",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 165,
+        "gender": "M",
+        "id": 591132,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيكي بارخا",
+            "bn": "কিক বরজা",
+            "hi": "किके बार्जा"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. بارخا",
+            "bn": "কে. বরজা",
+            "hi": "के. बार्जा"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 19.7,
+        "y": 43.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 12.1,
+        "y": 46.9,
+        "z": 0
+      },
+      "xg": 0.057086475193501,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lucas Bergström",
+        "slug": "lucas-bergstrom",
+        "shortName": "L. Bergström",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 3100,
+        "gender": "M",
+        "id": 996903,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس بيرغستروم",
+            "bn": "লুকাস বার্গস্ট্রোম",
+            "hi": "लुकास बर्गस्ट्रोम"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. بيرغستروم",
+            "bn": "এল. বার্গস্ট্রোম",
+            "hi": "एल. बर्गस्ट्रोम"
+          }
+        }
+      },
+      "id": 6264709,
+      "time": 90,
+      "addedTime": 1,
+      "timeSeconds": 5423,
+      "draw": {
+        "start": {
+          "x": 43.8,
+          "y": 19.7
+        },
+        "block": {
+          "x": 46.9,
+          "y": 12.1
+        },
+        "end": {
+          "x": 52,
+          "y": 0
+        },
+        "goal": {
+          "x": 52,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 877,
+      "periodTimeSeconds": 23,
+      "incidentType": "shot"
+    }
+  ]
+}

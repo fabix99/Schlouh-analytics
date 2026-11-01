@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ihlas Bebou",
+        "slug": "ihlas-bebou",
+        "shortName": "I. Bebou",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 463,
+        "gender": "M",
+        "id": 254297,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيلاص بيبو",
+            "bn": "ইহলাস বেবু",
+            "hi": "इहलास बेबोउ"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. بيبو",
+            "bn": "আই. বেবু",
+            "hi": "आई. बेबोउ"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 24.2,
+        "y": 58.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.4,
+        "z": 3.2
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 51.1,
+        "z": 0
+      },
+      "xg": 0.018940268084407,
+      "xgot": 0.013001691550016,
+      "goalkeeper": {
+        "name": "Gregor Kobel",
+        "slug": "gregor-kobel",
+        "shortName": "G. Kobel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 6960,
+        "gender": "M",
+        "sofascoreId": "gregorkobel",
+        "id": 556866,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غريغور كوبل",
+            "bn": "গ্রেগর কোবেল",
+            "hi": "ग्रेगर कोबेल"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. كوبل",
+            "bn": "জি. কোবেল",
+            "hi": "जी. कोबेल"
+          }
+        }
+      },
+      "id": 6313491,
+      "time": 83,
+      "timeSeconds": 4962,
+      "draw": {
+        "start": {
+          "x": 58.9,
+          "y": 24.2
+        },
+        "block": {
+          "x": 51.1,
+          "y": 1.2
+        },
+        "end": {
+          "x": 49.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.6,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 438,
+      "periodTimeSeconds": 2262,
+      "incidentType": "shot"
+    }
+  ]
+}

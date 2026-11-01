@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Amine Khammas",
+        "slug": "amine-khammas",
+        "shortName": "A. Khammas",
+        "position": "D",
+        "jerseyNumber": "24",
+        "userCount": 815,
+        "gender": "M",
+        "id": 889491,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أمين خماس",
+            "bn": "আমিনে খাম্মাস",
+            "hi": "अमीन खम्मास"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. خماس",
+            "bn": "এ. খাম্মাস",
+            "hi": "ए. खम्मास"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 16.6,
+        "y": 81.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.9,
+        "z": 19.4
+      },
+      "blockCoordinates": {
+        "x": 12.3,
+        "y": 73.5,
+        "z": 0
+      },
+      "xg": 0.043715693056583,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Oliwier Zych",
+        "slug": "zych-oliwier",
+        "shortName": "O. Zych",
+        "position": "G",
+        "jerseyNumber": "48",
+        "userCount": 729,
+        "gender": "M",
+        "id": 1009362,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيتش، أوليڤير",
+            "bn": "জাইচ, অলিভিয়ার",
+            "hi": "ज़िच, ओलिवियर"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. زيتش",
+            "bn": "ও. জাইচ",
+            "hi": "ओ. ज़िच"
+          }
+        }
+      },
+      "id": 6375464,
+      "time": 22,
+      "timeSeconds": 1314,
+      "draw": {
+        "start": {
+          "x": 81.8,
+          "y": 16.6
+        },
+        "block": {
+          "x": 73.5,
+          "y": 12.3
+        },
+        "end": {
+          "x": 54.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.1,
+          "y": 80.6
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1386,
+      "periodTimeSeconds": 1314,
+      "incidentType": "shot"
+    }
+  ]
+}

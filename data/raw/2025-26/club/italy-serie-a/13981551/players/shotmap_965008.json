@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sebastiano Esposito",
+        "slug": "sebastiano-esposito",
+        "shortName": "S. Esposito",
+        "position": "F",
+        "jerseyNumber": "70",
+        "userCount": 4255,
+        "gender": "M",
+        "id": 965008,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيباستيانو إسبوسيتو",
+            "bn": "সেবাস্তিয়ানো এসপোসিটো",
+            "hi": "सेबेस्टियानो एस्पोसिटो"
+          },
+          "shortNameTranslation": {
+            "ar": "س. إسبوسيتو",
+            "bn": "এস. এসপোসিটো",
+            "hi": "एस. एस्पोसिटो"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 6.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46,
+        "z": 3.8
+      },
+      "xg": 0.2933976650238,
+      "xgot": 0.88113880157471,
+      "goalkeeper": {
+        "name": "Mattia Perin",
+        "slug": "mattia-perin",
+        "shortName": "M. Perin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3326,
+        "gender": "M",
+        "id": 79645,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتيا بيرين",
+            "bn": "মাতিয়া পেরিন",
+            "hi": "मटिया पेरिन"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بيرين",
+            "bn": "এম. পেরিন",
+            "hi": "एम. पेरिन"
+          }
+        }
+      },
+      "id": 6266914,
+      "time": 26,
+      "timeSeconds": 1508,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 6.5
+        },
+        "end": {
+          "x": 54,
+          "y": 0
+        },
+        "goal": {
+          "x": 54,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1192,
+      "periodTimeSeconds": 1508,
+      "incidentType": "shot"
+    }
+  ]
+}

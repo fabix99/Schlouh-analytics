@@ -1,0 +1,86 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Leroy Sané",
+        "slug": "leroy-sane",
+        "shortName": "L. Sané",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 40962,
+        "gender": "M",
+        "sofascoreId": "LeroySane",
+        "id": 293519,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليروي ساني",
+            "bn": "লিরোয় সানে",
+            "hi": "लेरॉय साने"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. ساني",
+            "bn": "এল. সানে",
+            "hi": "एल. साने"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.3,
+        "y": 65.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.8,
+        "z": 1.3
+      },
+      "xg": 0.10371282696724,
+      "xgot": 0.2014561444521,
+      "goalkeeper": {
+        "name": "Abdullah Yiğiter",
+        "slug": "abdullah-yigiter",
+        "shortName": "A. Yiğiter",
+        "position": "G",
+        "jerseyNumber": "21",
+        "userCount": 39,
+        "gender": "M",
+        "id": 827515,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد الله ييغير"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. ييغير"
+          }
+        }
+      },
+      "id": 6342068,
+      "time": 7,
+      "timeSeconds": 377,
+      "draw": {
+        "start": {
+          "x": 65.4,
+          "y": 12.3
+        },
+        "end": {
+          "x": 48.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.2,
+          "y": 98.7
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2323,
+      "periodTimeSeconds": 377,
+      "incidentType": "shot"
+    }
+  ]
+}

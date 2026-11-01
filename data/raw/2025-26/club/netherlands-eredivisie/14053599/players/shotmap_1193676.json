@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Başar Önal",
+        "firstName": "Basar Onal",
+        "lastName": "",
+        "slug": "basar-onal",
+        "shortName": "B. Önal",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 651,
+        "gender": "M",
+        "id": 1193676,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باشار أونال"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. أونال"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 3.5,
+        "y": 38.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 0.5,
+        "y": 46.2,
+        "z": 0
+      },
+      "xg": 0.11222480237484,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Etienne Vaessen",
+        "slug": "etienne-vaessen",
+        "shortName": "E. Vaessen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 473,
+        "gender": "M",
+        "id": 809408,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إتيان فايزن"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. فايزن"
+          }
+        }
+      },
+      "id": 6144897,
+      "time": 74,
+      "timeSeconds": 4422,
+      "draw": {
+        "start": {
+          "x": 38.3,
+          "y": 3.5
+        },
+        "block": {
+          "x": 46.2,
+          "y": 0.5
+        },
+        "end": {
+          "x": 47.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 978,
+      "periodTimeSeconds": 1722,
+      "incidentType": "shot"
+    }
+  ]
+}

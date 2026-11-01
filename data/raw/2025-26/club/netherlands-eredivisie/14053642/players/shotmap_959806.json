@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kenneth Taylor",
+        "slug": "kenneth-taylor",
+        "shortName": "K. Taylor",
+        "position": "M",
+        "jerseyNumber": "24",
+        "userCount": 3685,
+        "gender": "M",
+        "id": 959806,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كينيث تايلور",
+            "bn": "কেনেথ টেলর",
+            "hi": "केनेथ टेलर"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. تايلور",
+            "bn": "কে. টেলর",
+            "hi": "के. टेलर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 10.8,
+        "y": 37.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 2.5,
+        "y": 46.2,
+        "z": 0
+      },
+      "xg": 0.095080770552158,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Etienne Vaessen",
+        "slug": "etienne-vaessen",
+        "shortName": "E. Vaessen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 473,
+        "gender": "M",
+        "id": 809408,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إتيان فايزن"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. فايزن"
+          }
+        }
+      },
+      "id": 6275429,
+      "time": 2,
+      "timeSeconds": 110,
+      "draw": {
+        "start": {
+          "x": 37.8,
+          "y": 10.8
+        },
+        "block": {
+          "x": 46.2,
+          "y": 2.5
+        },
+        "end": {
+          "x": 48.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2590,
+      "periodTimeSeconds": 110,
+      "incidentType": "shot"
+    }
+  ]
+}

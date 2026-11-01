@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Souffian El Karouani",
+        "firstName": "",
+        "lastName": "",
+        "slug": "souffian-el-karouani",
+        "shortName": "S. El Karouani",
+        "position": "D",
+        "jerseyNumber": "16",
+        "userCount": 3589,
+        "gender": "M",
+        "id": 991679,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سوفيان الكراوني"
+          },
+          "shortNameTranslation": {
+            "ar": "س. الكراوني"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 26.9,
+        "y": 31.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.5,
+        "y": 37.8,
+        "z": 0
+      },
+      "xg": 0.031472653150558,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "John Victor",
+        "slug": "john-victor",
+        "shortName": "John",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 3372,
+        "gender": "M",
+        "id": 840103,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جون فيكتور",
+            "bn": "জন ভিক্টর",
+            "hi": "जॉन विक्टर"
+          },
+          "shortNameTranslation": {
+            "ar": "جون",
+            "bn": "জন",
+            "hi": "जॉन"
+          }
+        }
+      },
+      "id": 6333235,
+      "time": 3,
+      "timeSeconds": 146,
+      "draw": {
+        "start": {
+          "x": 31.5,
+          "y": 26.9
+        },
+        "block": {
+          "x": 37.8,
+          "y": 15.5
+        },
+        "end": {
+          "x": 46.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 43,
+      "reversedPeriodTimeSeconds": 2554,
+      "periodTimeSeconds": 146,
+      "incidentType": "shot"
+    }
+  ]
+}

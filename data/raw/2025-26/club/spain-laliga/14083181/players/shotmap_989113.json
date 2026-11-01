@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rodrigo Riquelme",
+        "firstName": "",
+        "lastName": "",
+        "slug": "rodrigo-riquelme",
+        "shortName": "R. Riquelme",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 4752,
+        "gender": "M",
+        "id": 989113,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رودريغو ريكلمي",
+            "bn": "রদ্রিগো রিকেল্মে",
+            "hi": "रोड्रिगो रिक्वेल्मे"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ريكلمي",
+            "bn": "আর. রিকেল্মে",
+            "hi": "आर. रिक्वेल्मे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 12.6,
+        "y": 32.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11,
+        "y": 34.5,
+        "z": 0
+      },
+      "xg": 0.049277350306511,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "David Soria",
+        "slug": "david-soria",
+        "shortName": "D. Soria",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 827,
+        "gender": "M",
+        "id": 604258,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد سوريا",
+            "bn": "ডেভিড সোরিয়া",
+            "hi": "डेविड सोरिया"
+          },
+          "shortNameTranslation": {
+            "ar": "د. سوريا",
+            "bn": "ডি. সোরিয়া",
+            "hi": "डी. सोरिया"
+          }
+        }
+      },
+      "id": 6392312,
+      "time": 90,
+      "addedTime": 8,
+      "timeSeconds": 5826,
+      "draw": {
+        "start": {
+          "x": 32.7,
+          "y": 12.6
+        },
+        "block": {
+          "x": 34.5,
+          "y": 11
+        },
+        "end": {
+          "x": 47.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 474,
+      "periodTimeSeconds": 426,
+      "incidentType": "shot"
+    }
+  ]
+}

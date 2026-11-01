@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Lazaros Rota",
+        "slug": "lazaros-rota",
+        "shortName": "L. Rota",
+        "position": "D",
+        "jerseyNumber": "12",
+        "userCount": 872,
+        "gender": "M",
+        "id": 941338,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لازاروس روتا",
+            "bn": "লাজারাস রোটা",
+            "hi": "लाज़ारोस रोटा"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. روتا",
+            "bn": "এল.রোটা",
+            "hi": "एल. रोटा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 21.8,
+        "y": 69.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.4,
+        "y": 61.6,
+        "z": 0
+      },
+      "xg": 0.030560072511435,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Pavlo Isenko",
+        "firstName": "",
+        "lastName": "",
+        "slug": "isenko-pavlo",
+        "shortName": "P. Isenko",
+        "position": "G",
+        "jerseyNumber": "77",
+        "userCount": 152,
+        "gender": "M",
+        "id": 985279,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بافلو إيسينكو"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. إيسينكو"
+          }
+        }
+      },
+      "id": 6376196,
+      "time": 76,
+      "timeSeconds": 4532,
+      "draw": {
+        "start": {
+          "x": 69.9,
+          "y": 21.8
+        },
+        "block": {
+          "x": 61.6,
+          "y": 13.4
+        },
+        "end": {
+          "x": 48.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 868,
+      "periodTimeSeconds": 1832,
+      "incidentType": "shot"
+    }
+  ]
+}

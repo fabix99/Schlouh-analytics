@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Hammam Al-Hammami",
+        "firstName": "Hammam Al-Hammami",
+        "slug": "al-hammami-hammam",
+        "shortName": "H. Al-Hammami",
+        "position": "F",
+        "jerseyNumber": "22",
+        "userCount": 199,
+        "gender": "M",
+        "id": 1836904,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "حمام الحمامي"
+          },
+          "shortNameTranslation": {
+            "ar": "ح. الحمامي"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.7,
+        "y": 46.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 21.4,
+        "y": 46.9,
+        "z": 0
+      },
+      "xg": 0.020053161308169,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Juan Cozzani",
+        "slug": "juan-cozzani",
+        "shortName": "J. Cozzani",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 134,
+        "gender": "M",
+        "id": 874969,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوان كوزاني"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. كوزاني"
+          }
+        }
+      },
+      "id": 5762535,
+      "time": 84,
+      "timeSeconds": 5004,
+      "draw": {
+        "start": {
+          "x": 46.8,
+          "y": 23.7
+        },
+        "block": {
+          "x": 46.9,
+          "y": 21.4
+        },
+        "end": {
+          "x": 48.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 396,
+      "periodTimeSeconds": 2304,
+      "incidentType": "shot"
+    }
+  ]
+}

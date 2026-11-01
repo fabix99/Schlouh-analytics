@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Zito Luvumbo",
+        "slug": "zito-luvumbo",
+        "shortName": "Z. Luvumbo",
+        "position": "F",
+        "jerseyNumber": "15",
+        "userCount": 5776,
+        "gender": "M",
+        "sofascoreId": "LuvumboZito",
+        "id": 1000150,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيتو لوفومبو",
+            "bn": "জিটো লুভুম্বো",
+            "hi": "ज़ीटो लुवुम्बो"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. لوفومبو",
+            "bn": "জেড. লুভুম্বো",
+            "hi": "ज़ेड. लुवुम्बो"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 6.7,
+        "y": 34.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 16.5
+      },
+      "blockCoordinates": {
+        "x": 5.1,
+        "y": 37.5,
+        "z": 0
+      },
+      "xg": 0.063645534217358,
+      "xgot": 0.20329912006855,
+      "goalkeeper": {
+        "name": "Jean Butez",
+        "slug": "jean-butez",
+        "shortName": "J. Butez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1404,
+        "gender": "M",
+        "id": 599114,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جان بوتيز",
+            "bn": "জিন বুটেজ",
+            "hi": "जीन बुटेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بوتيز",
+            "bn": "জে. বুটেজ",
+            "hi": "जे. बुटेज़"
+          }
+        }
+      },
+      "id": 6132056,
+      "time": 87,
+      "timeSeconds": 5212,
+      "draw": {
+        "start": {
+          "x": 34.6,
+          "y": 6.7
+        },
+        "block": {
+          "x": 37.5,
+          "y": 5.1
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 83.5
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 188,
+      "periodTimeSeconds": 2512,
+      "incidentType": "shot"
+    }
+  ]
+}

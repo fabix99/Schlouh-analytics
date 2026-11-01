@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Adriano Firmino",
+        "slug": "adriano-firmino",
+        "shortName": "A. Firmino",
+        "position": "M",
+        "jerseyNumber": "6",
+        "userCount": 126,
+        "gender": "M",
+        "id": 989383,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أدريانو فيرمينو"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فيرمينو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 25.9,
+        "y": 47.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.6,
+        "z": 13.9
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 50,
+        "z": 0
+      },
+      "xg": 0.039549935609102,
+      "xgot": 0.064141318202019,
+      "goalkeeper": {
+        "name": "Nico Mantl",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nico-mantl",
+        "shortName": "N. Mantl",
+        "position": "G",
+        "jerseyNumber": "58",
+        "userCount": 154,
+        "gender": "M",
+        "id": 888592,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكو مانتل",
+            "bn": "নিকো ম্যান্টল",
+            "hi": "निको मेंटल"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. مانتل",
+            "bn": "এন. মান্টল",
+            "hi": "एन. मेंटल"
+          }
+        }
+      },
+      "id": 6392254,
+      "time": 51,
+      "timeSeconds": 3036,
+      "draw": {
+        "start": {
+          "x": 47.7,
+          "y": 25.9
+        },
+        "block": {
+          "x": 50,
+          "y": 1.4
+        },
+        "end": {
+          "x": 47.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.4,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2364,
+      "periodTimeSeconds": 336,
+      "incidentType": "shot"
+    }
+  ]
+}

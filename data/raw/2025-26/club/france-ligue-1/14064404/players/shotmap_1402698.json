@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ethan Mbappé",
+        "firstName": "Ethan Mbappé",
+        "slug": "ethan-mbappe",
+        "shortName": "E. Mbappé",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 27065,
+        "gender": "M",
+        "sofascoreId": "ethanmbappe",
+        "id": 1402698,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيثان مبابي",
+            "bn": "ইথান এমবাপ্পে",
+            "hi": "एथन एमबाप्पे"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. مبابي",
+            "bn": "ই. এমবাপ্পে",
+            "hi": "ई. एमबाप्पे"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15,
+        "y": 60.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 12.7
+      },
+      "blockCoordinates": {
+        "x": 11.4,
+        "y": 58.3,
+        "z": 0
+      },
+      "xg": 0.31709867715836,
+      "xgot": 0.18768407404423,
+      "goalkeeper": {
+        "name": "Mory Diaw",
+        "slug": "mory-diaw",
+        "shortName": "M. Diaw",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 3513,
+        "gender": "M",
+        "id": 580226,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موري دياو",
+            "bn": "মোরি ডায়াউ",
+            "hi": "मोरी डियाव"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دياو",
+            "bn": "এম. দিয়াও",
+            "hi": "एम. डियाव"
+          }
+        }
+      },
+      "id": 6274853,
+      "time": 77,
+      "timeSeconds": 4561,
+      "draw": {
+        "start": {
+          "x": 60.6,
+          "y": 15
+        },
+        "block": {
+          "x": 58.3,
+          "y": 11.4
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 87.3
+        }
+      },
+      "reversedPeriodTime": 14,
+      "reversedPeriodTimeSeconds": 839,
+      "periodTimeSeconds": 1861,
+      "incidentType": "shot"
+    }
+  ]
+}

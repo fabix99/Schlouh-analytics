@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Eli Dasa",
+        "slug": "eli-dasa",
+        "shortName": "E. Dasa",
+        "position": "D",
+        "jerseyNumber": "14",
+        "userCount": 322,
+        "gender": "M",
+        "id": 127846,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيلي داسا",
+            "bn": "এলি দাসা",
+            "hi": "एली दासा"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. داسا",
+            "bn": "ই. দাসা",
+            "hi": "ई. दासा"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 17.2,
+        "y": 60.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14.9,
+        "y": 59.6,
+        "z": 0
+      },
+      "xg": 0.016456825658679,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kayne van Oevelen",
+        "firstName": "Kayne van Oevelen",
+        "lastName": "",
+        "slug": "kayne-van-oevelen",
+        "shortName": "K. v. Oevelen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 279,
+        "gender": "M",
+        "id": 1393970,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاين فان أويفيلن"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. فان أويفيلن"
+          }
+        }
+      },
+      "id": 6311140,
+      "time": 29,
+      "timeSeconds": 1718,
+      "draw": {
+        "start": {
+          "x": 60.9,
+          "y": 17.2
+        },
+        "block": {
+          "x": 59.6,
+          "y": 14.9
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 982,
+      "periodTimeSeconds": 1718,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Artur Dolznikov",
+        "firstName": "",
+        "lastName": "",
+        "slug": "artur-dolznikov",
+        "shortName": "A. Dolznikov",
+        "position": "M",
+        "jerseyNumber": "77",
+        "userCount": 109,
+        "gender": "M",
+        "id": 921289,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آرتور دولزينكوف",
+            "bn": "আর্থার ডলজনিকভ",
+            "hi": "अर्तुर डोल्ज़निकोव"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. دولزينكوف",
+            "bn": "এ. ডলজনিকভ",
+            "hi": "ए. डोल्ज़निकोव"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 11.6,
+        "y": 65,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.3,
+        "y": 64.6,
+        "z": 0
+      },
+      "xg": 0.048373889178038,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bartosz Mrozek",
+        "slug": "bartosz-mrozek",
+        "shortName": "B. Mrozek",
+        "position": "G",
+        "jerseyNumber": "41",
+        "userCount": 724,
+        "gender": "M",
+        "id": 886909,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارتوش مروزك"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. مروزك"
+          }
+        }
+      },
+      "id": 6376315,
+      "time": 78,
+      "timeSeconds": 4658,
+      "draw": {
+        "start": {
+          "x": 65,
+          "y": 11.6
+        },
+        "block": {
+          "x": 64.6,
+          "y": 11.3
+        },
+        "end": {
+          "x": 51.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 742,
+      "periodTimeSeconds": 1958,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bremer",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bremer",
+        "shortName": "Bremer",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 9651,
+        "gender": "M",
+        "sofascoreId": "Bremer",
+        "id": 885197,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بريمر",
+            "bn": "ব্রেমার",
+            "hi": "ब्रेमर"
+          },
+          "shortNameTranslation": {
+            "ar": "بريمر",
+            "bn": "ব্রেমার",
+            "hi": "ब्रेमर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 18.5,
+        "y": 50.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.8,
+        "z": 6.3
+      },
+      "xg": 0.015683643519878,
+      "xgot": 0.15636005997658,
+      "goalkeeper": {
+        "name": "Emil Audero",
+        "slug": "emil-audero",
+        "shortName": "E. Audero",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 10812,
+        "gender": "M",
+        "id": 318603,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إميل أوديرو",
+            "bn": "এমিল অডেরো",
+            "hi": "एमिल औडेरो"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. أوديرو",
+            "bn": "ই. অডেরো",
+            "hi": "ई. औडेरो"
+          }
+        }
+      },
+      "id": 6502649,
+      "time": 12,
+      "timeSeconds": 663,
+      "draw": {
+        "start": {
+          "x": 50.4,
+          "y": 18.5
+        },
+        "end": {
+          "x": 54.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.2,
+          "y": 93.7
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2037,
+      "periodTimeSeconds": 663,
+      "incidentType": "shot"
+    }
+  ]
+}

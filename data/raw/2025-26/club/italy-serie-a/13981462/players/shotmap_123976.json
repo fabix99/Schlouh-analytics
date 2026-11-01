@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sergi Roberto",
+        "slug": "sergi-roberto",
+        "shortName": "S. Roberto",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 10368,
+        "gender": "M",
+        "sofascoreId": "sergiroberto",
+        "id": 123976,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرجي روبيرتو",
+            "bn": "সার্জি রবার্তো",
+            "hi": "सर्जी रॉबर्टो"
+          },
+          "shortNameTranslation": {
+            "ar": "س. روبيرتو",
+            "bn": "এস. রবার্তো",
+            "hi": "एस. रॉबर्टो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 16.1,
+        "y": 41.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.3,
+        "y": 43,
+        "z": 0
+      },
+      "xg": 0.094373509287834,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Marco Silvestri",
+        "slug": "marco-silvestri",
+        "shortName": "M. Silvestri",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 321,
+        "gender": "M",
+        "id": 43970,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركو سيلفستري",
+            "bn": "মার্কো সিলভেস্ট্রি",
+            "hi": "मार्को सिल्वेस्ट्री"
+          },
+          "shortNameTranslation": {
+            "ar": "م. سيلفستري",
+            "bn": "এম. সিলভেস্ট্রি",
+            "hi": "एम. सिल्वेस्ट्री"
+          }
+        }
+      },
+      "id": 5774057,
+      "time": 19,
+      "timeSeconds": 1091,
+      "draw": {
+        "start": {
+          "x": 41.7,
+          "y": 16.1
+        },
+        "block": {
+          "x": 43,
+          "y": 13.3
+        },
+        "end": {
+          "x": 49,
+          "y": 0
+        },
+        "goal": {
+          "x": 49,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1609,
+      "periodTimeSeconds": 1091,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ivan Toney",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ivan-toney",
+        "shortName": "I. Toney",
+        "position": "F",
+        "jerseyNumber": "17",
+        "userCount": 13106,
+        "gender": "M",
+        "sofascoreId": "ivantoney",
+        "id": 290927,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفان توني",
+            "bn": "ইভান টোনি",
+            "hi": "इवान टोनी"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. توني",
+            "bn": "আই. টনি",
+            "hi": "आई. टोनी"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.7,
+        "y": 50.3,
+        "z": 0
+      },
+      "bodyPart": "other",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.2,
+        "z": 8.2
+      },
+      "xg": 0.032589413225651,
+      "xgot": 0.1652897298336,
+      "goalkeeper": {
+        "name": "Juan Cozzani",
+        "slug": "juan-cozzani",
+        "shortName": "J. Cozzani",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 133,
+        "gender": "M",
+        "id": 874969,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوان كوزاني"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. كوزاني"
+          }
+        }
+      },
+      "id": 6534407,
+      "time": 74,
+      "timeSeconds": 4398,
+      "draw": {
+        "start": {
+          "x": 50.3,
+          "y": 9.7
+        },
+        "end": {
+          "x": 51.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.8,
+          "y": 91.8
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 1002,
+      "periodTimeSeconds": 1698,
+      "incidentType": "shot"
+    }
+  ]
+}

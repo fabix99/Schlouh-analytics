@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Wesley",
+        "slug": "wesley",
+        "shortName": "Wesley",
+        "position": "M",
+        "jerseyNumber": "22",
+        "userCount": 10344,
+        "gender": "M",
+        "sofascoreId": "wesley_teixeira005",
+        "id": 1211632,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويسلي",
+            "bn": "ওয়েসলি",
+            "hi": "वेस्ली"
+          },
+          "shortNameTranslation": {
+            "ar": "ويسلي",
+            "bn": "ওয়েসলি",
+            "hi": "वेस्ली"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.6,
+        "y": 52.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 65.7,
+        "z": 6.9
+      },
+      "blockCoordinates": {
+        "x": 9,
+        "y": 48.9,
+        "z": 0
+      },
+      "xg": 0.20980097353458,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Samuel Portugal",
+        "slug": "samuel",
+        "shortName": "Samuel",
+        "position": "G",
+        "jerseyNumber": "94",
+        "userCount": 445,
+        "gender": "M",
+        "id": 552170,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "صموئيل",
+            "bn": "স্যামুয়েল",
+            "hi": "सैमुअल"
+          },
+          "shortNameTranslation": {
+            "ar": "صموئيل",
+            "bn": "স্যামুয়েল",
+            "hi": "सैमुअल"
+          }
+        }
+      },
+      "id": 6417913,
+      "time": 49,
+      "timeSeconds": 2884,
+      "draw": {
+        "start": {
+          "x": 52.6,
+          "y": 11.6
+        },
+        "block": {
+          "x": 48.9,
+          "y": 9
+        },
+        "end": {
+          "x": 34.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 34.3,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 42,
+      "reversedPeriodTimeSeconds": 2516,
+      "periodTimeSeconds": 184,
+      "incidentType": "shot"
+    }
+  ]
+}

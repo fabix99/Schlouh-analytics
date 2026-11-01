@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Yusuf Barası",
+        "firstName": "",
+        "lastName": "",
+        "slug": "yusuf-barasi",
+        "shortName": "Y. Barası",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 279,
+        "gender": "M",
+        "id": 1000187,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوسف باراسي",
+            "bn": "ইউসুফ বারাসি",
+            "hi": "यूसुफ़ बारासी"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. باراسي",
+            "bn": "ওয়াই. বারাসি",
+            "hi": "वाई. बारासी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 29,
+        "y": 46.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54,
+        "z": 4.4
+      },
+      "blockCoordinates": {
+        "x": 1.8,
+        "y": 50,
+        "z": 0
+      },
+      "xg": 0.015825534239411,
+      "xgot": 0.13945411145687,
+      "goalkeeper": {
+        "name": "Ricardo Velho",
+        "slug": "ricardo-velho",
+        "shortName": "R. Velho",
+        "position": "G",
+        "jerseyNumber": "24",
+        "userCount": 499,
+        "gender": "M",
+        "id": 845792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكاردو فيليو"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. فيليو"
+          }
+        }
+      },
+      "id": 6337186,
+      "time": 50,
+      "timeSeconds": 2961,
+      "draw": {
+        "start": {
+          "x": 46.6,
+          "y": 29
+        },
+        "block": {
+          "x": 50,
+          "y": 1.8
+        },
+        "end": {
+          "x": 46,
+          "y": 0
+        },
+        "goal": {
+          "x": 46,
+          "y": 95.6
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2439,
+      "periodTimeSeconds": 261,
+      "incidentType": "shot"
+    }
+  ]
+}

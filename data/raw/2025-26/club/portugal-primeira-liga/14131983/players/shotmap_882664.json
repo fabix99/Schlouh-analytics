@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Pepê",
+        "slug": "pepe",
+        "shortName": "Pepê",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 4984,
+        "gender": "M",
+        "sofascoreId": "pepe",
+        "id": 882664,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيبي",
+            "bn": "পেপে",
+            "hi": "पेपे"
+          },
+          "shortNameTranslation": {
+            "ar": "بيبي",
+            "bn": "পেপে",
+            "hi": "पेपे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 73.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.5,
+        "z": 5.1
+      },
+      "blockCoordinates": {
+        "x": 0.7,
+        "y": 52.5,
+        "z": 0
+      },
+      "xg": 0.040805578231812,
+      "xgot": 0.084318399429321,
+      "goalkeeper": {
+        "name": "Renan Ribeiro",
+        "slug": "renan-ribeiro",
+        "shortName": "R. Ribeiro",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 157,
+        "gender": "M",
+        "id": 82598,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رينان ريبيرو",
+            "bn": "রেনান রিবেইরো",
+            "hi": "रेनान रिबेरो"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ريبيرو",
+            "bn": "আর. রিবেইরো",
+            "hi": "आर. रिबेरो"
+          }
+        }
+      },
+      "id": 6356253,
+      "time": 3,
+      "timeSeconds": 164,
+      "draw": {
+        "start": {
+          "x": 73.9,
+          "y": 11.5
+        },
+        "block": {
+          "x": 52.5,
+          "y": 0.7
+        },
+        "end": {
+          "x": 47.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.5,
+          "y": 94.9
+        }
+      },
+      "reversedPeriodTime": 43,
+      "reversedPeriodTimeSeconds": 2536,
+      "periodTimeSeconds": 164,
+      "incidentType": "shot"
+    }
+  ]
+}

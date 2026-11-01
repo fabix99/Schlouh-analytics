@@ -1,0 +1,87 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Fotis Ioannidis",
+        "firstName": "Fotis",
+        "lastName": "Ioannidis",
+        "slug": "fotis-ioannidis",
+        "shortName": "F. Ioannidis",
+        "position": "F",
+        "jerseyNumber": "89",
+        "userCount": 6189,
+        "gender": "M",
+        "sofascoreId": "FotIoannidis",
+        "id": 903679,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فوتيس إيوانيديس",
+            "bn": "ফোটিস আইওনিডিস",
+            "hi": "फ़ोटिस इयोनिडिस"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. إيوانيديس",
+            "bn": "এফ. আইওনিডিস",
+            "hi": "एफ. इयोनिडिस"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 4.2,
+        "y": 48.7,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.8,
+        "z": 58.3
+      },
+      "xg": 0.31348466873169,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Andrew",
+        "slug": "andrew",
+        "shortName": "Andrew",
+        "position": "G",
+        "jerseyNumber": "42",
+        "userCount": 2943,
+        "gender": "M",
+        "id": 947893,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أندرو"
+          },
+          "shortNameTranslation": {
+            "ar": "أندرو"
+          }
+        }
+      },
+      "id": 6443752,
+      "time": 16,
+      "timeSeconds": 921,
+      "draw": {
+        "start": {
+          "x": 48.7,
+          "y": 4.2
+        },
+        "end": {
+          "x": 48.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.2,
+          "y": 41.7
+        }
+      },
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1779,
+      "periodTimeSeconds": 921,
+      "incidentType": "shot"
+    }
+  ]
+}

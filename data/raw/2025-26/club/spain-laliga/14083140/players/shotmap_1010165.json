@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Abel Bretones",
+        "slug": "abel-bretones",
+        "shortName": "A. Bretones",
+        "position": "D",
+        "jerseyNumber": "23",
+        "userCount": 417,
+        "gender": "M",
+        "id": 1010165,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أبيل بريتونيس"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بريتونيس"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.2,
+        "y": 45.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.9,
+        "y": 46.6,
+        "z": 0
+      },
+      "xg": 0.11977409571409,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lucas Bergström",
+        "slug": "lucas-bergstrom",
+        "shortName": "L. Bergström",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 3100,
+        "gender": "M",
+        "id": 996903,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس بيرغستروم",
+            "bn": "লুকাস বার্গস্ট্রোম",
+            "hi": "लुकास बर्गस्ट्रोम"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. بيرغستروم",
+            "bn": "এল. বার্গস্ট্রোম",
+            "hi": "एल. बर्गस्ट्रोम"
+          }
+        }
+      },
+      "id": 6264096,
+      "time": 36,
+      "timeSeconds": 2148,
+      "draw": {
+        "start": {
+          "x": 45.2,
+          "y": 18.2
+        },
+        "block": {
+          "x": 46.6,
+          "y": 8.9
+        },
+        "end": {
+          "x": 47.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 10,
+      "reversedPeriodTimeSeconds": 552,
+      "periodTimeSeconds": 2148,
+      "incidentType": "shot"
+    }
+  ]
+}

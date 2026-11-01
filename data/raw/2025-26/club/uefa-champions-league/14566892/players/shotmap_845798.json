@@ -1,0 +1,92 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Guus Til",
+        "firstName": "",
+        "lastName": "",
+        "slug": "guus-til",
+        "shortName": "G. Til",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 2237,
+        "gender": "M",
+        "id": 845798,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوس تيل",
+            "bn": "গাস টিল",
+            "hi": "गुस टिल"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. تيل",
+            "bn": "জি. টিল",
+            "hi": "जी. टिल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.8,
+        "y": 55.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.5,
+        "z": 0.6
+      },
+      "xg": 0.6921278834343,
+      "xgot": 0.99270015954971,
+      "goalkeeper": {
+        "name": "Jan Oblak",
+        "slug": "jan-oblak",
+        "shortName": "J. Oblak",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 12478,
+        "gender": "M",
+        "sofascoreId": "oblakjan",
+        "id": 69768,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يان أوبلاك",
+            "bn": "জন ওব্লাক",
+            "hi": "जान ओबलाक"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أوبلاك",
+            "bn": "জে. ওব্লাক",
+            "hi": "जे. ओबलाक"
+          }
+        }
+      },
+      "id": 6325082,
+      "time": 10,
+      "timeSeconds": 549,
+      "draw": {
+        "start": {
+          "x": 55.9,
+          "y": 12.8
+        },
+        "end": {
+          "x": 52.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.5,
+          "y": 99.4
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2151,
+      "periodTimeSeconds": 549,
+      "incidentType": "shot"
+    }
+  ]
+}

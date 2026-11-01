@@ -1,0 +1,172 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nélson Oliveira",
+        "slug": "nelson-oliveira",
+        "shortName": "N. Oliveira",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 438,
+        "gender": "M",
+        "id": 42898,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيلسون أوليفيرا",
+            "bn": "নেলসন অলিভেরা",
+            "hi": "नेल्सन ओलिवेरा"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. أوليفيرا",
+            "bn": "এন. অলিভেইরা",
+            "hi": "एन. ओलिवेरा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 15.3,
+        "y": 55.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.7,
+        "z": 3.8
+      },
+      "xg": 0.24990984797478,
+      "xgot": 0.50771123170853,
+      "goalkeeper": {
+        "name": "João Gonçalves",
+        "slug": "joao-goncalves",
+        "shortName": "J. Gonçalves",
+        "position": "G",
+        "userCount": 62,
+        "gender": "M",
+        "id": 987596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جواو غونكالفيس"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. غونكالفيس"
+          }
+        }
+      },
+      "id": 6261759,
+      "time": 14,
+      "timeSeconds": 834,
+      "draw": {
+        "start": {
+          "x": 55.4,
+          "y": 15.3
+        },
+        "end": {
+          "x": 47.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.3,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1866,
+      "periodTimeSeconds": 834,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Nélson Oliveira",
+        "slug": "nelson-oliveira",
+        "shortName": "N. Oliveira",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 438,
+        "gender": "M",
+        "id": 42898,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيلسون أوليفيرا",
+            "bn": "নেলসন অলিভেরা",
+            "hi": "नेल्सन ओलिवेरा"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. أوليفيرا",
+            "bn": "এন. অলিভেইরা",
+            "hi": "एन. ओलिवेरा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 12.2,
+        "y": 60.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.9,
+        "y": 58.1,
+        "z": 0
+      },
+      "xg": 0.093446783721447,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "João Gonçalves",
+        "slug": "joao-goncalves",
+        "shortName": "J. Gonçalves",
+        "position": "G",
+        "userCount": 62,
+        "gender": "M",
+        "id": 987596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جواو غونكالفيس"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. غونكالفيس"
+          }
+        }
+      },
+      "id": 6261730,
+      "time": 9,
+      "timeSeconds": 539,
+      "draw": {
+        "start": {
+          "x": 60.5,
+          "y": 12.2
+        },
+        "block": {
+          "x": 58.1,
+          "y": 8.9
+        },
+        "end": {
+          "x": 51.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2161,
+      "periodTimeSeconds": 539,
+      "incidentType": "shot"
+    }
+  ]
+}

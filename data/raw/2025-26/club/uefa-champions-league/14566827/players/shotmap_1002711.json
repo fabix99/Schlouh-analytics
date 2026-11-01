@@ -1,0 +1,78 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Pape Matar Sarr",
+        "firstName": "",
+        "lastName": "",
+        "slug": "pape-matar-sarr",
+        "shortName": "P. M. Sarr",
+        "position": "M",
+        "jerseyNumber": "29",
+        "userCount": 32364,
+        "gender": "M",
+        "sofascoreId": "pape",
+        "id": 1002711,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بابي مطر سار",
+            "bn": "পোপ মাতার সরর",
+            "hi": "पापे मटर सर्र"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. م. سار",
+            "bn": "পি. এম. সর",
+            "hi": "पीएम मटर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.9,
+        "y": 31.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.3,
+        "z": 1.9
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 48.2,
+        "z": 0
+      },
+      "xg": 0.020903374999762,
+      "xgot": 0.15830785036087,
+      "id": 5678003,
+      "time": 31,
+      "timeSeconds": 1800,
+      "draw": {
+        "start": {
+          "x": 31.8,
+          "y": 21.9
+        },
+        "block": {
+          "x": 48.2,
+          "y": 1.6
+        },
+        "end": {
+          "x": 45.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.7,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 900,
+      "periodTimeSeconds": 1800,
+      "incidentType": "shot"
+    }
+  ]
+}

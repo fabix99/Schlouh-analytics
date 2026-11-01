@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Osher Davida",
+        "firstName": "Osher",
+        "lastName": "Davida",
+        "slug": "davida-osher",
+        "shortName": "O. Davida",
+        "position": "M",
+        "jerseyNumber": "77",
+        "userCount": 191,
+        "gender": "M",
+        "id": 1004222,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دافيدا، أوسر"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. دافيدا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 13.5,
+        "y": 48.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.1,
+        "y": 49.1,
+        "z": 0
+      },
+      "xg": 0.15206564962864,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Rémy Descamps",
+        "slug": "remy-descamps",
+        "shortName": "R. Descamps",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 501,
+        "gender": "M",
+        "id": 788180,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريمي ديسكامب",
+            "bn": "রেমি ডেসক্যাম্পস",
+            "hi": "रेमी डेसकैम्प्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ديسكامب",
+            "bn": "আর. ডেসক্যাম্পস",
+            "hi": "आर. डेसकैम्प्स"
+          }
+        }
+      },
+      "id": 6257865,
+      "time": 43,
+      "timeSeconds": 2576,
+      "draw": {
+        "start": {
+          "x": 48.9,
+          "y": 13.5
+        },
+        "block": {
+          "x": 49.1,
+          "y": 8.1
+        },
+        "end": {
+          "x": 49.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 124,
+      "periodTimeSeconds": 2576,
+      "incidentType": "shot"
+    }
+  ]
+}

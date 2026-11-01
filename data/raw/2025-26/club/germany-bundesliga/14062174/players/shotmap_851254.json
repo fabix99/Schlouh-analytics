@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Amos Pieper",
+        "slug": "amos-pieper",
+        "shortName": "A. Pieper",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 292,
+        "gender": "M",
+        "id": 851254,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيبر، أموس",
+            "bn": "পাইপার, আমোস",
+            "hi": "पीपर, अमोस"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بيبر",
+            "bn": "এ. পাইপার",
+            "hi": "ए. पीपर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 8.8,
+        "y": 58.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.2,
+        "y": 56.7,
+        "z": 0
+      },
+      "xg": 0.047277811914682,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kauã Santos",
+        "slug": "kaua-dos-santos",
+        "shortName": "Kauã",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 2852,
+        "gender": "M",
+        "id": 1134203,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاوَا دوس سانتوس",
+            "bn": "কাওয়া ডস সান্তোস",
+            "hi": "काउआ डॉस सैंटोस"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. دوس سانتوس",
+            "bn": "কাওয়া",
+            "hi": "काऊआ"
+          }
+        }
+      },
+      "id": 6527869,
+      "time": 13,
+      "timeSeconds": 759,
+      "draw": {
+        "start": {
+          "x": 58.1,
+          "y": 8.8
+        },
+        "block": {
+          "x": 56.7,
+          "y": 7.2
+        },
+        "end": {
+          "x": 50.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1941,
+      "periodTimeSeconds": 759,
+      "incidentType": "shot"
+    }
+  ]
+}

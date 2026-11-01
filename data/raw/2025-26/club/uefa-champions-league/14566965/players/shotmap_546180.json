@@ -1,0 +1,71 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "David Goldar",
+        "slug": "david-goldar",
+        "shortName": "D. Goldar",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 123,
+        "gender": "M",
+        "id": 546180,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد غولدار"
+          },
+          "shortNameTranslation": {
+            "ar": "د. غولدار"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 8.1,
+        "y": 53.6,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 3.7,
+        "y": 49.5,
+        "z": 0
+      },
+      "xg": 0.10635686665773,
+      "xgot": 0,
+      "id": 5812922,
+      "time": 49,
+      "timeSeconds": 2884,
+      "draw": {
+        "start": {
+          "x": 53.6,
+          "y": 8.1
+        },
+        "block": {
+          "x": 49.5,
+          "y": 3.7
+        },
+        "end": {
+          "x": 46,
+          "y": 0
+        },
+        "goal": {
+          "x": 46,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 42,
+      "reversedPeriodTimeSeconds": 2516,
+      "periodTimeSeconds": 184,
+      "incidentType": "shot"
+    }
+  ]
+}

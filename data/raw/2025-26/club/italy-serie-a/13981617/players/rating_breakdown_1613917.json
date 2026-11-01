@@ -1,0 +1,108 @@
+{
+  "passes": [
+    {
+      "playerCoordinates": {
+        "x": 70.2,
+        "y": 11.7
+      },
+      "passEndCoordinates": {
+        "x": 44.4,
+        "y": 10.8
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 37.1,
+        "y": 49.9
+      },
+      "passEndCoordinates": {
+        "x": 23.1,
+        "y": 47.7
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 67,
+        "y": 75.4
+      },
+      "passEndCoordinates": {
+        "x": 68.7,
+        "y": 62.8
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 64.9,
+        "y": 90.1
+      },
+      "passEndCoordinates": {
+        "x": 66,
+        "y": 84.6
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    }
+  ],
+  "dribbles": [
+    {
+      "playerCoordinates": {
+        "x": 40.8,
+        "y": 47.8
+      },
+      "eventActionType": "dribble",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "defensive": [
+    {
+      "playerCoordinates": {
+        "x": 64.3,
+        "y": 81.4
+      },
+      "eventActionType": "ball-recovery",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "ball-carries": [
+    {
+      "playerCoordinates": {
+        "x": 44.2,
+        "y": 50.2
+      },
+      "passEndCoordinates": {
+        "x": 40.8,
+        "y": 47.8
+      },
+      "eventActionType": "ball-carry",
+      "isHome": true
+    },
+    {
+      "playerCoordinates": {
+        "x": 64.3,
+        "y": 81.4
+      },
+      "passEndCoordinates": {
+        "x": 64.9,
+        "y": 90.1
+      },
+      "eventActionType": "ball-carry",
+      "isHome": true
+    }
+  ]
+}

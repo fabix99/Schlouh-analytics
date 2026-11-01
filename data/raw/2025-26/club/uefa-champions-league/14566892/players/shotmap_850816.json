@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Joey Veerman",
+        "firstName": "",
+        "lastName": "",
+        "slug": "joey-veerman",
+        "shortName": "J. Veerman",
+        "position": "M",
+        "jerseyNumber": "23",
+        "userCount": 3795,
+        "gender": "M",
+        "id": 850816,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوي فيرمان",
+            "bn": "জোই বীরম্যান",
+            "hi": "जॉय वीरमैन"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. فيرمان",
+            "bn": "জে. বীরম্যান",
+            "hi": "जे. वीरमैन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.8,
+        "y": 37.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.5,
+        "z": 26.6
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 49.1,
+        "z": 0
+      },
+      "xg": 0.03203933313489,
+      "xgot": 0.10496508330107,
+      "goalkeeper": {
+        "name": "Jan Oblak",
+        "slug": "jan-oblak",
+        "shortName": "J. Oblak",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 12478,
+        "gender": "M",
+        "sofascoreId": "oblakjan",
+        "id": 69768,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يان أوبلاك",
+            "bn": "জন ওব্লাক",
+            "hi": "जान ओबलाक"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أوبلاك",
+            "bn": "জে. ওব্লাক",
+            "hi": "जे. ओबलाक"
+          }
+        }
+      },
+      "id": 6325518,
+      "time": 49,
+      "timeSeconds": 2896,
+      "draw": {
+        "start": {
+          "x": 37.6,
+          "y": 21.8
+        },
+        "block": {
+          "x": 49.1,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 47.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.5,
+          "y": 73.4
+        }
+      },
+      "reversedPeriodTime": 42,
+      "reversedPeriodTimeSeconds": 2504,
+      "periodTimeSeconds": 196,
+      "incidentType": "shot"
+    }
+  ]
+}

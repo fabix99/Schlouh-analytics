@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Riad Bajić",
+        "slug": "riad-bajic",
+        "shortName": "R. Bajić",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 330,
+        "gender": "M",
+        "id": 331751,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رياض باجيتش",
+            "bn": "রিয়াদ বাজিক",
+            "hi": "रियाद बाजीक"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. باجيتش",
+            "bn": "আর. বাজিক",
+            "hi": "आर. बाजीक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7.6,
+        "y": 38.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 6.6,
+        "y": 40.4,
+        "z": 0
+      },
+      "xg": 0.087564751505852,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Baboucarr Gaye",
+        "slug": "baboucarr-gaye",
+        "shortName": "B. Gaye",
+        "position": "G",
+        "jerseyNumber": "24",
+        "userCount": 292,
+        "gender": "M",
+        "id": 807349,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بابوكار جاي",
+            "bn": "বাবুকার গেয়ে",
+            "hi": "बबूकार गे"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. جاي",
+            "bn": "বি. গায়ে",
+            "hi": "बी. गे"
+          }
+        }
+      },
+      "id": 6375550,
+      "time": 33,
+      "timeSeconds": 1976,
+      "draw": {
+        "start": {
+          "x": 38.9,
+          "y": 7.6
+        },
+        "block": {
+          "x": 40.4,
+          "y": 6.6
+        },
+        "end": {
+          "x": 50.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 724,
+      "periodTimeSeconds": 1976,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Cassiano",
+        "slug": "cassiano",
+        "shortName": "Cassiano",
+        "position": "F",
+        "jerseyNumber": "90",
+        "userCount": 302,
+        "gender": "M",
+        "id": 157023,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاسيانو"
+          },
+          "shortNameTranslation": {
+            "ar": "كاسيانو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.1,
+        "y": 47.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.1,
+        "z": 17.7
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 49.1,
+        "z": 0
+      },
+      "xg": 0.025363696739078,
+      "xgot": 0.013264846988022,
+      "id": 5730486,
+      "time": 3,
+      "timeSeconds": 174,
+      "draw": {
+        "start": {
+          "x": 47.7,
+          "y": 20.1
+        },
+        "block": {
+          "x": 49.1,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 49.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.9,
+          "y": 82.3
+        }
+      },
+      "reversedPeriodTime": 43,
+      "reversedPeriodTimeSeconds": 2526,
+      "periodTimeSeconds": 174,
+      "incidentType": "shot"
+    }
+  ]
+}

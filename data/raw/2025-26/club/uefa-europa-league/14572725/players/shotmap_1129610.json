@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Amar Memić",
+        "slug": "amar-memic",
+        "shortName": "A. Memić",
+        "position": "M",
+        "jerseyNumber": "99",
+        "userCount": 1169,
+        "gender": "M",
+        "id": 1129610,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عمار ميميتش"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. ميميتش"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 21,
+        "y": 63.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.7,
+        "y": 56.7,
+        "z": 0
+      },
+      "xg": 0.021431680768728,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ederson",
+        "slug": "ederson",
+        "shortName": "Ederson",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 47707,
+        "gender": "M",
+        "sofascoreId": "Ederson93",
+        "id": 254491,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيدرسون",
+            "bn": "এডারসন",
+            "hi": "एडरसन"
+          },
+          "shortNameTranslation": {
+            "ar": "إيدرسون",
+            "bn": "এডারসন",
+            "hi": "एडरसन"
+          }
+        }
+      },
+      "id": 6121707,
+      "time": 49,
+      "timeSeconds": 2888,
+      "draw": {
+        "start": {
+          "x": 63.9,
+          "y": 21
+        },
+        "block": {
+          "x": 56.7,
+          "y": 9.7
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 42,
+      "reversedPeriodTimeSeconds": 2512,
+      "periodTimeSeconds": 188,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rúben Neves",
+        "slug": "ruben-neves",
+        "shortName": "R. Neves",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 15602,
+        "gender": "M",
+        "sofascoreId": "rubenneves",
+        "id": 280955,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن نيفيز",
+            "bn": "রুবেন নেভেস",
+            "hi": "रुबेन नेवेस"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. نيفيز",
+            "bn": "আর. নেভেস",
+            "hi": "आर. नेवेस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 24.1
+      },
+      "xg": 0.7884,
+      "xgot": 0.90231502056122,
+      "goalkeeper": {
+        "name": "Koen Casteels",
+        "slug": "koen-casteels",
+        "shortName": "K. Casteels",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1406,
+        "gender": "M",
+        "id": 70987,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كوين كاستيلس",
+            "bn": "কোয়েন কাস্টিলস",
+            "hi": "कोएन कास्टेल्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. كاستيلس",
+            "bn": "কে. কাস্টিলস",
+            "hi": "के. कास्टेल्स"
+          }
+        }
+      },
+      "id": 5639279,
+      "time": 73,
+      "timeSeconds": 4339,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 75.9
+        }
+      },
+      "reversedPeriodTime": 18,
+      "reversedPeriodTimeSeconds": 1061,
+      "periodTimeSeconds": 1639,
+      "incidentType": "shot"
+    }
+  ]
+}

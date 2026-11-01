@@ -1,0 +1,87 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mauro Icardi",
+        "slug": "mauro-icardi",
+        "shortName": "M. Icardi",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 38357,
+        "gender": "M",
+        "sofascoreId": "MauroIcardi",
+        "id": 233114,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماورو إيكاردي",
+            "bn": "মাউরো ইকার্দি",
+            "hi": "माउरो इकार्डी"
+          },
+          "shortNameTranslation": {
+            "ar": "م. إيكاردي",
+            "bn": "এম. ইকার্দি",
+            "hi": "एम. इकार्डी"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 15.3,
+        "y": 50.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.1,
+        "z": 0.6
+      },
+      "xg": 0.29740622639656,
+      "xgot": 0.8811474442482,
+      "goalkeeper": {
+        "name": "Abdullah Yiğiter",
+        "slug": "abdullah-yigiter",
+        "shortName": "A. Yiğiter",
+        "position": "G",
+        "jerseyNumber": "21",
+        "userCount": 39,
+        "gender": "M",
+        "id": 827515,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد الله ييغير"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. ييغير"
+          }
+        }
+      },
+      "id": 6342880,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5558,
+      "draw": {
+        "start": {
+          "x": 50.6,
+          "y": 15.3
+        },
+        "end": {
+          "x": 45.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.9,
+          "y": 99.4
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 742,
+      "periodTimeSeconds": 158,
+      "incidentType": "shot"
+    }
+  ]
+}

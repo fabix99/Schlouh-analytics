@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ante Ćorić",
+        "slug": "ante-coric",
+        "shortName": "A. Ćorić",
+        "position": "M",
+        "jerseyNumber": "24",
+        "userCount": 658,
+        "gender": "M",
+        "id": 357602,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنتي كوريك"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. كوريك"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 12.6,
+        "y": 24.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.2,
+        "z": 20.3
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 47.8,
+        "z": 0
+      },
+      "xg": 0.043628044426441,
+      "xgot": 0.29335993528366,
+      "goalkeeper": {
+        "name": "Kiril Fesyun",
+        "slug": "fesyun-kiril",
+        "shortName": "K. Fesyun",
+        "position": "G",
+        "jerseyNumber": "23",
+        "userCount": 97,
+        "gender": "M",
+        "id": 1002780,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيريل فيسيون"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. فيسيون"
+          }
+        }
+      },
+      "id": 6334474,
+      "time": 40,
+      "timeSeconds": 2359,
+      "draw": {
+        "start": {
+          "x": 24.8,
+          "y": 12.6
+        },
+        "block": {
+          "x": 47.8,
+          "y": 1.2
+        },
+        "end": {
+          "x": 45.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.8,
+          "y": 79.7
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 341,
+      "periodTimeSeconds": 2359,
+      "incidentType": "shot"
+    }
+  ]
+}
