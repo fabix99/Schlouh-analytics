@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Pedri",
+        "slug": "pedri",
+        "shortName": "Pedri",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 671749,
+        "gender": "M",
+        "sofascoreId": "Pedri",
+        "id": 992587,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيدري",
+            "bn": "পেদ্রি",
+            "hi": "पेड्री"
+          },
+          "shortNameTranslation": {
+            "ar": "بيدري",
+            "bn": "পেদ্রি",
+            "hi": "पेड्री"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.8,
+        "y": 35,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.5,
+        "z": 21.5
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 48.4,
+        "z": 0
+      },
+      "xg": 0.053244266659021,
+      "xgot": 0.076453372836113,
+      "goalkeeper": {
+        "name": "Michael Zetterer",
+        "slug": "michael-zetterer",
+        "shortName": "M. Zetterer",
+        "position": "G",
+        "jerseyNumber": "23",
+        "userCount": 480,
+        "gender": "M",
+        "id": 190161,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايكل زيترير",
+            "bn": "মাইকেল জেটটেরার",
+            "hi": "माइकल ज़ेटेरर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. زيترير",
+            "bn": "এম. জেটটেরার",
+            "hi": "एम. ज़ेटेरर"
+          }
+        }
+      },
+      "id": 6325643,
+      "time": 52,
+      "timeSeconds": 3105,
+      "draw": {
+        "start": {
+          "x": 35,
+          "y": 14.8
+        },
+        "block": {
+          "x": 48.4,
+          "y": 1.6
+        },
+        "end": {
+          "x": 51.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.5,
+          "y": 78.5
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2295,
+      "periodTimeSeconds": 405,
+      "incidentType": "shot"
+    }
+  ]
+}

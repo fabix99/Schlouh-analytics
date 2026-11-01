@@ -1,0 +1,199 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 10,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 55,
+      "draw": 24,
+      "away": 21
+    },
+    "possibleResultsMatrix": [
+      [
+        0.059801725521524,
+        0.061020235490249,
+        0.031131786807266,
+        0.010588707631454,
+        0.0027011153422997,
+        0.00055123056345298
+      ],
+      [
+        0.10809992895871,
+        0.11030255505196,
+        0.056275030743252,
+        0.019140560456116,
+        0.0048826413295849,
+        0.00099642584272408
+      ],
+      [
+        0.09770282160732,
+        0.099693597978117,
+        0.050862469037833,
+        0.017299611403281,
+        0.0044130263487884,
+        0.00090058908728587
+      ],
+      [
+        0.058870475629869,
+        0.060070010606378,
+        0.030646993553586,
+        0.010423817191445,
+        0.0026590527872826,
+        0.00054264664053077
+      ],
+      [
+        0.026604141343146,
+        0.027146222882655,
+        0.013849674892526,
+        0.0047106245181347,
+        0.0012016518540893,
+        0.00024522730230396
+      ],
+      [
+        0.009618136480582,
+        0.0098141140227005,
+        0.0050070423852386,
+        0.0017030216814672,
+        0.00043443054168532,
+        8.8656485165311e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Villa Park hosts a meeting between sides at opposite ends of the table: Aston Villa are 5th (58 points) while Tottenham Hotspur are 18th (34). The Sofascore model favours the hosts (home win 55%, draw 24%, away win 21%) with both teams to score at 53%."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Aston Villa are 2-1-2 across their last 5, failing to score in the last 2 away losses but creating well at home just before (4-0 Bologna, 4-3 Sunderland; xG 2.49 and 2.84). Tottenham are also 2-1-2, pairing a 1-0 away win at Wolverhampton and a 2-2 vs Brighton with two defeats; chance creation sat around 0.84 to 1.09 xG in 3 of those matches."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "Aston Villa have won the last 2 meetings away from home (both 2-1). Recent clashes often feature goals for both sides, and Tottenham have not kept a clean sheet in the last 5 against Villa."
+    },
+    {
+      "subtitle": "Season stats and tactical notes",
+      "text": "Aston Villa’s profile: 53.9% average possession (rank 5), 85.3% pass accuracy (rank 4), 74 big chances created but only 28% converted, plus 13 woodwork hits. Tottenham’s scoring skews later (31–45: 10; 76–90: 13). The visitors are set to miss Mohammed Kudus, Dominic Solanke, Xavi Simons and Destiny Udogie."
+    },
+    {
+      "subtitle": "Key players",
+      "text": "Ollie Watkins is in form (last 5: 3 goals, 1 assist), while Morgan Rogers has troubled Spurs before (4 goals, 2 assists in 4 starts against them). For Tottenham, Richarlison leads their line (9 goals, 4 assists) and Pedro Porro provides supply from deep (3.42 expected assists; 7.9 rating and player of the match in the last head-to-head)."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee Samuel Barrott averages 3.8 yellow cards and 0.06 reds per game. Tottenham’s recent matches leaned towards higher card counts (4/5), while Aston Villa’s stayed lower (9/9); corner totals in this matchup are often below double figures (5/6). Projection: around 4 yellow cards and 10 corners."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "With home advantage, stronger season metrics and recent head-to-head results, Aston Villa are favoured to win. Tottenham’s late-goal profile and individual quality suggest they can create, so both teams to score is plausible but not certain."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Tottenham Hotspur",
+      "slug": "tottenham-hotspur",
+      "shortName": "Tottenham",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 1363483,
+      "nameCode": "TOT",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 33,
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#000066",
+        "text": "#000066"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "توتنهام هوتسبير",
+          "hi": "टोटेनहैम हॉटस्पर ऍफ़सी",
+          "ru": "Тоттенхэм Хотспур"
+        },
+        "shortNameTranslation": {
+          "ar": "توتنهام",
+          "bn": "টটেনহ্যাম",
+          "hi": "टॉटनहैम"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Richarlison",
+      "firstName": "Richarlison",
+      "lastName": "Richarlison",
+      "slug": "richarlison",
+      "shortName": "Richarlison",
+      "position": "F",
+      "jerseyNumber": "9",
+      "userCount": 38861,
+      "gender": "M",
+      "sofascoreId": "bdy-cxq",
+      "id": 840217,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ريتشارليسون",
+          "bn": "রিচার্লিসন",
+          "hi": "रिचर्डसन",
+          "ru": "Ричарлисон"
+        },
+        "shortNameTranslation": {
+          "ar": "ريتشارليسون",
+          "bn": "রিচার্লিসন",
+          "hi": "रिचर्डसन",
+          "ru": "Ричарлисон"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 3
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Aston Villa trail Tottenham Hotspur 0-2 at half-time at Villa Park after first-half goals from Conor Gallagher (12') and Richarlison (25'). Tottenham controlled the tempo and created the clearer chances, while Villa struggled to progress through midfield and to get runners close to Tammy Abraham."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Tottenham dictated the opening half-hour with sustained pressure that led to both goals. Villa enjoyed a brief spell of territory around the mid-thirties but could not convert it into shots. Tottenham then reasserted control before the interval, with transitions continuing to look threatening."
+    },
+    {
+      "subtitle": "Key first-half stats",
+      "text": "Tottenham led possession 62-38 and generated 1.05 expected goals to Villa's 0.00. They recorded 4 shots on target to Villa's 0, created 2 big chances and hit the woodwork once. Territory also favoured Tottenham (final third entries 29-20; penalty area entries 15-4). Villa won 71% of aerial duels, suggesting their most viable route back is earlier service into the box."
+    },
+    {
+      "subtitle": "Player performance notes",
+      "text": "Richarlison was active between the posts and finished clinically. Conor Gallagher timed his runs well for the opener. Mathys Tel created 2 big chances and supplied an assist, offering direct pace in transition. Randal Kolo Muani was a constant outlet, though he missed a big chance. João Palhinha screened effectively and disrupted Villa's build-up. For Villa, Emiliano Martínez prevented further damage, while Victor Lindelöf and Tyrone Mings handled aerial deliveries but received little protection. Jadon Sancho and Morgan Rogers found limited space and Abraham was isolated."
+    },
+    {
+      "subtitle": "Tactical notes",
+      "text": "Tottenham compressed central spaces with Palhinha and Rodrigo Bentancur and broke quickly into the channels for Tel and Kolo Muani, with Richarlison attacking the penalty area. Villa's 4 penalty area entries reflect slow ball progression under pressure. The hosts need quicker switches, Cash and Maatsen higher, and earlier crosses to exploit their aerial edge. Sancho should receive between the lines to combine with Abraham, and a more direct runner from midfield could support the box. Tottenham can afford a slightly deeper line and continue to target turnovers to release Tel or Kolo Muani at pace."
+    },
+    {
+      "subtitle": "Discipline and set plays",
+      "text": "Yellow cards: Tottenham 2 (Rodrigo Bentancur, Randal Kolo Muani); Aston Villa 0. Corners: Tottenham 3; Aston Villa 0. With Tottenham already on two bookings, their midfield and front line must manage duels carefully. If Villa raise tempo, expect increased fouls and more attacking set plays for the hosts, but Tottenham have posed the greater set-piece threat so far."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "The game state favours Tottenham containing and countering. Villa must increase shot volume quickly and deliver earlier into Abraham to test Tottenham's centre-backs. An early Villa goal would change momentum, but if Tottenham maintain compactness, their transitions can produce a third goal."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Next goal: Tottenham Hotspur. Expected main threat: Richarlison attacking crosses and cut-backs. Second half goals: 1. Full-time score: Aston Villa 0-3 Tottenham Hotspur. Fewer than 2 goals are expected in the second half."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

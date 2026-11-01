@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ansu Fati",
+        "slug": "ansu-fati",
+        "shortName": "A. Fati",
+        "position": "F",
+        "jerseyNumber": "31",
+        "userCount": 166481,
+        "gender": "M",
+        "sofascoreId": "AnsuFati",
+        "id": 962883,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنسو فاتي",
+            "bn": "আনসু ফাতি",
+            "hi": "अंसू फाति"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فاتي",
+            "bn": "এ. ফাতি",
+            "hi": "ए. फाति"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.2,
+        "y": 42.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14.5,
+        "y": 45.3,
+        "z": 0
+      },
+      "xg": 0.041996221989393,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Neofytos Michael",
+        "firstName": "",
+        "lastName": "",
+        "slug": "neofytos-michael",
+        "shortName": "N. Michael",
+        "position": "G",
+        "jerseyNumber": "93",
+        "userCount": 304,
+        "gender": "M",
+        "id": 801918,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيفيتوس مايكل",
+            "bn": "নিওফাইটোস মাইকেল",
+            "hi": "निओफाइटोस माइकल"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. مايكل",
+            "bn": "এন. মাইকেল",
+            "hi": "एन. माइकल"
+          }
+        }
+      },
+      "id": 6251493,
+      "time": 84,
+      "timeSeconds": 4988,
+      "draw": {
+        "start": {
+          "x": 42.4,
+          "y": 22.2
+        },
+        "block": {
+          "x": 45.3,
+          "y": 14.5
+        },
+        "end": {
+          "x": 50.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 412,
+      "periodTimeSeconds": 2288,
+      "incidentType": "shot"
+    }
+  ]
+}

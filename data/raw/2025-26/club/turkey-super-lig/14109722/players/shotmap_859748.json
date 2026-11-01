@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Carlos Mané",
+        "slug": "carlos-mane",
+        "shortName": "C. Mané",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 372,
+        "gender": "M",
+        "id": 859748,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس ماني",
+            "bn": "কার্লোস মানে",
+            "hi": "कार्लोस माने"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. ماني",
+            "bn": "সি. মানে",
+            "hi": "सी. माने"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 12.7,
+        "y": 73,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.6,
+        "y": 61.9,
+        "z": 0
+      },
+      "xg": 0.045693714171648,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Zafer Görgen",
+        "slug": "zafer-gorgen",
+        "shortName": "Z. Görgen",
+        "position": "G",
+        "jerseyNumber": "20",
+        "userCount": 72,
+        "gender": "M",
+        "id": 930907,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ظافر غورغن"
+          },
+          "shortNameTranslation": {
+            "ar": "ظ. غورغن"
+          }
+        }
+      },
+      "id": 6219019,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5548,
+      "draw": {
+        "start": {
+          "x": 73,
+          "y": 12.7
+        },
+        "block": {
+          "x": 61.9,
+          "y": 7.6
+        },
+        "end": {
+          "x": 45.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 752,
+      "periodTimeSeconds": 148,
+      "incidentType": "shot"
+    }
+  ]
+}

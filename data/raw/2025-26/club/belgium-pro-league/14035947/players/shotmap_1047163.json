@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rein Van Helden",
+        "firstName": "",
+        "lastName": "",
+        "slug": "rein-van-helden",
+        "shortName": "R. V. Helden",
+        "position": "D",
+        "jerseyNumber": "20",
+        "userCount": 193,
+        "gender": "M",
+        "id": 1047163,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "راين فاند هيلدن"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. هيلدن"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 2.4,
+        "y": 47.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.9,
+        "z": 1.9
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 48.7,
+        "z": 0
+      },
+      "xg": 0.66971522569656,
+      "xgot": 0.38341170549393,
+      "goalkeeper": {
+        "name": "Davy Roef",
+        "firstName": "",
+        "lastName": "",
+        "slug": "davy-roef",
+        "shortName": "D. Roef",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 226,
+        "gender": "M",
+        "id": 156663,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفي روف",
+            "bn": "ডেভি রোফ",
+            "hi": "डेवी रोफ़"
+          },
+          "shortNameTranslation": {
+            "ar": "د. روف",
+            "bn": "ডি. রোফ",
+            "hi": "डी. रोफ़"
+          }
+        }
+      },
+      "id": 6275143,
+      "time": 4,
+      "timeSeconds": 231,
+      "draw": {
+        "start": {
+          "x": 47.9,
+          "y": 2.4
+        },
+        "block": {
+          "x": 48.7,
+          "y": 1.6
+        },
+        "end": {
+          "x": 50.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.1,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 42,
+      "reversedPeriodTimeSeconds": 2469,
+      "periodTimeSeconds": 231,
+      "incidentType": "shot"
+    }
+  ]
+}

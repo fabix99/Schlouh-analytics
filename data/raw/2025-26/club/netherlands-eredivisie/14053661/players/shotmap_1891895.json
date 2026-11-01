@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Stijn Middendorp",
+        "firstName": "Stijn",
+        "lastName": "Middendorp",
+        "slug": "stijn-middendorp",
+        "shortName": "S. Middendorp",
+        "position": "M",
+        "jerseyNumber": "36",
+        "userCount": 65,
+        "gender": "M",
+        "id": 1891895,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستاين ميدندورب"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ميدندورب"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.3,
+        "y": 58.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 66.4,
+        "z": 8.3
+      },
+      "blockCoordinates": {
+        "x": 8.1,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.11277966201305,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Etienne Vaessen",
+        "slug": "etienne-vaessen",
+        "shortName": "E. Vaessen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 473,
+        "gender": "M",
+        "id": 809408,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إتيان فايزن"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. فايزن"
+          }
+        }
+      },
+      "id": 6300339,
+      "time": 11,
+      "timeSeconds": 609,
+      "draw": {
+        "start": {
+          "x": 58.7,
+          "y": 11.3
+        },
+        "block": {
+          "x": 49.8,
+          "y": 8.1
+        },
+        "end": {
+          "x": 33.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 33.6,
+          "y": 91.7
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2091,
+      "periodTimeSeconds": 609,
+      "incidentType": "shot"
+    }
+  ]
+}

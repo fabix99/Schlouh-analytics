@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Martin Vitík",
+        "firstName": "Martin Vitík",
+        "slug": "martin-vitik",
+        "shortName": "M. Vitík",
+        "position": "D",
+        "jerseyNumber": "41",
+        "userCount": 1084,
+        "gender": "M",
+        "id": 1085913,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتن فيتيك",
+            "bn": "মার্টিন ভিটিক",
+            "hi": "मार्टिन विटिक"
+          },
+          "shortNameTranslation": {
+            "ar": "م. فيتيك",
+            "bn": "এম. ভিটিক",
+            "hi": "एम. विटिक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 18,
+        "y": 48.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17,
+        "y": 48.8,
+        "z": 0
+      },
+      "xg": 0.020238317549229,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Marco Carnesecchi",
+        "slug": "marco-carnesecchi",
+        "shortName": "M. Carnesecchi",
+        "position": "G",
+        "jerseyNumber": "29",
+        "userCount": 3333,
+        "gender": "M",
+        "id": 865646,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركو كارنيسكي",
+            "bn": "মার্কো কার্নেসেচি",
+            "hi": "मार्को कार्नेसेची"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كارنيسكي",
+            "bn": "এম. কার্নেসেচি",
+            "hi": "एम. कार्नेसेची"
+          }
+        }
+      },
+      "id": 6470763,
+      "time": 40,
+      "timeSeconds": 2386,
+      "draw": {
+        "start": {
+          "x": 48.7,
+          "y": 18
+        },
+        "block": {
+          "x": 48.8,
+          "y": 17
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 314,
+      "periodTimeSeconds": 2386,
+      "incidentType": "shot"
+    }
+  ]
+}

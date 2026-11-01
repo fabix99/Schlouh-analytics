@@ -1,0 +1,175 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Myron Van Brederode",
+        "slug": "myron-van-brederode",
+        "shortName": "M. V. Brederode",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 408,
+        "gender": "M",
+        "id": 1012925,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايرون فان بريديرود"
+          },
+          "shortNameTranslation": {
+            "ar": "م. فان بريديرود"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.1,
+        "z": 31.6
+      },
+      "xg": 0.7884,
+      "xgot": 0.98606491088867,
+      "goalkeeper": {
+        "name": "Kjell Scherpen",
+        "slug": "kjell-scherpen",
+        "shortName": "K. Scherpen",
+        "position": "G",
+        "jerseyNumber": "37",
+        "userCount": 783,
+        "gender": "M",
+        "id": 852394,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كييل شيربين",
+            "bn": "কেজেল শেরপেন",
+            "hi": "केजेल शेरपेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. شيربين",
+            "bn": "কে. শেরপেন",
+            "hi": "के. शेरपेन"
+          }
+        }
+      },
+      "id": 6148458,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5548,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 51.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.9,
+          "y": 68.4
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 752,
+      "periodTimeSeconds": 148,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Myron Van Brederode",
+        "slug": "myron-van-brederode",
+        "shortName": "M. V. Brederode",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 408,
+        "gender": "M",
+        "id": 1012925,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايرون فان بريديرود"
+          },
+          "shortNameTranslation": {
+            "ar": "م. فان بريديرود"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.3,
+        "y": 62.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.5,
+        "y": 60.8,
+        "z": 0
+      },
+      "xg": 0.034171115607023,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kjell Scherpen",
+        "slug": "kjell-scherpen",
+        "shortName": "K. Scherpen",
+        "position": "G",
+        "jerseyNumber": "37",
+        "userCount": 783,
+        "gender": "M",
+        "id": 852394,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كييل شيربين",
+            "bn": "কেজেল শেরপেন",
+            "hi": "केजेल शेरपेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. شيربين",
+            "bn": "কে. শেরপেন",
+            "hi": "के. शेरपेन"
+          }
+        }
+      },
+      "id": 6147635,
+      "time": 13,
+      "timeSeconds": 777,
+      "draw": {
+        "start": {
+          "x": 62.6,
+          "y": 21.3
+        },
+        "block": {
+          "x": 60.8,
+          "y": 17.5
+        },
+        "end": {
+          "x": 52.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1923,
+      "periodTimeSeconds": 777,
+      "incidentType": "shot"
+    }
+  ]
+}

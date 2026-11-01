@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Martial Godo",
+        "slug": "martial-godo",
+        "shortName": "M. Godo",
+        "position": "F",
+        "jerseyNumber": "20",
+        "userCount": 1589,
+        "gender": "M",
+        "id": 1190938,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارسيال جودو",
+            "bn": "মার্শাল গোডো",
+            "hi": "मार्शल गोडो"
+          },
+          "shortNameTranslation": {
+            "ar": "م. جودو",
+            "bn": "এম. গোডো",
+            "hi": "एम. गोडो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 14.4,
+        "y": 37.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 27.4,
+        "z": 4.2
+      },
+      "blockCoordinates": {
+        "x": 10.7,
+        "y": 44.6,
+        "z": 0
+      },
+      "xg": 0.06394337117672,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Grégoire Coudert",
+        "firstName": "",
+        "lastName": "",
+        "slug": "gregoire-coudert",
+        "shortName": "G. Coudert",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 123,
+        "gender": "M",
+        "id": 891508,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جريجوار كوديرت",
+            "bn": "গ্রেগোয়ার কুডার্ট",
+            "hi": "ग्रेगोइरे कूडर्ट"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. كوديرت",
+            "bn": "জি. কুডার্ট",
+            "hi": "जी. कूडर्ट"
+          }
+        }
+      },
+      "id": 6273422,
+      "time": 78,
+      "timeSeconds": 4649,
+      "draw": {
+        "start": {
+          "x": 37.8,
+          "y": 14.4
+        },
+        "block": {
+          "x": 44.6,
+          "y": 10.7
+        },
+        "end": {
+          "x": 72.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 72.6,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 751,
+      "periodTimeSeconds": 1949,
+      "incidentType": "shot"
+    }
+  ]
+}

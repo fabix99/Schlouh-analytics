@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jens Odgaard",
+        "slug": "jens-odgaard",
+        "shortName": "J. Odgaard",
+        "position": "M",
+        "jerseyNumber": "21",
+        "userCount": 1900,
+        "gender": "M",
+        "id": 826064,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ينس أودجارد"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أودجارد"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 13.6,
+        "y": 27.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 12.3,
+        "y": 29.6,
+        "z": 0
+      },
+      "xg": 0.017329499125481,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Emil Audero",
+        "slug": "emil-audero",
+        "shortName": "E. Audero",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 10826,
+        "gender": "M",
+        "id": 318603,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إميل أوديرو",
+            "bn": "এমিল অডেরো",
+            "hi": "एमिल औडेरो"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. أوديرو",
+            "bn": "ই. অডেরো",
+            "hi": "ई. औडेरो"
+          }
+        }
+      },
+      "id": 6281457,
+      "time": 19,
+      "timeSeconds": 1122,
+      "draw": {
+        "start": {
+          "x": 27.8,
+          "y": 13.6
+        },
+        "block": {
+          "x": 29.6,
+          "y": 12.3
+        },
+        "end": {
+          "x": 46.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1578,
+      "periodTimeSeconds": 1122,
+      "incidentType": "shot"
+    }
+  ]
+}

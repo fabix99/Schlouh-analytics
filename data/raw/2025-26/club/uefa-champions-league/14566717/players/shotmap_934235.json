@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bukayo Saka",
+        "slug": "bukayo-saka",
+        "shortName": "B. Saka",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 182176,
+        "gender": "M",
+        "sofascoreId": "BSaka7",
+        "id": 934235,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بوكايو ساكا",
+            "bn": "বুকায়ো সাকা",
+            "hi": "बुकायो साका"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. ساكا",
+            "bn": "বি. সাকা",
+            "hi": "बी. साका"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 12.3,
+        "y": 71.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.2,
+        "z": 31.6
+      },
+      "blockCoordinates": {
+        "x": 2.3,
+        "y": 54.5,
+        "z": 0
+      },
+      "xg": 0.037010721862316,
+      "xgot": 0.12831458449364,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 36186,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर"
+          }
+        }
+      },
+      "id": 6252096,
+      "time": 48,
+      "timeSeconds": 2827,
+      "draw": {
+        "start": {
+          "x": 71.2,
+          "y": 12.3
+        },
+        "block": {
+          "x": 54.5,
+          "y": 2.3
+        },
+        "end": {
+          "x": 51.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.8,
+          "y": 68.4
+        }
+      },
+      "reversedPeriodTime": 43,
+      "reversedPeriodTimeSeconds": 2573,
+      "periodTimeSeconds": 127,
+      "incidentType": "shot"
+    }
+  ]
+}

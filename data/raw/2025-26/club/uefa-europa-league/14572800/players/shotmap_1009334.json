@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Lorenz Assignon",
+        "slug": "lorenz-assignon",
+        "shortName": "L. Assignon",
+        "position": "M",
+        "jerseyNumber": "22",
+        "userCount": 654,
+        "gender": "M",
+        "id": 1009334,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لورينز أسينيون",
+            "bn": "লরেঞ্জ অ্যাসিগনন",
+            "hi": "लोरेन्ज़ एसिग्नोन"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. أسينيون",
+            "bn": "এল. অ্যাসিগনন",
+            "hi": "एल. एसिग्नोन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.2,
+        "y": 55.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47,
+        "z": 5.1
+      },
+      "xg": 0.26404690742493,
+      "xgot": 0.628901720047,
+      "goalkeeper": {
+        "name": "Roei Mashpati",
+        "firstName": "Roei",
+        "lastName": "Mashpati",
+        "slug": "roei-mashpati",
+        "shortName": "R. Mashpati",
+        "position": "G",
+        "jerseyNumber": "90",
+        "userCount": 73,
+        "gender": "M",
+        "id": 138515,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روعي مشباتي",
+            "bn": "রোই মাশপতি",
+            "hi": "रोई माशपति"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. مشباتي",
+            "bn": "আর. মাশপতি",
+            "hi": "आर. माशपति"
+          }
+        }
+      },
+      "id": 6333360,
+      "time": 24,
+      "timeSeconds": 1432,
+      "draw": {
+        "start": {
+          "x": 55.6,
+          "y": 9.2
+        },
+        "end": {
+          "x": 53,
+          "y": 0
+        },
+        "goal": {
+          "x": 53,
+          "y": 94.9
+        }
+      },
+      "reversedPeriodTime": 22,
+      "reversedPeriodTimeSeconds": 1268,
+      "periodTimeSeconds": 1432,
+      "incidentType": "shot"
+    }
+  ]
+}

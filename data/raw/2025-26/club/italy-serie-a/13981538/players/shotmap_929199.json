@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Carlos Augusto",
+        "firstName": "",
+        "lastName": "",
+        "slug": "carlos-augusto",
+        "shortName": "C. Augusto",
+        "position": "D",
+        "jerseyNumber": "30",
+        "userCount": 7513,
+        "gender": "M",
+        "id": 929199,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس أوغستو",
+            "bn": "কার্লোস অগাস্টো",
+            "hi": "कार्लोस ऑगस्टो"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. أوغستو",
+            "bn": "সি. অগাস্টো",
+            "hi": "सी. ऑगस्टो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.8,
+        "y": 67.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.1,
+        "y": 65.2,
+        "z": 0
+      },
+      "xg": 0.050827655941248,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mike Maignan",
+        "slug": "mike-maignan",
+        "shortName": "M. Maignan",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 15432,
+        "gender": "M",
+        "sofascoreId": "MMaignan",
+        "id": 191210,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايك مانيان",
+            "bn": "মাইক ম্যাগনান",
+            "hi": "माइक मैग्नन"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ميانيان",
+            "bn": "এম. ম্যাগনান",
+            "hi": "एम. मैग्नन"
+          }
+        }
+      },
+      "id": 6232695,
+      "time": 36,
+      "timeSeconds": 2146,
+      "draw": {
+        "start": {
+          "x": 67.9,
+          "y": 10.8
+        },
+        "block": {
+          "x": 65.2,
+          "y": 9.1
+        },
+        "end": {
+          "x": 51,
+          "y": 0
+        },
+        "goal": {
+          "x": 51,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 10,
+      "reversedPeriodTimeSeconds": 554,
+      "periodTimeSeconds": 2146,
+      "incidentType": "shot"
+    }
+  ]
+}

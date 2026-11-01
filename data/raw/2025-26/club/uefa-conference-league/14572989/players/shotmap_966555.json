@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Troy Parrott",
+        "firstName": "",
+        "lastName": "",
+        "slug": "troy-parrott",
+        "shortName": "T. Parrott",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 10512,
+        "gender": "M",
+        "id": 966555,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تروي باروت",
+            "bn": "ট্রয় প্যারট",
+            "hi": "ट्रॉय पैरट"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. باروت",
+            "bn": "টি. প্যারট",
+            "hi": "टी. पैरट"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.4,
+        "y": 49.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 16.2,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.048363693058491,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Sławomir Abramowicz",
+        "firstName": "",
+        "lastName": "",
+        "slug": "slawomir-abramowicz",
+        "shortName": "S. Abramowicz",
+        "position": "G",
+        "jerseyNumber": "50",
+        "userCount": 515,
+        "gender": "M",
+        "id": 1152849,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سلاومير أبراموفيتش"
+          },
+          "shortNameTranslation": {
+            "ar": "س. أبراموفيتش"
+          }
+        }
+      },
+      "id": 6376025,
+      "time": 55,
+      "timeSeconds": 3250,
+      "draw": {
+        "start": {
+          "x": 49.7,
+          "y": 18.4
+        },
+        "block": {
+          "x": 49.8,
+          "y": 16.2
+        },
+        "end": {
+          "x": 50.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2150,
+      "periodTimeSeconds": 550,
+      "incidentType": "shot"
+    }
+  ]
+}

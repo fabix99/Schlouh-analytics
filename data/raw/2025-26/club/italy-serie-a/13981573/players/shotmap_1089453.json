@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Saúl Coco",
+        "slug": "saul-coco",
+        "shortName": "S. Coco",
+        "position": "D",
+        "jerseyNumber": "23",
+        "userCount": 1252,
+        "gender": "M",
+        "id": 1089453,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ساول كوكو",
+            "bn": "সাউল কোকো",
+            "hi": "साउल कोको"
+          },
+          "shortNameTranslation": {
+            "ar": "س. كوكو",
+            "bn": "এস. কোকো",
+            "hi": "एस. कोको"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 7.4,
+        "y": 54.3,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 5.5,
+        "y": 53.6,
+        "z": 0
+      },
+      "xg": 0.07838412374258,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Emil Audero",
+        "slug": "emil-audero",
+        "shortName": "E. Audero",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 10826,
+        "gender": "M",
+        "id": 318603,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إميل أوديرو",
+            "bn": "এমিল অডেরো",
+            "hi": "एमिल औडेरो"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. أوديرو",
+            "bn": "ই. অডেরো",
+            "hi": "ई. औडेरो"
+          }
+        }
+      },
+      "id": 6340874,
+      "time": 74,
+      "timeSeconds": 4433,
+      "draw": {
+        "start": {
+          "x": 54.3,
+          "y": 7.4
+        },
+        "block": {
+          "x": 53.6,
+          "y": 5.5
+        },
+        "end": {
+          "x": 51.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 967,
+      "periodTimeSeconds": 1733,
+      "incidentType": "shot"
+    }
+  ]
+}

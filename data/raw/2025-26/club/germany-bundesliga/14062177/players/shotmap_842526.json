@@ -1,0 +1,181 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bakery Jatta",
+        "slug": "bakery-jatta",
+        "shortName": "B. Jatta",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 438,
+        "gender": "M",
+        "id": 842526,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باكاري جاتا",
+            "bn": "বেকারি জট্টা",
+            "hi": "बेकरी जट्टा"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. جاتا",
+            "bn": "বি. জাট্টা",
+            "hi": "बी. जट्टा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 20,
+        "y": 50.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 28.2,
+        "z": 27.8
+      },
+      "xg": 0.024413496255875,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Moritz Nicolas",
+        "slug": "moritz-nicolas",
+        "shortName": "M. Nicolas",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 410,
+        "gender": "M",
+        "id": 578166,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موريتز نيكولا",
+            "bn": "মরিটজ নিকোলাস",
+            "hi": "मोरित्ज़ निकोलस"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نيكولا",
+            "bn": "এম. নিকোলাস",
+            "hi": "एम. निकोलस"
+          }
+        }
+      },
+      "id": 6533585,
+      "time": 57,
+      "timeSeconds": 3363,
+      "draw": {
+        "start": {
+          "x": 50.3,
+          "y": 20
+        },
+        "end": {
+          "x": 71.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 71.8,
+          "y": 72.2
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2037,
+      "periodTimeSeconds": 663,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Bakery Jatta",
+        "slug": "bakery-jatta",
+        "shortName": "B. Jatta",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 438,
+        "gender": "M",
+        "id": 842526,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باكاري جاتا",
+            "bn": "বেকারি জট্টা",
+            "hi": "बेकरी जट्टा"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. جاتا",
+            "bn": "বি. জাট্টা",
+            "hi": "बी. जट्टा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8,
+        "y": 58.9,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.7,
+        "z": 17.7
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 52.7,
+        "z": 0
+      },
+      "xg": 0.062263656407595,
+      "xgot": 0.096466653048992,
+      "goalkeeper": {
+        "name": "Moritz Nicolas",
+        "slug": "moritz-nicolas",
+        "shortName": "M. Nicolas",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 410,
+        "gender": "M",
+        "id": 578166,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موريتز نيكولا",
+            "bn": "মরিটজ নিকোলাস",
+            "hi": "मोरित्ज़ निकोलस"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نيكولا",
+            "bn": "এম. নিকোলাস",
+            "hi": "एम. निकोलस"
+          }
+        }
+      },
+      "id": 6532857,
+      "time": 19,
+      "timeSeconds": 1118,
+      "draw": {
+        "start": {
+          "x": 58.9,
+          "y": 8
+        },
+        "block": {
+          "x": 52.7,
+          "y": 1.6
+        },
+        "end": {
+          "x": 52.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.3,
+          "y": 82.3
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1582,
+      "periodTimeSeconds": 1118,
+      "incidentType": "shot"
+    }
+  ]
+}

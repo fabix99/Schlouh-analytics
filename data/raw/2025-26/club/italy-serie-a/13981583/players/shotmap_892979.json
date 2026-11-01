@@ -1,0 +1,181 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Oumar Solet",
+        "slug": "oumar-solet",
+        "shortName": "O. Solet",
+        "position": "D",
+        "jerseyNumber": "28",
+        "userCount": 2090,
+        "gender": "M",
+        "id": 892979,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أومار سوليت",
+            "bn": "ওমর সোলেট",
+            "hi": "उमर सोलेट"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سوليت",
+            "bn": "ও. সোলেট",
+            "hi": "ओ. सोलेट"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "own",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 10.2,
+        "y": 53.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.8,
+        "z": 1.9
+      },
+      "xgot": 0.24861687421799,
+      "goalkeeper": {
+        "name": "Daniele Padelli",
+        "slug": "daniele-padelli",
+        "shortName": "D. Padelli",
+        "position": "G",
+        "jerseyNumber": "93",
+        "userCount": 198,
+        "gender": "M",
+        "id": 2899,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دانييلي باديلي",
+            "bn": "ড্যানিয়েল প্যাডেলি",
+            "hi": "डेनियल पैडेली"
+          },
+          "shortNameTranslation": {
+            "ar": "د. باديلي",
+            "bn": "ডি. প্যাডেলি",
+            "hi": "डी. पैडेली"
+          }
+        }
+      },
+      "id": 6418462,
+      "time": 80,
+      "timeSeconds": 4774,
+      "draw": {
+        "start": {
+          "x": 53.2,
+          "y": 10.2
+        },
+        "end": {
+          "x": 48.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.2,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 626,
+      "periodTimeSeconds": 2074,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Oumar Solet",
+        "slug": "oumar-solet",
+        "shortName": "O. Solet",
+        "position": "D",
+        "jerseyNumber": "28",
+        "userCount": 2090,
+        "gender": "M",
+        "id": 892979,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أومار سوليت",
+            "bn": "ওমর সোলেট",
+            "hi": "उमर सोलेट"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سوليت",
+            "bn": "ও. সোলেট",
+            "hi": "ओ. सोलेट"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 14.6,
+        "y": 35.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 37.8,
+        "z": 4.2
+      },
+      "blockCoordinates": {
+        "x": 3.1,
+        "y": 53.1,
+        "z": 0
+      },
+      "xg": 0.00660813273862,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ivan Provedel",
+        "slug": "ivan-provedel",
+        "shortName": "I. Provedel",
+        "position": "G",
+        "jerseyNumber": "94",
+        "userCount": 1866,
+        "gender": "M",
+        "id": 308182,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفان بروفيديل",
+            "bn": "ইভান প্রোভেডেল",
+            "hi": "इवान प्रोवेडेल"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. بروفيديل",
+            "bn": "আই. প্রোভেডেল",
+            "hi": "आई. प्रोवेडेल"
+          }
+        }
+      },
+      "id": 6418372,
+      "time": 58,
+      "timeSeconds": 3442,
+      "draw": {
+        "start": {
+          "x": 35.4,
+          "y": 14.6
+        },
+        "block": {
+          "x": 53.1,
+          "y": 3.1
+        },
+        "end": {
+          "x": 62.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 62.2,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1958,
+      "periodTimeSeconds": 742,
+      "incidentType": "shot"
+    }
+  ]
+}

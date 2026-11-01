@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Randal Kolo Muani",
+        "slug": "randal-kolo-muani",
+        "shortName": "R. K. Muani",
+        "position": "F",
+        "jerseyNumber": "39",
+        "userCount": 23466,
+        "gender": "M",
+        "sofascoreId": "RKM",
+        "id": 871706,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "راندال كولو مواني",
+            "bn": "রান্ডাল কোলো মুয়ানি",
+            "hi": "रैंडल कोलो मुआनी"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. كولو مواني",
+            "bn": "আর. কে. মুয়ানি",
+            "hi": "आर.के. मुआनी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 3.5,
+        "y": 42.1,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53,
+        "z": 21.5
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 48,
+        "z": 0
+      },
+      "xg": 0.12425193190575,
+      "xgot": 0.67055517435074,
+      "goalkeeper": {
+        "name": "Caoimhin Kelleher",
+        "firstName": "",
+        "lastName": "",
+        "slug": "caoimhin-kelleher",
+        "shortName": "C. Kelleher",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9844,
+        "gender": "M",
+        "sofascoreId": "caoimhinkelleher98",
+        "id": 827362,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاويمن كيليهير",
+            "bn": "কাওইমহিন কেলেহার",
+            "hi": "काओइमहिन केल्हेर"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. كيليهير",
+            "bn": "সি. কেলেহার",
+            "hi": "सी. केल्हेर"
+          }
+        }
+      },
+      "id": 6304219,
+      "time": 40,
+      "timeSeconds": 2385,
+      "draw": {
+        "start": {
+          "x": 42.1,
+          "y": 3.5
+        },
+        "block": {
+          "x": 48,
+          "y": 1.1
+        },
+        "end": {
+          "x": 47,
+          "y": 0
+        },
+        "goal": {
+          "x": 47,
+          "y": 78.5
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 315,
+      "periodTimeSeconds": 2385,
+      "incidentType": "shot"
+    }
+  ]
+}

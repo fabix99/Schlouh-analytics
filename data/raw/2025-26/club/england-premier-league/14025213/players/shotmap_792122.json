@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Josh Cullen",
+        "slug": "cullen-josh",
+        "shortName": "J. Cullen",
+        "position": "M",
+        "jerseyNumber": "24",
+        "userCount": 870,
+        "gender": "M",
+        "id": 792122,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كولين، جوش",
+            "bn": "কুলেন, জোশ",
+            "hi": "कुलेन, जोश"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. كولين",
+            "bn": "জে. কুলেন",
+            "hi": "जे. कुलेन"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 18.6,
+        "y": 50.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.7,
+        "y": 50.7,
+        "z": 0
+      },
+      "xg": 0.029516974464059,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Đorđe Petrović",
+        "slug": "dorde-petrovic",
+        "shortName": "Đ. Petrović",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 8536,
+        "gender": "M",
+        "sofascoreId": "dj.petrovic12",
+        "id": 882604,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوردي بيتروفيتش",
+            "bn": "ডোরে পেট্রোভিচ",
+            "hi": "डोरे पेट्रोविक"
+          },
+          "shortNameTranslation": {
+            "ar": "د. بيتروفيتش",
+            "bn": "ডি. পেট্রোভিচ",
+            "hi": "डी. पेट्रोविक"
+          }
+        }
+      },
+      "id": 6384998,
+      "time": 87,
+      "timeSeconds": 5175,
+      "draw": {
+        "start": {
+          "x": 50.1,
+          "y": 18.6
+        },
+        "block": {
+          "x": 50.7,
+          "y": 9.7
+        },
+        "end": {
+          "x": 51.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 225,
+      "periodTimeSeconds": 2475,
+      "incidentType": "shot"
+    }
+  ]
+}

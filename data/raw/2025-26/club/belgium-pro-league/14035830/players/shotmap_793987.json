@@ -1,0 +1,75 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kobe Cools",
+        "slug": "kobe-cools",
+        "shortName": "K. Cools",
+        "position": "D",
+        "jerseyNumber": "21",
+        "userCount": 40,
+        "gender": "M",
+        "id": 793987,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كولس، كوبي",
+            "bn": "কুলস, কোবে",
+            "hi": "कूल्स, कोबे"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. كوبي",
+            "bn": "কে. কুলস",
+            "hi": "के. कूल्स"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 9.7,
+        "y": 43.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.022801402956247,
+      "xgot": 0,
+      "id": 5309854,
+      "time": 88,
+      "timeSeconds": 5253,
+      "draw": {
+        "start": {
+          "x": 43.2,
+          "y": 9.7
+        },
+        "block": {
+          "x": 49.8,
+          "y": 7
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 147,
+      "periodTimeSeconds": 2553,
+      "incidentType": "shot"
+    }
+  ]
+}

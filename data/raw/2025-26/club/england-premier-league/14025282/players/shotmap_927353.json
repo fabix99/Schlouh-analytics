@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Curtis Jones",
+        "firstName": "",
+        "lastName": "",
+        "slug": "curtis-jones",
+        "shortName": "C. Jones",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 17554,
+        "gender": "M",
+        "sofascoreId": "curtisjones",
+        "id": 927353,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيرتس جونز",
+            "bn": "কার্টিস জোন্স",
+            "hi": "कर्टिस जोन्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. جونز",
+            "bn": "সি. জোন্স",
+            "hi": "सी. जोन्स"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 3.8,
+        "y": 55.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 2.2,
+        "y": 54.9,
+        "z": 0
+      },
+      "xg": 0.25672224164009,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bernd Leno",
+        "slug": "bernd-leno",
+        "shortName": "B. Leno",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2693,
+        "gender": "M",
+        "id": 103335,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيرند لينو",
+            "bn": "বার্ন্ড লেনো",
+            "hi": "बर्न्ड लेनो"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. لينو",
+            "bn": "বি. লেনো",
+            "hi": "बी. लेनो"
+          }
+        }
+      },
+      "id": 6454027,
+      "time": 31,
+      "timeSeconds": 1843,
+      "draw": {
+        "start": {
+          "x": 55.8,
+          "y": 3.8
+        },
+        "block": {
+          "x": 54.9,
+          "y": 2.2
+        },
+        "end": {
+          "x": 51,
+          "y": 0
+        },
+        "goal": {
+          "x": 51,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 857,
+      "periodTimeSeconds": 1843,
+      "incidentType": "shot"
+    }
+  ]
+}

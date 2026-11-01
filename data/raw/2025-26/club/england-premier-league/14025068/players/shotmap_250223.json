@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "John McGinn",
+        "slug": "john-mcginn",
+        "shortName": "J. McGinn",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 3906,
+        "gender": "M",
+        "id": 250223,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جون ماكجين",
+            "bn": "জন ম্যাকগিন",
+            "hi": "जॉन मैकगिन"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ماكجين",
+            "bn": "জে. ম্যাকগিন",
+            "hi": "जे. मैकगिन"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 19.1,
+        "y": 58.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.4,
+        "z": 3.2
+      },
+      "blockCoordinates": {
+        "x": 2,
+        "y": 49.6,
+        "z": 0
+      },
+      "xg": 0.046221386641264,
+      "xgot": 0.09540168941021,
+      "goalkeeper": {
+        "name": "Caoimhin Kelleher",
+        "firstName": "",
+        "lastName": "",
+        "slug": "caoimhin-kelleher",
+        "shortName": "C. Kelleher",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9844,
+        "gender": "M",
+        "sofascoreId": "caoimhinkelleher98",
+        "id": 827362,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاويمن كيليهير",
+            "bn": "কাওইমহিন কেলেহার",
+            "hi": "काओइमहिन केल्हेर"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. كيليهير",
+            "bn": "সি. কেলেহার",
+            "hi": "सी. केल्हेर"
+          }
+        }
+      },
+      "id": 5477375,
+      "time": 31,
+      "timeSeconds": 1852,
+      "draw": {
+        "start": {
+          "x": 58.3,
+          "y": 19.1
+        },
+        "block": {
+          "x": 49.6,
+          "y": 2
+        },
+        "end": {
+          "x": 49.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.6,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 848,
+      "periodTimeSeconds": 1852,
+      "incidentType": "shot"
+    }
+  ]
+}

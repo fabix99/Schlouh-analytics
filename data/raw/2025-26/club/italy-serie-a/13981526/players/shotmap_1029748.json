@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nikola Štulić",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nikola-stulic",
+        "shortName": "N. Štulić",
+        "position": "F",
+        "jerseyNumber": "19",
+        "userCount": 1214,
+        "gender": "M",
+        "id": 1029748,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولا شتوليتش",
+            "bn": "নিকোলা স্টুলিচ",
+            "hi": "निकोला स्टुलिच"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. شتوليتش",
+            "bn": "এন. স্টুলিচ",
+            "hi": "एन. स्टुलिच"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 19.4,
+        "y": 43.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.8,
+        "z": 5.7
+      },
+      "blockCoordinates": {
+        "x": 1.9,
+        "y": 49.5,
+        "z": 0
+      },
+      "xg": 0.03979466855526,
+      "xgot": 0.069241225719452,
+      "goalkeeper": {
+        "name": "Lorenzo Montipò",
+        "slug": "lorenzo-montipo",
+        "shortName": "L. Montipò",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 563,
+        "gender": "M",
+        "id": 253391,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لورينزو مونتيبو",
+            "bn": "লরেঞ্জো মন্টিপো",
+            "hi": "लोरेंजो मोंटिपो"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. مونتيبو",
+            "bn": "এল. মন্টিপো",
+            "hi": "एल. मोंटिपो"
+          }
+        }
+      },
+      "id": 6131615,
+      "time": 65,
+      "timeSeconds": 3868,
+      "draw": {
+        "start": {
+          "x": 43.6,
+          "y": 19.4
+        },
+        "block": {
+          "x": 49.5,
+          "y": 1.9
+        },
+        "end": {
+          "x": 50.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.2,
+          "y": 94.3
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1532,
+      "periodTimeSeconds": 1168,
+      "incidentType": "shot"
+    }
+  ]
+}

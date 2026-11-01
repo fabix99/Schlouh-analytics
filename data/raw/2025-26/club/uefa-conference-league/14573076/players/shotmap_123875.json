@@ -1,0 +1,138 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Piotr Parzyszek",
+        "slug": "piotr-parzyszek",
+        "shortName": "P. Parzyszek",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 417,
+        "gender": "M",
+        "id": 123875,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيوتر بارزيسزيك",
+            "bn": "পিওতর পারজিসজেক",
+            "hi": "पिओट्र पार्ज़िसज़ेक"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. بارزيسزيك",
+            "bn": "পি. পারজিসজেক",
+            "hi": "पी. पार्ज़िसज़ेक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.6,
+        "y": 45.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.3,
+        "z": 26.6
+      },
+      "xg": 0.1851090490818,
+      "xgot": 0.70595794916153,
+      "id": 5824505,
+      "time": 74,
+      "timeSeconds": 4427,
+      "draw": {
+        "start": {
+          "x": 45.2,
+          "y": 11.6
+        },
+        "end": {
+          "x": 52.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.7,
+          "y": 73.4
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 973,
+      "periodTimeSeconds": 1727,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Piotr Parzyszek",
+        "slug": "piotr-parzyszek",
+        "shortName": "P. Parzyszek",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 417,
+        "gender": "M",
+        "id": 123875,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيوتر بارزيسزيك",
+            "bn": "পিওতর পারজিসজেক",
+            "hi": "पिओट्र पार्ज़िसज़ेक"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. بارزيسزيك",
+            "bn": "পি. পারজিসজেক",
+            "hi": "पी. पार्ज़िसज़ेक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.5,
+        "y": 63.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 19,
+        "y": 61,
+        "z": 0
+      },
+      "xg": 0.018118916079402,
+      "xgot": 0,
+      "id": 5824485,
+      "time": 70,
+      "timeSeconds": 4187,
+      "draw": {
+        "start": {
+          "x": 63.7,
+          "y": 22.5
+        },
+        "block": {
+          "x": 61,
+          "y": 19
+        },
+        "end": {
+          "x": 46.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 21,
+      "reversedPeriodTimeSeconds": 1213,
+      "periodTimeSeconds": 1487,
+      "incidentType": "shot"
+    }
+  ]
+}

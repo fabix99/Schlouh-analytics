@@ -1,0 +1,195 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 10,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 1,
+    "winningProbability": {
+      "home": 32,
+      "draw": 26,
+      "away": 42
+    },
+    "possibleResultsMatrix": [
+      [
+        0.077504500398921,
+        0.10768479627415,
+        0.074808658135459,
+        0.03464639717434,
+        0.012034430910944,
+        0.0033441290099286
+      ],
+      [
+        0.09086980000847,
+        0.12625455103922,
+        0.087709071972366,
+        0.040621011245047,
+        0.014109713945184,
+        0.0039208088920081
+      ],
+      [
+        0.053269942461912,
+        0.074013287899685,
+        0.051417051835925,
+        0.023812960208635,
+        0.0082714350636178,
+        0.0022984673022496
+      ],
+      [
+        0.020818700819787,
+        0.02892551458215,
+        0.020094563082605,
+        0.0093064657348098,
+        0.0032326021764127,
+        0.0008982758549779
+      ],
+      [
+        0.0061021978407482,
+        0.0084783970985338,
+        0.0058899448392526,
+        0.0027278308864488,
+        0.00094751244045715,
+        0.00026329486311809
+      ],
+      [
+        0.0014308988369626,
+        0.0019880916456998,
+        0.0013811278231561,
+        0.00063964659041138,
+        0.00022218133276575,
+        6.1739773643213e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Newcastle United host Brighton & Hove Albion at St James' Park with the hosts looking to halt a slide and the visitors pushing for Europe. The model rates Brighton higher (home win 32%, draw 26%, away win 42%) and both teams to score at 52%."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Newcastle come in on 5 straight losses, conceding heavy expected goals in each of the last 4 league matches (2.44–2.99 range) and creating fewer clear chances. Brighton are unbeaten in 5 (4 wins), with strong xG edges v Liverpool (2.17–1.03) and Chelsea (2.14–0.37), plus a draw at Tottenham."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "The last 2 meetings at Brighton ended 2-1 and 1-1, with the visitors unbeaten in the last 6 head-to-heads. Trends show both teams scoring in 7 of the last 8, and the away side first to score in 6 of the last 7."
+    },
+    {
+      "subtitle": "Season stats and style",
+      "text": "Newcastle offer volume from wide areas (accurate crosses 175, league rank 1; corners per game 6.24, rank 1) and hold 53% average possession. They have 78 big chances but a low 32% conversion and 53 big chances missed, plus 50 conceded and only 8 clean sheets. Brighton (6th: 48-39 goal difference) look more balanced and compact away from home."
+    },
+    {
+      "subtitle": "Key players",
+      "text": "Bruno Guimarães leads Newcastle form (last 5: 1 goal, 1 assist; high creative output). Anthony Gordon’s underperformance v xG remains a factor. For Brighton, Danny Welbeck (13 league goals) and Pascal Groß’s supply are central, while Bart Verbruggen has excelled in recent meetings (4.6 saves per game across the last 5)."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Chris Kavanagh averages 3.7 yellow cards and 0.12 reds per match, suggesting a moderate card profile. Newcastle average 1.74 yellows per game. The hosts lead the league for corners, but recent home trend points to fewer than usual, so expect corners around the average-to-high range and cards near the league norm."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Brighton’s stronger form and recent head-to-head edge, combined with Newcastle’s defensive slide, tilt this towards an away win. With both teams to score near 50%, a narrow Brighton success is the likeliest outcome."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Brighton & Hove Albion",
+      "slug": "brighton-and-hove-albion",
+      "shortName": "Brighton",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 419130,
+      "nameCode": "BHA",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 30,
+      "teamColors": {
+        "primary": "#0054a6",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "برايتون أند هوف ألبيون",
+          "hi": "ब्राइटोन एंड होव एल्बिओन ऍफ़सी",
+          "ru": "Брайтон энд Хоув Альбион"
+        },
+        "shortNameTranslation": {
+          "ar": "برايتون",
+          "bn": "ব্রাইটন",
+          "hi": "ब्राइटन"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "William Osula",
+      "firstName": "William",
+      "lastName": "Osula",
+      "slug": "william-osula",
+      "shortName": "W. Osula",
+      "position": "F",
+      "jerseyNumber": "10",
+      "userCount": 7016,
+      "gender": "M",
+      "sofascoreId": "vuz-g53",
+      "id": 1122603,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ويليام أوسولا",
+          "bn": "উইলিয়াম ওসুলা",
+          "hi": "विलियम ओसुला",
+          "ru": "Уильям Осула"
+        },
+        "shortNameTranslation": {
+          "ar": "و. أوسولا",
+          "bn": "ডব্লিউ. ওসুলা",
+          "hi": "डब्लू. ओसुला",
+          "ru": "У. Осула"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 3,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Newcastle United lead 2-0 at half-time at St James' Park after a clinical, physically dominant opening 45 minutes. Brighton & Hove Albion have controlled the ball and territory but have lacked precision in the box, while Newcastle have punished them with direct play and set-piece strength."
+    },
+    {
+      "subtitle": "First-half summary and key stats",
+      "text": "Score: 2-0. Goals: William Osula 12' (header), Dan Burn 24' (header). Expected goals: Newcastle 2.14, Brighton 0.35. Shots on target: 5-1. Big chances: 3-1 (big chances missed 2-1). Possession: 31-69. Aerial duels won: 82-18. Final third entries: 12-40. Penalty area entries: 7-23. Woodwork: 0-2. Corners: 2-4. Cards: Newcastle 0 yellow, Brighton 2 yellow (Joël Veltman, Kaoru Mitoma)."
+    },
+    {
+      "subtitle": "Tactical patterns and momentum",
+      "text": "Brighton started on the front foot with sustained pressure and territorial control. Newcastle then struck through a quick, direct spell that led to Osula’s header and followed with another surge around the mid-half that produced Burn’s goal. The rest of the half reverted to Brighton dominance in territory, with Newcastle sitting compact and threatening in transition. Late in the half Brighton pressed again but were kept at arm’s length, aside from efforts that hit the woodwork."
+    },
+    {
+      "subtitle": "Key player notes",
+      "text": "Newcastle: William Osula was a constant outlet, registering 2 shots on target and the opener, and he also missed a big chance. Dan Burn won key aerials and scored from a set-piece. Jacob Murphy created chances from the right and assisted. Bruno Guimarães and Sandro Tonali combined well in midfield to spring transitions. Malick Thiaw threatened from set-pieces and went close. Brighton: Bart Verbruggen made several important stops to keep the scoreline in range. Kaoru Mitoma created Brighton’s best openings but collected a booking. Jack Hinshelwood missed a big chance, while Danny Welbeck provided movement but limited end product. Jan Paul van Hecke recorded several clearances under pressure."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Discipline is tilting towards Brighton with 2 bookings (Veltman, Mitoma) to Newcastle’s 0, which may constrain Brighton’s aggression in wide areas after the break. Corners favour Brighton 4-2 and, given their territorial control, they may continue to win more. Newcastle’s set-pieces remain a major route to goal given their aerial advantage; Brighton must reduce fouls and wide free-kicks to avoid further damage."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "Brighton need faster play around the box and more penalty-area presence. Pushing Pascal Groß higher between the lines and earlier deliveries towards Welbeck can help, with Mitoma attacking the far post. Newcastle are likely to sit a little deeper and look for direct balls into Osula and early switches to Murphy; protecting central spaces and aiming for counters will suit their game state. Set-pieces should continue to favour Newcastle, and transitions will be dangerous if Brighton commit numbers forward."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Brighton’s pressure should tell at some stage, but Newcastle’s threat on counters and set-pieces, plus their aerial control, points to the hosts re-establishing control late on. Prediction: next goal Brighton, final score Newcastle 3-1, with Osula a strong candidate to score on the break."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

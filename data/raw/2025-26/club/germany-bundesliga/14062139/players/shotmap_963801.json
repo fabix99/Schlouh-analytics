@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Adam Hložek",
+        "slug": "adam-hlozek",
+        "shortName": "A. Hložek",
+        "position": "F",
+        "jerseyNumber": "23",
+        "userCount": 3062,
+        "gender": "M",
+        "sofascoreId": "ahlozek",
+        "id": 963801,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آدم هلوزيك",
+            "bn": "অ্যাডাম হলোজেক",
+            "hi": "एडम होलोजेक"
+          },
+          "shortNameTranslation": {
+            "ar": "آ. هلوزيك",
+            "bn": "এ. হলোজেক",
+            "hi": "ए. होलोजेक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 4.9,
+        "y": 42.3,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.4,
+        "z": 13.9
+      },
+      "blockCoordinates": {
+        "x": 0.7,
+        "y": 50.5,
+        "z": 0
+      },
+      "xg": 0.088076651096344,
+      "xgot": 0.26153138279915,
+      "goalkeeper": {
+        "name": "Daniel Heuer Fernandes",
+        "slug": "daniel-heuer-fernandes",
+        "shortName": "D. H. Fernandes",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 414,
+        "gender": "M",
+        "id": 113442,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دانييل هوير فرنانديز",
+            "bn": "ড্যানিয়েল হিউয়ার ফার্নান্ডেজ",
+            "hi": "डैनियल ह्यूअर फर्नांडीस"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ه. فرنانديز",
+            "bn": "ডি. এইচ. ফার্নান্ডেজ",
+            "hi": "डी.एच. फर्नांडीस"
+          }
+        }
+      },
+      "id": 6341489,
+      "time": 90,
+      "addedTime": 2,
+      "timeSeconds": 5510,
+      "draw": {
+        "start": {
+          "x": 42.3,
+          "y": 4.9
+        },
+        "block": {
+          "x": 50.5,
+          "y": 0.7
+        },
+        "end": {
+          "x": 48.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.6,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 790,
+      "periodTimeSeconds": 110,
+      "incidentType": "shot"
+    }
+  ]
+}

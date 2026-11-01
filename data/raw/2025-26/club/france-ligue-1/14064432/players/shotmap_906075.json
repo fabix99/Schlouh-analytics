@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Melvin Bard",
+        "firstName": "",
+        "lastName": "",
+        "slug": "melvin-bard",
+        "shortName": "M. Bard",
+        "position": "D",
+        "jerseyNumber": "26",
+        "userCount": 504,
+        "gender": "M",
+        "id": 906075,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميلفين بارد",
+            "bn": "মেলভিন বার্ড",
+            "hi": "मेल्विन बार्ड"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بارد",
+            "bn": "এম. বার্ড",
+            "hi": "एम. बार्ड"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 31.4,
+        "y": 49.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 99.7,
+        "z": 40.3
+      },
+      "blockCoordinates": {
+        "x": 23.3,
+        "y": 31.2,
+        "z": 0
+      },
+      "xg": 0.010372972115874,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Hervé Koffi",
+        "slug": "herve-koffi",
+        "shortName": "H. Koffi",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 15835,
+        "gender": "M",
+        "sofascoreId": "HKoffi",
+        "id": 867299,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيرفي كوفي",
+            "bn": "হার্ভে কফি",
+            "hi": "हर्वे कोफ़ी"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. كوفي",
+            "bn": "এইচ. কফি",
+            "hi": "एच. कोफ़ी"
+          }
+        }
+      },
+      "id": 6312202,
+      "time": 90,
+      "timeSeconds": 5347,
+      "draw": {
+        "start": {
+          "x": 49.2,
+          "y": 31.4
+        },
+        "block": {
+          "x": 31.2,
+          "y": 23.3
+        },
+        "end": {
+          "x": 0.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 0.3,
+          "y": 59.7
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 53,
+      "periodTimeSeconds": 2647,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Teo Quintero",
+        "slug": "teo-quintero",
+        "shortName": "T. Q. León",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 446,
+        "gender": "M",
+        "id": 966299,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تيو كوينتيرو",
+            "bn": "টিও কুইন্টেরো",
+            "hi": "टीओ क्विंटेरो"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. ك. ليون",
+            "bn": "টি. কিউ. লিওন",
+            "hi": "टीक्यू क्विंटेरो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 23.5,
+        "y": 67.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14,
+        "y": 60.7,
+        "z": 0
+      },
+      "xg": 0.050846945494413,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Timo Jansink",
+        "slug": "jansink-timo",
+        "shortName": "T. Jansink",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 41,
+        "gender": "M",
+        "id": 1189737,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يانسينك، تيمو"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. يانسينك"
+          }
+        }
+      },
+      "id": 6494694,
+      "time": 54,
+      "timeSeconds": 3187,
+      "draw": {
+        "start": {
+          "x": 67.8,
+          "y": 23.5
+        },
+        "block": {
+          "x": 60.7,
+          "y": 14
+        },
+        "end": {
+          "x": 50.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2213,
+      "periodTimeSeconds": 487,
+      "incidentType": "shot"
+    }
+  ]
+}

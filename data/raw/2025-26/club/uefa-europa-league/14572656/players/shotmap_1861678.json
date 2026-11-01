@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Enzo Molebe",
+        "firstName": "Enzo",
+        "lastName": "Molebe",
+        "slug": "enzo-molebe",
+        "shortName": "E. Molebe",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 754,
+        "id": 1861678,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إنزو موليبي"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. موليبي"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.6,
+        "y": 26.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.3,
+        "z": 7
+      },
+      "blockCoordinates": {
+        "x": 0.3,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.0244728513062,
+      "xgot": 0.020247813314199,
+      "goalkeeper": {
+        "name": "Álvaro Valles",
+        "slug": "alvaro-valles",
+        "shortName": "Á. Valles",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 977,
+        "gender": "M",
+        "id": 964983,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألفارو فاليس",
+            "bn": "আলভারো ভ্যালেস",
+            "hi": "अल्वारो वल्लेस"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فاليس",
+            "bn": "আ. ভ্যালেস",
+            "hi": "ए. वल्लेस"
+          }
+        }
+      },
+      "id": 6121624,
+      "time": 44,
+      "timeSeconds": 2627,
+      "draw": {
+        "start": {
+          "x": 26.8,
+          "y": 22.6
+        },
+        "block": {
+          "x": 49.8,
+          "y": 0.3
+        },
+        "end": {
+          "x": 48.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.7,
+          "y": 93
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 73,
+      "periodTimeSeconds": 2627,
+      "incidentType": "shot"
+    }
+  ]
+}

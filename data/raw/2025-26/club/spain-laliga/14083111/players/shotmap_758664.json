@@ -1,0 +1,96 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Charles Pickel",
+        "slug": "charles-pickel",
+        "shortName": "C. Pickel",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 11624,
+        "gender": "M",
+        "sofascoreId": "charlespickel",
+        "id": 758664,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تشارلز بيكل",
+            "bn": "চার্লস পিকেল",
+            "hi": "चार्ल्स पिकेल"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. بيكل",
+            "bn": "সি. পিকেল",
+            "hi": "सी. पिकेल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 25.6,
+        "y": 39.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14.9,
+        "y": 43.3,
+        "z": 0
+      },
+      "xg": 0.01620533503592,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Luiz Júnior",
+        "firstName": "Luiz Lúcio Reis Júnior",
+        "lastName": "",
+        "slug": "luiz-junior",
+        "shortName": "L. Júnior",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2378,
+        "gender": "M",
+        "id": 1066603,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لويس جونيور"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. جونيور"
+          }
+        }
+      },
+      "id": 6136501,
+      "time": 85,
+      "timeSeconds": 5047,
+      "draw": {
+        "start": {
+          "x": 39.7,
+          "y": 25.6
+        },
+        "block": {
+          "x": 43.3,
+          "y": 14.9
+        },
+        "end": {
+          "x": 48.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 353,
+      "periodTimeSeconds": 2347,
+      "incidentType": "shot"
+    }
+  ]
+}

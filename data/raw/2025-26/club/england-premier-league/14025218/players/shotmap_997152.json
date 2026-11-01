@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Maxim De Cuyper",
+        "slug": "maxim-de-cuyper",
+        "shortName": "M. De Cuyper",
+        "position": "D",
+        "jerseyNumber": "29",
+        "userCount": 4466,
+        "gender": "M",
+        "id": 997152,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماكسيم دي كويبر",
+            "bn": "ম্যাক্সিম ডি কুইপার",
+            "hi": "मैक्सिम डे कुइपर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دي كويبر",
+            "bn": "এম. ডি কুইপার",
+            "hi": "एम. डे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 24.4,
+        "y": 44,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.6,
+        "y": 46.2,
+        "z": 0
+      },
+      "xg": 0.025823084637523,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Robin Roefs",
+        "slug": "robin-roefs",
+        "shortName": "R. Roefs",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 2211,
+        "gender": "M",
+        "id": 1012928,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن روفس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. روفس"
+          }
+        }
+      },
+      "id": 6384592,
+      "time": 48,
+      "timeSeconds": 2845,
+      "draw": {
+        "start": {
+          "x": 44,
+          "y": 24.4
+        },
+        "block": {
+          "x": 46.2,
+          "y": 17.6
+        },
+        "end": {
+          "x": 51.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 43,
+      "reversedPeriodTimeSeconds": 2555,
+      "periodTimeSeconds": 145,
+      "incidentType": "shot"
+    }
+  ]
+}

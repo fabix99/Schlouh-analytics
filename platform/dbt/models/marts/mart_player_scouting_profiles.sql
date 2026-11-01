@@ -1,10 +1,21 @@
--- Lightweight scouting profile mart (platform slice of legacy step 08).
+{{ config(materialized='table') }}
+-- Real dbt transform: one row per player from season stats + players index
+-- (platform replacement for pandas scripts/build/08_build_player_scouting_profiles.py grain).
 with season_stats as (
     select * from {{ ref('mart_player_season_stats') }}
 ),
 
 players as (
-    select * from {{ ref('stg_players') }}
+    select * from {{ source('raw_sofascore', 'players') }}
+),
+
+dob as (
+    select
+        cast(player_id as bigint) as player_id,
+        max("player_dateOfBirthTimestamp") as dob_ts
+    from {{ source('raw_sofascore', 'player_appearances') }}
+    where "player_dateOfBirthTimestamp" is not null
+    group by 1
 ),
 
 ranked as (
@@ -12,7 +23,10 @@ ranked as (
         *,
         row_number() over (
             partition by player_id
-            order by season desc, total_minutes desc
+            order by
+                case when sufficient_minutes then 0 else 1 end,
+                season desc,
+                total_minutes desc
         ) as season_rank
     from season_stats
 ),
@@ -21,7 +35,7 @@ career as (
     select
         player_id,
         max(player_name) as player_name,
-        max(player_short_name) as player_short_name,
+        max("player_shortName") as "player_shortName",
         max(player_position) as player_position,
         sum(appearances) as n_matches,
         sum(total_minutes) as total_minutes,
@@ -43,7 +57,7 @@ latest as (
         avg_rating as latest_rating,
         total_minutes as latest_minutes,
         appearances as latest_appearances,
-        sufficient_minutes as sufficient_minutes_latest_season
+        coalesce(total_minutes, 0) >= 450 as sufficient_minutes_latest_season
     from ranked
     where season_rank = 1
 )
@@ -52,8 +66,12 @@ select
     c.player_id,
     coalesce(p.player_name, c.player_name) as player_name,
     p.player_slug,
-    coalesce(p.player_short_name, c.player_short_name) as player_short_name,
+    coalesce(p."player_shortName", c."player_shortName") as "player_shortName",
     c.player_position,
+    case
+        when d.dob_ts is not null
+        then (epoch(current_timestamp) - cast(d.dob_ts as double)) / (365.25 * 24 * 3600)
+    end as age_today,
     c.n_matches,
     c.total_minutes,
     c.goals,
@@ -68,7 +86,8 @@ select
     l.latest_minutes,
     l.latest_appearances,
     l.sufficient_minutes_latest_season,
-    true as active
+    c.last_season is not null as active
 from career c
-left join players p on c.player_id = p.player_id
+left join players p on c.player_id = cast(p.player_id as bigint)
 left join latest l on c.player_id = l.player_id
+left join dob d on c.player_id = d.player_id

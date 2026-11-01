@@ -1,0 +1,203 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Julián Alvarez",
+        "slug": "julian-alvarez",
+        "shortName": "J. Álvarez",
+        "position": "F",
+        "jerseyNumber": "19",
+        "userCount": 224165,
+        "gender": "M",
+        "sofascoreId": "LaAraña",
+        "id": 944656,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوليان ألفاريز",
+            "bn": "জুলিয়ান আলভারেজ",
+            "hi": "जूलियन अल्वारेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ألفاريز",
+            "bn": "জে. আলভারেজ",
+            "hi": "जे. अल्वारेज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.7,
+        "z": 3.8
+      },
+      "xg": 0.7884,
+      "xgot": 0.84838074445724,
+      "id": 6078950,
+      "time": 64,
+      "timeSeconds": 3832,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 46.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.3,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1568,
+      "periodTimeSeconds": 1132,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Julián Alvarez",
+        "slug": "julian-alvarez",
+        "shortName": "J. Álvarez",
+        "position": "F",
+        "jerseyNumber": "19",
+        "userCount": 224165,
+        "gender": "M",
+        "sofascoreId": "LaAraña",
+        "id": 944656,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوليان ألفاريز",
+            "bn": "জুলিয়ান আলভারেজ",
+            "hi": "जूलियन अल्वारेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ألفاريز",
+            "bn": "জে. আলভারেজ",
+            "hi": "जे. अल्वारेज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.5,
+        "y": 45.7,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 66.1,
+        "z": 61.1
+      },
+      "xg": 0.062833197414875,
+      "xgot": 0,
+      "id": 6078713,
+      "time": 50,
+      "timeSeconds": 2997,
+      "draw": {
+        "start": {
+          "x": 45.7,
+          "y": 9.5
+        },
+        "end": {
+          "x": 33.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 33.9,
+          "y": 38.9
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2403,
+      "periodTimeSeconds": 297,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Julián Alvarez",
+        "slug": "julian-alvarez",
+        "shortName": "J. Álvarez",
+        "position": "F",
+        "jerseyNumber": "19",
+        "userCount": 224165,
+        "gender": "M",
+        "sofascoreId": "LaAraña",
+        "id": 944656,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوليان ألفاريز",
+            "bn": "জুলিয়ান আলভারেজ",
+            "hi": "जूलियन अल्वारेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ألفاريز",
+            "bn": "জে. আলভারেজ",
+            "hi": "जे. अल्वारेज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.2,
+        "y": 39.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.1,
+        "y": 44.5,
+        "z": 0
+      },
+      "xg": 0.036211609840393,
+      "xgot": 0,
+      "id": 6078069,
+      "time": 17,
+      "timeSeconds": 960,
+      "draw": {
+        "start": {
+          "x": 39.9,
+          "y": 22.2
+        },
+        "block": {
+          "x": 44.5,
+          "y": 13.1
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1740,
+      "periodTimeSeconds": 960,
+      "incidentType": "shot"
+    }
+  ]
+}

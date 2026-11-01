@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sadio Mané",
+        "firstName": "",
+        "lastName": "",
+        "slug": "sadio-mane",
+        "shortName": "S. Mané",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 168287,
+        "gender": "M",
+        "sofascoreId": "SadioMané",
+        "id": 217704,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ساديو ماني",
+            "bn": "সাদিও মানে",
+            "hi": "सादियो माने"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ماني",
+            "bn": "এস. মানে",
+            "hi": "एस. माने"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 3.3,
+        "y": 39.3,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.1,
+        "z": 13.3
+      },
+      "blockCoordinates": {
+        "x": 0.3,
+        "y": 45.7,
+        "z": 0
+      },
+      "xg": 0.075032830238342,
+      "xgot": 0.32229459285736,
+      "goalkeeper": {
+        "name": "Orlando Mosquera",
+        "slug": "orlando-mosquera",
+        "shortName": "O. Mosquera",
+        "position": "G",
+        "jerseyNumber": "52",
+        "userCount": 508,
+        "gender": "M",
+        "id": 886041,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أورلاندو موسكيرا",
+            "bn": "অরল্যান্ডো মস্কেরা",
+            "hi": "ऑरलैंडो मॉस्क्वेरा"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موسكيرا",
+            "bn": "ও. মস্কেরা",
+            "hi": "ओ. मॉस्क्वेरा"
+          }
+        }
+      },
+      "id": 6080643,
+      "time": 75,
+      "timeSeconds": 4442,
+      "draw": {
+        "start": {
+          "x": 39.3,
+          "y": 3.3
+        },
+        "block": {
+          "x": 45.7,
+          "y": 0.3
+        },
+        "end": {
+          "x": 51.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.9,
+          "y": 86.7
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 958,
+      "periodTimeSeconds": 1742,
+      "incidentType": "shot"
+    }
+  ]
+}

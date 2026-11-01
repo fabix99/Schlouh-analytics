@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Anton Kade",
+        "firstName": "Anton",
+        "lastName": "Kade",
+        "slug": "anton-kade",
+        "shortName": "A. Kade",
+        "position": "M",
+        "jerseyNumber": "30",
+        "userCount": 291,
+        "gender": "M",
+        "id": 1129365,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "انطون كادي",
+            "bn": "অ্যান্টন কেড",
+            "hi": "एंटोन काडे"
+          },
+          "shortNameTranslation": {
+            "ar": "ا. كادي",
+            "bn": "এ. কাডে",
+            "hi": "ए. काडे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 11.9,
+        "y": 52.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.7,
+        "z": 1.9
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 51.3,
+        "z": 0
+      },
+      "xg": 0.17103020846844,
+      "xgot": 0.12500084936619,
+      "goalkeeper": {
+        "name": "Frederik Rønnow",
+        "slug": "frederik-ronnow",
+        "shortName": "F. Rønnow",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 628,
+        "gender": "M",
+        "id": 137692,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فريدريك رونو",
+            "bn": "ফ্রেডরিক রননো",
+            "hi": "फ्रेडरिक रोन्नो"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. رونو",
+            "bn": "এফ. রননো",
+            "hi": "एफ. रोन्नो"
+          }
+        }
+      },
+      "id": 6523690,
+      "time": 60,
+      "timeSeconds": 3567,
+      "draw": {
+        "start": {
+          "x": 52.6,
+          "y": 11.9
+        },
+        "block": {
+          "x": 51.3,
+          "y": 1.4
+        },
+        "end": {
+          "x": 51.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.3,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1833,
+      "periodTimeSeconds": 867,
+      "incidentType": "shot"
+    }
+  ]
+}

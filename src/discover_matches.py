@@ -27,9 +27,7 @@ import yaml
 from config import API_BASE, ROOT, INDEX_PATH as CONFIG_INDEX_PATH
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Accept": "application/json",
-    "Referer": "https://www.sofascore.com/",
 }
 
 # Season label (e.g. 2022-23) -> Sofascore season ID

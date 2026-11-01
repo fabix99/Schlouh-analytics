@@ -1,0 +1,108 @@
+{
+  "passes": [
+    {
+      "playerCoordinates": {
+        "x": 60.3,
+        "y": 4.2
+      },
+      "passEndCoordinates": {
+        "x": 57.6,
+        "y": 9.9
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 44.5,
+        "y": 26.2
+      },
+      "passEndCoordinates": {
+        "x": 38.3,
+        "y": 17.8
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 45.1,
+        "y": 48.7
+      },
+      "passEndCoordinates": {
+        "x": 44.1,
+        "y": 48.1
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 22.2,
+        "y": 4.2
+      },
+      "passEndCoordinates": {
+        "x": 46.1,
+        "y": 4.3
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "dribbles": [
+    {
+      "playerCoordinates": {
+        "x": 48.6,
+        "y": 26.6
+      },
+      "eventActionType": "dribble",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "defensive": [
+    {
+      "playerCoordinates": {
+        "x": 10.3,
+        "y": 31.7
+      },
+      "passEndCoordinates": {
+        "x": 23.9,
+        "y": 34
+      },
+      "eventActionType": "clearance",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 45.1,
+        "y": 48.4
+      },
+      "eventActionType": "ball-recovery",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 22.2,
+        "y": 4.2
+      },
+      "eventActionType": "ball-recovery",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "ball-carries": []
+}

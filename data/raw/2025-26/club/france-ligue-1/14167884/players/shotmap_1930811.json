@@ -1,0 +1,130 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Abdoul Ouattara",
+        "slug": "abdoul-ouattara",
+        "shortName": "A. Ouattara",
+        "position": "M",
+        "jerseyNumber": "42",
+        "userCount": 1177,
+        "gender": "M",
+        "id": 1930811,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدول واتارا"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. واتارا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 3.3,
+        "y": 52.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.4,
+        "z": 16.5
+      },
+      "xg": 0.70917010307312,
+      "xgot": 0.91482096910477,
+      "id": 5853672,
+      "time": 61,
+      "timeSeconds": 3608,
+      "draw": {
+        "start": {
+          "x": 52.6,
+          "y": 3.3
+        },
+        "end": {
+          "x": 52.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.6,
+          "y": 83.5
+        }
+      },
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1792,
+      "periodTimeSeconds": 908,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Abdoul Ouattara",
+        "slug": "abdoul-ouattara",
+        "shortName": "A. Ouattara",
+        "position": "M",
+        "jerseyNumber": "42",
+        "userCount": 1177,
+        "gender": "M",
+        "id": 1930811,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدول واتارا"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. واتارا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 7.8,
+        "y": 69.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.5,
+        "z": 8.2
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 53.8,
+        "z": 0
+      },
+      "xg": 0.077581889927387,
+      "xgot": 0.065474703907967,
+      "id": 5853176,
+      "time": 27,
+      "timeSeconds": 1586,
+      "draw": {
+        "start": {
+          "x": 69.4,
+          "y": 7.8
+        },
+        "block": {
+          "x": 53.8,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 49.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.5,
+          "y": 91.8
+        }
+      },
+      "reversedPeriodTime": 19,
+      "reversedPeriodTimeSeconds": 1114,
+      "periodTimeSeconds": 1586,
+      "incidentType": "shot"
+    }
+  ]
+}

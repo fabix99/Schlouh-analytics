@@ -1,0 +1,102 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ian Maatsen",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ian-maatsen",
+        "shortName": "I. Maatsen",
+        "position": "D",
+        "jerseyNumber": "22",
+        "userCount": 5471,
+        "gender": "M",
+        "sofascoreId": "maatsen_",
+        "id": 976263,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيان ماتسين",
+            "bn": "ইয়ান মাতসেন",
+            "hi": "इयान मात्सेन"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ماتسين",
+            "bn": "আই. মাতসেন",
+            "hi": "आई. मात्सेन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 5.5,
+        "y": 31.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 32.8,
+        "z": 2.8
+      },
+      "blockCoordinates": {
+        "x": 4.1,
+        "y": 50.2,
+        "z": 0
+      },
+      "xg": 0.026958484202623,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Senne Lammens",
+        "firstName": "",
+        "lastName": "",
+        "slug": "senne-lammens",
+        "shortName": "S. Lammens",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 29050,
+        "gender": "M",
+        "id": 964753,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيني لامينس",
+            "bn": "সেনে ল্যামেনস",
+            "hi": "सेने लामेन्स"
+          },
+          "shortNameTranslation": {
+            "ar": "س. لامينس",
+            "bn": "এস. ল্যামেনস",
+            "hi": "एस. लामेन्स"
+          }
+        }
+      },
+      "id": 6390024,
+      "time": 8,
+      "timeSeconds": 461,
+      "draw": {
+        "start": {
+          "x": 31.5,
+          "y": 5.5
+        },
+        "block": {
+          "x": 50.2,
+          "y": 4.1
+        },
+        "end": {
+          "x": 67.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 67.2,
+          "y": 97.2
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2239,
+      "periodTimeSeconds": 461,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jaka Bijol",
+        "slug": "jaka-bijol",
+        "shortName": "J. Bijol",
+        "position": "D",
+        "jerseyNumber": "15",
+        "userCount": 2551,
+        "gender": "M",
+        "id": 886930,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جاكا بيجول",
+            "bn": "জাকা বিজল",
+            "hi": "जाका बिजोल"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بيجول",
+            "bn": "জে. বিজোল",
+            "hi": "जे. बिजोल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 4.5,
+        "y": 41.1,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.7,
+        "z": 16.5
+      },
+      "xg": 0.088490292429924,
+      "xgot": 0.30962684750557,
+      "goalkeeper": {
+        "name": "Robert Sánchez",
+        "slug": "robert-sanchez",
+        "shortName": "R. Sánchez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 18497,
+        "gender": "M",
+        "sofascoreId": "RS1",
+        "id": 920546,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبرت سانشيز",
+            "bn": "রবার্ট সানচেজ",
+            "hi": "रॉबर्ट सांचेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. سانشيز",
+            "bn": "আর. সানচেজ",
+            "hi": "आर. सांचेज़"
+          }
+        }
+      },
+      "id": 6292721,
+      "time": 6,
+      "timeSeconds": 324,
+      "draw": {
+        "start": {
+          "x": 41.1,
+          "y": 4.5
+        },
+        "end": {
+          "x": 47.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.3,
+          "y": 83.5
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2376,
+      "periodTimeSeconds": 324,
+      "incidentType": "shot"
+    }
+  ]
+}

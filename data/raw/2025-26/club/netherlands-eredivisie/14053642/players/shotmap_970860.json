@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Lucas Rosa",
+        "firstName": "",
+        "lastName": "",
+        "slug": "lucas-rosa",
+        "shortName": "L. Rosa",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 711,
+        "gender": "M",
+        "id": 970860,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس روز",
+            "bn": "লুকাস রোজা",
+            "hi": "लुकास रोज़ा"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. روز",
+            "bn": "এল. রোজা",
+            "hi": "एल. रोज़ा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 6.4,
+        "y": 32.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.9,
+        "z": 2.5
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 46.7,
+        "z": 0
+      },
+      "xg": 0.030356895178556,
+      "xgot": 0.085686191916466,
+      "goalkeeper": {
+        "name": "Etienne Vaessen",
+        "slug": "etienne-vaessen",
+        "shortName": "E. Vaessen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 473,
+        "gender": "M",
+        "id": 809408,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إتيان فايزن"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. فايزن"
+          }
+        }
+      },
+      "id": 6285596,
+      "time": 83,
+      "timeSeconds": 4977,
+      "draw": {
+        "start": {
+          "x": 32.1,
+          "y": 6.4
+        },
+        "block": {
+          "x": 46.7,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 47.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.1,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 423,
+      "periodTimeSeconds": 2277,
+      "incidentType": "shot"
+    }
+  ]
+}

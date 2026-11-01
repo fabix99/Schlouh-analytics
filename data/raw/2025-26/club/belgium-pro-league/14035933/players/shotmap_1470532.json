@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Benjamin Fredrick",
+        "firstName": "Benjamin Fredrick",
+        "lastName": "",
+        "slug": "fredrick-benjamin",
+        "shortName": "B. Fredrick",
+        "position": "D",
+        "jerseyNumber": "22",
+        "userCount": 948,
+        "gender": "M",
+        "id": 1470532,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فريدريك، بنيامين",
+            "bn": "ফ্রেডরিক, বেঞ্জামিন",
+            "hi": "फ्रेडरिक, बेंजामिन"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فريدريك",
+            "bn": "বি. ফ্রেড্রিক",
+            "hi": "बी. फ्रेडरिक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 26,
+        "y": 46.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.1,
+        "y": 47.5,
+        "z": 0
+      },
+      "xg": 0.013863843865693,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Brent Gabriel",
+        "firstName": "",
+        "lastName": "",
+        "slug": "gabriel-brent",
+        "shortName": "B. Gabriel",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 74,
+        "gender": "M",
+        "id": 861977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برينت غابرييل"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غابرييل"
+          }
+        }
+      },
+      "id": 6127206,
+      "time": 81,
+      "timeSeconds": 4837,
+      "draw": {
+        "start": {
+          "x": 46.2,
+          "y": 26
+        },
+        "block": {
+          "x": 47.5,
+          "y": 17.1
+        },
+        "end": {
+          "x": 49.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 10,
+      "reversedPeriodTimeSeconds": 563,
+      "periodTimeSeconds": 2137,
+      "incidentType": "shot"
+    }
+  ]
+}

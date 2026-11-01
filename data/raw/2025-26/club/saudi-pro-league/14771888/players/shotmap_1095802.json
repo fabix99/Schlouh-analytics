@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Hazzaa Al-Ghamdi",
+        "firstName": "Hazzaa Ahmed Al-Ghamdi",
+        "lastName": "",
+        "slug": "hazzaa-al-ghamdi",
+        "shortName": "H. Al-Ghamdi",
+        "position": "F",
+        "jerseyNumber": "90",
+        "userCount": 34,
+        "gender": "M",
+        "id": 1095802,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هزاع الغامدي",
+            "bn": "হাজ্জা আল-গামদি",
+            "hi": "हज़्ज़ा अल-ग़ामदी"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. الغامدي",
+            "bn": "এইচ. আল-গামদি",
+            "hi": "एच. अल-गामदी"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 5.1,
+        "y": 49.7,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 5.3,
+        "y": 49.1,
+        "z": 0
+      },
+      "xg": 0.2335644364357,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Milan Borjan",
+        "slug": "milan-borjan",
+        "shortName": "M. Borjan",
+        "position": "G",
+        "jerseyNumber": "82",
+        "userCount": 809,
+        "gender": "M",
+        "id": 79413,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميلان بوريان",
+            "bn": "মিলান বোরজান",
+            "hi": "मिलन बोरजान"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بوريان",
+            "bn": "এম. বোরজান",
+            "hi": "एम. बोरजान"
+          }
+        }
+      },
+      "id": 6120620,
+      "time": 78,
+      "timeSeconds": 4653,
+      "draw": {
+        "start": {
+          "x": 49.7,
+          "y": 5.1
+        },
+        "block": {
+          "x": 49.1,
+          "y": 5.3
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 747,
+      "periodTimeSeconds": 1953,
+      "incidentType": "shot"
+    }
+  ]
+}

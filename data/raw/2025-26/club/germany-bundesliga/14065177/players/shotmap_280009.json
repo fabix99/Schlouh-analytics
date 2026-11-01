@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Lucas Höler",
+        "slug": "lucas-holer",
+        "shortName": "L. Höler",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 564,
+        "gender": "M",
+        "id": 280009,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس هولير",
+            "bn": "লুকাস হোলার",
+            "hi": "लुकास होलर"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. هولير",
+            "bn": "এল. হোলার",
+            "hi": "एल. होलर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.7,
+        "y": 40.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.8,
+        "z": 27.2
+      },
+      "xg": 0.064663074910641,
+      "xgot": 0.90850418806076,
+      "goalkeeper": {
+        "name": "Gregor Kobel",
+        "slug": "gregor-kobel",
+        "shortName": "G. Kobel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 6960,
+        "gender": "M",
+        "sofascoreId": "gregorkobel",
+        "id": 556866,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غريغور كوبل",
+            "bn": "গ্রেগর কোবেল",
+            "hi": "ग्रेगर कोबेल"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. كوبل",
+            "bn": "জি. কোবেল",
+            "hi": "जी. कोबेल"
+          }
+        }
+      },
+      "id": 6349196,
+      "time": 75,
+      "timeSeconds": 4480,
+      "draw": {
+        "start": {
+          "x": 40.1,
+          "y": 10.7
+        },
+        "end": {
+          "x": 54.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.2,
+          "y": 72.8
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 920,
+      "periodTimeSeconds": 1780,
+      "incidentType": "shot"
+    }
+  ]
+}

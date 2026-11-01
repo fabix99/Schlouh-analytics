@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jeremie Frimpong",
+        "slug": "jeremie-frimpong",
+        "shortName": "J. Frimpong",
+        "position": "M",
+        "jerseyNumber": "30",
+        "userCount": 32776,
+        "gender": "M",
+        "sofascoreId": "jeremie_frimpong",
+        "id": 970361,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيريمي فريمبونج",
+            "bn": "জেরেমি ফ্রিম্পং",
+            "hi": "जेरेमी फ्रिम्पॉन्ग"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. فريمبونج",
+            "bn": "জে. ফ্রিম্পং",
+            "hi": "जे. फ्रिम्पॉन्ग"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9,
+        "y": 74.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 60.8,
+        "z": 29.2
+      },
+      "blockCoordinates": {
+        "x": 3.1,
+        "y": 48.4,
+        "z": 0
+      },
+      "xg": 0.02488205768168,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lucas Perri",
+        "firstName": "",
+        "lastName": "",
+        "slug": "lucas-perri",
+        "shortName": "L. Perri",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3487,
+        "gender": "M",
+        "id": 871290,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس بيري",
+            "bn": "লুকাস পেরি",
+            "hi": "लुकास पेरी"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. بيري",
+            "bn": "এল. পেরি",
+            "hi": "एल. पेरी"
+          }
+        }
+      },
+      "id": 6441744,
+      "time": 33,
+      "timeSeconds": 1964,
+      "draw": {
+        "start": {
+          "x": 74.2,
+          "y": 9
+        },
+        "block": {
+          "x": 48.4,
+          "y": 3.1
+        },
+        "end": {
+          "x": 39.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 39.2,
+          "y": 70.8
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 736,
+      "periodTimeSeconds": 1964,
+      "incidentType": "shot"
+    }
+  ]
+}

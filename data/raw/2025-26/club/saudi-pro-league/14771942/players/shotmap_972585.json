@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Juan Pedroza",
+        "slug": "juan-pedroza",
+        "shortName": "J. Pedroza",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 186,
+        "gender": "M",
+        "id": 972585,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوان بيدروزا",
+            "bn": "জুয়ান পেদ্রোজা",
+            "hi": "जुआन पेड्रोज़ा"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. بيدروزا",
+            "bn": "জে. পেদ্রোজা",
+            "hi": "जे. पेड्रोज़ा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.8,
+        "y": 40.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.1,
+        "z": 18.1
+      },
+      "blockCoordinates": {
+        "x": 9.2,
+        "y": 41.7,
+        "z": 0
+      },
+      "xg": 0.053413890302181,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Juan Cozzani",
+        "slug": "juan-cozzani",
+        "shortName": "J. Cozzani",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 133,
+        "gender": "M",
+        "id": 874969,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوان كوزاني"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. كوزاني"
+          }
+        }
+      },
+      "id": 6509447,
+      "time": 29,
+      "timeSeconds": 1692,
+      "draw": {
+        "start": {
+          "x": 40.3,
+          "y": 10.8
+        },
+        "block": {
+          "x": 41.7,
+          "y": 9.2
+        },
+        "end": {
+          "x": 52.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.9,
+          "y": 81.9
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 1008,
+      "periodTimeSeconds": 1692,
+      "incidentType": "shot"
+    }
+  ]
+}

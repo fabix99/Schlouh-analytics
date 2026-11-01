@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rade Krunić",
+        "slug": "rade-krunic",
+        "shortName": "R. Krunić",
+        "position": "M",
+        "jerseyNumber": "33",
+        "userCount": 2486,
+        "gender": "M",
+        "id": 155449,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رادي كرونيتش",
+            "bn": "রেড ক্রুনিচ",
+            "hi": "राडे क्रुनिक"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. كرونيتش",
+            "bn": "আর. ক্রুনিচ",
+            "hi": "आर. क्रुनिक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.1,
+        "y": 52.9,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.5,
+        "y": 52.3,
+        "z": 0
+      },
+      "xg": 0.021966695785522,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lukáš Zima",
+        "slug": "lukas-zima",
+        "shortName": "L. Zima",
+        "position": "G",
+        "jerseyNumber": "38",
+        "userCount": 268,
+        "gender": "M",
+        "id": 135602,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكا زيم",
+            "bn": "লুকাস জিমা",
+            "hi": "लुकास ज़िमा"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. زيم",
+            "bn": "এল. জিমা",
+            "hi": "एल. ज़िमा"
+          }
+        }
+      },
+      "id": 6257654,
+      "time": 5,
+      "timeSeconds": 271,
+      "draw": {
+        "start": {
+          "x": 52.9,
+          "y": 13.1
+        },
+        "block": {
+          "x": 52.3,
+          "y": 11.5
+        },
+        "end": {
+          "x": 48.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2429,
+      "periodTimeSeconds": 271,
+      "incidentType": "shot"
+    }
+  ]
+}

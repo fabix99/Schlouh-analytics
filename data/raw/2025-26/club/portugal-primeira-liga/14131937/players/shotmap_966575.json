@@ -1,0 +1,142 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rodrigo Zalazar",
+        "firstName": "",
+        "lastName": "",
+        "slug": "rodrigo-zalazar",
+        "shortName": "R. Zalazar",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 2906,
+        "gender": "M",
+        "id": 966575,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رودريغو زالازار",
+            "bn": "রদ্রিগো জালাজার",
+            "hi": "रोड्रिगो ज़लाज़ार"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. زالازار",
+            "bn": "আর. জালাজার",
+            "hi": "आर. ज़लाज़ार"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.8,
+        "z": 17.7
+      },
+      "xg": 0.7884,
+      "xgot": 0.92486828565598,
+      "id": 6038605,
+      "time": 57,
+      "timeSeconds": 3365,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 54.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.2,
+          "y": 82.3
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2035,
+      "periodTimeSeconds": 665,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Rodrigo Zalazar",
+        "firstName": "",
+        "lastName": "",
+        "slug": "rodrigo-zalazar",
+        "shortName": "R. Zalazar",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 2906,
+        "gender": "M",
+        "id": 966575,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رودريغو زالازار",
+            "bn": "রদ্রিগো জালাজার",
+            "hi": "रोड्रिगो ज़लाज़ार"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. زالازار",
+            "bn": "আর. জালাজার",
+            "hi": "आर. ज़लाज़ार"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.4,
+        "y": 70.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.4,
+        "z": 1.9
+      },
+      "blockCoordinates": {
+        "x": 2,
+        "y": 56.5,
+        "z": 0
+      },
+      "xg": 0.046507392078638,
+      "xgot": 0.13957521319389,
+      "id": 6038006,
+      "time": 5,
+      "timeSeconds": 281,
+      "draw": {
+        "start": {
+          "x": 70.9,
+          "y": 9.4
+        },
+        "block": {
+          "x": 56.5,
+          "y": 2
+        },
+        "end": {
+          "x": 48.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.6,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2419,
+      "periodTimeSeconds": 281,
+      "incidentType": "shot"
+    }
+  ]
+}

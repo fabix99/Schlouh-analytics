@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Marius Wolf",
+        "slug": "marius-wolf",
+        "shortName": "M. Wolf",
+        "position": "M",
+        "jerseyNumber": "27",
+        "userCount": 537,
+        "gender": "M",
+        "id": 254119,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماريش وولف",
+            "bn": "মারিয়াস ওল্ফ",
+            "hi": "मारियस वुल्फ"
+          },
+          "shortNameTranslation": {
+            "ar": "م. وولف",
+            "bn": "এম. ওল্ফ",
+            "hi": "एम. वुल्फ"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.5,
+        "y": 57.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.4,
+        "z": 9.5
+      },
+      "blockCoordinates": {
+        "x": 7.6,
+        "y": 55.2,
+        "z": 0
+      },
+      "xg": 0.30305147171021,
+      "xgot": 0.33451363444328,
+      "goalkeeper": {
+        "name": "Mio Backhaus",
+        "firstName": "Mio Backhaus",
+        "lastName": "",
+        "slug": "mio-backhaus",
+        "shortName": "M. Backhaus",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 1096,
+        "gender": "M",
+        "id": 1083390,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باكهاوس ، ميو"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. ، ميو"
+          }
+        }
+      },
+      "id": 6383614,
+      "time": 10,
+      "timeSeconds": 588,
+      "draw": {
+        "start": {
+          "x": 57.4,
+          "y": 10.5
+        },
+        "block": {
+          "x": 55.2,
+          "y": 7.6
+        },
+        "end": {
+          "x": 51.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.6,
+          "y": 90.5
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2112,
+      "periodTimeSeconds": 588,
+      "incidentType": "shot"
+    }
+  ]
+}

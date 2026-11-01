@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Giovanni Simeone",
+        "slug": "giovanni-simeone",
+        "shortName": "G. Simeone",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 9801,
+        "gender": "M",
+        "sofascoreId": "simeonegiovanni",
+        "id": 341143,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيوفاني سيميوني",
+            "bn": "জন সিমিওন",
+            "hi": "जियोवानी शिमोन"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. سيميوني",
+            "bn": "জি. সিমিওন",
+            "hi": "जी. शिमोन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.5,
+        "y": 44,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 48.9,
+        "z": 0
+      },
+      "xg": 0.16754220426083,
+      "xgot": 0.14745135605335,
+      "goalkeeper": {
+        "name": "Maduka Okoye",
+        "firstName": "",
+        "lastName": "",
+        "slug": "maduka-okoye",
+        "shortName": "M. Okoye",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 2207,
+        "gender": "M",
+        "id": 891656,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مادوكا أوكوي",
+            "bn": "মাদুকা ওকয়ে",
+            "hi": "मदुका ओकोये"
+          },
+          "shortNameTranslation": {
+            "ar": "م. أوكوي",
+            "bn": "এম. ওকোয়ে",
+            "hi": "एम. ओकोये"
+          }
+        }
+      },
+      "id": 6471002,
+      "time": 34,
+      "timeSeconds": 1986,
+      "draw": {
+        "start": {
+          "x": 44,
+          "y": 13.5
+        },
+        "block": {
+          "x": 48.9,
+          "y": 1.6
+        },
+        "end": {
+          "x": 48.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 714,
+      "periodTimeSeconds": 1986,
+      "incidentType": "shot"
+    }
+  ]
+}

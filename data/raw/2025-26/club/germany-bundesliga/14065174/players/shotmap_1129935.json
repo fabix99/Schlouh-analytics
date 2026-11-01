@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Tom Bischof",
+        "slug": "tom-bischof",
+        "shortName": "T. Bischof",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 6451,
+        "gender": "M",
+        "id": 1129935,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توم بيشوف",
+            "bn": "টম বিশফ",
+            "hi": "टॉम बिशॉफ़"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. بيشوف",
+            "bn": "টি. বিশফ.",
+            "hi": "टी. बिशॉफ़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.5,
+        "y": 29.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14.2,
+        "y": 36.5,
+        "z": 0
+      },
+      "xg": 0.033016581088305,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Daniel Batz",
+        "slug": "daniel-batz",
+        "shortName": "D. Batz",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 141,
+        "gender": "M",
+        "id": 94312,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دانيال باتز",
+            "bn": "ড্যানিয়েল বাটজ",
+            "hi": "डैनियल बैट्ज़"
+          },
+          "shortNameTranslation": {
+            "ar": "د. باتز",
+            "bn": "ডি. বাটজ",
+            "hi": "डी. बैट्ज़"
+          }
+        }
+      },
+      "id": 6349842,
+      "time": 53,
+      "timeSeconds": 3171,
+      "draw": {
+        "start": {
+          "x": 29.4,
+          "y": 21.5
+        },
+        "block": {
+          "x": 36.5,
+          "y": 14.2
+        },
+        "end": {
+          "x": 50.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2229,
+      "periodTimeSeconds": 471,
+      "incidentType": "shot"
+    }
+  ]
+}

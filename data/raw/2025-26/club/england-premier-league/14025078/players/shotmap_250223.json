@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "John McGinn",
+        "slug": "john-mcginn",
+        "shortName": "J. McGinn",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 3906,
+        "gender": "M",
+        "id": 250223,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جون ماكجين",
+            "bn": "জন ম্যাকগিন",
+            "hi": "जॉन मैकगिन"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ماكجين",
+            "bn": "জে. ম্যাকগিন",
+            "hi": "जे. मैकगिन"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.5,
+        "y": 70.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 55.5,
+        "z": 58.3
+      },
+      "xg": 0.033563997596502,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lucas Perri",
+        "firstName": "",
+        "lastName": "",
+        "slug": "lucas-perri",
+        "shortName": "L. Perri",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3487,
+        "gender": "M",
+        "id": 871290,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس بيري",
+            "bn": "লুকাস পেরি",
+            "hi": "लुकास पेरी"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. بيري",
+            "bn": "এল. পেরি",
+            "hi": "एल. पेरी"
+          }
+        }
+      },
+      "id": 6230021,
+      "time": 68,
+      "timeSeconds": 4027,
+      "draw": {
+        "start": {
+          "x": 70.3,
+          "y": 14.5
+        },
+        "end": {
+          "x": 44.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 44.5,
+          "y": 41.7
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1373,
+      "periodTimeSeconds": 1327,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Manuel Sánchez",
+        "slug": "manuel-sanchez",
+        "shortName": "M. Sánchez",
+        "position": "D",
+        "jerseyNumber": "23",
+        "userCount": 668,
+        "gender": "M",
+        "id": 984789,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل سانشيز",
+            "bn": "ম্যানুয়েল সানচেজ",
+            "hi": "मैनुअल सांचेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "م. سانشيز",
+            "bn": "এম. সানচেজ",
+            "hi": "एम. सांचेज़"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 7.6,
+        "y": 42.9,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.9,
+        "z": 27.8
+      },
+      "xg": 0.095436163246632,
+      "xgot": 0.20199017226696,
+      "goalkeeper": {
+        "name": "Jan Oblak",
+        "slug": "jan-oblak",
+        "shortName": "J. Oblak",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 12478,
+        "gender": "M",
+        "sofascoreId": "oblakjan",
+        "id": 69768,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يان أوبلاك",
+            "bn": "জন ওব্লাক",
+            "hi": "जान ओबलाक"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أوبلاك",
+            "bn": "জে. ওব্লাক",
+            "hi": "जे. ओबलाक"
+          }
+        }
+      },
+      "id": 6134295,
+      "time": 21,
+      "timeSeconds": 1235,
+      "draw": {
+        "start": {
+          "x": 42.9,
+          "y": 7.6
+        },
+        "end": {
+          "x": 47.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.1,
+          "y": 72.2
+        }
+      },
+      "reversedPeriodTime": 25,
+      "reversedPeriodTimeSeconds": 1465,
+      "periodTimeSeconds": 1235,
+      "incidentType": "shot"
+    }
+  ]
+}

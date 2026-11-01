@@ -1,0 +1,140 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Marc Guiu",
+        "slug": "guiu-marc",
+        "shortName": "M. Guiu",
+        "position": "F",
+        "jerseyNumber": "38",
+        "userCount": 28199,
+        "gender": "M",
+        "sofascoreId": "marcguiu9",
+        "id": 1414933,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غيو، مارك",
+            "bn": "গুইও, মার্ক",
+            "hi": "गुइउ, मार्क"
+          },
+          "shortNameTranslation": {
+            "ar": "م. غيو",
+            "bn": "এম. গুইউ",
+            "hi": "एम. ग़ूइउ"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 7.6,
+        "y": 52.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.4,
+        "z": 8.9
+      },
+      "xg": 0.41492006182671,
+      "xgot": 0.22214925289154,
+      "id": 6001365,
+      "time": 18,
+      "timeSeconds": 1040,
+      "draw": {
+        "start": {
+          "x": 52.4,
+          "y": 7.6
+        },
+        "end": {
+          "x": 49.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.6,
+          "y": 91.1
+        }
+      },
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1660,
+      "periodTimeSeconds": 1040,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Marc Guiu",
+        "slug": "guiu-marc",
+        "shortName": "M. Guiu",
+        "position": "F",
+        "jerseyNumber": "38",
+        "userCount": 28199,
+        "gender": "M",
+        "sofascoreId": "marcguiu9",
+        "id": 1414933,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غيو، مارك",
+            "bn": "গুইও, মার্ক",
+            "hi": "गुइउ, मार्क"
+          },
+          "shortNameTranslation": {
+            "ar": "م. غيو",
+            "bn": "এম. গুইউ",
+            "hi": "एम. ग़ूइउ"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.4,
+        "y": 65.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.1,
+        "z": 5.1
+      },
+      "blockCoordinates": {
+        "x": 9.9,
+        "y": 63,
+        "z": 0
+      },
+      "xg": 0.23776780068874,
+      "xgot": 0.58496713638306,
+      "id": 6001250,
+      "time": 13,
+      "timeSeconds": 754,
+      "draw": {
+        "start": {
+          "x": 65.2,
+          "y": 11.4
+        },
+        "block": {
+          "x": 63,
+          "y": 9.9
+        },
+        "end": {
+          "x": 52.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.9,
+          "y": 94.9
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1946,
+      "periodTimeSeconds": 754,
+      "incidentType": "shot"
+    }
+  ]
+}

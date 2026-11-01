@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Christian Eriksen",
+        "slug": "christian-eriksen",
+        "shortName": "C. Eriksen",
+        "position": "M",
+        "jerseyNumber": "24",
+        "userCount": 20258,
+        "gender": "M",
+        "sofascoreId": "chriseriksen8",
+        "id": 105734,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستيان إريكسن",
+            "bn": "ক্রিশ্চিয়ান এরিকসেন",
+            "hi": "क्रिस्टियन एरिक्सन"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. إريكسن",
+            "bn": "সি. এরিকসেন",
+            "hi": "सी. एरिक्सन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 26.6,
+        "y": 61.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 38.5,
+        "z": 4.2
+      },
+      "blockCoordinates": {
+        "x": 15.9,
+        "y": 61.4,
+        "z": 0
+      },
+      "xg": 0.027254255488515,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Noah Atubolu",
+        "slug": "noah-atubolu",
+        "shortName": "N. Atubolu",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1863,
+        "gender": "M",
+        "id": 980626,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نواه أتوبولو",
+            "bn": "নোয়া আতুবোলু",
+            "hi": "नोआ अतुबोलू"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. أتوبولو",
+            "bn": "এন. আতুবোলু",
+            "hi": "ओ. कैमारा"
+          }
+        }
+      },
+      "id": 6383699,
+      "time": 20,
+      "timeSeconds": 1181,
+      "draw": {
+        "start": {
+          "x": 61.3,
+          "y": 26.6
+        },
+        "block": {
+          "x": 61.4,
+          "y": 15.9
+        },
+        "end": {
+          "x": 61.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 61.5,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1519,
+      "periodTimeSeconds": 1181,
+      "incidentType": "shot"
+    }
+  ]
+}

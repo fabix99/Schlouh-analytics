@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Alexander Prass",
+        "slug": "alexander-prass",
+        "shortName": "A. Prass",
+        "position": "M",
+        "jerseyNumber": "22",
+        "userCount": 649,
+        "gender": "M",
+        "id": 978062,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر براس",
+            "bn": "আলেকজান্ডার প্রস",
+            "hi": "अलेक्जेंडर प्रस"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. براس",
+            "bn": "এ. প্রস",
+            "hi": "ए. प्रस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 24.6,
+        "y": 25.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14.9,
+        "y": 35.7,
+        "z": 0
+      },
+      "xg": 0.031184999272227,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Péter Gulácsi",
+        "slug": "peter-gulacsi",
+        "shortName": "P. Gulácsi",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2336,
+        "gender": "M",
+        "id": 37096,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيتر غولاتشي",
+            "bn": "পিটার গুলাসি",
+            "hi": "पीटर गुलासी"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غولاتشي",
+            "bn": "পি. গুলাসি",
+            "hi": "पी. गुलासी"
+          }
+        }
+      },
+      "id": 6132343,
+      "time": 88,
+      "timeSeconds": 5262,
+      "draw": {
+        "start": {
+          "x": 25.2,
+          "y": 24.6
+        },
+        "block": {
+          "x": 35.7,
+          "y": 14.9
+        },
+        "end": {
+          "x": 48.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 138,
+      "periodTimeSeconds": 2562,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ryan Sessegnon",
+        "slug": "ryan-sessegnon",
+        "shortName": "R. Sessegnon",
+        "position": "D",
+        "jerseyNumber": "30",
+        "userCount": 1747,
+        "gender": "M",
+        "id": 836698,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريان سيسينيون",
+            "bn": "রায়ান সেসেগনন",
+            "hi": "रयान सेसेग्नन"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. سيسينيون",
+            "bn": "আর. সেসেগনন",
+            "hi": "आर. सेसेग्नन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 5.5,
+        "y": 34.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 4.4,
+        "y": 36.8,
+        "z": 0
+      },
+      "xg": 0.040519710630178,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gianluigi Donnarumma",
+        "slug": "gianluigi-donnarumma",
+        "shortName": "G. Donnarumma",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 70233,
+        "gender": "M",
+        "sofascoreId": "donnarumma",
+        "id": 824509,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيانلويجي دوناروما",
+            "bn": "জিয়ানলুইগি ডোনারুম্মা",
+            "hi": "जियानलुइगी डोनारुम्मा"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. دوناروما",
+            "bn": "জি. ডোনারুম্মা",
+            "hi": "जी. डोनारुम्मा"
+          }
+        }
+      },
+      "id": 6288027,
+      "time": 90,
+      "addedTime": 9,
+      "timeSeconds": 5911,
+      "draw": {
+        "start": {
+          "x": 34.2,
+          "y": 5.5
+        },
+        "block": {
+          "x": 36.8,
+          "y": 4.4
+        },
+        "end": {
+          "x": 47.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 389,
+      "periodTimeSeconds": 511,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Carlens Arcus",
+        "slug": "carlens-arcus",
+        "shortName": "C. Arcus",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 5902,
+        "gender": "M",
+        "id": 794373,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلينس أركوس",
+            "bn": "কার্লেনস আর্কাস",
+            "hi": "कार्लेंस आर्कस"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. أركوس",
+            "bn": "সি. আর্কাস",
+            "hi": "सी. आर्कस"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 19.7,
+        "y": 73.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 16.2,
+        "y": 69.5,
+        "z": 0
+      },
+      "xg": 0.031331811100245,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Berke Özer",
+        "slug": "berke-ozer",
+        "shortName": "B. Özer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3075,
+        "gender": "M",
+        "id": 847494,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيرك أوزير",
+            "bn": "বার্ক ওজার",
+            "hi": "बर्क ओज़र"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. أوزير",
+            "bn": "বি. ওজার",
+            "hi": "बी. ओज़र"
+          }
+        }
+      },
+      "id": 6091879,
+      "time": 39,
+      "timeSeconds": 2323,
+      "draw": {
+        "start": {
+          "x": 73.5,
+          "y": 19.7
+        },
+        "block": {
+          "x": 69.5,
+          "y": 16.2
+        },
+        "end": {
+          "x": 51.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 377,
+      "periodTimeSeconds": 2323,
+      "incidentType": "shot"
+    }
+  ]
+}

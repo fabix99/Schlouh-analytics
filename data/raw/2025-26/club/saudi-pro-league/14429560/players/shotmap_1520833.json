@@ -1,0 +1,92 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sultan Tanker",
+        "firstName": "Sultan Tanker",
+        "slug": "sultan-tanker",
+        "shortName": "S. Tanker",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 37,
+        "gender": "M",
+        "id": 1520833,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سلطان تانكير",
+            "bn": "সুলতান ট্যাঙ্কার",
+            "hi": "सुल्तान टैंकर"
+          },
+          "shortNameTranslation": {
+            "ar": "س. تانكير",
+            "bn": "এস. ট্যাঙ্কার",
+            "hi": "एस. टैंकर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 9,
+        "y": 54.6,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 57.6,
+        "z": 20.8
+      },
+      "xg": 0.13630390167236,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Edouard Mendy",
+        "firstName": "",
+        "lastName": "",
+        "slug": "edouard-mendy",
+        "shortName": "E. Mendy",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 19645,
+        "gender": "M",
+        "sofascoreId": "edou_mendy",
+        "id": 845074,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إدوارد ميندي",
+            "bn": "এডোয়ার্ড মেন্ডি",
+            "hi": "एडौर्ड मेंडी"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ميندي",
+            "bn": "ই. মেন্ডি",
+            "hi": "ई. मेंडी"
+          }
+        }
+      },
+      "id": 5767407,
+      "time": 21,
+      "timeSeconds": 1252,
+      "draw": {
+        "start": {
+          "x": 54.6,
+          "y": 9
+        },
+        "end": {
+          "x": 42.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 42.4,
+          "y": 79.2
+        }
+      },
+      "reversedPeriodTime": 25,
+      "reversedPeriodTimeSeconds": 1448,
+      "periodTimeSeconds": 1252,
+      "incidentType": "shot"
+    }
+  ]
+}

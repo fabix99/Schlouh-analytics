@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Curtis Jones",
+        "firstName": "",
+        "lastName": "",
+        "slug": "curtis-jones",
+        "shortName": "C. Jones",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 17539,
+        "gender": "M",
+        "sofascoreId": "curtisjones",
+        "id": 927353,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيرتس جونز",
+            "bn": "কার্টিস জোন্স",
+            "hi": "कर्टिस जोन्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. جونز",
+            "bn": "সি. জোন্স",
+            "hi": "सी. जोन्स"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 21.6,
+        "y": 57.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.8,
+        "z": 68.1
+      },
+      "xg": 0.036446072161198,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matz Sels",
+        "slug": "matz-sels",
+        "shortName": "M. Sels",
+        "position": "G",
+        "jerseyNumber": "26",
+        "userCount": 2416,
+        "gender": "M",
+        "id": 78152,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتس سيلس",
+            "bn": "ম্যাটজ সেলস",
+            "hi": "मैट्ज़ सेल्स"
+          },
+          "shortNameTranslation": {
+            "ar": "م. سيلس",
+            "bn": "এম. সেলস",
+            "hi": "एम. सेल्स"
+          }
+        }
+      },
+      "id": 6220149,
+      "time": 25,
+      "timeSeconds": 1475,
+      "draw": {
+        "start": {
+          "x": 57.3,
+          "y": 21.6
+        },
+        "end": {
+          "x": 45.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.2,
+          "y": 31.9
+        }
+      },
+      "reversedPeriodTime": 21,
+      "reversedPeriodTimeSeconds": 1225,
+      "periodTimeSeconds": 1475,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "passes": [
+    {
+      "playerCoordinates": {
+        "x": 15.2,
+        "y": 18
+      },
+      "passEndCoordinates": {
+        "x": 37.4,
+        "y": 68.8
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false,
+      "isLongBall": true
+    },
+    {
+      "playerCoordinates": {
+        "x": 93.5,
+        "y": 26
+      },
+      "passEndCoordinates": {
+        "x": 93.7,
+        "y": 28.4
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 99.7,
+        "y": 0.7
+      },
+      "passEndCoordinates": {
+        "x": 91.3,
+        "y": 54.8
+      },
+      "eventActionType": "cross",
+      "isHome": true,
+      "outcome": true,
+      "keypass": true,
+      "isLongBall": true
+    },
+    {
+      "playerCoordinates": {
+        "x": 71.3,
+        "y": 7.1
+      },
+      "passEndCoordinates": {
+        "x": 68.4,
+        "y": 8.2
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 79.4,
+        "y": 15
+      },
+      "passEndCoordinates": {
+        "x": 87.7,
+        "y": 19.8
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "dribbles": [
+    {
+      "playerCoordinates": {
+        "x": 80.4,
+        "y": 6.6
+      },
+      "eventActionType": "dribble",
+      "isHome": true,
+      "keypass": false
+    }
+  ],
+  "defensive": [
+    {
+      "playerCoordinates": {
+        "x": 8.7,
+        "y": 31.1
+      },
+      "eventActionType": "ball-recovery",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 31.6,
+        "y": 5.2
+      },
+      "eventActionType": "tackle",
+      "isHome": true,
+      "keypass": false
+    }
+  ],
+  "ball-carries": []
+}

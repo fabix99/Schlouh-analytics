@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Conor Bradley",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bradley-conor",
+        "shortName": "C. Bradley",
+        "position": "D",
+        "jerseyNumber": "12",
+        "userCount": 15951,
+        "gender": "M",
+        "sofascoreId": "conorbradley03",
+        "id": 1008402,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برادلي، كونور",
+            "bn": "ব্র্যাডলি, কনর",
+            "hi": "ब्रैडली, कॉनर"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. برادلي",
+            "bn": "সি. ব্র্যাডলি",
+            "hi": "सी. ब्रैडली"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 5.2,
+        "y": 66.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.7,
+        "z": 13.9
+      },
+      "blockCoordinates": {
+        "x": 0.5,
+        "y": 54.5,
+        "z": 0
+      },
+      "xg": 0.050713948905468,
+      "xgot": 0.088049732148647,
+      "goalkeeper": {
+        "name": "Yann Sommer",
+        "slug": "yann-sommer",
+        "shortName": "Y. Sommer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 12623,
+        "gender": "M",
+        "sofascoreId": "yannsommer",
+        "id": 16206,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يان زومر",
+            "bn": "জন সোমার",
+            "hi": "यान सोमर"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. زومر",
+            "bn": "ওয়াই. সোমার",
+            "hi": "वाई. सोमर"
+          }
+        }
+      },
+      "id": 6325878,
+      "time": 80,
+      "timeSeconds": 4792,
+      "draw": {
+        "start": {
+          "x": 66.8,
+          "y": 5.2
+        },
+        "block": {
+          "x": 54.5,
+          "y": 0.5
+        },
+        "end": {
+          "x": 52.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.3,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 608,
+      "periodTimeSeconds": 2092,
+      "incidentType": "shot"
+    }
+  ]
+}

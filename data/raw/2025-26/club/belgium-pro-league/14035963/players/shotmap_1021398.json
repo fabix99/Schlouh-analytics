@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "David Toshevski",
+        "slug": "david-tosevski",
+        "shortName": "D. Toševski",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 144,
+        "id": 1021398,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد توشيفسكي",
+            "bn": "ডেভিড তোশেভস্কি",
+            "hi": "डेविड टॉस्ज़वेस्की"
+          },
+          "shortNameTranslation": {
+            "ar": "د. توشيفسكي",
+            "bn": "ডি. তোশেভস্কি",
+            "hi": "डी. टॉस्ज़वेस्की"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 7.3,
+        "y": 50.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 2.7,
+        "z": 9.7
+      },
+      "blockCoordinates": {
+        "x": 2.7,
+        "y": 93.9,
+        "z": 0
+      },
+      "xg": 0.12276937067509,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Dani van den Heuvel",
+        "firstName": "Dani van den Heuvel",
+        "lastName": "",
+        "slug": "dani-van-den-heuvel",
+        "shortName": "D. v. d. Heuvel",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 386,
+        "gender": "M",
+        "id": 1049432,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "Van Den Heuvel, Tristan"
+          },
+          "shortNameTranslation": {
+            "ar": "T. V. D. Heuvel"
+          }
+        }
+      },
+      "id": 6349021,
+      "time": 42,
+      "timeSeconds": 2501,
+      "draw": {
+        "start": {
+          "x": 50.5,
+          "y": 7.3
+        },
+        "block": {
+          "x": 93.9,
+          "y": 2.7
+        },
+        "end": {
+          "x": 97.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 97.3,
+          "y": 90.3
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 199,
+      "periodTimeSeconds": 2501,
+      "incidentType": "shot"
+    }
+  ]
+}

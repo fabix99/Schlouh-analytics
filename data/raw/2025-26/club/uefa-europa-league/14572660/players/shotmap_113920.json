@@ -1,0 +1,75 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Stefan Lainer",
+        "slug": "stefan-lainer",
+        "shortName": "S. Lainer",
+        "position": "D",
+        "jerseyNumber": "22",
+        "userCount": 448,
+        "gender": "M",
+        "id": 113920,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستيفان لاينر",
+            "bn": "স্টেফান লাইনার",
+            "hi": "स्टीफन लैनर"
+          },
+          "shortNameTranslation": {
+            "ar": "س. لاينر",
+            "bn": "এস. লাইনার",
+            "hi": "एस. लैनर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 13.6,
+        "y": 65,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.5,
+        "y": 62.6,
+        "z": 0
+      },
+      "xg": 0.044011928141117,
+      "xgot": 0,
+      "id": 6009007,
+      "time": 89,
+      "timeSeconds": 5293,
+      "draw": {
+        "start": {
+          "x": 65,
+          "y": 13.6
+        },
+        "block": {
+          "x": 62.6,
+          "y": 11.5
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 107,
+      "periodTimeSeconds": 2593,
+      "incidentType": "shot"
+    }
+  ]
+}

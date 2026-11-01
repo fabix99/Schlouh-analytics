@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Éderson",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ederson",
+        "shortName": "Éderson",
+        "position": "M",
+        "jerseyNumber": "13",
+        "userCount": 7756,
+        "gender": "M",
+        "sofascoreId": "ederson99",
+        "id": 946888,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيدرسون",
+            "bn": "এডারসন",
+            "hi": "एडरसन"
+          },
+          "shortNameTranslation": {
+            "ar": "إيدرسون",
+            "bn": "এডারসন",
+            "hi": "एडरसन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.7,
+        "y": 48.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 1.9
+      },
+      "blockCoordinates": {
+        "x": 1.8,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.097811482846737,
+      "xgot": 0.042168524116278,
+      "goalkeeper": {
+        "name": "Ivan Provedel",
+        "slug": "ivan-provedel",
+        "shortName": "I. Provedel",
+        "position": "G",
+        "jerseyNumber": "94",
+        "userCount": 1866,
+        "gender": "M",
+        "id": 308182,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفان بروفيديل",
+            "bn": "ইভান প্রোভেডেল",
+            "hi": "इवान प्रोवेडेल"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. بروفيديل",
+            "bn": "আই. প্রোভেডেল",
+            "hi": "आई. प्रोवेडेल"
+          }
+        }
+      },
+      "id": 5977418,
+      "time": 57,
+      "timeSeconds": 3375,
+      "draw": {
+        "start": {
+          "x": 48.3,
+          "y": 18.7
+        },
+        "block": {
+          "x": 49.8,
+          "y": 1.8
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2025,
+      "periodTimeSeconds": 675,
+      "incidentType": "shot"
+    }
+  ]
+}

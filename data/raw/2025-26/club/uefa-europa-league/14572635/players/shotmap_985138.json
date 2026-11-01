@@ -1,0 +1,184 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Francisco Moura",
+        "slug": "francisco-moura",
+        "shortName": "F. Moura",
+        "position": "D",
+        "jerseyNumber": "74",
+        "userCount": 1222,
+        "gender": "M",
+        "id": 985138,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فرانسيسكو مورا",
+            "bn": "ফ্রান্সিসকো মৌরা",
+            "hi": "फ्रांसिस्को मौरा"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. مورا",
+            "bn": "এফ. মৌরা",
+            "hi": "एफ. मौरा"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "own",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 1.1,
+        "y": 53.4,
+        "z": 0
+      },
+      "bodyPart": "other",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.5,
+        "z": 8.2
+      },
+      "goalkeeper": {
+        "name": "Diogo Costa",
+        "slug": "diogo-costa",
+        "shortName": "D. Costa",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 12715,
+        "gender": "M",
+        "sofascoreId": "diogomcosta99",
+        "id": 843115,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديوغو كوستا",
+            "bn": "ডিয়োগো কোস্টা",
+            "hi": "डिओगो कोस्टा"
+          },
+          "shortNameTranslation": {
+            "ar": "د. كوستا",
+            "bn": "ডি. কোস্টা",
+            "hi": "डी. कोस्टा"
+          }
+        }
+      },
+      "id": 6335390,
+      "time": 90,
+      "addedTime": 4,
+      "timeSeconds": 5638,
+      "draw": {
+        "start": {
+          "x": 53.4,
+          "y": 1.1
+        },
+        "end": {
+          "x": 53.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.5,
+          "y": 91.8
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 662,
+      "periodTimeSeconds": 238,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Francisco Moura",
+        "slug": "francisco-moura",
+        "shortName": "F. Moura",
+        "position": "D",
+        "jerseyNumber": "74",
+        "userCount": 1222,
+        "gender": "M",
+        "id": 985138,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فرانسيسكو مورا",
+            "bn": "ফ্রান্সিসকো মৌরা",
+            "hi": "फ्रांसिस्को मौरा"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. مورا",
+            "bn": "এফ. মৌরা",
+            "hi": "एफ. मौरा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.2,
+        "y": 47.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 43.5,
+        "z": 9.7
+      },
+      "blockCoordinates": {
+        "x": 4.6,
+        "y": 54,
+        "z": 0
+      },
+      "xg": 0.018093913793564,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Robin Olsen",
+        "firstName": "",
+        "lastName": "",
+        "slug": "robin-olsen",
+        "shortName": "R. Olsen",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 1267,
+        "gender": "M",
+        "id": 26025,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبين أولسن",
+            "bn": "রবিন ওলসেন",
+            "hi": "रॉबिन ओल्सन"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. أولسن",
+            "bn": "আর. ওলসেন",
+            "hi": "आर. ओल्सन"
+          }
+        }
+      },
+      "id": 6335151,
+      "time": 68,
+      "timeSeconds": 4036,
+      "draw": {
+        "start": {
+          "x": 47.2,
+          "y": 14.2
+        },
+        "block": {
+          "x": 54,
+          "y": 4.6
+        },
+        "end": {
+          "x": 56.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 56.5,
+          "y": 90.3
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1364,
+      "periodTimeSeconds": 1336,
+      "incidentType": "shot"
+    }
+  ]
+}

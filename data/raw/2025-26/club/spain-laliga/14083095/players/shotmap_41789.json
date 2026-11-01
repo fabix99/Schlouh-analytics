@@ -1,0 +1,76 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Robert Lewandowski",
+        "slug": "robert-lewandowski",
+        "shortName": "R. Lewandowski",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 579121,
+        "gender": "M",
+        "sofascoreId": "Lewa",
+        "id": 41789,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبرت ليفاندوفسكي",
+            "bn": "রবার্ট লেভান্ডোস্কি",
+            "hi": "रॉबर्ट लेवानडॉस्की"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ليفاندوفسكي",
+            "bn": "আর. লেভান্ডোস্কি",
+            "hi": "आर. लेवानडॉस्की"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 5.8,
+        "y": 68.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 4.4,
+        "y": 64.6,
+        "z": 0
+      },
+      "xg": 0.06794723123312,
+      "xgot": 0,
+      "id": 6093735,
+      "time": 86,
+      "timeSeconds": 5124,
+      "draw": {
+        "start": {
+          "x": 68.3,
+          "y": 5.8
+        },
+        "block": {
+          "x": 64.6,
+          "y": 4.4
+        },
+        "end": {
+          "x": 53.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 276,
+      "periodTimeSeconds": 2424,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "passes": [
+    {
+      "playerCoordinates": {
+        "x": 39,
+        "y": 21.3
+      },
+      "passEndCoordinates": {
+        "x": 37.8,
+        "y": 13.9
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 98.1,
+        "y": 34.1
+      },
+      "passEndCoordinates": {
+        "x": 96,
+        "y": 44.8
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 91.2,
+        "y": 5.2
+      },
+      "passEndCoordinates": {
+        "x": 76.8,
+        "y": 15.3
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 89.6,
+        "y": 10.9
+      },
+      "passEndCoordinates": {
+        "x": 83.8,
+        "y": 16.3
+      },
+      "eventActionType": "pass",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "dribbles": [
+    {
+      "playerCoordinates": {
+        "x": 69,
+        "y": 11
+      },
+      "eventActionType": "dribble",
+      "isHome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 75.7,
+        "y": 12.2
+      },
+      "eventActionType": "dribble",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "defensive": [
+    {
+      "playerCoordinates": {
+        "x": 16.3,
+        "y": 43.9
+      },
+      "eventActionType": "block",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 10.4,
+        "y": 15.1
+      },
+      "passEndCoordinates": {
+        "x": 13.2,
+        "y": 0
+      },
+      "eventActionType": "clearance",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    },
+    {
+      "playerCoordinates": {
+        "x": 71.2,
+        "y": 11.1
+      },
+      "eventActionType": "tackle",
+      "isHome": true,
+      "outcome": true,
+      "keypass": false
+    }
+  ],
+  "ball-carries": []
+}

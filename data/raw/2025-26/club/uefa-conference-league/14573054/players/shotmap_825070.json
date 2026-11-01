@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Danijel Šturm",
+        "slug": "danijel-sturm",
+        "shortName": "D. Šturm",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 227,
+        "gender": "M",
+        "id": 825070,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دانيجيل شتورم",
+            "bn": "ড্যানিয়েল স্টর্ম",
+            "hi": "डेनियल स्टुरम"
+          },
+          "shortNameTranslation": {
+            "ar": "د. شتورم",
+            "bn": "ডি. স্টর্ম",
+            "hi": "डी. स्टुरम"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 11.2,
+        "y": 36,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.7,
+        "y": 37.7,
+        "z": 0
+      },
+      "xg": 0.086697548627853,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kacper Tobiasz",
+        "firstName": "",
+        "lastName": "",
+        "slug": "kacper-tobiasz",
+        "shortName": "K. Tobiasz",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 837,
+        "gender": "M",
+        "id": 1083777,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاكبر توبياز",
+            "bn": "ক্যাকপার টোবিয়াজ",
+            "hi": "कास्पर टोबियाज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. توبياز",
+            "bn": "কে. টোবিয়াজ",
+            "hi": "के. टोबियाज़"
+          }
+        }
+      },
+      "id": 6120841,
+      "time": 90,
+      "addedTime": 4,
+      "timeSeconds": 5583,
+      "draw": {
+        "start": {
+          "x": 36,
+          "y": 11.2
+        },
+        "block": {
+          "x": 37.7,
+          "y": 9.7
+        },
+        "end": {
+          "x": 48.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 717,
+      "periodTimeSeconds": 183,
+      "incidentType": "shot"
+    }
+  ]
+}

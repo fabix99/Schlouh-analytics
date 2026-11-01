@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mourad Batna",
+        "slug": "batna-mourad",
+        "shortName": "M. Batna",
+        "position": "M",
+        "jerseyNumber": "11",
+        "userCount": 1253,
+        "gender": "M",
+        "id": 880790,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باتنا، مراد",
+            "bn": "বাতনা, মুরাদ",
+            "hi": "बटना, मौराड"
+          },
+          "shortNameTranslation": {
+            "ar": "م. باتنا",
+            "bn": "এম. বাতনা",
+            "hi": "एम. बटना"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 22,
+        "y": 56.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.1,
+        "y": 53.4,
+        "z": 0
+      },
+      "xg": 0.11262671649456,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Marcelo Grohe",
+        "slug": "marcelo-grohe",
+        "shortName": "M. Grohe",
+        "position": "G",
+        "jerseyNumber": "43",
+        "userCount": 627,
+        "gender": "M",
+        "id": 39427,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارسيلو غروهي",
+            "bn": "মার্সেলো গ্রোহে",
+            "hi": "मार्सेलो ग्रोहे"
+          },
+          "shortNameTranslation": {
+            "ar": "م. غروهي",
+            "bn": "এম. গ্রোহে",
+            "hi": "एम. ग्रोहे"
+          }
+        }
+      },
+      "id": 6446933,
+      "time": 64,
+      "timeSeconds": 3834,
+      "draw": {
+        "start": {
+          "x": 56.1,
+          "y": 22
+        },
+        "block": {
+          "x": 53.4,
+          "y": 13.1
+        },
+        "end": {
+          "x": 49.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1566,
+      "periodTimeSeconds": 1134,
+      "incidentType": "shot"
+    }
+  ]
+}

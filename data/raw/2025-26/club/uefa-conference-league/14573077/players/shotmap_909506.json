@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jaakko Oksanen",
+        "slug": "oksanen-jaakko",
+        "shortName": "J. Oksanen",
+        "position": "M",
+        "jerseyNumber": "13",
+        "userCount": 206,
+        "gender": "M",
+        "id": 909506,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوكسينن، ياكو",
+            "bn": "ওক্সানেন, জাক্কো",
+            "hi": "ओक्सानेन, जाक्को"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أوكسينن",
+            "bn": "জে. ওক্সানেন",
+            "hi": "जे. ओक्सानेन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 24.4,
+        "y": 69.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.9,
+        "y": 61.7,
+        "z": 0
+      },
+      "xg": 0.036722358316183,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Karlo Letica",
+        "slug": "karlo-letica",
+        "shortName": "K. Letica",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 512,
+        "gender": "M",
+        "id": 827372,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلو ليتيسا",
+            "bn": "কার্লো লেটিকা",
+            "hi": "कार्लो लेटिका"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. ليتيسا",
+            "bn": "কে. লেটিকা",
+            "hi": "के. लेटिका"
+          }
+        }
+      },
+      "id": 6334478,
+      "time": 40,
+      "timeSeconds": 2361,
+      "draw": {
+        "start": {
+          "x": 69.5,
+          "y": 24.4
+        },
+        "block": {
+          "x": 61.7,
+          "y": 15.9
+        },
+        "end": {
+          "x": 47.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 339,
+      "periodTimeSeconds": 2361,
+      "incidentType": "shot"
+    }
+  ]
+}

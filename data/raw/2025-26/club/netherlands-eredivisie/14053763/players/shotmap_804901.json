@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sam Lammers",
+        "slug": "sam-lammers",
+        "shortName": "S. Lammers",
+        "position": "F",
+        "jerseyNumber": "10",
+        "userCount": 848,
+        "gender": "M",
+        "id": 804901,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سام لامرز",
+            "bn": "স্যাম ল্যামারস",
+            "hi": "सैम लेमर्स"
+          },
+          "shortNameTranslation": {
+            "ar": "س. لامرز",
+            "bn": "এস. ল্যামার্স",
+            "hi": "एस. लेमर्स"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.5,
+        "y": 53.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 98.8,
+        "z": 8.3
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 19.3,
+        "z": 0
+      },
+      "xg": 0.11539690196514,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Tom de Graaff",
+        "firstName": "Tom",
+        "lastName": "de Graaff",
+        "slug": "tom-de-graaff",
+        "shortName": "T. d. Graaff",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 183,
+        "gender": "M",
+        "id": 1145525,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توم دي غراف",
+            "bn": "টম ডি গ্রাফ",
+            "hi": "टॉम डी ग्रेफ़"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. د. غراف",
+            "bn": "টি. ডি. গ্রাফ",
+            "hi": "टी. डी ग्रेफ"
+          }
+        }
+      },
+      "id": 6486773,
+      "time": 44,
+      "timeSeconds": 2637,
+      "draw": {
+        "start": {
+          "x": 53.6,
+          "y": 9.5
+        },
+        "block": {
+          "x": 19.3,
+          "y": 1.1
+        },
+        "end": {
+          "x": 1.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 1.2,
+          "y": 91.7
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 63,
+      "periodTimeSeconds": 2637,
+      "incidentType": "shot"
+    }
+  ]
+}

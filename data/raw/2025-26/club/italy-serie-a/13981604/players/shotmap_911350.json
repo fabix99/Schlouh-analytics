@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Lameck Banda",
+        "firstName": "",
+        "lastName": "",
+        "slug": "lameck-banda",
+        "shortName": "L. Banda",
+        "position": "M",
+        "jerseyNumber": "19",
+        "userCount": 5135,
+        "gender": "M",
+        "sofascoreId": "lameckbanda.10",
+        "id": 911350,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لاميك باندا",
+            "bn": "লেমেক বান্দা",
+            "hi": "लैमेक बांदा"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. باندا",
+            "bn": "এল. বান্দা",
+            "hi": "एल. बांदा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 21.2,
+        "y": 61.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 19.2,
+        "y": 60.5,
+        "z": 0
+      },
+      "xg": 0.041508015245199,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mile Svilar",
+        "slug": "svilar-mile",
+        "shortName": "M. Svilar",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 4563,
+        "gender": "M",
+        "id": 793986,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سفيلار، ميل",
+            "bn": "স্বিলার, মাইল",
+            "hi": "स्विलर, माइल"
+          },
+          "shortNameTranslation": {
+            "ar": "م. سفيلار",
+            "bn": "এম. স্বিলার",
+            "hi": "एम. स्विलर"
+          }
+        }
+      },
+      "id": 6467320,
+      "time": 25,
+      "timeSeconds": 1496,
+      "draw": {
+        "start": {
+          "x": 61.4,
+          "y": 21.2
+        },
+        "block": {
+          "x": 60.5,
+          "y": 19.2
+        },
+        "end": {
+          "x": 51.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 21,
+      "reversedPeriodTimeSeconds": 1204,
+      "periodTimeSeconds": 1496,
+      "incidentType": "shot"
+    }
+  ]
+}

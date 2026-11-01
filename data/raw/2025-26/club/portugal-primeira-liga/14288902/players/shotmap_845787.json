@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Luquinhas",
+        "slug": "luquinhas",
+        "shortName": "Luquinhas",
+        "position": "M",
+        "jerseyNumber": "82",
+        "userCount": 496,
+        "gender": "M",
+        "id": 845787,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكيناس",
+            "bn": "লুকুইনহাস",
+            "hi": "लुक्विन्हास"
+          },
+          "shortNameTranslation": {
+            "ar": "لوكيناس",
+            "bn": "লুকুইনহাস",
+            "hi": "लुक्विन्हास"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.5,
+        "y": 40.9,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 24.5,
+        "z": 13.9
+      },
+      "blockCoordinates": {
+        "x": 8.6,
+        "y": 50,
+        "z": 0
+      },
+      "xg": 0.017629088833928,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nico Mantl",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nico-mantl",
+        "shortName": "N. Mantl",
+        "position": "G",
+        "jerseyNumber": "58",
+        "userCount": 154,
+        "gender": "M",
+        "id": 888592,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكو مانتل",
+            "bn": "নিকো ম্যান্টল",
+            "hi": "निको मेंटल"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. مانتل",
+            "bn": "এন. মান্টল",
+            "hi": "एन. मेंटल"
+          }
+        }
+      },
+      "id": 6392332,
+      "time": 69,
+      "timeSeconds": 4111,
+      "draw": {
+        "start": {
+          "x": 40.9,
+          "y": 12.5
+        },
+        "block": {
+          "x": 50,
+          "y": 8.6
+        },
+        "end": {
+          "x": 75.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 75.5,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 22,
+      "reversedPeriodTimeSeconds": 1289,
+      "periodTimeSeconds": 1411,
+      "incidentType": "shot"
+    }
+  ]
+}

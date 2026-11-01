@@ -1,0 +1,130 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Cláudio Winck",
+        "slug": "claudio-winck",
+        "shortName": "C. Winck",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 177,
+        "gender": "M",
+        "id": 155998,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كلوديو وينك"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. وينك"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.7,
+        "y": 52.6,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.9,
+        "z": 5.7
+      },
+      "xg": 0.047956131398678,
+      "xgot": 0.067169569432735,
+      "id": 6036654,
+      "time": 33,
+      "timeSeconds": 1921,
+      "draw": {
+        "start": {
+          "x": 52.6,
+          "y": 9.7
+        },
+        "end": {
+          "x": 53.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.1,
+          "y": 94.3
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 779,
+      "periodTimeSeconds": 1921,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Cláudio Winck",
+        "slug": "claudio-winck",
+        "shortName": "C. Winck",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 177,
+        "gender": "M",
+        "id": 155998,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كلوديو وينك"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. وينك"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 26.4,
+        "y": 51.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 22.3,
+        "y": 51.4,
+        "z": 0
+      },
+      "xg": 0.06117007881403,
+      "xgot": 0,
+      "id": 6036480,
+      "time": 16,
+      "timeSeconds": 951,
+      "draw": {
+        "start": {
+          "x": 51.5,
+          "y": 26.4
+        },
+        "block": {
+          "x": 51.4,
+          "y": 22.3
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1749,
+      "periodTimeSeconds": 951,
+      "incidentType": "shot"
+    }
+  ]
+}

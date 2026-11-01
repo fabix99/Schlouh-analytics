@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Harrison Reed",
+        "slug": "harrison-reed",
+        "shortName": "H. Reed",
+        "position": "M",
+        "jerseyNumber": "6",
+        "userCount": 370,
+        "gender": "M",
+        "id": 365802,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هاريسون ريد",
+            "bn": "হ্যারিসন রিড",
+            "hi": "हैरिसन रीड"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. ريد",
+            "bn": "এইচ. রিড",
+            "hi": "एच. रीड"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 22.6,
+        "y": 31.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.8,
+        "z": 29.1
+      },
+      "xg": 0.030064644291997,
+      "xgot": 0.61409157514572,
+      "goalkeeper": {
+        "name": "Alisson",
+        "slug": "alisson",
+        "shortName": "Alisson",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 64024,
+        "gender": "M",
+        "sofascoreId": "AlissonBecker",
+        "id": 243609,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليسون",
+            "bn": "অ্যালিসন",
+            "hi": "एलिसन"
+          },
+          "shortNameTranslation": {
+            "ar": "أليسون",
+            "bn": "অ্যালিসন",
+            "hi": "एलिसन"
+          }
+        }
+      },
+      "id": 6454822,
+      "time": 90,
+      "addedTime": 7,
+      "timeSeconds": 5776,
+      "draw": {
+        "start": {
+          "x": 31.1,
+          "y": 22.6
+        },
+        "end": {
+          "x": 54.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.2,
+          "y": 70.9
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 524,
+      "periodTimeSeconds": 376,
+      "incidentType": "shot"
+    }
+  ]
+}

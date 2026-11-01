@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rúben Neves",
+        "slug": "ruben-neves",
+        "shortName": "R. Neves",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 15602,
+        "gender": "M",
+        "sofascoreId": "rubenneves",
+        "id": 280955,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن نيفيز",
+            "bn": "রুবেন নেভেস",
+            "hi": "रुबेन नेवेस"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. نيفيز",
+            "bn": "আর. নেভেস",
+            "hi": "आर. नेवेस"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 25.1,
+        "y": 32.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.1,
+        "z": 3.2
+      },
+      "blockCoordinates": {
+        "x": 1.9,
+        "y": 49.5,
+        "z": 0
+      },
+      "xg": 0.017064429819584,
+      "xgot": 0.043219529092312,
+      "goalkeeper": {
+        "name": "Hamed Abdullah Yousef",
+        "slug": "abdullah-yousef-hamed",
+        "shortName": "H. A. Yousef",
+        "position": "G",
+        "jerseyNumber": "47",
+        "userCount": 774,
+        "gender": "M",
+        "id": 1857290,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدالله يوسف، حامد"
+          },
+          "shortNameTranslation": {
+            "ar": "ح. عبدالله يوسف"
+          }
+        }
+      },
+      "id": 6015289,
+      "time": 57,
+      "timeSeconds": 3395,
+      "draw": {
+        "start": {
+          "x": 32.5,
+          "y": 25.1
+        },
+        "block": {
+          "x": 49.5,
+          "y": 1.9
+        },
+        "end": {
+          "x": 51.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.9,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2005,
+      "periodTimeSeconds": 695,
+      "incidentType": "shot"
+    }
+  ]
+}

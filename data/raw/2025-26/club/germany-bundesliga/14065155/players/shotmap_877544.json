@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ragnar Ache",
+        "slug": "ragnar-ache",
+        "shortName": "R. Ache",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 1373,
+        "gender": "M",
+        "id": 877544,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "راغنار أتشي",
+            "bn": "রাগনার আচে",
+            "hi": "राग्नार ऐचे"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. أتشي",
+            "bn": "আর. আচে",
+            "hi": "आर. ऐचे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.9,
+        "y": 45.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.9,
+        "y": 45.5,
+        "z": 0
+      },
+      "xg": 0.084621928632259,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Michael Zetterer",
+        "slug": "michael-zetterer",
+        "shortName": "M. Zetterer",
+        "position": "G",
+        "jerseyNumber": "23",
+        "userCount": 480,
+        "gender": "M",
+        "id": 190161,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايكل زيترير",
+            "bn": "মাইকেল জেটটেরার",
+            "hi": "माइकल ज़ेटेरर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. زيترير",
+            "bn": "এম. জেটটেরার",
+            "hi": "एम. ज़ेटेरर"
+          }
+        }
+      },
+      "id": 6222084,
+      "time": 34,
+      "timeSeconds": 1988,
+      "draw": {
+        "start": {
+          "x": 45.4,
+          "y": 12.9
+        },
+        "block": {
+          "x": 45.5,
+          "y": 11.9
+        },
+        "end": {
+          "x": 46.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 712,
+      "periodTimeSeconds": 1988,
+      "incidentType": "shot"
+    }
+  ]
+}

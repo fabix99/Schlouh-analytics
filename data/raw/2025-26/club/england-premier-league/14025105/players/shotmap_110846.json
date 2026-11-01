@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Michael Keane",
+        "slug": "michael-keane",
+        "shortName": "M. Keane",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 1562,
+        "gender": "M",
+        "id": 110846,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايكل كين",
+            "bn": "মাইকেল কিন",
+            "hi": "माइकल कीन"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كين",
+            "bn": "এম. কিন",
+            "hi": "एम. कीन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.8,
+        "y": 54.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 12.7,
+        "y": 52.5,
+        "z": 0
+      },
+      "xg": 0.043264795094728,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Aaron Ramsdale",
+        "firstName": "",
+        "lastName": "",
+        "slug": "aaron-ramsdale",
+        "shortName": "A. Ramsdale",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 8486,
+        "gender": "M",
+        "sofascoreId": "ARamsdale",
+        "id": 839410,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آرون رامسديل",
+            "bn": "অ্যারন রামসডেল",
+            "hi": "आरोन रामस्डेल"
+          },
+          "shortNameTranslation": {
+            "ar": "آ. رامسديل",
+            "bn": "এ. রামসডেল",
+            "hi": "ए. रामस्डेल"
+          }
+        }
+      },
+      "id": 6267036,
+      "time": 11,
+      "timeSeconds": 610,
+      "draw": {
+        "start": {
+          "x": 54.1,
+          "y": 18.8
+        },
+        "block": {
+          "x": 52.5,
+          "y": 12.7
+        },
+        "end": {
+          "x": 49.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2090,
+      "periodTimeSeconds": 610,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -198,16 +198,6 @@ from dashboard.utils.accessibility import (
     validate_accessibility,
 )
 
-# Advanced Analytics (Sprint 4.1-4.2)
-from dashboard.utils.advanced_analytics import (
-    CorrelationAnalyzer,
-    SimilarityEngine,
-    PatternRecognizer,
-    CorrelationResult,
-    render_correlation_insights,
-    calculate_predictive_metrics,
-)
-
 __all__ = [
     # Data
     "load_enriched_season_stats",
@@ -354,12 +344,4 @@ __all__ = [
     "inject_accessibility_css",
     "render_accessibility_toolbar",
     "validate_accessibility",
-
-    # Advanced Analytics
-    "CorrelationAnalyzer",
-    "SimilarityEngine",
-    "PatternRecognizer",
-    "CorrelationResult",
-    "render_correlation_insights",
-    "calculate_predictive_metrics",
 ]

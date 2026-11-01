@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Pedro Carvalho",
+        "slug": "carvalho-pedro",
+        "shortName": "P. Carvalho",
+        "position": "D",
+        "jerseyNumber": "22",
+        "userCount": 66,
+        "gender": "M",
+        "id": 1511977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارفالو، بيدرو"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. كارفالو"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.1,
+        "y": 66.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.6,
+        "y": 64.1,
+        "z": 0
+      },
+      "xg": 0.037416912615299,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Diogo Costa",
+        "slug": "diogo-costa",
+        "shortName": "D. Costa",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 12715,
+        "gender": "M",
+        "sofascoreId": "diogomcosta99",
+        "id": 843115,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديوغو كوستا",
+            "bn": "ডিয়োগো কোস্টা",
+            "hi": "डिओगो कोस्टा"
+          },
+          "shortNameTranslation": {
+            "ar": "د. كوستا",
+            "bn": "ডি. কোস্টা",
+            "hi": "डी. कोस्टा"
+          }
+        }
+      },
+      "id": 6276700,
+      "time": 57,
+      "timeSeconds": 3416,
+      "draw": {
+        "start": {
+          "x": 66.4,
+          "y": 11.1
+        },
+        "block": {
+          "x": 64.1,
+          "y": 9.6
+        },
+        "end": {
+          "x": 49.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 1984,
+      "periodTimeSeconds": 716,
+      "incidentType": "shot"
+    }
+  ]
+}

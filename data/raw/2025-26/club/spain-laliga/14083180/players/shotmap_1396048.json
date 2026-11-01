@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Carlos Romero",
+        "firstName": "Carlos Romero",
+        "slug": "carlos-romero",
+        "shortName": "C. Romero",
+        "position": "D",
+        "jerseyNumber": "22",
+        "userCount": 1081,
+        "gender": "M",
+        "id": 1396048,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس روميرو",
+            "bn": "কার্লোস রোমেরো",
+            "hi": "कार्लोस रोमेरो"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. روميرو",
+            "bn": "সি. রোমেরো",
+            "hi": "सी. रोमेरो"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 21,
+        "y": 53.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.6,
+        "z": 13.3
+      },
+      "xg": 0.036785233765841,
+      "xgot": 0.33446109294891,
+      "goalkeeper": {
+        "name": "Unai Simón",
+        "slug": "unai-simon",
+        "shortName": "U. Simón",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 6845,
+        "gender": "M",
+        "sofascoreId": "unai_simon",
+        "id": 797291,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوناي سيمون",
+            "bn": "উনাই সাইমন",
+            "hi": "उनाई सिमोन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سيمون",
+            "bn": "ইউ. সাইমন",
+            "hi": "यू. सिमोन"
+          }
+        }
+      },
+      "id": 6398375,
+      "time": 44,
+      "timeSeconds": 2628,
+      "draw": {
+        "start": {
+          "x": 53.4,
+          "y": 21
+        },
+        "end": {
+          "x": 46.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.4,
+          "y": 86.7
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 72,
+      "periodTimeSeconds": 2628,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+{{ config(enabled=false) }}
 with source as (
     select * from {{ source('raw_sofascore', 'matches') }}
 )

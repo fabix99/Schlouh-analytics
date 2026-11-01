@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Tyrick Mitchell",
+        "firstName": "",
+        "lastName": "",
+        "slug": "tyrick-mitchell",
+        "shortName": "T. Mitchell",
+        "position": "M",
+        "jerseyNumber": "3",
+        "userCount": 1400,
+        "gender": "M",
+        "id": 988275,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تيريك ميتشل",
+            "bn": "টাইরিক মিচেল",
+            "hi": "टायरिक मिशेल"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. ميتشل",
+            "bn": "টি. মিচেল",
+            "hi": "टी. मिशेल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 23.2,
+        "y": 42.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.2,
+        "z": 22.8
+      },
+      "blockCoordinates": {
+        "x": 2.7,
+        "y": 49.6,
+        "z": 0
+      },
+      "xg": 0.057669207453728,
+      "xgot": 0.2930656671524,
+      "goalkeeper": {
+        "name": "Đorđe Petrović",
+        "slug": "dorde-petrovic",
+        "shortName": "Đ. Petrović",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 8536,
+        "gender": "M",
+        "sofascoreId": "dj.petrovic12",
+        "id": 882604,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوردي بيتروفيتش",
+            "bn": "ডোরে পেট্রোভিচ",
+            "hi": "डोरे पेट्रोविक"
+          },
+          "shortNameTranslation": {
+            "ar": "د. بيتروفيتش",
+            "bn": "ডি. পেট্রোভিচ",
+            "hi": "डी. पेट्रोविक"
+          }
+        }
+      },
+      "id": 5959746,
+      "time": 22,
+      "timeSeconds": 1311,
+      "draw": {
+        "start": {
+          "x": 42.5,
+          "y": 23.2
+        },
+        "block": {
+          "x": 49.6,
+          "y": 2.7
+        },
+        "end": {
+          "x": 46.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.8,
+          "y": 77.2
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1389,
+      "periodTimeSeconds": 1311,
+      "incidentType": "shot"
+    }
+  ]
+}

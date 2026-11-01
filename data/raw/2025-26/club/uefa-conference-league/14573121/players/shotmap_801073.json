@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mikkel Rygaard",
+        "slug": "mikkel-rygaard",
+        "shortName": "M. Rygaard",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 82,
+        "gender": "M",
+        "id": 801073,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريجارد جنسن، ميكيل",
+            "bn": "রাইগার্ড জেনসেন, মিকেল",
+            "hi": "रायगार्ड जेन्सेन, मिकेल"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ر. جنسن",
+            "bn": "এম. আর জেনসেন",
+            "hi": "एम.आर. जेन्सेन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.3,
+        "y": 51.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.9,
+        "y": 51.3,
+        "z": 0
+      },
+      "xg": 0.12936978042126,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Zlatan Alomerović",
+        "firstName": "",
+        "lastName": "",
+        "slug": "zlatan-alomerovic",
+        "shortName": "Z. Alomerović",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 107,
+        "gender": "M",
+        "id": 102982,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زلاتان ألوميروفيتش",
+            "bn": "জ্লাটান আলোমেরোভিচ",
+            "hi": "ज़्लाटन एलोमेरोविक"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. ألوميروفيتش",
+            "bn": "জেড. আলোমেরোভিচ",
+            "hi": "ज़ेड. एलोमेरोविक"
+          }
+        }
+      },
+      "id": 6333742,
+      "time": 88,
+      "timeSeconds": 5245,
+      "draw": {
+        "start": {
+          "x": 51.9,
+          "y": 15.3
+        },
+        "block": {
+          "x": 51.3,
+          "y": 9.9
+        },
+        "end": {
+          "x": 50.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 155,
+      "periodTimeSeconds": 2545,
+      "incidentType": "shot"
+    }
+  ]
+}

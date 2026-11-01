@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "John Paul Dembe",
+        "firstName": "",
+        "lastName": "",
+        "slug": "dembe-john-paul",
+        "shortName": "J. P. Dembe",
+        "position": "F",
+        "jerseyNumber": "19",
+        "userCount": 307,
+        "gender": "M",
+        "id": 1471391,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديمبي، جون بول",
+            "bn": "ডেম্বে, জন পল",
+            "hi": "डेम्बे, जॉन पॉल"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ب. ديمبي",
+            "bn": "জে. পি. ডেম্বে",
+            "hi": "जे. पी डेम्बे"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 4.9,
+        "y": 49.7,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 3.5,
+        "y": 50,
+        "z": 0
+      },
+      "xg": 0.23918735980988,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Martin Trnovský",
+        "slug": "martin-trnovsky",
+        "shortName": "M. Trnovský",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 36,
+        "gender": "M",
+        "id": 856203,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتن ترنوفسكي",
+            "bn": "মার্টিন ত্রনোভস্কি",
+            "hi": "मार्टिन ट्रनोव्स्की"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ترنوفسكي",
+            "bn": "এম. ত্রনোভস্কি",
+            "hi": "एम. ट्रनोव्स्की"
+          }
+        }
+      },
+      "id": 6375583,
+      "time": 38,
+      "timeSeconds": 2274,
+      "draw": {
+        "start": {
+          "x": 49.7,
+          "y": 4.9
+        },
+        "block": {
+          "x": 50,
+          "y": 3.5
+        },
+        "end": {
+          "x": 50.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 426,
+      "periodTimeSeconds": 2274,
+      "incidentType": "shot"
+    }
+  ]
+}

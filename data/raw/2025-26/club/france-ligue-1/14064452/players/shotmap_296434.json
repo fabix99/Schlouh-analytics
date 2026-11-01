@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Laurent Abergel",
+        "slug": "laurent-abergel",
+        "shortName": "L. Abergel",
+        "position": "M",
+        "jerseyNumber": "6",
+        "userCount": 154,
+        "gender": "M",
+        "id": 296434,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوران أبيرجيل",
+            "bn": "লরেন্ট অ্যাবার্গেল",
+            "hi": "लॉरेंट एबर्गेल"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. أبيرجيل",
+            "bn": "এল. অ্যাবার্গেল",
+            "hi": "एल. एबर्गेल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.2,
+        "y": 59.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 27.8
+      },
+      "blockCoordinates": {
+        "x": 2.4,
+        "y": 51.4,
+        "z": 0
+      },
+      "xg": 0.035467069596052,
+      "xgot": 0.032539434731007,
+      "goalkeeper": {
+        "name": "Jonathan Fischer",
+        "slug": "jonathan-fischer",
+        "shortName": "J. Fischer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 276,
+        "gender": "M",
+        "id": 1004550,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوناثان فيشر"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. فيشر"
+          }
+        }
+      },
+      "id": 6454310,
+      "time": 14,
+      "timeSeconds": 784,
+      "draw": {
+        "start": {
+          "x": 59.3,
+          "y": 22.2
+        },
+        "block": {
+          "x": 51.4,
+          "y": 2.4
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 72.2
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1916,
+      "periodTimeSeconds": 784,
+      "incidentType": "shot"
+    }
+  ]
+}

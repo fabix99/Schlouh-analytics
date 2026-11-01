@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Lorenzo Lucca",
+        "slug": "lorenzo-lucca",
+        "shortName": "L. Lucca",
+        "position": "F",
+        "jerseyNumber": "20",
+        "userCount": 5032,
+        "gender": "M",
+        "id": 962364,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لورنزو لوكا",
+            "bn": "লরেঞ্জো লুকা",
+            "hi": "लोरेंजो लुक्का"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. لوكا",
+            "bn": "এল. লুকা",
+            "hi": "एल. लुक्का"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.2,
+        "y": 30.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.9,
+        "y": 32.7,
+        "z": 0
+      },
+      "xg": 0.021823201328516,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lorenzo Montipò",
+        "slug": "lorenzo-montipo",
+        "shortName": "L. Montipò",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 565,
+        "gender": "M",
+        "id": 253391,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لورينزو مونتيبو",
+            "bn": "লরেঞ্জো মন্টিপো",
+            "hi": "लोरेंजो मोंटिपो"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. مونتيبو",
+            "bn": "এল. মন্টিপো",
+            "hi": "एल. मोंटिपो"
+          }
+        }
+      },
+      "id": 6470801,
+      "time": 80,
+      "timeSeconds": 4777,
+      "draw": {
+        "start": {
+          "x": 30.3,
+          "y": 11.2
+        },
+        "block": {
+          "x": 32.7,
+          "y": 9.9
+        },
+        "end": {
+          "x": 51.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 623,
+      "periodTimeSeconds": 2077,
+      "incidentType": "shot"
+    }
+  ]
+}

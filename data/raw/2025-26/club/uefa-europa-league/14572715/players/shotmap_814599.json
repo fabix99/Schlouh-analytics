@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Fedor Chalov",
+        "slug": "fedor-chalov",
+        "shortName": "F. Chalov",
+        "position": "F",
+        "jerseyNumber": "63",
+        "userCount": 1672,
+        "gender": "M",
+        "id": 814599,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيدور تشالوف",
+            "bn": "ফেডর চালভ",
+            "hi": "फेडोर चालोव"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. تشالوف",
+            "bn": "এফ. চালভ",
+            "hi": "एफ. चालोव"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.8,
+        "y": 44.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 12.7,
+        "y": 45.1,
+        "z": 0
+      },
+      "xg": 0.062051996588707,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Marvin Keller",
+        "slug": "marvin-keller",
+        "shortName": "M. Keller",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 237,
+        "gender": "M",
+        "id": 1005744,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارفن كيلر",
+            "bn": "মারভিন কেলার",
+            "hi": "मार्विन केलर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كيلر",
+            "bn": "এম. কেলার",
+            "hi": "एम. केलर"
+          }
+        }
+      },
+      "id": 6121927,
+      "time": 87,
+      "timeSeconds": 5194,
+      "draw": {
+        "start": {
+          "x": 44.5,
+          "y": 14.8
+        },
+        "block": {
+          "x": 45.1,
+          "y": 12.7
+        },
+        "end": {
+          "x": 48.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 206,
+      "periodTimeSeconds": 2494,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Antoine Griezmann",
+        "slug": "antoine-griezmann",
+        "shortName": "A. Griezmann",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 97877,
+        "gender": "M",
+        "sofascoreId": "AGriez",
+        "id": 85859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنطوان غريزمان",
+            "bn": "অ্যান্টোইন গ্রিজম্যান",
+            "hi": "एंटोनी ग्रीज़मैन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. غريزمان",
+            "bn": "এ. গ্রিজম্যান",
+            "hi": "ए. ग्रीज़मैन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 24.5,
+        "y": 64.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 74.6,
+        "z": 30.6
+      },
+      "xg": 0.014389996416867,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Augusto Batalla",
+        "slug": "augusto-batalla",
+        "shortName": "A. Batalla",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 1517,
+        "gender": "M",
+        "id": 358910,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوغوستو باتالا",
+            "bn": "অগাস্টো বাটাল্লা",
+            "hi": "ऑगस्टो बटाला"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باتالا",
+            "bn": "এ. বাটাল্লা",
+            "hi": "ए. बटाला"
+          }
+        }
+      },
+      "id": 5754312,
+      "time": 49,
+      "timeSeconds": 2894,
+      "draw": {
+        "start": {
+          "x": 64.8,
+          "y": 24.5
+        },
+        "end": {
+          "x": 25.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 25.4,
+          "y": 69.4
+        }
+      },
+      "reversedPeriodTime": 42,
+      "reversedPeriodTimeSeconds": 2506,
+      "periodTimeSeconds": 194,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Antoine Griezmann",
+        "slug": "antoine-griezmann",
+        "shortName": "A. Griezmann",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 97877,
+        "gender": "M",
+        "sofascoreId": "AGriez",
+        "id": 85859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنطوان غريزمان",
+            "bn": "অ্যান্টোইন গ্রিজম্যান",
+            "hi": "एंटोनी ग्रीज़मैन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. غريزمان",
+            "bn": "এ. গ্রিজম্যান",
+            "hi": "ए. ग्रीज़मैन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 3.3,
+        "y": 65.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.2,
+        "z": 13.3
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 56.9,
+        "z": 0
+      },
+      "xg": 0.087496660649776,
+      "xgot": 0.16531403362751,
+      "goalkeeper": {
+        "name": "Augusto Batalla",
+        "slug": "augusto-batalla",
+        "shortName": "A. Batalla",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 1517,
+        "gender": "M",
+        "id": 358910,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوغوستو باتالا",
+            "bn": "অগাস্টো বাটাল্লা",
+            "hi": "ऑगस्टो बटाला"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باتالا",
+            "bn": "এ. বাটাল্লা",
+            "hi": "ए. बटाला"
+          }
+        }
+      },
+      "id": 5753653,
+      "time": 12,
+      "timeSeconds": 673,
+      "draw": {
+        "start": {
+          "x": 65.4,
+          "y": 3.3
+        },
+        "block": {
+          "x": 56.9,
+          "y": 1.4
+        },
+        "end": {
+          "x": 52.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.8,
+          "y": 86.7
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2027,
+      "periodTimeSeconds": 673,
+      "incidentType": "shot"
+    }
+  ]
+}

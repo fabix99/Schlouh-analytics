@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Allan",
+        "slug": "allan",
+        "shortName": "Allan",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 119,
+        "gender": "M",
+        "id": 987088,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألان"
+          },
+          "shortNameTranslation": {
+            "ar": "ألان"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 7.8,
+        "y": 46.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 6.2,
+        "y": 46.7,
+        "z": 0
+      },
+      "xg": 0.11457898467779,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Okan Kocuk",
+        "slug": "okan-kocuk",
+        "shortName": "O. Koçuk",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 288,
+        "gender": "M",
+        "id": 190179,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوكان كوتشوك",
+            "bn": "ওকান কোকুক",
+            "hi": "ओकान कोचुक"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. كوتشوك",
+            "bn": "ও. কোচুক",
+            "hi": "ओ. कोचुक"
+          }
+        }
+      },
+      "id": 6390921,
+      "time": 58,
+      "timeSeconds": 3436,
+      "draw": {
+        "start": {
+          "x": 46.1,
+          "y": 7.8
+        },
+        "block": {
+          "x": 46.7,
+          "y": 6.2
+        },
+        "end": {
+          "x": 49.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1964,
+      "periodTimeSeconds": 736,
+      "incidentType": "shot"
+    }
+  ]
+}

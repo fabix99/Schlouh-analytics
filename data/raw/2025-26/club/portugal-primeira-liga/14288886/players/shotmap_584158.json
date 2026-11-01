@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "João Afonso",
+        "slug": "joao-afonso",
+        "shortName": "J. Afonso",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 33,
+        "gender": "M",
+        "id": 584158,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جواو أفونسو"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. أفونسو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 6.9,
+        "y": 30.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 5.4,
+        "y": 34.8,
+        "z": 0
+      },
+      "xg": 0.016968542709947,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ricardo Batista",
+        "slug": "ricardo-batista",
+        "shortName": "R. Batista",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 110,
+        "gender": "M",
+        "id": 9668,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكاردو باتيستا"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. باتيستا"
+          }
+        }
+      },
+      "id": 6391519,
+      "time": 83,
+      "timeSeconds": 4958,
+      "draw": {
+        "start": {
+          "x": 30.7,
+          "y": 6.9
+        },
+        "block": {
+          "x": 34.8,
+          "y": 5.4
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 442,
+      "periodTimeSeconds": 2258,
+      "incidentType": "shot"
+    }
+  ]
+}

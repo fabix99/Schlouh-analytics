@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nick Woltemade",
+        "slug": "nick-woltemade",
+        "shortName": "N. Woltemade",
+        "position": "F",
+        "jerseyNumber": "27",
+        "userCount": 55896,
+        "gender": "M",
+        "id": 980623,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيك ولتيماد",
+            "bn": "নিক ওল্টেমেড",
+            "hi": "निक वोल्टेमेड"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. ولتيماد",
+            "bn": "এন. ওলটেমেড",
+            "hi": "एन. वोल्टेमेड"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.9,
+        "y": 50.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 4.2,
+        "y": 50.5,
+        "z": 0
+      },
+      "xg": 0.20555090904236,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Martin Dúbravka",
+        "firstName": "",
+        "lastName": "",
+        "slug": "martin-dubravka",
+        "shortName": "M. Dúbravka",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3053,
+        "gender": "M",
+        "id": 42209,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتن دوبرافكا",
+            "bn": "মার্টিন ডুব্রাভকা",
+            "hi": "मार्टिन डुब्राव्का"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دوبرافكا",
+            "bn": "এম. ডুব্রাভকা",
+            "hi": "एम. डुब्राव्का"
+          }
+        }
+      },
+      "id": 6303960,
+      "time": 11,
+      "timeSeconds": 637,
+      "draw": {
+        "start": {
+          "x": 50.9,
+          "y": 11.9
+        },
+        "block": {
+          "x": 50.5,
+          "y": 4.2
+        },
+        "end": {
+          "x": 50.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2063,
+      "periodTimeSeconds": 637,
+      "incidentType": "shot"
+    }
+  ]
+}

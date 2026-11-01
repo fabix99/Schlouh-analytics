@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kees Smit",
+        "slug": "kees-smit",
+        "shortName": "K. Smit",
+        "position": "M",
+        "jerseyNumber": "26",
+        "userCount": 3898,
+        "gender": "M",
+        "id": 1405756,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيس سميت"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. سميت"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.5,
+        "y": 63.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 5.1
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 51.4,
+        "z": 0
+      },
+      "xg": 0.015536798164248,
+      "xgot": 0.010319845750928,
+      "goalkeeper": {
+        "name": "Wessel Speel",
+        "slug": "wessel-speel",
+        "shortName": "W. Speel",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 46,
+        "gender": "M",
+        "id": 1014536,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويسل سبييل"
+          },
+          "shortNameTranslation": {
+            "ar": "و. سبييل"
+          }
+        }
+      },
+      "id": 6257436,
+      "time": 59,
+      "timeSeconds": 3537,
+      "draw": {
+        "start": {
+          "x": 63.4,
+          "y": 23.5
+        },
+        "block": {
+          "x": 51.4,
+          "y": 1.1
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 94.9
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1863,
+      "periodTimeSeconds": 837,
+      "incidentType": "shot"
+    }
+  ]
+}

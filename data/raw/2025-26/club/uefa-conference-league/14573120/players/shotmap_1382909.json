@@ -1,0 +1,96 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Adrian Svanback",
+        "firstName": "Adrian Svanbäck",
+        "slug": "svanback-adrian",
+        "shortName": "A. Svanbäck",
+        "position": "F",
+        "jerseyNumber": "20",
+        "userCount": 267,
+        "gender": "M",
+        "id": 1382909,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أدريان سيفانباك"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سيفانباك"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.6,
+        "y": 56.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.4,
+        "z": 7.6
+      },
+      "blockCoordinates": {
+        "x": 0.5,
+        "y": 51.4,
+        "z": 0
+      },
+      "xg": 0.073276229202747,
+      "xgot": 0.021652868017554,
+      "goalkeeper": {
+        "name": "Mike Penders",
+        "firstName": "Mike Penders",
+        "lastName": "",
+        "slug": "mike-penders",
+        "shortName": "M. Penders",
+        "position": "G",
+        "jerseyNumber": "39",
+        "userCount": 4483,
+        "gender": "M",
+        "id": 1149148,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايك بيندرز",
+            "bn": "মাইক পেন্ডার্স",
+            "hi": "माइक पेंडर्स"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بيندرز",
+            "bn": "এম. পেন্ডার্স",
+            "hi": "एम. पेंडर्स"
+          }
+        }
+      },
+      "id": 6121089,
+      "time": 19,
+      "timeSeconds": 1106,
+      "draw": {
+        "start": {
+          "x": 56.7,
+          "y": 22.6
+        },
+        "block": {
+          "x": 51.4,
+          "y": 0.5
+        },
+        "end": {
+          "x": 50.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.6,
+          "y": 92.4
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1594,
+      "periodTimeSeconds": 1106,
+      "incidentType": "shot"
+    }
+  ]
+}

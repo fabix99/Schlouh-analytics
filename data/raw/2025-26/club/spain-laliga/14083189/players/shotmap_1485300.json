@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Vitor Reis",
+        "slug": "reis-vitor",
+        "shortName": "V. Reis",
+        "position": "D",
+        "jerseyNumber": "22",
+        "userCount": 12821,
+        "gender": "M",
+        "sofascoreId": "vitorreiss_06",
+        "id": 1485300,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيتور ريس",
+            "bn": "ভিটর রেইস",
+            "hi": "विटोर रीस"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. ريس",
+            "bn": "ভি. রেইস",
+            "hi": "वी. रीस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 8.3,
+        "y": 43.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 36,
+        "z": 16.7
+      },
+      "blockCoordinates": {
+        "x": 7.2,
+        "y": 47.7,
+        "z": 0
+      },
+      "xg": 0.066939502954483,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jan Oblak",
+        "slug": "jan-oblak",
+        "shortName": "J. Oblak",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 12478,
+        "gender": "M",
+        "sofascoreId": "oblakjan",
+        "id": 69768,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يان أوبلاك",
+            "bn": "জন ওব্লাক",
+            "hi": "जान ओबलाक"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أوبلاك",
+            "bn": "জে. ওব্লাক",
+            "hi": "जे. ओबलाक"
+          }
+        }
+      },
+      "id": 6388279,
+      "time": 23,
+      "timeSeconds": 1331,
+      "draw": {
+        "start": {
+          "x": 43.5,
+          "y": 8.3
+        },
+        "block": {
+          "x": 47.7,
+          "y": 7.2
+        },
+        "end": {
+          "x": 64,
+          "y": 0
+        },
+        "goal": {
+          "x": 64,
+          "y": 83.3
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1369,
+      "periodTimeSeconds": 1331,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Thomas Henry",
+        "slug": "thomas-henry",
+        "shortName": "T. Henry",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 451,
+        "gender": "M",
+        "id": 795541,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توماس هنري",
+            "bn": "টমাস হেনরি",
+            "hi": "थॉमस हेनरी"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. هنري",
+            "bn": "টি. হেনরি",
+            "hi": "टी. हेनरी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.4,
+        "z": 3.2
+      },
+      "xg": 0.7884,
+      "xgot": 0.7621905207634,
+      "id": 5398303,
+      "time": 37,
+      "timeSeconds": 2200,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 49.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.6,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 9,
+      "reversedPeriodTimeSeconds": 500,
+      "periodTimeSeconds": 2200,
+      "incidentType": "shot"
+    }
+  ]
+}

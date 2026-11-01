@@ -1,86 +1,66 @@
 # Schlouh data platform
 
-Modern platform layer for Sofascore → analytics, aligned with how a data platform team ships ELT + transforms + orchestration + CI.
+**Yes — still Python.** DLT, Airflow, extractors, Streamlit, and most tooling are Python. dbt adds SQL models/tests on the warehouse.
+
+**Canonical production path:**
 
 ```text
-platform/fixtures (or local extracts)
-        │
-        ▼
-   DLT pipeline  ──►  DuckDB warehouse (raw_sofascore.*)
-        │
-        ▼
-   dbt models    ──►  analytics_staging.* / analytics_marts.*
-        │
-        ▼
-   AI index      ──►  ai.retrieval_documents (DuckDB FTS)  ← RAG-ready
-        │
-        ▼
-   Airflow DAG   ──►  schlouh_platform_pipeline (dlt → dbt → validate → AI)
-        │
-        ▼
-   CI + Docker   ──►  reproducible build + tests
+Sofascore API
+    → DLT extract resources (Python) and/or file extract → data/raw
+    → Python builds (remaining feature tables → parquet)
+    → DLT load into DuckDB (raw_sofascore.*)
+    → dbt transforms + serving marts (analytics_marts.*)
+    → Streamlit reads DuckDB marts only
+    → Airflow orchestrates the path
 ```
 
-## Why DuckDB (not Snowflake)
+## Honest scope
 
-Same warehouse / SQL / dbt workflow as Snowflake, runnable locally and in CI with zero cloud cost. Swapping the dbt profile / DLT destination to Snowflake later is a config change, not a rewrite.
+| Layer | Role |
+|-------|------|
+| **Extract** | **DLT** `platform/pipelines/sofascore_extract.py` (API → DuckDB) + legacy `extract_batch` (API → `data/raw`) |
+| **Core transforms** | **dbt SQL** for player season stats, match summary, team season rollups, scouting profiles (from appearances) |
+| **Feature transforms** | Python `scripts/build/*` for remaining derived tables (percentiles, rolling form, etc.) → parquet → DLT |
+| **ELT into warehouse** | **DLT** loads index + derived + processed into **DuckDB** |
+| **Serving contract** | **dbt** publishes tested `analytics_marts.*` (dashboard reads these) |
+| **Orchestration** | **Airflow** DAG `schlouh_platform_pipeline` |
+| **AI bridge** | DuckDB FTS over marts (`platform/ai/`) |
+| **CI** | Fixture slice: DLT + dbt core marts (`use_processed_sources: false`) |
 
-## What’s in the slice
-
-| Layer | Tool | Content |
-|-------|------|---------|
-| Ingest | **DLT** | `matches`, `players`, `player_appearances`, `match_summary` → `raw_sofascore` |
-| Warehouse | **DuckDB** | `data/warehouse/schlouh.duckdb` |
-| Transforms | **dbt** | staging views + marts: `mart_match_summary`, `mart_player_season_stats`, `mart_player_scouting_profiles` |
-| Orchestration | **Airflow** | DAG `schlouh_platform_pipeline` (SequentialExecutor locally / Compose) |
-| AI bridge | **DuckDB FTS** | `ai.retrieval_documents` over player + match marts (RAG-ready, no fake chatbot) |
-| CI | **GitHub Actions** | `.github/workflows/platform.yml` — fixtures only, no live API |
-| Containers | **Docker Compose** | `platform` one-shot; `--profile airflow` for UI |
-
-## What’s intentionally still Python (legacy pipeline)
-
-Heatmaps/shotmaps, full percentile ladders, tactical profiles, rolling form, market/contract, and the Streamlit dashboard still use the existing `scripts/build/00–19` + parquet path. The platform slice proves the modern stack on the **core scouting path**; remaining steps migrate incrementally.
+So: the **product path is consistently warehouse-backed** (DLT → DuckDB → dbt → app). Core scouting marts are computed in dbt; remaining feature tables still land via Python builds then DLT.
 
 ## Commands
 
-From project root (with `.venv` and `requirements-platform.txt` installed):
-
 ```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements-platform.txt
+# Production refresh (existing extracts → warehouse → app)
+bash platform/scripts/run_platform_full.sh
+# or skip re-running pandas if processed/ already fresh:
+bash platform/scripts/run_platform_full.sh --skip-pandas
 
-# Full slice (DLT → dbt → validate → AI index)
+# CI / fixture slice
 bash platform/scripts/run_platform.sh
 
-# AI retrieval demo
-python platform/ai/query_retrieval.py "Standard Liège" --limit 5
-```
+# Live Sofascore E2E (small N)
+python platform/scripts/run_e2e_live.py --limit 2
 
-### Airflow (local)
+# DLT live extract (API → DuckDB dataset raw_sofascore_api)
+python platform/pipelines/sofascore_extract.py \
+  --competition england-premier-league --season 2025-26 --limit 2
 
-```bash
+# Airflow
 bash platform/scripts/setup_airflow.sh
 source platform/airflow_home/.env
 airflow dags test schlouh_platform_pipeline $(date -u +%Y-%m-%d)
-# Optional UI: airflow standalone
 ```
 
-### Docker
+Streamlit defaults to DuckDB marts (`SCHLOUH_USE_WAREHOUSE=1`). Opt out with `SCHLOUH_USE_WAREHOUSE=0` or `SCHLOUH_ALLOW_PARQUET_FALLBACK=1`.
 
-```bash
-# One-shot platform pipeline
-docker compose run --rm platform
+## CV framing (accurate)
 
-# Airflow UI (http://localhost:8080 — admin / admin)
-docker compose --profile airflow up -d
-```
+> Built a football scouting data platform in Python: **DLT** extracts and loads Sofascore data into **DuckDB**, **dbt** runs tested SQL transforms for core player/match/team marts, **Airflow** orchestrates refreshes, and Streamlit serves from the warehouse—with CI on a fixture slice.
 
-Regenerate fixtures from full local data (optional):
+Shorter bullets:
 
-```bash
-python platform/scripts/build_fixtures.py
-```
-
-## CV / interview framing (honest)
-
-> End-to-end football analytics platform: Sofascore extracts loaded with **DLT** into a **DuckDB** warehouse, modelled and tested with **dbt**, orchestrated with **Airflow**, with an **AI-ready retrieval layer** over scouting marts, gated by **CI** and runnable via **Docker**. Scouting product sits on top; advanced geospatial/tactical features remain in the Python pipeline pending migration.
+- DLT → DuckDB ELT for Sofascore lake + live API extract resources  
+- dbt SQL marts (player season / match / team / scouting) with tests  
+- Airflow DAG + Streamlit on warehouse marts (CI fixture path)

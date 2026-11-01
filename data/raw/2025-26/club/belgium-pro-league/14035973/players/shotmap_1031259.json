@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Christos Tzolis",
+        "slug": "tzolis-christos",
+        "shortName": "C. Tzolis",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 9648,
+        "gender": "M",
+        "sofascoreId": "absolute_christostzolis",
+        "id": 1031259,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تسوليس، كريستوس",
+            "bn": "জোলিস, ক্রিস্টোস",
+            "hi": "त्ज़ोलिस, क्रिस्टोस"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. تسوليس",
+            "bn": "সি. জোলিস",
+            "hi": "सी. त्ज़ोलिस"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.3,
+        "y": 40.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14,
+        "y": 43.1,
+        "z": 0
+      },
+      "xg": 0.028701009228826,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Hendrik Van Crombrugge",
+        "firstName": "",
+        "lastName": "",
+        "slug": "hendrik-van-crombrugge",
+        "shortName": "H. V. Crombrugge",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 189,
+        "gender": "M",
+        "id": 110777,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هندريك فان كرومبروغ",
+            "bn": "হেনড্রিক ভ্যান ক্রম্ব্রাগ",
+            "hi": "हेंड्रिक वान क्रॉमब्रग"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. ف. كرومبروغ",
+            "bn": "এইচ. ভি. ক্রম্ব্রাগ",
+            "hi": "एच.वी. क्रॉमब्रग"
+          }
+        }
+      },
+      "id": 6412992,
+      "time": 11,
+      "timeSeconds": 655,
+      "draw": {
+        "start": {
+          "x": 40.5,
+          "y": 21.3
+        },
+        "block": {
+          "x": 43.1,
+          "y": 14
+        },
+        "end": {
+          "x": 48.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2045,
+      "periodTimeSeconds": 655,
+      "incidentType": "shot"
+    }
+  ]
+}

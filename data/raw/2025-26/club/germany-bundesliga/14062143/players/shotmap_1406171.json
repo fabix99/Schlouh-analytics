@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Andrija Maksimović",
+        "slug": "andrija-maksimovic",
+        "shortName": "A. Maksimović",
+        "position": "M",
+        "jerseyNumber": "33",
+        "userCount": 4268,
+        "gender": "M",
+        "id": 1406171,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أندريا ماكسيموفيتش",
+            "bn": "আন্দ্রিজা মাকসিমোভিচ",
+            "hi": "एंड्रीजा मक्सिमोविच"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. ماكسيموفيتش",
+            "bn": "এ.  মাকসিমোভিচ",
+            "hi": "ए. मक्सिमोविच"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 19.5,
+        "y": 51.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.9,
+        "y": 51.3,
+        "z": 0
+      },
+      "xg": 0.020853748545051,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mark Flekken",
+        "slug": "mark-flekken",
+        "shortName": "M. Flekken",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2823,
+        "gender": "M",
+        "id": 171919,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارك فليكين",
+            "bn": "মার্ক ফ্লেককেন",
+            "hi": "मार्क फ्लेकेन"
+          },
+          "shortNameTranslation": {
+            "ar": "م. فليكين",
+            "bn": "এম. ফ্লেকেন",
+            "hi": "एम. फ्लेकेन"
+          }
+        }
+      },
+      "id": 6386234,
+      "time": 76,
+      "timeSeconds": 4530,
+      "draw": {
+        "start": {
+          "x": 51.5,
+          "y": 19.5
+        },
+        "block": {
+          "x": 51.3,
+          "y": 17.9
+        },
+        "end": {
+          "x": 49.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 870,
+      "periodTimeSeconds": 1830,
+      "incidentType": "shot"
+    }
+  ]
+}

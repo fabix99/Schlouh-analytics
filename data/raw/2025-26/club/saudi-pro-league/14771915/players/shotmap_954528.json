@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nawaf Al-Habashi",
+        "slug": "nawaf-al-habashi",
+        "shortName": "N. Al-Habashi",
+        "position": "M",
+        "jerseyNumber": "19",
+        "userCount": 29,
+        "gender": "M",
+        "id": 954528,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نواف الحبشي",
+            "bn": "নাওয়াফ আল-হাবাশি",
+            "hi": "नवाफ़ अल-हबाशी"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. الحبشي",
+            "bn": "এন. আল-হবাশি",
+            "hi": "एन. अल-हबाशी"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.7,
+        "y": 34.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.4,
+        "y": 38.1,
+        "z": 0
+      },
+      "xg": 0.047995161265135,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Orlando Mosquera",
+        "slug": "orlando-mosquera",
+        "shortName": "O. Mosquera",
+        "position": "G",
+        "jerseyNumber": "52",
+        "userCount": 508,
+        "gender": "M",
+        "id": 886041,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أورلاندو موسكيرا",
+            "bn": "অরল্যান্ডো মস্কেরা",
+            "hi": "ऑरलैंडो मॉस्क्वेरा"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موسكيرا",
+            "bn": "ও. মস্কেরা",
+            "hi": "ओ. मॉस्क्वेरा"
+          }
+        }
+      },
+      "id": 6411079,
+      "time": 90,
+      "addedTime": 4,
+      "timeSeconds": 5600,
+      "draw": {
+        "start": {
+          "x": 34.8,
+          "y": 10.7
+        },
+        "block": {
+          "x": 38.1,
+          "y": 8.4
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 700,
+      "periodTimeSeconds": 200,
+      "incidentType": "shot"
+    }
+  ]
+}

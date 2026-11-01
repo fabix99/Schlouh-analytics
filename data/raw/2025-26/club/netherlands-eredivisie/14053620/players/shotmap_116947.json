@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bruno Martins Indi",
+        "slug": "bruno-martins-indi",
+        "shortName": "B. M. Indi",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 167,
+        "gender": "M",
+        "id": 116947,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برونو مارتن إندي",
+            "bn": "ব্রুনো মার্টিন্স ইন্ডি",
+            "hi": "ब्रूनो मार्टिंस इंडी"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. م. إندي",
+            "bn": "বি. এম. ইন্ডি",
+            "hi": "बी.एम. इंडी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 8.6,
+        "y": 39.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.9,
+        "y": 40.6,
+        "z": 0
+      },
+      "xg": 0.031169902533293,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mattijs Branderhorst",
+        "slug": "mattijs-branderhorst",
+        "shortName": "M. Branderhorst",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 152,
+        "gender": "M",
+        "id": 146871,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتيس براندرهورست"
+          },
+          "shortNameTranslation": {
+            "ar": "م. براندرهورست"
+          }
+        }
+      },
+      "id": 6223266,
+      "time": 25,
+      "timeSeconds": 1499,
+      "draw": {
+        "start": {
+          "x": 39.7,
+          "y": 8.6
+        },
+        "block": {
+          "x": 40.6,
+          "y": 7.9
+        },
+        "end": {
+          "x": 50.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 21,
+      "reversedPeriodTimeSeconds": 1201,
+      "periodTimeSeconds": 1499,
+      "incidentType": "shot"
+    }
+  ]
+}

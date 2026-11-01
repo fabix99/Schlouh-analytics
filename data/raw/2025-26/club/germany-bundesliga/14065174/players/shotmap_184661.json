@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Leon Goretzka",
+        "slug": "leon-goretzka",
+        "shortName": "L. Goretzka",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 12193,
+        "gender": "M",
+        "sofascoreId": "leon_goretzka",
+        "id": 184661,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليون غوريتسكا",
+            "bn": "লিওন গোরেটজকা",
+            "hi": "लियोन गोरेट्ज़का"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. غوريتسكا",
+            "bn": "এল. গোরেটজকা",
+            "hi": "एल. गोरेट्ज़का"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 13.8,
+        "y": 37.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.7,
+        "y": 40.4,
+        "z": 0
+      },
+      "xg": 0.078537568449974,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Daniel Batz",
+        "slug": "daniel-batz",
+        "shortName": "D. Batz",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 141,
+        "gender": "M",
+        "id": 94312,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دانيال باتز",
+            "bn": "ড্যানিয়েল বাটজ",
+            "hi": "डैनियल बैट्ज़"
+          },
+          "shortNameTranslation": {
+            "ar": "د. باتز",
+            "bn": "ডি. বাটজ",
+            "hi": "डी. बैट्ज़"
+          }
+        }
+      },
+      "id": 6349663,
+      "time": 43,
+      "timeSeconds": 2549,
+      "draw": {
+        "start": {
+          "x": 37.8,
+          "y": 13.8
+        },
+        "block": {
+          "x": 40.4,
+          "y": 10.7
+        },
+        "end": {
+          "x": 49.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 151,
+      "periodTimeSeconds": 2549,
+      "incidentType": "shot"
+    }
+  ]
+}

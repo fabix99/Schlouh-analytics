@@ -1,0 +1,178 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sem Steijn",
+        "slug": "sem-steijn",
+        "shortName": "S. Steijn",
+        "position": "M",
+        "jerseyNumber": "14",
+        "userCount": 3388,
+        "gender": "M",
+        "id": 944467,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيم ستين",
+            "bn": "সেম স্টিজন",
+            "hi": "सेम स्टीजन"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ستين",
+            "bn": "এস. স্টিজন",
+            "hi": "एस. स्टीजन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 10.2,
+        "y": 48.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.9,
+        "z": 2.5
+      },
+      "xg": 0.6569589972496,
+      "xgot": 0.9825798869133,
+      "goalkeeper": {
+        "name": "Kayne van Oevelen",
+        "firstName": "Kayne van Oevelen",
+        "lastName": "",
+        "slug": "kayne-van-oevelen",
+        "shortName": "K. v. Oevelen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 279,
+        "gender": "M",
+        "id": 1393970,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاين فان أويفيلن"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. فان أويفيلن"
+          }
+        }
+      },
+      "id": 6080747,
+      "time": 26,
+      "timeSeconds": 1536,
+      "draw": {
+        "start": {
+          "x": 48.2,
+          "y": 10.2
+        },
+        "end": {
+          "x": 52.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.1,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1164,
+      "periodTimeSeconds": 1536,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Sem Steijn",
+        "slug": "sem-steijn",
+        "shortName": "S. Steijn",
+        "position": "M",
+        "jerseyNumber": "14",
+        "userCount": 3388,
+        "gender": "M",
+        "id": 944467,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيم ستين",
+            "bn": "সেম স্টিজন",
+            "hi": "सेम स्टीजन"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ستين",
+            "bn": "এস. স্টিজন",
+            "hi": "एस. स्टीजन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.7,
+        "y": 43.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 16.3,
+        "y": 45.5,
+        "z": 0
+      },
+      "xg": 0.062707953155041,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kayne van Oevelen",
+        "firstName": "Kayne van Oevelen",
+        "lastName": "",
+        "slug": "kayne-van-oevelen",
+        "shortName": "K. v. Oevelen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 279,
+        "gender": "M",
+        "id": 1393970,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاين فان أويفيلن"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. فان أويفيلن"
+          }
+        }
+      },
+      "id": 6080732,
+      "time": 24,
+      "timeSeconds": 1404,
+      "draw": {
+        "start": {
+          "x": 43.7,
+          "y": 22.7
+        },
+        "block": {
+          "x": 45.5,
+          "y": 16.3
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 22,
+      "reversedPeriodTimeSeconds": 1296,
+      "periodTimeSeconds": 1404,
+      "incidentType": "shot"
+    }
+  ]
+}

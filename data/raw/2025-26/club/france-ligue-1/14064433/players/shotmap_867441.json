@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Angel Gomes",
+        "slug": "angel-gomes",
+        "shortName": "A. Gomes",
+        "position": "M",
+        "jerseyNumber": "47",
+        "userCount": 3464,
+        "gender": "M",
+        "id": 867441,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنجيل غوميز",
+            "bn": "অ্যাঞ্জেল গোমস",
+            "hi": "एन्जेल गोम्स"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. غوميز",
+            "bn": "এ. গোমস",
+            "hi": "ए. गोम्स"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.8,
+        "y": 51.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.4,
+        "y": 52,
+        "z": 0
+      },
+      "xg": 0.033153876662254,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Guillaume Restes",
+        "firstName": "Guillaume",
+        "lastName": "Restes",
+        "slug": "guillaume-restes",
+        "shortName": "G. Restes",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2108,
+        "gender": "M",
+        "id": 1154630,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غويوم ريستس",
+            "bn": "গুইলাম রেস্টেস",
+            "hi": "गिलौम रेस्टेस"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. ريستس",
+            "bn": "জি. রেস্টেস",
+            "hi": "जी. रेस्टेस"
+          }
+        }
+      },
+      "id": 6268272,
+      "time": 40,
+      "timeSeconds": 2343,
+      "draw": {
+        "start": {
+          "x": 51.9,
+          "y": 23.8
+        },
+        "block": {
+          "x": 52,
+          "y": 13.4
+        },
+        "end": {
+          "x": 52.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 357,
+      "periodTimeSeconds": 2343,
+      "incidentType": "shot"
+    }
+  ]
+}

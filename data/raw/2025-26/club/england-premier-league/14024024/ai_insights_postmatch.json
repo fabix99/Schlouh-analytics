@@ -1,0 +1,196 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 10,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 47,
+      "draw": 22,
+      "away": 31
+    },
+    "possibleResultsMatrix": [
+      [
+        0.027103621458138,
+        0.043487487643154,
+        0.034887617959733,
+        0.018658943876636,
+        0.0074845218795095,
+        0.0024017679943826
+      ],
+      [
+        0.054951737117647,
+        0.088169508733896,
+        0.07073354436215,
+        0.037830419834688,
+        0.015174631899627,
+        0.0048695088089514
+      ],
+      [
+        0.055706456366189,
+        0.089380448166684,
+        0.071705014423841,
+        0.038349991144482,
+        0.015383043632994,
+        0.004936387714366
+      ],
+      [
+        0.037647694063301,
+        0.060405345938723,
+        0.048459884579407,
+        0.02591779890731,
+        0.010396211825975,
+        0.0033361234329219
+      ],
+      [
+        0.019082377888573,
+        0.030617483125382,
+        0.024562721648397,
+        0.013136879830083,
+        0.0052694978433299,
+        0.0016909712430966
+      ],
+      [
+        0.0077377837860673,
+        0.012415196150143,
+        0.0099600285888096,
+        0.005326921851265,
+        0.0021367481144607,
+        0.0006856781656847
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Anfield hosts a top-half meeting between Liverpool FC (4th, 58 points) and Chelsea (9th, 48 points). Sofascore model gives Liverpool the edge (home win 47%, draw 22%, away win 31) with a high likelihood that both teams score (69%). Home advantage and Liverpool’s ball-dominant style meet a Chelsea side looking to stabilise after a difficult run."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Liverpool’s last 5: W-W-L-W-L, with consistent control of possession (often 53–63%) but only 1 clean sheet. Chelsea’s last 5: L-W-L-L-L, 2 goals scored and 10 conceded, with finishing below their expected output in several games and a trend of conceding first in 8/10 away."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "Chelsea won both of the last 2 meetings (3-1, 2-1), but both teams scored in each. Recent head-to-head trends point to goals for both sides and no clean sheets for either."
+    },
+    {
+      "subtitle": "Season stats and tactical notes",
+      "text": "Liverpool have 59 goals from 56.3 expected goals, strong ball control (59.6% possession, rank 2), and elite territorial pressure (138.4 successful final-third passes and 33.6 penalty-area entries per game). They create many big chances (92) but conversion has been middling (35.9%) and they have conceded 47. Chelsea sit on 54 scored and 48 conceded; chance creation leans on Enzo Fernández’s supply, while wide full-backs provide crossing volume."
+    },
+    {
+      "subtitle": "Key players",
+      "text": "For Liverpool, Dominik Szoboszlai is in form (last 5: 1 goal, 2 assists), while Virgil van Dijk’s duel win rates anchor the defence; Mohamed Salah is listed absent, which reduces cutting edge. For Chelsea, João Pedro leads with 15 league goals, Cole Palmer adds 9, and Moisés Caicedo has performed well in recent meetings; Marc Cucurella was player of the match in the most recent clash."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee Craig Pawson averages 3.7 yellow cards and 0.14 red cards per game. Team trends point to moderate cards (home and away often under 4.5), while head-to-head corners have stayed low (under 10.5 in 9/9), with Liverpool averaging 5.8 corners per game. Expect a balanced card count and around 10 total corners."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Liverpool’s possession and territory at Anfield, plus Chelsea’s recent dip and habit of conceding first, suggest a narrow home edge. Given both sides’ head-to-head patterns and the model’s 69% for both teams to score, a Liverpool win with goals at both ends is the likeliest outcome, with the draw still a live alternative."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Chelsea",
+      "slug": "chelsea",
+      "shortName": "Chelsea",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 3018387,
+      "nameCode": "CHE",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 38,
+      "teamColors": {
+        "primary": "#0310a7",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "تشيلسي",
+          "bn": "চেলসি",
+          "hi": "चेल्सी",
+          "ru": "Челси"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Enzo Fernández",
+      "firstName": "",
+      "lastName": "",
+      "slug": "enzo-fernandez",
+      "shortName": "E. Fernández",
+      "position": "M",
+      "jerseyNumber": "17",
+      "userCount": 157873,
+      "gender": "M",
+      "sofascoreId": "8jj-2j9",
+      "id": 974505,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إنزو فرنانديز",
+          "bn": "এনজো ফার্নান্ডেজ",
+          "hi": "एन्ज़ो फर्नांडीज़",
+          "ru": "Энцо Фернандес"
+        },
+        "shortNameTranslation": {
+          "ar": "إ. فرنانديز",
+          "bn": "ই. ফার্নান্ডেজ",
+          "hi": "ई. फर्नांडीज़",
+          "ru": "Э. Фернандес"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 2
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Liverpool and Chelsea are level at half-time (1-1) at Anfield. Ryan Gravenberch opened the scoring on 6' before Enzo Fernández equalised on 35'. Possession has been near even (Liverpool 49%, Chelsea 51%), but Chelsea have produced more end-product with 3 shots on target to Liverpool's 1. Both sides have created 1 big chance."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Liverpool began on the front foot and sustained pressure through the opening quarter of an hour, converting that start into the early goal. From around the half-hour mark the flow shifted, with Chelsea taking control for an extended spell leading up to the interval. Liverpool briefly re-established territory just before the whistle, but Chelsea finished the half the stronger overall."
+    },
+    {
+      "subtitle": "Chance quality and shot profile",
+      "text": "Expected goals: Liverpool 0.31, Chelsea 0.34. Shots on target: Liverpool 1, Chelsea 3. Final-third entries: Liverpool 11, Chelsea 31. Penalty-area entries: Liverpool 6, Chelsea 10. Big chances: 1-1, with Virgil van Dijk missing Liverpool's best opportunity and Enzo Fernández also spurning a clear look in addition to his goal. The volume trends favour Chelsea, while the quality indicators remain close."
+    },
+    {
+      "subtitle": "Tactical trends",
+      "text": "Chelsea have controlled the physical contests so far (duels won 62%, aerials 67%) and have recovered possession higher up the pitch more often (final-third wins 3 vs 1). Moisés Caicedo has been key in progression and chance creation (3 key passes, 1 big chance created), linking well with the advanced midfield line. For Liverpool, Dominik Szoboszlai supplied their best chance and Rio Ngumoha provided the assist, but the hosts have struggled to connect into the box consistently against Chelsea's compact mid-block. Set plays look important for Liverpool given van Dijk's chance and Chelsea's aerial edge against them."
+    },
+    {
+      "subtitle": "Key player notes",
+      "text": "Liverpool: Gravenberch has been effective running beyond the ball and finished cleanly; Szoboszlai has created their standout chance; van Dijk has threatened from a dead ball. Chelsea: Enzo Fernández has been the most dangerous shooter (goal and 2 shots on target) and continues to arrive well from midfield; Caicedo has driven their creativity; Marc Cucurella has offered support with a shot on target and a key pass."
+    },
+    {
+      "subtitle": "Cards, corners and set pieces",
+      "text": "Corners are level (1-1). There have been no cards so far. With the duel intensity high and the scoreline tight, expect 2-3 cards after the break. Corner count could rise by another 3-5, with Chelsea marginally more likely to add to their total if their territorial trend continues. Chelsea's superiority in aerial duels gives them a slight edge on attacking set pieces, while Liverpool will look to isolate van Dijk on deliveries."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "Liverpool need to raise their press and improve first contacts in the air to regain territory, while accelerating their ball speed into the front line. More runs off the ball from midfield, as shown by Gravenberch, would help break Chelsea's line. Chelsea should maintain their compact shape and keep funnelling attacks through Caicedo and Fernández, who have found space between lines. If they sustain the duel advantage and high recoveries, the next clear chance is likely to fall their way."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "With Chelsea finishing the half on top and leading the duel and territorial metrics, they are slightly favoured to strike next. Projection: one more goal after the break, with Chelsea edging a 2-1 win. Most likely next scorer among those involved so far: Enzo Fernández given his shot volume and positioning."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

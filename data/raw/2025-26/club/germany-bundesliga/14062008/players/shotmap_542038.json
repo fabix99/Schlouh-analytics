@@ -1,0 +1,63 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Eric Smith",
+        "slug": "eric-smith",
+        "shortName": "E. Smith",
+        "position": "D",
+        "jerseyNumber": "8",
+        "userCount": 422,
+        "gender": "M",
+        "id": 542038,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إريك سميث"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. سميث"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22,
+        "y": 65.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.1,
+        "z": 13.9
+      },
+      "xg": 0.024767441675067,
+      "xgot": 0.30355003476143,
+      "id": 5479393,
+      "time": 89,
+      "timeSeconds": 5330,
+      "draw": {
+        "start": {
+          "x": 65.6,
+          "y": 22
+        },
+        "end": {
+          "x": 45.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.9,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 70,
+      "periodTimeSeconds": 2630,
+      "incidentType": "shot"
+    }
+  ]
+}

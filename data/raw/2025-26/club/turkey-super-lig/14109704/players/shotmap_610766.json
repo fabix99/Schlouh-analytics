@@ -1,0 +1,88 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Tammy Abraham",
+        "firstName": "",
+        "lastName": "",
+        "slug": "tammy-abraham",
+        "shortName": "T. Abraham",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 19616,
+        "gender": "M",
+        "sofascoreId": "tammy_abraham",
+        "id": 610766,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تامي أبراهام",
+            "bn": "ট্যামি আব্রাহাম",
+            "hi": "टैमी अब्राहम"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. أبراهام",
+            "bn": "টি. আব্রাহাম",
+            "hi": "टी. अब्राहम"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 25.3,
+        "y": 51,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.9,
+        "z": 31
+      },
+      "xg": 0.033048573881388,
+      "xgot": 0.18532726168633,
+      "goalkeeper": {
+        "name": "Abdullah Yiğiter",
+        "slug": "abdullah-yigiter",
+        "shortName": "A. Yiğiter",
+        "position": "G",
+        "jerseyNumber": "21",
+        "userCount": 39,
+        "gender": "M",
+        "id": 827515,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد الله ييغير"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. ييغير"
+          }
+        }
+      },
+      "id": 6133768,
+      "time": 2,
+      "timeSeconds": 99,
+      "draw": {
+        "start": {
+          "x": 51,
+          "y": 25.3
+        },
+        "end": {
+          "x": 48.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.1,
+          "y": 69
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2601,
+      "periodTimeSeconds": 99,
+      "incidentType": "shot"
+    }
+  ]
+}

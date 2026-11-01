@@ -1,0 +1,87 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Leo Sauer",
+        "firstName": "Leo Sauer",
+        "lastName": "",
+        "slug": "sauer-leo",
+        "shortName": "L. Sauer",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 1914,
+        "gender": "M",
+        "id": 1150938,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليو ساور",
+            "bn": "সাউয়ার, লিও",
+            "hi": "सॉयर, लियो"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. ساور",
+            "bn": "এল. সওয়ার",
+            "hi": "एल. सॉयर"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.7,
+        "y": 58.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.1,
+        "z": 3.2
+      },
+      "xg": 0.35167878866196,
+      "xgot": 0.8580374121666,
+      "goalkeeper": {
+        "name": "Nordin Bakker",
+        "slug": "nordin-bakker",
+        "shortName": "N. Bakker",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 133,
+        "gender": "M",
+        "id": 945955,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نور الدين باكر"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. باكر"
+          }
+        }
+      },
+      "id": 6491721,
+      "time": 30,
+      "timeSeconds": 1762,
+      "draw": {
+        "start": {
+          "x": 58.1,
+          "y": 12.7
+        },
+        "end": {
+          "x": 46.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.9,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 938,
+      "periodTimeSeconds": 1762,
+      "incidentType": "shot"
+    }
+  ]
+}

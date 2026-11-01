@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Anthony Gordon",
+        "firstName": "",
+        "lastName": "",
+        "slug": "gordon-anthony",
+        "shortName": "A. Gordon",
+        "position": "F",
+        "jerseyNumber": "10",
+        "userCount": 24398,
+        "gender": "M",
+        "sofascoreId": "AGordon",
+        "id": 914902,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوردون، أنتوني",
+            "bn": "গর্ডন, অ্যান্টনি",
+            "hi": "गॉर्डन, एंथनी"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. غوردون",
+            "bn": "এ. গর্ডন",
+            "hi": "ए. गॉर्डन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.3,
+        "z": 18.4
+      },
+      "xg": 0.7884,
+      "xgot": 0.77119243144989,
+      "goalkeeper": {
+        "name": "Guglielmo Vicario",
+        "slug": "guglielmo-vicario",
+        "shortName": "G. Vicario",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 7200,
+        "gender": "M",
+        "sofascoreId": "guglielmovicario",
+        "id": 553606,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكاريو غولييلمو",
+            "bn": "উইলিয়াম দ্য ভিকারিও",
+            "hi": "गुग्लिल्मो विकारियो"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غولييلمو",
+            "bn": "জি. ভিকারিও",
+            "hi": "जी. विकारियो"
+          }
+        }
+      },
+      "id": 6288171,
+      "time": 86,
+      "timeSeconds": 5139,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 52.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.7,
+          "y": 81.6
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 261,
+      "periodTimeSeconds": 2439,
+      "incidentType": "shot"
+    }
+  ]
+}

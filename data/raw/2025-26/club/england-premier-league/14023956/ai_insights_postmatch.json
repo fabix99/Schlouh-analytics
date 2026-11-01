@@ -1,0 +1,199 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 10,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 47,
+      "draw": 23,
+      "away": 30
+    },
+    "possibleResultsMatrix": [
+      [
+        0.042116889258112,
+        0.05838444449586,
+        0.04046765346557,
+        0.018699398343174,
+        0.0064804998891431,
+        0.0017967157249641
+      ],
+      [
+        0.075574583815452,
+        0.10476509950746,
+        0.072615193631836,
+        0.033554217138971,
+        0.011628614806677,
+        0.0032240283064753
+      ],
+      [
+        0.067805550451221,
+        0.093995294205353,
+        0.065150384252886,
+        0.030104858646969,
+        0.010433198413337,
+        0.0028925996407033
+      ],
+      [
+        0.040556780157908,
+        0.056221746709466,
+        0.038968635956262,
+        0.01800672844192,
+        0.0062404468598474,
+        0.0017301611288775
+      ],
+      [
+        0.018193780662103,
+        0.025221088165523,
+        0.017481338817557,
+        0.0080778224119073,
+        0.002799465858964,
+        0.00077615066990856
+      ],
+      [
+        0.0065293872638195,
+        0.0090513486397388,
+        0.0062737060069996,
+        0.0028989703544995,
+        0.001004672809049,
+        0.00027854509148073
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Old Trafford hosts a meeting between a top‑3 side and a team pushing to finish safely in mid‑table. Sofascore’s model rates Manchester United slight favourites (home win 47%, draw 23%, away win 30%) and sees a good chance of goals for both teams (62%)."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Manchester United are unbeaten in 4 (W3, D1), including a decisive 3-2 over Liverpool and a resilient 1-0 at Chelsea, though they drew 0-0 at Sunderland last time. Nottingham Forest have 3 wins in their last 5, highlighted by 3-1 at Chelsea and 5-0 at Sunderland, but also a heavy 0-4 defeat at Aston Villa, showing inconsistency."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "The last 2 meetings finished 2-2 and 1-0 to Nottingham Forest, showing they can trouble United. United are without a clean sheet in the last 3 head‑to‑heads, pointing towards chances for both sides."
+    },
+    {
+      "subtitle": "Season stats snapshot",
+      "text": "Manchester United’s attack is high output (63 goals, league rank 3; 98 big chances, rank 5) but wasteful (62 big chances missed). They are vulnerable at the back (48 conceded; only 7 clean sheets) and allow opponents opportunities. Forest have scored 45 and conceded 47, and both teams are strong late: United 76–90 minutes 29% of goals, Forest 30%."
+    },
+    {
+      "subtitle": "Key players and tactical notes",
+      "text": "Bruno Fernandes leads United’s chance creation (19 assists, 125 key passes) with Casemiro in good recent form. For Forest, Morgan Gibbs-White is the main threat (13 goals; strong recent output), with Taiwo Awoniyi also in form. United’s 13 headed goals suggest set‑pieces and wide deliveries are a key route; Forest must defend crosses well."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Michael Salisbury averages 3.3 yellow cards and 0.20 reds per match, so discipline should be manageable. Card trends point low to moderate. Corners outlook is mixed: United’s home matches often clear higher totals, while Forest trend lower; expect an average count overall."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Model probabilities favour a home win and a strong chance of goals for both teams. United’s home momentum and superior chance creation edge this, but Forest’s recent attacking form suggests they will score. Lean: Manchester United to win with both teams scoring."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Manchester United",
+      "slug": "manchester-united",
+      "shortName": "Man Utd",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 3767319,
+      "nameCode": "MUN",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 35,
+      "teamColors": {
+        "primary": "#ff0000",
+        "secondary": "#373737",
+        "text": "#373737"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مانشستر يونايتد",
+          "hi": "मेनचेस्टर यूनाइटेड ऍफ़सी",
+          "ru": "Манчестер Юнайтед"
+        },
+        "shortNameTranslation": {
+          "ar": "مانشستر يونايتد",
+          "bn": "ম্যান ইউনাইটেড",
+          "hi": "मैन यूनाइटेड"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Bruno Fernandes",
+      "firstName": "Bruno",
+      "lastName": "Fernandes",
+      "slug": "bruno-fernandes",
+      "shortName": "B. Fernandes",
+      "position": "M",
+      "jerseyNumber": "8",
+      "userCount": 300233,
+      "gender": "M",
+      "sofascoreId": "wta-i8k",
+      "id": 288205,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "برونو فيرنانديز",
+          "bn": "ব্রুনো ফার্নান্দেস",
+          "hi": "ब्रूनो फर्नांडीस",
+          "ru": "Бруну Фернандеш"
+        },
+        "shortNameTranslation": {
+          "ar": "ب. فرنانديز",
+          "bn": "বি. ফার্নান্দেস",
+          "hi": "बी. फर्नांडीस",
+          "ru": "Б. Фернандеш"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 0
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Manchester United lead 1-0 at Old Trafford after Luke Shaw’s early left‑foot finish on 6 minutes. The first half was broadly balanced in possession, but United edged chance quality and threatened from the left channel."
+    },
+    {
+      "subtitle": "First-half summary",
+      "text": "United started on the front foot, found the opener early and later struck the woodwork. They registered 2 shots on target and created 1 big chance, but wastefulness stopped them extending the lead. Nottingham Forest settled after the opening spell, earned 4 first‑half corners and also created 1 big chance; Morgan Gibbs-White had Forest’s only shot on target and missed their standout opportunity."
+    },
+    {
+      "subtitle": "Key stats at half-time",
+      "text": "Possession: United 51% – Forest 49%. Expected goals: United 1.16 – Forest 0.67. Shots on target: 2 – 1. Big chances: 1 – 1. Penalty area entries: 9 – 14. Final third entries: 17 – 28. Possessions won high: 2 – 5. Aerial duels won: United 60% – Forest 40%. Woodwork: United 1 – Forest 0."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "United controlled the opening phase and converted during their early spell. Midway through the half Forest wrestled control with their most sustained pressure, forcing United deeper. There was a brief United surge just after the 20‑minute mark before Forest enjoyed another strong period approaching the half‑hour. The closing minutes were more even with Forest edging territory before the interval."
+    },
+    {
+      "subtitle": "Tactical notes",
+      "text": "United’s left side carried threat, with Shaw advancing aggressively and Bruno Fernandes finding pockets to link play. Casemiro screened well and United’s centre-backs dealt with crosses, reflected in their aerial edge. Forest’s plan leaned on width and quick regains high up the pitch; the press produced turnovers but the final pass lacked precision. Set‑piece delivery remains Forest’s clearest route back given their corner volume, but United’s dominance in the air has limited second balls."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "No bookings were recorded in the first half. Corners: United 2 – Forest 4. Expect more restarts after the break if Forest sustain pressure, with total corners likely to rise notably. If intensity increases, anticipate a modest uptick in fouls and 2–3 second‑half yellow cards."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "Forest will need to push their full-backs higher and commit runners beyond the ball, which should create space for United to counter through the inside channels. United are well placed to manage the game state, and their chance quality plus aerial control suggest they are more likely to score the next goal. If Forest do level, it most likely comes from a set piece or a high turnover in United’s half."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "United to score next and close the game out. Predicted final score: Manchester United 2–0 Nottingham Forest."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

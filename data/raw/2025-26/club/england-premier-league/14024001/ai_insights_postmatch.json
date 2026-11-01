@@ -1,0 +1,194 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 10,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 1,
+    "winningProbability": {
+      "home": 36,
+      "draw": 26,
+      "away": 38
+    },
+    "possibleResultsMatrix": [
+      [
+        0.067031998971046,
+        0.09290128936172,
+        0.064377086298724,
+        0.029740593618507,
+        0.010304554302251,
+        0.0028562668447063
+      ],
+      [
+        0.088625681488297,
+        0.12282850291217,
+        0.085115515470748,
+        0.039321225948299,
+        0.013624062559504,
+        0.0037763844061083
+      ],
+      [
+        0.058587775538797,
+        0.081198233260808,
+        0.056267310237018,
+        0.025994081185976,
+        0.00900645846394,
+        0.0024964542807211
+      ],
+      [
+        0.025820412209657,
+        0.035785141767357,
+        0.024797752276606,
+        0.011455937438498,
+        0.0039692660789637,
+        0.0011002206176628
+      ],
+      [
+        0.0085345494074331,
+        0.011828241082506,
+        0.0081965245279402,
+        0.0037865880406337,
+        0.0013119812800469,
+        0.00036366139875209
+      ],
+      [
+        0.0022567736873132,
+        0.0031277179342295,
+        0.002167390450158,
+        0.0010012798387873,
+        0.00034692456387663,
+        9.616225023906e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Brighton & Hove Albion host Chelsea at the American Express Stadium with both sides clustered in mid‑table (Brighton 9th, 47 points; Chelsea 6th, 48). Sofascore model: home win 36%, draw 26%, away win 38%, with a 55% chance both teams score. The market view is near‑even, with a slight away lean."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Brighton are unbeaten in 4 (W3 D1) and have beaten Liverpool and Burnley with strong expected goals numbers. Chelsea have lost 4 of their last 5, failing to score in those 4 defeats; their only win came against lower‑level opposition."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "Brighton won the last 2 meetings (3-0 home, 3-1 away), aggregate 6-1. Recent clashes trend high‑scoring: more than 2.5 goals in 6/6 and both teams scoring in 5/6, with Chelsea without a clean sheet in the last 6 head‑to‑heads."
+    },
+    {
+      "subtitle": "Season stats and tactical notes",
+      "text": "Brighton: 45 scored, 39 conceded, 8 clean sheets; elite pressing (4.91 possessions won in the final third per game, rank 1) and 83.7% pass accuracy, but low ground duel win rate (48.5%) and many cards. Chelsea: 53 scored, 42 conceded; late‑period scoring is a strength (76–90 mins 24%), yet they have conceded first in 9/10 away matches and their last 10 away games often feature goals (more than 2.5 in 8/10)."
+    },
+    {
+      "subtitle": "Key players",
+      "text": "Brighton: Danny Welbeck (12 goals; 3 goals, 2 assists across recent head‑to‑heads) and Pascal Groß supply. Jan Paul van Hecke adds set‑piece threat. Chelsea: Enzo Fernández (8 goals) leads output; Moisés Caicedo in good form; Pedro Neto provides chance creation (11 big chances created)."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee Craig Pawson averages 3.7 yellows per game (reds 0.14). Brighton have a high season card count (81), while recent head‑to‑heads have often gone over 4.5 cards (5/7). Expect moderate bookings (around 4–5) and a low‑to‑mid corner count given Brighton’s 4.7 per game and a home trend under 10.5 corners (5/7)."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Form and head‑to‑head lean Brighton, but the model gives Chelsea a narrow edge. With a 55% chance for both teams to score, a tight game is likely; slight preference is for Chelsea to edge it by one goal."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Brighton & Hove Albion",
+      "slug": "brighton-and-hove-albion",
+      "shortName": "Brighton",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 419130,
+      "nameCode": "BHA",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 30,
+      "teamColors": {
+        "primary": "#0054a6",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "برايتون أند هوف ألبيون",
+          "hi": "ब्राइटोन एंड होव एल्बिओन ऍफ़सी",
+          "ru": "Брайтон энд Хоув Альбион"
+        },
+        "shortNameTranslation": {
+          "ar": "برايتون",
+          "bn": "ব্রাইটন",
+          "hi": "ब्राइटन"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Jack Hinshelwood",
+      "firstName": "Jack Hinshelwood",
+      "slug": "jack-hinshelwood",
+      "shortName": "J. Hinshelwood",
+      "position": "M",
+      "jerseyNumber": "8",
+      "userCount": 3830,
+      "gender": "M",
+      "sofascoreId": "vud-qcj",
+      "id": 1142315,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "جاك هينشلوود",
+          "bn": "জ্যাক হিনশেলউড",
+          "hi": "जैक हिन्शेलवुड",
+          "ru": "Джек Хиншелвуд"
+        },
+        "shortNameTranslation": {
+          "ar": "ج. هينشلوود",
+          "bn": "জে. হিনশেলউড",
+          "hi": "जे. हिन्शेलवुड",
+          "ru": "Д. Хиншелвуд"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 0
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Brighton & Hove Albion lead 1-0 at the break at the American Express Stadium after Ferdi Kadıoğlu finished early with his right foot. The hosts controlled the half across key metrics: possession 60-40, expected goals 1.33-0.04, shots on target 4-0, big chances 2-0 (both missed). Territory also favoured Brighton, who frequently reached the penalty area and kept Chelsea at distance."
+    },
+    {
+      "subtitle": "First-half performance",
+      "text": "Brighton’s structure and pressing were decisive. They made more final-third entries (34-21), reached the penalty area more often (18-7) and won the ball high 6 times, while Chelsea recorded 0 high regains. Chelsea edged the physical contests (aerial duels 58%, overall duels 53%), but most of that work came in their own half. Brighton should arguably be further ahead given the two big misses."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Brighton dominated from kick-off with a sustained attacking spell that brought the early goal and further pressure. The middle phase saw the game settle, followed by a short Chelsea push around the half-hour that Brighton managed. The away side then enjoyed their best sustained spell just before the interval, but without creating a clear chance. Overall momentum favoured Brighton for the majority of the half."
+    },
+    {
+      "subtitle": "Key player notes",
+      "text": "Ferdi Kadıoğlu combined his goal with proactive defending (3 interceptions). Pascal Groß supplied creativity between the lines (3 key passes), with Carlos Baleba adding a big chance created. Jack Hinshelwood was a constant runner into the box and posted the best individual chance of the half. Kaoru Mitoma threatened off the left and forced a save. For Chelsea, Trevoh Chalobah led the resistance with 4 clearances and their only noteworthy attempt, while Wesley Fofana and Marc Cucurella added interceptions, but there was limited service to the forwards."
+    },
+    {
+      "subtitle": "Second-half tactical outlook",
+      "text": "Brighton can continue to profit from quick switches and third-man runs into the box, especially with wide overloads and cut-backs that troubled Chelsea. Set-plays also look promising given the volume of entries and deliveries. Chelsea need to push their full-backs higher and play earlier into wide channels, then attack the box with more numbers. With an edge in aerials, more early crosses could test Brighton. Raising the press to disrupt Brighton’s build-up is important, but it risks leaving space for Mitoma and late midfield runners."
+    },
+    {
+      "subtitle": "Cards and corners",
+      "text": "Discipline: Chelsea have 1 yellow card, Brighton 0. Chasing the game may increase Chelsea’s fouls after the break. Expect 2-3 more cards overall, with Chelsea slightly more likely to collect them. Corners: Brighton 4, Chelsea 3 at half-time. With the hosts still carrying the greater threat, a narrow corner edge for Brighton remains likely, projecting roughly 10-11 total corners by full-time."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Brighton remain the more cohesive and dangerous side, with superior chance quality and territorial control. If trends persist, the hosts are the likelier team to score next. Prediction: Brighton to see the game out with a second-half goal and a clean sheet."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

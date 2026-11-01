@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Riad Bajić",
+        "slug": "riad-bajic",
+        "shortName": "R. Bajić",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 330,
+        "gender": "M",
+        "id": 331751,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رياض باجيتش",
+            "bn": "রিয়াদ বাজিক",
+            "hi": "रियाद बाजीक"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. باجيتش",
+            "bn": "আর. বাজিক",
+            "hi": "आर. बाजीक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 17.6,
+        "y": 57.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14.9,
+        "y": 56.7,
+        "z": 0
+      },
+      "xg": 0.044347502291203,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Dimitar Mitov",
+        "slug": "dimitar-mitov",
+        "shortName": "D. Mitov",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 414,
+        "gender": "M",
+        "id": 802859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديميتار ميتوف",
+            "bn": "দিমিতার মিতভ",
+            "hi": "दिमितार मितोव"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ميتوف",
+            "bn": "ডি. মিতভ",
+            "hi": "डी. मितोव"
+          }
+        }
+      },
+      "id": 6120330,
+      "time": 33,
+      "timeSeconds": 1935,
+      "draw": {
+        "start": {
+          "x": 57.9,
+          "y": 17.6
+        },
+        "block": {
+          "x": 56.7,
+          "y": 14.9
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 765,
+      "periodTimeSeconds": 1935,
+      "incidentType": "shot"
+    }
+  ]
+}

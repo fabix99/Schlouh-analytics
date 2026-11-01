@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Roger Fernandes",
+        "slug": "roger-fernandes",
+        "shortName": "R. Fernandes",
+        "position": "M",
+        "jerseyNumber": "78",
+        "userCount": 2644,
+        "gender": "M",
+        "id": 1128560,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رودجر فيرنانديس",
+            "bn": "রজার ফার্নান্ডেজ",
+            "hi": "रोजर फर्नांडीस"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. فيرنانديس",
+            "bn": "আর. ফার্নান্ডেজ",
+            "hi": "आर. फर्नांडीस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.8,
+        "y": 72.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.8,
+        "y": 69.9,
+        "z": 0
+      },
+      "xg": 0.027370350435376,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Edouard Mendy",
+        "firstName": "",
+        "lastName": "",
+        "slug": "edouard-mendy",
+        "shortName": "E. Mendy",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 19645,
+        "gender": "M",
+        "sofascoreId": "edou_mendy",
+        "id": 845074,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إدوارد ميندي",
+            "bn": "এডোয়ার্ড মেন্ডি",
+            "hi": "एडौर्ड मेंडी"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ميندي",
+            "bn": "ই. মেন্ডি",
+            "hi": "ई. मेंडी"
+          }
+        }
+      },
+      "id": 6134897,
+      "time": 65,
+      "timeSeconds": 3861,
+      "draw": {
+        "start": {
+          "x": 72.7,
+          "y": 15.8
+        },
+        "block": {
+          "x": 69.9,
+          "y": 13.8
+        },
+        "end": {
+          "x": 49.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1539,
+      "periodTimeSeconds": 1161,
+      "incidentType": "shot"
+    }
+  ]
+}

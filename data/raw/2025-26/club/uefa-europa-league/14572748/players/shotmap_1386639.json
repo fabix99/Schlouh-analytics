@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ibrahim Salah",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ibrahim-salah",
+        "shortName": "I. Salah",
+        "position": "F",
+        "jerseyNumber": "21",
+        "userCount": 2201,
+        "gender": "M",
+        "id": 1386639,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إبراهيم صلاح",
+            "bn": "ইব্রাহিম সালাহ",
+            "hi": "इब्राहीम सलाह"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. صلاح",
+            "bn": "আই. সালাহ",
+            "hi": "आई. सलाह"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 7.3,
+        "y": 56.6,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 4.1,
+        "y": 54.2,
+        "z": 0
+      },
+      "xg": 0.072434179484844,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Marco Bizot",
+        "slug": "marco-bizot",
+        "shortName": "M. Bizot",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 906,
+        "gender": "M",
+        "id": 100390,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركو بيزوت",
+            "bn": "মার্কো বিজোট",
+            "hi": "मार्को बिज़ोट"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بيزوت",
+            "bn": "এম. বিজোট",
+            "hi": "एम. बिज़ोट"
+          }
+        }
+      },
+      "id": 6335374,
+      "time": 90,
+      "addedTime": 2,
+      "timeSeconds": 5467,
+      "draw": {
+        "start": {
+          "x": 56.6,
+          "y": 7.3
+        },
+        "block": {
+          "x": 54.2,
+          "y": 4.1
+        },
+        "end": {
+          "x": 50.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 833,
+      "periodTimeSeconds": 67,
+      "incidentType": "shot"
+    }
+  ]
+}

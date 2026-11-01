@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Danijel Šturm",
+        "slug": "danijel-sturm",
+        "shortName": "D. Šturm",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 227,
+        "gender": "M",
+        "id": 825070,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دانيجيل شتورم",
+            "bn": "ড্যানিয়েল স্টর্ম",
+            "hi": "डेनियल स्टुरम"
+          },
+          "shortNameTranslation": {
+            "ar": "د. شتورم",
+            "bn": "ডি. স্টর্ম",
+            "hi": "डी. स्टुरम"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 24.4,
+        "y": 45.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.9,
+        "z": 6.3
+      },
+      "blockCoordinates": {
+        "x": 2,
+        "y": 49.6,
+        "z": 0
+      },
+      "xg": 0.02000212483108,
+      "xgot": 0.20847588777542,
+      "goalkeeper": {
+        "name": "Wessel Speel",
+        "slug": "wessel-speel",
+        "shortName": "W. Speel",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 46,
+        "gender": "M",
+        "id": 1014536,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويسل سبييل"
+          },
+          "shortNameTranslation": {
+            "ar": "و. سبييل"
+          }
+        }
+      },
+      "id": 6375563,
+      "time": 35,
+      "timeSeconds": 2077,
+      "draw": {
+        "start": {
+          "x": 45.7,
+          "y": 24.4
+        },
+        "block": {
+          "x": 49.6,
+          "y": 2
+        },
+        "end": {
+          "x": 54.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.1,
+          "y": 93.7
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 623,
+      "periodTimeSeconds": 2077,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "John Mercado",
+        "firstName": "",
+        "lastName": "",
+        "slug": "john-mercado",
+        "shortName": "John Mercado",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 909,
+        "gender": "M",
+        "id": 1002514,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جون ميركادو"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ميركادو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15,
+        "y": 68.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.3,
+        "z": 8.2
+      },
+      "xg": 0.037630077451468,
+      "xgot": 0.46716296672821,
+      "goalkeeper": {
+        "name": "Dimitar Mitov",
+        "slug": "dimitar-mitov",
+        "shortName": "D. Mitov",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 414,
+        "gender": "M",
+        "id": 802859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديميتار ميتوف",
+            "bn": "দিমিতার মিতভ",
+            "hi": "दिमितार मितोव"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ميتوف",
+            "bn": "ডি. মিতভ",
+            "hi": "डी. मितोव"
+          }
+        }
+      },
+      "id": 6375424,
+      "time": 16,
+      "timeSeconds": 949,
+      "draw": {
+        "start": {
+          "x": 68.6,
+          "y": 15
+        },
+        "end": {
+          "x": 46.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.7,
+          "y": 91.8
+        }
+      },
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1751,
+      "periodTimeSeconds": 949,
+      "incidentType": "shot"
+    }
+  ]
+}

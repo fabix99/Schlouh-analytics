@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Dušan Vlahović",
+        "slug": "dusan-vlahovic",
+        "shortName": "D. Vlahović",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 42429,
+        "gender": "M",
+        "sofascoreId": "DV9",
+        "id": 832208,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوشان فلاهوفيتش",
+            "bn": "দুসান ভ্লাহোভিচ",
+            "hi": "ड्यूसन व्लाहोविच"
+          },
+          "shortNameTranslation": {
+            "ar": "د. فلاهوفيتش",
+            "bn": "ডি. ভ্লাহোভিচ",
+            "hi": "डी. व्लाहोविच"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 17.5,
+        "y": 33.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48,
+        "z": 3.2
+      },
+      "blockCoordinates": {
+        "x": 2.4,
+        "y": 46.4,
+        "z": 0
+      },
+      "xg": 0.046955429017544,
+      "xgot": 0.1389744579792,
+      "goalkeeper": {
+        "name": "Elia Caprile",
+        "firstName": "",
+        "lastName": "",
+        "slug": "elia-caprile",
+        "shortName": "E. Caprile",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1722,
+        "gender": "M",
+        "id": 947954,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيليا كابريلي",
+            "bn": "এলিয়া ক্যাপ্রিল",
+            "hi": "एलिया कैप्रिले"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. كابريلي",
+            "bn": "ই. ক্যাপ্রিল",
+            "hi": "ई. कैप्रिले"
+          }
+        }
+      },
+      "id": 6266927,
+      "time": 29,
+      "timeSeconds": 1685,
+      "draw": {
+        "start": {
+          "x": 33.6,
+          "y": 17.5
+        },
+        "block": {
+          "x": 46.4,
+          "y": 2.4
+        },
+        "end": {
+          "x": 52,
+          "y": 0
+        },
+        "goal": {
+          "x": 52,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 1015,
+      "periodTimeSeconds": 1685,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Álvaro Morata",
+        "slug": "alvaro-morata",
+        "shortName": "Á. Morata",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 27528,
+        "gender": "M",
+        "sofascoreId": "ÁMorata",
+        "id": 125407,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألفارو موراتا",
+            "bn": "আলভারো মোরাতা",
+            "hi": "अल्वारो मोराटा"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موراتا",
+            "bn": "এ. মোরাতা",
+            "hi": "ए. मोराटा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 3.1,
+        "y": 50.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.8,
+        "z": 19.6
+      },
+      "blockCoordinates": {
+        "x": 0.5,
+        "y": 49.6,
+        "z": 0
+      },
+      "xg": 0.7882354259491,
+      "xgot": 0.57633304595947,
+      "goalkeeper": {
+        "name": "Elia Caprile",
+        "firstName": "",
+        "lastName": "",
+        "slug": "elia-caprile",
+        "shortName": "E. Caprile",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1722,
+        "gender": "M",
+        "id": 947954,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيليا كابريلي",
+            "bn": "এলিয়া ক্যাপ্রিল",
+            "hi": "एलिया कैप्रिले"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. كابريلي",
+            "bn": "ই. ক্যাপ্রিল",
+            "hi": "ई. कैप्रिले"
+          }
+        }
+      },
+      "id": 6131488,
+      "time": 54,
+      "timeSeconds": 3195,
+      "draw": {
+        "start": {
+          "x": 50.4,
+          "y": 3.1
+        },
+        "block": {
+          "x": 49.6,
+          "y": 0.5
+        },
+        "end": {
+          "x": 50.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.2,
+          "y": 80.4
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2205,
+      "periodTimeSeconds": 495,
+      "incidentType": "shot"
+    }
+  ]
+}

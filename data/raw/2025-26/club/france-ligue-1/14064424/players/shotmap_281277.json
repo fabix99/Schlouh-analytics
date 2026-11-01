@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Thilo Kehrer",
+        "slug": "thilo-kehrer",
+        "shortName": "T. Kehrer",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 1930,
+        "gender": "M",
+        "id": 281277,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ثيلو كيرير",
+            "bn": "থিলো কেহরের",
+            "hi": "थिलो केहरर"
+          },
+          "shortNameTranslation": {
+            "ar": "ث. كيرير",
+            "bn": "টি. কেহরের",
+            "hi": "टी. केहरर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 11.3,
+        "y": 51.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 39.2,
+        "z": 29.2
+      },
+      "blockCoordinates": {
+        "x": 2.3,
+        "y": 66.4,
+        "z": 0
+      },
+      "xg": 0.034300304949284,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Robin Risser",
+        "firstName": "Robin Risser",
+        "slug": "robin-risser",
+        "shortName": "R. Risser",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 992,
+        "gender": "M",
+        "id": 1387161,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن ريسر",
+            "bn": "রবিন রিসার",
+            "hi": "रॉबिन रिसर"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ريسر",
+            "bn": "আর. রিসার",
+            "hi": "आर. रिसर"
+          }
+        }
+      },
+      "id": 6136103,
+      "time": 44,
+      "timeSeconds": 2588,
+      "draw": {
+        "start": {
+          "x": 51.4,
+          "y": 11.3
+        },
+        "block": {
+          "x": 66.4,
+          "y": 2.3
+        },
+        "end": {
+          "x": 60.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 60.8,
+          "y": 70.8
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 112,
+      "periodTimeSeconds": 2588,
+      "incidentType": "shot"
+    }
+  ]
+}

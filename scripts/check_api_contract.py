@@ -18,9 +18,7 @@ from config import API_BASE
 import requests
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
     "Accept": "application/json",
-    "Referer": "https://www.sofascore.com/",
 }
 
 # One known live-ish event ID (LaLiga); override with --event-id

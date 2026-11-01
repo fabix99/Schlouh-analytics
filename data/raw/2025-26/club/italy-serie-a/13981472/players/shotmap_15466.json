@@ -1,0 +1,76 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Luka Modrić",
+        "slug": "luka-modric",
+        "shortName": "L. Modrić",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 348210,
+        "gender": "M",
+        "sofascoreId": "LModric10",
+        "id": 15466,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكا مودريتش",
+            "bn": "লুকা মডরিচ",
+            "hi": "लुका मोड्रिक"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. مودريتش",
+            "bn": "এল. মডরিচ",
+            "hi": "एल. मोड्रिक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 27.5,
+        "y": 37.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.1,
+        "z": 6.9
+      },
+      "blockCoordinates": {
+        "x": 20.5,
+        "y": 40.4,
+        "z": 0
+      },
+      "xg": 0.016616364941001,
+      "xgot": 0,
+      "id": 5792243,
+      "time": 6,
+      "timeSeconds": 328,
+      "draw": {
+        "start": {
+          "x": 37.3,
+          "y": 27.5
+        },
+        "block": {
+          "x": 40.4,
+          "y": 20.5
+        },
+        "end": {
+          "x": 47.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.9,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2372,
+      "periodTimeSeconds": 328,
+      "incidentType": "shot"
+    }
+  ]
+}

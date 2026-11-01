@@ -1,0 +1,86 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Carlo Holse",
+        "slug": "carlo-holse",
+        "shortName": "C. Holse",
+        "position": "M",
+        "jerseyNumber": "21",
+        "userCount": 634,
+        "gender": "M",
+        "id": 837012,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلو هولز",
+            "bn": "কার্লো হোলস",
+            "hi": "कार्लो होलसे"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. هولز",
+            "bn": "সি. হোলস",
+            "hi": "सी. होलसे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 26.9,
+        "y": 47.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 38.8,
+        "z": 15.3
+      },
+      "xg": 0.024670828133821,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ertuğrul Taşkıran",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ertugrul-taskiran",
+        "shortName": "E. Taşkıran",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 132,
+        "gender": "M",
+        "id": 105974,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إرتوغول تاشكيران"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. تاشكيران"
+          }
+        }
+      },
+      "id": 6280653,
+      "time": 42,
+      "timeSeconds": 2475,
+      "draw": {
+        "start": {
+          "x": 47.2,
+          "y": 26.9
+        },
+        "end": {
+          "x": 61.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 61.2,
+          "y": 84.7
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 225,
+      "periodTimeSeconds": 2475,
+      "incidentType": "shot"
+    }
+  ]
+}

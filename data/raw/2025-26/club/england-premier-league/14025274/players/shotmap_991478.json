@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Amine Adli",
+        "slug": "amine-adli",
+        "shortName": "A. Adli",
+        "position": "F",
+        "jerseyNumber": "21",
+        "userCount": 17361,
+        "gender": "M",
+        "sofascoreId": "amine_ad10",
+        "id": 991478,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أمين عدلي",
+            "bn": "আমিন আদলি",
+            "hi": "अमीन अदली"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. عدلي",
+            "bn": "এ. আদলি",
+            "hi": "ए. अदली"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 20,
+        "y": 31.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 16.8,
+        "y": 34.8,
+        "z": 0
+      },
+      "xg": 0.013787548989058,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "David Raya",
+        "slug": "david-raya",
+        "shortName": "D. Raya",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 26481,
+        "gender": "M",
+        "sofascoreId": "d_raya1",
+        "id": 581310,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد رايا",
+            "bn": "ডেভিড রায়া",
+            "hi": "डेविड राया"
+          },
+          "shortNameTranslation": {
+            "ar": "د. رايا",
+            "bn": "ডি. রায়া",
+            "hi": "डी. राया"
+          }
+        }
+      },
+      "id": 6447961,
+      "time": 90,
+      "addedTime": 6,
+      "timeSeconds": 5749,
+      "draw": {
+        "start": {
+          "x": 31.5,
+          "y": 20
+        },
+        "block": {
+          "x": 34.8,
+          "y": 16.8
+        },
+        "end": {
+          "x": 47.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 551,
+      "periodTimeSeconds": 349,
+      "incidentType": "shot"
+    }
+  ]
+}

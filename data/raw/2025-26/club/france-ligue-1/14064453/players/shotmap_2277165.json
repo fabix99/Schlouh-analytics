@@ -1,0 +1,92 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Enzo Koffi",
+        "firstName": "Enzo Koffi",
+        "slug": "enzo-koffi",
+        "shortName": "E. Koffi",
+        "position": "F",
+        "jerseyNumber": "27",
+        "userCount": 48,
+        "gender": "M",
+        "id": 2277165,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إنزو كوفي"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. كوفي"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 14.3,
+        "y": 45.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.4,
+        "z": 0.6
+      },
+      "blockCoordinates": {
+        "x": 2.5,
+        "y": 48.2,
+        "z": 0
+      },
+      "xg": 0.1091922968626,
+      "xgot": 0.31079813838005,
+      "goalkeeper": {
+        "name": "Melvin Zinga",
+        "firstName": "",
+        "lastName": "",
+        "slug": "melvin-zinga",
+        "shortName": "M. Zinga",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 122,
+        "gender": "M",
+        "id": 963201,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميلفين زينغا"
+          },
+          "shortNameTranslation": {
+            "ar": "م. زينغا"
+          }
+        }
+      },
+      "id": 6455056,
+      "time": 78,
+      "timeSeconds": 4656,
+      "draw": {
+        "start": {
+          "x": 45.5,
+          "y": 14.3
+        },
+        "block": {
+          "x": 48.2,
+          "y": 2.5
+        },
+        "end": {
+          "x": 46.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.6,
+          "y": 99.4
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 744,
+      "periodTimeSeconds": 1956,
+      "incidentType": "shot"
+    }
+  ]
+}

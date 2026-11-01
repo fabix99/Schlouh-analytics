@@ -1,0 +1,188 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rodrigo Zalazar",
+        "firstName": "",
+        "lastName": "",
+        "slug": "rodrigo-zalazar",
+        "shortName": "R. Zalazar",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 2906,
+        "gender": "M",
+        "id": 966575,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رودريغو زالازار",
+            "bn": "রদ্রিগো জালাজার",
+            "hi": "रोड्रिगो ज़लाज़ार"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. زالازار",
+            "bn": "আর. জালাজার",
+            "hi": "आर. ज़लाज़ार"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.4,
+        "z": 0.6
+      },
+      "xg": 0.7884,
+      "xgot": 0.8024976849556,
+      "goalkeeper": {
+        "name": "Anatoliy Trubin",
+        "slug": "anatoliy-trubin",
+        "shortName": "A. Trubin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9723,
+        "gender": "M",
+        "sofascoreId": "anatoliytrubin81",
+        "id": 966616,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أناتولي تروبين",
+            "bn": "আনাতোলি ট্রুবিন",
+            "hi": "अनातोली ट्रुबिन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. تروبين",
+            "bn": "এ. ট্রুবিন",
+            "hi": "ए. ट्रुबिन"
+          }
+        }
+      },
+      "id": 6423167,
+      "time": 38,
+      "timeSeconds": 2226,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 52.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.6,
+          "y": 99.4
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 474,
+      "periodTimeSeconds": 2226,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Rodrigo Zalazar",
+        "firstName": "",
+        "lastName": "",
+        "slug": "rodrigo-zalazar",
+        "shortName": "R. Zalazar",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 2906,
+        "gender": "M",
+        "id": 966575,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رودريغو زالازار",
+            "bn": "রদ্রিগো জালাজার",
+            "hi": "रोड्रिगो ज़लाज़ार"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. زالازار",
+            "bn": "আর. জালাজার",
+            "hi": "आर. ज़लाज़ार"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.4,
+        "y": 55.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 21.6,
+        "y": 54.7,
+        "z": 0
+      },
+      "xg": 0.022731931880116,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Anatoliy Trubin",
+        "slug": "anatoliy-trubin",
+        "shortName": "A. Trubin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9723,
+        "gender": "M",
+        "sofascoreId": "anatoliytrubin81",
+        "id": 966616,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أناتولي تروبين",
+            "bn": "আনাতোলি ট্রুবিন",
+            "hi": "अनातोली ट्रुबिन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. تروبين",
+            "bn": "এ. ট্রুবিন",
+            "hi": "ए. ट्रुबिन"
+          }
+        }
+      },
+      "id": 6423000,
+      "time": 13,
+      "timeSeconds": 774,
+      "draw": {
+        "start": {
+          "x": 55.2,
+          "y": 23.4
+        },
+        "block": {
+          "x": 54.7,
+          "y": 21.6
+        },
+        "end": {
+          "x": 48.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1926,
+      "periodTimeSeconds": 774,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Leon Flach",
+        "firstName": "",
+        "lastName": "",
+        "slug": "leon-flach",
+        "shortName": "L. Flach",
+        "position": "M",
+        "jerseyNumber": "31",
+        "userCount": 133,
+        "gender": "M",
+        "id": 1063977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليون فلاش"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. فلاش"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.7,
+        "y": 31.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.5,
+        "y": 36.1,
+        "z": 0
+      },
+      "xg": 0.033817611634731,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Johannes Kreidl",
+        "slug": "johannes-kreidl",
+        "shortName": "J. Kreidl",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 81,
+        "gender": "M",
+        "id": 578086,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوهانس كرايدل"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. كرايدل"
+          }
+        }
+      },
+      "id": 6258434,
+      "time": 80,
+      "timeSeconds": 4791,
+      "draw": {
+        "start": {
+          "x": 31.2,
+          "y": 20.7
+        },
+        "block": {
+          "x": 36.1,
+          "y": 15.5
+        },
+        "end": {
+          "x": 50.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 609,
+      "periodTimeSeconds": 2091,
+      "incidentType": "shot"
+    }
+  ]
+}

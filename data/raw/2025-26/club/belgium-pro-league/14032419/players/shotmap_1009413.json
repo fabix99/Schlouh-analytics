@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jordi Liongola",
+        "slug": "jordi-liongola",
+        "shortName": "J. Liongola",
+        "position": "D",
+        "jerseyNumber": "11",
+        "userCount": 152,
+        "gender": "M",
+        "id": 1009413,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوردي ليونغولا"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ليونغولا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 22.6,
+        "y": 45.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.6,
+        "z": 18.4
+      },
+      "blockCoordinates": {
+        "x": 2,
+        "y": 49.5,
+        "z": 0
+      },
+      "xg": 0.046825118362904,
+      "xgot": 0.015292856842279,
+      "goalkeeper": {
+        "name": "Guillaume Dietsch",
+        "slug": "guillaume-dietsch",
+        "shortName": "G. Dietsch",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 76,
+        "gender": "M",
+        "id": 986770,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غيوم ديتش",
+            "bn": "গুইলাউম ডায়েটশ",
+            "hi": "गिलौम डाइट्स्च"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. ديتش",
+            "bn": "জি. ডায়েটশ",
+            "hi": "जी. डाइट्स्च"
+          }
+        }
+      },
+      "id": 6300704,
+      "time": 30,
+      "timeSeconds": 1780,
+      "draw": {
+        "start": {
+          "x": 45.2,
+          "y": 22.6
+        },
+        "block": {
+          "x": 49.5,
+          "y": 2
+        },
+        "end": {
+          "x": 49.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.4,
+          "y": 81.6
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 920,
+      "periodTimeSeconds": 1780,
+      "incidentType": "shot"
+    }
+  ]
+}

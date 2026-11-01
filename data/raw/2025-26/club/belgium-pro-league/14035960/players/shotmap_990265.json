@@ -1,0 +1,82 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Gary Magnee",
+        "slug": "magnee-gary",
+        "shortName": "G. Magnee",
+        "position": "D",
+        "jerseyNumber": "15",
+        "userCount": 149,
+        "gender": "M",
+        "id": 990265,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غاري ماغني"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. ماغني"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.6,
+        "z": 29.1
+      },
+      "xg": 0.7884,
+      "xgot": 0.99081999063492,
+      "goalkeeper": {
+        "name": "Nacho Miras",
+        "slug": "nacho-miras",
+        "shortName": "N. Miras",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 117,
+        "gender": "M",
+        "id": 1010556,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناشو ميراتس"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. ميراتس"
+          }
+        }
+      },
+      "id": 6342005,
+      "time": 90,
+      "addedTime": 8,
+      "timeSeconds": 5835,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 46.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.4,
+          "y": 70.9
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 465,
+      "periodTimeSeconds": 435,
+      "incidentType": "shot"
+    }
+  ]
+}

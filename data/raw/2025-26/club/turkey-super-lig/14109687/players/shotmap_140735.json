@@ -1,0 +1,129 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Zeki Yavru",
+        "slug": "zeki-yavru",
+        "shortName": "Z. Yavru",
+        "position": "D",
+        "jerseyNumber": "18",
+        "userCount": 207,
+        "gender": "M",
+        "id": 140735,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيكي يافرو"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. يافرو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 21.2,
+        "y": 67.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 42,
+        "z": 18.1
+      },
+      "xg": 0.057912833988667,
+      "xgot": 0,
+      "id": 6047266,
+      "time": 69,
+      "timeSeconds": 4090,
+      "draw": {
+        "start": {
+          "x": 67.5,
+          "y": 21.2
+        },
+        "end": {
+          "x": 58,
+          "y": 0
+        },
+        "goal": {
+          "x": 58,
+          "y": 81.9
+        }
+      },
+      "reversedPeriodTime": 22,
+      "reversedPeriodTimeSeconds": 1310,
+      "periodTimeSeconds": 1390,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Zeki Yavru",
+        "slug": "zeki-yavru",
+        "shortName": "Z. Yavru",
+        "position": "D",
+        "jerseyNumber": "18",
+        "userCount": 207,
+        "gender": "M",
+        "id": 140735,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيكي يافرو"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. يافرو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 27,
+        "y": 75.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 23.4
+      },
+      "blockCoordinates": {
+        "x": 3.2,
+        "y": 53.4,
+        "z": 0
+      },
+      "xg": 0.010041119530797,
+      "xgot": 0.01513110473752,
+      "id": 6046775,
+      "time": 32,
+      "timeSeconds": 1903,
+      "draw": {
+        "start": {
+          "x": 75.7,
+          "y": 27
+        },
+        "block": {
+          "x": 53.4,
+          "y": 3.2
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 76.6
+        }
+      },
+      "reversedPeriodTime": 14,
+      "reversedPeriodTimeSeconds": 797,
+      "periodTimeSeconds": 1903,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Vitinha",
+        "firstName": "",
+        "lastName": "",
+        "slug": "vitinha",
+        "shortName": "Vitinha",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 51054,
+        "gender": "M",
+        "sofascoreId": "vitinha",
+        "id": 902029,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيتينيا",
+            "bn": "বিতিনহা",
+            "hi": "वितिन्हा"
+          },
+          "shortNameTranslation": {
+            "ar": "فيتينيا",
+            "bn": "বিতিনহা",
+            "hi": "वितिन्हा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.5,
+        "y": 38.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.4,
+        "y": 42.1,
+        "z": 0
+      },
+      "xg": 0.045195154845715,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mory Diaw",
+        "slug": "mory-diaw",
+        "shortName": "M. Diaw",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 3513,
+        "gender": "M",
+        "id": 580226,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موري دياو",
+            "bn": "মোরি ডায়াউ",
+            "hi": "मोरी डियाव"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دياو",
+            "bn": "এম. দিয়াও",
+            "hi": "एम. डियाव"
+          }
+        }
+      },
+      "id": 6223426,
+      "time": 45,
+      "addedTime": 1,
+      "timeSeconds": 2757,
+      "draw": {
+        "start": {
+          "x": 38.9,
+          "y": 23.5
+        },
+        "block": {
+          "x": 42.1,
+          "y": 15.4
+        },
+        "end": {
+          "x": 48,
+          "y": 0
+        },
+        "goal": {
+          "x": 48,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2643,
+      "periodTimeSeconds": 57,
+      "incidentType": "shot"
+    }
+  ]
+}

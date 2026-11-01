@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Martín Zubimendi",
+        "slug": "martin-zubimendi",
+        "shortName": "M. Zubimendi",
+        "position": "M",
+        "jerseyNumber": "36",
+        "userCount": 26741,
+        "gender": "M",
+        "sofascoreId": "martin_zubimendi",
+        "id": 966837,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتين زوبيميندي",
+            "bn": "মার্টিন জুবিমেন্ডি",
+            "hi": "मार्टिन ज़ुबिमेंडी"
+          },
+          "shortNameTranslation": {
+            "ar": "م. زوبيميندي",
+            "bn": "এম. জুবিমেন্দি",
+            "hi": "एम. ज़ुबिमेंडी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 21.4,
+        "y": 59.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.9,
+        "y": 57.9,
+        "z": 0
+      },
+      "xg": 0.046181663870811,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Guglielmo Vicario",
+        "slug": "guglielmo-vicario",
+        "shortName": "G. Vicario",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 7200,
+        "gender": "M",
+        "sofascoreId": "guglielmovicario",
+        "id": 553606,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكاريو غولييلمو",
+            "bn": "উইলিয়াম দ্য ভিকারিও",
+            "hi": "गुग्लिल्मो विकारियो"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غولييلمو",
+            "bn": "জি. ভিকারিও",
+            "hi": "जी. विकारियो"
+          }
+        }
+      },
+      "id": 6231411,
+      "time": 51,
+      "timeSeconds": 3020,
+      "draw": {
+        "start": {
+          "x": 59.4,
+          "y": 21.4
+        },
+        "block": {
+          "x": 57.9,
+          "y": 17.9
+        },
+        "end": {
+          "x": 50.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2380,
+      "periodTimeSeconds": 320,
+      "incidentType": "shot"
+    }
+  ]
+}

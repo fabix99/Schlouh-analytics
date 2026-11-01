@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Iago Aspas",
+        "slug": "iago-aspas",
+        "shortName": "I. Aspas",
+        "position": "F",
+        "jerseyNumber": "10",
+        "userCount": 5077,
+        "gender": "M",
+        "sofascoreId": "i.aspas10",
+        "id": 19356,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إياغو أسباس",
+            "bn": "ইয়াগো আসপাস",
+            "hi": "इयागो अस्पास"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. أسباس",
+            "bn": "আই. আসপাস",
+            "hi": "आई. अस्पास"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.8,
+        "y": 65.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.2,
+        "z": 2.5
+      },
+      "blockCoordinates": {
+        "x": 1.5,
+        "y": 50.7,
+        "z": 0
+      },
+      "xg": 0.030431486666203,
+      "xgot": 0.068219505250454,
+      "goalkeeper": {
+        "name": "Marko Dmitrović",
+        "slug": "marko-dmitrovic",
+        "shortName": "M. Dmitrović",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 1186,
+        "gender": "M",
+        "id": 94527,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركو ديميتروفيتش",
+            "bn": "মার্ক দিমিত্রোভিচ",
+            "hi": "मार्को दिमित्रोविक"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ديميتروفيتش",
+            "bn": "এম. দিমিত্রোভিচ",
+            "hi": "एम. दिमित्रोविक"
+          }
+        }
+      },
+      "id": 6275253,
+      "time": 51,
+      "timeSeconds": 3034,
+      "draw": {
+        "start": {
+          "x": 65.6,
+          "y": 23.8
+        },
+        "block": {
+          "x": 50.7,
+          "y": 1.5
+        },
+        "end": {
+          "x": 46.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.8,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2366,
+      "periodTimeSeconds": 334,
+      "incidentType": "shot"
+    }
+  ]
+}

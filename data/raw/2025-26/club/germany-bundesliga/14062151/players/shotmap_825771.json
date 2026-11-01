@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Marco Friedl",
+        "slug": "marco-friedl",
+        "shortName": "M. Friedl",
+        "position": "D",
+        "jerseyNumber": "32",
+        "userCount": 541,
+        "gender": "M",
+        "id": 825771,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركو فريدل",
+            "bn": "মার্কো ফ্রিডল",
+            "hi": "मार्को फ्रिडेल"
+          },
+          "shortNameTranslation": {
+            "ar": "م. فريدل",
+            "bn": "এম. ফ্রিডল",
+            "hi": "एम. फ्रिडेल"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 2.7,
+        "y": 34.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 28.4,
+        "z": 4.2
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 56,
+        "z": 0
+      },
+      "xg": 0.027545077726245,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Finn Dahmen",
+        "slug": "finn-dahmen",
+        "shortName": "F. Dahmen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 573,
+        "gender": "M",
+        "id": 822564,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فين داهمن",
+            "bn": "ফিন দাহমেন",
+            "hi": "फिन दाहमेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. داهمن",
+            "bn": "এফ. দাহমেন",
+            "hi": "एफ. दाहमेन"
+          }
+        }
+      },
+      "id": 6383639,
+      "time": 15,
+      "timeSeconds": 858,
+      "draw": {
+        "start": {
+          "x": 34.8,
+          "y": 2.7
+        },
+        "block": {
+          "x": 56,
+          "y": 1.4
+        },
+        "end": {
+          "x": 71.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 71.6,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1842,
+      "periodTimeSeconds": 858,
+      "incidentType": "shot"
+    }
+  ]
+}

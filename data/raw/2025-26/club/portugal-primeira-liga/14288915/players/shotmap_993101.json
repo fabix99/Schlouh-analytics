@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Samuel Dahl",
+        "slug": "dahl-samuel",
+        "shortName": "S. Dahl",
+        "position": "D",
+        "jerseyNumber": "26",
+        "userCount": 2273,
+        "gender": "M",
+        "id": 993101,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "داهل، صمويل",
+            "bn": "ডহল, স্যামুয়েল",
+            "hi": "डाहल, सैमुअल"
+          },
+          "shortNameTranslation": {
+            "ar": "ص. داهل",
+            "bn": "এস. ডহল",
+            "hi": "एस. डाहल"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9,
+        "y": 30.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.2,
+        "z": 8.2
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 45.7,
+        "z": 0
+      },
+      "xg": 0.068949349224567,
+      "xgot": 0.20704507827759,
+      "goalkeeper": {
+        "name": "Lukáš Horníček",
+        "slug": "lukas-hornicek",
+        "shortName": "L. Horníček",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 524,
+        "gender": "M",
+        "id": 963744,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاش هورنيتشيك",
+            "bn": "লুকাস হর্নিসেক",
+            "hi": "लुकास हॉर्निसेक"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. هورنيتشيك",
+            "bn": "এল. হর্নিক",
+            "hi": "एल. हॉर्निसेक"
+          }
+        }
+      },
+      "id": 6423235,
+      "time": 70,
+      "timeSeconds": 4164,
+      "draw": {
+        "start": {
+          "x": 30.7,
+          "y": 9
+        },
+        "block": {
+          "x": 45.7,
+          "y": 1.2
+        },
+        "end": {
+          "x": 45.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.8,
+          "y": 91.8
+        }
+      },
+      "reversedPeriodTime": 21,
+      "reversedPeriodTimeSeconds": 1236,
+      "periodTimeSeconds": 1464,
+      "incidentType": "shot"
+    }
+  ]
+}

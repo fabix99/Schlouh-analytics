@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Lincoln",
+        "slug": "lincoln",
+        "shortName": "Lincoln",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 845,
+        "gender": "M",
+        "id": 794928,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لينكولن",
+            "bn": "লিংকন",
+            "hi": "लिंकन"
+          },
+          "shortNameTranslation": {
+            "ar": "لينكولن",
+            "bn": "লিংকন",
+            "hi": "लिंकन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.6,
+        "y": 74.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.2,
+        "z": 5.1
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 52.2,
+        "z": 0
+      },
+      "xg": 0.015383777208626,
+      "xgot": 0.058681607246399,
+      "goalkeeper": {
+        "name": "Diogo Costa",
+        "slug": "diogo-costa",
+        "shortName": "D. Costa",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 12715,
+        "gender": "M",
+        "sofascoreId": "diogomcosta99",
+        "id": 843115,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديوغو كوستا",
+            "bn": "ডিয়োগো কোস্টা",
+            "hi": "डिओगो कोस्टा"
+          },
+          "shortNameTranslation": {
+            "ar": "د. كوستا",
+            "bn": "ডি. কোস্টা",
+            "hi": "डी. कोस्टा"
+          }
+        }
+      },
+      "id": 6398275,
+      "time": 71,
+      "timeSeconds": 4244,
+      "draw": {
+        "start": {
+          "x": 74.4,
+          "y": 21.6
+        },
+        "block": {
+          "x": 52.2,
+          "y": 1.6
+        },
+        "end": {
+          "x": 46.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.8,
+          "y": 94.9
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1156,
+      "periodTimeSeconds": 1544,
+      "incidentType": "shot"
+    }
+  ]
+}

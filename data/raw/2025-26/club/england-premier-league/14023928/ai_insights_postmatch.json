@@ -1,0 +1,198 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 10,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 45,
+      "draw": 25,
+      "away": 30
+    },
+    "possibleResultsMatrix": [
+      [
+        0.061552311718678,
+        0.075914517786369,
+        0.046813952634927,
+        0.019245736083248,
+        0.0059341019590015,
+        0.001463745149887
+      ],
+      [
+        0.09612386307382,
+        0.11855276445771,
+        0.073107538082256,
+        0.030055321211594,
+        0.0092670573735748,
+        0.0022858741521485
+      ],
+      [
+        0.075056458435426,
+        0.092569632070358,
+        0.057084606443388,
+        0.023468115982282,
+        0.0072360024278702,
+        0.0017848805988746
+      ],
+      [
+        0.039070922125705,
+        0.048187470621703,
+        0.029715606883384,
+        0.012216416163169,
+        0.003766728316977,
+        0.00092912631818767
+      ],
+      [
+        0.015253886749795,
+        0.018813126991414,
+        0.011601428311372,
+        0.004769476083564,
+        0.0014705884590989,
+        0.0003627451532444
+      ],
+      [
+        0.0047642809192362,
+        0.005875946467058,
+        0.0036235003213524,
+        0.0014896612432227,
+        0.00045931221666032,
+        0.00011329701344288
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Villa Park hosts a top-four battle between 4th-placed Liverpool FC and 5th-placed Aston Villa, both on 59 points. The Sofascore model gives 45% home, 25% draw, 30% away and 56% for both teams to score, pointing to a tight contest."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Aston Villa are 1-1-3 across their last 5, but improved with a 4-0 home win over Nottingham Forest and 66% possession in the 2-2 at Burnley; they have conceded first in 4 of 5. Liverpool FC are 2-1-2, without a clean sheet in 5; they drew 1-1 with Chelsea after a 3-2 defeat at Manchester United."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "Recent meetings favour Liverpool FC: 2-0 at Anfield and 2-2 at Villa Park. Liverpool FC are unbeaten in 11 against Villa and have opened the scoring in the last 5 head-to-heads. Aston Villa have gone 13 head-to-heads without a clean sheet."
+    },
+    {
+      "subtitle": "Season stats snapshot",
+      "text": "Aston Villa average 54% possession with 85% pass accuracy, 78 big chances but only 28% conversion and a -5.4 goals vs expected goals underperformance. Liverpool FC have scored 60 and conceded 48, with a strong late-game profile (19 goals in minutes 76-90, 33%)."
+    },
+    {
+      "subtitle": "Tactical view and key players",
+      "text": "Ollie Watkins leads Villa with 12 goals from 12.38 expected goals, while John McGinn is in form (2 goals, 2 assists in his last 5). Width from Lucas Digne and Matty Cash adds delivery. For Liverpool FC, Mohamed Salah has 7 goals and 6 assists and a strong record vs Villa (4 goals, 2 assists in last 5), Dominik Szoboszlai ranks high for key passes, and Virgil van Dijk’s aerial dominance aids set pieces."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee Chris Kavanagh averages 3.7 yellows and 0.12 reds per match. Team streaks point to fewer than 4.5 cards for both and fewer than 10.5 corners in most recent games, with Aston Villa averaging 5.3 corners per match. Expect a moderate card count and a controlled corner total."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Model edge leans to Aston Villa at home, though Liverpool FC’s attack and head-to-head record keep margins fine. With both sides inconsistent defensively, both teams scoring is slightly favoured. Narrow home advantage overall in line with the probabilities."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Liverpool FC",
+      "slug": "liverpool",
+      "shortName": "Liverpool",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 3720592,
+      "nameCode": "LIV",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 44,
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ليفربول",
+          "bn": "লিভারপুল",
+          "hi": "लिवरपूल",
+          "ru": "Ливерпуль"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Alexis Mac Allister",
+      "slug": "alexis-mac-allister",
+      "shortName": "A. Mac Allister",
+      "position": "M",
+      "jerseyNumber": "10",
+      "userCount": 71686,
+      "gender": "M",
+      "sofascoreId": "hhi-bnc",
+      "id": 895324,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أليكسيس ماك أليستر",
+          "bn": "অ্যালেক্সিস ম্যাক অ্যালিস্টার",
+          "hi": "एलेक्सिस मैक एलिस्टर",
+          "ru": "Алексис Мак Аллистер"
+        },
+        "shortNameTranslation": {
+          "ar": "أ. ماك أليستر",
+          "bn": "এ. ম্যাক অ্যালিস্টার",
+          "hi": "ए. मैक एलिस्टर",
+          "ru": "А. Аллистер"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Aston Villa lead 1-0 at the break at Villa Park after Morgan Rogers finished from a Lucas Digne assist on 42'. The half was fairly balanced in chance quality despite Liverpool having more of the ball. Liverpool edged possession (56%), led corners (3-1) and carried the greater territorial threat with more final-third entries (22-18) and penalty-area entries (17-10). Expected goals were close (Villa 0.24, Liverpool 0.21), with Liverpool missing the only big chance through Alexis Mac Allister."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Villa started sharply, then Liverpool took control from around the 20' mark and sustained pressure through to the 41' with repeated attacking spells. Villa responded with a late surge just before half-time, capitalising on that spell for the opening goal. The flow suggests Liverpool can reassert pressure after the restart, while Villa will look to counter in transitions."
+    },
+    {
+      "subtitle": "Chance quality and finishing",
+      "text": "Shots on target were level (2-2). For Villa, Ollie Watkins and Morgan Rogers tested the goalkeeper, with Rogers converting. For Liverpool, Dominik Szoboszlai and Ryan Gravenberch registered efforts on target, while Mac Allister’s late-arriving runs produced the best opening but not the finish. The margin between the sides is small, with Liverpool’s missed big chance the key difference."
+    },
+    {
+      "subtitle": "Midfield and duels",
+      "text": "Liverpool won more duels (55%) and dominated aerially (71%), which helped them sustain territory. Curtis Jones and Mac Allister were active out of possession, combining for multiple tackles won, and Szoboszlai provided the most incisive final ball. Villa’s midfield screen worked hard, with John McGinn and Youri Tielemans disrupting and springing quick outlets to Watkins and Rogers. Villa’s threat increased when they moved the ball wide early to Digne."
+    },
+    {
+      "subtitle": "Defensive notes",
+      "text": "Virgil van Dijk and Ibrahima Konaté controlled crosses and second balls for long spells, but Villa found joy when switching play and attacking full-back areas, as seen on the goal. Villa’s back line limited clear central looks yet conceded territory; they will likely need tighter spacing between centre-backs and full-backs to handle Liverpool’s late runs."
+    },
+    {
+      "subtitle": "Cards and corners outlook",
+      "text": "Discipline: Villa collected 2 first-half bookings (Ollie Watkins, Matty Cash). With both cautioned, the right side is at higher risk in duels. Corners: Liverpool lead 3-1 and, given their territorial edge, are favoured to finish ahead on corners. Second-half expectation: corners to remain Liverpool-favoured, and total yellows to rise, with Villa the likelier side to add another card if the pattern persists."
+    },
+    {
+      "subtitle": "Adjustments to watch",
+      "text": "Liverpool: increase early crosses after switches, encourage Mac Allister and Jones to attack the edge of the box, and keep Szoboszlai between lines to release runners. Target the channel outside Villa’s right-back given the booking risk. Aston Villa: protect Cash with winger support, slow Liverpool’s rhythm with more controlled spells, and keep exploiting early diagonals to Digne and runs into the inside-left channel for Watkins and Rogers."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "Liverpool’s control of territory, duel success and the first-half momentum suggest an equaliser is plausible, especially in the first 20 minutes after the restart. Villa’s counter threat remains live, but with two bookings on the board they may sit a little deeper to protect the lead. A tight second half with limited clear chances beyond one more decisive moment is the most likely scenario."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Prediction: Liverpool to score next to make it 1-1, with limited additional scoring thereafter."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

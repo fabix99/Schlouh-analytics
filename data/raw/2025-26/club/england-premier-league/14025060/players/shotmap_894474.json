@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Max Kilman",
+        "slug": "max-kilman",
+        "shortName": "M. Kilman",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 1255,
+        "gender": "M",
+        "id": 894474,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماكس كيلمان",
+            "bn": "ম্যাক্স কিলম্যান",
+            "hi": "मैक्स किलमन"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كيلمان",
+            "bn": "এম. কিলম্যান",
+            "hi": "एम. किलमन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 10.1,
+        "y": 54.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 4.4,
+        "y": 52.2,
+        "z": 0
+      },
+      "xg": 0.050476472824812,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Martin Dúbravka",
+        "firstName": "",
+        "lastName": "",
+        "slug": "martin-dubravka",
+        "shortName": "M. Dúbravka",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3053,
+        "gender": "M",
+        "id": 42209,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتن دوبرافكا",
+            "bn": "মার্টিন ডুব্রাভকা",
+            "hi": "मार्टिन डुब्राव्का"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دوبرافكا",
+            "bn": "এম. ডুব্রাভকা",
+            "hi": "एम. डुब्राव्का"
+          }
+        }
+      },
+      "id": 6131831,
+      "time": 38,
+      "timeSeconds": 2257,
+      "draw": {
+        "start": {
+          "x": 54.2,
+          "y": 10.1
+        },
+        "block": {
+          "x": 52.2,
+          "y": 4.4
+        },
+        "end": {
+          "x": 50.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 443,
+      "periodTimeSeconds": 2257,
+      "incidentType": "shot"
+    }
+  ]
+}

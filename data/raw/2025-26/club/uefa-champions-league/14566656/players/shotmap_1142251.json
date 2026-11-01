@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Aleksandar Pavlović",
+        "slug": "aleksandar-pavlovic",
+        "shortName": "A. Pavlović",
+        "position": "M",
+        "jerseyNumber": "45",
+        "userCount": 11005,
+        "gender": "M",
+        "sofascoreId": "alekspavlovic_",
+        "id": 1142251,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هارالدسون، فيغنير",
+            "bn": "আলেকসান্ডার পাভলোভিচ",
+            "hi": "एलेक्ज़ेंडर पावलोविच"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بافلوفيتش",
+            "bn": "এ. পাভলোভিচ",
+            "hi": "ए. पावलोविच"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.2,
+        "y": 42.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.3,
+        "y": 43.9,
+        "z": 0
+      },
+      "xg": 0.058283481746912,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lucas Chevalier",
+        "firstName": "",
+        "lastName": "",
+        "slug": "chevalier-lucas",
+        "shortName": "L. Chevalier",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 21448,
+        "gender": "M",
+        "id": 996953,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "شوفالييه، لوكاس",
+            "bn": "শেভালিয়ার, লুকাস",
+            "hi": "शेवेलियर, लुकास"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. شوفالييه",
+            "bn": "এল. শেভালিয়ার",
+            "hi": "एल. शेवेलियर"
+          }
+        }
+      },
+      "id": 6110200,
+      "time": 17,
+      "timeSeconds": 1016,
+      "draw": {
+        "start": {
+          "x": 42.1,
+          "y": 22.2
+        },
+        "block": {
+          "x": 43.9,
+          "y": 17.3
+        },
+        "end": {
+          "x": 50.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1684,
+      "periodTimeSeconds": 1016,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Naïs Djouahra",
+        "slug": "nais-djouahra",
+        "shortName": "N. Djouahra",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 625,
+        "gender": "M",
+        "id": 955133,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نايس دجواهرا",
+            "bn": "নাইস জোয়াহরা",
+            "hi": "नैस जौहरा"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. دجواهرا",
+            "bn": "এন. জোয়াহরা",
+            "hi": "एन. जौहरा"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 19.4,
+        "y": 30.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.9,
+        "y": 31.7,
+        "z": 0
+      },
+      "xg": 0.01566893607378,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gabriel Batista",
+        "firstName": "",
+        "lastName": "",
+        "slug": "gabriel-batista",
+        "shortName": "G. Batista",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 350,
+        "gender": "M",
+        "id": 822526,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غابرييل باتيستا"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. باتيستا"
+          }
+        }
+      },
+      "id": 6392356,
+      "time": 80,
+      "timeSeconds": 4745,
+      "draw": {
+        "start": {
+          "x": 30.1,
+          "y": 19.4
+        },
+        "block": {
+          "x": 31.7,
+          "y": 17.9
+        },
+        "end": {
+          "x": 50.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 655,
+      "periodTimeSeconds": 2045,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Diego Gómez",
+        "firstName": "Diego Gomez",
+        "slug": "diego-gomez",
+        "shortName": "D. Gómez",
+        "position": "M",
+        "jerseyNumber": "25",
+        "userCount": 11352,
+        "gender": "M",
+        "id": 1065588,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دييغو غوميز",
+            "bn": "দিয়েগো গোমেজ",
+            "hi": "डिएगो गोमेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "د. غوميز",
+            "bn": "ডি. গোমেজ",
+            "hi": "डी. गोमेज़"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 3.6,
+        "y": 48.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 60.3,
+        "z": 6.9
+      },
+      "blockCoordinates": {
+        "x": 2.7,
+        "y": 45.5,
+        "z": 0
+      },
+      "xg": 0.57632970809937,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gianluigi Donnarumma",
+        "slug": "gianluigi-donnarumma",
+        "shortName": "G. Donnarumma",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 70254,
+        "gender": "M",
+        "sofascoreId": "donnarumma",
+        "id": 824509,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيانلويجي دوناروما",
+            "bn": "জিয়ানলুইগি ডোনারুম্মা",
+            "hi": "जियानलुइगी डोनारुम्मा"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. دوناروما",
+            "bn": "জি. ডোনারুম্মা",
+            "hi": "जी. डोनारुम्मा"
+          }
+        }
+      },
+      "id": 6471334,
+      "time": 70,
+      "timeSeconds": 4197,
+      "draw": {
+        "start": {
+          "x": 48.3,
+          "y": 3.6
+        },
+        "block": {
+          "x": 45.5,
+          "y": 2.7
+        },
+        "end": {
+          "x": 39.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 39.7,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 21,
+      "reversedPeriodTimeSeconds": 1203,
+      "periodTimeSeconds": 1497,
+      "incidentType": "shot"
+    }
+  ]
+}

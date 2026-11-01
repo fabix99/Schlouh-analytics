@@ -1,0 +1,96 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Joe Gomez",
+        "firstName": "",
+        "lastName": "",
+        "slug": "joe-gomez",
+        "shortName": "J. Gomez",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 14104,
+        "gender": "M",
+        "sofascoreId": "joegomez5",
+        "id": 318927,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جو غوميز",
+            "bn": "জো গোমেজ",
+            "hi": "जो गोमेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. غوميز",
+            "bn": "জে গোমেজ",
+            "hi": "जे. गोमेज़"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 8.8,
+        "y": 43.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 42.7,
+        "z": 18.1
+      },
+      "blockCoordinates": {
+        "x": 4.7,
+        "y": 51.6,
+        "z": 0
+      },
+      "xg": 0.052004352211952,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Robin Roefs",
+        "slug": "robin-roefs",
+        "shortName": "R. Roefs",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 2211,
+        "gender": "M",
+        "id": 1012928,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن روفس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. روفس"
+          }
+        }
+      },
+      "id": 6293194,
+      "time": 58,
+      "timeSeconds": 3439,
+      "draw": {
+        "start": {
+          "x": 43.2,
+          "y": 8.8
+        },
+        "block": {
+          "x": 51.6,
+          "y": 4.7
+        },
+        "end": {
+          "x": 57.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 57.3,
+          "y": 81.9
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1961,
+      "periodTimeSeconds": 739,
+      "incidentType": "shot"
+    }
+  ]
+}

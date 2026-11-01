@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Valeriy Gromyko",
+        "slug": "valeri-gromyko",
+        "shortName": "V. Gromyko",
+        "position": "M",
+        "jerseyNumber": "55",
+        "userCount": 540,
+        "gender": "M",
+        "id": 797646,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فاليري غرو ميكو",
+            "bn": "ভ্যালেরি গ্রোমিকো",
+            "hi": "वालेरी ग्रोमीको"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غرو ميكو",
+            "bn": "ভি. গ্রোমিকো",
+            "hi": "वी. ग्रोमीको"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.4,
+        "y": 47.9,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 84.2,
+        "z": 25
+      },
+      "blockCoordinates": {
+        "x": 5.1,
+        "y": 34.7,
+        "z": 0
+      },
+      "xg": 0.065048158168793,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Konstantinos Tzolakis",
+        "slug": "konstantinos-tzolakis",
+        "shortName": "K. Tzolakis",
+        "position": "G",
+        "jerseyNumber": "88",
+        "userCount": 2917,
+        "gender": "M",
+        "id": 953414,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كونستانتينوس تزولاكيس",
+            "bn": "কনস্টান্টিনোস জোলাকিস",
+            "hi": "कोंस्टैंटिनोस त्ज़ोलाकिस"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. تزولاكيس",
+            "bn": "কে. জোলাকিস",
+            "hi": "के. त्ज़ोलाकिस"
+          }
+        }
+      },
+      "id": 6324283,
+      "time": 87,
+      "timeSeconds": 5200,
+      "draw": {
+        "start": {
+          "x": 47.9,
+          "y": 9.4
+        },
+        "block": {
+          "x": 34.7,
+          "y": 5.1
+        },
+        "end": {
+          "x": 15.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 15.8,
+          "y": 75
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 200,
+      "periodTimeSeconds": 2500,
+      "incidentType": "shot"
+    }
+  ]
+}

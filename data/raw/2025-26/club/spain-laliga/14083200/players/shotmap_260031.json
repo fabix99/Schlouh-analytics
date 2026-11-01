@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rubén García",
+        "slug": "ruben-garcia",
+        "shortName": "R. García",
+        "position": "M",
+        "jerseyNumber": "14",
+        "userCount": 1087,
+        "gender": "M",
+        "id": 260031,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبين غارسيا",
+            "bn": "রুবেন গার্সিয়া",
+            "hi": "रुबेन गार्सिया"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. غارسيا",
+            "bn": "আর. গার্সিয়া",
+            "hi": "आर. गार्सिया"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 28.5,
+        "y": 40.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.6,
+        "z": 29.7
+      },
+      "xg": 0.038903389126062,
+      "xgot": 0.039648324251175,
+      "goalkeeper": {
+        "name": "Unai Simón",
+        "slug": "unai-simon",
+        "shortName": "U. Simón",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 6845,
+        "gender": "M",
+        "sofascoreId": "unai_simon",
+        "id": 797291,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوناي سيمون",
+            "bn": "উনাই সাইমন",
+            "hi": "उनाई सिमोन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سيمون",
+            "bn": "ইউ. সাইমন",
+            "hi": "यू. सिमोन"
+          }
+        }
+      },
+      "id": 6447211,
+      "time": 34,
+      "timeSeconds": 2030,
+      "draw": {
+        "start": {
+          "x": 40.1,
+          "y": 28.5
+        },
+        "end": {
+          "x": 49.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.4,
+          "y": 70.3
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 670,
+      "periodTimeSeconds": 2030,
+      "incidentType": "shot"
+    }
+  ]
+}

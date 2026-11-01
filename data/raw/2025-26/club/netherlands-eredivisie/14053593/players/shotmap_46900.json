@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nick Viergever",
+        "slug": "nick-viergever",
+        "shortName": "N. Viergever",
+        "position": "D",
+        "jerseyNumber": "24",
+        "userCount": 151,
+        "gender": "M",
+        "id": 46900,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيك فيرجيفر",
+            "bn": "নিক ভিয়ার্জেভার",
+            "hi": "निक विएरगेवर"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. فيرجيفر",
+            "bn": "এন. ভিয়ার্জেভার",
+            "hi": "एन. विएरगेवर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 8.4,
+        "y": 44.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 1.2,
+        "z": 8.3
+      },
+      "blockCoordinates": {
+        "x": 6.4,
+        "y": 51.4,
+        "z": 0
+      },
+      "xg": 0.17302261292934,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Remko Pasveer",
+        "slug": "remko-pasveer",
+        "shortName": "R. Pasveer",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 790,
+        "gender": "M",
+        "id": 2622,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريمكو باسفير",
+            "bn": "রেমকো পাসভীর",
+            "hi": "रेम्को पासवीर"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. باسفير",
+            "bn": "আর. পাসভীর",
+            "hi": "आर. पासवीर"
+          }
+        }
+      },
+      "id": 6141377,
+      "time": 27,
+      "timeSeconds": 1563,
+      "draw": {
+        "start": {
+          "x": 44.2,
+          "y": 8.4
+        },
+        "block": {
+          "x": 51.4,
+          "y": 6.4
+        },
+        "end": {
+          "x": 98.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 98.8,
+          "y": 91.7
+        }
+      },
+      "reversedPeriodTime": 19,
+      "reversedPeriodTimeSeconds": 1137,
+      "periodTimeSeconds": 1563,
+      "incidentType": "shot"
+    }
+  ]
+}

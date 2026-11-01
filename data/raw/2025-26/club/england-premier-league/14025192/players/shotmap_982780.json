@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Cole Palmer",
+        "slug": "cole-palmer",
+        "shortName": "C. Palmer",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 362573,
+        "gender": "M",
+        "sofascoreId": "ColdPalmer",
+        "id": 982780,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كول بالمر",
+            "bn": "কোল পামার",
+            "hi": "कोल पाल्मर"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. بالمر",
+            "bn": "সি. পামার",
+            "hi": "सी. पाल्मर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7.9,
+        "y": 62.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.3,
+        "z": 7.6
+      },
+      "xg": 0.4930856525898,
+      "xgot": 0.52887403964996,
+      "goalkeeper": {
+        "name": "Jordan Pickford",
+        "slug": "jordan-pickford",
+        "shortName": "J. Pickford",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 7693,
+        "gender": "M",
+        "sofascoreId": "jpickford1",
+        "id": 138530,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوردان بيكفورد",
+            "bn": "জর্ডান পিকফোর্ড",
+            "hi": "जॉर्डन पिकफोर्ड"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بيكفورد",
+            "bn": "জে.পিকফোর্ড",
+            "hi": "जे. पिकफोर्ड"
+          }
+        }
+      },
+      "id": 6340681,
+      "time": 21,
+      "timeSeconds": 1218,
+      "draw": {
+        "start": {
+          "x": 62.3,
+          "y": 7.9
+        },
+        "end": {
+          "x": 52.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.7,
+          "y": 92.4
+        }
+      },
+      "reversedPeriodTime": 25,
+      "reversedPeriodTimeSeconds": 1482,
+      "periodTimeSeconds": 1218,
+      "incidentType": "shot"
+    }
+  ]
+}

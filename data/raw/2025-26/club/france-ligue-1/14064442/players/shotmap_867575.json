@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Koffi Kouao",
+        "slug": "kouao-koffi",
+        "shortName": "K. Kouao",
+        "position": "D",
+        "jerseyNumber": "39",
+        "userCount": 331,
+        "gender": "M",
+        "id": 867575,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كواو، كوفي",
+            "bn": "কৌয়াও, কফি",
+            "hi": "कोउआओ, कोफ़ी"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. كوفي",
+            "bn": "কে. কৌয়াও",
+            "hi": "के. कोउआओ"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 25.8,
+        "y": 65.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.7,
+        "z": 4.4
+      },
+      "blockCoordinates": {
+        "x": 2.2,
+        "y": 51.6,
+        "z": 0
+      },
+      "xg": 0.021578812971711,
+      "xgot": 0.055651806294918,
+      "goalkeeper": {
+        "name": "Matvey Safonov",
+        "slug": "matvey-safonov",
+        "shortName": "M. Safonov",
+        "position": "G",
+        "jerseyNumber": "39",
+        "userCount": 16683,
+        "gender": "M",
+        "sofascoreId": "MSafonov",
+        "id": 800749,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتفي سافونوف",
+            "bn": "ম্যাটভে সাফোনভ",
+            "hi": "माटवे सफोनोव"
+          },
+          "shortNameTranslation": {
+            "ar": "م. سافونوف",
+            "bn": "এম. সাফোনভ",
+            "hi": "एम. सफोनोव"
+          }
+        }
+      },
+      "id": 6343018,
+      "time": 62,
+      "timeSeconds": 3707,
+      "draw": {
+        "start": {
+          "x": 65.1,
+          "y": 25.8
+        },
+        "block": {
+          "x": 51.6,
+          "y": 2.2
+        },
+        "end": {
+          "x": 53.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.3,
+          "y": 95.6
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1693,
+      "periodTimeSeconds": 1007,
+      "incidentType": "shot"
+    }
+  ]
+}

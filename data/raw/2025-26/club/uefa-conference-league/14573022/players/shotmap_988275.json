@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Tyrick Mitchell",
+        "firstName": "",
+        "lastName": "",
+        "slug": "tyrick-mitchell",
+        "shortName": "T. Mitchell",
+        "position": "M",
+        "jerseyNumber": "3",
+        "userCount": 1400,
+        "gender": "M",
+        "id": 988275,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تيريك ميتشل",
+            "bn": "টাইরিক মিচেল",
+            "hi": "टायरिक मिशेल"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. ميتشل",
+            "bn": "টি. মিচেল",
+            "hi": "टी. मिशेल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.7,
+        "y": 48.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 5.9,
+        "y": 48.4,
+        "z": 0
+      },
+      "xg": 0.14355389773846,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Johannes Kreidl",
+        "slug": "johannes-kreidl",
+        "shortName": "J. Kreidl",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 81,
+        "gender": "M",
+        "id": 578086,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوهانس كرايدل"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. كرايدل"
+          }
+        }
+      },
+      "id": 6376297,
+      "time": 83,
+      "timeSeconds": 4965,
+      "draw": {
+        "start": {
+          "x": 48.4,
+          "y": 8.7
+        },
+        "block": {
+          "x": 48.4,
+          "y": 5.9
+        },
+        "end": {
+          "x": 48.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 435,
+      "periodTimeSeconds": 2265,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ferro",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ferro",
+        "shortName": "Ferro",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 689,
+        "gender": "M",
+        "id": 357734,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيرو",
+            "bn": "ফেরো",
+            "hi": "फेरो"
+          },
+          "shortNameTranslation": {
+            "ar": "فيرو",
+            "bn": "ফেরো",
+            "hi": "फेरो"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 15.1,
+        "y": 45.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.9,
+        "z": 23.6
+      },
+      "blockCoordinates": {
+        "x": 6.7,
+        "y": 48.7,
+        "z": 0
+      },
+      "xg": 0.040334176272154,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Diogo Costa",
+        "slug": "diogo-costa",
+        "shortName": "D. Costa",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 12715,
+        "gender": "M",
+        "sofascoreId": "diogomcosta99",
+        "id": 843115,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديوغو كوستا",
+            "bn": "ডিয়োগো কোস্টা",
+            "hi": "डिओगो कोस्टा"
+          },
+          "shortNameTranslation": {
+            "ar": "د. كوستا",
+            "bn": "ডি. কোস্টা",
+            "hi": "डी. कोस्टा"
+          }
+        }
+      },
+      "id": 6277318,
+      "time": 90,
+      "addedTime": 1,
+      "timeSeconds": 5438,
+      "draw": {
+        "start": {
+          "x": 45.8,
+          "y": 15.1
+        },
+        "block": {
+          "x": 48.7,
+          "y": 6.7
+        },
+        "end": {
+          "x": 53.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.1,
+          "y": 76.4
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 862,
+      "periodTimeSeconds": 38,
+      "incidentType": "shot"
+    }
+  ]
+}

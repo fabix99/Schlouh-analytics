@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Brandley Kuwas",
+        "firstName": "Brandley",
+        "lastName": "Kuwas",
+        "slug": "brandley-kuwas",
+        "shortName": "B. Kuwas",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 121,
+        "gender": "M",
+        "id": 252885,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "براندلي كواس",
+            "bn": "ব্র্যান্ডলি কুয়াস",
+            "hi": "ब्रैंडली कुवास"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. كواس",
+            "bn": "বি. কুওয়াস",
+            "hi": "बी. कुवास"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 25.3,
+        "y": 35.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.9,
+        "z": 1.9
+      },
+      "blockCoordinates": {
+        "x": 2.5,
+        "y": 48.6,
+        "z": 0
+      },
+      "xg": 0.014155280776322,
+      "xgot": 0.028628319501877,
+      "goalkeeper": {
+        "name": "Vasilis Barkas",
+        "firstName": "",
+        "lastName": "",
+        "slug": "vasilis-barkas",
+        "shortName": "V. Barkas",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 395,
+        "gender": "M",
+        "id": 347726,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فاسيليس باركاس",
+            "bn": "ভাসিলিস বারকাস",
+            "hi": "वासिलिस बार्कस"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. باركاس",
+            "bn": "ভি. বারকাস",
+            "hi": "वी. बार्कस"
+          }
+        }
+      },
+      "id": 5961832,
+      "time": 8,
+      "timeSeconds": 472,
+      "draw": {
+        "start": {
+          "x": 35.7,
+          "y": 25.3
+        },
+        "block": {
+          "x": 48.6,
+          "y": 2.5
+        },
+        "end": {
+          "x": 48.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.1,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2228,
+      "periodTimeSeconds": 472,
+      "incidentType": "shot"
+    }
+  ]
+}

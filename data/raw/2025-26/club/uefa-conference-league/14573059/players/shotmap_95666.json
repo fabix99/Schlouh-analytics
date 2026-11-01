@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ante Majstorović",
+        "slug": "ante-majstorovic",
+        "shortName": "A. Majstorović",
+        "position": "D",
+        "jerseyNumber": "45",
+        "userCount": 268,
+        "gender": "M",
+        "id": 95666,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنتي ماجستوروفيتش",
+            "bn": "আন্তে মাজস্টোরোভিচ",
+            "hi": "आंटे माजस्टोरोविक"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. ماجستوروفيتش",
+            "bn": "এ. মাজস্টোরোভিচ",
+            "hi": "ए. माजस्टोरोविक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 13.9,
+        "y": 56.8,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.7,
+        "z": 20.3
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 51.1,
+        "z": 0
+      },
+      "xg": 0.018108857795596,
+      "xgot": 0.18240593373775,
+      "goalkeeper": {
+        "name": "Žan-Luk Leban",
+        "slug": "leban-zan-luk",
+        "shortName": "Ž. L. Leban",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 142,
+        "gender": "M",
+        "id": 978326,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليبان، زان لوك"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. لوك ليبان"
+          }
+        }
+      },
+      "id": 6335164,
+      "time": 76,
+      "timeSeconds": 4554,
+      "draw": {
+        "start": {
+          "x": 56.8,
+          "y": 13.9
+        },
+        "block": {
+          "x": 51.1,
+          "y": 1.4
+        },
+        "end": {
+          "x": 46.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.3,
+          "y": 79.7
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 846,
+      "periodTimeSeconds": 1854,
+      "incidentType": "shot"
+    }
+  ]
+}

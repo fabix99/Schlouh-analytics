@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Pedro Bondo",
+        "firstName": "Pedro",
+        "lastName": "Bondo Francisco",
+        "slug": "pedro-bondo",
+        "shortName": "P. Bondo",
+        "position": "D",
+        "jerseyNumber": "28",
+        "userCount": 474,
+        "gender": "M",
+        "id": 1102988,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيدرو بوندو"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. بوندو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 25.3,
+        "y": 49.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 61.2,
+        "z": 19.4
+      },
+      "blockCoordinates": {
+        "x": 10.7,
+        "y": 44.2,
+        "z": 0
+      },
+      "xg": 0.034946907311678,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Joel Robles",
+        "slug": "joel-robles",
+        "shortName": "J. Robles",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 152,
+        "gender": "M",
+        "id": 93796,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جويل روبلز",
+            "bn": "জোয়েল রোবেলস",
+            "hi": "जोएल रोबल्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. روبلز",
+            "bn": "জে. রোবেলস",
+            "hi": "जे. रोबल्स"
+          }
+        }
+      },
+      "id": 6349162,
+      "time": 31,
+      "timeSeconds": 1828,
+      "draw": {
+        "start": {
+          "x": 49.3,
+          "y": 25.3
+        },
+        "block": {
+          "x": 44.2,
+          "y": 10.7
+        },
+        "end": {
+          "x": 38.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 38.8,
+          "y": 80.6
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 872,
+      "periodTimeSeconds": 1828,
+      "incidentType": "shot"
+    }
+  ]
+}

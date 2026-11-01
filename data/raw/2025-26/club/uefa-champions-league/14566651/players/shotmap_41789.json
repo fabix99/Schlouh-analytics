@@ -1,0 +1,184 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Robert Lewandowski",
+        "slug": "robert-lewandowski",
+        "shortName": "R. Lewandowski",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 579121,
+        "gender": "M",
+        "sofascoreId": "Lewa",
+        "id": 41789,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبرت ليفاندوفسكي",
+            "bn": "রবার্ট লেভান্ডোস্কি",
+            "hi": "रॉबर्ट लेवानडॉस्की"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ليفاندوفسكي",
+            "bn": "আর. লেভান্ডোস্কি",
+            "hi": "आर. लेवानडॉस्की"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 10.2,
+        "y": 52.1,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.5,
+        "z": 77.8
+      },
+      "xg": 0.045284181833267,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Michael Zetterer",
+        "slug": "michael-zetterer",
+        "shortName": "M. Zetterer",
+        "position": "G",
+        "jerseyNumber": "23",
+        "userCount": 480,
+        "gender": "M",
+        "id": 190161,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايكل زيترير",
+            "bn": "মাইকেল জেটটেরার",
+            "hi": "माइकल ज़ेटेरर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. زيترير",
+            "bn": "এম. জেটটেরার",
+            "hi": "एम. ज़ेटेरर"
+          }
+        }
+      },
+      "id": 6325405,
+      "time": 45,
+      "addedTime": 3,
+      "timeSeconds": 2874,
+      "draw": {
+        "start": {
+          "x": 52.1,
+          "y": 10.2
+        },
+        "end": {
+          "x": 45.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.5,
+          "y": 22.2
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2526,
+      "periodTimeSeconds": 174,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Robert Lewandowski",
+        "slug": "robert-lewandowski",
+        "shortName": "R. Lewandowski",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 579121,
+        "gender": "M",
+        "sofascoreId": "Lewa",
+        "id": 41789,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبرت ليفاندوفسكي",
+            "bn": "রবার্ট লেভান্ডোস্কি",
+            "hi": "रॉबर्ट लेवानडॉस्की"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ليفاندوفسكي",
+            "bn": "আর. লেভান্ডোস্কি",
+            "hi": "आर. लेवानडॉस्की"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.1,
+        "y": 51.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 57.1,
+        "z": 8.3
+      },
+      "blockCoordinates": {
+        "x": 7.9,
+        "y": 50.4,
+        "z": 0
+      },
+      "xg": 0.11150259524584,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Michael Zetterer",
+        "slug": "michael-zetterer",
+        "shortName": "M. Zetterer",
+        "position": "G",
+        "jerseyNumber": "23",
+        "userCount": 480,
+        "gender": "M",
+        "id": 190161,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايكل زيترير",
+            "bn": "মাইকেল জেটটেরার",
+            "hi": "माइकल ज़ेटेरर"
+          },
+          "shortNameTranslation": {
+            "ar": "م. زيترير",
+            "bn": "এম. জেটটেরার",
+            "hi": "एम. ज़ेटेरर"
+          }
+        }
+      },
+      "id": 6325034,
+      "time": 5,
+      "timeSeconds": 276,
+      "draw": {
+        "start": {
+          "x": 51.5,
+          "y": 15.1
+        },
+        "block": {
+          "x": 50.4,
+          "y": 7.9
+        },
+        "end": {
+          "x": 42.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 42.9,
+          "y": 91.7
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2424,
+      "periodTimeSeconds": 276,
+      "incidentType": "shot"
+    }
+  ]
+}

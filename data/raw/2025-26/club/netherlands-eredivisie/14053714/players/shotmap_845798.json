@@ -1,0 +1,178 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Guus Til",
+        "firstName": "",
+        "lastName": "",
+        "slug": "guus-til",
+        "shortName": "G. Til",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 2237,
+        "gender": "M",
+        "id": 845798,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوس تيل",
+            "bn": "গাস টিল",
+            "hi": "गुस टिल"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. تيل",
+            "bn": "জি. টিল",
+            "hi": "जी. टिल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.8,
+        "y": 47.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.2,
+        "z": 5.7
+      },
+      "xg": 0.19926819205284,
+      "xgot": 0.39968675374985,
+      "goalkeeper": {
+        "name": "Timo Jansink",
+        "slug": "jansink-timo",
+        "shortName": "T. Jansink",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 41,
+        "gender": "M",
+        "id": 1189737,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يانسينك، تيمو"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. يانسينك"
+          }
+        }
+      },
+      "id": 6343395,
+      "time": 81,
+      "timeSeconds": 4855,
+      "draw": {
+        "start": {
+          "x": 47.9,
+          "y": 9.8
+        },
+        "end": {
+          "x": 52.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.8,
+          "y": 94.3
+        }
+      },
+      "reversedPeriodTime": 10,
+      "reversedPeriodTimeSeconds": 545,
+      "periodTimeSeconds": 2155,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Guus Til",
+        "firstName": "",
+        "lastName": "",
+        "slug": "guus-til",
+        "shortName": "G. Til",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 2237,
+        "gender": "M",
+        "id": 845798,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوس تيل",
+            "bn": "গাস টিল",
+            "hi": "गुस टिल"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. تيل",
+            "bn": "জি. টিল",
+            "hi": "जी. टिल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 6.8,
+        "y": 58.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 42.7,
+        "z": 4.2
+      },
+      "blockCoordinates": {
+        "x": 0.7,
+        "y": 58.1,
+        "z": 0
+      },
+      "xg": 0.045630525797606,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Timo Jansink",
+        "slug": "jansink-timo",
+        "shortName": "T. Jansink",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 41,
+        "gender": "M",
+        "id": 1189737,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يانسينك، تيمو"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. يانسينك"
+          }
+        }
+      },
+      "id": 6343322,
+      "time": 65,
+      "timeSeconds": 3843,
+      "draw": {
+        "start": {
+          "x": 58.5,
+          "y": 6.8
+        },
+        "block": {
+          "x": 58.1,
+          "y": 0.7
+        },
+        "end": {
+          "x": 57.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 57.3,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1557,
+      "periodTimeSeconds": 1143,
+      "incidentType": "shot"
+    }
+  ]
+}

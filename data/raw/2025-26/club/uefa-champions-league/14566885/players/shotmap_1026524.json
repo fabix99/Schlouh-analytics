@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Christos Zafeiris",
+        "slug": "christos-zafeiris",
+        "shortName": "C. Zafeiris",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 2153,
+        "gender": "M",
+        "id": 1026524,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستوس زافيريس",
+            "bn": "ক্রিস্টোস জাফিরিস",
+            "hi": "क्रिस्टोस ज़ाफ़ेरिस"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. زافيريس",
+            "bn": "সি. জাফিরিস",
+            "hi": "सी. ज़ाफ़ेरिस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 6.8,
+        "y": 65.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 5,
+        "y": 62.1,
+        "z": 0
+      },
+      "xg": 0.049396883696318,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Unai Simón",
+        "slug": "unai-simon",
+        "shortName": "U. Simón",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 6845,
+        "gender": "M",
+        "sofascoreId": "unai_simon",
+        "id": 797291,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوناي سيمون",
+            "bn": "উনাই সাইমন",
+            "hi": "उनाई सिमोन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سيمون",
+            "bn": "ইউ. সাইমন",
+            "hi": "यू. सिमोन"
+          }
+        }
+      },
+      "id": 6245790,
+      "time": 41,
+      "timeSeconds": 2432,
+      "draw": {
+        "start": {
+          "x": 65.7,
+          "y": 6.8
+        },
+        "block": {
+          "x": 62.1,
+          "y": 5
+        },
+        "end": {
+          "x": 52,
+          "y": 0
+        },
+        "goal": {
+          "x": 52,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 268,
+      "periodTimeSeconds": 2432,
+      "incidentType": "shot"
+    }
+  ]
+}

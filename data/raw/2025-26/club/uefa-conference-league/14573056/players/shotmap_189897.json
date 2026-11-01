@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Paddy Barrett",
+        "slug": "paddy-barrett",
+        "shortName": "P. Barrett",
+        "position": "D",
+        "jerseyNumber": "29",
+        "userCount": 14,
+        "gender": "M",
+        "id": 189897,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بادي بارنت"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. بارنت"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 27.6,
+        "y": 52.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.6,
+        "y": 51.8,
+        "z": 0
+      },
+      "xg": 0.038928285241127,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Žan-Luk Leban",
+        "slug": "leban-zan-luk",
+        "shortName": "Ž. L. Leban",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 142,
+        "gender": "M",
+        "id": 978326,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليبان، زان لوك"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. لوك ليبان"
+          }
+        }
+      },
+      "id": 6376317,
+      "time": 85,
+      "timeSeconds": 5052,
+      "draw": {
+        "start": {
+          "x": 52.6,
+          "y": 27.6
+        },
+        "block": {
+          "x": 51.8,
+          "y": 17.6
+        },
+        "end": {
+          "x": 50.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 348,
+      "periodTimeSeconds": 2352,
+      "incidentType": "shot"
+    }
+  ]
+}

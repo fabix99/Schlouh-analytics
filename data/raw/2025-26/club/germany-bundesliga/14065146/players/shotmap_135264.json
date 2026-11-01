@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Yussuf Poulsen",
+        "firstName": "",
+        "lastName": "",
+        "slug": "yussuf-poulsen",
+        "shortName": "Y. Poulsen",
+        "position": "F",
+        "jerseyNumber": "15",
+        "userCount": 1788,
+        "gender": "M",
+        "id": 135264,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوسف بولسن",
+            "bn": "জোসেফ পলসেন",
+            "hi": "युसुफ पौलसन"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. بولسن",
+            "bn": "ওয়াই. পলসেন",
+            "hi": "वाई. पौलसन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 25.1,
+        "y": 46,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 3.2
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 50.5,
+        "z": 0
+      },
+      "xg": 0.026703588664532,
+      "xgot": 0.011189974844456,
+      "goalkeeper": {
+        "name": "Gregor Kobel",
+        "slug": "gregor-kobel",
+        "shortName": "G. Kobel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 6960,
+        "gender": "M",
+        "sofascoreId": "gregorkobel",
+        "id": 556866,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غريغور كوبل",
+            "bn": "গ্রেগর কোবেল",
+            "hi": "ग्रेगर कोबेल"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. كوبل",
+            "bn": "জি. কোবেল",
+            "hi": "जी. कोबेल"
+          }
+        }
+      },
+      "id": 6131129,
+      "time": 20,
+      "timeSeconds": 1182,
+      "draw": {
+        "start": {
+          "x": 46,
+          "y": 25.1
+        },
+        "block": {
+          "x": 50.5,
+          "y": 1.2
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1518,
+      "periodTimeSeconds": 1182,
+      "incidentType": "shot"
+    }
+  ]
+}

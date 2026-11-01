@@ -1,0 +1,196 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 9,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 1,
+    "winningProbability": {
+      "home": 32,
+      "draw": 33,
+      "away": 35
+    },
+    "possibleResultsMatrix": [
+      [
+        0.16941799979103,
+        0.15604114676937,
+        0.071860249545893,
+        0.022062110204947,
+        0.0050800342655123,
+        0.00093578530427224
+      ],
+      [
+        0.14485136428865,
+        0.13341423592881,
+        0.061440078372335,
+        0.018862970677347,
+        0.0043433985462003,
+        0.00080009077059281
+      ],
+      [
+        0.061923519821277,
+        0.057034182063453,
+        0.026265447547519,
+        0.0080638628732501,
+        0.0018567897326213,
+        0.00034203638284619
+      ],
+      [
+        0.017648078202494,
+        0.016254626807006,
+        0.0074855995537719,
+        0.0022981846479665,
+        0.00052918132724796,
+        9.7479678965113e-05
+      ],
+      [
+        0.0037722500086431,
+        0.0034744018815914,
+        0.0016000355765323,
+        0.00049123349062051,
+        0.00011311170788005,
+        2.0836133861119e-05
+      ],
+      [
+        0.00064505018458933,
+        0.00059411851545446,
+        0.00027360414649794,
+        8.4000332182438e-05,
+        1.9341965108375e-05,
+        3.5629536649077e-06
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Selhurst Park hosts a mid‑table meeting. Crystal Palace are 15th (43 points), Everton 10th (48). The model views this as near level with a slight away edge and a low chance of both teams scoring."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Palace are 2‑1‑2 across the last 5, creating good xG but finishing inconsistently. Everton are 1‑2‑2, with 10 goals in 5 and strong output against elite opposition (xG 2.72 vs Manchester City). Both sides come in without a clean sheet in 4 straight."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "Everton won the last 2 meetings (both 2‑1) and are unbeaten in 10 head‑to‑heads. Both clashes were chance‑heavy for each side (xG: 2.03‑1.53 and 0.96‑1.72)."
+    },
+    {
+      "subtitle": "Season stats snapshot",
+      "text": "Palace defend well (42 conceded, 12 clean sheets; both 3rd‑best) but underperform in attack (36 goals from 52.2 xG; 58 big chances missed; 33% conversion). They are strong in the air (10 headers, 4th). Everton are 10th with a 44‑44 goal difference and score late (15 goals on 76‑90')."
+    },
+    {
+      "subtitle": "Key match-ups and tactics",
+      "text": "Adam Wharton drives Palace’s chance creation (14 big chances created), with width from Daniel Muñoz and Tyrick Mitchell; Jean‑Philippe Mateta leads but underperforms xG. Everton lean on Beto’s form (4 goals in last 5), James Garner’s delivery and Iliman Ndiaye’s dribbling. With Jarrad Branthwaite out, set pieces favour Palace’s aerial threat; James Tarkowski’s consistency remains key."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee Thomas Bramall averages 3.4 yellows per match. Palace average 2.06 yellows; recent trends point to 'under 4.5 cards' for both. Head‑to‑head corners are typically modest (under 10.5 in 4/5), and Palace average 4.2 corners per match."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Expect a tight game with limited clear chances. Palace’s strong defence and finishing issues versus Everton’s direct threat suggest a narrow away edge or a draw, with a low likelihood of both teams scoring."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Crystal Palace",
+      "slug": "crystal-palace",
+      "shortName": "Crystal Palace",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 384116,
+      "nameCode": "CRY",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 7,
+      "teamColors": {
+        "primary": "#0033ff",
+        "secondary": "#b90d2b",
+        "text": "#b90d2b"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كريستال بالاس",
+          "bn": "ক্রিস্টাল প্যালেস",
+          "hi": "क्रिस्टल पैलेस",
+          "ru": "Кристал Пэлас"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Ismaïla Sarr",
+      "firstName": "Ismaila",
+      "lastName": "Sarr",
+      "slug": "ismaila-sarr",
+      "shortName": "I. Sarr",
+      "position": "F",
+      "jerseyNumber": "7",
+      "userCount": 39383,
+      "gender": "M",
+      "sofascoreId": "fzg-rhb",
+      "id": 845286,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إسماعيلا سار",
+          "bn": "ইসমাইলা সর",
+          "hi": "इस्माइला सार्र",
+          "ru": "Исмаила Сарр"
+        },
+        "shortNameTranslation": {
+          "ar": "إ. سار",
+          "bn": "আই. সর",
+          "hi": "आई. सार्र",
+          "ru": "И. Сарр"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context and first-half summary",
+      "text": "Crystal Palace and Everton are level at half-time (1-1) at Selhurst Park. Everton struck early through James Tarkowski before Ismaïla Sarr equalised with a composed finish. Possession is even and the underlying numbers are near-parity (expected goals roughly 0.66 Palace, 0.65 Everton). Palace edged shots on target (3-2), while Everton posed more threat from dead balls."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Everton began on the front foot and converted their early pressure into the opener. From shortly after the restart to the late stages of the half, Palace enjoyed the stronger attacking spells, culminating in Sarr’s leveller and a sustained period of pressure. Everton recovered a little initiative right before the interval."
+    },
+    {
+      "subtitle": "Key first-half stats",
+      "text": "Palace produced 24 final-third entries and 16 penalty-area touches, with 3 shots on target and 3 corners, winning 55% of duels and 51% of aerials. Everton managed 19 final-third entries and 19 penalty-area touches, with 2 shots on target and 6 corners, and created the only clear-cut chance recorded. The statistical profile supports a balanced contest with contrasting strengths."
+    },
+    {
+      "subtitle": "Player performances",
+      "text": "Ismaïla Sarr has been Palace’s main outlet, scoring and offering penetration from the right. Adam Wharton’s distribution is notable (highest expected assists in the side), helping Palace sustain territory. Chris Richards and Maxence Lacroix have dealt well with aerial work. For Everton, James Tarkowski has been influential at both ends with the goal and threat on set plays, Michael Keane has cleared danger consistently, and James Garner has been the most productive creator from midfield."
+    },
+    {
+      "subtitle": "Tactical notes",
+      "text": "Palace built control after the early setback by progressing through midfield and wide areas, with overlaps from Daniel Muñoz complementing Sarr. Their superior duel rate helped lock in territory. Everton’s main route has been set plays and direct service to the forwards, with centre-backs a constant target in the box. If Palace continue to compress the pitch, Everton will look to counters and restarts to create high-value moments."
+    },
+    {
+      "subtitle": "Discipline and set plays",
+      "text": "Everton carry 2 yellow cards (Vitaliy Mykolenko, James Garner), which may temper aggressive challenges after the break. Corners favour Everton 6-3, underscoring their set-piece threat through Tarkowski and Keane. Expect set plays to remain Everton’s best chance source, while Palace could draw further fouls if they sustain pressure. A couple more bookings shared across the sides and a continued corner edge for Everton are plausible."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "Given Palace’s sustained momentum before half-time and their duel advantage, the hosts look slightly more likely to strike next from open play or a second-phase cross. Everton remain dangerous from corners and long throws, so defensive concentration on first contacts will be vital for Palace. With the game finely balanced, a tight second half with limited scoring swings is more likely than a shootout."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Crystal Palace to edge a narrow win. Next goal: Palace, with Ismaïla Sarr the most likely scorer given his first-half threat. Final score prediction: Palace 2-1 Everton, with a low-scoring second half."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

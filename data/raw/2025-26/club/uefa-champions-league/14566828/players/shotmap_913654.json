@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Pedro Porro",
+        "slug": "pedro-porro",
+        "shortName": "P. Porro",
+        "position": "D",
+        "jerseyNumber": "23",
+        "userCount": 10924,
+        "gender": "M",
+        "sofascoreId": "pedroporro29",
+        "id": 913654,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيدرو بورو",
+            "bn": "পেড্রো পোরো",
+            "hi": "पेड्रो पोरो"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. بورو",
+            "bn": "পি. পোরো",
+            "hi": "पी. पोरो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.9,
+        "y": 68.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.3,
+        "y": 59.7,
+        "z": 0
+      },
+      "xg": 0.040348283946514,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jindřich Staněk",
+        "firstName": "",
+        "lastName": "",
+        "slug": "jindrich-stanek",
+        "shortName": "J. Staněk",
+        "position": "G",
+        "jerseyNumber": "36",
+        "userCount": 177,
+        "gender": "M",
+        "id": 280601,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيندريش ستانيك",
+            "bn": "জিন্দরিচ স্ট্যানিক",
+            "hi": "जिन्द्रीच स्टेनेक"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ستانيك",
+            "bn": "জে. স্ট্যানিক",
+            "hi": "जे. स्टेनेक"
+          }
+        }
+      },
+      "id": 6325076,
+      "time": 8,
+      "timeSeconds": 450,
+      "draw": {
+        "start": {
+          "x": 68.7,
+          "y": 18.9
+        },
+        "block": {
+          "x": 59.7,
+          "y": 10.3
+        },
+        "end": {
+          "x": 49,
+          "y": 0
+        },
+        "goal": {
+          "x": 49,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2250,
+      "periodTimeSeconds": 450,
+      "incidentType": "shot"
+    }
+  ]
+}

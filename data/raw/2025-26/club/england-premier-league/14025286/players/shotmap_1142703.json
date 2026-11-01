@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nico O'Reilly",
+        "firstName": "Nico",
+        "lastName": "O’Reilly",
+        "slug": "nico-o-reilly",
+        "shortName": "N. O’Reilly",
+        "position": "D",
+        "jerseyNumber": "75",
+        "userCount": 20611,
+        "gender": "M",
+        "id": 1142703,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكو أوريلي",
+            "bn": "নিকো ও'রেইলি",
+            "hi": "निको ओ'रेली"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. أوريلي",
+            "bn": "এন. ও'রেইলি",
+            "hi": "एन. ओ'रेली"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 2.7,
+        "y": 60.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 41.5,
+        "z": 20.8
+      },
+      "xg": 0.10005616396666,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Filip Jørgensen",
+        "slug": "filip-jorgensen",
+        "shortName": "F. Jørgensen",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 13930,
+        "gender": "M",
+        "sofascoreId": "filipjorgensen1",
+        "id": 962053,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيليب يورغنسن",
+            "bn": "ফিলিপ জর্গেনসেন",
+            "hi": "फ़िलिप जोर्गेनसन"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. يورغنسن",
+            "bn": "এফ. জর্জেনসেন",
+            "hi": "एफ. जोर्गेनसन"
+          }
+        }
+      },
+      "id": 6455113,
+      "time": 26,
+      "timeSeconds": 1526,
+      "draw": {
+        "start": {
+          "x": 60.5,
+          "y": 2.7
+        },
+        "end": {
+          "x": 58.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 58.5,
+          "y": 79.2
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1174,
+      "periodTimeSeconds": 1526,
+      "incidentType": "shot"
+    }
+  ]
+}

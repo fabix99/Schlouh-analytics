@@ -1,0 +1,169 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kees Smit",
+        "slug": "kees-smit",
+        "shortName": "K. Smit",
+        "position": "M",
+        "jerseyNumber": "26",
+        "userCount": 3898,
+        "gender": "M",
+        "id": 1405756,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيس سميت"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. سميت"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 26.2,
+        "y": 32.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 39.8,
+        "z": 79.2
+      },
+      "xg": 0.007407465018332,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bernt Klaverboer",
+        "firstName": "Bernt Klaverboer",
+        "lastName": "",
+        "slug": "klaverboer-bernt",
+        "shortName": "B. Klaverboer",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 128,
+        "gender": "M",
+        "id": 1195719,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيرنت كلافيربور"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. كلافيربور"
+          }
+        }
+      },
+      "id": 6227943,
+      "time": 64,
+      "timeSeconds": 3839,
+      "draw": {
+        "start": {
+          "x": 32.3,
+          "y": 26.2
+        },
+        "end": {
+          "x": 60.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 60.2,
+          "y": 20.8
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1561,
+      "periodTimeSeconds": 1139,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Kees Smit",
+        "slug": "kees-smit",
+        "shortName": "K. Smit",
+        "position": "M",
+        "jerseyNumber": "26",
+        "userCount": 3898,
+        "gender": "M",
+        "id": 1405756,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيس سميت"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. سميت"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11,
+        "y": 38,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.6,
+        "y": 41.3,
+        "z": 0
+      },
+      "xg": 0.10647436976433,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bernt Klaverboer",
+        "firstName": "Bernt Klaverboer",
+        "lastName": "",
+        "slug": "klaverboer-bernt",
+        "shortName": "B. Klaverboer",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 128,
+        "gender": "M",
+        "id": 1195719,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيرنت كلافيربور"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. كلافيربور"
+          }
+        }
+      },
+      "id": 6227938,
+      "time": 64,
+      "timeSeconds": 3807,
+      "draw": {
+        "start": {
+          "x": 38,
+          "y": 11
+        },
+        "block": {
+          "x": 41.3,
+          "y": 7.6
+        },
+        "end": {
+          "x": 47.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1593,
+      "periodTimeSeconds": 1107,
+      "incidentType": "shot"
+    }
+  ]
+}

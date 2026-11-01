@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Cedric Zesiger",
+        "slug": "cedric-zesiger",
+        "shortName": "C. Zesiger",
+        "position": "D",
+        "jerseyNumber": "16",
+        "userCount": 353,
+        "gender": "M",
+        "id": 798926,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيدريك زيسيغر",
+            "bn": "সেড্রিক জেসিগার",
+            "hi": "सेड्रिक ज़ेसिगर"
+          },
+          "shortNameTranslation": {
+            "ar": "س. زيسيغر",
+            "bn": "সি. জেসিগার",
+            "hi": "सी. ज़ेसिगर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 11.1,
+        "y": 44.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 49.1,
+        "z": 0
+      },
+      "xg": 0.017941063269973,
+      "xgot": 0.26670131087303,
+      "goalkeeper": {
+        "name": "Mio Backhaus",
+        "firstName": "Mio Backhaus",
+        "lastName": "",
+        "slug": "mio-backhaus",
+        "shortName": "M. Backhaus",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 1096,
+        "gender": "M",
+        "id": 1083390,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باكهاوس ، ميو"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. ، ميو"
+          }
+        }
+      },
+      "id": 6384669,
+      "time": 88,
+      "timeSeconds": 5275,
+      "draw": {
+        "start": {
+          "x": 44.5,
+          "y": 11.1
+        },
+        "block": {
+          "x": 49.1,
+          "y": 1.2
+        },
+        "end": {
+          "x": 54,
+          "y": 0
+        },
+        "goal": {
+          "x": 54,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 125,
+      "periodTimeSeconds": 2575,
+      "incidentType": "shot"
+    }
+  ]
+}

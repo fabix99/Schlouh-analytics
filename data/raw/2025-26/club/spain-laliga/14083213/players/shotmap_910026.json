@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bryan Gil",
+        "slug": "bryan-gil",
+        "shortName": "B. Gil",
+        "position": "M",
+        "jerseyNumber": "21",
+        "userCount": 3574,
+        "gender": "M",
+        "sofascoreId": "bryan11gil",
+        "id": 910026,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برايان جيل",
+            "bn": "ব্রায়ান গিল",
+            "hi": "ब्रायन गिल"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. جيل",
+            "bn": "বি. গিল",
+            "hi": "बी. गिल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.3,
+        "y": 31.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.8,
+        "z": 10.1
+      },
+      "blockCoordinates": {
+        "x": 1.5,
+        "y": 47.1,
+        "z": 0
+      },
+      "xg": 0.038350664079189,
+      "xgot": 0.33057138323784,
+      "goalkeeper": {
+        "name": "Sergio Herrera",
+        "slug": "sergio-herrera",
+        "shortName": "S. Herrera",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1023,
+        "gender": "M",
+        "id": 294377,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرجيو هيريرا",
+            "bn": "সার্জিও হেরেরা",
+            "hi": "सर्जियो हेरेरा"
+          },
+          "shortNameTranslation": {
+            "ar": "س. هيريرا",
+            "bn": "এস. হেরেরা",
+            "hi": "एस. हेरेरा"
+          }
+        }
+      },
+      "id": 6486892,
+      "time": 61,
+      "timeSeconds": 3640,
+      "draw": {
+        "start": {
+          "x": 31.1,
+          "y": 13.3
+        },
+        "block": {
+          "x": 47.1,
+          "y": 1.5
+        },
+        "end": {
+          "x": 54.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.2,
+          "y": 89.9
+        }
+      },
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1760,
+      "periodTimeSeconds": 940,
+      "incidentType": "shot"
+    }
+  ]
+}

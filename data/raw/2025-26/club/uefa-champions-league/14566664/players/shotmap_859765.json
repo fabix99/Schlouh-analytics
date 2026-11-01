@@ -1,0 +1,143 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Phil Foden",
+        "firstName": "",
+        "lastName": "",
+        "slug": "phil-foden",
+        "shortName": "P. Foden",
+        "position": "M",
+        "jerseyNumber": "47",
+        "userCount": 170438,
+        "gender": "M",
+        "sofascoreId": "Foden",
+        "id": 859765,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيل فودين",
+            "bn": "ফিল ফোডেন",
+            "hi": "फिल फोडेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فودين",
+            "bn": "পি. ফোডেন",
+            "hi": "पी. फोडेन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 5.7,
+        "y": 35.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 40.8,
+        "z": 2.8
+      },
+      "xg": 0.062618128955364,
+      "xgot": 0,
+      "id": 5690598,
+      "time": 50,
+      "timeSeconds": 2996,
+      "draw": {
+        "start": {
+          "x": 35.1,
+          "y": 5.7
+        },
+        "end": {
+          "x": 59.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 59.2,
+          "y": 97.2
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2404,
+      "periodTimeSeconds": 296,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Phil Foden",
+        "firstName": "",
+        "lastName": "",
+        "slug": "phil-foden",
+        "shortName": "P. Foden",
+        "position": "M",
+        "jerseyNumber": "47",
+        "userCount": 170438,
+        "gender": "M",
+        "sofascoreId": "Foden",
+        "id": 859765,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيل فودين",
+            "bn": "ফিল ফোডেন",
+            "hi": "फिल फोडेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فودين",
+            "bn": "পি. ফোডেন",
+            "hi": "पी. फोडेन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 24.7,
+        "y": 53.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.1,
+        "z": 3.2
+      },
+      "blockCoordinates": {
+        "x": 2,
+        "y": 51.1,
+        "z": 0
+      },
+      "xg": 0.028155719861388,
+      "xgot": 0.026498541235924,
+      "id": 5690517,
+      "time": 31,
+      "timeSeconds": 1802,
+      "draw": {
+        "start": {
+          "x": 53.8,
+          "y": 24.7
+        },
+        "block": {
+          "x": 51.1,
+          "y": 2
+        },
+        "end": {
+          "x": 51.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.9,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 898,
+      "periodTimeSeconds": 1802,
+      "incidentType": "shot"
+    }
+  ]
+}

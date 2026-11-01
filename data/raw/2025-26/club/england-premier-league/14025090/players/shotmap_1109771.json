@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Adam Wharton",
+        "firstName": "",
+        "lastName": "",
+        "slug": "adam-wharton",
+        "shortName": "A. Wharton",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 6005,
+        "gender": "M",
+        "id": 1109771,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آدم وارتون",
+            "bn": "অ্যাডাম ওয়ার্টন",
+            "hi": "एडम व्हार्टन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. وارتون",
+            "bn": "এ. ওয়ার্টন",
+            "hi": "ए. व्हार्टन"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 18.5,
+        "y": 48.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.3,
+        "y": 48.9,
+        "z": 0
+      },
+      "xg": 0.054410371929407,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Sam Johnstone",
+        "slug": "sam-johnstone",
+        "shortName": "S. Johnstone",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 600,
+        "gender": "M",
+        "id": 98427,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سام جونستون",
+            "bn": "স্যাম জনস্টোন",
+            "hi": "सैम जॉनस्टोन"
+          },
+          "shortNameTranslation": {
+            "ar": "س. جونستون",
+            "bn": "এস. জনস্টোন",
+            "hi": "एस. जॉनस्टोन"
+          }
+        }
+      },
+      "id": 6220882,
+      "time": 63,
+      "timeSeconds": 3732,
+      "draw": {
+        "start": {
+          "x": 48.7,
+          "y": 18.5
+        },
+        "block": {
+          "x": 48.9,
+          "y": 9.3
+        },
+        "end": {
+          "x": 49.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1668,
+      "periodTimeSeconds": 1032,
+      "incidentType": "shot"
+    }
+  ]
+}

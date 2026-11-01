@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Martin Valjent",
+        "slug": "martin-valjent",
+        "shortName": "M. Valjent",
+        "position": "D",
+        "jerseyNumber": "24",
+        "userCount": 745,
+        "gender": "M",
+        "id": 300522,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتين فالينت",
+            "bn": "মার্টিন ভালজেন্ট",
+            "hi": "मार्टिन वलजेंट"
+          },
+          "shortNameTranslation": {
+            "ar": "م. فالينت",
+            "bn": "এম. ভালজেন্ট",
+            "hi": "एम. वलजेंट"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 27.8,
+        "y": 58.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.5,
+        "z": 2.5
+      },
+      "blockCoordinates": {
+        "x": 1.8,
+        "y": 50.5,
+        "z": 0
+      },
+      "xg": 0.01773333363235,
+      "xgot": 0.1460275053978,
+      "goalkeeper": {
+        "name": "Unai Simón",
+        "slug": "unai-simon",
+        "shortName": "U. Simón",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 6845,
+        "gender": "M",
+        "sofascoreId": "unai_simon",
+        "id": 797291,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوناي سيمون",
+            "bn": "উনাই সাইমন",
+            "hi": "उनाई सिमोन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سيمون",
+            "bn": "ইউ. সাইমন",
+            "hi": "यू. सिमोन"
+          }
+        }
+      },
+      "id": 5840217,
+      "time": 79,
+      "timeSeconds": 4728,
+      "draw": {
+        "start": {
+          "x": 58.1,
+          "y": 27.8
+        },
+        "block": {
+          "x": 50.5,
+          "y": 1.8
+        },
+        "end": {
+          "x": 45.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.5,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 672,
+      "periodTimeSeconds": 2028,
+      "incidentType": "shot"
+    }
+  ]
+}

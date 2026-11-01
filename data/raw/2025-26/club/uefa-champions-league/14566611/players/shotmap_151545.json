@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Virgil van Dijk",
+        "slug": "virgil-van-dijk",
+        "shortName": "V. van Dijk",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 96682,
+        "gender": "M",
+        "sofascoreId": "VvD",
+        "id": 151545,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيرجيل فان دايك",
+            "bn": "ভার্জিল ভ্যান ডাইক",
+            "hi": "वर्जिल वान डिक"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فان دايك",
+            "bn": "ভি. ভ্যান ডাইক",
+            "hi": "वी. वान डिक"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 9.5,
+        "y": 45.8,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.4,
+        "y": 46,
+        "z": 0
+      },
+      "xg": 0.03554767370224,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yann Sommer",
+        "slug": "yann-sommer",
+        "shortName": "Y. Sommer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 12623,
+        "gender": "M",
+        "sofascoreId": "yannsommer",
+        "id": 16206,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يان زومر",
+            "bn": "জন সোমার",
+            "hi": "यान सोमर"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. زومر",
+            "bn": "ওয়াই. সোমার",
+            "hi": "वाई. सोमर"
+          }
+        }
+      },
+      "id": 6325280,
+      "time": 32,
+      "timeSeconds": 1863,
+      "draw": {
+        "start": {
+          "x": 45.8,
+          "y": 9.5
+        },
+        "block": {
+          "x": 46,
+          "y": 8.4
+        },
+        "end": {
+          "x": 47.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 14,
+      "reversedPeriodTimeSeconds": 837,
+      "periodTimeSeconds": 1863,
+      "incidentType": "shot"
+    }
+  ]
+}

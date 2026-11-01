@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Tom Cairney",
+        "slug": "tom-cairney",
+        "shortName": "T. Cairney",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 656,
+        "gender": "M",
+        "id": 82566,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توم كايرني",
+            "bn": "টম কেয়ারনে",
+            "hi": "टॉम केर्नी"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. كايرني",
+            "bn": "টি. কেয়ারনে",
+            "hi": "टी. केर्नी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 25.8,
+        "y": 41.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 21.8,
+        "y": 43.3,
+        "z": 0
+      },
+      "xg": 0.025093719363213,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Robert Sánchez",
+        "slug": "robert-sanchez",
+        "shortName": "R. Sánchez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 18496,
+        "gender": "M",
+        "sofascoreId": "RS1",
+        "id": 920546,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبرت سانشيز",
+            "bn": "রবার্ট সানচেজ",
+            "hi": "रॉबर्ट सांचेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. سانشيز",
+            "bn": "আর. সানচেজ",
+            "hi": "आर. सांचेज़"
+          }
+        }
+      },
+      "id": 6470860,
+      "time": 17,
+      "timeSeconds": 978,
+      "draw": {
+        "start": {
+          "x": 41.8,
+          "y": 25.8
+        },
+        "block": {
+          "x": 43.3,
+          "y": 21.8
+        },
+        "end": {
+          "x": 51.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1722,
+      "periodTimeSeconds": 978,
+      "incidentType": "shot"
+    }
+  ]
+}

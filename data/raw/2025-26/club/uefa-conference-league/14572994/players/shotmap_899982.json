@@ -1,0 +1,177 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Isi Palazón",
+        "firstName": "",
+        "lastName": "",
+        "slug": "isi-palazon",
+        "shortName": "I. Palazón",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 2231,
+        "gender": "M",
+        "id": 899982,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيسي بالازون",
+            "bn": "আইসি পালাজন",
+            "hi": "इसी पलाज़ोन"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. بالازون",
+            "bn": "আই. পালাজোন",
+            "hi": "आई. पलाज़ोन"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 19.7,
+        "y": 66.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 62.2,
+        "z": 62.5
+      },
+      "xg": 0.023883709684014,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Dominik Takáč",
+        "slug": "dominik-takac",
+        "shortName": "D. Takáč",
+        "position": "G",
+        "jerseyNumber": "71",
+        "userCount": 238,
+        "gender": "M",
+        "id": 886365,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دومينيك تاكاش"
+          },
+          "shortNameTranslation": {
+            "ar": "د. تاكاش"
+          }
+        }
+      },
+      "id": 6257407,
+      "time": 51,
+      "timeSeconds": 3024,
+      "draw": {
+        "start": {
+          "x": 66.8,
+          "y": 19.7
+        },
+        "end": {
+          "x": 37.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 37.8,
+          "y": 37.5
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2376,
+      "periodTimeSeconds": 324,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Isi Palazón",
+        "firstName": "",
+        "lastName": "",
+        "slug": "isi-palazon",
+        "shortName": "I. Palazón",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 2231,
+        "gender": "M",
+        "id": 899982,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيسي بالازون",
+            "bn": "আইসি পালাজন",
+            "hi": "इसी पलाज़ोन"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. بالازون",
+            "bn": "আই. পালাজোন",
+            "hi": "आई. पलाज़ोन"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.6,
+        "y": 57.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 19,
+        "y": 56.3,
+        "z": 0
+      },
+      "xg": 0.02445824444294,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Dominik Takáč",
+        "slug": "dominik-takac",
+        "shortName": "D. Takáč",
+        "position": "G",
+        "jerseyNumber": "71",
+        "userCount": 238,
+        "gender": "M",
+        "id": 886365,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دومينيك تاكاش"
+          },
+          "shortNameTranslation": {
+            "ar": "د. تاكاش"
+          }
+        }
+      },
+      "id": 6257216,
+      "time": 22,
+      "timeSeconds": 1302,
+      "draw": {
+        "start": {
+          "x": 57.5,
+          "y": 22.6
+        },
+        "block": {
+          "x": 56.3,
+          "y": 19
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1398,
+      "periodTimeSeconds": 1302,
+      "incidentType": "shot"
+    }
+  ]
+}

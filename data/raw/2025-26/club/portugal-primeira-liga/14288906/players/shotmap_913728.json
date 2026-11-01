@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ivan Barbero",
+        "slug": "ivan-barbero",
+        "shortName": "I. Barbero",
+        "position": "F",
+        "jerseyNumber": "17",
+        "userCount": 163,
+        "gender": "M",
+        "id": 913728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باربيرو",
+            "bn": "বারবেরো",
+            "hi": "बारबेरो"
+          },
+          "shortNameTranslation": {
+            "ar": "باربيرو",
+            "bn": "আই এম. গঞ্জালেজ",
+            "hi": "आई.एम.गोंजालेज"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.3,
+        "y": 58.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 20.2,
+        "y": 57.2,
+        "z": 0
+      },
+      "xg": 0.030468808487058,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Andrew",
+        "slug": "andrew",
+        "shortName": "Andrew",
+        "position": "G",
+        "jerseyNumber": "42",
+        "userCount": 2943,
+        "gender": "M",
+        "id": 947893,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أندرو"
+          },
+          "shortNameTranslation": {
+            "ar": "أندرو"
+          }
+        }
+      },
+      "id": 6422205,
+      "time": 38,
+      "timeSeconds": 2247,
+      "draw": {
+        "start": {
+          "x": 58.6,
+          "y": 23.3
+        },
+        "block": {
+          "x": 57.2,
+          "y": 20.2
+        },
+        "end": {
+          "x": 48.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 453,
+      "periodTimeSeconds": 2247,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Adrien Truffert",
+        "firstName": "",
+        "lastName": "",
+        "slug": "truffert-adrien",
+        "shortName": "A. Truffert",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 1534,
+        "gender": "M",
+        "id": 999028,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تروفيرت، أدريان",
+            "bn": "ট্রুফার্ট, অ্যাড্রিয়েন",
+            "hi": "ट्रफर्ट, एड्रियन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. تروفيرت",
+            "bn": "এ. ট্রাফার্ট",
+            "hi": "ए. ट्रफर्ट"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 15.4,
+        "y": 44.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.3,
+        "y": 45.1,
+        "z": 0
+      },
+      "xg": 0.026914294809103,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Robert Sánchez",
+        "slug": "robert-sanchez",
+        "shortName": "R. Sánchez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 18497,
+        "gender": "M",
+        "sofascoreId": "RS1",
+        "id": 920546,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبرت سانشيز",
+            "bn": "রবার্ট সানচেজ",
+            "hi": "रॉबर्ट सांचेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. سانشيز",
+            "bn": "আর. সানচেজ",
+            "hi": "आर. सांचेज़"
+          }
+        }
+      },
+      "id": 6304542,
+      "time": 57,
+      "timeSeconds": 3391,
+      "draw": {
+        "start": {
+          "x": 44.2,
+          "y": 15.4
+        },
+        "block": {
+          "x": 45.1,
+          "y": 13.3
+        },
+        "end": {
+          "x": 51,
+          "y": 0
+        },
+        "goal": {
+          "x": 51,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2009,
+      "periodTimeSeconds": 691,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Dwight McNeil",
+        "firstName": "Dwight",
+        "lastName": "McNeil",
+        "slug": "dwight-mcneil",
+        "shortName": "D. McNeil",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 1978,
+        "gender": "M",
+        "id": 935543,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوايت مكنيل",
+            "bn": "ডোয়াইট ম্যাকনিল",
+            "hi": "ड्वाइट मैकनील"
+          },
+          "shortNameTranslation": {
+            "ar": "د. مكنيل",
+            "bn": "ডি. ম্যাকনিল",
+            "hi": "डी. मैकनील"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.3,
+        "y": 73,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.9,
+        "y": 61.2,
+        "z": 0
+      },
+      "xg": 0.018789045512676,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "José Sá",
+        "slug": "jose-sa",
+        "shortName": "J. Sá",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 4065,
+        "gender": "M",
+        "id": 252669,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوزيه سا",
+            "bn": "জোসে সা",
+            "hi": "जोस सा"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. سا",
+            "bn": "জে. সা",
+            "hi": "जे. सा"
+          }
+        }
+      },
+      "id": 6470875,
+      "time": 22,
+      "timeSeconds": 1285,
+      "draw": {
+        "start": {
+          "x": 73,
+          "y": 21.3
+        },
+        "block": {
+          "x": 61.2,
+          "y": 11.9
+        },
+        "end": {
+          "x": 46.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1415,
+      "periodTimeSeconds": 1285,
+      "incidentType": "shot"
+    }
+  ]
+}

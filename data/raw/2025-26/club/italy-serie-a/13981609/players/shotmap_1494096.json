@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Francesco Coppola",
+        "firstName": "Francesco Coppola",
+        "lastName": "",
+        "slug": "coppola-francesco",
+        "shortName": "F. Coppola",
+        "position": "D",
+        "jerseyNumber": "26",
+        "userCount": 299,
+        "gender": "M",
+        "id": 1494096,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كوبولا، فرانشيسكو"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. كوبولا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.8,
+        "y": 68.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.6,
+        "y": 59.6,
+        "z": 0
+      },
+      "xg": 0.039218060672283,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jean Butez",
+        "slug": "jean-butez",
+        "shortName": "J. Butez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1406,
+        "gender": "M",
+        "id": 599114,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جان بوتيز",
+            "bn": "জিন বুটেজ",
+            "hi": "जीन बुटेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بوتيز",
+            "bn": "জে. বুটেজ",
+            "hi": "जे. बुटेज़"
+          }
+        }
+      },
+      "id": 6466348,
+      "time": 65,
+      "timeSeconds": 3893,
+      "draw": {
+        "start": {
+          "x": 68.5,
+          "y": 14.8
+        },
+        "block": {
+          "x": 59.6,
+          "y": 9.6
+        },
+        "end": {
+          "x": 49.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1507,
+      "periodTimeSeconds": 1193,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sidi Bane",
+        "firstName": "",
+        "lastName": "",
+        "slug": "sidi-bane",
+        "shortName": "S. Bane",
+        "position": "D",
+        "jerseyNumber": "24",
+        "userCount": 150,
+        "gender": "M",
+        "id": 1211830,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيدي بان",
+            "bn": "সিদি বানে",
+            "hi": "सिदी बैन"
+          },
+          "shortNameTranslation": {
+            "ar": "س. بان",
+            "bn": "এস. বেন",
+            "hi": "एस. बैन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 6.4,
+        "y": 62,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.1,
+        "z": 10.8
+      },
+      "xg": 0.07355522364378,
+      "xgot": 0.68097603321075,
+      "id": 6091306,
+      "time": 43,
+      "timeSeconds": 2579,
+      "draw": {
+        "start": {
+          "x": 62,
+          "y": 6.4
+        },
+        "end": {
+          "x": 45.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.9,
+          "y": 89.2
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 121,
+      "periodTimeSeconds": 2579,
+      "incidentType": "shot"
+    }
+  ]
+}

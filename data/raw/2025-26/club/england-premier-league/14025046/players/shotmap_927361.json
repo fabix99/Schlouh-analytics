@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "James Garner",
+        "slug": "james-garner",
+        "shortName": "J. Garner",
+        "position": "M",
+        "jerseyNumber": "37",
+        "userCount": 3101,
+        "gender": "M",
+        "id": 927361,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيمس غارنر",
+            "bn": "জেমস গার্নার",
+            "hi": "जेम्स गार्नर"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. غارنر",
+            "bn": "জে. গার্নার",
+            "hi": "जे. गार्नर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 7.4,
+        "y": 33.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 15.8
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 45.7,
+        "z": 0
+      },
+      "xg": 0.079587742686272,
+      "xgot": 0.24507914483547,
+      "goalkeeper": {
+        "name": "José Sá",
+        "slug": "jose-sa",
+        "shortName": "J. Sá",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 4065,
+        "gender": "M",
+        "id": 252669,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوزيه سا",
+            "bn": "জোসে সা",
+            "hi": "जोस सा"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. سا",
+            "bn": "জে. সা",
+            "hi": "जे. सा"
+          }
+        }
+      },
+      "id": 6470960,
+      "time": 35,
+      "timeSeconds": 2072,
+      "draw": {
+        "start": {
+          "x": 33.1,
+          "y": 7.4
+        },
+        "block": {
+          "x": 45.7,
+          "y": 1.2
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 84.2
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 628,
+      "periodTimeSeconds": 2072,
+      "incidentType": "shot"
+    }
+  ]
+}

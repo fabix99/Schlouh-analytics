@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Afonso Assis",
+        "slug": "afonso-assis",
+        "shortName": "A. Assis",
+        "position": "M",
+        "jerseyNumber": "25",
+        "userCount": 55,
+        "gender": "M",
+        "id": 2030567,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أفونسو أسيش"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. أسيش"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 2.6,
+        "y": 59.9,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 1.7,
+        "y": 57.7,
+        "z": 0
+      },
+      "xg": 0.10873735696077,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bernardo Fontes",
+        "firstName": "Bernardo",
+        "lastName": "Fontes",
+        "slug": "bernardo-fontes",
+        "shortName": "B. Fontes",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 203,
+        "gender": "M",
+        "id": 1394935,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برناردو فونتس"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فونتس"
+          }
+        }
+      },
+      "id": 6495392,
+      "time": 11,
+      "timeSeconds": 612,
+      "draw": {
+        "start": {
+          "x": 59.9,
+          "y": 2.6
+        },
+        "block": {
+          "x": 57.7,
+          "y": 1.7
+        },
+        "end": {
+          "x": 53.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2088,
+      "periodTimeSeconds": 612,
+      "incidentType": "shot"
+    }
+  ]
+}

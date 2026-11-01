@@ -1,0 +1,102 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Paulo Dybala",
+        "firstName": "",
+        "lastName": "",
+        "slug": "paulo-dybala",
+        "shortName": "P. Dybala",
+        "position": "F",
+        "jerseyNumber": "21",
+        "userCount": 115731,
+        "gender": "M",
+        "sofascoreId": "LaJoya",
+        "id": 256219,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باولو ديبالا",
+            "bn": "পাওলো দিবালা",
+            "hi": "पाउलो डिबाला"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. ديبالا",
+            "bn": "পি. দিবালা",
+            "hi": "पी. डिबाला"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 19.6,
+        "y": 53.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.2,
+        "z": 5.7
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 51.1,
+        "z": 0
+      },
+      "xg": 0.059814531356096,
+      "xgot": 0.57339513301849,
+      "goalkeeper": {
+        "name": "Elías Ólafsson",
+        "firstName": "",
+        "lastName": "",
+        "slug": "elias-olafsson",
+        "shortName": "E. Ólafsson",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 371,
+        "gender": "M",
+        "id": 879183,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلياس أولافسون",
+            "bn": "ইলিয়াস ওলাফসন",
+            "hi": "इलियास ओलाफसन"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. أولافسون",
+            "bn": "ই.ওলাফসন",
+            "hi": "ई. ओलाफसन"
+          }
+        }
+      },
+      "id": 6257412,
+      "time": 54,
+      "timeSeconds": 3233,
+      "draw": {
+        "start": {
+          "x": 53.9,
+          "y": 19.6
+        },
+        "block": {
+          "x": 51.1,
+          "y": 1.1
+        },
+        "end": {
+          "x": 45.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.8,
+          "y": 94.3
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2167,
+      "periodTimeSeconds": 533,
+      "incidentType": "shot"
+    }
+  ]
+}

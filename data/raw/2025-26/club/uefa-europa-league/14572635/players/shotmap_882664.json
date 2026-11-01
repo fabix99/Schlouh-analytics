@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Pepê",
+        "slug": "pepe",
+        "shortName": "Pepê",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 4984,
+        "gender": "M",
+        "sofascoreId": "pepe",
+        "id": 882664,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيبي",
+            "bn": "পেপে",
+            "hi": "पेपे"
+          },
+          "shortNameTranslation": {
+            "ar": "بيبي",
+            "bn": "পেপে",
+            "hi": "पेपे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 15.5,
+        "y": 64.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.1,
+        "y": 57,
+        "z": 0
+      },
+      "xg": 0.063062399625778,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Robin Olsen",
+        "firstName": "",
+        "lastName": "",
+        "slug": "robin-olsen",
+        "shortName": "R. Olsen",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 1267,
+        "gender": "M",
+        "id": 26025,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبين أولسن",
+            "bn": "রবিন ওলসেন",
+            "hi": "रॉबिन ओल्सन"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. أولسن",
+            "bn": "আর. ওলসেন",
+            "hi": "आर. ओल्सन"
+          }
+        }
+      },
+      "id": 6334192,
+      "time": 27,
+      "timeSeconds": 1583,
+      "draw": {
+        "start": {
+          "x": 64.2,
+          "y": 15.5
+        },
+        "block": {
+          "x": 57,
+          "y": 8.1
+        },
+        "end": {
+          "x": 49.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 19,
+      "reversedPeriodTimeSeconds": 1117,
+      "periodTimeSeconds": 1583,
+      "incidentType": "shot"
+    }
+  ]
+}

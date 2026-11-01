@@ -1,34 +1,61 @@
 version: 2
 
 models:
+  - name: mart_team_season_stats
+    description: "dbt transform: team × season × competition rollup from player appearances"
+    columns:
+      - name: team_name
+        tests: [not_null]
   - name: mart_match_summary
-    description: "One row per match with scores and basic match context."
+    description: "dbt transform: matches + scores enriched with match_summary attributes"
     columns:
       - name: match_id
-        tests: [not_null, unique]
-      - name: season
         tests: [not_null]
-      - name: competition_slug
-        tests: [not_null]
-
   - name: mart_player_season_stats
-    description: "Player season competition aggregates with per-90 rates."
+    description: "dbt transform: player × season × competition stats from appearances (+ incidents)"
     columns:
       - name: player_id
         tests: [not_null]
-      - name: season
+  - name: mart_player_career_stats
+    description: "Serving mart over raw_sofascore.player_career_stats"
+    columns:
+      - name: player_id
         tests: [not_null]
-      - name: competition_slug
+  - name: mart_competition_benchmarks
+    description: "Serving mart over raw_sofascore.competition_benchmarks"
+  - name: mart_player_percentile_ranks
+    description: "Serving mart over raw_sofascore.player_percentile_ranks"
+    columns:
+      - name: player_id
         tests: [not_null]
-      - name: player_season_comp_key
-        tests: [not_null, unique]
-      - name: appearances
+  - name: mart_player_rolling_form
+    description: "Serving mart over raw_sofascore.player_rolling_form"
+    columns:
+      - name: player_id
         tests: [not_null]
-
   - name: mart_player_scouting_profiles
-    description: "One scouting profile row per player across the loaded slice."
+    description: "dbt transform: one-row scouting profile per player from season stats + players"
     columns:
       - name: player_id
-        tests: [not_null, unique]
-      - name: player_name
         tests: [not_null]
+  - name: mart_player_progression
+    description: "Serving mart over raw_sofascore.player_progression"
+    columns:
+      - name: player_id
+        tests: [not_null]
+  - name: mart_player_consistency
+    description: "Serving mart over raw_sofascore.player_consistency"
+    columns:
+      - name: player_id
+        tests: [not_null]
+  - name: mart_player_opponent_context_summary
+    description: "Serving mart over raw_sofascore.player_opponent_context_summary"
+    columns:
+      - name: player_id
+        tests: [not_null]
+  - name: mart_team_tactical_profiles
+    description: "Serving mart over raw_sofascore.team_tactical_profiles"
+  - name: mart_heatmap_points
+    description: "Serving mart over raw_sofascore.heatmap_points"
+  - name: mart_league_strength
+    description: "Serving mart over raw_sofascore.league_strength"

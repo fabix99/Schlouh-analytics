@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "David Brooks",
+        "slug": "david-brooks",
+        "shortName": "D. Brooks",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 1273,
+        "gender": "M",
+        "id": 855731,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دافيد بروكس",
+            "bn": "ডেভিড ব্রুকস",
+            "hi": "डेविड ब्रूक्स"
+          },
+          "shortNameTranslation": {
+            "ar": "د. بروكس",
+            "bn": "ডি. ব্রুকস",
+            "hi": "डी. ब्रूक्स"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 5.8,
+        "y": 34.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 5.4,
+        "y": 35.7,
+        "z": 0
+      },
+      "xg": 0.089781954884529,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Emiliano Martínez",
+        "slug": "emiliano-martinez",
+        "shortName": "E. Martínez",
+        "position": "G",
+        "jerseyNumber": "23",
+        "userCount": 60161,
+        "gender": "M",
+        "sofascoreId": "EmiMartínez",
+        "id": 158263,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إميليانو مارتينيز",
+            "bn": "এমিলিয়ানো মার্টিনেজ",
+            "hi": "एमिलियानो मार्टिनेज"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. مارتينيز",
+            "bn": "ই. মার্টিনেজ",
+            "hi": "ई. मार्टिनेज"
+          }
+        }
+      },
+      "id": 6145640,
+      "time": 90,
+      "timeSeconds": 5343,
+      "draw": {
+        "start": {
+          "x": 34.7,
+          "y": 5.8
+        },
+        "block": {
+          "x": 35.7,
+          "y": 5.4
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 57,
+      "periodTimeSeconds": 2643,
+      "incidentType": "shot"
+    }
+  ]
+}

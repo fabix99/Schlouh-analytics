@@ -1,0 +1,90 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "David Toshevski",
+        "slug": "david-tosevski",
+        "shortName": "D. Toševski",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 144,
+        "id": 1021398,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد توشيفسكي",
+            "bn": "ডেভিড তোশেভস্কি",
+            "hi": "डेविड टॉस्ज़वेस्की"
+          },
+          "shortNameTranslation": {
+            "ar": "د. توشيفسكي",
+            "bn": "ডি. তোশেভস্কি",
+            "hi": "डी. टॉस्ज़वेस्की"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.6,
+        "y": 40.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.2,
+        "z": 1.9
+      },
+      "xg": 0.10163460671902,
+      "xgot": 0.17175342142582,
+      "goalkeeper": {
+        "name": "Andreas Jungdal",
+        "firstName": "",
+        "lastName": "",
+        "slug": "andreas-jungdal",
+        "shortName": "A. Jungdal",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 286,
+        "gender": "M",
+        "id": 963038,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أندرياس جونغدال",
+            "bn": "আন্দ্রেয়াস জংডাল",
+            "hi": "एंड्रियास जुंगडाल"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. جونغدال",
+            "bn": "এ. জঙ্গদল",
+            "hi": "ए. जुंगडाल"
+          }
+        }
+      },
+      "id": 6265439,
+      "time": 40,
+      "timeSeconds": 2361,
+      "draw": {
+        "start": {
+          "x": 40.3,
+          "y": 13.6
+        },
+        "end": {
+          "x": 53.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.8,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 339,
+      "periodTimeSeconds": 2361,
+      "incidentType": "shot"
+    }
+  ]
+}

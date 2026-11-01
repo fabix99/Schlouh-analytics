@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Musa Barrow",
+        "slug": "musa-barrow",
+        "shortName": "M. Barrow",
+        "position": "F",
+        "jerseyNumber": "99",
+        "userCount": 3303,
+        "gender": "M",
+        "id": 916680,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موسى بارو",
+            "bn": "মিউজ ব্যারো",
+            "hi": "मूसा बैरो"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بارو",
+            "bn": "এম. ব্যারো",
+            "hi": "एम. बैरो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 15.8,
+        "y": 26.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 3.2
+      },
+      "blockCoordinates": {
+        "x": 2.5,
+        "y": 45.8,
+        "z": 0
+      },
+      "xg": 0.047421846538782,
+      "xgot": 0.037773735821247,
+      "goalkeeper": {
+        "name": "Kewin",
+        "slug": "kewin",
+        "shortName": "Kewin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 115,
+        "gender": "M",
+        "id": 865371,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيوين"
+          },
+          "shortNameTranslation": {
+            "ar": "كيوين"
+          }
+        }
+      },
+      "id": 5976739,
+      "time": 50,
+      "timeSeconds": 2993,
+      "draw": {
+        "start": {
+          "x": 26.8,
+          "y": 15.8
+        },
+        "block": {
+          "x": 45.8,
+          "y": 2.5
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2407,
+      "periodTimeSeconds": 293,
+      "incidentType": "shot"
+    }
+  ]
+}

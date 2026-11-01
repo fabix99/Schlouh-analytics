@@ -1,0 +1,92 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ethan Mbappé",
+        "firstName": "Ethan Mbappé",
+        "slug": "ethan-mbappe",
+        "shortName": "E. Mbappé",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 27065,
+        "gender": "M",
+        "sofascoreId": "ethanmbappe",
+        "id": 1402698,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيثان مبابي",
+            "bn": "ইথান এমবাপ্পে",
+            "hi": "एथन एमबाप्पे"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. مبابي",
+            "bn": "ই. এমবাপ্পে",
+            "hi": "ई. एमबाप्पे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.2,
+        "y": 64.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.2,
+        "z": 3.2
+      },
+      "xg": 0.1143908649683,
+      "xgot": 0.14344385266304,
+      "goalkeeper": {
+        "name": "Gerónimo Rulli",
+        "slug": "geronimo-rulli",
+        "shortName": "G. Rulli",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 13315,
+        "gender": "M",
+        "sofascoreId": "gerorulli",
+        "id": 128383,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيرونيمو رولي",
+            "bn": "জেরোনিমো রুলি",
+            "hi": "गेरोनिमो रुल्ली"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. رولي",
+            "bn": "জি রুলি",
+            "hi": "जी. रुल्ली"
+          }
+        }
+      },
+      "id": 6300641,
+      "time": 10,
+      "timeSeconds": 555,
+      "draw": {
+        "start": {
+          "x": 64.8,
+          "y": 15.2
+        },
+        "end": {
+          "x": 49.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.8,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2145,
+      "periodTimeSeconds": 555,
+      "incidentType": "shot"
+    }
+  ]
+}

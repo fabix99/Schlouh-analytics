@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nicolas Pépé",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nicolas-pepe",
+        "shortName": "N. Pépé",
+        "position": "F",
+        "jerseyNumber": "19",
+        "userCount": 12610,
+        "gender": "M",
+        "sofascoreId": "nicolas_pepe19",
+        "id": 593526,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولاس بيبي",
+            "bn": "নিকোলাস পেপে",
+            "hi": "निकोलस पेपे"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. بيبي",
+            "bn": "এন. পেপে",
+            "hi": "एन. पेपे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.9,
+        "y": 64.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7,
+        "y": 61.7,
+        "z": 0
+      },
+      "xg": 0.068873383104801,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Antonio Sivera",
+        "slug": "antonio-sivera",
+        "shortName": "A. Sivera",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 572,
+        "gender": "M",
+        "id": 369004,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنطونيو سيفيرا",
+            "bn": "আন্তোনিও সিভেরা",
+            "hi": "एंटोनियो सिवेरा"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سيفيرا",
+            "bn": "এ. সিভেরা",
+            "hi": "ए. सिवेरा"
+          }
+        }
+      },
+      "id": 6485779,
+      "time": 68,
+      "timeSeconds": 4028,
+      "draw": {
+        "start": {
+          "x": 64.2,
+          "y": 12.9
+        },
+        "block": {
+          "x": 61.7,
+          "y": 7
+        },
+        "end": {
+          "x": 52,
+          "y": 0
+        },
+        "goal": {
+          "x": 52,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1372,
+      "periodTimeSeconds": 1328,
+      "incidentType": "shot"
+    }
+  ]
+}

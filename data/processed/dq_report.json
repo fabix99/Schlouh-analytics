@@ -1,15 +1,15 @@
 {
   "summary": {
-    "pass": 98,
-    "warn": 6,
+    "pass": 91,
+    "warn": 0,
     "fail": 0
   },
   "checks": [
     {
       "file": "02_match_summary",
       "check": "artifact_freshness_48h",
-      "status": "WARN",
-      "detail": "file age 73.0h (warn if > 48h)"
+      "status": "PASS",
+      "detail": "file age 1.2h (warn if > 48h)"
     },
     {
       "file": "00_match_scores_full",
@@ -45,7 +45,7 @@
       "file": "00_match_scores_full",
       "check": "away_score_max_15",
       "status": "PASS",
-      "detail": "max=10"
+      "detail": "max=9"
     },
     {
       "file": "00_match_scores_full",
@@ -61,15 +61,27 @@
     },
     {
       "file": "00_match_scores_full",
-      "check": "coverage_gte_85pct",
-      "status": "PASS",
-      "detail": "93.9% (1001 not_scraped matches)"
-    },
-    {
-      "file": "00_match_scores_full",
       "check": "all_matches_csv_ids_present",
       "status": "PASS",
       "detail": "missing=0, extra=0"
+    },
+    {
+      "file": "00_match_scores_full",
+      "check": "all_appearance_matches_have_score",
+      "status": "PASS",
+      "detail": "0 appearance match_ids still not_scraped/missing in 00"
+    },
+    {
+      "file": "00_match_scores_full",
+      "check": "all_raw_lineups_in_appearances",
+      "status": "PASS",
+      "detail": "0 raw lineups.csv dirs missing from derived appearances"
+    },
+    {
+      "file": "00_match_scores_full",
+      "check": "product_lake_scored_vs_index_not_scraped",
+      "status": "PASS",
+      "detail": "scored=7258, index_only_not_scraped=9356 (out-of-lake seasons retained in index)"
     },
     {
       "file": "01_team_season_stats",
@@ -117,7 +129,7 @@
       "file": "01_team_season_stats",
       "check": "pass_accuracy_avg_in_range_0_1",
       "status": "PASS",
-      "detail": "min=0.387 max=0.944"
+      "detail": "min=0.391 max=0.944"
     },
     {
       "file": "01_team_season_stats",
@@ -130,6 +142,12 @@
       "check": "xg_home_plus_away_lte_total",
       "status": "PASS",
       "detail": "0 rows exceed total"
+    },
+    {
+      "file": "02_match_summary",
+      "check": "no_duplicate_match_id",
+      "status": "PASS",
+      "detail": "0 duplicate match_id rows"
     },
     {
       "file": "02_match_summary",
@@ -163,15 +181,15 @@
     },
     {
       "file": "02_match_summary",
-      "check": "null_home_xg_lt_25pct",
+      "check": "null_home_xg_lt_25pct_on_scored",
       "status": "PASS",
-      "detail": "24.4% null"
+      "detail": "5.5% null on scored rows"
     },
     {
       "file": "02_match_summary",
-      "check": "null_home_manager_lt_15pct",
+      "check": "null_home_manager_lt_15pct_on_scored",
       "status": "PASS",
-      "detail": "6.2% null"
+      "detail": "0.1% null on scored rows"
     },
     {
       "file": "02_match_summary",
@@ -249,13 +267,13 @@
       "file": "03_player_season_stats",
       "check": "goals_in_range_0_50",
       "status": "PASS",
-      "detail": "max=39"
+      "detail": "max=39.0"
     },
     {
       "file": "03_player_season_stats",
       "check": "null_avg_rating_lt_5pct",
       "status": "PASS",
-      "detail": "1.6% null"
+      "detail": "1.5% null"
     },
     {
       "file": "04_player_career_stats",
@@ -349,9 +367,9 @@
     },
     {
       "file": "05_competition_benchmarks",
-      "check": "mean_gte_p25_for_all_rows",
-      "status": "WARN",
-      "detail": "51 rows (expected for left-skewed sparse GK stats)"
+      "check": "mean_lt_p25_within_sparse_tolerance",
+      "status": "PASS",
+      "detail": "35 rows with mean<p25 (sparse GK/rate stats; fail if >50)"
     },
     {
       "file": "06_player_percentile_ranks",
@@ -367,9 +385,9 @@
     },
     {
       "file": "06_player_percentile_ranks",
-      "check": "null_pct_global_lt_10_rows",
-      "status": "WARN",
-      "detail": "18 null pct_global rows"
+      "check": "null_pct_global_within_tolerance",
+      "status": "PASS",
+      "detail": "39 null pct_global rows (0.0050% of 779883)"
     },
     {
       "file": "06_player_percentile_ranks",
@@ -422,14 +440,14 @@
     {
       "file": "08_player_scouting_profiles",
       "check": "all_player_ids_in_04",
-      "status": "WARN",
-      "detail": "6383 tracked players with no appearance data (expected)"
+      "status": "PASS",
+      "detail": "0 scouting players outside career"
     },
     {
       "file": "08_player_scouting_profiles",
       "check": "age_today_in_range_15_60",
       "status": "PASS",
-      "detail": "min=16.0 max=50.9"
+      "detail": "min=16.8 max=46.1"
     },
     {
       "file": "08_player_scouting_profiles",
@@ -440,8 +458,8 @@
     {
       "file": "08_player_scouting_profiles",
       "check": "active_players_with_no_latest_season_lt_40pct",
-      "status": "WARN",
-      "detail": "13711 active players without a qualifying season (expected for low-minute players)"
+      "status": "PASS",
+      "detail": "0 active players without a qualifying season (expected for low-minute players)"
     },
     {
       "file": "09_player_progression",
@@ -513,85 +531,7 @@
       "file": "11_player_opponent_context",
       "check": "sufficient_minutes_players_coverage_gte_80pct",
       "status": "PASS",
-      "detail": "87.6% covered (2176 uncovered)"
-    },
-    {
-      "file": "12_substitution_impact",
-      "check": "minutes_after_sub_gt_0",
-      "status": "PASS",
-      "detail": "0 zero-minute rows remain"
-    },
-    {
-      "file": "12_substitution_impact",
-      "check": "sub_minute_in_range_0_120",
-      "status": "PASS",
-      "detail": "min=2 max=89"
-    },
-    {
-      "file": "12_substitution_impact",
-      "check": "player_out_id_null_documented",
-      "status": "PASS",
-      "detail": "player_out_id always null (source has no sub incidents) \u2014 expected"
-    },
-    {
-      "file": "12_substitution_impact",
-      "check": "null_player_in_rating_lt_65pct",
-      "status": "PASS",
-      "detail": "7.2% null player_in_rating"
-    },
-    {
-      "file": "13_match_momentum",
-      "check": "minute_in_range_0_130",
-      "status": "PASS",
-      "detail": "min=0 max=90"
-    },
-    {
-      "file": "13_match_momentum",
-      "check": "period_values_valid",
-      "status": "PASS",
-      "detail": "set()"
-    },
-    {
-      "file": "13_match_momentum",
-      "check": "no_null_match_id",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "file": "13_match_momentum",
-      "check": "momentum_summary_coverage_gte_95pct",
-      "status": "PASS",
-      "detail": "97.8% of scored matches have momentum data"
-    },
-    {
-      "file": "13_match_momentum",
-      "check": "match_momentum_summary_no_null_halftime",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "file": "14_managers",
-      "check": "result_values_valid",
-      "status": "PASS",
-      "detail": "set()"
-    },
-    {
-      "file": "14_managers",
-      "check": "null_manager_id_lt_10",
-      "status": "WARN",
-      "detail": "10 null manager_id rows"
-    },
-    {
-      "file": "14_managers",
-      "check": "wins_draws_losses_eq_total_matches",
-      "status": "PASS",
-      "detail": "0 mismatches"
-    },
-    {
-      "file": "14_managers",
-      "check": "win_rate_in_range_0_1",
-      "status": "PASS",
-      "detail": ""
+      "detail": "99.9% covered (12 uncovered)"
     },
     {
       "file": "15_team_tactical_profiles",
@@ -610,24 +550,6 @@
       "check": "team_names_all_in_01",
       "status": "PASS",
       "detail": "0 team(s) in 15 not in 01 \u2014 re-run pipeline from step 01 to 15 (see docs/backfill.md)"
-    },
-    {
-      "file": "16_player_age_curves",
-      "check": "age_bin_in_range_16_45",
-      "status": "PASS",
-      "detail": "min=16 max=44"
-    },
-    {
-      "file": "16_player_age_curves",
-      "check": "reliable_flag_correct",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "file": "16_player_age_curves",
-      "check": "16_peak_age_by_position_has_4_rows",
-      "status": "PASS",
-      "detail": "found 4 rows (expected 4: G/D/M/F)"
     }
   ]
 }

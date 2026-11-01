@@ -1,0 +1,184 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Scott McTominay",
+        "slug": "scott-mctominay",
+        "shortName": "S. McTominay",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 25754,
+        "gender": "M",
+        "sofascoreId": "ScottMcTominay",
+        "id": 879346,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سكوت مكتوميناي",
+            "bn": "স্কট ম্যাকটোমিনে",
+            "hi": "स्कॉट मैकटोमिने"
+          },
+          "shortNameTranslation": {
+            "ar": "س. مكتوميناي",
+            "bn": "এস. ম্যাকটোমিনে",
+            "hi": "एस. मैकटोमिने"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 7.6,
+        "y": 48.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.9,
+        "z": 9.5
+      },
+      "xg": 0.10793743282557,
+      "xgot": 0.88793259859085,
+      "goalkeeper": {
+        "name": "Lorenzo Montipò",
+        "slug": "lorenzo-montipo",
+        "shortName": "L. Montipò",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 565,
+        "gender": "M",
+        "id": 253391,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لورينزو مونتيبو",
+            "bn": "লরেঞ্জো মন্টিপো",
+            "hi": "लोरेंजो मोंटिपो"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. مونتيبو",
+            "bn": "এল. মন্টিপো",
+            "hi": "एल. मोंटिपो"
+          }
+        }
+      },
+      "id": 6470780,
+      "time": 54,
+      "timeSeconds": 3185,
+      "draw": {
+        "start": {
+          "x": 48.4,
+          "y": 7.6
+        },
+        "end": {
+          "x": 46.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.1,
+          "y": 90.5
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2215,
+      "periodTimeSeconds": 485,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Scott McTominay",
+        "slug": "scott-mctominay",
+        "shortName": "S. McTominay",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 25754,
+        "gender": "M",
+        "sofascoreId": "ScottMcTominay",
+        "id": 879346,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سكوت مكتوميناي",
+            "bn": "স্কট ম্যাকটোমিনে",
+            "hi": "स्कॉट मैकटोमिने"
+          },
+          "shortNameTranslation": {
+            "ar": "س. مكتوميناي",
+            "bn": "এস. ম্যাকটোমিনে",
+            "hi": "एस. मैकटोमिने"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.8,
+        "y": 51,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.6,
+        "y": 50.9,
+        "z": 0
+      },
+      "xg": 0.23706945776939,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lorenzo Montipò",
+        "slug": "lorenzo-montipo",
+        "shortName": "L. Montipò",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 565,
+        "gender": "M",
+        "id": 253391,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لورينزو مونتيبو",
+            "bn": "লরেঞ্জো মন্টিপো",
+            "hi": "लोरेंजो मोंटिपो"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. مونتيبو",
+            "bn": "এল. মন্টিপো",
+            "hi": "एल. मोंटिपो"
+          }
+        }
+      },
+      "id": 6470762,
+      "time": 42,
+      "timeSeconds": 2486,
+      "draw": {
+        "start": {
+          "x": 51,
+          "y": 13.8
+        },
+        "block": {
+          "x": 50.9,
+          "y": 8.6
+        },
+        "end": {
+          "x": 50.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 214,
+      "periodTimeSeconds": 2486,
+      "incidentType": "shot"
+    }
+  ]
+}

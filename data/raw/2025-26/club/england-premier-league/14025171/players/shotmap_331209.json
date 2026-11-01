@@ -1,0 +1,85 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bernardo Silva",
+        "slug": "bernardo-silva",
+        "shortName": "B. Silva",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 61650,
+        "gender": "M",
+        "sofascoreId": "BSilva",
+        "id": 331209,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيرناردو سيلفا",
+            "bn": "বার্নার্ডো সিলভা",
+            "hi": "बर्नार्डो सिल्वा"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. سيلفا",
+            "bn": "বি. সিলভা",
+            "hi": "बी. सिल्वा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.2,
+        "y": 65.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 55.8,
+        "z": 59.7
+      },
+      "xg": 0.025763479992747,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Robin Roefs",
+        "slug": "robin-roefs",
+        "shortName": "R. Roefs",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 2211,
+        "gender": "M",
+        "id": 1012928,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن روفس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. روفس"
+          }
+        }
+      },
+      "id": 6303951,
+      "time": 11,
+      "timeSeconds": 627,
+      "draw": {
+        "start": {
+          "x": 65.4,
+          "y": 15.2
+        },
+        "end": {
+          "x": 44.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 44.2,
+          "y": 40.3
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2073,
+      "periodTimeSeconds": 627,
+      "incidentType": "shot"
+    }
+  ]
+}

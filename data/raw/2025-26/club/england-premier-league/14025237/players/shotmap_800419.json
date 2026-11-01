@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Tyler Adams",
+        "slug": "tyler-adams",
+        "shortName": "T. Adams",
+        "position": "M",
+        "jerseyNumber": "12",
+        "userCount": 2938,
+        "gender": "M",
+        "id": 800419,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تايلر آدامز",
+            "bn": "টাইলার অ্যাডামস",
+            "hi": "टायलर एडम्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. آدامز",
+            "bn": "টি. অ্যাডামস",
+            "hi": "टी. एडम्स"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 27.5,
+        "y": 49.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 30.4,
+        "z": 27.8
+      },
+      "blockCoordinates": {
+        "x": 2.3,
+        "y": 69.7,
+        "z": 0
+      },
+      "xg": 0.0077769518829882,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Dean Henderson",
+        "firstName": "",
+        "lastName": "",
+        "slug": "dean-henderson",
+        "shortName": "D. Henderson",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5094,
+        "gender": "M",
+        "sofascoreId": "deanhenderson",
+        "id": 788134,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دين هندرسون",
+            "bn": "ডিন হেন্ডারসন",
+            "hi": "डीन हेंडरसन"
+          },
+          "shortNameTranslation": {
+            "ar": "د. هندرسون",
+            "bn": "ডি. হেন্ডারসন",
+            "hi": "डी. हेंडरसन"
+          }
+        }
+      },
+      "id": 5960581,
+      "time": 57,
+      "timeSeconds": 3368,
+      "draw": {
+        "start": {
+          "x": 49.9,
+          "y": 27.5
+        },
+        "block": {
+          "x": 69.7,
+          "y": 2.3
+        },
+        "end": {
+          "x": 69.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 69.6,
+          "y": 72.2
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2032,
+      "periodTimeSeconds": 668,
+      "incidentType": "shot"
+    }
+  ]
+}

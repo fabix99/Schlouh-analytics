@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Pedro Rebocho",
+        "slug": "pedro-rebocho",
+        "shortName": "P. Rebocho",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 202,
+        "gender": "M",
+        "id": 190139,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيدرو ريبوتشو",
+            "bn": "পেড্রো রেবোচো",
+            "hi": "पेड्रो रेबोचो"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. ريبوتشو",
+            "bn": "পি. রেবোচো",
+            "hi": "पी. रेबोचो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 18.2,
+        "y": 41.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 16.2,
+        "y": 41.9,
+        "z": 0
+      },
+      "xg": 0.015550084412098,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Predrag Rajković",
+        "slug": "predrag-rajkovic",
+        "shortName": "P. Rajković",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2698,
+        "gender": "M",
+        "id": 188107,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بريدراغ رايكوفيتش",
+            "bn": "প্রিড্রাগ রাজকোভিচ",
+            "hi": "प्रेड्रैग राजकोविच"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. رايكوفيتش",
+            "bn": "পি. রাজকোভিচ",
+            "hi": "पी. राजकोविच"
+          }
+        }
+      },
+      "id": 6077701,
+      "time": 23,
+      "timeSeconds": 1320,
+      "draw": {
+        "start": {
+          "x": 41.1,
+          "y": 18.2
+        },
+        "block": {
+          "x": 41.9,
+          "y": 16.2
+        },
+        "end": {
+          "x": 48.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1380,
+      "periodTimeSeconds": 1320,
+      "incidentType": "shot"
+    }
+  ]
+}

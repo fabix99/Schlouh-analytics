@@ -1,0 +1,83 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Connor Malley",
+        "firstName": "",
+        "lastName": "",
+        "slug": "connor-malley",
+        "shortName": "C. Malley",
+        "position": "M",
+        "jerseyNumber": "23",
+        "userCount": 22,
+        "gender": "M",
+        "id": 948251,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كونور مالي"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. مالي"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 3.2,
+        "y": 65.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.7,
+        "z": 8.2
+      },
+      "xg": 0.2230870872736,
+      "xgot": 0.83854562044144,
+      "goalkeeper": {
+        "name": "Kiril Fesyun",
+        "slug": "fesyun-kiril",
+        "shortName": "K. Fesyun",
+        "position": "G",
+        "jerseyNumber": "23",
+        "userCount": 97,
+        "gender": "M",
+        "id": 1002780,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيريل فيسيون"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. فيسيون"
+          }
+        }
+      },
+      "id": 6258462,
+      "time": 87,
+      "timeSeconds": 5168,
+      "draw": {
+        "start": {
+          "x": 65.2,
+          "y": 3.2
+        },
+        "end": {
+          "x": 46.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.3,
+          "y": 91.8
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 232,
+      "periodTimeSeconds": 2468,
+      "incidentType": "shot"
+    }
+  ]
+}

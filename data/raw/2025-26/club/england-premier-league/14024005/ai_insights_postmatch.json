@@ -1,0 +1,200 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 9,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 55,
+      "draw": 23,
+      "away": 22
+    },
+    "possibleResultsMatrix": [
+      [
+        0.04761435431486,
+        0.053804220375792,
+        0.030399384512322,
+        0.011450434832975,
+        0.0032347478403154,
+        0.00073105301191127
+      ],
+      [
+        0.09189570382768,
+        0.10384214532528,
+        0.058670812108782,
+        0.022099339227641,
+        0.0062430633318086,
+        0.0014109323129888
+      ],
+      [
+        0.088679354193711,
+        0.10020767023889,
+        0.056617333684975,
+        0.021325862354674,
+        0.0060245561151953,
+        0.0013615496820341
+      ],
+      [
+        0.057050384531287,
+        0.064466934520355,
+        0.036423818004,
+        0.01371963811484,
+        0.0038757977674423,
+        0.00087593029544197
+      ],
+      [
+        0.027526810536346,
+        0.031105295906071,
+        0.01757449218693,
+        0.0066197253904104,
+        0.0018700724227909,
+        0.00042263636755075
+      ],
+      [
+        0.01062534886703,
+        0.012006644219743,
+        0.006783753984155,
+        0.0025552140006984,
+        0.0007218479551973,
+        0.00016313763787459
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Liverpool host Crystal Palace at Anfield with European places in sight for the hosts. The model gives Liverpool a 55% chance, draw 23%, Palace 22%, and 58% for both teams to score. Home advantage and a stronger season profile point towards Liverpool, but Palace’s recent head-to-head record keeps this finely balanced."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Liverpool have 2 wins and 3 losses across their last 5, scoring in 2 of those and conceding heavily in defeats to Manchester City and Paris Saint-Germain. Palace arrive steadier (2 wins, 1 draw, 1 loss in the last 4), including a 3-0 over Fiorentina and a late win against Newcastle United."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "Palace won the last 2 meetings (2-1, 3-0), including a 3-0 at Anfield. Streaks show Palace are unbeaten in 4 against Liverpool and have often scored first (5 of the last 7). Liverpool’s defence have not kept a clean sheet in the last 4 head-to-heads."
+    },
+    {
+      "subtitle": "Season stats snapshot",
+      "text": "Liverpool’s attack and control metrics are strong: 54 goals (4th), 59.7% possession (2nd), 88 big chances, but only 33% conversion with 59 missed. They average 6 corners per game (4th) and have 10 clean sheets. Palace sit mid-table (13th, 35-36 goals), suggesting a more conservative profile."
+    },
+    {
+      "subtitle": "Key players",
+      "text": "For Liverpool, Mohamed Salah (7 goals, 6 assists) and Dominik Szoboszlai (61 key passes, 3rd in league) drive chance creation, with Virgil van Dijk elite in duels. For Palace, Ismaïla Sarr is in form (4 goals in last 5; 5 goals across his last 5 vs Liverpool) and Jean-Philippe Mateta’s volume xG hints at threat despite underperformance. Yéremy Pino adds creativity (12 big chances created, 4th)."
+    },
+    {
+      "subtitle": "Tactical outlook",
+      "text": "Liverpool’s high possession and league-best penalty-area entries should pin Palace back, but recent losses showed vulnerability to quick transitions. Palace’s pace out wide and direct runners suit counter-attacks and early strikes, while Liverpool’s pressing and crossing volume can grind territory and late chances."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee Andy Madley averages 3.1 yellows per match, and Liverpool’s season average is 1.48 yellows. Team corner streaks point to single-digit totals for both, reinforcing a moderate-to-low corner profile. Expect a controlled card count and a modest corner tally."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Model and context point to a narrow Liverpool win, with Palace capable of creating enough to score. Home edge, chance volume, and late-game pressure tip it towards Liverpool, with both teams likely to find the net."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Crystal Palace",
+      "slug": "crystal-palace",
+      "shortName": "Crystal Palace",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 382999,
+      "nameCode": "CRY",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 7,
+      "teamColors": {
+        "primary": "#0033ff",
+        "secondary": "#b90d2b",
+        "text": "#b90d2b"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كريستال بالاس",
+          "bn": "ক্রিস্টাল প্যালেস",
+          "hi": "क्रिस्टल पैलेस",
+          "ru": "Кристал Пэлас"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Jean-Philippe Mateta",
+      "firstName": "Jean Philippe",
+      "lastName": "Mateta",
+      "slug": "jean-philippe-mateta",
+      "shortName": "J. Mateta",
+      "position": "F",
+      "jerseyNumber": "14",
+      "userCount": 13569,
+      "gender": "M",
+      "sofascoreId": "gh5-79i",
+      "id": 848276,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "جان فيليب ماتيتا",
+          "bn": "জিন-ফিলিপ মাটেটা",
+          "hi": "जीन-फिलिप माटेटा",
+          "ru": "Жан-Филипп Матета"
+        },
+        "shortNameTranslation": {
+          "ar": "ج. ماتيتا",
+          "bn": "জে. মাটেটা",
+          "hi": "जे. माटेटा",
+          "ru": "Ж. Матета"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 3,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Liverpool lead 2-0 at half-time at Anfield after goals on 35’ and 40’. The scoreline flatters the hosts relative to chance quality. Liverpool’s first-half output (57% possession, 2 shots on target, 2 big chances, expected goals 0.85) was efficient. Crystal Palace created the clearer openings but failed to take them (3 big chances missed, 3 shots on target, expected goals 1.08, 1 woodwork)."
+    },
+    {
+      "subtitle": "Quality of chances",
+      "text": "Liverpool converted both of their on-target efforts, including one from a left-sided overlap and another after a central combination. Crystal Palace’s profile shows repeat access into the box (18 penalty-area entries) and volume from set plays and cut-backs, but finishing let them down (3 big chances missed, including 2 for Jean-Philippe Mateta and 1 from a set piece for Chris Richards)."
+    },
+    {
+      "subtitle": "Tactical patterns",
+      "text": "Liverpool used a slightly higher line and looked to progress through Andy Robertson on the left and quick combinations in the half-spaces. Their box defence was strong (67% of aerial duels won; Konaté 7 clearances, Van Dijk 3). Crystal Palace targeted early balls into Mateta and wide breaks via Ismaïla Sarr, with Adam Wharton and Daichi Kamada connecting play. The visitors’ 28 final-third entries and 18 box entries underline that their route to goal is working up to the finish."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Crystal Palace started with the brighter attacking spell and wrestled control again just before the interval. Liverpool’s best sustained period came from around the half-hour to the 40-minute mark, which coincided with both goals. Momentum tilted back towards the visitors right on half-time, suggesting an aggressive start to the second period from Crystal Palace."
+    },
+    {
+      "subtitle": "Key players and match-ups",
+      "text": "- Liverpool: Robertson’s overlaps and deliveries are hurting Crystal Palace’s right side; Mac Allister and Curtis Jones each created a big chance; Konaté’s penalty-box defending has been decisive. Mohamed Salah has been quiet in open play but remains a transition threat if Crystal Palace push up.\n- Crystal Palace: Mateta is consistently finding shooting positions but needs cleaner finishing; Sarr’s direct carries have unsettled Liverpool’s right; Wharton and Kamada are supplying line-breaking passes; Richards is a set-piece target."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Discipline: Crystal Palace 2 yellow cards (Dean Henderson, Daniel Muñoz); Liverpool 0. Corners: Crystal Palace 6, Liverpool 3. Expect Crystal Palace to continue forcing corners if they sustain pressure, with the final count likely to remain in their favour. A stretched second half could bring 1-2 additional bookings, more likely for Crystal Palace if they chase the game and break up counters."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "Crystal Palace are creating enough to score if they maintain box entries and sharpen finishing. The risk for them is space left behind for Liverpool’s counters, especially down Liverpool’s left through Robertson and the right-sided runs beyond the full-back. An early Crystal Palace push feels likely; if they score, Liverpool should still find chances in transition to restore control."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Next goal: Crystal Palace. Expected second-half scorers: Jean-Philippe Mateta is the likeliest for the visitors given his first-half shot profile and positioning. Liverpool to seal the result late in transition. Predicted final score: Liverpool 3-1 Crystal Palace; second half to feature 2 goals."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

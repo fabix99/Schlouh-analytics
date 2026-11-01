@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Martin Ødegaard",
+        "slug": "martin-odegaard",
+        "shortName": "M. Ødegaard",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 77988,
+        "gender": "M",
+        "sofascoreId": "Ødegaard",
+        "id": 547410,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتن أوديغارد",
+            "bn": "মার্টিন ওডেগার্ড",
+            "hi": "मार्टिन ओडेगार्ड"
+          },
+          "shortNameTranslation": {
+            "ar": "م. أوديغارد",
+            "bn": "এম. ওডেগার্ড",
+            "hi": "एम. ओडेगार्ड"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.2,
+        "y": 46.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 21.1,
+        "y": 46.7,
+        "z": 0
+      },
+      "xg": 0.024532482028008,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Caoimhin Kelleher",
+        "firstName": "",
+        "lastName": "",
+        "slug": "caoimhin-kelleher",
+        "shortName": "C. Kelleher",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9844,
+        "gender": "M",
+        "sofascoreId": "caoimhinkelleher98",
+        "id": 827362,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاويمن كيليهير",
+            "bn": "কাওইমহিন কেলেহার",
+            "hi": "काओइमहिन केल्हेर"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. كيليهير",
+            "bn": "সি. কেলেহার",
+            "hi": "सी. केल्हेर"
+          }
+        }
+      },
+      "id": 6292487,
+      "time": 10,
+      "timeSeconds": 561,
+      "draw": {
+        "start": {
+          "x": 46.6,
+          "y": 23.2
+        },
+        "block": {
+          "x": 46.7,
+          "y": 21.1
+        },
+        "end": {
+          "x": 47.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2139,
+      "periodTimeSeconds": 561,
+      "incidentType": "shot"
+    }
+  ]
+}

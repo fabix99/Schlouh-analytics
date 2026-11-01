@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rúben Neves",
+        "slug": "ruben-neves",
+        "shortName": "R. Neves",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 15601,
+        "gender": "M",
+        "sofascoreId": "rubenneves",
+        "id": 280955,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن نيفيز",
+            "bn": "রুবেন নেভেস",
+            "hi": "रुबेन नेवेस"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. نيفيز",
+            "bn": "আর. নেভেস",
+            "hi": "आर. नेवेस"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 28.5,
+        "y": 48.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 22,
+        "y": 48.7,
+        "z": 0
+      },
+      "xg": 0.022165276110172,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kewin",
+        "slug": "kewin",
+        "shortName": "Kewin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 112,
+        "gender": "M",
+        "id": 865371,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيوين"
+          },
+          "shortNameTranslation": {
+            "ar": "كيوين"
+          }
+        }
+      },
+      "id": 6455055,
+      "time": 20,
+      "timeSeconds": 1170,
+      "draw": {
+        "start": {
+          "x": 48.7,
+          "y": 28.5
+        },
+        "block": {
+          "x": 48.7,
+          "y": 22
+        },
+        "end": {
+          "x": 48.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1530,
+      "periodTimeSeconds": 1170,
+      "incidentType": "shot"
+    }
+  ]
+}

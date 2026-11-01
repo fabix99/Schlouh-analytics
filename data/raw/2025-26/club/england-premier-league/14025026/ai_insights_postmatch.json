@@ -1,0 +1,196 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 11,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 48,
+      "draw": 26,
+      "away": 26
+    },
+    "possibleResultsMatrix": [
+      [
+        0.079145691575481,
+        0.081026025868403,
+        0.041475516464253,
+        0.014153629014381,
+        0.0036224723286337,
+        0.00074170692242301
+      ],
+      [
+        0.12015155446224,
+        0.12300610135805,
+        0.062964233126346,
+        0.021486710059738,
+        0.0054992972152719,
+        0.0011259897779722
+      ],
+      [
+        0.09120140182189,
+        0.0933681543007,
+        0.047793192118605,
+        0.016309552437829,
+        0.0041742582300557,
+        0.00085468595598114
+      ],
+      [
+        0.046151133771594,
+        0.047247587131979,
+        0.02418504495298,
+        0.0082532101620877,
+        0.0021123222464135,
+        0.0004325013113748
+      ],
+      [
+        0.017515579030488,
+        0.017931712154804,
+        0.0091788658611584,
+        0.0031323121023357,
+        0.0008016823037983,
+        0.00016414571606555
+      ],
+      [
+        0.0053181013544177,
+        0.005444448198458,
+        0.0027868983881879,
+        0.00095103640050352,
+        0.00024340775364728,
+        4.9838121446661e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Stadium of Light hosts a meeting between Sunderland (12th, 43 points) and Tottenham Hotspur (18th, 30 points). Sofascore model: home win 48%, draw 26%, away win 26%; both teams to score 50%. The reverse fixture in January finished 1-1."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Sunderland: 2-1-2 across the last 5, with strong away wins at Leeds and Newcastle and xG 2.44 at St James’ Park. Tottenham Hotspur: 1-1-3, 14 conceded in 5, and ‘without clean sheet’ in 10. Momentum leans slightly towards the hosts."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "Last 2 meetings: 1-1 (2026), 0-0 (2017). Tottenham Hotspur are unbeaten in 15 against Sunderland and lead the last 5 meetings (3-2-0), but recent clashes have tended to be low scoring (under 2.5 in 4/5)."
+    },
+    {
+      "subtitle": "Season stats snapshot",
+      "text": "Sunderland: 32 scored, 36 conceded; low possession (43.6%); limited creation (51 big chances, rank 17); corners per game 3.58 (rank 19); 9 clean sheets (rank 6). Tottenham Hotspur: 40 scored, 50 conceded; defensive record remains a concern."
+    },
+    {
+      "subtitle": "Tactical notes and key players",
+      "text": "Sunderland are effective in a compact block and transitions (clearances rank 2); Granit Xhaka (5 assists, 7.24 rating) and Enzo Le Fée (4+4) supply Brian Brobbey (6 goals). Tottenham Hotspur rely on Richarlison (9+3), Xavi Simons (4 assists) and Pedro Porro’s delivery. Listed absences: Sunderland – Daniel Ballard, Bertrand Traoré; Tottenham Hotspur – Mathys Tel, Mohammed Kudus, Pape Matar Sarr, Rodrigo Bentancur, Wilson Odobert."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee: Robert Jones (3.6 yellows per game, 0.11 reds). Sunderland average 2.10 yellows per game; Tottenham Hotspur’s recent matches show higher card counts. Head-to-head corners trend is high (over 10.5 in 6/7). Expect around 4 yellows and 10-12 corners."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Edge Sunderland given form and defensive solidity, with the draw the next-most likely outcome. Both teams to score sits near 50%, so goal outcome is finely balanced. Projection aligns with the model’s slight home bias."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Sunderland",
+      "slug": "sunderland",
+      "shortName": "Sunderland",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 239418,
+      "nameCode": "SUN",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 41,
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#ca0000",
+        "text": "#ca0000"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سندرلاند",
+          "ru": "Сандерленд"
+        },
+        "shortNameTranslation": {
+          "ru": "Сандерленд"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Brian Brobbey",
+      "firstName": "Brian",
+      "lastName": "Brobbey",
+      "slug": "brian-brobbey",
+      "shortName": "B. Brobbey",
+      "position": "F",
+      "jerseyNumber": "9",
+      "userCount": 28434,
+      "gender": "M",
+      "sofascoreId": "88q-8zw",
+      "id": 910048,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بريان بروبي",
+          "bn": "ব্রায়ান ব্রবি",
+          "hi": "ब्रायन ब्रॉब्बी",
+          "ru": "Брайан Броббей"
+        },
+        "shortNameTranslation": {
+          "ar": "ب. بروبي",
+          "bn": "বি. ব্রায়ান",
+          "hi": "बी. ब्रॉब्बी",
+          "ru": "Б. Броббей"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Goalless at half-time at the Stadium of Light, with Sunderland having the better chances but failing to convert. Sunderland lead on expected goals (1.33 vs 0.73), edge possession (54%), and have created 2 big chances. Tottenham Hotspur have been more efficient at getting efforts on target (3 on target) and remain a threat in transition and from set plays."
+    },
+    {
+      "subtitle": "First-half summary and key numbers",
+      "text": "Sunderland: 2 big chances created, 2 big chances missed, 1 shot on target, 23 final-third entries, 18 penalty-area entries, 54% possession, 1.33 xG. Tottenham Hotspur: 1 big chance created, 1 big chance missed, 3 shots on target, 17 final-third entries, 12 penalty-area entries, 46% possession, 0.73 xG. Tottenham Hotspur have dominated aerially (67% of aerials won), while duels are even overall (50%-50%)."
+    },
+    {
+      "subtitle": "Tactical patterns",
+      "text": "Sunderland build through Enzo Le Fée between the lines, with quick combinations into the box and low crosses targeting Brian Brobbey. Le Fée has been the main creator (2 big chances created, 0.71 expected assists). Sunderland’s full-backs step high, which has opened space for Tottenham Hotspur counters. Tottenham Hotspur’s right flank has been productive through Pedro Porro’s deliveries (2 key passes) and Randal Kolo Muani linking play. Cristian Romero has led the defence with clearances and tackles, but both he and Micky van de Ven are on bookings, which could limit their aggression when defending runs in behind."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Tottenham Hotspur started on the front foot before Sunderland took control with a sustained mid-half spell of pressure. Sunderland then produced another strong attacking phase around the half-hour. Tottenham Hotspur finished the half stronger with late pressure before the interval."
+    },
+    {
+      "subtitle": "Individual performances",
+      "text": "Enzo Le Fée has been Sunderland’s creative hub, supplying 2 big chances and leading chance creation. Brian Brobbey has the highest individual threat for Sunderland (0.84 xG) despite a big miss. For Tottenham Hotspur, Dominic Solanke has carried the main goal threat (0.59 xG, big chance missed). Pedro Porro has supplied useful service from the right, and Romero has been prominent defensively."
+    },
+    {
+      "subtitle": "Second-half outlook and adjustments",
+      "text": "Sunderland should continue to target central zones and the channels either side of Tottenham Hotspur’s centre-backs, encouraging runners to test defenders on bookings. Early, low deliveries to Brobbey remain high value. Tottenham Hotspur are likely to look for quicker transitions and more set-piece pressure, leveraging their aerial strength. If Sunderland sustain territory, Tottenham Hotspur’s best route is direct play into Solanke with runners off him, and switches to Porro for early balls into the box."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee information not provided. First-half cards: Sunderland 1 yellow; Tottenham Hotspur 3 yellows (including Romero and van de Ven). First-half corners: Sunderland 2; Tottenham Hotspur 3. Prediction: second-half cards 3 (Sunderland 1, Tottenham Hotspur 2), total cards 7; no red card expected but disciplinary risk for Tottenham Hotspur’s booked defenders remains. Prediction: second-half corners 5 (Sunderland 2, Tottenham Hotspur 3), total corners 10."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Sunderland have created the better chances and can exploit Tottenham Hotspur’s cautioned centre-backs. Next goal prediction: Sunderland, with Brobbey the most likely scorer if service continues. Predicted final score: Sunderland 1-0 Tottenham Hotspur."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ryan Gravenberch",
+        "slug": "ryan-gravenberch",
+        "shortName": "R. Gravenberch",
+        "position": "M",
+        "jerseyNumber": "38",
+        "userCount": 31065,
+        "gender": "M",
+        "sofascoreId": "ryanjiro",
+        "id": 904897,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريان غرافينبيرش",
+            "bn": "রায়ান গ্রেভেনবার্চ",
+            "hi": "रयान ग्रेवेनबेर्च"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. غرافينبيرش",
+            "bn": "আর. গ্রেভেনবেচ",
+            "hi": "आर. ग्रेवेनबेर्च"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 19.2,
+        "y": 49.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.6,
+        "z": 13.9
+      },
+      "blockCoordinates": {
+        "x": 17.2,
+        "y": 50,
+        "z": 0
+      },
+      "xg": 0.043255474418402,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Robin Roefs",
+        "slug": "robin-roefs",
+        "shortName": "R. Roefs",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 2211,
+        "gender": "M",
+        "id": 1012928,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن روفس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. روفس"
+          }
+        }
+      },
+      "id": 6293363,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5574,
+      "draw": {
+        "start": {
+          "x": 49.6,
+          "y": 19.2
+        },
+        "block": {
+          "x": 50,
+          "y": 17.2
+        },
+        "end": {
+          "x": 49.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.4,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 726,
+      "periodTimeSeconds": 174,
+      "incidentType": "shot"
+    }
+  ]
+}

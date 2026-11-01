@@ -1,0 +1,67 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "John McGinn",
+        "slug": "john-mcginn",
+        "shortName": "J. McGinn",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 3906,
+        "gender": "M",
+        "id": 250223,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جون ماكجين",
+            "bn": "জন ম্যাকগিন",
+            "hi": "जॉन मैकगिन"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ماكجين",
+            "bn": "জে. ম্যাকগিন",
+            "hi": "जे. मैकगिन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 21.6,
+        "y": 55.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.7,
+        "z": 1.9
+      },
+      "xg": 0.053848903626204,
+      "xgot": 0.21268866956234,
+      "id": 5763092,
+      "time": 13,
+      "timeSeconds": 753,
+      "draw": {
+        "start": {
+          "x": 55.6,
+          "y": 21.6
+        },
+        "end": {
+          "x": 53.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.3,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1947,
+      "periodTimeSeconds": 753,
+      "incidentType": "shot"
+    }
+  ]
+}

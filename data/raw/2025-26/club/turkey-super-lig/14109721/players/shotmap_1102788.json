@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Dorgeles Nene",
+        "firstName": "Nene Dorgeles",
+        "slug": "nene-dorgeles",
+        "shortName": "D. Nene",
+        "position": "F",
+        "jerseyNumber": "45",
+        "userCount": 10345,
+        "gender": "M",
+        "sofascoreId": "d.nene10",
+        "id": 1102788,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيني دورجيليس",
+            "bn": "নেনে ডরগেলেস",
+            "hi": "नेने डोर्गेलेस"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. دورجيليس",
+            "bn": "এন. ডরগেলেস",
+            "hi": "एन. डोर्गेलेस"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20,
+        "y": 61.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.5,
+        "z": 3.8
+      },
+      "blockCoordinates": {
+        "x": 2.9,
+        "y": 51.6,
+        "z": 0
+      },
+      "xg": 0.05066242814064,
+      "xgot": 0.38673138618469,
+      "goalkeeper": {
+        "name": "Yahia Fofana",
+        "slug": "yahia-fofana",
+        "shortName": "Y. Fofana",
+        "position": "G",
+        "jerseyNumber": "75",
+        "userCount": 3498,
+        "gender": "M",
+        "sofascoreId": "yahia.fofana_",
+        "id": 877977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يحيى فوفانا",
+            "bn": "ইয়াহিয়া ফোফানা",
+            "hi": "याहिया फ़ोफ़ाना"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. فوفانا",
+            "bn": "ওয়াই. ফোফানা",
+            "hi": "वाई. फ़ोफ़ाना"
+          }
+        }
+      },
+      "id": 6231602,
+      "time": 45,
+      "timeSeconds": 2688,
+      "draw": {
+        "start": {
+          "x": 61.3,
+          "y": 20
+        },
+        "block": {
+          "x": 51.6,
+          "y": 2.9
+        },
+        "end": {
+          "x": 45.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.5,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 12,
+      "periodTimeSeconds": 2688,
+      "incidentType": "shot"
+    }
+  ]
+}

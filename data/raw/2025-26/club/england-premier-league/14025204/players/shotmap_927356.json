@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Neco Williams",
+        "firstName": "",
+        "lastName": "",
+        "slug": "williams-neco",
+        "shortName": "N. Williams",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 3215,
+        "gender": "M",
+        "id": 927356,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويليامز، نيكو",
+            "bn": "উইলিয়ামস, নেকো",
+            "hi": "विलियम्स, नेको"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. ويليامز",
+            "bn": "এন. উইলিয়ামস",
+            "hi": "एन. विलियम्स"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 14.4,
+        "y": 46.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.4,
+        "z": 21.5
+      },
+      "blockCoordinates": {
+        "x": 0.5,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.086956150829792,
+      "xgot": 0.19973012804985,
+      "goalkeeper": {
+        "name": "Guglielmo Vicario",
+        "slug": "guglielmo-vicario",
+        "shortName": "G. Vicario",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 7200,
+        "gender": "M",
+        "sofascoreId": "guglielmovicario",
+        "id": 553606,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكاريو غولييلمو",
+            "bn": "উইলিয়াম দ্য ভিকারিও",
+            "hi": "गुग्लिल्मो विकारियो"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غولييلمو",
+            "bn": "জি. ভিকারিও",
+            "hi": "जी. विकारियो"
+          }
+        }
+      },
+      "id": 6348275,
+      "time": 5,
+      "timeSeconds": 253,
+      "draw": {
+        "start": {
+          "x": 46.8,
+          "y": 14.4
+        },
+        "block": {
+          "x": 49.8,
+          "y": 0.5
+        },
+        "end": {
+          "x": 51.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.6,
+          "y": 78.5
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2447,
+      "periodTimeSeconds": 253,
+      "incidentType": "shot"
+    }
+  ]
+}

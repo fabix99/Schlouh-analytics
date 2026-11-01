@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Harvey Barnes",
+        "firstName": "",
+        "lastName": "",
+        "slug": "harvey-barnes",
+        "shortName": "H. Barnes",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 5736,
+        "gender": "M",
+        "id": 855647,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هارفي بارنز",
+            "bn": "হার্ভে বার্নস",
+            "hi": "हार्वे बार्न्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. بارنز",
+            "bn": "এইচ. বার্নস",
+            "hi": "एच. बार्न्स"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.9,
+        "y": 40.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 56.8,
+        "z": 18.1
+      },
+      "xg": 0.18729551136494,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Robert Sánchez",
+        "slug": "robert-sanchez",
+        "shortName": "R. Sánchez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 18497,
+        "gender": "M",
+        "sofascoreId": "RS1",
+        "id": 920546,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبرت سانشيز",
+            "bn": "রবার্ট সানচেজ",
+            "hi": "रॉबर्ट सांचेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. سانشيز",
+            "bn": "আর. সানচেজ",
+            "hi": "आर. सांचेज़"
+          }
+        }
+      },
+      "id": 6383485,
+      "time": 85,
+      "timeSeconds": 5072,
+      "draw": {
+        "start": {
+          "x": 40.4,
+          "y": 10.9
+        },
+        "end": {
+          "x": 43.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 43.2,
+          "y": 81.9
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 328,
+      "periodTimeSeconds": 2372,
+      "incidentType": "shot"
+    }
+  ]
+}

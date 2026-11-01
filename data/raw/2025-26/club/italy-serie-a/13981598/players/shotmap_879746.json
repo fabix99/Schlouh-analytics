@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Leo Østigård",
+        "slug": "leo-ostigard",
+        "shortName": "L. Østigård",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 1921,
+        "gender": "M",
+        "id": 879746,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليو أوستيغارد",
+            "bn": "লিও অস্টিগার্ড",
+            "hi": "लियो ओस्टिगार्ड"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. أوستيغارد",
+            "bn": "এল. অস্টিগার্ড",
+            "hi": "एल. ओस्टिगार्ड"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 16.1,
+        "y": 48.7,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.8,
+        "y": 49.1,
+        "z": 0
+      },
+      "xg": 0.0096129383891821,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Adrian Šemper",
+        "slug": "adrian-semper",
+        "shortName": "A. Šemper",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 749,
+        "gender": "M",
+        "id": 814876,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أدريان سامبر",
+            "bn": "আদ্রিয়ান সেমপার",
+            "hi": "एड्रियन शेम्पर"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سامبر",
+            "bn": "এ. সেমপার",
+            "hi": "ए. शेम्पर"
+          }
+        }
+      },
+      "id": 6447213,
+      "time": 88,
+      "timeSeconds": 5237,
+      "draw": {
+        "start": {
+          "x": 48.7,
+          "y": 16.1
+        },
+        "block": {
+          "x": 49.1,
+          "y": 13.8
+        },
+        "end": {
+          "x": 51.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 163,
+      "periodTimeSeconds": 2537,
+      "incidentType": "shot"
+    }
+  ]
+}

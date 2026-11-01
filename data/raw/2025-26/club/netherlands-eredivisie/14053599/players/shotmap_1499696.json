@@ -1,0 +1,81 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kento Shiogai",
+        "slug": "shiogai-kento",
+        "shortName": "K. Shiogai",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 1177,
+        "gender": "M",
+        "id": 1499696,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "شيوغاي، كينتو"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. شيوغاي"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 4.2,
+        "y": 53,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.7,
+        "z": 13.9
+      },
+      "xg": 0.64157503843307,
+      "xgot": 0.98833256959915,
+      "goalkeeper": {
+        "name": "Etienne Vaessen",
+        "slug": "etienne-vaessen",
+        "shortName": "E. Vaessen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 473,
+        "gender": "M",
+        "id": 809408,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إتيان فايزن"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. فايزن"
+          }
+        }
+      },
+      "id": 6144677,
+      "time": 61,
+      "timeSeconds": 3604,
+      "draw": {
+        "start": {
+          "x": 53,
+          "y": 4.2
+        },
+        "end": {
+          "x": 53.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.3,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1796,
+      "periodTimeSeconds": 904,
+      "incidentType": "shot"
+    }
+  ]
+}

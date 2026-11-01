@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Lameck Banda",
+        "firstName": "",
+        "lastName": "",
+        "slug": "lameck-banda",
+        "shortName": "L. Banda",
+        "position": "M",
+        "jerseyNumber": "19",
+        "userCount": 5134,
+        "gender": "M",
+        "sofascoreId": "lameckbanda.10",
+        "id": 911350,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لاميك باندا",
+            "bn": "লেমেক বান্দা",
+            "hi": "लैमेक बांदा"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. باندا",
+            "bn": "এল. বান্দা",
+            "hi": "एल. बांदा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 14.8,
+        "y": 30.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.6,
+        "y": 31.8,
+        "z": 0
+      },
+      "xg": 0.010328015312552,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Adrian Šemper",
+        "slug": "adrian-semper",
+        "shortName": "A. Šemper",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 749,
+        "gender": "M",
+        "id": 814876,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أدريان سامبر",
+            "bn": "আদ্রিয়ান সেমপার",
+            "hi": "एड्रियन शेम्पर"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سامبر",
+            "bn": "এ. সেমপার",
+            "hi": "ए. शेम्पर"
+          }
+        }
+      },
+      "id": 6338090,
+      "time": 69,
+      "timeSeconds": 4134,
+      "draw": {
+        "start": {
+          "x": 30.3,
+          "y": 14.8
+        },
+        "block": {
+          "x": 31.8,
+          "y": 13.6
+        },
+        "end": {
+          "x": 48,
+          "y": 0
+        },
+        "goal": {
+          "x": 48,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 22,
+      "reversedPeriodTimeSeconds": 1266,
+      "periodTimeSeconds": 1434,
+      "incidentType": "shot"
+    }
+  ]
+}

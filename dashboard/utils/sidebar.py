@@ -9,6 +9,7 @@ from dashboard.utils.styles import inject_css
 from dashboard.utils.responsive_styles import inject_responsive_css
 from dashboard.utils.paths import PROJECT_ROOT
 from dashboard.utils.constants import STAT_TOOLTIPS
+from dashboard.utils.data import get_pipeline_last_run_utc
 
 _LOGO = PROJECT_ROOT / "dashboard" / "assets" / "logo.png"
 
@@ -84,20 +85,10 @@ def render_sidebar() -> None:
         )
 
         # ----------------------------------------------------------------
-        # Teams & Tactics
+        # Teams
         # ----------------------------------------------------------------
-        st.markdown("<span class='sb-nav-label'>Teams & Tactics</span>", unsafe_allow_html=True)
+        st.markdown("<span class='sb-nav-label'>Teams</span>", unsafe_allow_html=True)
         st.page_link("pages/6_🏆_Teams.py", label="🏆  Team Analysis")
-        st.page_link("pages/9_🏟️_Team_Directory.py", label="🏟️  Team Directory")
-        st.page_link("pages/10_📐_Tactical_Profile.py", label="📐  Tactical Profile")
-        st.page_link("pages/11_⚔️_Opponent_Prep.py", label="⚔️  Opponent Prep")
-        st.page_link("pages/12_📊_League_Trends.py", label="📊  League Trends")
-
-        # ----------------------------------------------------------------
-        # Data
-        # ----------------------------------------------------------------
-        st.markdown("<span class='sb-nav-label'>Data</span>", unsafe_allow_html=True)
-        st.page_link("pages/5_📊_Explore.py", label="📊  Explore Data")
 
         # ----------------------------------------------------------------
         # Compare queue widget
@@ -130,6 +121,14 @@ def render_sidebar() -> None:
             )
 
         # ----------------------------------------------------------------
+        # Refresh data (clear cache and rerun)
+        # ----------------------------------------------------------------
+        st.markdown("<div class='sb-divider'></div>", unsafe_allow_html=True)
+        if st.button("🔄 Refresh data", key="_sidebar_refresh_data", use_container_width=True):
+            st.cache_data.clear()
+            st.rerun()
+
+        # ----------------------------------------------------------------
         # Metric definitions (on every page)
         # ----------------------------------------------------------------
         with st.expander("ℹ️ Metric Definitions"):
@@ -137,14 +136,29 @@ def render_sidebar() -> None:
                 st.markdown(f"**{abbr}** — {tip}")
 
         # ----------------------------------------------------------------
-        # Footer — portfolio-ready
+        # Footer — portfolio-ready + data freshness
         # ----------------------------------------------------------------
-        st.markdown(
+        last_run = get_pipeline_last_run_utc()
+        if last_run:
+            # Show short date (e.g. 2025-02-21)
+            try:
+                from datetime import datetime
+                dt = datetime.fromisoformat(last_run.replace("Z", "+00:00"))
+                freshness = dt.strftime("%Y-%m-%d")
+            except Exception:
+                freshness = last_run[:10] if len(last_run) >= 10 else last_run
+            footer_html = f"""
+            <div class="sb-footer">
+                Schlouh Analytics · Football Intelligence<br>
+                Data from SofaScore<br>
+                <span style="font-size:0.6rem;color:#6E7681;">Data as of {freshness}</span>
+            </div>
             """
+        else:
+            footer_html = """
             <div class="sb-footer">
                 Schlouh Analytics · Football Intelligence<br>
                 Data from SofaScore
             </div>
-            """,
-            unsafe_allow_html=True,
-        )
+            """
+        st.markdown(footer_html, unsafe_allow_html=True)

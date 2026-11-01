@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ryan Gravenberch",
+        "slug": "ryan-gravenberch",
+        "shortName": "R. Gravenberch",
+        "position": "M",
+        "jerseyNumber": "38",
+        "userCount": 31065,
+        "gender": "M",
+        "sofascoreId": "ryanjiro",
+        "id": 904897,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريان غرافينبيرش",
+            "bn": "রায়ান গ্রেভেনবার্চ",
+            "hi": "रयान ग्रेवेनबेर्च"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. غرافينبيرش",
+            "bn": "আর. গ্রেভেনবেচ",
+            "hi": "आर. ग्रेवेनबेर्च"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 22.6,
+        "y": 68.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 19.5,
+        "y": 65.5,
+        "z": 0
+      },
+      "xg": 0.032674707472324,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lucas Perri",
+        "firstName": "",
+        "lastName": "",
+        "slug": "lucas-perri",
+        "shortName": "L. Perri",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3487,
+        "gender": "M",
+        "id": 871290,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس بيري",
+            "bn": "লুকাস পেরি",
+            "hi": "लुकास पेरी"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. بيري",
+            "bn": "এল. পেরি",
+            "hi": "एल. पेरी"
+          }
+        }
+      },
+      "id": 6441648,
+      "time": 7,
+      "timeSeconds": 390,
+      "draw": {
+        "start": {
+          "x": 68.1,
+          "y": 22.6
+        },
+        "block": {
+          "x": 65.5,
+          "y": 19.5
+        },
+        "end": {
+          "x": 49.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2310,
+      "periodTimeSeconds": 390,
+      "incidentType": "shot"
+    }
+  ]
+}

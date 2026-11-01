@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Archie Gray",
+        "firstName": "Archie Gray",
+        "slug": "archie-gray",
+        "shortName": "A. Gray",
+        "position": "M",
+        "jerseyNumber": "14",
+        "userCount": 5753,
+        "gender": "M",
+        "sofascoreId": "ArchieGray06",
+        "id": 1142335,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آرتشي غراي",
+            "bn": "আর্চি গ্রে",
+            "hi": "आर्ची ग्रे"
+          },
+          "shortNameTranslation": {
+            "ar": "آ. غراي",
+            "bn": "এ. গ্রে",
+            "hi": "ए. ग्रे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 16.7,
+        "y": 30.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14.2,
+        "y": 33.6,
+        "z": 0
+      },
+      "xg": 0.032806977629662,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jindřich Staněk",
+        "firstName": "",
+        "lastName": "",
+        "slug": "jindrich-stanek",
+        "shortName": "J. Staněk",
+        "position": "G",
+        "jerseyNumber": "36",
+        "userCount": 177,
+        "gender": "M",
+        "id": 280601,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيندريش ستانيك",
+            "bn": "জিন্দরিচ স্ট্যানিক",
+            "hi": "जिन्द्रीच स्टेनेक"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ستانيك",
+            "bn": "জে. স্ট্যানিক",
+            "hi": "जे. स्टेनेक"
+          }
+        }
+      },
+      "id": 6325557,
+      "time": 53,
+      "timeSeconds": 3132,
+      "draw": {
+        "start": {
+          "x": 30.7,
+          "y": 16.7
+        },
+        "block": {
+          "x": 33.6,
+          "y": 14.2
+        },
+        "end": {
+          "x": 50.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2268,
+      "periodTimeSeconds": 432,
+      "incidentType": "shot"
+    }
+  ]
+}

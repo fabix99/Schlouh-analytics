@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Freddie Potts",
+        "firstName": "Freddie Potts",
+        "slug": "freddie-potts",
+        "shortName": "F. Potts",
+        "position": "M",
+        "jerseyNumber": "32",
+        "userCount": 478,
+        "gender": "M",
+        "id": 1089582,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فريدي بوتس",
+            "bn": "ফ্রেডি পোটস",
+            "hi": "फ़्रेडी पॉट्स"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. بوتس",
+            "bn": "এফ. পটস",
+            "hi": "एफ. पॉट्स"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 15,
+        "y": 39.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.4,
+        "z": 6.9
+      },
+      "blockCoordinates": {
+        "x": 4.2,
+        "y": 49.5,
+        "z": 0
+      },
+      "xg": 0.040890548378229,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Marco Bizot",
+        "slug": "marco-bizot",
+        "shortName": "M. Bizot",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 906,
+        "gender": "M",
+        "id": 100390,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركو بيزوت",
+            "bn": "মার্কো বিজোট",
+            "hi": "मार्को बिज़ोट"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بيزوت",
+            "bn": "এম. বিজোট",
+            "hi": "एम. बिज़ोट"
+          }
+        }
+      },
+      "id": 6348421,
+      "time": 24,
+      "timeSeconds": 1387,
+      "draw": {
+        "start": {
+          "x": 39.9,
+          "y": 15
+        },
+        "block": {
+          "x": 49.5,
+          "y": 4.2
+        },
+        "end": {
+          "x": 53.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.6,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 22,
+      "reversedPeriodTimeSeconds": 1313,
+      "periodTimeSeconds": 1387,
+      "incidentType": "shot"
+    }
+  ]
+}

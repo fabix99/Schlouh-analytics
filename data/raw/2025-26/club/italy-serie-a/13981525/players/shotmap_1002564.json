@@ -1,0 +1,98 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mikayil Faye",
+        "slug": "mikayil-faye",
+        "shortName": "M. Faye",
+        "position": "D",
+        "jerseyNumber": "30",
+        "userCount": 9218,
+        "gender": "M",
+        "sofascoreId": "mikayilfaye",
+        "id": 1002564,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميكايل فاي",
+            "bn": "মিকাইল ফায়ে",
+            "hi": "मिकायिल फेय"
+          },
+          "shortNameTranslation": {
+            "ar": "م. فاي",
+            "bn": "এম. ফায়ে",
+            "hi": "एम. फेय"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 17.6,
+        "y": 33.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.4,
+        "y": 41.2,
+        "z": 0
+      },
+      "xg": 0.01128545589745,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Adrian Šemper",
+        "slug": "adrian-semper",
+        "shortName": "A. Šemper",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 749,
+        "gender": "M",
+        "id": 814876,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أدريان سامبر",
+            "bn": "আদ্রিয়ান সেমপার",
+            "hi": "एड्रियन शेम्पर"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سامبر",
+            "bn": "এ. সেমপার",
+            "hi": "ए. शेम्पर"
+          }
+        }
+      },
+      "id": 6126795,
+      "time": 43,
+      "timeSeconds": 2575,
+      "draw": {
+        "start": {
+          "x": 33.5,
+          "y": 17.6
+        },
+        "block": {
+          "x": 41.2,
+          "y": 9.4
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 125,
+      "periodTimeSeconds": 2575,
+      "incidentType": "shot"
+    }
+  ]
+}

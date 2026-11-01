@@ -1,0 +1,83 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Maracás",
+        "slug": "maracas",
+        "shortName": "Maracás",
+        "position": "D",
+        "jerseyNumber": "26",
+        "userCount": 119,
+        "gender": "M",
+        "id": 931485,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماراكاس"
+          },
+          "shortNameTranslation": {
+            "ar": "ماراكاس"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 4.8,
+        "y": 45.1,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.8,
+        "z": 10.1
+      },
+      "xg": 0.13336192071438,
+      "xgot": 0.54367876052856,
+      "goalkeeper": {
+        "name": "Bernardo Fontes",
+        "firstName": "Bernardo",
+        "lastName": "Fontes",
+        "slug": "bernardo-fontes",
+        "shortName": "B. Fontes",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 203,
+        "gender": "M",
+        "id": 1394935,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برناردو فونتس"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فونتس"
+          }
+        }
+      },
+      "id": 6496063,
+      "time": 62,
+      "timeSeconds": 3667,
+      "draw": {
+        "start": {
+          "x": 45.1,
+          "y": 4.8
+        },
+        "end": {
+          "x": 48.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.2,
+          "y": 89.9
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1733,
+      "periodTimeSeconds": 967,
+      "incidentType": "shot"
+    }
+  ]
+}

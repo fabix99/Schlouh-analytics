@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Lennart Karl",
+        "firstName": "Lennart Karl",
+        "slug": "lennart-karl",
+        "shortName": "L. Karl",
+        "position": "M",
+        "jerseyNumber": "42",
+        "userCount": 44457,
+        "gender": "M",
+        "id": 1861975,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لينارت كارل"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. كارل"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 12.6,
+        "y": 61.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 13.3
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 53.1,
+        "z": 0
+      },
+      "xg": 0.24174590408802,
+      "xgot": 0.16145849227905,
+      "goalkeeper": {
+        "name": "Kamil Grabara",
+        "slug": "grabara-kamil",
+        "shortName": "K. Grabara",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3167,
+        "gender": "M",
+        "id": 902080,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غابارا، كامل",
+            "bn": "গ্রাবারা, কামিল",
+            "hi": "ग्राबारा, कामिल"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. غرابارا",
+            "bn": "কে. গ্রাবারা",
+            "hi": "के. ग्राबारा"
+          }
+        }
+      },
+      "id": 6494938,
+      "time": 39,
+      "timeSeconds": 2335,
+      "draw": {
+        "start": {
+          "x": 61.3,
+          "y": 12.6
+        },
+        "block": {
+          "x": 53.1,
+          "y": 1.6
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 86.7
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 365,
+      "periodTimeSeconds": 2335,
+      "incidentType": "shot"
+    }
+  ]
+}

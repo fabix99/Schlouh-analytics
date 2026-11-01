@@ -1,0 +1,75 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Diego Rico",
+        "slug": "diego-rico",
+        "shortName": "D. Rico",
+        "position": "D",
+        "jerseyNumber": "16",
+        "userCount": 784,
+        "gender": "M",
+        "id": 350560,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دييغو ريكو",
+            "bn": "দিয়েগো রিকো",
+            "hi": "डिएगो रिको"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ريكو",
+            "bn": "ডি. রিকো",
+            "hi": "डी. रिको"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 29.7,
+        "y": 39.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 1.9,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.015450787730515,
+      "xgot": 0,
+      "id": 5751650,
+      "time": 10,
+      "timeSeconds": 583,
+      "draw": {
+        "start": {
+          "x": 39.3,
+          "y": 29.7
+        },
+        "block": {
+          "x": 49.8,
+          "y": 1.9
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2117,
+      "periodTimeSeconds": 583,
+      "incidentType": "shot"
+    }
+  ]
+}

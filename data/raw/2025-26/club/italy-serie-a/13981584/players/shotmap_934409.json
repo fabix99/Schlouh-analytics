@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Marcus Pedersen",
+        "slug": "marcus-pedersen",
+        "shortName": "M. Pedersen",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 649,
+        "gender": "M",
+        "id": 934409,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركوس بيدرسن",
+            "bn": "মার্কাস পেডারসেন",
+            "hi": "मार्कस पेडरसन"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بيدرسن",
+            "bn": "এম. পেডারসেন",
+            "hi": "एम. पेडरसन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.2,
+        "y": 70.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.1,
+        "y": 56.7,
+        "z": 0
+      },
+      "xg": 0.026689920574427,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Elia Caprile",
+        "firstName": "",
+        "lastName": "",
+        "slug": "elia-caprile",
+        "shortName": "E. Caprile",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1722,
+        "gender": "M",
+        "id": 947954,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيليا كابريلي",
+            "bn": "এলিয়া ক্যাপ্রিল",
+            "hi": "एलिया कैप्रिले"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. كابريلي",
+            "bn": "ই. ক্যাপ্রিল",
+            "hi": "ई. कैप्रिले"
+          }
+        }
+      },
+      "id": 6417627,
+      "time": 60,
+      "timeSeconds": 3540,
+      "draw": {
+        "start": {
+          "x": 70.3,
+          "y": 18.2
+        },
+        "block": {
+          "x": 56.7,
+          "y": 7.1
+        },
+        "end": {
+          "x": 48,
+          "y": 0
+        },
+        "goal": {
+          "x": 48,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1860,
+      "periodTimeSeconds": 840,
+      "incidentType": "shot"
+    }
+  ]
+}

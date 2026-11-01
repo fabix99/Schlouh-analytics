@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Andrej Kotnik",
+        "slug": "andrej-kotnik",
+        "shortName": "A. Kotnik",
+        "position": "F",
+        "jerseyNumber": "17",
+        "userCount": 72,
+        "gender": "M",
+        "id": 799677,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أندريه كوتنيك",
+            "bn": "আন্দ্রেই কোটনিক",
+            "hi": "आंद्रेज कोटनिक"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. كوتنيك",
+            "bn": "এ. কোটনিক",
+            "hi": "ए. कोटनिक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.8,
+        "y": 32.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.4,
+        "z": 13.9
+      },
+      "blockCoordinates": {
+        "x": 2.5,
+        "y": 47.7,
+        "z": 0
+      },
+      "xg": 0.021101716905832,
+      "xgot": 0.017787586897612,
+      "goalkeeper": {
+        "name": "Wessel Speel",
+        "slug": "wessel-speel",
+        "shortName": "W. Speel",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 46,
+        "gender": "M",
+        "id": 1014536,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويسل سبييل"
+          },
+          "shortNameTranslation": {
+            "ar": "و. سبييل"
+          }
+        }
+      },
+      "id": 6376337,
+      "time": 87,
+      "timeSeconds": 5211,
+      "draw": {
+        "start": {
+          "x": 32.7,
+          "y": 23.8
+        },
+        "block": {
+          "x": 47.7,
+          "y": 2.5
+        },
+        "end": {
+          "x": 48.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.6,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 189,
+      "periodTimeSeconds": 2511,
+      "incidentType": "shot"
+    }
+  ]
+}

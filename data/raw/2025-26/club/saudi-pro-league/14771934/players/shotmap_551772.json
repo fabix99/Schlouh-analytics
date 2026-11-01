@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Malcom",
+        "slug": "malcom",
+        "shortName": "Malcom",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 13857,
+        "gender": "M",
+        "sofascoreId": "malcomoliveira_97",
+        "id": 551772,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مالكوم فيليب",
+            "bn": "ম্যালকম",
+            "hi": "मैल्कम"
+          },
+          "shortNameTranslation": {
+            "ar": "م. فيليب",
+            "bn": "ম্যালকম",
+            "hi": "मैल्कम"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 33.7,
+        "y": 57.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 22.8,
+        "y": 55.2,
+        "z": 0
+      },
+      "xg": 0.017278924584389,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mubarak Al-Buainain",
+        "firstName": "Mubarak Al Buainain",
+        "slug": "mubarak-al-buainain",
+        "shortName": "M. Al-Buainain",
+        "position": "G",
+        "jerseyNumber": "61",
+        "userCount": 321,
+        "gender": "M",
+        "id": 1935655,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مبارك البوعينين"
+          },
+          "shortNameTranslation": {
+            "ar": "م. البوعينين"
+          }
+        }
+      },
+      "id": 6501921,
+      "time": 27,
+      "timeSeconds": 1571,
+      "draw": {
+        "start": {
+          "x": 57.3,
+          "y": 33.7
+        },
+        "block": {
+          "x": 55.2,
+          "y": 22.8
+        },
+        "end": {
+          "x": 50.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 19,
+      "reversedPeriodTimeSeconds": 1129,
+      "periodTimeSeconds": 1571,
+      "incidentType": "shot"
+    }
+  ]
+}

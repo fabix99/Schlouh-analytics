@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Guga",
+        "firstName": "Guga",
+        "slug": "guga",
+        "shortName": "Guga",
+        "position": "F",
+        "jerseyNumber": "99",
+        "userCount": 101,
+        "gender": "M",
+        "id": 1907743,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوغا"
+          },
+          "shortNameTranslation": {
+            "ar": "غوغا"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11,
+        "y": 34.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.4,
+        "y": 38.1,
+        "z": 0
+      },
+      "xg": 0.045601081103086,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mailson",
+        "slug": "mailson",
+        "shortName": "Mailson",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 578,
+        "gender": "M",
+        "id": 883367,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايلسون",
+            "bn": "মেইলসন",
+            "hi": "मेलसन"
+          },
+          "shortNameTranslation": {
+            "ar": "مايلسون",
+            "bn": "মেলসন",
+            "hi": "मेलसन"
+          }
+        }
+      },
+      "id": 6414407,
+      "time": 90,
+      "addedTime": 6,
+      "timeSeconds": 5711,
+      "draw": {
+        "start": {
+          "x": 34.9,
+          "y": 11
+        },
+        "block": {
+          "x": 38.1,
+          "y": 8.4
+        },
+        "end": {
+          "x": 48.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 589,
+      "periodTimeSeconds": 311,
+      "incidentType": "shot"
+    }
+  ]
+}

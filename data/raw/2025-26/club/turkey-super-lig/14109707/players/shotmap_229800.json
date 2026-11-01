@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sam Larsson",
+        "slug": "sam-larsson",
+        "shortName": "S. Larsson",
+        "position": "M",
+        "jerseyNumber": "23",
+        "userCount": 226,
+        "gender": "M",
+        "id": 229800,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سام لارسون",
+            "bn": "স্যাম লারসন",
+            "hi": "सैम लार्सन"
+          },
+          "shortNameTranslation": {
+            "ar": "س. لارسون",
+            "bn": "এস. লারসন",
+            "hi": "एस. लार्सन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 24,
+        "y": 45.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.4,
+        "z": 9.7
+      },
+      "blockCoordinates": {
+        "x": 22.1,
+        "y": 45.8,
+        "z": 0
+      },
+      "xg": 0.020185079425573,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bahadır Han Güngördü",
+        "slug": "bahadir-han-gungordu",
+        "shortName": "B. H. Güngördü",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 100,
+        "gender": "M",
+        "id": 807289,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باهادير هان غونغوردو"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غونغوردو"
+          }
+        }
+      },
+      "id": 6141589,
+      "time": 32,
+      "timeSeconds": 1864,
+      "draw": {
+        "start": {
+          "x": 45.4,
+          "y": 24
+        },
+        "block": {
+          "x": 45.8,
+          "y": 22.1
+        },
+        "end": {
+          "x": 52.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.6,
+          "y": 90.3
+        }
+      },
+      "reversedPeriodTime": 14,
+      "reversedPeriodTimeSeconds": 836,
+      "periodTimeSeconds": 1864,
+      "incidentType": "shot"
+    }
+  ]
+}

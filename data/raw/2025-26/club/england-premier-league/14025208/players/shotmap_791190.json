@@ -1,0 +1,76 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Rodrigo Bentancur",
+        "slug": "bentancur-rodrigo",
+        "shortName": "R. Bentancur",
+        "position": "M",
+        "jerseyNumber": "30",
+        "userCount": 8294,
+        "gender": "M",
+        "sofascoreId": "rodrigo_bentancur",
+        "id": 791190,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رودريغو بينتانكور",
+            "bn": "বেন্টানকুর, রদ্রিগো",
+            "hi": "बेनटानकुर, रोड्रिगो"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. بينتانكور",
+            "bn": "আর. বেন্টানকুর",
+            "hi": "आर. बेनटानकुर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 9.5,
+        "y": 37.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.4,
+        "y": 39.3,
+        "z": 0
+      },
+      "xg": 0.042424831539392,
+      "xgot": 0,
+      "id": 5779110,
+      "time": 61,
+      "timeSeconds": 3608,
+      "draw": {
+        "start": {
+          "x": 37.8,
+          "y": 9.5
+        },
+        "block": {
+          "x": 39.3,
+          "y": 8.4
+        },
+        "end": {
+          "x": 51,
+          "y": 0
+        },
+        "goal": {
+          "x": 51,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1792,
+      "periodTimeSeconds": 908,
+      "incidentType": "shot"
+    }
+  ]
+}

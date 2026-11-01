@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Xavi Simons",
+        "slug": "xavi-simons",
+        "shortName": "X. Simons",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 50202,
+        "gender": "M",
+        "sofascoreId": "XaviSimons",
+        "id": 997183,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تشافي سيمونز",
+            "bn": "জাভি সিমন্স",
+            "hi": "ज़ावी सिमंस"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. سيمونز",
+            "bn": "এক্স. সিমন্স",
+            "hi": "एक्स. सिमंस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 19.6,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 16.3,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.03509858995676,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Senne Lammens",
+        "firstName": "",
+        "lastName": "",
+        "slug": "senne-lammens",
+        "shortName": "S. Lammens",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 29050,
+        "gender": "M",
+        "id": 964753,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيني لامينس",
+            "bn": "সেনে ল্যামেনস",
+            "hi": "सेने लामेन्स"
+          },
+          "shortNameTranslation": {
+            "ar": "س. لامينس",
+            "bn": "এস. ল্যামেনস",
+            "hi": "एस. लामेन्स"
+          }
+        }
+      },
+      "id": 6129834,
+      "time": 1,
+      "timeSeconds": 16,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 19.6
+        },
+        "block": {
+          "x": 49.8,
+          "y": 16.3
+        },
+        "end": {
+          "x": 48.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 45,
+      "reversedPeriodTimeSeconds": 2684,
+      "periodTimeSeconds": 16,
+      "incidentType": "shot"
+    }
+  ]
+}

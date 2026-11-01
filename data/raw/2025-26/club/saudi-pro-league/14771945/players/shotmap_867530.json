@@ -1,0 +1,102 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Shaquille Pinas",
+        "firstName": "",
+        "lastName": "",
+        "slug": "shaquille-pinas",
+        "shortName": "S. Pinas",
+        "position": "D",
+        "jerseyNumber": "38",
+        "userCount": 295,
+        "gender": "M",
+        "id": 867530,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "شاكيل بيناس",
+            "bn": "শাকিল পিনাস",
+            "hi": "शाक्विले पिनास"
+          },
+          "shortNameTranslation": {
+            "ar": "ش. بيناس",
+            "bn": "এস. পিনাস",
+            "hi": "एस. पिनास"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 12.9,
+        "y": 45.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.4,
+        "y": 46.4,
+        "z": 0
+      },
+      "xg": 0.13006921112537,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abdulrahman Al Sanbi",
+        "firstName": "Abdulrahman Al Sanbi",
+        "lastName": "",
+        "slug": "abdulrahman-al-sanbi",
+        "shortName": "A. A. Sanbi",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 232,
+        "gender": "M",
+        "id": 1066728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدالرحمن السنبي",
+            "bn": "আব্দুর রহমান আল সানবি",
+            "hi": "अब्दुल रहमान अल संबी"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. ا. السنبي",
+            "bn": "এ. এ সানবি",
+            "hi": "ए. अल संबी"
+          }
+        }
+      },
+      "id": 6533716,
+      "time": 45,
+      "addedTime": 1,
+      "timeSeconds": 2721,
+      "draw": {
+        "start": {
+          "x": 45.7,
+          "y": 12.9
+        },
+        "block": {
+          "x": 46.4,
+          "y": 9.4
+        },
+        "end": {
+          "x": 48.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2679,
+      "periodTimeSeconds": 21,
+      "incidentType": "shot"
+    }
+  ]
+}

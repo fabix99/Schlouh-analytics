@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Carlos Junior",
+        "firstName": "",
+        "lastName": "",
+        "slug": "carlos-junior",
+        "shortName": "C. Junior",
+        "position": "M",
+        "jerseyNumber": "13",
+        "userCount": 431,
+        "gender": "M",
+        "id": 555624,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس جونيور",
+            "bn": "কার্লোস জুনিয়র",
+            "hi": "कार्लोस जूनियर"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. جونيور",
+            "bn": "সি. জুনিয়র",
+            "hi": "सी. जूनियर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.1,
+        "y": 45.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14.1,
+        "y": 46,
+        "z": 0
+      },
+      "xg": 0.08202338218689,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Juan Cozzani",
+        "slug": "juan-cozzani",
+        "shortName": "J. Cozzani",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 134,
+        "gender": "M",
+        "id": 874969,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوان كوزاني"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. كوزاني"
+          }
+        }
+      },
+      "id": 5762248,
+      "time": 29,
+      "timeSeconds": 1695,
+      "draw": {
+        "start": {
+          "x": 45.3,
+          "y": 18.1
+        },
+        "block": {
+          "x": 46,
+          "y": 14.1
+        },
+        "end": {
+          "x": 48.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 1005,
+      "periodTimeSeconds": 1695,
+      "incidentType": "shot"
+    }
+  ]
+}

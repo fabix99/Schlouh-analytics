@@ -1,0 +1,76 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Granit Xhaka",
+        "slug": "granit-xhaka",
+        "shortName": "G. Xhaka",
+        "position": "M",
+        "jerseyNumber": "34",
+        "userCount": 15608,
+        "gender": "M",
+        "sofascoreId": "Granit_Xhaka",
+        "id": 117777,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غرانيت شاكا",
+            "bn": "গ্রানিট জাকা",
+            "hi": "ग्रैनिट जहाका"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. شاكا",
+            "bn": "জি. জাকা",
+            "hi": "जी. जहाका"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 26.3,
+        "y": 68.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.3,
+        "z": 15.8
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 52.3,
+        "z": 0
+      },
+      "xg": 0.020678780972958,
+      "xgot": 0.10455261170864,
+      "id": 5837952,
+      "time": 44,
+      "timeSeconds": 2591,
+      "draw": {
+        "start": {
+          "x": 68.7,
+          "y": 26.3
+        },
+        "block": {
+          "x": 52.3,
+          "y": 1.1
+        },
+        "end": {
+          "x": 54.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.7,
+          "y": 84.2
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 109,
+      "periodTimeSeconds": 2591,
+      "incidentType": "shot"
+    }
+  ]
+}

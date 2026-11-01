@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Alejandro Pozo",
+        "firstName": "",
+        "lastName": "",
+        "slug": "alejandro-pozo",
+        "shortName": "A. Pozo",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 159,
+        "gender": "M",
+        "id": 848080,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليخاندرو بوزو",
+            "bn": "আলেজান্দ্রো পোজো",
+            "hi": "एलेजांद्रो पोज़ो"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بوزو",
+            "bn": "এ. পোজো",
+            "hi": "ए. पोज़ो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 5,
+        "y": 68.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 4.2,
+        "y": 65.7,
+        "z": 0
+      },
+      "xg": 0.037830639630556,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Johannes Kreidl",
+        "slug": "johannes-kreidl",
+        "shortName": "J. Kreidl",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 81,
+        "gender": "M",
+        "id": 578086,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوهانس كرايدل"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. كرايدل"
+          }
+        }
+      },
+      "id": 6257723,
+      "time": 15,
+      "timeSeconds": 880,
+      "draw": {
+        "start": {
+          "x": 68.1,
+          "y": 5
+        },
+        "block": {
+          "x": 65.7,
+          "y": 4.2
+        },
+        "end": {
+          "x": 52.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1820,
+      "periodTimeSeconds": 880,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "Premier League",
+      "slug": "premier-league",
+      "category": {
+        "name": "England",
+        "slug": "england",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "priority": 10,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 1,
+        "flag": "england",
+        "alpha2": "EN",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إنجلترا",
+            "hi": "इंग्लैंड",
+            "bn": "ইংল্যান্ড",
+            "ru": "Англия"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "Premier League",
+        "slug": "premier-league",
+        "primaryColorHex": "#3c1c5a",
+        "secondaryColorHex": "#f80158",
+        "category": {
+          "name": "England",
+          "slug": "england",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 10,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
+          },
+          "id": 1,
+          "flag": "england",
+          "alpha2": "EN",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إنجلترا",
+              "hi": "इंग्लैंड",
+              "bn": "ইংল্যান্ড",
+              "ru": "Англия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1185330,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": true,
+        "liveActivityEnabled": true,
+        "country": {},
+        "id": 17,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإنجليزي الممتاز",
+            "hi": "प्रिमियर लीग",
+            "bn": "প্রিমিয়ার লীগ",
+            "ru": "Премьер-лига"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 704,
+      "isGroup": false,
+      "competitionType": 1,
+      "isLive": false,
+      "id": 1,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "प्रिमियर लीग",
+          "ar": "الدوري الإنجليزي الممتاز",
+          "bn": "প্রিমিয়ার লীগ",
+          "ru": "Премьер-лига"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "Premier League 25/26",
+      "year": "25/26",
+      "editor": false,
+      "id": 76986
+    },
+    "roundInfo": {
+      "round": 29
+    },
+    "customId": "osr",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 51965,
+    "venue": {
+      "city": {
+        "name": "Manchester",
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 18626
+      },
+      "venueCoordinates": {
+        "latitude": 53.483091,
+        "longitude": -2.200252
+      },
+      "hidden": false,
+      "slug": "etihad-stadium",
+      "name": "Etihad Stadium",
+      "capacity": 53400,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 606,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب الإتحاد",
+          "hi": "क्रेवेन कॉटेज",
+          "bn": "ইতিহাদ স্টেডিয়াম",
+          "ru": "Стадион Etihad"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Etihad Stadium",
+        "capacity": 53400
+      }
+    },
+    "referee": {
+      "name": "Darren England",
+      "slug": "darren-england",
+      "yellowCards": 1235,
+      "redCards": 26,
+      "yellowRedCards": 16,
+      "games": 331,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 74774,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دارين إنجلاند",
+          "bn": "ড্যারেন ইংল্যান্ড",
+          "hi": "डैरेन इंग्लैंड",
+          "ru": "Даррен Англия"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "shortName": "Man City",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 4121066,
+      "manager": {
+        "name": "Enzo Maresca",
+        "slug": "enzo-maresca",
+        "shortName": "E. Maresca",
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 794873,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إنزو ماريسكا",
+            "bn": "এনজো মারেস্কা",
+            "hi": "एन्ज़ो मारेस्का",
+            "ru": "Энцо Мареска"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ماريسكا",
+            "bn": "ই. মারেস্কা",
+            "hi": "ई. मारेस्का",
+            "ru": "Э. Мареска"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Manchester",
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
+          },
+          "id": 18626
+        },
+        "venueCoordinates": {
+          "latitude": 53.483091,
+          "longitude": -2.200252
+        },
+        "hidden": false,
+        "slug": "etihad-stadium",
+        "name": "Etihad Stadium",
+        "capacity": 53400,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 606,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب الإتحاد",
+            "hi": "क्रेवेन कॉटेज",
+            "bn": "ইতিহাদ স্টেডিয়াম",
+            "ru": "Стадион Etihad"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Etihad Stadium",
+          "capacity": 53400
+        }
+      },
+      "nameCode": "MCI",
+      "class": 4,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 17,
+      "fullName": "Manchester City",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#66ccff",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2811888000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مانشستر سيتي",
+          "hi": "मेनचेस्टर सिटी ऍफ़सी",
+          "ru": "Манчестер Сити"
+        },
+        "shortNameTranslation": {
+          "ar": "مانشستر سيتي",
+          "bn": "ম্যান সিটি",
+          "hi": "मैन सिटी"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Nottingham Forest",
+      "slug": "nottingham-forest",
+      "shortName": "Forest",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 368178,
+      "manager": {
+        "name": "Oliver Glasner",
+        "slug": "oliver-glasner",
+        "shortName": "O. Glasner",
+        "country": {
+          "alpha2": "AT",
+          "alpha3": "AUT",
+          "name": "Austria",
+          "slug": "austria"
+        },
+        "id": 3318,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوليفر غلاسنر",
+            "ru": "Оливер Гласнер"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. غلاسنر",
+            "ru": "О. Гласнер"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Nottingham",
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
+          },
+          "id": 19012
+        },
+        "venueCoordinates": {
+          "latitude": 52.93733,
+          "longitude": -1.12633
+        },
+        "hidden": false,
+        "slug": "city-ground",
+        "name": "City Ground",
+        "capacity": 30445,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 2230,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيتي غراوند",
+            "hi": "सिटी ग्राउंड",
+            "bn": "সিটি গ্রাউন্ড",
+            "ru": "Стадион City Ground"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "City Ground",
+          "capacity": 30445
+        }
+      },
+      "nameCode": "NFO",
+      "class": 0,
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 14,
+      "fullName": "Nottingham Forest",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#cc0000",
+        "text": "#cc0000"
+      },
+      "foundationDateTimestamp": -3313440000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "نوتينغهام فورست",
+          "hi": "नाटिंन्ग्हम फारेस्ट",
+          "ru": "Ноттингем Форест"
+        },
+        "shortNameTranslation": {
+          "ar": "نوتينغهام فورست",
+          "bn": "ফরেস্ট",
+          "hi": "फॉरेस्ट"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "time": {
+      "injuryTime1": 4,
+      "injuryTime2": 7,
+      "currentPeriodStartTimestamp": 1772656565
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1772659811
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "correctAiInsight": false,
+    "correctHalftimeAiInsight": false,
+    "id": 14023984,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "manchester-city-nottingham-forest",
+    "currentPeriodStartTimestamp": 1772656565,
+    "startTimestamp": 1772652600,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "club"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

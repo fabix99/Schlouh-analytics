@@ -2,6 +2,11 @@
 Step 3: Aggregate player_appearances by (player_id, season, competition_slug):
 totals, per-90 stats, incidents (goals, assists, cards), sufficient_minutes flag.
 Output: data/processed/03_player_season_stats.parquet
+
+Deprecated for the platform path: dbt model mart_player_season_stats owns this
+contract. Prefer `bash platform/scripts/run_platform_full.sh` (exports the mart
+back to this parquet for downstream pandas steps). Keep this script for offline
+parquet-only rebuilds.
 """
 
 import sys

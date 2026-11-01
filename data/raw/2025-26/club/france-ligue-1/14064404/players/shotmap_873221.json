@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ayumu Seko",
+        "slug": "ayumu-seko",
+        "shortName": "A. Seko",
+        "position": "D",
+        "jerseyNumber": "15",
+        "userCount": 739,
+        "gender": "M",
+        "id": 873221,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أيومو سيكو",
+            "bn": "আয়ুমু সেকো",
+            "hi": "अयुमु सेको"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سيكو",
+            "bn": "এ. সেকো",
+            "hi": "ए. सेको"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 11.6,
+        "y": 55.6,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.4,
+        "z": 22.8
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 48.7,
+        "z": 0
+      },
+      "xg": 0.030939225107431,
+      "xgot": 0.098207674920559,
+      "goalkeeper": {
+        "name": "Berke Özer",
+        "slug": "berke-ozer",
+        "shortName": "B. Özer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3075,
+        "gender": "M",
+        "id": 847494,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيرك أوزير",
+            "bn": "বার্ক ওজার",
+            "hi": "बर्क ओज़र"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. أوزير",
+            "bn": "বি. ওজার",
+            "hi": "बी. ओज़र"
+          }
+        }
+      },
+      "id": 6273903,
+      "time": 18,
+      "timeSeconds": 1074,
+      "draw": {
+        "start": {
+          "x": 55.6,
+          "y": 11.6
+        },
+        "block": {
+          "x": 48.7,
+          "y": 1.6
+        },
+        "end": {
+          "x": 46.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.6,
+          "y": 77.2
+        }
+      },
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1626,
+      "periodTimeSeconds": 1074,
+      "incidentType": "shot"
+    }
+  ]
+}

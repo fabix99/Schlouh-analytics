@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Fidan Aliti",
+        "slug": "fidan-aliti",
+        "shortName": "F. Aliti",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 319,
+        "gender": "M",
+        "id": 385296,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيدان أليتي",
+            "bn": "ফিদান আলিতি",
+            "hi": "फ़िदान अलीती"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. أليتي",
+            "bn": "এফ. আলিতি",
+            "hi": "एफ. अलीती"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 14.7,
+        "y": 62.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.7,
+        "y": 55.1,
+        "z": 0
+      },
+      "xg": 0.02733862772584,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Zafer Görgen",
+        "slug": "zafer-gorgen",
+        "shortName": "Z. Görgen",
+        "position": "G",
+        "jerseyNumber": "20",
+        "userCount": 72,
+        "gender": "M",
+        "id": 930907,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ظافر غورغن"
+          },
+          "shortNameTranslation": {
+            "ar": "ظ. غورغن"
+          }
+        }
+      },
+      "id": 6101876,
+      "time": 56,
+      "timeSeconds": 3358,
+      "draw": {
+        "start": {
+          "x": 62.5,
+          "y": 14.7
+        },
+        "block": {
+          "x": 55.1,
+          "y": 7.7
+        },
+        "end": {
+          "x": 46.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2042,
+      "periodTimeSeconds": 658,
+      "incidentType": "shot"
+    }
+  ]
+}

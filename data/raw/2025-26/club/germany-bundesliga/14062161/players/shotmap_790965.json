@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ritsu Doan",
+        "slug": "ritsu-doan",
+        "shortName": "R. Doan",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 5685,
+        "gender": "M",
+        "sofascoreId": "doanritsu",
+        "id": 790965,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريتسو دوان",
+            "bn": "রিৎসু দোয়ান",
+            "hi": "रित्सु दोआन"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. دوان",
+            "bn": "আর. দোয়ান",
+            "hi": "आर. दोआन"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10,
+        "y": 28.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.2,
+        "z": 27.2
+      },
+      "blockCoordinates": {
+        "x": 0.3,
+        "y": 47.7,
+        "z": 0
+      },
+      "xg": 0.056825373321772,
+      "xgot": 0.1838327050209,
+      "goalkeeper": {
+        "name": "Alexander Nübel",
+        "firstName": "",
+        "lastName": "",
+        "slug": "alexander-nubel",
+        "shortName": "A. Nübel",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 2070,
+        "gender": "M",
+        "id": 584722,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر نوبل",
+            "bn": "আলেকজান্ডার নুবেল",
+            "hi": "अलेक्जेंडर नुबेल"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. نوبل",
+            "bn": "এ. নুবেল",
+            "hi": "ए. नुबेल"
+          }
+        }
+      },
+      "id": 6510659,
+      "time": 51,
+      "timeSeconds": 3000,
+      "draw": {
+        "start": {
+          "x": 28.3,
+          "y": 10
+        },
+        "block": {
+          "x": 47.7,
+          "y": 0.3
+        },
+        "end": {
+          "x": 46.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.8,
+          "y": 72.8
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2400,
+      "periodTimeSeconds": 300,
+      "incidentType": "shot"
+    }
+  ]
+}

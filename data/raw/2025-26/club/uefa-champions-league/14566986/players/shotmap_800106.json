@@ -1,0 +1,77 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Bruno",
+        "firstName": "",
+        "lastName": "",
+        "slug": "bruno",
+        "shortName": "Bruno",
+        "position": "D",
+        "jerseyNumber": "7",
+        "userCount": 657,
+        "gender": "M",
+        "id": 800106,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برونو",
+            "bn": "ব্রুনো",
+            "hi": "ब्रूनो"
+          },
+          "shortNameTranslation": {
+            "ar": "برونو",
+            "bn": "ব্রুনো",
+            "hi": "ब्रूनो"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 6.9,
+        "y": 55.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 1.8,
+        "y": 54.2,
+        "z": 0
+      },
+      "xg": 0.35526448488235,
+      "xgot": 0,
+      "id": 5994549,
+      "time": 51,
+      "timeSeconds": 3000,
+      "draw": {
+        "start": {
+          "x": 55.2,
+          "y": 6.9
+        },
+        "block": {
+          "x": 54.2,
+          "y": 1.8
+        },
+        "end": {
+          "x": 51.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2400,
+      "periodTimeSeconds": 300,
+      "incidentType": "shot"
+    }
+  ]
+}

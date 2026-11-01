@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Yanis Begraoui",
+        "slug": "yanis-begraoui",
+        "shortName": "Y. Begraoui",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 2019,
+        "gender": "M",
+        "id": 930246,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يانيس بقراوي",
+            "bn": "ইয়ানিস বেগ্রাউই",
+            "hi": "यानिस बेग्राओई"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. بقراوي",
+            "bn": "ওয়াই. বেগ্রাউই",
+            "hi": "वाई. बेग्राओई"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.2,
+        "y": 50.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 10.8
+      },
+      "blockCoordinates": {
+        "x": 0.7,
+        "y": 49.5,
+        "z": 0
+      },
+      "xg": 0.05792661011219,
+      "xgot": 0.017338797450066,
+      "goalkeeper": {
+        "name": "Lazar Carević",
+        "slug": "lazar-carevic",
+        "shortName": "L. Carević",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 249,
+        "gender": "M",
+        "id": 886204,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لازار كاريتش",
+            "bn": "লাজার কেরেভিচ",
+            "hi": "लाज़र कैरेविक"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. كاريتش",
+            "bn": "এল. কেরিভিচ",
+            "hi": "एल. कैरेविक"
+          }
+        }
+      },
+      "id": 6349492,
+      "time": 65,
+      "timeSeconds": 3896,
+      "draw": {
+        "start": {
+          "x": 50.5,
+          "y": 21.2
+        },
+        "block": {
+          "x": 49.5,
+          "y": 0.7
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 89.2
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1504,
+      "periodTimeSeconds": 1196,
+      "incidentType": "shot"
+    }
+  ]
+}

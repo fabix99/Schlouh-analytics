@@ -1,0 +1,84 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "N'Dri Koffi",
+        "slug": "ndri-koffi",
+        "shortName": "N. Koffi",
+        "position": "F",
+        "jerseyNumber": "19",
+        "userCount": 223,
+        "gender": "M",
+        "id": 1141593,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ندري كوفي",
+            "bn": "এন'ড্রি কফি",
+            "hi": "एन'द्री कोफ़ी"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. كوفي",
+            "bn": "এন. কফি",
+            "hi": "एन. कोफ़ी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.3,
+        "y": 41.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 34.6,
+        "z": 31.9
+      },
+      "xg": 0.073045887053013,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kiril Fesyun",
+        "slug": "fesyun-kiril",
+        "shortName": "K. Fesyun",
+        "position": "G",
+        "jerseyNumber": "23",
+        "userCount": 97,
+        "gender": "M",
+        "id": 1002780,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيريل فيسيون"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. فيسيون"
+          }
+        }
+      },
+      "id": 6333889,
+      "time": 13,
+      "timeSeconds": 743,
+      "draw": {
+        "start": {
+          "x": 41.1,
+          "y": 21.3
+        },
+        "end": {
+          "x": 65.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 65.4,
+          "y": 68.1
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1957,
+      "periodTimeSeconds": 743,
+      "incidentType": "shot"
+    }
+  ]
+}

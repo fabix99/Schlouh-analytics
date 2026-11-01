@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Nicolas Pépé",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nicolas-pepe",
+        "shortName": "N. Pépé",
+        "position": "F",
+        "jerseyNumber": "19",
+        "userCount": 12601,
+        "gender": "M",
+        "sofascoreId": "nicolas_pepe19",
+        "id": 593526,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولاس بيبي",
+            "bn": "নিকোলাস পেপে",
+            "hi": "निकोलस पेपे"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. بيبي",
+            "bn": "এন. পেপে",
+            "hi": "एन. पेपे"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.2,
+        "y": 67.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 62.2,
+        "z": 23.6
+      },
+      "xg": 0.021645685657859,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lucas Bergström",
+        "slug": "lucas-bergstrom",
+        "shortName": "L. Bergström",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 3100,
+        "gender": "M",
+        "id": 996903,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس بيرغستروم",
+            "bn": "লুকাস বার্গস্ট্রোম",
+            "hi": "लुकास बर्गस्ट्रोम"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. بيرغستروم",
+            "bn": "এল. বার্গস্ট্রোম",
+            "hi": "एल. बर्गस्ट्रोम"
+          }
+        }
+      },
+      "id": 6223320,
+      "time": 30,
+      "timeSeconds": 1755,
+      "draw": {
+        "start": {
+          "x": 67.9,
+          "y": 22.2
+        },
+        "end": {
+          "x": 37.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 37.8,
+          "y": 76.4
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 945,
+      "periodTimeSeconds": 1755,
+      "incidentType": "shot"
+    }
+  ]
+}

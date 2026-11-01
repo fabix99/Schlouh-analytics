@@ -1,0 +1,66 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Fábio Ronaldo",
+        "firstName": "",
+        "lastName": "",
+        "slug": "fabio-ronaldo",
+        "shortName": "F. Ronaldo",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 247,
+        "gender": "M",
+        "id": 1134514,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فابيو رونالدو"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. رونالدو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 3.3,
+        "y": 46.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.2,
+        "z": 3.8
+      },
+      "xg": 0.68784373998642,
+      "xgot": 0.93241512775421,
+      "id": 5499094,
+      "time": 45,
+      "addedTime": 7,
+      "timeSeconds": 3062,
+      "draw": {
+        "start": {
+          "x": 46.8,
+          "y": 3.3
+        },
+        "end": {
+          "x": 45.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.8,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2338,
+      "periodTimeSeconds": 362,
+      "incidentType": "shot"
+    }
+  ]
+}

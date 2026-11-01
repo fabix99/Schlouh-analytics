@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Christian Günter",
+        "slug": "christian-gunter",
+        "shortName": "C. Günter",
+        "position": "D",
+        "jerseyNumber": "30",
+        "userCount": 353,
+        "gender": "M",
+        "id": 142231,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستيان غانتر",
+            "bn": "ক্রিশ্চিয়ান গুন্টার",
+            "hi": "क्रिश्चियन गुंटर"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. غانتر",
+            "bn": "সি. গুন্টার",
+            "hi": "सी. गुंटर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15,
+        "y": 31.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.4,
+        "z": 6.9
+      },
+      "blockCoordinates": {
+        "x": 10.2,
+        "y": 36.5,
+        "z": 0
+      },
+      "xg": 0.061976708471775,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lasse Riess",
+        "firstName": "",
+        "lastName": "",
+        "slug": "lasse-riess",
+        "shortName": "L. Riess",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 84,
+        "gender": "M",
+        "id": 1069252,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريس ، لاسي"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ، لاسي"
+          }
+        }
+      },
+      "id": 6275681,
+      "time": 72,
+      "timeSeconds": 4280,
+      "draw": {
+        "start": {
+          "x": 31.9,
+          "y": 15
+        },
+        "block": {
+          "x": 36.5,
+          "y": 10.2
+        },
+        "end": {
+          "x": 53.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.6,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 19,
+      "reversedPeriodTimeSeconds": 1120,
+      "periodTimeSeconds": 1580,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Sadio Mané",
+        "firstName": "",
+        "lastName": "",
+        "slug": "sadio-mane",
+        "shortName": "S. Mané",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 168287,
+        "gender": "M",
+        "sofascoreId": "SadioMané",
+        "id": 217704,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ساديو ماني",
+            "bn": "সাদিও মানে",
+            "hi": "सादियो माने"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ماني",
+            "bn": "এস. মানে",
+            "hi": "एस. माने"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 12.7,
+        "y": 29.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.1,
+        "z": 10.8
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 46.6,
+        "z": 0
+      },
+      "xg": 0.049308124929667,
+      "xgot": 0.61750799417496,
+      "goalkeeper": {
+        "name": "Milan Borjan",
+        "slug": "milan-borjan",
+        "shortName": "M. Borjan",
+        "position": "G",
+        "jerseyNumber": "82",
+        "userCount": 809,
+        "gender": "M",
+        "id": 79413,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميلان بوريان",
+            "bn": "মিলান বোরজান",
+            "hi": "मिलन बोरजान"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بوريان",
+            "bn": "এম. বোরজান",
+            "hi": "एम. बोरजान"
+          }
+        }
+      },
+      "id": 5717429,
+      "time": 58,
+      "timeSeconds": 3457,
+      "draw": {
+        "start": {
+          "x": 29.9,
+          "y": 12.7
+        },
+        "block": {
+          "x": 46.6,
+          "y": 1.4
+        },
+        "end": {
+          "x": 53.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.9,
+          "y": 89.2
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1943,
+      "periodTimeSeconds": 757,
+      "incidentType": "shot"
+    }
+  ]
+}

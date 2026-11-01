@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Musa Barrow",
+        "slug": "musa-barrow",
+        "shortName": "M. Barrow",
+        "position": "F",
+        "jerseyNumber": "99",
+        "userCount": 3303,
+        "gender": "M",
+        "id": 916680,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موسى بارو",
+            "bn": "মিউজ ব্যারো",
+            "hi": "मूसा बैरो"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بارو",
+            "bn": "এম. ব্যারো",
+            "hi": "एम. बैरो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.3,
+        "y": 29.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.1,
+        "z": 1.3
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 46,
+        "z": 0
+      },
+      "xg": 0.022375041618943,
+      "xgot": 0.028362765908241,
+      "goalkeeper": {
+        "name": "Nawaf Al-Aqidi",
+        "firstName": "",
+        "lastName": "",
+        "slug": "nawaf-al-aqidi",
+        "shortName": "N. Al-Aqidi",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1523,
+        "gender": "M",
+        "id": 1014518,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نواف العقيدي",
+            "bn": "নাওয়াফ আল-আকিদি",
+            "hi": "नवाफ़ अल-अक़ीदी"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. العقيدي",
+            "bn": "এন. আল-আকিদি",
+            "hi": "एन. अल-अक़ीदी"
+          }
+        }
+      },
+      "id": 5516340,
+      "time": 34,
+      "timeSeconds": 2012,
+      "draw": {
+        "start": {
+          "x": 29.5,
+          "y": 13.3
+        },
+        "block": {
+          "x": 46,
+          "y": 1.6
+        },
+        "end": {
+          "x": 49.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.9,
+          "y": 98.7
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 688,
+      "periodTimeSeconds": 2012,
+      "incidentType": "shot"
+    }
+  ]
+}

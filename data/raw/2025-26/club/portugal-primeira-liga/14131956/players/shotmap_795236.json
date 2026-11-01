@@ -1,0 +1,184 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Vangelis Pavlidis",
+        "slug": "vangelis-pavlidis",
+        "shortName": "V. Pavlidis",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 15357,
+        "gender": "M",
+        "sofascoreId": "vangelis_pavlidis",
+        "id": 795236,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فانجيليس بافلديس",
+            "bn": "ভ্যানজেলিস পাভলিদিস",
+            "hi": "वेन्जेलिस पावलिडिस"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. بافلديس",
+            "bn": "ভি. পাভলিডিস",
+            "hi": "वी. पावलिडिस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.4,
+        "z": 29.1
+      },
+      "xg": 0.7884,
+      "xgot": 0.96356642246246,
+      "goalkeeper": {
+        "name": "Patrick Sequeira",
+        "slug": "patrick-sequeira",
+        "shortName": "P. Sequeira",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 963,
+        "gender": "M",
+        "id": 821628,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باتريك سيكويرا",
+            "bn": "প্যাট্রিক সেকুইরা",
+            "hi": "पैट्रिक सेक्वेरा"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. سيكويرا",
+            "bn": "পি. সেকুইরা",
+            "hi": "पी. सेक्वेरा"
+          }
+        }
+      },
+      "id": 6149528,
+      "time": 60,
+      "timeSeconds": 3567,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 50.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.6,
+          "y": 70.9
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1833,
+      "periodTimeSeconds": 867,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Vangelis Pavlidis",
+        "slug": "vangelis-pavlidis",
+        "shortName": "V. Pavlidis",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 15357,
+        "gender": "M",
+        "sofascoreId": "vangelis_pavlidis",
+        "id": 795236,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فانجيليس بافلديس",
+            "bn": "ভ্যানজেলিস পাভলিদিস",
+            "hi": "वेन्जेलिस पावलिडिस"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. بافلديس",
+            "bn": "ভি. পাভলিডিস",
+            "hi": "वी. पावलिडिस"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.8,
+        "y": 57.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.1,
+        "y": 56.5,
+        "z": 0
+      },
+      "xg": 0.11400536447763,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Patrick Sequeira",
+        "slug": "patrick-sequeira",
+        "shortName": "P. Sequeira",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 963,
+        "gender": "M",
+        "id": 821628,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باتريك سيكويرا",
+            "bn": "প্যাট্রিক সেকুইরা",
+            "hi": "पैट्रिक सेक्वेरा"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. سيكويرا",
+            "bn": "পি. সেকুইরা",
+            "hi": "पी. सेक्वेरा"
+          }
+        }
+      },
+      "id": 6148844,
+      "time": 27,
+      "timeSeconds": 1586,
+      "draw": {
+        "start": {
+          "x": 57.9,
+          "y": 8.8
+        },
+        "block": {
+          "x": 56.5,
+          "y": 7.1
+        },
+        "end": {
+          "x": 50.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 19,
+      "reversedPeriodTimeSeconds": 1114,
+      "periodTimeSeconds": 1586,
+      "incidentType": "shot"
+    }
+  ]
+}

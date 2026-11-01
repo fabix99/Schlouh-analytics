@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Firas Al-Buraikan",
+        "slug": "firas-al-buraikan",
+        "shortName": "F. Al-Buraikan",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 1081,
+        "gender": "M",
+        "id": 893307,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فراس البريكان",
+            "bn": "ফিরাস আল বুরাইকান",
+            "hi": "फ़िरास अल-बुरैकान"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. البريكان",
+            "bn": "এফ. আল-বুরাইকান",
+            "hi": "एफ. अल-बुरैकान"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 13.3,
+        "y": 44.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.3,
+        "z": 13.9
+      },
+      "blockCoordinates": {
+        "x": 11.8,
+        "y": 45.3,
+        "z": 0
+      },
+      "xg": 0.046626802533865,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Marcin Bułka",
+        "slug": "marcin-bulka",
+        "shortName": "M. Bułka",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 4735,
+        "gender": "M",
+        "sofascoreId": "marcinbulka1",
+        "id": 889590,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارسين بولكا",
+            "bn": "মার্সিন বুলকা",
+            "hi": "मार्सिन बुल्का"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بولكا",
+            "bn": "এম. বুলকা",
+            "hi": "एम. बुल्का"
+          }
+        }
+      },
+      "id": 5513473,
+      "time": 90,
+      "addedTime": 7,
+      "timeSeconds": 5794,
+      "draw": {
+        "start": {
+          "x": 44.6,
+          "y": 13.3
+        },
+        "block": {
+          "x": 45.3,
+          "y": 11.8
+        },
+        "end": {
+          "x": 46.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.7,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 506,
+      "periodTimeSeconds": 394,
+      "incidentType": "shot"
+    }
+  ]
+}

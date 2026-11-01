@@ -1,0 +1,99 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ivan Brnić",
+        "slug": "ivan-brnic",
+        "shortName": "I. Brnić",
+        "position": "F",
+        "jerseyNumber": "77",
+        "userCount": 375,
+        "gender": "M",
+        "id": 916182,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفان برنيتش",
+            "bn": "ইভান ব্রনিক",
+            "hi": "इवान ब्रनिक"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. برنيتش",
+            "bn": "আই. ব্রনিক",
+            "hi": "आई. ब्रनिक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.2,
+        "y": 36.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.7,
+        "y": 38.8,
+        "z": 0
+      },
+      "xg": 0.019728163257241,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ivo Grbić",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ivo-grbic",
+        "shortName": "I. Grbić",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 1112,
+        "gender": "M",
+        "id": 283847,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفو غريبيتش",
+            "bn": "আইভো গ্রবিক",
+            "hi": "इवो ग्रबिक"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. غريبيتش",
+            "bn": "আই. গ্রবিক",
+            "hi": "आई. ग्रबिक"
+          }
+        }
+      },
+      "id": 6533250,
+      "time": 66,
+      "timeSeconds": 3946,
+      "draw": {
+        "start": {
+          "x": 36.2,
+          "y": 21.2
+        },
+        "block": {
+          "x": 38.8,
+          "y": 17.7
+        },
+        "end": {
+          "x": 52.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 25,
+      "reversedPeriodTimeSeconds": 1454,
+      "periodTimeSeconds": 1246,
+      "incidentType": "shot"
+    }
+  ]
+}

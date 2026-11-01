@@ -1,0 +1,78 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Anthony Gordon",
+        "firstName": "",
+        "lastName": "",
+        "slug": "gordon-anthony",
+        "shortName": "A. Gordon",
+        "position": "F",
+        "jerseyNumber": "10",
+        "userCount": 24398,
+        "gender": "M",
+        "sofascoreId": "AGordon",
+        "id": 914902,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوردون، أنتوني",
+            "bn": "গর্ডন, অ্যান্টনি",
+            "hi": "गॉर्डन, एंथनी"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. غوردون",
+            "bn": "এ. গর্ডন",
+            "hi": "ए. गॉर्डन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 18.5,
+        "y": 27.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.8,
+        "z": 3.8
+      },
+      "blockCoordinates": {
+        "x": 2.2,
+        "y": 49.3,
+        "z": 0
+      },
+      "xg": 0.052446816116571,
+      "xgot": 0.046004939824343,
+      "id": 5790438,
+      "time": 26,
+      "timeSeconds": 1504,
+      "draw": {
+        "start": {
+          "x": 27.7,
+          "y": 18.5
+        },
+        "block": {
+          "x": 49.3,
+          "y": 2.2
+        },
+        "end": {
+          "x": 52.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.2,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1196,
+      "periodTimeSeconds": 1504,
+      "incidentType": "shot"
+    }
+  ]
+}

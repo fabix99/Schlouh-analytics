@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Brandon Aguilera",
+        "firstName": "",
+        "lastName": "",
+        "slug": "brandon-aguilera",
+        "shortName": "B. Aguilera",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 928,
+        "gender": "M",
+        "id": 1020203,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "براندون أغويليرا",
+            "bn": "ব্র্যান্ডন আগুইলেরা",
+            "hi": "ब्रैंडन एगुइलेरा"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. أغويليرا",
+            "bn": "বি. আগুইলেরা",
+            "hi": "बी. एगुइलेरा"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 26.7,
+        "y": 35.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.8,
+        "z": 7.6
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 49.5,
+        "z": 0
+      },
+      "xg": 0.034589055925608,
+      "xgot": 0.15016743540764,
+      "goalkeeper": {
+        "name": "João Gonçalves",
+        "slug": "joao-goncalves",
+        "shortName": "J. Gonçalves",
+        "position": "G",
+        "userCount": 62,
+        "gender": "M",
+        "id": 987596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جواو غونكالفيس"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. غونكالفيس"
+          }
+        }
+      },
+      "id": 6305922,
+      "time": 42,
+      "timeSeconds": 2519,
+      "draw": {
+        "start": {
+          "x": 35.7,
+          "y": 26.7
+        },
+        "block": {
+          "x": 49.5,
+          "y": 1.2
+        },
+        "end": {
+          "x": 46.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.2,
+          "y": 92.4
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 181,
+      "periodTimeSeconds": 2519,
+      "incidentType": "shot"
+    }
+  ]
+}

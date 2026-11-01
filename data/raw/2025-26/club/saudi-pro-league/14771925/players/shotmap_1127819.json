@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Abdullah Al-Hawsawi",
+        "firstName": "Abdullah Al-Hawsawi",
+        "lastName": "",
+        "slug": "abdullah-al-hawsawi",
+        "shortName": "A. Al-Hawsawi",
+        "position": "D",
+        "jerseyNumber": "24",
+        "userCount": 25,
+        "gender": "M",
+        "id": 1127819,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد الله الحوساوي",
+            "bn": "আবদুল্লাহ আল-হাওসাভি",
+            "hi": "अब्दुल्ला अल-हौसावी"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. الحوساوي",
+            "bn": "এ. আল-হাওসাউই",
+            "hi": "ए. अल-हौसावी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 13.3,
+        "y": 48.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.6,
+        "y": 48.9,
+        "z": 0
+      },
+      "xg": 0.03878428786993,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Marek Rodák",
+        "slug": "marek-rodak",
+        "shortName": "M. Rodák",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 520,
+        "gender": "M",
+        "id": 358694,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماريك روداك",
+            "bn": "মারেক রডাক",
+            "hi": "मारेक रोडाक"
+          },
+          "shortNameTranslation": {
+            "ar": "م. روداك",
+            "bn": "এম. রডাক",
+            "hi": "एम. रोडाक"
+          }
+        }
+      },
+      "id": 6476596,
+      "time": 90,
+      "addedTime": 6,
+      "timeSeconds": 5732,
+      "draw": {
+        "start": {
+          "x": 48.8,
+          "y": 13.3
+        },
+        "block": {
+          "x": 48.9,
+          "y": 10.6
+        },
+        "end": {
+          "x": 49.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 568,
+      "periodTimeSeconds": 332,
+      "incidentType": "shot"
+    }
+  ]
+}

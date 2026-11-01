@@ -1,0 +1,95 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Szymon Włodarczyk",
+        "firstName": "",
+        "lastName": "",
+        "slug": "szymon-wlodarczyk",
+        "shortName": "S. Włodarczyk",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 1131,
+        "gender": "M",
+        "id": 1009285,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيمون فلودارتشيك",
+            "bn": "সাইমন ওয়েলোডার্কজিক",
+            "hi": "शिमोन व्लाडार्क्ज़िक"
+          },
+          "shortNameTranslation": {
+            "ar": "س. فلودارتشيك",
+            "bn": "এস. ওয়েলোডার্কজিক",
+            "hi": "एस. व्लाडार्क्ज़िक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.9,
+        "z": 7
+      },
+      "blockCoordinates": {
+        "x": 0.5,
+        "y": 50.2,
+        "z": 0
+      },
+      "xg": 0.7884,
+      "xgot": 0.63816863298416,
+      "goalkeeper": {
+        "name": "Timo Jansink",
+        "slug": "jansink-timo",
+        "shortName": "T. Jansink",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 41,
+        "gender": "M",
+        "id": 1189737,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يانسينك، تيمو"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. يانسينك"
+          }
+        }
+      },
+      "id": 6133629,
+      "time": 64,
+      "timeSeconds": 3832,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "block": {
+          "x": 50.2,
+          "y": 0.5
+        },
+        "end": {
+          "x": 47.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.1,
+          "y": 93
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1568,
+      "periodTimeSeconds": 1132,
+      "incidentType": "shot"
+    }
+  ]
+}

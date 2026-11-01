@@ -1,0 +1,196 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 11,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 67,
+      "draw": 21,
+      "away": 12
+    },
+    "possibleResultsMatrix": [
+      [
+        0.083132464707445,
+        0.051224404381333,
+        0.015781678153392,
+        0.003241441500984,
+        0.00049932631857229,
+        6.1534788727365e-05
+      ],
+      [
+        0.15662159664363,
+        0.096506798271372,
+        0.029732687931227,
+        0.0061068770798224,
+        0.00094073098321088,
+        0.00011593156648879
+      ],
+      [
+        0.14753757525129,
+        0.090909423204395,
+        0.028008197956619,
+        0.0057526794262274,
+        0.00088616877366217,
+        0.00010920755873635
+      ],
+      [
+        0.092653616859577,
+        0.057091129850538,
+        0.017589152037911,
+        0.0036126834439687,
+        0.00055651410759576,
+        6.8582361395688e-05
+      ],
+      [
+        0.043639862773293,
+        0.026889927848426,
+        0.0082844923625202,
+        0.0017015742620937,
+        0.00026211820013123,
+        3.2302299051231e-05
+      ],
+      [
+        0.016443503771758,
+        0.010132126956836,
+        0.0031215973826016,
+        0.00064115331759904,
+        9.8766158704377e-05,
+        1.2171508857504e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Arsenal (1st, 73 points) host Fulham (10th, 48) at Emirates Stadium. Sofascore model: home win 67%, draw 21%, away win 12%; both teams to score 39%. The hosts bring the league’s best defence into a London matchup that Fulham approach in steady form."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Arsenal are W1-D2-L2 across their last 5, with 2 clean sheets but only 3 goals scored; chance creation is fine yet finishing remains streaky. Fulham are W2-D2-L1 with 3 clean sheets and improved defensive structure, though their attack has been inconsistent away."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "Arsenal won the last 2 meetings (2-1 home, 1-0 away) and led xG in both (2.38 vs 0.99; 1.87 vs 0.44). Bukayo Saka was player of the match in the most recent clash. Fulham have not kept a clean sheet in this fixture in 20 meetings."
+    },
+    {
+      "subtitle": "Season stats snapshot",
+      "text": "Arsenal: 64 scored (rank 2), 26 conceded (best), 16 clean sheets (best), 99 big chances created (rank 3) but 35% conversion and notable underperformance vs expected goals. They win ground duels (52%) and have 14 headed goals (rank 1). Fulham sit mid-table overall (44-46 goal record)."
+    },
+    {
+      "subtitle": "Tactical notes and key players",
+      "text": "Arsenal’s press is strong (possessions won in the final third 4.8 per game, rank 2) and they restrict shots (fewest faced). Declan Rice drives chance creation (62 key passes), while Saka’s dribbling (1.8 successful per game) and Arsenal’s aerial threat are key. For Fulham, Harry Wilson (10G, 6A) supplies, with Raúl Jiménez the focal point despite xG underperformance."
+    },
+    {
+      "subtitle": "Discipline and corners",
+      "text": "Referee Jarred Gillett averages 4.0 yellows and 0.15 reds. Arsenal average 1.32 yellows per game and have a trend of fewer than 4.5 cards in 6/7. Corners point to an above-average total: Arsenal average 6.0, recent head-to-heads produced 9 and 16, and Fulham’s recent away trend often crosses 10.5."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Arsenal’s defensive numbers and head-to-head edge align with the model for a home win. Given Fulham’s recent low-scoring away trend and a 39% both teams to score probability, a home win with limited goals is favoured."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "shortName": "Arsenal",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 3686192,
+      "nameCode": "ARS",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 42,
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ارسنال",
+          "bn": "আর্সেনাল",
+          "hi": "आर्सेनल",
+          "ru": "Арсенал"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "playerToScore": {
+      "name": "Viktor Gyökeres",
+      "firstName": "Viktor",
+      "lastName": "Gyokeres",
+      "slug": "viktor-gyokeres",
+      "shortName": "V. Gyökeres",
+      "position": "F",
+      "jerseyNumber": "14",
+      "userCount": 177464,
+      "gender": "M",
+      "sofascoreId": "h2g-w2c",
+      "id": 804508,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فيكتور غيوكيريس",
+          "bn": "ভিক্টর গোকেরেস",
+          "hi": "विक्टर ग्योकेरेस",
+          "ru": "Виктор Дьёкереш"
+        },
+        "shortNameTranslation": {
+          "ar": "ف. غيوكيريس",
+          "bn": "ভি. গোকেরেস",
+          "hi": "वी. ग्योकेरेस",
+          "ru": "В. Дьёкереш"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 4,
+    "awayNormaltimeScore": 0
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Arsenal lead 3-0 at the break at Emirates Stadium after a dominant half against Fulham. The hosts controlled territory and tempo, turning sustained pressure into goals and giving themselves a large margin to manage the second half."
+    },
+    {
+      "subtitle": "First-half summary",
+      "text": "Arsenal dictated play (63% possession) and produced consistent end product (6 shots on target, expected goals 2.24). They created 3 big chances and entered the penalty area 13 times. Fulham struggled to progress (0 shots on target, expected goals 0.04), with only 6 penalty area entries and 1 possession won in the final third. Despite winning more aerials (60%), Fulham did not turn that into threat. Overall duels tilted Arsenal’s way (53%). Corners were 2-1 to Arsenal."
+    },
+    {
+      "subtitle": "Key player impact",
+      "text": "Viktor Gyökeres was decisive with 2 goals and 1 assist, occupying centre-backs and attacking the box early and late in the half. Bukayo Saka affected multiple phases, scoring once and creating 4 key passes. Leandro Trossard linked play and supplied an assist. William Saliba stepped in with a key chance created, and Declan Rice disrupted counters with timely interceptions. For Fulham, Joachim Andersen’s clearances and Antonee Robinson’s tackles limited further damage, while Bernd Leno prevented the scoreline from being heavier."
+    },
+    {
+      "subtitle": "Tactical patterns",
+      "text": "Arsenal’s press was aggressive and well-timed (6 high regains), pinning Fulham in and forcing rushed first passes. The right flank combination repeatedly found space between full-back and centre-back, while rotations in the half-spaces created cut-backs and second balls. Fulham’s build-up was often forced wide, and although they edged aerials, the lack of sustained entries and runners into the box reduced crossing value. If Fulham push a higher line after the interval, Arsenal’s forwards will find space in behind on transitions."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Arsenal established immediate initiative and sustained it through most of the half. Fulham briefly enjoyed a modest attacking spell around the 30–38 minute window, but Arsenal reasserted control and finished the half strongly with renewed pressure before the interval."
+    },
+    {
+      "subtitle": "Likely adjustments",
+      "text": "Arsenal can manage risk with controlled possession and selective pressing, protecting central spaces and looking for counters if Fulham commit numbers forward. Expect game management substitutions to maintain intensity without sacrificing structure. Fulham need earlier progression into midfield, quicker wide combinations, and more runners beyond the last line to convert aerial strength into actual box pressure."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "First half: 1 yellow card to Fulham, none to Arsenal; corners 2-1 Arsenal; no reds. Projection for second half: total cards likely 2-4 overall, with Fulham more at risk of 1-2 additional cautions and Arsenal 0-1. Corners projection by full time: Arsenal 5-7, Fulham 2-4; Arsenal should continue to generate short, quick restarts from sustained territory."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Arsenal are well in control and should manage the game while still creating chances, especially in transition if Fulham open up. Next goal probability leans strongly to Arsenal given first-half chance quality and territorial dominance. Predicted final score: Arsenal 4-0."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

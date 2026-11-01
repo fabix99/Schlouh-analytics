@@ -1,0 +1,195 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 12,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 67,
+      "draw": 19,
+      "away": 14
+    },
+    "possibleResultsMatrix": [
+      [
+        0.050048204070254,
+        0.042442692859433,
+        0.017996471707871,
+        0.0050872203138295,
+        0.0010785368491197,
+        0.00018292767572843
+      ],
+      [
+        0.10864522637472,
+        0.092135093742681,
+        0.039066951131817,
+        0.011043397318278,
+        0.002341300398344,
+        0.00039710153658697
+      ],
+      [
+        0.11792416364675,
+        0.10000396920015,
+        0.042403497071825,
+        0.011986567988594,
+        0.002541261135287,
+        0.00043101632853477
+      ],
+      [
+        0.085330384259583,
+        0.072363261739084,
+        0.030683335689603,
+        0.0086735272974606,
+        0.0018388664585111,
+        0.00031188509461215
+      ],
+      [
+        0.046309048879708,
+        0.03927175359689,
+        0.016651935937845,
+        0.0047071486090545,
+        0.00099795820034503,
+        0.00016926095219857
+      ],
+      [
+        0.020105644916533,
+        0.017050316345725,
+        0.0072296434333784,
+        0.0020436666438311,
+        0.0004332758651511,
+        7.3486730681482e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Manchester City welcome Brentford to the Etihad Stadium with City chasing the top spot (2nd, 71 points) and Brentford secure in mid-table (8th, 51). Sofascore’s model makes the hosts strong favourites and City’s home metrics this season remain elite."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "City are unbeaten in 5 (W4 D1), creating sustained pressure: 26 shots vs Southampton and 28 at Burnley, plus 9+ corners in 4 of those 5. Brentford have tightened up (W1 D3 L1), with 2 clean sheets and a 3-0 win over West Ham, though they missed big chances vs Fulham and Everton."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "City won the last 2 meetings without conceding (1-0 away, 2-0 home), limiting Brentford’s expected goals to 0.18 in the most recent clash. Trend lines favour City: unbeaten in 6 in this fixture, first to score in 4 of the last 5, and Brentford without a clean sheet in the last 6."
+    },
+    {
+      "subtitle": "Season stats snapshot",
+      "text": "City lead the league for goals (69) and average possession (60.6%), with 108 big chances created and 14 clean sheets. Brentford have been competitive (52 scored, 46 conceded) and strike late frequently (18 goals after 76'). Erling Haaland tops City’s scoring (25), while Igor Thiago leads Brentford (22)."
+    },
+    {
+      "subtitle": "Tactical notes and key players",
+      "text": "City’s width and 1v1s are a lever: Jérémy Doku averages 2.8 successful dribbles per game (league best), Rayan Cherki has 11 assists and 18 big chances created, and Haaland punishes deliveries. Phil Foden has hurt this opponent (5 goals across recent meetings). Absences for Rodri and Joško Gvardiol are notable, but City’s aerial dominance (57.9% won) helps against Brentford’s direct play and set pieces, where Mathias Jensen’s delivery and Thiago’s penalty-box presence are threats."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee Michael Salisbury averages 3.3 yellow cards and 0.20 reds per match. City average 6.2 corners per game (league best) and have seen totals above 10.5 in 5 straight home matches; Brentford’s recent trend points to fewer than 4.5 cards in 4 of their last 5 away. Expect a moderate card count and a high corner total."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "City’s ball progression and chance volume, plus dominant recent head-to-heads, point to a home win. The model estimates: home 67%, draw 19%, away 14%, and a balanced 50% chance for both teams to score. Brentford’s late-goal profile keeps them live, but City remain the most likely winners."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "shortName": "Man City",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 4156055,
+      "nameCode": "MCI",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 17,
+      "teamColors": {
+        "primary": "#66ccff",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مانشستر سيتي",
+          "hi": "मेनचेस्टर सिटी ऍफ़सी",
+          "ru": "Манчестер Сити"
+        },
+        "shortNameTranslation": {
+          "ar": "مانشستر سيتي",
+          "bn": "ম্যান সিটি",
+          "hi": "मैन सिटी"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Erling Haaland",
+      "firstName": "Erling",
+      "lastName": "Haaland",
+      "slug": "erling-haaland",
+      "shortName": "E. Haaland",
+      "position": "F",
+      "jerseyNumber": "9",
+      "userCount": 1086522,
+      "gender": "M",
+      "sofascoreId": "ghm-8ni",
+      "id": 839956,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إيرلينغ هالاند",
+          "bn": "এরলিং হালান্ড",
+          "hi": "एर्लिंग हालैंड",
+          "ru": "Эрлинг Холанд"
+        },
+        "shortNameTranslation": {
+          "ar": "إ. هالاند",
+          "bn": "ই. হালান্ড",
+          "hi": "ई. हालैंड",
+          "ru": "Э. Холанд"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 0
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Half-time at the Etihad Stadium and it is 0-0. Manchester City have controlled the match with territorial dominance and chance volume, while Brentford have defended deep and looked for transitions. The numbers are one-sided: City 69% possession, 4 shots on target, 3 big chances (all missed), expected goals 1.07; Brentford 31% possession, 0 shots on target, 0 corners, expected goals 0.01. Penalty area entries read 17-8 to City."
+    },
+    {
+      "subtitle": "First-half summary",
+      "text": "City’s structure has pinned Brentford back, with frequent entries through the half-spaces and consistent wide overloads. The home side created 3 clear openings but lacked composure in the box. Brentford have won more duels (53%) and made a high volume of defensive actions in and around their box, but they have offered very little threat in advanced areas."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "The opening minutes saw a brief Brentford spell before City took control. From around 20 minutes to the interval, City sustained long periods of pressure, including a pronounced surge around the half-hour mark. Brentford had only short counters and a small late flurry before the break, but otherwise City dictated territory and tempo."
+    },
+    {
+      "subtitle": "Key player notes",
+      "text": "Jérémy Doku has been the main source of incision on the left, delivering 4 key passes and creating 1 big chance. Erling Haaland recorded 2 shots on target but missed 2 big chances, suggesting the positions are right even if the finishing was off. Nathan Aké also forced a good save from close range. For Brentford, Mathias Jensen (5 clearances) and Kristoffer Ajer (3 clearances) have been busy, while Mikkel Damsgaard’s work rate (3 tackles won, 3 interceptions) has supported the block. Caoimhin Kelleher has dealt well with City’s efforts on target."
+    },
+    {
+      "subtitle": "Tactical outlook for second half",
+      "text": "City are likely to maintain pressure, with scope to speed up combinations around the box and vary deliveries early towards Haaland. Rotations between Bernardo Silva and the left winger can open the inside channel for cut-backs, where City have already found space. Brentford’s route back in is via quick counters after first contact and set plays. They may need to push 1 wide player higher in transition to give Igor Thiago support and draw fouls in crossing zones. If Brentford commit more bodies forward late on, City should find extra space to attack behind the full-backs."
+    },
+    {
+      "subtitle": "Discipline, corners and referee",
+      "text": "Cards at the break: Manchester City 1 yellow, Brentford 0. Corners: Manchester City 6, Brentford 0. Aerial duels are even, which keeps set pieces relevant for Brentford. Referee details are not specified in the available data. Second-half expectation: 1-3 additional yellow cards overall, no red card expected. Corners should continue to favour City, with a likely match total in the 10-13 range, given the pressure pattern and Brentford’s deep block."
+    },
+    {
+      "subtitle": "Second-half outlook and match prediction",
+      "text": "City’s chance quality and volume point towards a breakthrough after the interval. Brentford’s defensive work-rate is high, but their lack of threat so far suggests limited margin if they fall behind. Prediction: Manchester City to edge ahead early in the second half and see it out with a second goal late on."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

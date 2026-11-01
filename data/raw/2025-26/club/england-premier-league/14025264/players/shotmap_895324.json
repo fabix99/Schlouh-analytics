@@ -1,0 +1,101 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Alexis Mac Allister",
+        "slug": "alexis-mac-allister",
+        "shortName": "A. Mac Allister",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 70932,
+        "gender": "M",
+        "sofascoreId": "Macca10",
+        "id": 895324,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليكسيس ماك أليستر",
+            "bn": "অ্যালেক্সিস ম্যাক অ্যালিস্টার",
+            "hi": "एलेक्सिस मैक एलिस्टर"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. ماك أليستر",
+            "bn": "এ. ম্যাক অ্যালিস্টার",
+            "hi": "ए. मैक एलिस्टर"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 29.1,
+        "y": 44.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.8,
+        "z": 11.1
+      },
+      "blockCoordinates": {
+        "x": 18.4,
+        "y": 46.7,
+        "z": 0
+      },
+      "xg": 0.020816635340452,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lucas Perri",
+        "firstName": "",
+        "lastName": "",
+        "slug": "lucas-perri",
+        "shortName": "L. Perri",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3487,
+        "gender": "M",
+        "id": 871290,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس بيري",
+            "bn": "লুকাস পেরি",
+            "hi": "लुकास पेरी"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. بيري",
+            "bn": "এল. পেরি",
+            "hi": "एल. पेरी"
+          }
+        }
+      },
+      "id": 6441917,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5567,
+      "draw": {
+        "start": {
+          "x": 44.6,
+          "y": 29.1
+        },
+        "block": {
+          "x": 46.7,
+          "y": 18.4
+        },
+        "end": {
+          "x": 48.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.2,
+          "y": 88.9
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 733,
+      "periodTimeSeconds": 167,
+      "incidentType": "shot"
+    }
+  ]
+}

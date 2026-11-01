@@ -1,0 +1,97 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Marcus Pedersen",
+        "slug": "marcus-pedersen",
+        "shortName": "M. Pedersen",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 649,
+        "gender": "M",
+        "id": 934409,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركوس بيدرسن",
+            "bn": "মার্কাস পেডারসেন",
+            "hi": "मार्कस पेडरसन"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بيدرسن",
+            "bn": "এম. পেডারসেন",
+            "hi": "एम. पेडरसन"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 4.9,
+        "y": 30,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 4.4,
+        "y": 32.5,
+        "z": 0
+      },
+      "xg": 0.028671015053988,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Emil Audero",
+        "slug": "emil-audero",
+        "shortName": "E. Audero",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 10826,
+        "gender": "M",
+        "id": 318603,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إميل أوديرو",
+            "bn": "এমিল অডেরো",
+            "hi": "एमिल औडेरो"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. أوديرو",
+            "bn": "ই. অডেরো",
+            "hi": "ई. औडेरो"
+          }
+        }
+      },
+      "id": 6340931,
+      "time": 78,
+      "timeSeconds": 4664,
+      "draw": {
+        "start": {
+          "x": 30,
+          "y": 4.9
+        },
+        "block": {
+          "x": 32.5,
+          "y": 4.4
+        },
+        "end": {
+          "x": 52.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 736,
+      "periodTimeSeconds": 1964,
+      "incidentType": "shot"
+    }
+  ]
+}

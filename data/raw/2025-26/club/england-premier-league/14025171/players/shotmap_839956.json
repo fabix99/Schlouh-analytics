@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Erling Haaland",
+        "slug": "erling-haaland",
+        "shortName": "E. Haaland",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 856522,
+        "gender": "M",
+        "sofascoreId": "EHaaland",
+        "id": 839956,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيرلينغ هالاند",
+            "bn": "এরলিং হালান্ড",
+            "hi": "एर्लिंग हालैंड"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. هالاند",
+            "bn": "ই. হালান্ড",
+            "hi": "ई. हालैंड"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 4.6,
+        "y": 48.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 0.3,
+        "y": 49.5,
+        "z": 0
+      },
+      "xg": 0.42936530709267,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Robin Roefs",
+        "slug": "robin-roefs",
+        "shortName": "R. Roefs",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 2211,
+        "gender": "M",
+        "id": 1012928,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن روفس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. روفس"
+          }
+        }
+      },
+      "id": 6304606,
+      "time": 59,
+      "timeSeconds": 3488,
+      "draw": {
+        "start": {
+          "x": 48.3,
+          "y": 4.6
+        },
+        "block": {
+          "x": 49.5,
+          "y": 0.3
+        },
+        "end": {
+          "x": 49.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1912,
+      "periodTimeSeconds": 788,
+      "incidentType": "shot"
+    }
+  ]
+}

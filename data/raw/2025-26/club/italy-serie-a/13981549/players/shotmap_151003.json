@@ -1,0 +1,91 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Berat Djimsiti",
+        "slug": "berat-djimsiti",
+        "shortName": "B. Djimsiti",
+        "position": "D",
+        "jerseyNumber": "19",
+        "userCount": 2171,
+        "gender": "M",
+        "id": 151003,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيرات ديمسيتي",
+            "bn": "বেরাত জিমসিটি",
+            "hi": "बेरात जिम्सिति"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. ديمسيتي",
+            "bn": "বি. জিমসিটি",
+            "hi": "बी. जिम्सिति"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 8.3,
+        "y": 43.7,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.9,
+        "z": 58.3
+      },
+      "xg": 0.059259314090014,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "David De Gea",
+        "firstName": "",
+        "lastName": "",
+        "slug": "david-de-gea",
+        "shortName": "D. De Gea",
+        "position": "G",
+        "jerseyNumber": "43",
+        "userCount": 23341,
+        "gender": "M",
+        "sofascoreId": "d_degea",
+        "id": 69378,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد دي خيا",
+            "bn": "ডেভিড ডে হায়া",
+            "hi": "डेविड डी गेआ"
+          },
+          "shortNameTranslation": {
+            "ar": "د. دي خيا",
+            "bn": "ডি. ডে হায়া",
+            "hi": "डी. डी गेआ"
+          }
+        }
+      },
+      "id": 6274611,
+      "time": 38,
+      "timeSeconds": 2262,
+      "draw": {
+        "start": {
+          "x": 43.7,
+          "y": 8.3
+        },
+        "end": {
+          "x": 50.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.1,
+          "y": 41.7
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 438,
+      "periodTimeSeconds": 2262,
+      "incidentType": "shot"
+    }
+  ]
+}

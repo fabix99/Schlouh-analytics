@@ -1,0 +1,85 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Eric Smith",
+        "slug": "eric-smith",
+        "shortName": "E. Smith",
+        "position": "D",
+        "jerseyNumber": "8",
+        "userCount": 423,
+        "gender": "M",
+        "id": 542038,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إريك سميث"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. سميث"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.8,
+        "y": 60.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.2,
+        "z": 1.3
+      },
+      "xg": 0.065458074212074,
+      "xgot": 0.64227813482285,
+      "goalkeeper": {
+        "name": "Kamil Grabara",
+        "slug": "grabara-kamil",
+        "shortName": "K. Grabara",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 3167,
+        "gender": "M",
+        "id": 902080,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غابارا، كامل",
+            "bn": "গ্রাবারা, কামিল",
+            "hi": "ग्राबारा, कामिल"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. غرابارا",
+            "bn": "কে. গ্রাবারা",
+            "hi": "के. ग्राबारा"
+          }
+        }
+      },
+      "id": 6517178,
+      "time": 40,
+      "timeSeconds": 2350,
+      "draw": {
+        "start": {
+          "x": 60.5,
+          "y": 12.8
+        },
+        "end": {
+          "x": 46.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.8,
+          "y": 98.7
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 350,
+      "periodTimeSeconds": 2350,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Virgil van Dijk",
+        "slug": "virgil-van-dijk",
+        "shortName": "V. van Dijk",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 96682,
+        "gender": "M",
+        "sofascoreId": "VvD",
+        "id": 151545,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيرجيل فان دايك",
+            "bn": "ভার্জিল ভ্যান ডাইক",
+            "hi": "वर्जिल वान डिक"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فان دايك",
+            "bn": "ভি. ভ্যান ডাইক",
+            "hi": "वी. वान डिक"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 7.1,
+        "y": 48.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 3.7,
+        "y": 50,
+        "z": 0
+      },
+      "xg": 0.09691459685564,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Robin Roefs",
+        "slug": "robin-roefs",
+        "shortName": "R. Roefs",
+        "position": "G",
+        "jerseyNumber": "22",
+        "userCount": 2211,
+        "gender": "M",
+        "id": 1012928,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن روفس"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. روفس"
+          }
+        }
+      },
+      "id": 6293332,
+      "time": 90,
+      "timeSeconds": 5381,
+      "draw": {
+        "start": {
+          "x": 48.5,
+          "y": 7.1
+        },
+        "block": {
+          "x": 50,
+          "y": 3.7
+        },
+        "end": {
+          "x": 51.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 19,
+      "periodTimeSeconds": 2681,
+      "incidentType": "shot"
+    }
+  ]
+}

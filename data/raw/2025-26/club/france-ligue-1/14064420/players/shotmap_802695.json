@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ben Chilwell",
+        "slug": "ben-chilwell",
+        "shortName": "B. Chilwell",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 10665,
+        "gender": "M",
+        "sofascoreId": "Chilly",
+        "id": 802695,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بن تشيلويل",
+            "bn": "বেন চিলওয়েল",
+            "hi": "बेन चिलवेल"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. تشيلويل",
+            "bn": "বি. চিলওয়েল",
+            "hi": "बी. चिलवेल"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.8,
+        "y": 27.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.2,
+        "z": 15.2
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 47.7,
+        "z": 0
+      },
+      "xg": 0.035719554871321,
+      "xgot": 0.22984699904919,
+      "goalkeeper": {
+        "name": "Grégoire Coudert",
+        "firstName": "",
+        "lastName": "",
+        "slug": "gregoire-coudert",
+        "shortName": "G. Coudert",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 123,
+        "gender": "M",
+        "id": 891508,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جريجوار كوديرت",
+            "bn": "গ্রেগোয়ার কুডার্ট",
+            "hi": "ग्रेगोइरे कूडर्ट"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. كوديرت",
+            "bn": "জি. কুডার্ট",
+            "hi": "जी. कूडर्ट"
+          }
+        }
+      },
+      "id": 6272980,
+      "time": 39,
+      "timeSeconds": 2332,
+      "draw": {
+        "start": {
+          "x": 27.2,
+          "y": 11.8
+        },
+        "block": {
+          "x": 47.7,
+          "y": 1.1
+        },
+        "end": {
+          "x": 45.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.8,
+          "y": 84.8
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 368,
+      "periodTimeSeconds": 2332,
+      "incidentType": "shot"
+    }
+  ]
+}

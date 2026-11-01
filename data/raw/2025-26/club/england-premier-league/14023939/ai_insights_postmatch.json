@@ -1,0 +1,193 @@
+{
+  "predictions": {
+    "yellowCards": 5,
+    "corners": 12,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 46,
+      "draw": 24,
+      "away": 30
+    },
+    "possibleResultsMatrix": [
+      [
+        0.043637591327887,
+        0.060492009987313,
+        0.041928107864729,
+        0.019374087360022,
+        0.0067142654441641,
+        0.001861511600189
+      ],
+      [
+        0.076716018496711,
+        0.10634652408334,
+        0.073710702185963,
+        0.034060148579249,
+        0.01180385297016,
+        0.0032725857226836
+      ],
+      [
+        0.067434376129585,
+        0.093479975181678,
+        0.064792664079629,
+        0.029939312744979,
+        0.010375739989716,
+        0.0028766453325418
+      ],
+      [
+        0.039517128000947,
+        0.054780074448692,
+        0.03796906187783,
+        0.017544696368662,
+        0.0060802734274614,
+        0.0016857390598667
+      ],
+      [
+        0.017368034247574,
+        0.024076198277535,
+        0.016687649138536,
+        0.0077110079302046,
+        0.00267231963619,
+        0.00074089325832424
+      ],
+      [
+        0.0061066910250701,
+        0.0084653163301867,
+        0.0058674640878284,
+        0.0027112304277153,
+        0.0009396014601203,
+        0.00026050191671953
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Old Trafford hosts a top‑four clash: Manchester United (3rd, 61 points) face Liverpool FC (4th, 58). The Sofascore model makes United narrow favourites and signals a strong chance that both teams score. Recent trends point to an open game between two sides who finish strongly late on."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "United are 3‑1‑1 across their last 5, with improved game management in wins over Aston Villa and Brentford but a below‑xG away win at Chelsea. Liverpool are 3‑0‑2, with domestic wins over Fulham, Everton and Crystal Palace, but Champions League defeats to Paris Saint‑Germain. The away side have not kept a clean sheet in 3 straight."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "Across the last 2 meetings, United took 4 points despite Liverpool leading on expected goals in both. Recent head‑to‑heads lean goal‑heavy and both teams scoring (over 2.5 in 5/5, both scoring in 4/5). Set‑piece moments and transitions have often decided the margin."
+    },
+    {
+      "subtitle": "Tactical notes and key players",
+      "text": "United’s supply runs through Bruno Fernandes (19 assists, 115 key passes; both league‑leading), with Casemiro adding late runs and set‑piece threat. Liverpool’s structure leans on Virgil van Dijk’s duels and Dominik Szoboszlai’s chance creation (61 key passes, league rank 3). United miss defensive pieces (Lisandro Martínez, Luke Shaw), while Liverpool are without Mohamed Salah, shifting goal burden to Cody Gakpo and Florian Wirtz."
+    },
+    {
+      "subtitle": "Season stats snapshot",
+      "text": "United: 60 goals (league rank 3), 46 conceded, 52.5% possession, 95 big chances created but 60 missed, only 6 clean sheets; strong aerial threat (13 headers scored). Goal timing: United 76’‑90’ (30%), Liverpool 76’‑90’ (34%) — both are late‑game scorers. United’s ground‑duel win rate is high, but chance conversion remains average."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee Darren England averages 3.7 yellows per game. United games skew higher on cards recently, while Liverpool’s trend is lower; expect a moderate total. Corners profile is strong in this fixture (more than 10.5 in 5/6 head‑to‑heads) and United average 4.7 per game, so a high corner count is likely."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "With home advantage, United’s form and chance creation slightly outweigh Liverpool’s injuries, but the visitors still carry threat. The model edge to United and the teams’ profiles suggest both will score, with a narrow home win the most probable outcome."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Manchester United",
+      "slug": "manchester-united",
+      "shortName": "Man Utd",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 3767319,
+      "nameCode": "MUN",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 35,
+      "teamColors": {
+        "primary": "#ff0000",
+        "secondary": "#373737",
+        "text": "#373737"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مانشستر يونايتد",
+          "hi": "मेनचेस्टर यूनाइटेड ऍफ़सी",
+          "ru": "Манчестер Юнайтед"
+        },
+        "shortNameTranslation": {
+          "ar": "مانشستر يونايتد",
+          "bn": "ম্যান ইউনাইটেড",
+          "hi": "मैन यूनाइटेड"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Benjamin Šeško",
+      "slug": "benjamin-sesko",
+      "shortName": "B. Šeško",
+      "position": "F",
+      "jerseyNumber": "30",
+      "userCount": 88366,
+      "gender": "M",
+      "sofascoreId": "kmv-sbt",
+      "id": 986397,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بنجامين سيسكو",
+          "bn": "বেঞ্জামিন শেস্কো",
+          "hi": "बेंजामिन सेस्को",
+          "ru": "Бенжамин Шешко"
+        },
+        "shortNameTranslation": {
+          "ar": "ب. سيسكو",
+          "bn": "বি. শেস্কো",
+          "hi": "बी. सेस्को",
+          "ru": "Б. Шешко"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 3,
+    "awayNormaltimeScore": 1
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Manchester United lead 2-0 at Old Trafford at half-time. They have been more clinical and direct despite having less of the ball, while Liverpool have controlled possession without turning it into clear chances."
+    },
+    {
+      "subtitle": "First-half summary",
+      "text": "United struck early through Matheus Cunha (6') and extended the lead via Benjamin Šeško (14'). United’s chance quality was stronger (expected goals 1.14 vs 0.15), and they created 2 big chances, missing 1. Liverpool had more of the ball and territory but fashioned only 1 shot on target and 0 big chances."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "United opened with a strong attacking spell that produced the first goal, then Liverpool enjoyed a prolonged period of pressure through the middle of the half without carving out clear openings. United regained control before the break with another sustained spell in the final minutes."
+    },
+    {
+      "subtitle": "Key stats at half-time",
+      "text": "Possession: United 38%, Liverpool 62%. Shots on target: 3-1. Big chances: 2-0 to United. Penalty area entries: United 13, Liverpool 8. Final third entries: United 20, Liverpool 34. Duels won: United 51%, Liverpool 49%. Aerial duels: United 44%, Liverpool 56%. Corners: United 2, Liverpool 0."
+    },
+    {
+      "subtitle": "Tactical outlook for the second half",
+      "text": "United are likely to defend a little deeper and play through transitions, using Bruno Fernandes to release Benjamin Šeško and Matheus Cunha into space. Targeting the space behind Andy Robertson and isolating centre-backs in foot races should remain a priority. Luke Shaw’s reading of danger and Harry Maguire’s positioning have been effective, and United will look to keep central distances compact around Casemiro and Kobbie Mainoo.\nLiverpool need more penetrations into the box and faster circulation around the edge. Quicker combinations between Dominik Szoboszlai and Florian Wirtz in the half-spaces, earlier crosses from Andy Robertson, and Cody Gakpo attacking the near post can raise chance quality. Alexis Mac Allister may need to speed up switches to Jeremie Frimpong to stretch United’s block. Set pieces remain a route back with Virgil van Dijk and Ibrahima Konaté."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "There were no first-half cards and United led corners 2-0. With Liverpool chasing, expect more Liverpool corners after the break and an increase in fouls. A moderate card count is likely in the second half, with 1-2 cautions possible for each side if the tempo and duels intensify."
+    },
+    {
+      "subtitle": "Second-half prediction",
+      "text": "Liverpool should raise their shot volume and expected goals with more aggressive positioning, but United’s transition threat remains significant. The next goal is likely to come for United if they continue to find Šeško early. Expect Liverpool to create better looks than in the first half, but United to manage the game and add one more on the break. Predicted full-time: Manchester United 3-1 Liverpool. Most likely next scorer: Benjamin Šeško."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

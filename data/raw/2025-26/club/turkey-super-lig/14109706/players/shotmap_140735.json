@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Zeki Yavru",
+        "slug": "zeki-yavru",
+        "shortName": "Z. Yavru",
+        "position": "D",
+        "jerseyNumber": "18",
+        "userCount": 207,
+        "gender": "M",
+        "id": 140735,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيكي يافرو"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. يافرو"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 25.3,
+        "y": 42.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.9,
+        "z": 13.9
+      },
+      "blockCoordinates": {
+        "x": 2.8,
+        "y": 49.1,
+        "z": 0
+      },
+      "xg": 0.010871083475649,
+      "xgot": 0.048824418336153,
+      "goalkeeper": {
+        "name": "Marcos Felipe",
+        "slug": "marcos-felipe",
+        "shortName": "M. Felipe",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1124,
+        "gender": "M",
+        "id": 358524,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركوس فيليبي"
+          },
+          "shortNameTranslation": {
+            "ar": "م. فيليبي"
+          }
+        }
+      },
+      "id": 6146726,
+      "time": 10,
+      "timeSeconds": 546,
+      "draw": {
+        "start": {
+          "x": 42.3,
+          "y": 25.3
+        },
+        "block": {
+          "x": 49.1,
+          "y": 2.8
+        },
+        "end": {
+          "x": 47.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.1,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2154,
+      "periodTimeSeconds": 546,
+      "incidentType": "shot"
+    }
+  ]
+}

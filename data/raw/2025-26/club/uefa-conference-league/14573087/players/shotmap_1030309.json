@@ -1,0 +1,89 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Abubakar Ghali",
+        "slug": "abubakar-ghali",
+        "shortName": "A. Ghali",
+        "position": "M",
+        "jerseyNumber": "70",
+        "userCount": 67,
+        "gender": "M",
+        "id": 1030309,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أبو بكر غالي"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. غالي"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 19.1,
+        "y": 63.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.1,
+        "y": 56.9,
+        "z": 0
+      },
+      "xg": 0.059727780520916,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bartosz Mrozek",
+        "slug": "bartosz-mrozek",
+        "shortName": "B. Mrozek",
+        "position": "G",
+        "jerseyNumber": "41",
+        "userCount": 724,
+        "gender": "M",
+        "id": 886909,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارتوش مروزك"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. مروزك"
+          }
+        }
+      },
+      "id": 6375521,
+      "time": 29,
+      "timeSeconds": 1686,
+      "draw": {
+        "start": {
+          "x": 63.6,
+          "y": 19.1
+        },
+        "block": {
+          "x": 56.9,
+          "y": 10.1
+        },
+        "end": {
+          "x": 49.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 1014,
+      "periodTimeSeconds": 1686,
+      "incidentType": "shot"
+    }
+  ]
+}

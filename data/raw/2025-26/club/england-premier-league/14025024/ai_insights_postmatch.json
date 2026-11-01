@@ -1,0 +1,196 @@
+{
+  "predictions": {
+    "yellowCards": 5,
+    "corners": 10,
+    "bothTeamsToScore": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 65,
+      "draw": 19,
+      "away": 16
+    },
+    "possibleResultsMatrix": [
+      [
+        0.039680216954624,
+        0.039905966103297,
+        0.020066499793317,
+        0.0067268874519148,
+        0.0016912895344284,
+        0.00034018232767699
+      ],
+      [
+        0.089262576100282,
+        0.089770409779369,
+        0.045140566315845,
+        0.015132460182394,
+        0.0038046379874173,
+        0.0007652566755611
+      ],
+      [
+        0.10040025110208,
+        0.10097144937045,
+        0.050772948653301,
+        0.017020602233098,
+        0.0042793590099851,
+        0.00086074103773974
+      ],
+      [
+        0.075285081100032,
+        0.075713393853099,
+        0.038072071684015,
+        0.012762890584679,
+        0.0032088753423068,
+        0.00064542626259445
+      ],
+      [
+        0.042339362008733,
+        0.042580239596166,
+        0.021411243793576,
+        0.0071776856297011,
+        0.0018046302504251,
+        0.00036297943473848
+      ],
+      [
+        0.01904889042146,
+        0.019157263588893,
+        0.0096331266571015,
+        0.0032293105175194,
+        0.00081192068705496,
+        0.00016330797512137
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Manchester United host Leeds United at Old Trafford with a top-4 push against a side looking to stay clear of the bottom. United sit 3rd (55 points), Leeds are 15th (33). The Sofascore model favours the hosts (home win 65%, draw 19%, away 16%) and indicates a moderate chance that both teams score (57%)."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "United have improved results across their last 5 (3-1-1), but they are without a clean sheet in 4 and both teams have scored in 4 of those. Leeds are unbeaten in 4 (1-3-0) with 3 clean sheets in that run before a 2-2 at West Ham where both sides posted high expected goals."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "The last 2 meetings ended 1-1 and 0-0, continuing a recent low-scoring trend. United are unbeaten in their last 11 against Leeds. Recent head-to-head data show fewer goals and fewer corners than average."
+    },
+    {
+      "subtitle": "Season and style notes",
+      "text": "United’s attack ranks highly (56 goals, 3rd; 89 big chances, 5th) but conversion is middling (35%) and clean sheets are few (5). They excel in ground duels and tackles, and set-pieces remain a threat (11 headed goals, 2nd). Leeds’ goal timing skews late, with a strong share from 76–90 minutes."
+    },
+    {
+      "subtitle": "Key players",
+      "text": "Bruno Fernandes leads United’s chance creation (16 assists, 101 key passes) and has produced well vs Leeds recently. For Leeds, Ethan Ampadu anchors midfield, while Noah Okafor’s recent output and Dominic Calvert-Lewin’s penalty-box presence carry their threat. Leeds’ goalkeeper Lucas Perri arrives in strong form."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee Paul Tierney averages 3.2 yellows per game, with low reds (0.11). United’s recent home matches trend to higher card counts, while head-to-head data point to fewer cards and fewer than 11 corners. Expect around 5 yellow cards and roughly 10 corners overall."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "United to edge it at home, in line with the model’s 65% home-win probability. Leeds’ recent resilience suggests they can create, so United to win with Leeds likely to score."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Leeds United",
+      "slug": "leeds-united",
+      "shortName": "Leeds",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 250376,
+      "nameCode": "LEE",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 34,
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#1d4189",
+        "text": "#1d4189"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ليدز يونايتد",
+          "bn": "লিডস",
+          "hi": "लीड्स यूनाइटेड",
+          "ru": "Лидс Юнайтед"
+        },
+        "shortNameTranslation": {
+          "ar": "ليدز",
+          "hi": "लीड्स",
+          "ru": "Лидс"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Dominic Calvert-Lewin",
+      "firstName": "Dominic",
+      "lastName": "Calvert-Lewin",
+      "slug": "dominic-calvert-lewin",
+      "shortName": "D. Calvert-Lewin",
+      "position": "F",
+      "jerseyNumber": "9",
+      "userCount": 7448,
+      "gender": "M",
+      "sofascoreId": "5hi-gqz",
+      "id": 372344,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دومينيك كالفيرت-لوين",
+          "bn": "ডমিনিক কালভার্ট-লেউইন",
+          "hi": "डोमिनिक कैल्वर्ट-लेविन",
+          "ru": "Доминик Кальверт-Льюин"
+        },
+        "shortNameTranslation": {
+          "ar": "د. كالفيرت-لوين",
+          "bn": "ডি. কালভার্ট-লেউইন",
+          "hi": "डी. कैल्वर्ट-लेविन",
+          "ru": "Д. Кальверт-Льюин"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": true,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 3
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Half-time at Old Trafford: Manchester United trail Leeds United 0-2 after a fast away start and a clinical brace from Noah Okafor (5', 29'). United have had more of the ball and territory but Leeds have produced the better chances and punished defensive gaps."
+    },
+    {
+      "subtitle": "First-half summary",
+      "text": "Possession: United 55% vs Leeds 45%. Shots on target: 2 vs 5. Expected goals: 0.19 vs 2.03. Big chances: United 0, Leeds 3 (all missed, despite 2 goals scored from other openings). Corners: 4 vs 2. Aerial duels won: 65% vs 35%. Duels won: 59% vs 41%. Final third entries: 27 vs 22; penalty area entries: 19 vs 16. United controlled phases and set-piece volume, but Leeds created far higher-quality opportunities and were more direct."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Leeds dominated the opening phase, turning early pressure into the opener. United then built a sustained spell from around the 12th minute, without clear-cut chances. Leeds regained the upper hand before the half-hour and scored again during that spell. The final 10 minutes before the break saw United apply consistent pressure with repeated waves of attacks, before a brief Leeds response in stoppage time."
+    },
+    {
+      "subtitle": "Key player notes",
+      "text": "Leeds: Noah Okafor finished twice from limited looks and remains a major transition threat. Dominic Calvert-Lewin generated the highest individual expected goals (1.03) and missed 2 big chances, suggesting further goalscoring potential if similar service arrives. Ao Tanaka provided 3 key passes and arrived late into the box. Jayden Bogle and Gabriel Gudmundsson combined for strong crossing output (high expected assists between them). At the back, Pascal Struijk and James Justin led clearances under pressure.\nUnited: Bruno Fernandes and Casemiro produced 2 key passes each, but chance quality was low. Benjamin Šeško registered 1 shot on target and is a natural target for early crosses. Lisandro Martínez was the most assured defender, while Leny Yoro read play well with multiple interceptions. United’s clear aerial advantage points to set-piece and crossing routes."
+    },
+    {
+      "subtitle": "Tactical outlook for the second half",
+      "text": "United are likely to push the back line higher, increase tempo and funnel play wide to exploit their aerial edge and corner threat. Expect more early crosses towards Šeško and late-box runs from Fernandes. They must also increase ball recoveries high up the pitch (only 1 possession won in the final third), otherwise Leeds’ transitions will continue to open space. Leeds should keep a compact mid-block, springing forward through Tanaka and Aaronson to find Calvert-Lewin and Okafor into channels. With United committing numbers, Leeds can target runs behind the full-backs and second balls around the box."
+    },
+    {
+      "subtitle": "Discipline and corners",
+      "text": "Yellow cards: 1-1 at the break. Corners: United lead 4-2. With United chasing, expect the hosts to add to their corner count and finish ahead. The game state points to a moderate rise in fouls; anticipate 2-3 additional cautions overall, with at least 1 more for United if the press becomes stretched. No strong indicators for a red card at this stage."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Leeds’ chance quality and transition threat remain decisive, and Calvert-Lewin is well placed to convert if similar service continues. United’s late first-half pressure and set-piece profile suggest they can respond, but the next goal likely favours the away side as United open up. Predicted outcome: United to pull one back, but Leeds to score first after the break and close it out."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

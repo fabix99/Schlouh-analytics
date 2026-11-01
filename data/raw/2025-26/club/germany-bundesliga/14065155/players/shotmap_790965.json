@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Ritsu Doan",
+        "slug": "ritsu-doan",
+        "shortName": "R. Doan",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 5680,
+        "gender": "M",
+        "sofascoreId": "doanritsu",
+        "id": 790965,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريتسو دوان",
+            "bn": "রিৎসু দোয়ান",
+            "hi": "रित्सु दोआन"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. دوان",
+            "bn": "আর. দোয়ান",
+            "hi": "आर. दोआन"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.3,
+        "y": 64,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 20.2,
+        "y": 63.4,
+        "z": 0
+      },
+      "xg": 0.018730090931058,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Marvin Schwäbe",
+        "firstName": "",
+        "lastName": "",
+        "slug": "marvin-schwabe",
+        "shortName": "M. Schwäbe",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 342,
+        "gender": "M",
+        "id": 187185,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارفن شوابي",
+            "bn": "মারভিন শোয়াবে",
+            "hi": "मार्विन श्वाबे"
+          },
+          "shortNameTranslation": {
+            "ar": "م. شوابي",
+            "bn": "এম. শোয়েব",
+            "hi": "एम. श्वाबे"
+          }
+        }
+      },
+      "id": 6222106,
+      "time": 38,
+      "timeSeconds": 2252,
+      "draw": {
+        "start": {
+          "x": 64,
+          "y": 21.3
+        },
+        "block": {
+          "x": 63.4,
+          "y": 20.2
+        },
+        "end": {
+          "x": 51.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 448,
+      "periodTimeSeconds": 2252,
+      "incidentType": "shot"
+    }
+  ]
+}

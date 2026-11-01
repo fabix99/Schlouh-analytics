@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Abdulaziz Al-Aliwa",
+        "slug": "abdulaziz-al-aliwa",
+        "shortName": "A. Al-Aliwa",
+        "position": "M",
+        "jerseyNumber": "46",
+        "userCount": 338,
+        "gender": "M",
+        "id": 1067777,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدالعزيز عليوة",
+            "bn": "আব্দুল আজিজ আল-আলিওয়া",
+            "hi": "अब्दुलअज़ीज़ अल-अलीवा"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. عليوة",
+            "bn": "এ. আল-আলিওয়া",
+            "hi": "ए. अल-अलीवा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.4,
+        "y": 65.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.3,
+        "z": 11.4
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 53.1,
+        "z": 0
+      },
+      "xg": 0.11352244764566,
+      "xgot": 0.16506734490395,
+      "goalkeeper": {
+        "name": "Kewin",
+        "slug": "kewin",
+        "shortName": "Kewin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 115,
+        "gender": "M",
+        "id": 865371,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيوين"
+          },
+          "shortNameTranslation": {
+            "ar": "كيوين"
+          }
+        }
+      },
+      "id": 5689924,
+      "time": 11,
+      "timeSeconds": 641,
+      "draw": {
+        "start": {
+          "x": 65.2,
+          "y": 11.4
+        },
+        "block": {
+          "x": 53.1,
+          "y": 1.4
+        },
+        "end": {
+          "x": 48.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.7,
+          "y": 88.6
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2059,
+      "periodTimeSeconds": 641,
+      "incidentType": "shot"
+    }
+  ]
+}

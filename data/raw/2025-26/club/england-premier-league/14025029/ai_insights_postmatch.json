@@ -1,0 +1,199 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 10,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 1,
+    "awayNormaltimeScore": 0,
+    "winningProbability": {
+      "home": 57,
+      "draw": 26,
+      "away": 17
+    },
+    "possibleResultsMatrix": [
+      [
+        0.11374522004755,
+        0.07744606991283,
+        0.026365476028071,
+        0.0059838485195285,
+        0.0010185604955475,
+        0.00013870210513574
+      ],
+      [
+        0.17032529082597,
+        0.11596992274239,
+        0.039480405157851,
+        0.0089603830290288,
+        0.0015252211262631,
+        0.0002076964323032
+      ],
+      [
+        0.12752493987362,
+        0.086828311598083,
+        0.029559534403409,
+        0.0067087647493819,
+        0.0011419545005762,
+        0.00015550523890485
+      ],
+      [
+        0.063653143585455,
+        0.043339718418317,
+        0.014754425993567,
+        0.0033486309916841,
+        0.0005699982596759,
+        7.7619305761763e-05
+      ],
+      [
+        0.023829001756397,
+        0.016224528250131,
+        0.0055234230881833,
+        0.0012535835512231,
+        0.00021338285536088,
+        2.9057332743422e-05
+      ],
+      [
+        0.0071364434524002,
+        0.0048590129617093,
+        0.0016541858083467,
+        0.00037543025165797,
+        6.3905097517809e-05,
+        8.702253418792e-06
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Relegation battle at London Stadium today. West Ham United are 18th (29 points) and Wolverhampton are 20th (17). Sofascore model: home win 57%, draw 26%, away win 17%; chance of ‘both teams to score’ 38%."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "West Ham United have 3 draws in their last 4 (2-2 Leeds, 1-1 Manchester City, 2-2 Brentford) plus a 0-2 loss at Aston Villa; no clean sheet in 4. Wolverhampton are 2-1-2 across 5 (wins v Aston Villa and Liverpool), also without a clean sheet in 3. West Ham’s chance creation spiked v Leeds (xG 3.54), while Wolves often ceded territory and were out-chanced in both Liverpool games."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "The last 2 meetings at Molineux went Wolverhampton’s way (3-2, 3-0). Recent matchups favour the away side (away first to score in 4/5). Despite the open nature of those games, today’s model leans against ‘both teams to score’."
+    },
+    {
+      "subtitle": "Season stats",
+      "text": "West Ham United: 36 scored, 57 conceded; xG 36.37; clean sheets 4; 42% average possession; interceptions per game rank 1; opponents’ big chances 82 (rank 19). Wolverhampton: 24 scored, 54 conceded (20th)."
+    },
+    {
+      "subtitle": "Tactical notes and key players",
+      "text": "Jarrod Bowen (8G, 6A; last 5: 2G, 2A) drives West Ham United’s attack, with Crysencio Summerville drawing 2.1 fouls per game and Tomáš Souček/Konstantinos Mavropanos offering set-piece threat. For Wolverhampton, Mateus Mané starred in the last meeting, Hee-Chan Hwang’s movement is key, and Ladislav Krejčí adds aerial presence; Tolu Arokodare’s finishing trails his xG."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Jarred Gillett averages 4.0 yellow cards and 0.16 reds. West Ham United draw 1.74 yellows per game and commit many fouls, so expect a moderate card count. Corners profile: West Ham United average 5.0 per game and home fixtures often produce higher totals, while Wolverhampton away trend lower; expect totals around average to slightly above."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "Numbers point to West Ham United holding the edge at home. With Sofascore’s 57% home win and 38% ‘both teams to score’, a home win with limited scoring looks most likely, with the draw next. Wolverhampton’s recent head-to-head record suggests a close contest."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "West Ham United",
+      "slug": "west-ham-united",
+      "shortName": "West Ham",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 418698,
+      "nameCode": "WHU",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 37,
+      "teamColors": {
+        "primary": "#66192c",
+        "secondary": "#59b3e4",
+        "text": "#59b3e4"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "وست هام يونايتد",
+          "hi": "वेस्ट हैम यूनाइटेड ऍफ़सी",
+          "ru": "Вест Хэм Юнайтед"
+        },
+        "shortNameTranslation": {
+          "ar": "وست هام",
+          "bn": "ওয়েস্ট হ্যাম",
+          "hi": "वेस्ट हैम"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Jarrod Bowen",
+      "firstName": "Jarrod",
+      "lastName": "Bowen",
+      "slug": "jarrod-bowen",
+      "shortName": "J. Bowen",
+      "position": "M",
+      "jerseyNumber": "20",
+      "userCount": 9328,
+      "gender": "M",
+      "sofascoreId": "gbf-3gi",
+      "id": 552884,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "جارود بوين",
+          "bn": "জারড বোয়েন",
+          "hi": "जारोड बोवेन",
+          "ru": "Джаррод Боун"
+        },
+        "shortNameTranslation": {
+          "ar": "ج. بوين",
+          "bn": "জে. বোয়েন",
+          "hi": "जे. बोवेन",
+          "ru": "Д. Боун"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 2,
+    "awayNormaltimeScore": 0
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context and half-time overview",
+      "text": "West Ham United lead 1-0 at the interval at London Stadium after Konstantinos Mavropanos headed in on 42 minutes. The half was competitive in possession (49-51), but West Ham produced the clearer chances and finished the period stronger. Wolverhampton carried some threat in transitions but lacked a decisive final action."
+    },
+    {
+      "subtitle": "Key statistics",
+      "text": "Shots on target: 4-1 West Ham. Big chances: 2-0 West Ham. Expected goals: 0.62-0.31 West Ham. Final-third entries: 24-16 West Ham. Penalty-area entries: 15-13 West Ham. Corners: 2-0 West Ham. Duels won: 46%-54% in Wolverhampton's favour. Aerial duels: 46%-54% in Wolverhampton's favour."
+    },
+    {
+      "subtitle": "Tactical observations",
+      "text": "West Ham's best moments came when they advanced quickly to wide areas and attacked early crosses, which also set up their set-piece threat. Jarrod Bowen drifted intelligently to create and assisted the opener, while Crysencio Summerville found space between lines but missed a big chance. Tomáš Souček supported second balls, helping West Ham pin Wolverhampton back late in the half. Wolverhampton were compact centrally, with João Gomes breaking up play (3 tackles) and Jackson Tchatchoua providing forward outlets from the right. However, the away side struggled to commit enough bodies into the box to convert entries into high-quality shots."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "Wolverhampton began on the front foot with the early initiative. The game then swung towards West Ham from around the mid-half, with their most sustained spell arriving before the break and culminating in the goal. Wolverhampton had a brief resurgence just after the half-hour, but West Ham finished the half in control."
+    },
+    {
+      "subtitle": "Player notes",
+      "text": "Konstantinos Mavropanos stood out at both ends (goal, 3 clearances). Jarrod Bowen delivered an assist and posed the most consistent threat from the right. Crysencio Summerville was active between lines but failed to convert a big chance. For Wolverhampton, Adam Armstrong registered their only shot on target, while Ladislav Krejčí read play well (2 interceptions) and João Gomes set the defensive tone in midfield."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Bookings at half-time: West Ham 1 (Mateus Fernandes), Wolverhampton 2 (Jean-Ricner Bellegarde, Yerson Mosquera). Corners: 2-0 West Ham. With Wolverhampton trailing and already on 2 cautions, an increase in away-side pressure may bring more corners and the risk of further cards if challenges remain late."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "West Ham can consolidate by keeping a mid-block, funnelling play wide and targeting quick transitions through Bowen and Summerville. Set pieces remain a key route given their first-half success and Wolverhampton's fouls in advanced areas. Wolverhampton need faster ball circulation into the channels, earlier crosses and more runners beyond Armstrong to turn territory into clear chances. Introducing an additional forward runner or pushing a midfielder higher could help them match West Ham's penalty-area presence."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "The underlying numbers favour West Ham at the break (chances 2-0, xG edge, superior entries), and their late-half control suggests they can strike again. Prediction: West Ham to score the next goal and close out a 2-0 win, with Bowen the most likely home scorer after the interval."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

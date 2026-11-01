@@ -1,0 +1,93 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Alfonso Espino",
+        "slug": "alfonso-espino",
+        "shortName": "A. Espino",
+        "position": "D",
+        "jerseyNumber": "22",
+        "userCount": 666,
+        "gender": "M",
+        "id": 542634,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألفونسو إسبينو",
+            "bn": "আলফোনসো এস্পিনো",
+            "hi": "अल्फोंसो एस्पिनो"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. إسبينو",
+            "bn": "এ. এস্পিনো",
+            "hi": "ए. एस्पिनो"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 22.9,
+        "y": 26.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 31.6,
+        "z": 4.2
+      },
+      "blockCoordinates": {
+        "x": 11,
+        "y": 43.9,
+        "z": 0
+      },
+      "xg": 0.015860611572862,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Dominik Takáč",
+        "slug": "dominik-takac",
+        "shortName": "D. Takáč",
+        "position": "G",
+        "jerseyNumber": "71",
+        "userCount": 238,
+        "gender": "M",
+        "id": 886365,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دومينيك تاكاش"
+          },
+          "shortNameTranslation": {
+            "ar": "د. تاكاش"
+          }
+        }
+      },
+      "id": 6257282,
+      "time": 22,
+      "timeSeconds": 1308,
+      "draw": {
+        "start": {
+          "x": 26.5,
+          "y": 22.9
+        },
+        "block": {
+          "x": 43.9,
+          "y": 11
+        },
+        "end": {
+          "x": 68.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 68.4,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1392,
+      "periodTimeSeconds": 1308,
+      "incidentType": "shot"
+    }
+  ]
+}

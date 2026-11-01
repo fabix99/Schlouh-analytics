@@ -1,0 +1,94 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Theo Hernández",
+        "slug": "theo-hernandez",
+        "shortName": "T. Hernández",
+        "position": "D",
+        "jerseyNumber": "19",
+        "userCount": 26176,
+        "gender": "M",
+        "sofascoreId": "TheoHdez",
+        "id": 788027,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ثيو هيرنانديز",
+            "bn": "থিও হার্নান্দেজ",
+            "hi": "थियो हर्नांडेज़"
+          },
+          "shortNameTranslation": {
+            "ar": "ث. هيرنانديز",
+            "bn": "টি. হার্নান্দেজ",
+            "hi": "टी. हर्नांडेज़"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.9,
+        "y": 28.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.4,
+        "y": 35,
+        "z": 0
+      },
+      "xg": 0.019440751522779,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Hamed Abdullah Yousef",
+        "slug": "abdullah-yousef-hamed",
+        "shortName": "H. A. Yousef",
+        "position": "G",
+        "jerseyNumber": "47",
+        "userCount": 774,
+        "gender": "M",
+        "id": 1857290,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدالله يوسف، حامد"
+          },
+          "shortNameTranslation": {
+            "ar": "ح. عبدالله يوسف"
+          }
+        }
+      },
+      "id": 6014690,
+      "time": 9,
+      "timeSeconds": 498,
+      "draw": {
+        "start": {
+          "x": 28.2,
+          "y": 21.9
+        },
+        "block": {
+          "x": 35,
+          "y": 15.4
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2202,
+      "periodTimeSeconds": 498,
+      "incidentType": "shot"
+    }
+  ]
+}

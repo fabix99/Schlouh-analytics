@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Federico Gatti",
+        "firstName": "Federico Gatti",
+        "lastName": "",
+        "slug": "federico-gatti",
+        "shortName": "F. Gatti",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 5066,
+        "gender": "M",
+        "sofascoreId": "FedericoGatti",
+        "id": 1128063,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيديريكو غاتي",
+            "bn": "ফেদেরিকো গাট্টি",
+            "hi": "फेडेरिको गट्टी"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غاتي",
+            "bn": "এফ. গাট্টি",
+            "hi": "एफ. गट्टी"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 8.6,
+        "y": 58.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 62.5,
+        "z": 15.3
+      },
+      "blockCoordinates": {
+        "x": 3.6,
+        "y": 46.6,
+        "z": 0
+      },
+      "xg": 0.033897984772921,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Alberto Paleari",
+        "slug": "alberto-paleari",
+        "shortName": "A. Paleari",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 380,
+        "gender": "M",
+        "id": 259281,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألبرتو باليري",
+            "bn": "আলবার্তো পালিয়ারি",
+            "hi": "अल्बर्टो पलेरी"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باليري",
+            "bn": "এ. পালিয়ারি",
+            "hi": "ए. पलेरी"
+          }
+        }
+      },
+      "id": 6134728,
+      "time": 77,
+      "timeSeconds": 4616,
+      "draw": {
+        "start": {
+          "x": 58.2,
+          "y": 8.6
+        },
+        "block": {
+          "x": 46.6,
+          "y": 3.6
+        },
+        "end": {
+          "x": 37.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 37.5,
+          "y": 84.7
+        }
+      },
+      "reversedPeriodTime": 14,
+      "reversedPeriodTimeSeconds": 784,
+      "periodTimeSeconds": 1916,
+      "incidentType": "shot"
+    }
+  ]
+}

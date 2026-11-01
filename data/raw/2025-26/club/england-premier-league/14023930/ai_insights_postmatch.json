@@ -1,0 +1,191 @@
+{
+  "predictions": {
+    "yellowCards": 4,
+    "corners": 12,
+    "bothTeamsToScore": false,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 1,
+    "winningProbability": {
+      "home": 23,
+      "draw": 28,
+      "away": 49
+    },
+    "possibleResultsMatrix": [
+      [
+        0.1167295142165,
+        0.15563550230716,
+        0.10375443494726,
+        0.046111941519956,
+        0.015370266956449,
+        0.0040986364663959
+      ],
+      [
+        0.095406569507909,
+        0.12720561263732,
+        0.084801644005733,
+        0.037688687246731,
+        0.01256258498614,
+        0.0033499397949485
+      ],
+      [
+        0.038989340298227,
+        0.051984501114986,
+        0.03465547679832,
+        0.015402053129417,
+        0.0051338907118907,
+        0.0013690036578979
+      ],
+      [
+        0.010622389804893,
+        0.014162836058075,
+        0.0094416571455281,
+        0.0041961882628668,
+        0.0013986948212074,
+        0.00037297605928402
+      ],
+      [
+        0.0021705002759221,
+        0.0028939287802949,
+        0.001929238129643,
+        0.00085741795863847,
+        0.00028579891635713,
+        7.6211159113686e-05
+      ],
+      [
+        0.00035480313069346,
+        0.00047305913878141,
+        0.00031536495795179,
+        0.00014015873640398,
+        4.6718423119863e-05,
+        1.2457937991197e-05
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "subtitle": "Match context",
+      "text": "Everton face Manchester City at Hill Dickinson Stadium, Liverpool. The table says Everton are 11th (47 points) and City are 2nd (70). Sofascore model: home win 23%, draw 28%, away win 49%; both teams to score 41%."
+    },
+    {
+      "subtitle": "Current form",
+      "text": "Everton’s last 5: 1-1-3, and they are without a clean sheet in 3. City’s last 5: 5 wins, with strong chance creation across those matches. Team streaks back this trend: City 6 straight wins; Everton no wins in 3."
+    },
+    {
+      "subtitle": "Head-to-head",
+      "text": "City won the last 2 meetings 2-0, controlling possession (67–71%) and xG (2.04–2.38 vs 0.81–0.91). Head-to-head streaks: City unbeaten in 18 vs Everton; Everton have not kept a clean sheet in 18 vs City. Recent matchups have generally been tight."
+    },
+    {
+      "subtitle": "Tactical notes and key players",
+      "text": "Everton play with low possession (43.9%) but defend well: 41 conceded (3rd fewest), 11 clean sheets, and strong duel numbers, with set-piece and aerial strength. Form threats: Kiernan Dewsbury-Hall (8G, 4A), James Garner (6A), and recent form from Beto (last 5: 4G, 1A). City’s edge comes from Erling Haaland (24 league goals), Phil Foden’s consistent displays vs Everton, plus Jeremy Doku’s 1st-ranked dribbling and Rayan Cherki’s chance creation; City’s scoring is weighted towards the second half."
+    },
+    {
+      "subtitle": "Referee, cards and corners",
+      "text": "Referee Michael Oliver averages 3.5 yellow cards and 0.14 reds per match. Everton average 1.82 yellows per match this season. Corners trend high on City’s side (last 5: 10, 11, 8, 12, 4), while Everton’s recent average is lower (about 2.8); the away side have seen high-corner games frequently. Expect moderate cards and a higher corner count led by City."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "City’s form and head-to-head dominance point to an away win, though Everton’s defensive metrics suggest a close game. With the model showing only 41% for both teams to score, the away side look favoured in a controlled, narrow result."
+    }
+  ],
+  "halftimePredictions": {
+    "nextTeamToScore": {
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "shortName": "Man City",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 4156055,
+      "nameCode": "MCI",
+      "disabled": false,
+      "national": false,
+      "type": 0,
+      "id": 17,
+      "teamColors": {
+        "primary": "#66ccff",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مانشستر سيتي",
+          "hi": "मेनचेस्टर सिटी ऍफ़सी",
+          "ru": "Манчестер Сити"
+        },
+        "shortNameTranslation": {
+          "ar": "مانشستر سيتي",
+          "bn": "ম্যান সিটি",
+          "hi": "मैन सिटी"
+        }
+      }
+    },
+    "playerToScore": {
+      "name": "Erling Haaland",
+      "firstName": "Erling",
+      "lastName": "Haaland",
+      "slug": "erling-haaland",
+      "shortName": "E. Haaland",
+      "position": "F",
+      "jerseyNumber": "9",
+      "userCount": 1086522,
+      "gender": "M",
+      "sofascoreId": "ghm-8ni",
+      "id": 839956,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إيرلينغ هالاند",
+          "bn": "এরলিং হালান্ড",
+          "hi": "एर्लिंग हालैंड",
+          "ru": "Эрлинг Холанд"
+        },
+        "shortNameTranslation": {
+          "ar": "إ. هالاند",
+          "bn": "ই. হালান্ড",
+          "hi": "ई. हालैंड",
+          "ru": "Э. Холанд"
+        }
+      }
+    },
+    "secondHalfOverOneAndAHalfGoals": false,
+    "homeNormaltimeScore": 0,
+    "awayNormaltimeScore": 2
+  },
+  "halftimeSections": [
+    {
+      "subtitle": "Match context",
+      "text": "Manchester City lead Everton 1-0 at the break at Hill Dickinson Stadium after Jérémy Doku’s left‑foot finish on 43'. City have controlled the tempo and territory, while Everton have defended deep and looked for transitions. The numbers underline the pattern: possession 76-24 to City, expected goals 0.75-0.22 to City, shots on target 2-0, corners 6-2, final third entries 34-14, penalty area entries 21-9. Everton’s defensive workload has been high and their attacking moments have been isolated."
+    },
+    {
+      "subtitle": "Attack momentum",
+      "text": "City started on the front foot and sustained pressure for most of the half. Everton produced brief counter-spells around the middle of the half before City reasserted control. The visitors finished strongly, and their late surge led to the breakthrough. Everton had a short attacking spell just before half-time but without clear chances."
+    },
+    {
+      "subtitle": "Tactical overview and adjustments",
+      "text": "Everton have stayed compact and direct, aiming early into Beto and working off second balls, but with only 2 recoveries in the final third they have struggled to pin City back. Winning just 42% of duels has also limited their ability to break. They need quicker switches into wide areas, earlier crosses, and more aggressive set-piece delivery to trouble City’s back line. City have used width effectively through Doku, with Rayan Cherki linking between the lines and Nico O’Reilly arriving into the box. Maintaining overloads in the half-spaces and attacking cut-backs should continue to create chances. If Everton push higher after the restart, City can exploit the space with direct runs in behind."
+    },
+    {
+      "subtitle": "Individual performances",
+      "text": "Doku has been the standout with the opener and consistent one‑v‑one threat (high involvement and an 8.5 rating). Cherki supplied the assist and tested the goalkeeper. O’Reilly has posted the most dangerous non‑penalty shot profile for City in the half. At the back, Marc Guéhi and Abdukodir Khusanov have dealt well with aerial balls. For Everton, James Tarkowski has led the defensive line solidly, while James Garner has been one of the few to progress play under pressure. Michael Keane’s first‑half booking could become a factor in his duels against Doku."
+    },
+    {
+      "subtitle": "Discipline and set pieces",
+      "text": "Cards: Everton 1 yellow (Michael Keane); Manchester City 0. Corners: Manchester City 6, Everton 2. Expect City to remain ahead on corners given territory. With Everton set to defend higher and more aggressively to chase the game, the likelihood of at least one further home booking is elevated. Set pieces look important for Everton as a route back, while City’s corner volume keeps them dangerous from second phases."
+    },
+    {
+      "subtitle": "Second-half outlook",
+      "text": "City are well placed to manage the game and target a second goal, especially if Everton commit more bodies forward. Space should open for direct runs and quick combinations around the box. Everton need to increase the speed of their transitions, improve delivery quality, and draw more fouls in advanced areas to create set‑piece opportunities."
+    },
+    {
+      "subtitle": "Match prediction",
+      "text": "City to score next and close the game out. Expected final outcome: Everton 0-2 Manchester City, with one additional goal after the interval and limited clear chances for the hosts."
+    }
+  ],
+  "sport": {
+    "id": 1,
+    "slug": "football",
+    "name": "Football"
+  }
+}

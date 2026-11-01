@@ -1,0 +1,182 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Tomás Araújo",
+        "slug": "tomas-araujo",
+        "shortName": "T. Araújo",
+        "position": "D",
+        "jerseyNumber": "44",
+        "userCount": 2816,
+        "gender": "M",
+        "id": 983542,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توماس أراوجو",
+            "bn": "টমাস আরাউহো",
+            "hi": "टॉमस अराउजो"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. أراوجو",
+            "bn": "টি. আরাউহো",
+            "hi": "टी. अराउजो"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "own",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 8.5,
+        "y": 46.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.9,
+        "z": 32.9
+      },
+      "goalkeeper": {
+        "name": "Anatoliy Trubin",
+        "slug": "anatoliy-trubin",
+        "shortName": "A. Trubin",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9723,
+        "gender": "M",
+        "sofascoreId": "anatoliytrubin81",
+        "id": 966616,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أناتولي تروبين",
+            "bn": "আনাতোলি ট্রুবিন",
+            "hi": "अनातोली ट्रुबिन"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. تروبين",
+            "bn": "এ. ট্রুবিন",
+            "hi": "ए. ट्रुबिन"
+          }
+        }
+      },
+      "id": 6149550,
+      "time": 65,
+      "timeSeconds": 3888,
+      "draw": {
+        "start": {
+          "x": 46.6,
+          "y": 8.5
+        },
+        "end": {
+          "x": 46.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.1,
+          "y": 67.1
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1512,
+      "periodTimeSeconds": 1188,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Tomás Araújo",
+        "slug": "tomas-araujo",
+        "shortName": "T. Araújo",
+        "position": "D",
+        "jerseyNumber": "44",
+        "userCount": 2816,
+        "gender": "M",
+        "id": 983542,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توماس أراوجو",
+            "bn": "টমাস আরাউহো",
+            "hi": "टॉमस अराउजो"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. أراوجو",
+            "bn": "টি. আরাউহো",
+            "hi": "टी. अराउजो"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 15,
+        "y": 37.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.2,
+        "y": 38.8,
+        "z": 0
+      },
+      "xg": 0.020314015448093,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Patrick Sequeira",
+        "slug": "patrick-sequeira",
+        "shortName": "P. Sequeira",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 963,
+        "gender": "M",
+        "id": 821628,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باتريك سيكويرا",
+            "bn": "প্যাট্রিক সেকুইরা",
+            "hi": "पैट्रिक सेक्वेरा"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. سيكويرا",
+            "bn": "পি. সেকুইরা",
+            "hi": "पी. सेक्वेरा"
+          }
+        }
+      },
+      "id": 6149099,
+      "time": 45,
+      "addedTime": 1,
+      "timeSeconds": 2753,
+      "draw": {
+        "start": {
+          "x": 37.5,
+          "y": 15
+        },
+        "block": {
+          "x": 38.8,
+          "y": 13.2
+        },
+        "end": {
+          "x": 48.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2647,
+      "periodTimeSeconds": 53,
+      "incidentType": "shot"
+    }
+  ]
+}

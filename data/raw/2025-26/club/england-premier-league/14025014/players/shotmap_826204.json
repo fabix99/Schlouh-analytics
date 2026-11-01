@@ -1,0 +1,100 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Boubacar Kamara",
+        "firstName": "",
+        "lastName": "",
+        "slug": "boubacar-kamara",
+        "shortName": "B. Kamara",
+        "position": "M",
+        "jerseyNumber": "44",
+        "userCount": 3392,
+        "gender": "M",
+        "id": 826204,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بوبكر كامارا",
+            "bn": "বউবকার কামারা",
+            "hi": "बौबाकर कामारा"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. كامارا",
+            "bn": "বি.কামারা",
+            "hi": "बी. कामारा"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.6,
+        "y": 64.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.7,
+        "z": 13.3
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 52,
+        "z": 0
+      },
+      "xg": 0.031857628375292,
+      "xgot": 0.043773557990789,
+      "goalkeeper": {
+        "name": "Đorđe Petrović",
+        "slug": "dorde-petrovic",
+        "shortName": "Đ. Petrović",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 8536,
+        "gender": "M",
+        "sofascoreId": "dj.petrovic12",
+        "id": 882604,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوردي بيتروفيتش",
+            "bn": "ডোরে পেট্রোভিচ",
+            "hi": "डोरे पेट्रोविक"
+          },
+          "shortNameTranslation": {
+            "ar": "د. بيتروفيتش",
+            "bn": "ডি. পেট্রোভিচ",
+            "hi": "डी. पेट्रोविक"
+          }
+        }
+      },
+      "id": 6144031,
+      "time": 12,
+      "timeSeconds": 670,
+      "draw": {
+        "start": {
+          "x": 64.6,
+          "y": 20.6
+        },
+        "block": {
+          "x": 52,
+          "y": 1.4
+        },
+        "end": {
+          "x": 52.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.3,
+          "y": 86.7
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2030,
+      "periodTimeSeconds": 670,
+      "incidentType": "shot"
+    }
+  ]
+}
