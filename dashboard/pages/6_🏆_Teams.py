@@ -19,16 +19,12 @@ from dashboard.utils.data import (
     load_team_season_stats,
     load_match_summary,
     load_tactical_profiles,
-    load_match_momentum,
     load_incidents,
     get_team_wdl,
     get_team_last_matches,
     get_similar_teams,
     build_team_narrative,
-    load_managers,
     get_form_xi,
-    get_team_sub_impact,
-    load_manager_career_stats,
     compute_percentiles_zscore,
     get_percentile_zscore,
 )
@@ -76,8 +72,7 @@ st.markdown(
     <div class="page-hero">
         <div class="page-hero-title">🏆 Teams</div>
         <div class="page-hero-sub">
-            Deep-dive team analysis: playing styles, strengths/weaknesses, tactical identity,
-            and match-by-match performance.
+            Team overview, playing style, match log, and league context.
         </div>
     </div>
     """,
@@ -119,8 +114,8 @@ def _render_team_analysis(
     )
 
     # Tabs
-    tab_overview, tab_style, tab_matches, tab_manager, tab_opponent, tab_inspire = st.tabs([
-        "Overview", "Playing Style", "Matches", "Manager", "Opponent Analysis", "League Inspiration",
+    tab_overview, tab_style, tab_matches, tab_opponent, tab_inspire = st.tabs([
+        "Overview", "Playing Style", "Matches", "Opponent Analysis", "League Inspiration",
     ])
 
     with tab_overview:
@@ -131,9 +126,6 @@ def _render_team_analysis(
 
     with tab_matches:
         _render_matches_tab(team_name, team_season, team_comp, team_row, df_matches)
-
-    with tab_manager:
-        _render_manager_tab(team_name, team_season, team_comp)
 
     with tab_opponent:
         _render_opponent_analysis(team_name, team_season, team_comp, df_teams, team_row)
@@ -249,23 +241,6 @@ def _render_team_overview(
     with f3:
         pct = (sh / (fh + sh) * 100) if (fh + sh) > 0 else 0
         st.metric("SH xG %", f"{pct:.0f}%")
-
-    # Substitution impact
-    sub_impact = get_team_sub_impact(team_name, team_season, team_comp)
-    if sub_impact:
-        st.markdown("<div class='section-header'>Substitution Impact</div>", unsafe_allow_html=True)
-        s1, s2, s3, s4 = st.columns(4)
-        with s1:
-            st.metric("Subs Tracked", int(sub_impact.get("n_subs", 0)))
-        with s2:
-            si_rating = sub_impact.get("player_in_rating")
-            st.metric("Avg Sub Rating", f"{si_rating:.2f}" if si_rating is not None else "N/A")
-        with s3:
-            si_goals = sub_impact.get("player_in_goals")
-            st.metric("Avg Sub Goals", f"{si_goals:.2f}" if si_goals is not None else "N/A")
-        with s4:
-            si_mins = sub_impact.get("minutes_after_sub")
-            st.metric("Avg Mins After Sub", f"{si_mins:.0f}" if si_mins is not None else "N/A")
 
     # Last 5 matches
     st.markdown("<div class='section-header'>Last 5 Matches</div>", unsafe_allow_html=True)
@@ -503,9 +478,9 @@ def _render_matches_tab(
         disp["Date"] = pd.to_datetime(disp["Date"], errors="coerce").dt.strftime("%Y-%m-%d")
     st.dataframe(disp, use_container_width=True, hide_index=True)
 
-    # Match fingerprint
+    # Match fingerprint — incidents only (core)
     st.markdown("<div class='section-header'>Match Fingerprint (Select Match)</div>", unsafe_allow_html=True)
-    st.caption("Select a match to see detailed momentum and incident data.")
+    st.caption("Select a match to see incident data.")
     match_options = team_matches.reset_index(drop=True)
     def _match_label(row):
         d = str(row.get(date_col, ""))[:10] if date_col else "?"
@@ -518,36 +493,8 @@ def _render_matches_tab(
     sel_match_idx = st.selectbox("Select match", range(len(match_labels)), format_func=lambda i: match_labels[i], key="fingerprint_match")
     sel_match = match_options.iloc[sel_match_idx]
 
-    # Show momentum if available
     match_id = sel_match.get("match_id")
     if match_id:
-        try:
-            momentum_all = load_match_momentum()
-            momentum_data = momentum_all[momentum_all["match_id"] == match_id] if "match_id" in momentum_all.columns else pd.DataFrame()
-        except Exception:
-            momentum_data = pd.DataFrame()
-        if not momentum_data.empty and "momentum_value" in momentum_data.columns:
-            st.markdown("<div class='section-header'>Match Momentum</div>", unsafe_allow_html=True)
-            fig_mom = go.Figure()
-            fig_mom.add_trace(go.Scatter(
-                x=momentum_data.get("minute", range(len(momentum_data))),
-                y=momentum_data["momentum_value"],
-                mode="lines",
-                fill="tozeroy",
-                line=dict(color=PLAYER_COLORS[0]),
-            ))
-            fig_mom.update_layout(
-                paper_bgcolor="#0D1117",
-                plot_bgcolor="#0D1117",
-                font=dict(color="#E6EDF3"),
-                xaxis=dict(gridcolor="#30363D", title="Minute"),
-                yaxis=dict(gridcolor="#30363D", title="Momentum"),
-                margin=dict(l=40, r=20, t=30, b=40),
-                height=250,
-            )
-            st.plotly_chart(fig_mom, use_container_width=True)
-
-        # Show incidents
         try:
             incidents_all = load_incidents()
             incidents = incidents_all[incidents_all.get("match_id", pd.Series()) == match_id] if "match_id" in incidents_all.columns else pd.DataFrame()
@@ -559,62 +506,6 @@ def _render_matches_tab(
             st.dataframe(incidents[inc_disp_cols].rename(columns={
                 "time": "Minute", "incidentType": "Type", "player_name": "Player",
             }), use_container_width=True, hide_index=True)
-
-
-def _render_manager_tab(team_name: str, team_season: str, team_comp: str) -> None:
-    """Render manager information."""
-    st.markdown("<div class='section-header'>Manager</div>", unsafe_allow_html=True)
-
-    try:
-        managers_all = load_managers()
-        mask = (managers_all.get("team_name", pd.Series()) == team_name) if "team_name" in managers_all.columns else pd.Series(dtype=bool)
-        if "season" in managers_all.columns:
-            mask &= managers_all["season"] == team_season
-        if "competition_slug" in managers_all.columns:
-            mask &= managers_all["competition_slug"] == team_comp
-        managers = managers_all[mask] if not mask.empty else managers_all[managers_all.get("team_name", pd.Series()) == team_name]
-    except Exception:
-        managers = pd.DataFrame()
-
-    if managers.empty:
-        st.info("Manager data not available for this team/season.")
-        return
-
-    manager = managers.iloc[0]
-    manager_col = next((c for c in ["manager_name", "name"] if c in manager.index), None)
-    manager_name = manager.get(manager_col, "Unknown") if manager_col else "Unknown"
-    st.markdown(f"**Manager:** {manager_name}")
-
-    # Manager career stats
-    if manager_name and manager_name != "Unknown":
-        try:
-            career_all = load_manager_career_stats()
-            name_col = next((c for c in ["manager_name", "name"] if c in career_all.columns), None)
-            career_stats = career_all[career_all[name_col] == manager_name].iloc[0] if name_col and not career_all.empty else pd.Series()
-        except Exception:
-            career_stats = pd.Series()
-
-        if not career_stats.empty:
-            st.markdown("<div class='section-header'>Manager Career</div>", unsafe_allow_html=True)
-            c1, c2, c3, c4 = st.columns(4)
-            wins = int(career_stats.get("wins", 0) or 0)
-            draws = int(career_stats.get("draws", 0) or 0)
-            losses = int(career_stats.get("losses", 0) or 0)
-            total = wins + draws + losses
-            with c1:
-                st.metric("Career Wins", wins)
-            with c2:
-                st.metric("Career Draws", draws)
-            with c3:
-                st.metric("Career Losses", losses)
-            with c4:
-                win_pct = wins / total * 100 if total > 0 else 0
-                st.metric("Career Win %", f"{win_pct:.1f}%")
-
-    if len(managers) > 1:
-        with st.expander("Manager History"):
-            hist_cols = [c for c in ["manager_name", "name", "start_date", "end_date", "matches"] if c in managers.columns]
-            st.dataframe(managers[hist_cols], hide_index=True)
 
 
 def _render_opponent_analysis(

@@ -17,10 +17,10 @@ python platform/scripts/init_warehouse.py
 echo "=== 2/5 DLT load ==="
 python platform/pipelines/sofascore_load.py --source platform/fixtures
 
-echo "=== 3/5 dbt build ==="
+echo "=== 3/5 dbt build (fixture core marts) ==="
 (
   cd platform/dbt
-  dbt build --profiles-dir .
+  dbt build --profiles-dir . --vars '{"use_processed_sources": false}'
 )
 
 echo "=== 4/5 validate ==="

@@ -30,10 +30,10 @@ import requests
 
 from config import API_BASE
 
+# Sofascore intermittently 403s browser-like User-Agent/Referer from some networks.
+# Prefer a minimal Accept header; callers can override via SOFASCORE_HTTP_HEADERS JSON if needed.
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Accept": "application/json",
-    "Referer": "https://www.sofascore.com/",
 }
 
 # Retry on these statuses or timeout

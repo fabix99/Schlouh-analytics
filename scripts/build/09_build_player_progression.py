@@ -21,14 +21,15 @@ def main():
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     df = pd.read_parquet(PROCESSED_DIR / "03_player_season_stats.parquet")
     df = df[df["sufficient_minutes"] == True].copy()
-    df = df.sort_values(["player_id", "season"])
+    # Deterministic order when a player has multiple competitions in one season
+    df = df.sort_values(["player_id", "season", "competition_slug"])
 
     available = [c for c in DELTA_STATS if c in df.columns]
     rows = []
     for player_id, g in df.groupby("player_id"):
         if len(g) < 2:
             continue
-        g = g.sort_values("season")
+        g = g.sort_values(["season", "competition_slug"])
         for i in range(len(g) - 1):
             row_from = g.iloc[i]
             row_to = g.iloc[i + 1]

@@ -92,7 +92,16 @@ def main():
     # Difficulty/level: higher xg_against_per_match = tougher league. Rating level: higher avg_rating_league = higher level. Pace: goals_per_match.
     # Normalize each component to 0-1 across all league-seasons, then weighted average, then scale so reference (e.g. Premier League 2024-25) = 1.0.
     ref_slug = "england-premier-league"
-    ref_season = out["season"].dropna().astype(str).max()  # latest season as default reference
+    # Prefer latest season that actually has rating/team signal (skip empty future index seasons)
+    pl = out[out["competition_slug"] == ref_slug].copy()
+    pl_ready = pl[pl["avg_rating_league"].notna()] if "avg_rating_league" in pl.columns else pl
+    if pl_ready.empty:
+        pl_ready = pl[pl["n_teams"].fillna(0) > 0] if "n_teams" in pl.columns else pl
+    ref_season = (
+        pl_ready["season"].dropna().astype(str).max()
+        if not pl_ready.empty
+        else out["season"].dropna().astype(str).max()
+    )
 
     for col in ["xg_against_per_match", "avg_rating_league", "goals_per_match"]:
         if col not in out.columns:

@@ -53,6 +53,9 @@ data/derived/players/
 data/warehouse/*.duckdb
 data/warehouse/*.duckdb.wal
 platform/.dlt/
+platform/live_source/
+platform/dbt/profiles.e2e.yml
+platform/dbt/.user.yml
 # dbt artifacts
 platform/dbt/target/
 platform/dbt/dbt_packages/

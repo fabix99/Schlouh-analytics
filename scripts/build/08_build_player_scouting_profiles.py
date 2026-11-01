@@ -1,6 +1,10 @@
 """
 Step 8: One row per player — latest season, career, rolling form (window=10), top percentile highlights.
 Output: data/processed/08_player_scouting_profiles.parquet
+
+Deprecated for the platform path: dbt model mart_player_scouting_profiles owns the
+serving grain (season stats + players). This script keeps the richer percentile /
+rolling-form enrichment for parquet-only rebuilds.
 """
 
 import sys

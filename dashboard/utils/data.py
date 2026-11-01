@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 import pathlib
 import time
 from typing import Any, List, Optional
@@ -16,6 +17,24 @@ logger = logging.getLogger(__name__)
 
 from dashboard.utils.percentiles import get_percentile_zscore
 from dashboard.utils.paths import PROJECT_ROOT
+
+# Cache TTL in seconds; set STREAMLIT_CACHE_TTL (e.g. 0 for dev, 3600 for prod)
+_CACHE_TTL = int(os.environ.get("STREAMLIT_CACHE_TTL", "3600"))
+
+# Path to pipeline metadata (written by scripts/run_pipeline.py on success)
+_PIPELINE_METADATA_PATH = PROJECT_ROOT / "data" / "index" / "latest_successful_run.json"
+
+
+def get_pipeline_last_run_utc() -> Optional[str]:
+    """Return the ended_utc of the last successful pipeline run, or None if file missing/invalid."""
+    if not _PIPELINE_METADATA_PATH.exists():
+        return None
+    try:
+        with open(_PIPELINE_METADATA_PATH, encoding="utf-8") as f:
+            data = json.load(f)
+        return data.get("ended_utc")
+    except (json.JSONDecodeError, OSError):
+        return None
 
 
 # ---------------------------------------------------------------------------
@@ -92,27 +111,84 @@ def format_minutes(value) -> str:
 
 # ---------------------------------------------------------------------------
 # Raw loaders (all cached)
+# Canonical path: DuckDB dbt marts only (DLT → DuckDB → dbt → Streamlit).
+# Set SCHLOUH_USE_WAREHOUSE=0 to force parquet (dev/offline).
+# Set SCHLOUH_ALLOW_PARQUET_FALLBACK=1 to allow parquet if a mart read fails.
 # ---------------------------------------------------------------------------
 
-@st.cache_data(show_spinner=False, ttl=3600)
+def _read_mart_or_parquet(mart_name: str, parquet_rel: str) -> pd.DataFrame:
+    """Read analytics_marts.<mart_name> from DuckDB. Parquet only when explicitly allowed."""
+    use_wh = os.environ.get("SCHLOUH_USE_WAREHOUSE", "1") != "0"
+    allow_fallback = os.environ.get("SCHLOUH_ALLOW_PARQUET_FALLBACK", "0") == "1"
+    parquet_path = PROJECT_ROOT / parquet_rel
+
+    if not use_wh:
+        return pd.read_parquet(parquet_path)
+
+    from dashboard.utils.warehouse import read_mart, warehouse_available, warehouse_path
+
+    if not warehouse_available():
+        if allow_fallback and parquet_path.exists():
+            logger.warning(
+                "warehouse missing (%s); reading %s", warehouse_path(), parquet_rel
+            )
+            return pd.read_parquet(parquet_path)
+        raise FileNotFoundError(
+            f"Warehouse not found: {warehouse_path()}. "
+            "Run: bash platform/scripts/run_platform_full.sh "
+            "(or set SCHLOUH_ALLOW_PARQUET_FALLBACK=1 / SCHLOUH_USE_WAREHOUSE=0)."
+        )
+
+    try:
+        return read_mart(mart_name)
+    except Exception as e:
+        if allow_fallback and parquet_path.exists():
+            logger.warning(
+                "warehouse mart %s failed (%s); falling back to parquet", mart_name, e
+            )
+            return pd.read_parquet(parquet_path)
+        raise
+
+
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def load_player_season_stats() -> pd.DataFrame:
     """Primary scouting DataFrame: one row per player × season × competition."""
     try:
-        df = pd.read_parquet(PROJECT_ROOT / "data/processed/03_player_season_stats.parquet")
-        return df
+        return _read_mart_or_parquet(
+            "mart_player_season_stats", "data/processed/03_player_season_stats.parquet"
+        )
     except Exception as e:
         logger.warning("load_player_season_stats failed: %s", e)
         return pd.DataFrame()
 
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def load_team_lookup() -> pd.DataFrame:
     """Lightweight lookup: player_id × season × competition_slug → team."""
     try:
-        df = pd.read_parquet(
-            PROJECT_ROOT / "data/derived/player_appearances.parquet",
-            columns=["player_id", "season", "competition_slug", "team"],
-        )
+        use_wh = os.environ.get("SCHLOUH_USE_WAREHOUSE", "1") != "0"
+        allow_fallback = os.environ.get("SCHLOUH_ALLOW_PARQUET_FALLBACK", "0") == "1"
+        df = None
+        if use_wh:
+            try:
+                from dashboard.utils.warehouse import read_raw, warehouse_available
+
+                if warehouse_available():
+                    df = read_raw("player_appearances")
+            except Exception as e:
+                if not allow_fallback:
+                    raise
+                logger.warning("warehouse appearances failed (%s); trying parquet", e)
+        if df is None:
+            df = pd.read_parquet(
+                PROJECT_ROOT / "data/derived/player_appearances.parquet",
+                columns=["player_id", "season", "competition_slug", "team"],
+            )
+        cols = ["player_id", "season", "competition_slug", "team"]
+        missing = [c for c in cols if c not in df.columns]
+        if missing:
+            raise KeyError(f"appearances missing columns: {missing}")
+        df = df[cols]
         lookup = (
             df.groupby(["player_id", "season", "competition_slug"])["team"]
             .agg(lambda x: x.mode().iloc[0] if len(x) > 0 else "Unknown")
@@ -124,7 +200,7 @@ def load_team_lookup() -> pd.DataFrame:
         return pd.DataFrame()
 
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def load_extraction_progress() -> pd.DataFrame:
     try:
         return pd.read_csv(PROJECT_ROOT / "data/index/extraction_progress.csv")
@@ -135,7 +211,7 @@ def load_extraction_progress() -> pd.DataFrame:
         return pd.DataFrame(columns=["competition_slug", "season", "extracted"])
 
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def get_coverage_from_appearances() -> pd.DataFrame:
     """Coverage derived from player_appearances: one row per (competition_slug, season) with match count.
     Use this for Home Data Coverage and Season Availability so they reflect matches that actually feed the app."""
@@ -159,59 +235,90 @@ def get_coverage_from_appearances() -> pd.DataFrame:
         return pd.DataFrame(columns=["competition_slug", "season", "matches"])
 
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def load_players_index() -> pd.DataFrame:
-    return pd.read_csv(PROJECT_ROOT / "data/index/players.csv")
+    """Players index (id, name, etc.). Returns empty DataFrame on missing file or schema error."""
+    try:
+        return pd.read_csv(PROJECT_ROOT / "data/index/players.csv")
+    except (FileNotFoundError, KeyError, Exception) as e:
+        logger.warning("load_players_index failed: %s", e)
+        return pd.DataFrame()
 
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def load_scouting_profiles() -> pd.DataFrame:
-    return pd.read_parquet(PROJECT_ROOT / "data/processed/08_player_scouting_profiles.parquet")
+    """Returns empty DataFrame on missing file or schema error."""
+    try:
+        return _read_mart_or_parquet(
+            "mart_player_scouting_profiles", "data/processed/08_player_scouting_profiles.parquet"
+        )
+    except (FileNotFoundError, KeyError, Exception) as e:
+        logger.warning("load_scouting_profiles failed: %s", e)
+        return pd.DataFrame()
 
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def load_rolling_form() -> pd.DataFrame:
-    return pd.read_parquet(PROJECT_ROOT / "data/processed/07_player_rolling_form.parquet")
-
-
-@st.cache_data(show_spinner=False, ttl=3600)
-def load_incidents() -> pd.DataFrame:
-    return pd.read_parquet(
-        PROJECT_ROOT / "data/derived/player_incidents.parquet",
-        columns=["player_id", "player_name", "incidentType", "incidentClass",
-                 "time", "season", "competition_slug", "match_date_utc"],
+    return _read_mart_or_parquet(
+        "mart_player_rolling_form", "data/processed/07_player_rolling_form.parquet"
     )
 
 
-@st.cache_data(show_spinner=False, ttl=3600)
-def load_career_stats() -> pd.DataFrame:
-    """Per-player career aggregates from 04_player_career_stats.parquet."""
-    return pd.read_parquet(PROJECT_ROOT / "data/processed/04_player_career_stats.parquet")
-
-
-@st.cache_data(show_spinner=False, ttl=3600)
-def load_player_progression() -> pd.DataFrame:
-    """Season-on-season progression deltas from 09_player_progression.parquet."""
-    return pd.read_parquet(PROJECT_ROOT / "data/processed/09_player_progression.parquet")
-
-
-@st.cache_data(show_spinner=False, ttl=3600)
-def load_opponent_context_summary() -> pd.DataFrame:
-    """Player performance vs opponent strength summary from 11_player_opponent_context_summary.parquet."""
-    return pd.read_parquet(PROJECT_ROOT / "data/processed/11_player_opponent_context_summary.parquet")
-
-
-@st.cache_data(show_spinner=False, ttl=3600)
-def load_player_consistency() -> pd.DataFrame:
-    """Player rating consistency metrics from 10_player_consistency.parquet."""
-    return pd.read_parquet(PROJECT_ROOT / "data/processed/10_player_consistency.parquet")
-
-
-@st.cache_data(show_spinner=False, ttl=3600)
-def load_team_season_stats() -> pd.DataFrame:
-    """Team season aggregates from 01_team_season_stats.parquet."""
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
+def load_incidents() -> pd.DataFrame:
+    """Returns empty DataFrame on missing file or missing columns."""
     try:
-        return pd.read_parquet(PROJECT_ROOT / "data/processed/01_team_season_stats.parquet")
+        return pd.read_parquet(
+            PROJECT_ROOT / "data/derived/player_incidents.parquet",
+            columns=["player_id", "player_name", "incidentType", "incidentClass",
+                     "time", "season", "competition_slug", "match_date_utc"],
+        )
+    except (FileNotFoundError, KeyError, Exception) as e:
+        logger.warning("load_incidents failed: %s", e)
+        return pd.DataFrame(columns=["player_id", "player_name", "incidentType", "incidentClass",
+                                     "time", "season", "competition_slug", "match_date_utc"])
+
+
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
+def load_career_stats() -> pd.DataFrame:
+    """Per-player career aggregates from mart / 04_player_career_stats.parquet."""
+    return _read_mart_or_parquet(
+        "mart_player_career_stats", "data/processed/04_player_career_stats.parquet"
+    )
+
+
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
+def load_player_progression() -> pd.DataFrame:
+    """Season-on-season progression deltas from mart / 09_player_progression.parquet."""
+    return _read_mart_or_parquet(
+        "mart_player_progression", "data/processed/09_player_progression.parquet"
+    )
+
+
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
+def load_opponent_context_summary() -> pd.DataFrame:
+    """Player performance vs opponent strength summary."""
+    return _read_mart_or_parquet(
+        "mart_player_opponent_context_summary",
+        "data/processed/11_player_opponent_context_summary.parquet",
+    )
+
+
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
+def load_player_consistency() -> pd.DataFrame:
+    """Player rating consistency metrics."""
+    return _read_mart_or_parquet(
+        "mart_player_consistency", "data/processed/10_player_consistency.parquet"
+    )
+
+
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
+def load_team_season_stats() -> pd.DataFrame:
+    """Team season aggregates."""
+    try:
+        return _read_mart_or_parquet(
+            "mart_team_season_stats", "data/processed/01_team_season_stats.parquet"
+        )
     except Exception as e:
         logger.warning("load_team_season_stats failed: %s", e)
         return pd.DataFrame()
@@ -282,52 +389,15 @@ def get_team_season_selector_options(
     return agg[["team_name", "season", "competition_slug", "label", "competitions", "n_matches"]]
 
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def load_match_summary() -> pd.DataFrame:
-    """Match-level summary from 02_match_summary.parquet."""
+    """Match-level summary from warehouse mart / 02_match_summary.parquet."""
     try:
-        return pd.read_parquet(PROJECT_ROOT / "data/processed/02_match_summary.parquet")
+        return _read_mart_or_parquet(
+            "mart_match_summary", "data/processed/02_match_summary.parquet"
+        )
     except Exception as e:
         logger.warning("load_match_summary failed: %s", e)
-        return pd.DataFrame()
-
-
-@st.cache_data(show_spinner=False, ttl=3600)
-def load_match_best_players() -> pd.DataFrame:
-    """Match best players (player of match, best home/away) from 17_match_best_players.parquet."""
-    try:
-        path = PROJECT_ROOT / "data/processed/17_match_best_players.parquet"
-        if not path.exists():
-            return pd.DataFrame()
-        return pd.read_parquet(path)
-    except Exception as e:
-        logger.warning("load_match_best_players failed: %s", e)
-        return pd.DataFrame()
-
-
-@st.cache_data(show_spinner=False, ttl=3600)
-def load_match_ai_insights() -> pd.DataFrame:
-    """Match AI insights (predictions) from 17_match_ai_insights.parquet."""
-    try:
-        path = PROJECT_ROOT / "data/processed/17_match_ai_insights.parquet"
-        if not path.exists():
-            return pd.DataFrame()
-        return pd.read_parquet(path)
-    except Exception as e:
-        logger.warning("load_match_ai_insights failed: %s", e)
-        return pd.DataFrame()
-
-
-@st.cache_data(show_spinner=False, ttl=3600)
-def load_match_h2h_api() -> pd.DataFrame:
-    """Match H2H from API (home_wins, away_wins, draws) from 17_match_h2h_api.parquet."""
-    try:
-        path = PROJECT_ROOT / "data/processed/17_match_h2h_api.parquet"
-        if not path.exists():
-            return pd.DataFrame()
-        return pd.read_parquet(path)
-    except Exception as e:
-        logger.warning("load_match_h2h_api failed: %s", e)
         return pd.DataFrame()
 
 
@@ -409,76 +479,13 @@ def get_player_heatmap_season(
     return None
 
 
-def get_player_shotmap(match_id: str, player_id: int) -> Optional[dict]:
-    """Load shotmap JSON for a player in a match from raw or from 18_shotmap_events. Returns dict with 'shotmap' key or None."""
-    match_dir = get_raw_match_dir_for_match_id(match_id)
-    if match_dir is not None:
-        path = match_dir / "players" / f"shotmap_{player_id}.json"
-        if path.exists():
-            try:
-                with open(path, encoding="utf-8") as f:
-                    return json.load(f)
-            except (json.JSONDecodeError, OSError):
-                pass
-    try:
-        path = PROJECT_ROOT / "data/processed/18_shotmap_events.parquet"
-        if path.exists():
-            df = pd.read_parquet(path)
-            sub = df[(df["match_id"].astype(str) == str(match_id)) & (df["player_id"] == player_id)]
-            if not sub.empty:
-                return {"shotmap": sub.to_dict("records")}
-    except Exception:
-        pass
-    return None
-
-
-def get_player_rating_breakdown(match_id: str, player_id: int) -> Optional[dict]:
-    """Load rating-breakdown JSON (passes, dribbles, defensive) for a player in a match from raw. Returns dict or None."""
-    match_dir = get_raw_match_dir_for_match_id(match_id)
-    if match_dir is None:
-        return None
-    path = match_dir / "players" / f"rating_breakdown_{player_id}.json"
-    if not path.exists():
-        return None
-    try:
-        with open(path, encoding="utf-8") as f:
-            return json.load(f)
-    except (json.JSONDecodeError, OSError):
-        return None
-
-
-@st.cache_data(show_spinner=False, ttl=3600)
-def load_player_profile_extras() -> pd.DataFrame:
-    """Player profile extras (height, market_value_eur) from 17_player_profile_extras.parquet. One row per player per match; use latest per player for display."""
-    try:
-        path = PROJECT_ROOT / "data/processed/17_player_profile_extras.parquet"
-        if not path.exists():
-            return pd.DataFrame()
-        return pd.read_parquet(path)
-    except Exception:
-        return pd.DataFrame()
-
-
-@st.cache_data(show_spinner=False, ttl=3600)
-def load_player_market_contract() -> pd.DataFrame:
-    """Player market value, salary, contract end from 19_player_market_contract.parquet (Sofascore best-players + Capology). One row per player."""
-    try:
-        path = PROJECT_ROOT / "data/processed/19_player_market_contract.parquet"
-        if not path.exists():
-            return pd.DataFrame()
-        return pd.read_parquet(path)
-    except Exception:
-        return pd.DataFrame()
-
-
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def load_tactical_profiles() -> pd.DataFrame:
-    """Team tactical profiles from 15_team_tactical_profiles.parquet. Returns empty DataFrame if missing."""
+    """Team tactical profiles from warehouse mart. Returns empty DataFrame if missing."""
     try:
-        path = PROJECT_ROOT / "data/processed/15_team_tactical_profiles.parquet"
-        if not path.exists():
-            return pd.DataFrame()
-        return pd.read_parquet(path)
+        return _read_mart_or_parquet(
+            "mart_team_tactical_profiles", "data/processed/15_team_tactical_profiles.parquet"
+        )
     except Exception:
         return pd.DataFrame()
 
@@ -582,19 +589,7 @@ def get_team_data_for_fit(
     return (team_row, tactical_row)
 
 
-@st.cache_data(show_spinner=False, ttl=3600)
-def load_managers() -> pd.DataFrame:
-    """Match-level manager records from 14_managers.parquet."""
-    return pd.read_parquet(PROJECT_ROOT / "data/processed/14_managers.parquet")
-
-
-@st.cache_data(show_spinner=False, ttl=3600)
-def load_manager_career_stats() -> pd.DataFrame:
-    """Manager career stats from manager_career_stats.parquet."""
-    return pd.read_parquet(PROJECT_ROOT / "data/processed/manager_career_stats.parquet")
-
-
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def load_player_appearances_slim() -> pd.DataFrame:
     """Slim version of appearances for match-log displays."""
     # Read available columns (be tolerant of missing optional cols)
@@ -612,7 +607,7 @@ def load_player_appearances_slim() -> pd.DataFrame:
     return pf.select(available).to_pandas()
 
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def load_player_appearances_for_teams() -> pd.DataFrame:
     """Appearances subset for team formation analysis."""
     desired_cols = [
@@ -630,7 +625,7 @@ def load_player_appearances_for_teams() -> pd.DataFrame:
 # Enriched scouting DataFrame (primary dataset with team info)
 # ---------------------------------------------------------------------------
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def load_enriched_season_stats() -> pd.DataFrame:
     """Season stats joined with team lookup and league display names."""
     from dashboard.utils.constants import COMP_NAMES, POSITION_NAMES
@@ -677,7 +672,7 @@ def load_enriched_season_stats() -> pd.DataFrame:
 # ---------------------------------------------------------------------------
 
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def compute_percentiles(df: pd.DataFrame, group_cols: list, stat_cols: list) -> pd.DataFrame:
     """
     For each stat in stat_cols, compute within-group percentile rank (0–100).
@@ -695,7 +690,7 @@ def compute_percentiles(df: pd.DataFrame, group_cols: list, stat_cols: list) -> 
     return result
 
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def compute_percentiles_zscore(
     df: pd.DataFrame, group_cols: list, stat_cols: list
 ) -> pd.DataFrame:
@@ -837,7 +832,7 @@ def get_league_avg_stats(
 # Helper: single-player match log from slim appearances
 # ---------------------------------------------------------------------------
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def get_player_match_log(player_id: int, season: str = None) -> pd.DataFrame:
     """Return match log for a player. Cached per player_id + season (M7)."""
     df = load_player_appearances_slim()
@@ -857,7 +852,7 @@ def get_player_match_log(player_id: int, season: str = None) -> pd.DataFrame:
 # Helper: available competitions & seasons (from extraction_progress)
 # ---------------------------------------------------------------------------
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def get_available_comp_seasons() -> pd.DataFrame:
     """Return competition-season pairs that have at least some extracted data."""
     from dashboard.utils.constants import COMP_NAMES
@@ -876,7 +871,7 @@ def get_available_comp_seasons() -> pd.DataFrame:
 # Helper: derive W-D-L for a team from match_summary
 # ---------------------------------------------------------------------------
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def get_team_wdl(team_name: str, season: str, competition_slug: str) -> dict:
     """Return wins, draws, losses for a team in a given season/competition."""
     ms = load_match_summary()
@@ -910,7 +905,7 @@ def get_team_wdl(team_name: str, season: str, competition_slug: str) -> dict:
     return {"W": wins, "D": draws, "L": losses, "matches": wins + draws + losses}
 
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def get_team_last_matches(team_name: str, season: str, competition_slug: str, n: int = 5) -> pd.DataFrame:
     """Return last N matches for a team with result from team perspective."""
     ms = load_match_summary()
@@ -973,7 +968,7 @@ def get_team_form(
     return {"form_string": form_string, "points": points, "W": w, "D": d, "L": l}
 
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def get_team_home_away_summary(
     team_name: str, season: str, competition_slug: str
 ) -> dict:
@@ -1042,7 +1037,7 @@ def get_team_home_away_summary(
     }
 
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def get_head_to_head(
     team_a: str,
     team_b: str,
@@ -1104,7 +1099,7 @@ def validate_tactics_data(team_stats: pd.DataFrame, tactical_profiles: pd.DataFr
     return missing
 
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def get_filtered_teams_tactics(
     season_filter: tuple,
     league_filter: tuple,
@@ -1166,26 +1161,6 @@ def get_tactics_data_refresh_date() -> str | None:
 # Additional raw loaders
 # ---------------------------------------------------------------------------
 
-@st.cache_data(show_spinner=False, ttl=3600)
-def load_match_momentum_summary() -> pd.DataFrame:
-    return pd.read_parquet(PROJECT_ROOT / "data/processed/match_momentum_summary.parquet")
-
-
-@st.cache_data(show_spinner=False, ttl=3600)
-def load_match_momentum() -> pd.DataFrame:
-    return pd.read_parquet(PROJECT_ROOT / "data/processed/13_match_momentum.parquet")
-
-
-@st.cache_data(show_spinner=False, ttl=3600)
-def load_substitution_impact() -> pd.DataFrame:
-    return pd.read_parquet(PROJECT_ROOT / "data/processed/12_substitution_impact.parquet")
-
-
-@st.cache_data(show_spinner=False, ttl=3600)
-def load_peak_age_by_position() -> pd.DataFrame:
-    return pd.read_parquet(PROJECT_ROOT / "data/processed/16_peak_age_by_position.parquet")
-
-
 # ---------------------------------------------------------------------------
 # M8 / C5: Similar players (Euclidean distance on per-90 stats)
 # ---------------------------------------------------------------------------
@@ -1229,7 +1204,7 @@ def _normalize_season(s: str | None) -> str:
         return ""
     return s.replace("/", "-")
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def get_similar_players(
     player_id: int,
     season: str,
@@ -1373,7 +1348,7 @@ def get_similar_players(
 # C5 / T7: Similar teams (Euclidean on tactical indices)
 # ---------------------------------------------------------------------------
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def get_similar_teams(
     team_name: str,
     season: str,
@@ -1581,7 +1556,7 @@ def build_player_narrative_blobs(
 # C6: Form XI — best player per position over last N matches
 # ---------------------------------------------------------------------------
 
-@st.cache_data(show_spinner=False, ttl=3600)
+@st.cache_data(show_spinner=False, ttl=_CACHE_TTL)
 def get_form_xi(
     team_name: str,
     season: str,
@@ -1642,47 +1617,3 @@ def get_form_xi(
             best_xi.append(best)
 
     return pd.DataFrame(best_xi) if best_xi else pd.DataFrame()
-
-
-# ---------------------------------------------------------------------------
-# R6: Substitution impact by team
-# ---------------------------------------------------------------------------
-
-@st.cache_data(show_spinner=False, ttl=3600)
-def get_team_sub_impact(
-    team_name: str,
-    season: str,
-    competition_slug: str,
-) -> dict:
-    """Return average sub impact metrics for a team."""
-    try:
-        df_sub = load_substitution_impact()
-    except Exception:
-        return {}
-
-    # Join sub player_in_id → team via appearances
-    df_app = load_player_appearances_for_teams()
-    team_player_ids = df_app[
-        (df_app["team"] == team_name) &
-        (df_app["season"] == season) &
-        (df_app["competition_slug"] == competition_slug)
-    ]["player_id"].unique()
-
-    sub_cols = df_sub.columns.tolist()
-    player_in_col = "player_in_id" if "player_in_id" in sub_cols else None
-    if not player_in_col:
-        return {}
-
-    team_subs = df_sub[
-        (df_sub[player_in_col].isin(team_player_ids)) &
-        (df_sub.get("season", pd.Series()).eq(season) if "season" in sub_cols else True)
-    ]
-    if team_subs.empty:
-        return {}
-
-    result = {}
-    for col in ["player_in_rating", "player_in_goals", "player_in_xg", "minutes_after_sub"]:
-        if col in team_subs.columns:
-            result[col] = round(team_subs[col].mean(), 2)
-    result["n_subs"] = len(team_subs)
-    return result

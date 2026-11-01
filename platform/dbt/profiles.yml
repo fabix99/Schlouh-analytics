@@ -1,9 +1,13 @@
-# Local / CI profile. Warehouse path relative to this file's directory.
 schlouh_platform:
   target: dev
   outputs:
     dev:
       type: duckdb
       path: "../../data/warehouse/schlouh.duckdb"
+      schema: analytics
+      threads: 4
+    e2e:
+      type: duckdb
+      path: "../../data/warehouse/schlouh_e2e.duckdb"
       schema: analytics
       threads: 4

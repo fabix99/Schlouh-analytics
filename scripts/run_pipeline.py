@@ -75,14 +75,8 @@ STEPS = [
     ("09", "09_player_progression", [sys.executable, str(ROOT / "scripts/build/09_build_player_progression.py")]),
     ("10", "10_player_consistency", [sys.executable, str(ROOT / "scripts/build/10_build_player_consistency.py")]),
     ("11", "11_player_opponent_context", [sys.executable, str(ROOT / "scripts/build/11_build_player_opponent_context.py")]),
-    ("12", "12_substitution_impact", [sys.executable, str(ROOT / "scripts/build/12_build_substitution_impact.py")]),
-    ("13", "13_match_momentum", [sys.executable, str(ROOT / "scripts/build/13_build_match_momentum.py")]),
-    ("14", "14_managers", [sys.executable, str(ROOT / "scripts/build/14_build_managers.py")]),
     ("15", "15_team_tactical_profiles", [sys.executable, str(ROOT / "scripts/build/15_build_team_tactical_profiles.py")]),
-    ("16", "16_player_age_curves", [sys.executable, str(ROOT / "scripts/build/16_build_player_age_curves.py")]),
-    ("17", "17_best_players_and_ai_insights", [sys.executable, str(ROOT / "scripts/build/17_build_best_players.py")]),
     ("18", "18_player_match_maps", [sys.executable, str(ROOT / "scripts/build/18_player_match_maps.py")]),
-    ("19", "19_player_market_contract", [sys.executable, str(ROOT / "scripts/build/19_build_player_market_contract.py")]),
     ("dq", "dq_check", [sys.executable, str(ROOT / "scripts/build/dq_check.py")]),
     ("validate", "validate_data", [sys.executable, str(ROOT / "scripts/validate_data.py")]),
 ]
@@ -96,6 +90,11 @@ def main():
     ap.add_argument("--to-step", default=STEP_IDS[-1], choices=STEP_IDS, help="Last step to run (inclusive)")
     ap.add_argument("--fail-fast", action="store_true", help="Stop on first non-zero exit")
     ap.add_argument("--rebuild-all", action="store_true", help="Run from 'derived' through 'validate' (overrides from/to)")
+    ap.add_argument(
+        "--skip-steps",
+        default="",
+        help="Comma-separated step ids to skip (e.g. 03,08 when dbt owns those marts)",
+    )
     args = ap.parse_args()
 
     from_idx = STEP_IDS.index(args.from_step)
@@ -107,7 +106,10 @@ def main():
         print("Invalid range: from-step must be before or equal to to-step", file=sys.stderr)
         sys.exit(1)
 
-    steps_to_run = STEPS[from_idx : to_idx + 1]
+    skip = {s.strip() for s in args.skip_steps.split(",") if s.strip()}
+    steps_to_run = [s for s in STEPS[from_idx : to_idx + 1] if s[0] not in skip]
+    if skip:
+        print(f"Skipping steps: {', '.join(sorted(skip))}")
     steps_run_str = ",".join(s[0] for s in steps_to_run)
     run_id = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     started_utc = run_id

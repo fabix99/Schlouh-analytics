@@ -2,51 +2,29 @@
 
 ## After a matchday (weekly sync)
 
-When new games have been played (e.g. after the weekend):
-
-1. **Discover** (if you added new competitions or seasons):  
+1. **Discover** (if needed):  
    `python src/discover_matches.py <competition> --seasons 2025-26`
-2. **Extract** new matches for each competition you care about. Include **player maps** so Scouts heatmaps stay up to date:  
-   `python src/extract_batch.py <competition> 2025-26 --extract-player-maps`  
-   (Omit `--extract-player-maps` for a faster run if you don’t need heatmaps.)
-3. **Pipeline** (rebuilds derived + processed, including heatmap parquet at step 18):  
-   `python scripts/run_pipeline.py`
+2. **Extract** new matches (skip existing; never wipe raw):  
+   `python src/extract_batch.py <competition> 2025-26 --extract-player-maps`
+3. **One product refresh:**  
+   `bash platform/scripts/run_platform_full.sh`
 
-If you only need to backfill heatmaps for matches that already have lineups (e.g. after a one-off run without `--extract-player-maps`):  
+Heatmap-only backfill (when lineups already exist):  
 `python scripts/run_player_maps_season_all.py --season 2025-26`  
-then run the pipeline (or at least step 18).
+then run `run_platform_full.sh` (or at least the maps-related build + warehouse refresh).
 
-## Recommended schedule
+## Scheduling
 
-Run the full pipeline after match days so derived and processed data stay up to date.
+Prefer **Airflow** (see `PLAN.md` Phase 1 / Phase 4) over cron.
 
-- **Cron example (daily at 06:00 UTC):**
-  ```cron
-  0 6 * * * /path/to/Sofascore-Scrapping/scripts/run_scheduled_pipeline.sh >> /path/to/logs/pipeline.log 2>&1
-  ```
-- Adjust the hour to match your timezone and when Sofascore data is typically final.
+Until Airflow is the daily driver, run `run_platform_full.sh` manually after matchdays.
 
-## Wrapper script for cron
+## Success / failure signals
 
-Use **`scripts/run_scheduled_pipeline.sh`** so that:
+- Warehouse validation: `python platform/scripts/validate_warehouse_full.py`
+- Pipeline run metadata under `data/index/` when produced by the refresh scripts
+- Sofascore 403 on extract is expected sometimes — do **not** delete data; refresh warehouse from the lake anyway
 
-- Working directory and Python path are set correctly.
-- Stdout/stderr are logged to `data/logs/` (or `SOFASCORE_LOG_DIR`).
-- On failure, an entry is appended to **`data/index/pipeline_failures.log`** (timestamp + last lines of stderr).
-- On success, **`data/index/last_successful_run.txt`** is updated with the ISO timestamp.
+## Data safety
 
-Run it manually to test:
-
-```bash
-./scripts/run_scheduled_pipeline.sh
-```
-
-## Failure notification
-
-- **Simple (default):** Failures are appended to `data/index/pipeline_failures.log`. Monitor this file or tail it in your alerting (e.g. cron job that checks exit code and sends email/Slack).
-- **Optional:** In `run_scheduled_pipeline.sh` you can add a call to a webhook (e.g. Slack) when `$?` is non-zero; see the script’s comments.
-
-## Success heartbeat
-
-- After a successful run, the script writes the current ISO timestamp to **`data/index/last_successful_run.txt`**.
-- You can check data freshness by comparing that timestamp to now (e.g. alert if older than 25 hours).
+See the hard rule in `PLAN.md`: never delete `data/raw` / index to “fix” API issues.

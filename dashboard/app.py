@@ -4,6 +4,7 @@ Single entry point for GitHub + Streamlit Cloud.
 Run: streamlit run dashboard/app.py
 """
 
+import os
 import sys
 import pathlib
 
@@ -13,6 +14,13 @@ if str(_root) not in sys.path:
 
 import streamlit as st
 import pandas as pd
+
+# Optional: wire Sentry when SENTRY_DSN is set (e.g. in production)
+try:
+    from dashboard.utils.monitoring import init_sentry
+    init_sentry(dsn=os.environ.get("SENTRY_DSN"))
+except Exception:
+    pass
 
 from dashboard.utils.data import (
     load_enriched_season_stats,
@@ -53,28 +61,40 @@ st.markdown(
 # Load data
 # ---------------------------------------------------------------------------
 with st.spinner("Loading dataset…"):
-    df = load_enriched_season_stats()
-    cov = get_coverage_from_appearances()
-    avail = get_available_comp_seasons()
-    players_idx = load_players_index()
+    try:
+        df = load_enriched_season_stats()
+        cov = get_coverage_from_appearances()
+        avail = get_available_comp_seasons()
+        players_idx = load_players_index()
+    except Exception as e:
+        st.error("Failed to load data. The data format may be outdated or files missing — please re-run the pipeline.")
+        if st.button("Retry", key="home_retry"):
+            st.cache_data.clear()
+            st.rerun()
+        st.stop()
 
 # ---------------------------------------------------------------------------
-# Top-level KPIs
+# Top-level KPIs (or empty state)
 # ---------------------------------------------------------------------------
-n_players     = df["player_id"].nunique()
-n_seasons     = df["season"].nunique()
-n_leagues     = df["competition_slug"].nunique()
-n_appearances = int(df["appearances"].sum())
-n_goals       = int(df["goals"].sum())
+if df.empty:
+    st.info("No data yet. Run the pipeline (see README: discover → extract → pipeline) or use **Quickstart data** to generate sample data.")
+    st.page_link("pages/8_🔎_Discover.py", label="🔎 Find Players", use_container_width=True)
+    st.markdown("<div class='kpi-accent'></div>", unsafe_allow_html=True)
+else:
+    n_players     = df["player_id"].nunique()
+    n_seasons     = df["season"].nunique()
+    n_leagues     = df["competition_slug"].nunique()
+    n_appearances = int(df["appearances"].sum())
+    n_goals       = int(df["goals"].sum())
 
-c1, c2, c3, c4, c5 = st.columns(5)
-c1.metric("Players",      f"{n_players:,}")
-c2.metric("Leagues",      n_leagues)
-c3.metric("Seasons",      n_seasons)
-c4.metric("Appearances",  f"{n_appearances:,}")
-c5.metric("Goals logged", f"{n_goals:,}")
+    c1, c2, c3, c4, c5 = st.columns(5)
+    c1.metric("Players",      f"{n_players:,}")
+    c2.metric("Leagues",      n_leagues)
+    c3.metric("Seasons",      n_seasons)
+    c4.metric("Appearances",  f"{n_appearances:,}")
+    c5.metric("Goals logged", f"{n_goals:,}")
 
-st.markdown("<div class='kpi-accent'></div>", unsafe_allow_html=True)
+    st.markdown("<div class='kpi-accent'></div>", unsafe_allow_html=True)
 
 # ---------------------------------------------------------------------------
 # Data quality note
@@ -82,9 +102,8 @@ st.markdown("<div class='kpi-accent'></div>", unsafe_allow_html=True)
 with st.expander("ℹ️ Data quality & coverage — what's included and how to use it", expanded=False):
     st.markdown(
         """
-        - **Player & team stats:** All leagues and seasons with match data shown in the table below.
-        - **Match momentum & substitution impact:** Available on Team Analysis where pipeline data exists.
-        - **Rolling form, consistency, big-game, progression:** From derived pipelines; coverage varies by league/season.
+        - **Core product:** Discover, Profile, Compare, Shortlist, and Team Analysis.
+        - **Player stats:** Season stats, percentiles, scouting profiles, form, consistency, career, progression, heatmaps.
         - **Sample reliability:** Use the **Sample: High / Medium / Low** indicator on player profiles.
           Prefer High-sample players for recruitment decisions.
         """
@@ -164,7 +183,7 @@ st.markdown("---")
 st.markdown("<div class='section-header'>🚀 Jump To</div>", unsafe_allow_html=True)
 st.caption("Jump to a section of the app.")
 
-r1, r2, r3 = st.columns(3)
+r1, r2 = st.columns(2)
 with r1:
     st.markdown("**Scouting**")
     st.page_link("pages/8_🔎_Discover.py", label="🔎 Find Players", use_container_width=True)
@@ -172,11 +191,5 @@ with r1:
     st.page_link("pages/3_⚖️_Compare.py", label="⚖️ Compare Players", use_container_width=True)
     st.page_link("pages/4_🎯_Shortlist.py", label="🎯 Shortlist", use_container_width=True)
 with r2:
-    st.markdown("**Teams & Tactics**")
+    st.markdown("**Teams**")
     st.page_link("pages/6_🏆_Teams.py", label="🏆 Team Analysis", use_container_width=True)
-    st.page_link("pages/9_🏟️_Team_Directory.py", label="🏟️ Team Directory", use_container_width=True)
-    st.page_link("pages/11_⚔️_Opponent_Prep.py", label="⚔️ Opponent Prep", use_container_width=True)
-    st.page_link("pages/12_📊_League_Trends.py", label="📊 League Trends", use_container_width=True)
-with r3:
-    st.markdown("**Data**")
-    st.page_link("pages/5_📊_Explore.py", label="📊 Explore Data", use_container_width=True)

@@ -40,7 +40,7 @@ from dashboard.utils.filters import (
     display_filter_summary,
 )
 from dashboard.utils.scope import filter_to_default_scope, CURRENT_SEASON, DEFAULT_COMPETITION_SLUGS
-from dashboard.utils.sidebar import render_sidebar
+from dashboard.utils.page_frame import render_page_frame
 from dashboard.scouts.layout import load_shortlist_from_file, save_shortlist_to_file
 from dashboard.scouts.compare_state import load_scouts_compare_list, save_scouts_compare_list
 
@@ -93,15 +93,8 @@ def _build_filter_summary(config_dict: dict) -> str:
         parts.append(f"{len(teams)} team{'s' if len(teams) != 1 else ''}")
     return " · ".join(parts) if parts else "All filters"
 
-# Page config
-st.set_page_config(
-    page_title="Find Players · Scouts",
-    page_icon="🔎",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
-
-render_sidebar()
+# Page frame (config + sidebar + styles)
+render_page_frame("Find Players · Scouts", "🔎")
 
 # Sync shortlist from file (source of truth)
 st.session_state["shortlist"] = load_shortlist_from_file()
@@ -509,7 +502,11 @@ def aggregate_one_row_per_player(df: pd.DataFrame) -> pd.DataFrame:
     return out
 
 
-@st.cache_data(ttl=3600)
+# Use same cache TTL as dashboard.utils.data (env STREAMLIT_CACHE_TTL)
+_cache_ttl = int(__import__("os").environ.get("STREAMLIT_CACHE_TTL", "3600"))
+
+
+@st.cache_data(ttl=_cache_ttl)
 def _cached_filter_aggregate_percentiles(_df_all: pd.DataFrame, config_key: str) -> tuple:
     """Return (df_filtered, df_agg) keyed by config_key to avoid recomputing percentiles every run."""
     if config_key == "__default__":
@@ -607,6 +604,12 @@ if df_agg.empty:
         st.session_state.discover_view = "filtered"
         st.rerun()
     st.stop()
+
+# Cap table size for performance (sort/pagination on at most DISCOVER_MAX_ROWS)
+DISCOVER_MAX_ROWS = 5000
+discover_total_before_cap = len(df_agg)
+if discover_total_before_cap > DISCOVER_MAX_ROWS:
+    df_agg = df_agg.head(DISCOVER_MAX_ROWS)
 
 if "discover_columns_template" not in st.session_state:
     st.session_state.discover_columns_template = "Default"
@@ -717,6 +720,10 @@ col_template = st.selectbox(
 if col_template != st.session_state.discover_columns_template:
     st.session_state.discover_columns_template = col_template
     st.rerun()
+
+# Cap notice when results were truncated
+if discover_total_before_cap > DISCOVER_MAX_ROWS:
+    st.caption(f"Showing first {DISCOVER_MAX_ROWS:,} of {discover_total_before_cap:,} results. Narrow filters to see others.")
 
 # Sort by: apply to full dataset so pagination shows globally sorted rows
 sortable_cols = list(df_display.columns)
